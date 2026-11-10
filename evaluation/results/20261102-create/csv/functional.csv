@@ -1,0 +1,175 @@
+sketch,category,system,target,expect,passed,detail
+login_02,login,oracle,Log In,validate_required,False,no error
+login_02,login,pipeline,Log In,validate_required,True,error shown
+login_02,login,pipeline_norepair,Log In,validate_required,True,error shown
+login_03,login,oracle,Sign in,validate_required,False,no error
+login_03,login,oracle,Create an account,navigate,False,new page elements=0 jaccard=1.00
+login_03,login,pipeline,Sign in,validate_required,True,error shown
+login_03,login,pipeline,Create an account,navigate,True,new page elements=2 jaccard=0.00
+login_03,login,pipeline_norepair,Sign in,validate_required,True,error shown
+login_03,login,pipeline_norepair,Create an account,navigate,True,new page elements=2 jaccard=0.00
+login_04,login,oracle,Login,validate_required,False,no error
+login_04,login,oracle,Login,validate_format,True,format error shown
+login_04,login,pipeline,Login,validate_required,True,error shown
+login_04,login,pipeline,Login,validate_format,True,format error shown
+login_04,login,pipeline_norepair,Login,validate_required,True,error shown
+login_04,login,pipeline_norepair,Login,validate_format,True,format error shown
+reg_01,registration,oracle,Register,validate_required,False,no error
+reg_01,registration,oracle,Already have an account? Login,navigate,False,new page elements=0 jaccard=1.00
+reg_01,registration,pipeline,Register,validate_required,True,error shown
+reg_01,registration,pipeline,Already have an account? Login,navigate,False,target not found
+reg_01,registration,pipeline_norepair,Register,validate_required,True,error shown
+reg_01,registration,pipeline_norepair,Already have an account? Login,navigate,False,target not found
+reg_02,registration,oracle,Create account,validate_required,False,no error
+reg_02,registration,pipeline,Create account,validate_required,True,error shown
+reg_02,registration,pipeline_norepair,Create account,validate_required,True,error shown
+reg_03,registration,oracle,Sign up,validate_required,False,no error
+reg_03,registration,oracle,Sign up,show_message,False,message not found
+reg_03,registration,pipeline,Sign up,validate_required,True,error shown
+reg_03,registration,pipeline,Sign up,show_message,True,message shown
+reg_03,registration,pipeline_norepair,Sign up,validate_required,True,error shown
+reg_03,registration,pipeline_norepair,Sign up,show_message,True,message shown
+reg_04,registration,oracle,Next,navigate,False,new page elements=0 jaccard=1.00
+reg_04,registration,pipeline,Next,navigate,True,new page elements=2 jaccard=0.00
+reg_04,registration,pipeline_norepair,Next,navigate,True,new page elements=2 jaccard=0.00
+dash_01,dashboard,oracle,Reports,navigate,False,new page elements=0 jaccard=0.00
+dash_01,dashboard,pipeline,Reports,navigate,True,new page elements=2 jaccard=0.00
+dash_01,dashboard,pipeline_norepair,Reports,navigate,True,new page elements=2 jaccard=0.00
+dash_02,dashboard,oracle,Logout,navigate,False,new page elements=0 jaccard=1.00
+dash_02,dashboard,pipeline,Logout,navigate,True,new page elements=2 jaccard=0.00
+dash_02,dashboard,pipeline_norepair,Logout,navigate,True,new page elements=2 jaccard=0.00
+dash_03,dashboard,oracle,Send,navigate,False,new page elements=0 jaccard=0.00
+dash_03,dashboard,pipeline,Send,navigate,True,new page elements=2 jaccard=0.00
+dash_03,dashboard,pipeline_norepair,Send,navigate,True,new page elements=2 jaccard=0.00
+dash_04,dashboard,oracle,Export,show_message,False,message not found
+dash_04,dashboard,oracle,New project,navigate,False,new page elements=0 jaccard=1.00
+dash_04,dashboard,pipeline,Export,show_message,True,message shown
+dash_04,dashboard,pipeline,New project,navigate,True,new page elements=2 jaccard=0.00
+dash_04,dashboard,pipeline_norepair,Export,show_message,True,message shown
+dash_04,dashboard,pipeline_norepair,New project,navigate,True,new page elements=2 jaccard=0.00
+prof_01,profile,oracle,Follow,show_message,False,message not found
+prof_01,profile,oracle,Message,navigate,False,new page elements=0 jaccard=0.00
+prof_01,profile,pipeline,Follow,show_message,True,message shown
+prof_01,profile,pipeline,Message,navigate,True,new page elements=2 jaccard=0.00
+prof_01,profile,pipeline_norepair,Follow,show_message,True,message shown
+prof_01,profile,pipeline_norepair,Message,navigate,True,new page elements=2 jaccard=0.00
+prof_02,profile,oracle,Save,validate_required,False,no error
+prof_02,profile,oracle,Save,show_message,False,message not found
+prof_02,profile,pipeline,Save,validate_required,True,error shown
+prof_02,profile,pipeline,Save,show_message,True,message shown
+prof_02,profile,pipeline_norepair,Save,validate_required,True,error shown
+prof_02,profile,pipeline_norepair,Save,show_message,True,message shown
+prof_03,profile,oracle,Edit profile,navigate,False,new page elements=0 jaccard=0.00
+prof_03,profile,pipeline,Edit profile,navigate,True,new page elements=2 jaccard=0.00
+prof_03,profile,pipeline_norepair,Edit profile,navigate,True,new page elements=2 jaccard=0.00
+prof_04,profile,oracle,Log out,navigate,False,new page elements=0 jaccard=0.00
+prof_04,profile,oracle,My orders,navigate,False,new page elements=0 jaccard=0.00
+prof_04,profile,pipeline,Log out,navigate,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline,My orders,navigate,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline_norepair,Log out,navigate,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline_norepair,My orders,navigate,True,new page elements=2 jaccard=0.00
+shop_01,ecommerce,oracle,Add to cart,show_message,False,message not found
+shop_01,ecommerce,oracle,Cart,navigate,False,new page elements=0 jaccard=1.00
+shop_01,ecommerce,pipeline,Add to cart,show_message,True,message shown
+shop_01,ecommerce,pipeline,Cart,navigate,True,new page elements=2 jaccard=0.00
+shop_01,ecommerce,pipeline_norepair,Add to cart,show_message,True,message shown
+shop_01,ecommerce,pipeline_norepair,Cart,navigate,True,new page elements=2 jaccard=0.00
+shop_02,ecommerce,oracle,Add to cart,show_message,False,message not found
+shop_02,ecommerce,oracle,Buy now,navigate,False,new page elements=0 jaccard=1.00
+shop_02,ecommerce,pipeline,Add to cart,show_message,True,message shown
+shop_02,ecommerce,pipeline,Buy now,navigate,True,new page elements=2 jaccard=0.00
+shop_02,ecommerce,pipeline_norepair,Add to cart,show_message,True,message shown
+shop_02,ecommerce,pipeline_norepair,Buy now,navigate,True,new page elements=2 jaccard=0.00
+shop_03,ecommerce,oracle,Checkout,navigate,False,new page elements=0 jaccard=1.00
+shop_03,ecommerce,pipeline,Checkout,navigate,True,new page elements=2 jaccard=0.00
+shop_03,ecommerce,pipeline_norepair,Checkout,navigate,True,new page elements=2 jaccard=0.00
+shop_04,ecommerce,oracle,Place order,validate_required,False,no error
+shop_04,ecommerce,pipeline,Place order,validate_required,True,error shown
+shop_04,ecommerce,pipeline_norepair,Place order,validate_required,True,error shown
+bank_01,banking,oracle,Transfer,navigate,False,new page elements=0 jaccard=0.00
+bank_01,banking,pipeline,Transfer,navigate,True,new page elements=2 jaccard=0.00
+bank_01,banking,pipeline_norepair,Transfer,navigate,True,new page elements=2 jaccard=0.00
+bank_02,banking,oracle,Send,validate_required,False,no error
+bank_02,banking,pipeline,Send,validate_required,True,error shown
+bank_02,banking,pipeline_norepair,Send,validate_required,True,error shown
+bank_03,banking,oracle,Freeze card,show_message,False,message not found
+bank_03,banking,oracle,View statement,navigate,False,new page elements=0 jaccard=0.00
+bank_03,banking,pipeline,Freeze card,show_message,True,message shown
+bank_03,banking,pipeline,View statement,navigate,True,new page elements=2 jaccard=0.00
+bank_03,banking,pipeline_norepair,Freeze card,show_message,True,message shown
+bank_03,banking,pipeline_norepair,View statement,navigate,True,new page elements=2 jaccard=0.00
+bank_04,banking,oracle,Calculate,validate_required,False,no error
+bank_04,banking,pipeline,Calculate,validate_required,True,error shown
+bank_04,banking,pipeline_norepair,Calculate,validate_required,True,error shown
+book_01,booking,oracle,Search,validate_required,False,no error
+book_01,booking,pipeline,Search,validate_required,True,error shown
+book_01,booking,pipeline_norepair,Search,validate_required,True,error shown
+book_02,booking,oracle,Confirm booking,validate_required,False,no error
+book_02,booking,oracle,Confirm booking,show_message,False,message not found
+book_02,booking,pipeline,Confirm booking,validate_required,True,error shown
+book_02,booking,pipeline,Confirm booking,show_message,True,message shown
+book_02,booking,pipeline_norepair,Confirm booking,validate_required,True,error shown
+book_02,booking,pipeline_norepair,Confirm booking,show_message,True,message shown
+book_03,booking,oracle,Select flight,navigate,False,new page elements=0 jaccard=1.00
+book_03,booking,pipeline,Select flight,navigate,True,new page elements=2 jaccard=0.00
+book_03,booking,pipeline_norepair,Select flight,navigate,True,new page elements=2 jaccard=0.00
+book_04,booking,oracle,Book now,navigate,False,new page elements=0 jaccard=1.00
+book_04,booking,oracle,View venue map,navigate,False,new page elements=0 jaccard=1.00
+book_04,booking,pipeline,Book now,navigate,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline,View venue map,navigate,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline_norepair,Book now,navigate,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline_norepair,View venue map,navigate,True,new page elements=2 jaccard=0.00
+contact_01,contact,oracle,Send,validate_required,False,no error
+contact_01,contact,oracle,Send,validate_format,True,format error shown
+contact_01,contact,pipeline,Send,validate_required,True,error shown
+contact_01,contact,pipeline,Send,validate_format,True,format error shown
+contact_01,contact,pipeline_norepair,Send,validate_required,True,error shown
+contact_01,contact,pipeline_norepair,Send,validate_format,True,format error shown
+contact_02,contact,oracle,Submit,validate_required,False,no error
+contact_02,contact,pipeline,Submit,validate_required,True,error shown
+contact_02,contact,pipeline_norepair,Submit,validate_required,True,error shown
+contact_03,contact,oracle,Submit ticket,validate_required,False,no error
+contact_03,contact,pipeline,Submit ticket,validate_required,True,error shown
+contact_03,contact,pipeline_norepair,Submit ticket,validate_required,True,error shown
+contact_04,contact,oracle,Subscribe,validate_format,True,format error shown
+contact_04,contact,pipeline,Subscribe,validate_format,True,format error shown
+contact_04,contact,pipeline_norepair,Subscribe,validate_format,True,format error shown
+set_01,settings,oracle,Log out,navigate,False,new page elements=0 jaccard=1.00
+set_01,settings,pipeline,Log out,navigate,True,new page elements=2 jaccard=0.00
+set_01,settings,pipeline_norepair,Log out,navigate,True,new page elements=2 jaccard=0.00
+set_02,settings,oracle,Save changes,show_message,False,message not found
+set_02,settings,oracle,Security,navigate,False,new page elements=0 jaccard=1.00
+set_02,settings,pipeline,Save changes,show_message,True,message shown
+set_02,settings,pipeline,Security,navigate,True,new page elements=2 jaccard=0.00
+set_02,settings,pipeline_norepair,Save changes,show_message,True,message shown
+set_02,settings,pipeline_norepair,Security,navigate,True,new page elements=2 jaccard=0.00
+set_03,settings,oracle,Update password,validate_required,False,no error
+set_03,settings,pipeline,Update password,validate_required,True,error shown
+set_03,settings,pipeline_norepair,Update password,validate_required,True,error shown
+set_04,settings,oracle,Save,show_message,False,message not found
+set_04,settings,pipeline,Save,show_message,True,message shown
+set_04,settings,pipeline_norepair,Save,show_message,True,message shown
+land_01,landing,oracle,Try free,navigate,False,new page elements=0 jaccard=0.00
+land_01,landing,oracle,Pricing,navigate,False,new page elements=0 jaccard=0.00
+land_01,landing,pipeline,Try free,navigate,True,new page elements=2 jaccard=0.00
+land_01,landing,pipeline,Pricing,navigate,True,new page elements=2 jaccard=0.00
+land_01,landing,pipeline_norepair,Try free,navigate,True,new page elements=2 jaccard=0.00
+land_01,landing,pipeline_norepair,Pricing,navigate,True,new page elements=2 jaccard=0.00
+land_02,landing,oracle,Join waitlist,validate_format,True,format error shown
+land_02,landing,oracle,Join waitlist,show_message,False,message not found
+land_02,landing,pipeline,Join waitlist,validate_format,True,format error shown
+land_02,landing,pipeline,Join waitlist,show_message,True,message shown
+land_02,landing,pipeline_norepair,Join waitlist,validate_format,True,format error shown
+land_02,landing,pipeline_norepair,Join waitlist,show_message,True,message shown
+land_03,landing,oracle,Download app,show_message,False,message not found
+land_03,landing,oracle,Watch demo,navigate,False,new page elements=0 jaccard=0.00
+land_03,landing,pipeline,Download app,show_message,True,message shown
+land_03,landing,pipeline,Watch demo,navigate,True,new page elements=2 jaccard=0.00
+land_03,landing,pipeline_norepair,Download app,show_message,True,message shown
+land_03,landing,pipeline_norepair,Watch demo,navigate,True,new page elements=2 jaccard=0.00
+land_04,landing,oracle,Choose Pro,show_message,False,message not found
+land_04,landing,oracle,Contact sales,navigate,False,new page elements=0 jaccard=0.00
+land_04,landing,pipeline,Choose Pro,show_message,True,message shown
+land_04,landing,pipeline,Contact sales,navigate,True,new page elements=2 jaccard=0.00
+land_04,landing,pipeline_norepair,Choose Pro,show_message,True,message shown
+land_04,landing,pipeline_norepair,Contact sales,navigate,True,new page elements=2 jaccard=0.00

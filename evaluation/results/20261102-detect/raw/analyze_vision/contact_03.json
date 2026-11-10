@@ -1,0 +1,163 @@
+{
+ "_ok": true,
+ "_wall_ms": 6761.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Support request",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.15,
+     "w": 0.75,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "First name",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.26,
+     "w": 0.33,
+     "h": 0.08
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.26,
+     "w": 0.38,
+     "h": 0.08
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Topic",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.37,
+     "w": 0.74,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Priority",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.46,
+     "w": 0.2,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Low",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.52,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Medium",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.52,
+     "w": 0.13,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "High",
+    "bbox": {
+     "x": 0.65,
+     "y": 0.52,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "textarea",
+    "label": "Describe the issue",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.58,
+     "w": 0.74,
+     "h": 0.18
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Email me a copy",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.79,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Submit ticket",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.85,
+     "w": 0.3,
+     "h": 0.08
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 743,
+  "mode": "vision",
+  "title": "Support request form",
+  "category": "other",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6743,
+   "total_ms": 6761
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

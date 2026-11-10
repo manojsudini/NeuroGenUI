@@ -1,0 +1,107 @@
+{
+ "_ok": true,
+ "_wall_ms": 6078.5,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "FitTrack Landing Page",
+     "children": [
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "Hero image for FitTrack app",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "heading",
+       "label": "FitTrack",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "text",
+       "label": "Track your fitness journey with ease"
+      },
+      {
+       "type": "button",
+       "label": "Download app"
+      },
+      {
+       "type": "button",
+       "label": "Watch demo"
+      },
+      {
+       "type": "container",
+       "label": "Feature icons row",
+       "style": {
+        "align": "center"
+       }
+      },
+      {
+       "type": "icon",
+       "label": "Feature 1",
+       "props": {
+        "alt": "Feature 1 icon"
+       }
+      },
+      {
+       "type": "icon",
+       "label": "Feature 2",
+       "props": {
+        "alt": "Feature 2 icon"
+       }
+      },
+      {
+       "type": "icon",
+       "label": "Feature 3",
+       "props": {
+        "alt": "Feature 3 icon"
+       }
+      }
+     ]
+    },
+    "meta": {
+     "title": "FitTrack Landing Page",
+     "category": "landing"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Download app button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Coming soon",
+       "tone": "info"
+      }
+     ]
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Watch demo button"
+    },
+    "page": {
+     "name": "Demo"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 6078,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"FitTrack Landing Page\",\"props\":{ \"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Hero image for FitTrack app\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"heading\",\"label\":\"FitTrack\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Track your fitness journey with ease\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Download app\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Watch demo\",\"props\":null,\"style\":null},{\"type\":\"container\",\"label\":\"Feature icons row\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null } \t},{\"type\":\"icon\",\"label\":\"Feature 1\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Feature 1 icon\",\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"icon\",\"label\":\"Feature 2\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Feature 2 icon\",\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"icon\",\"label\":\"Feature 3\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Feature 3 icon\",\"photo\":null,\"items\":null},\"style\":null}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"FitTrack Landing Page\",\"category\":\"landing\"},\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Download app button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Coming soon\",\"tone\":\"info\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"Watch demo button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Demo\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

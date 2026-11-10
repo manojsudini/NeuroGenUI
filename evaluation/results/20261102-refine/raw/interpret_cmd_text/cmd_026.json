@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2211.5,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Calculate button",
+     "id": "btn_calculate"
+    },
+    "changes": {
+     "label": "Compute payment"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2210,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"Calculate button\",\"id\":\"btn_calculate\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Compute payment\",\"props\":null,\"style\":null},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

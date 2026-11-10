@@ -1,0 +1,243 @@
+{
+ "_ok": true,
+ "_wall_ms": 8833.8,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Flights to Paris",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1214,
+     "w": 0.286,
+     "h": 0.0875
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sort by",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.13,
+     "w": 0.03,
+     "h": 0.03
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Select flight",
+    "bbox": {
+     "x": 0.064,
+     "y": 0.2536,
+     "w": 0.238,
+     "h": 0.0929
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.885,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Non-stop only",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.2482,
+     "w": 0.191,
+     "h": 0.0732
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.819,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3911,
+     "w": 0.898,
+     "h": 0.1768
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.921,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Select flight",
+    "bbox": {
+     "x": 0.724,
+     "y": 0.4214,
+     "w": 0.184,
+     "h": 0.1071
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.907,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Air France",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.4393,
+     "w": 0.122,
+     "h": 0.0589
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "heading",
+    "label": "$210",
+    "bbox": {
+     "x": 0.553,
+     "y": 0.4375,
+     "w": 0.077,
+     "h": 0.0679
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "08:10-10:25",
+    "bbox": {
+     "x": 0.322,
+     "y": 0.4464,
+     "w": 0.153,
+     "h": 0.0482
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.5839,
+     "w": 0.897,
+     "h": 0.1839
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.923,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Choose",
+    "bbox": {
+     "x": 0.728,
+     "y": 0.6429,
+     "w": 0.17,
+     "h": 0.0857
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.871,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "Lufthansa",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.65,
+     "w": 0.117,
+     "h": 0.0661
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "$185",
+    "bbox": {
+     "x": 0.552,
+     "y": 0.6482,
+     "w": 0.078,
+     "h": 0.0679
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "13:40-16:05",
+    "bbox": {
+     "x": 0.323,
+     "y": 0.6607,
+     "w": 0.151,
+     "h": 0.0446
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "Load more",
+    "bbox": {
+     "x": 0.408,
+     "y": 0.8071,
+     "w": 0.2,
+     "h": 0.0929
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.883,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Flights to Paris",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 2469,
+   "vision_ms": 6161,
+   "total_ms": 8833
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 21
+ }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "contact_04",
+  "category": "contact",
+  "title": "Acme Studio",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('contact_04')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A studio contact page with a header (Acme Studio), three cards for Call, Email and Visit each with an icon and details, and a Newsletter section with an email field and a Subscribe button that checks the email is valid.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.0507,
+        "y": 0.093,
+        "w": 0.8923,
+        "h": 0.1475
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Acme Studio",
+      "bbox": {
+        "x": 0.0687,
+        "y": 0.1251,
+        "w": 0.1625,
+        "h": 0.0832
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0507,
+        "y": 0.2798,
+        "w": 0.2814,
+        "h": 0.3341
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.0727,
+        "y": 0.3191,
+        "w": 0.044,
+        "h": 0.0786
+      },
+      "parent": 2,
+      "props": {
+        "glyph": "phone"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Call",
+      "bbox": {
+        "x": 0.0727,
+        "y": 0.4226,
+        "w": 0.0438,
+        "h": 0.0693
+      },
+      "parent": 2,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "+1 555 0199",
+      "bbox": {
+        "x": 0.0727,
+        "y": 0.5169,
+        "w": 0.1069,
+        "h": 0.0577
+      },
+      "parent": 2
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3561,
+        "y": 0.2798,
+        "w": 0.2814,
+        "h": 0.3341
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.3781,
+        "y": 0.3191,
+        "w": 0.044,
+        "h": 0.0786
+      },
+      "parent": 6,
+      "props": {
+        "glyph": "mail"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Email",
+      "bbox": {
+        "x": 0.3781,
+        "y": 0.4226,
+        "w": 0.0621,
+        "h": 0.0693
+      },
+      "parent": 6,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "hi@acme.studio",
+      "bbox": {
+        "x": 0.3781,
+        "y": 0.5169,
+        "w": 0.1393,
+        "h": 0.0577
+      },
+      "parent": 6
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6616,
+        "y": 0.2798,
+        "w": 0.2814,
+        "h": 0.3341
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.6836,
+        "y": 0.3191,
+        "w": 0.044,
+        "h": 0.0786
+      },
+      "parent": 10,
+      "props": {
+        "glyph": "pin"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Visit",
+      "bbox": {
+        "x": 0.6836,
+        "y": 0.4226,
+        "w": 0.0544,
+        "h": 0.0693
+      },
+      "parent": 10,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "12 Park Lane",
+      "bbox": {
+        "x": 0.6836,
+        "y": 0.5169,
+        "w": 0.1184,
+        "h": 0.0577
+      },
+      "parent": 10
+    },
+    {
+      "type": "heading",
+      "label": "Newsletter",
+      "bbox": {
+        "x": 0.0507,
+        "y": 0.6531,
+        "w": 0.1175,
+        "h": 0.0693
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "input",
+      "label": "Your email",
+      "bbox": {
+        "x": 0.0507,
+        "y": 0.7617,
+        "w": 0.6512,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Subscribe",
+      "bbox": {
+        "x": 0.7259,
+        "y": 0.7617,
+        "w": 0.2171,
+        "h": 0.0964
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Subscribe",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Your email",
+        "format": "email"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Acme Studio",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Call",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Visit",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Newsletter",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Subscribe",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Subscribe",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Your email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

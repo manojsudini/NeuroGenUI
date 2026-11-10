@@ -1,0 +1,29 @@
+{
+ "_ok": true,
+ "_wall_ms": 1892.4,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Need help?",
+     "id": "lnk_need_help"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Contact Your Administrator.",
+       "tone": "info"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1891,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"Need help?\",\"id\":\"lnk_need_help\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Contact Your Administrator.\",\"tone\":\"info\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

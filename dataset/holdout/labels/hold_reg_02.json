@@ -1,0 +1,216 @@
+{
+  "id": "hold_reg_02",
+  "category": "registration",
+  "title": "Student sign up",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_reg_02')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pen",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": -2.13,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 766,
+  "instruction": "A student sign up page with the heading Student sign up, a round profile photo with an Upload a photo link, Full name and School name fields, a Year of study dropdown (1st, 2nd, 3rd, 4th), I am over 13 and Send me study tips checkboxes and a full width Join now button. Join now shows an error if the fields are empty.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Student sign up",
+      "bbox": {
+        "x": 0.3197,
+        "y": 0.0874,
+        "w": 0.3046,
+        "h": 0.1067
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.4157,
+        "y": 0.2058,
+        "w": 0.1205,
+        "h": 0.1555
+      },
+      "parent": null,
+      "props": {
+        "alt": "profile photo",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "link",
+      "label": "Upload a photo",
+      "bbox": {
+        "x": 0.4037,
+        "y": 0.3762,
+        "w": 0.1518,
+        "h": 0.0657
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Full name",
+      "bbox": {
+        "x": 0.2292,
+        "y": 0.4497,
+        "w": 0.507,
+        "h": 0.0864
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "School name",
+      "bbox": {
+        "x": 0.2318,
+        "y": 0.5378,
+        "w": 0.5068,
+        "h": 0.0858
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Year of study",
+      "bbox": {
+        "x": 0.2344,
+        "y": 0.6259,
+        "w": 0.5065,
+        "h": 0.0852
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th"
+        ]
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "I am over 13",
+      "bbox": {
+        "x": 0.2371,
+        "y": 0.7252,
+        "w": 0.1715,
+        "h": 0.0457
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Send me study tips",
+      "bbox": {
+        "x": 0.2389,
+        "y": 0.7826,
+        "w": 0.2479,
+        "h": 0.0481
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Join now",
+      "bbox": {
+        "x": 0.2407,
+        "y": 0.8343,
+        "w": 0.506,
+        "h": 0.0837
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Join now",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Student sign up",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Upload a photo",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Full name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "School name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Year of study",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "I am over 13",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Send me study tips",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Join now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Join now",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

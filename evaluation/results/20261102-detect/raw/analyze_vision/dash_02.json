@@ -1,0 +1,267 @@
+{
+ "_ok": true,
+ "_wall_ms": 8469.1,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.15,
+     "w": 0.2,
+     "h": 0.55
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.15,
+     "w": 0.65,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Menu",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.172,
+     "w": 0.12,
+     "h": 0.038
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.306,
+     "y": 0.17,
+     "w": 0.164,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "Search",
+    "bbox": {
+     "x": 0.47,
+     "y": 0.18,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.63,
+     "y": 0.19,
+     "w": 0.04,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "nav_item",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.23,
+     "w": 0.12,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.28,
+     "w": 0.3,
+     "h": 0.22
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.58,
+     "y": 0.28,
+     "w": 0.35,
+     "h": 0.22
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Analytics",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.29,
+     "w": 0.12,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.292,
+     "y": 0.29,
+     "w": 0.276,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.594,
+     "y": 0.29,
+     "w": 0.322,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "nav_item",
+    "label": "Customers",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.35,
+     "w": 0.12,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.41,
+     "w": 0.12,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.55,
+     "w": 0.65,
+     "h": 0.3
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Tasks",
+    "bbox": {
+     "x": 0.306,
+     "y": 0.57,
+     "w": 0.094,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "Review reports",
+    "bbox": {
+     "x": 0.306,
+     "y": 0.63,
+     "w": 0.294,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "Call supplier",
+    "bbox": {
+     "x": 0.306,
+     "y": 0.69,
+     "w": 0.294,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "Update pricing",
+    "bbox": {
+     "x": 0.306,
+     "y": 0.75,
+     "w": 0.344,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 14
+   }
+  ],
+  "width": 1000,
+  "height": 635,
+  "mode": "vision",
+  "title": "Dashboard Overview",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 8439,
+   "total_ms": 8469
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "book_02",
+  "category": "booking",
+  "title": "Book appointment",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('book_02')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 611,
+  "instruction": "A doctor appointment form titled Book appointment with a Select doctor dropdown, a date field, time slot radio buttons for 9:00, 11:00 and 15:00, a reason for visit text area and a Confirm booking button that shows an error if the date is missing and otherwise shows Appointment booked.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Book appointment",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.1052,
+        "w": 0.2901,
+        "h": 0.0903
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "select",
+      "label": "Select doctor",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.225,
+        "w": 0.5293,
+        "h": 0.0884
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Dr. Rao",
+          "Dr. Mehta",
+          "Dr. Lee"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.3429,
+        "w": 0.5293,
+        "h": 0.0884
+      },
+      "parent": null,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Time slot",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.4607,
+        "w": 0.089,
+        "h": 0.0528
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "9:00",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.543,
+        "w": 0.0794,
+        "h": 0.0524
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "11:00",
+      "bbox": {
+        "x": 0.4403,
+        "y": 0.543,
+        "w": 0.0884,
+        "h": 0.0524
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "15:00",
+      "bbox": {
+        "x": 0.6247,
+        "y": 0.543,
+        "w": 0.0899,
+        "h": 0.0524
+      },
+      "parent": null
+    },
+    {
+      "type": "textarea",
+      "label": "Reason for visit",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.6248,
+        "w": 0.5293,
+        "h": 0.1833
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Confirm booking",
+      "bbox": {
+        "x": 0.2558,
+        "y": 0.8376,
+        "w": 0.5293,
+        "h": 0.0884
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Confirm booking",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Confirm booking",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "booked"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Book appointment",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Select doctor",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Date",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Date",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "9:00",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "11:00",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "15:00",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "textarea",
+      "label_contains": "Reason for visit",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Confirm booking",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Confirm booking",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Confirm booking",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "booked"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+ "_ok": true,
+ "_wall_ms": 5945.2,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Settings",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.18,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.28,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Push notifications",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.38,
+     "w": 0.49,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Email updates",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.46,
+     "w": 0.39,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Dark mode",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.54,
+     "w": 0.39,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.63,
+     "w": 0.6,
+     "h": 0.02
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Privacy policy",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.7,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Log out",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.82,
+     "w": 0.6,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5917,
+   "total_ms": 5945
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

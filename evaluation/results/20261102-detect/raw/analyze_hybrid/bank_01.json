@@ -1,0 +1,175 @@
+{
+ "_ok": true,
+ "_wall_ms": 16746.2,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.0609,
+     "w": 0.529,
+     "h": 0.1523
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.714,
+     "y": 0.1049,
+     "w": 0.042,
+     "h": 0.0778
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.885,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "MyBank",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.1151,
+     "w": 0.111,
+     "h": 0.0728
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Savings account",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.2893,
+     "w": 0.149,
+     "h": 0.0508
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "$12,480.50",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.3773,
+     "w": 0.173,
+     "h": 0.0745
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Transfer",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.5279,
+     "w": 0.165,
+     "h": 0.0863
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.876,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Paybills",
+    "bbox": {
+     "x": 0.426,
+     "y": 0.533,
+     "w": 0.167,
+     "h": 0.0795
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.857,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Deposit",
+    "bbox": {
+     "x": 0.606,
+     "y": 0.533,
+     "w": 0.164,
+     "h": 0.088
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.891,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Transactions",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.6599,
+     "w": 0.142,
+     "h": 0.0541
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.7665,
+     "w": 0.163,
+     "h": 0.1472
+    },
+    "shape": "list",
+    "ocr": false,
+    "confidence": 0.8,
+    "source": "hybrid",
+    "items": [
+     "Rent-$900",
+     "Salary +$3,100",
+     "Netflix-$12"
+    ],
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 591,
+  "mode": "hybrid",
+  "title": "MyBank Savings Account Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 11438,
+   "vision_ms": 4993,
+   "total_ms": 16746
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 16
+ }
+}

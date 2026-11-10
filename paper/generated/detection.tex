@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Component detection (micro-averaged; Hungarian matching, IoU $\geq$ 0.3, correct type)}
+\label{tab:detection}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Detector / output} & \textbf{Precision \%} & \textbf{Recall \%} & \textbf{F1 \%} & \textbf{Type acc. of matched \%} & \textbf{Mean IoU of matched} \\
+\midrule
+analysis: OpenCV only & 40.7 & 45.3 & 42.9 & 52.9 & 0.724 \\
+analysis: Vision LLM only & 32.3 & 34.9 & 33.5 & 69.0 & 0.521 \\
+analysis: Hybrid (CV + vision) & 48.9 & 58.2 & 53.1 & 68.1 & 0.717 \\
+rendered DOM: Proposed (NeuroGenUI) & 40.6 & 45.5 & 42.9 & 82.3 & 0.580 \\
+rendered DOM: Baseline (sketch$\rightarrow$AI$\rightarrow$UI) & 25.9 & 25.3 & 25.6 & 74.1 & 0.580 \\
+rendered DOM: Oracle (GT IR) & 79.0 & 76.1 & 77.5 & 95.5 & 0.692 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

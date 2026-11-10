@@ -1,0 +1,240 @@
+{
+ "_ok": true,
+ "_wall_ms": 6524.8,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "NorthBank",
+    "bbox": {
+     "x": 0.1016,
+     "y": 0.062,
+     "w": 0.0584,
+     "h": 0.005
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "nav_item",
+    "label": "Transfers",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.062,
+     "w": 0.1,
+     "h": 0.005
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "nav_item",
+    "label": "Cards",
+    "bbox": {
+     "x": 0.58,
+     "y": 0.062,
+     "w": 0.07,
+     "h": 0.005
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "nav_item",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.66,
+     "y": 0.062,
+     "w": 0.07,
+     "h": 0.005
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.0564,
+     "w": 0.891,
+     "h": 0.1404
+    },
+    "shape": "rect",
+    "confidence": 0.865,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Accounts",
+    "bbox": {
+     "x": 0.49,
+     "y": 0.1129,
+     "w": 0.102,
+     "h": 0.042
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "heading",
+    "label": "Transfer money",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.2214,
+     "w": 0.297,
+     "h": 0.0666
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "From account",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.3401,
+     "w": 0.848,
+     "h": 0.0941
+    },
+    "shape": "rect",
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.9,
+     "y": 0.3777,
+     "w": 0.02,
+     "h": 0.0188
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Recipient account number",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.437,
+     "w": 0.847,
+     "h": 0.097
+    },
+    "shape": "rect",
+    "confidence": 0.896,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Reference",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.5398,
+     "w": 0.846,
+     "h": 0.097
+    },
+    "shape": "rect",
+    "confidence": 0.877,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Reference",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6324,
+     "w": 0.85,
+     "h": 0.11
+    },
+    "shape": "rect",
+    "confidence": 0.862,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.754,
+     "w": 0.033,
+     "h": 0.0463
+    },
+    "shape": "circle",
+    "confidence": 0.884,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Save recipient",
+    "bbox": {
+     "x": 0.125,
+     "y": 0.7641,
+     "w": 0.143,
+     "h": 0.0333
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.272,
+     "y": 0.8133,
+     "w": 0.157,
+     "h": 0.0955
+    },
+    "shape": "rect",
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.8191,
+     "w": 0.152,
+     "h": 0.0868
+    },
+    "shape": "rect",
+    "confidence": 0.755,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 691,
+  "mode": "hybrid",
+  "title": "Bank transfer form",
+  "category": "banking",
+  "timings": {
+   "cv_ms": 67,
+   "vision_ms": 6445,
+   "total_ms": 6524
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

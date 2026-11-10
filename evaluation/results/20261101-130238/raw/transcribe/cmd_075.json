@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1731.2,
+ "value": {
+  "text": "When cancel is clicked, go to a profile page.",
+  "model": "whisper-1",
+  "duration_ms": 1731
+ }
+}

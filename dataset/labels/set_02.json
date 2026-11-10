@@ -1,0 +1,268 @@
+{
+  "id": "set_02",
+  "category": "settings",
+  "title": "General settings",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('set_02')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A settings page with a sidebar (General, Security, Billing, Notifications) and a General section with display name and email fields, Language (English, Hindi, Telugu) and Time zone dropdowns and a Save changes button. Save changes shows Settings saved and Security opens a Security page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0708,
+        "y": 0.0995,
+        "w": 0.2069,
+        "h": 0.6429
+      },
+      "parent": null
+    },
+    {
+      "type": "nav_item",
+      "label": "General",
+      "bbox": {
+        "x": 0.0888,
+        "y": 0.1352,
+        "w": 0.0808,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Security",
+      "bbox": {
+        "x": 0.0888,
+        "y": 0.2306,
+        "w": 0.0916,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Billing",
+      "bbox": {
+        "x": 0.0888,
+        "y": 0.326,
+        "w": 0.0556,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Notifications",
+      "bbox": {
+        "x": 0.0888,
+        "y": 0.4214,
+        "w": 0.1306,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "General",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.0995,
+        "w": 0.1402,
+        "h": 0.0905
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Display name",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.2186,
+        "w": 0.6206,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.3436,
+        "w": 0.6206,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Language",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.4686,
+        "w": 0.6206,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "English",
+          "Hindi",
+          "Telugu"
+        ]
+      }
+    },
+    {
+      "type": "select",
+      "label": "Time zone",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.5936,
+        "w": 0.6206,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "IST",
+          "UTC",
+          "PST"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Save changes",
+      "bbox": {
+        "x": 0.3177,
+        "y": 0.7186,
+        "w": 0.2,
+        "h": 0.0964
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Save changes",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Security",
+      "expect": {
+        "type": "navigate",
+        "page": "Security"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "General",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Security",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Billing",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Notifications",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "General",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Display name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Language",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Time zone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Save changes",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Save changes",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Security",
+      "expect": {
+        "type": "navigate",
+        "page": "Security"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

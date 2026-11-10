@@ -1,0 +1,183 @@
+{
+  "id": "hold_shop_02",
+  "category": "ecommerce",
+  "title": "Track order",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_shop_02')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": 1.11,
+    "scratch_outs": 3
+  },
+  "width": 1000,
+  "height": 589,
+  "instruction": "An order tracking page with the heading Track your order, an Order number field, a full width Track button, a Delivery status card listing Packed, Shipped and Out for delivery, and a Need help with this order? link. Track shows an error when the order number is empty and the link opens a Support page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Track your order",
+      "bbox": {
+        "x": 0.2758,
+        "y": 0.1083,
+        "w": 0.2909,
+        "h": 0.1013
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Order number",
+      "bbox": {
+        "x": 0.2729,
+        "y": 0.2327,
+        "w": 0.443,
+        "h": 0.1022
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Track",
+      "bbox": {
+        "x": 0.27,
+        "y": 0.3527,
+        "w": 0.4423,
+        "h": 0.102
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2617,
+        "y": 0.4723,
+        "w": 0.447,
+        "h": 0.3298
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Delivery status",
+      "bbox": {
+        "x": 0.2882,
+        "y": 0.5085,
+        "w": 0.1771,
+        "h": 0.0704
+      },
+      "parent": 3,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.2839,
+        "y": 0.5955,
+        "w": 0.1855,
+        "h": 0.1634
+      },
+      "parent": 3,
+      "props": {
+        "items": [
+          "Packed",
+          "Shipped",
+          "Out for delivery"
+        ]
+      }
+    },
+    {
+      "type": "link",
+      "label": "Need help with this order?",
+      "bbox": {
+        "x": 0.3556,
+        "y": 0.8226,
+        "w": 0.2465,
+        "h": 0.0676
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Track",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Need help with this order?",
+      "expect": {
+        "type": "navigate",
+        "page": "Support"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Track your order",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Order number",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Track",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Delivery status",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Need help with this order?",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Track",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Need help with this order?",
+      "expect": {
+        "type": "navigate",
+        "page": "Support"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

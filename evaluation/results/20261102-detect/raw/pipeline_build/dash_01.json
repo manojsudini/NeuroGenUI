@@ -1,0 +1,2973 @@
+{
+ "_ok": true,
+ "_wall_ms": 1842.8,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Acme dashboard",
+    "category": "dashboard",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 774,
+     "content": {
+      "x": 0.048,
+      "y": 0.0646,
+      "w": 0.904,
+      "h": 0.8411
+     },
+     "page_width": 1085,
+     "scale": 1.2002
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_1",
+        "type": "navbar",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.048,
+         "y": 0.0646,
+         "w": 0.902,
+         "h": 0.1163
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "h_acme",
+          "type": "heading",
+          "label": "Acme",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.07,
+           "y": 0.0943,
+           "w": 0.089,
+           "h": 0.0556
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_home",
+          "type": "nav_item",
+          "label": "Home",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.56,
+           "y": 0.0915,
+           "w": 0.0605,
+           "h": 0.044
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "h_acme"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_reports",
+          "type": "nav_item",
+          "label": "Reports",
+          "props": {
+           "href_page": "page_reports"
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.652,
+           "y": 0.0925,
+           "w": 0.0855,
+           "h": 0.0514
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_home"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "navigate",
+              "page": "page_reports"
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_settings",
+          "type": "nav_item",
+          "label": "Settings",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.769,
+           "y": 0.0891,
+           "w": 0.0905,
+           "h": 0.055
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_reports"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "ico_6",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.883,
+           "y": 0.0734,
+           "w": 0.0485,
+           "h": 0.0807
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_settings"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_dashboard",
+        "type": "heading",
+        "label": "Dashboard",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.054,
+         "y": 0.2106,
+         "w": 0.213,
+         "h": 0.0672
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.052,
+         "y": 0.3036,
+         "w": 0.9,
+         "h": 0.2016
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_dashboard"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_users",
+          "type": "card",
+          "label": "Users",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.052,
+           "y": 0.3036,
+           "w": 0.284,
+           "h": 0.1925
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_1_240",
+            "type": "heading",
+            "label": "1,240",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.077,
+             "y": 0.3501,
+             "w": 0.093,
+             "h": 0.0504
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_users",
+            "type": "text",
+            "label": "Users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.072,
+             "y": 0.4212,
+             "w": 0.069,
+             "h": 0.0478
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_1_240"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_revenue",
+          "type": "card",
+          "label": "Revenue",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.36,
+           "y": 0.3101,
+           "w": 0.282,
+           "h": 0.1886
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_users"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_8_300",
+            "type": "heading",
+            "label": "$8,300",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.378,
+             "y": 0.3411,
+             "w": 0.122,
+             "h": 0.0633
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_revenue",
+            "type": "text",
+            "label": "Revenue",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.383,
+             "y": 0.4251,
+             "w": 0.088,
+             "h": 0.0413
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_8_300"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_orders",
+          "type": "card",
+          "label": "Orders",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.668,
+           "y": 0.3062,
+           "w": 0.284,
+           "h": 0.199
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_revenue"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_372",
+            "type": "text",
+            "label": "372",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.693,
+             "y": 0.3514,
+             "w": 0.063,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_orders",
+            "type": "text",
+            "label": "Orders",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.69,
+             "y": 0.4264,
+             "w": 0.077,
+             "h": 0.0413
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_372"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "box_18",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.051,
+         "y": 0.5271,
+         "w": 0.9,
+         "h": 0.3786
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_sales_chart",
+          "type": "card",
+          "label": "Sales chart",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.051,
+           "y": 0.5297,
+           "w": 0.58,
+           "h": 0.376
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_sales",
+            "type": "heading",
+            "label": "Sales",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.5581,
+             "w": 0.072,
+             "h": 0.0491
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "img_21",
+            "type": "image",
+            "label": "",
+            "props": {
+             "alt": "Acme logo",
+             "photo": "building"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.076,
+             "y": 0.6214,
+             "w": 0.534,
+             "h": 0.2571
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_sales"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_22",
+          "type": "card",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.659,
+           "y": 0.5271,
+           "w": 0.292,
+           "h": 0.2997
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_sales_chart"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_recent_orders",
+            "type": "text",
+            "label": "Recent orders",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.683,
+             "y": 0.562,
+             "w": 0.177,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_order_1042",
+            "type": "text",
+            "label": "Order 1042",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.679,
+             "y": 0.6331,
+             "w": 0.155,
+             "h": 0.0401
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_recent_orders"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "list_recent_orders",
+            "type": "list",
+            "label": "Recent orders",
+            "props": {
+             "items": [
+              "Order 1041",
+              "Order 1040",
+              "Order1039"
+             ]
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.683,
+             "y": 0.6822,
+             "w": 0.149,
+             "h": 0.1189
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_order_1042"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "column",
+             "gap": 12,
+             "align": "stretch",
+             "justify": "start"
+            },
+            "children": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_reports",
+     "name": "Reports",
+     "route": "/reports",
+     "root": {
+      "id": "page_reports",
+      "type": "page",
+      "label": "Reports",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_reports",
+        "type": "heading",
+        "label": "Reports",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Reports page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 31
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"acme-dashboard\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Acme dashboard</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Acme dashboard\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport ReportsPage from \"./pages/ReportsPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_reports: ReportsPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  height: 1px;\n  border: 0;\n  padding: 0;\n  box-sizing: content-box;\n  background: var(--ng-border);\n  background-clip: content-box;\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/List.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport List from \"../components/List.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst NAVI_REPORTS_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_reports\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleNaviReportsClick = () => runActions(\"navi_reports\", NAVI_REPORTS_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1085 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 25, width: \"100%\", marginTop: 0, minHeight: 108 }}\n      >\n        <Heading\n          id=\"h_acme\"\n          label=\"Acme\"\n          level={2}\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.4%\", fontSize: 32 }}\n        />\n        <NavItem\n          id=\"navi_home\"\n          label=\"Home\"\n          style={{ minWidth: \"6.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"44.5%\", minHeight: 41 }}\n        />\n        <NavItem\n          id=\"navi_reports\"\n          label=\"Reports\"\n          targetPage=\"page_reports\"\n          style={{ minWidth: \"9.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 48 }}\n          onClick={handleNaviReportsClick}\n        />\n        <Message owner=\"navi_reports\" />\n        <NavItem\n          id=\"navi_settings\"\n          label=\"Settings\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 51 }}\n        />\n        <Icon id=\"ico_6\" style={{ flex: \"0 0 auto\", marginLeft: \"2.6%\", width: 38, height: 38 }} />\n      </Navbar>\n      <Heading\n        id=\"h_dashboard\"\n        label=\"Dashboard\"\n        level={1}\n        style={{ minWidth: \"23.6%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 39 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 24, minHeight: 187 }}\n      >\n        <Card\n          id=\"card_users\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"31.6%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 179 }}\n        >\n          <Heading\n            id=\"h_1_240\"\n            label=\"1,240\"\n            level={2}\n            style={{ minWidth: \"32.7%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 43, alignSelf: \"flex-start\", fontSize: 29 }}\n          />\n          <Text\n            id=\"txt_users\"\n            label=\"Users\"\n            style={{ minWidth: \"24.3%\", maxWidth: \"100%\", marginLeft: \"7%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n        </Card>\n        <Card\n          id=\"card_revenue\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 30, width: \"31.3%\", flex: \"0 0 auto\", marginLeft: \"2.7%\", marginTop: 6, minHeight: 175 }}\n        >\n          <Heading\n            id=\"h_8_300\"\n            label=\"$8,300\"\n            level={2}\n            style={{ minWidth: \"43.3%\", maxWidth: \"100%\", marginLeft: \"6.4%\", marginTop: 29, alignSelf: \"flex-start\", fontSize: 36 }}\n          />\n          <Text\n            id=\"txt_revenue\"\n            label=\"Revenue\"\n            style={{ minWidth: \"31.2%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n        <Card\n          id=\"card_orders\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"31.6%\", flex: \"0 0 auto\", marginLeft: \"2.9%\", marginTop: 2, minHeight: 185 }}\n        >\n          <Text\n            id=\"txt_372\"\n            label=\"372\"\n            style={{ minWidth: \"22.2%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 42, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_orders\"\n            label=\"Orders\"\n            style={{ minWidth: \"27.1%\", maxWidth: \"100%\", marginLeft: \"7.7%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n      </Container>\n      <Container\n        id=\"box_18\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 20, minHeight: 352 }}\n      >\n        <Card\n          id=\"card_sales_chart\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"64.4%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 349 }}\n        >\n          <Heading\n            id=\"h_sales\"\n            label=\"Sales\"\n            level={2}\n            style={{ minWidth: \"12.4%\", maxWidth: \"100%\", marginLeft: \"4%\", marginTop: 26, alignSelf: \"flex-start\", fontSize: 28 }}\n          />\n          <Image\n            id=\"img_21\"\n            photo=\"building\"\n            alt=\"Acme logo\"\n            style={{ width: \"92.1%\", marginLeft: \"4.3%\", marginTop: 13, alignSelf: \"flex-start\", height: 239 }}\n          />\n        </Card>\n        <Card\n          id=\"card_22\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 24, width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", marginTop: 0, minHeight: 278 }}\n        >\n          <Text\n            id=\"txt_recent_orders\"\n            label=\"Recent orders\"\n            style={{ minWidth: \"60.6%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 32, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_order_1042\"\n            label=\"Order 1042\"\n            style={{ minWidth: \"53.1%\", maxWidth: \"100%\", marginLeft: \"6.8%\", marginTop: 25, alignSelf: \"flex-start\", minHeight: 37 }}\n          />\n          <List\n            id=\"list_recent_orders\"\n            items={[\"Order 1041\", \"Order 1040\", \"Order1039\"]}\n            style={{ width: \"51%\", marginLeft: \"8.2%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 110 }}\n          >\n          </List>\n        </Card>\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/ReportsPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function ReportsPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_reports\" layout={{ gap: 16 }} style={{ maxWidth: 1085 }}>\n      <Heading id=\"h_reports\" label=\"Reports\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Reports page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Acme dashboard\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  height: 1px;\\n  border: 0;\\n  padding: 0;\\n  box-sizing: content-box;\\n  background: var(--ng-border);\\n  background-clip: content-box;\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst NAVI_REPORTS_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_reports\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleNaviReportsClick = () => runActions(\"navi_reports\", NAVI_REPORTS_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1085 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 25, width: \"100%\", marginTop: 0, minHeight: 108 }}\n      >\n        <Heading\n          id=\"h_acme\"\n          label=\"Acme\"\n          level={2}\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.4%\", fontSize: 32 }}\n        />\n        <NavItem\n          id=\"navi_home\"\n          label=\"Home\"\n          style={{ minWidth: \"6.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"44.5%\", minHeight: 41 }}\n        />\n        <NavItem\n          id=\"navi_reports\"\n          label=\"Reports\"\n          targetPage=\"page_reports\"\n          style={{ minWidth: \"9.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 48 }}\n          onClick={handleNaviReportsClick}\n        />\n        <Message owner=\"navi_reports\" />\n        <NavItem\n          id=\"navi_settings\"\n          label=\"Settings\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 51 }}\n        />\n        <Icon id=\"ico_6\" style={{ flex: \"0 0 auto\", marginLeft: \"2.6%\", width: 38, height: 38 }} />\n      </Navbar>\n      <Heading\n        id=\"h_dashboard\"\n        label=\"Dashboard\"\n        level={1}\n        style={{ minWidth: \"23.6%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 39 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 24, minHeight: 187 }}\n      >\n        <Card\n          id=\"card_users\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"31.6%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 179 }}\n        >\n          <Heading\n            id=\"h_1_240\"\n            label=\"1,240\"\n            level={2}\n            style={{ minWidth: \"32.7%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 43, alignSelf: \"flex-start\", fontSize: 29 }}\n          />\n          <Text\n            id=\"txt_users\"\n            label=\"Users\"\n            style={{ minWidth: \"24.3%\", maxWidth: \"100%\", marginLeft: \"7%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n        </Card>\n        <Card\n          id=\"card_revenue\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 30, width: \"31.3%\", flex: \"0 0 auto\", marginLeft: \"2.7%\", marginTop: 6, minHeight: 175 }}\n        >\n          <Heading\n            id=\"h_8_300\"\n            label=\"$8,300\"\n            level={2}\n            style={{ minWidth: \"43.3%\", maxWidth: \"100%\", marginLeft: \"6.4%\", marginTop: 29, alignSelf: \"flex-start\", fontSize: 36 }}\n          />\n          <Text\n            id=\"txt_revenue\"\n            label=\"Revenue\"\n            style={{ minWidth: \"31.2%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n        <Card\n          id=\"card_orders\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"31.6%\", flex: \"0 0 auto\", marginLeft: \"2.9%\", marginTop: 2, minHeight: 185 }}\n        >\n          <Text\n            id=\"txt_372\"\n            label=\"372\"\n            style={{ minWidth: \"22.2%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 42, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_orders\"\n            label=\"Orders\"\n            style={{ minWidth: \"27.1%\", maxWidth: \"100%\", marginLeft: \"7.7%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n      </Container>\n      <Container\n        id=\"box_18\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 20, minHeight: 352 }}\n      >\n        <Card\n          id=\"card_sales_chart\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"64.4%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 349 }}\n        >\n          <Heading\n            id=\"h_sales\"\n            label=\"Sales\"\n            level={2}\n            style={{ minWidth: \"12.4%\", maxWidth: \"100%\", marginLeft: \"4%\", marginTop: 26, alignSelf: \"flex-start\", fontSize: 28 }}\n          />\n          <Image\n            id=\"img_21\"\n            photo=\"building\"\n            alt=\"Acme logo\"\n            style={{ width: \"92.1%\", marginLeft: \"4.3%\", marginTop: 13, alignSelf: \"flex-start\", height: 239 }}\n          />\n        </Card>\n        <Card\n          id=\"card_22\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 24, width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", marginTop: 0, minHeight: 278 }}\n        >\n          <Text\n            id=\"txt_recent_orders\"\n            label=\"Recent orders\"\n            style={{ minWidth: \"60.6%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 32, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_order_1042\"\n            label=\"Order 1042\"\n            style={{ minWidth: \"53.1%\", maxWidth: \"100%\", marginLeft: \"6.8%\", marginTop: 25, alignSelf: \"flex-start\", minHeight: 37 }}\n          />\n          <List\n            id=\"list_recent_orders\"\n            items={[\"Order 1041\", \"Order 1040\", \"Order1039\"]}\n            style={{ width: \"51%\", marginLeft: \"8.2%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 110 }}\n          >\n          </List>\n        </Card>\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction ReportsPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_reports\" layout={{ gap: 16 }} style={{ maxWidth: 1085 }}>\n      <Heading id=\"h_reports\" label=\"Reports\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Reports page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_reports: ReportsPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 13,
+    "pages": 2,
+    "loc": 837,
+    "preview_bytes": 21207
+   }
+  },
+  "report0": {
+   "passed": true,
+   "score": 0.9528,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "26 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "presence:h_acme",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_acme"
+    },
+    {
+     "id": "presence:navi_home",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "presence:navi_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "presence:navi_settings",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:ico_6",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_6"
+    },
+    {
+     "id": "presence:h_dashboard",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_dashboard"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:card_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "presence:h_1_240",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_1_240"
+    },
+    {
+     "id": "presence:txt_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_users"
+    },
+    {
+     "id": "presence:card_revenue",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "presence:h_8_300",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_8_300"
+    },
+    {
+     "id": "presence:txt_revenue",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_revenue"
+    },
+    {
+     "id": "presence:card_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "presence:txt_372",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_372"
+    },
+    {
+     "id": "presence:txt_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_orders"
+    },
+    {
+     "id": "presence:box_18",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_18"
+    },
+    {
+     "id": "presence:card_sales_chart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "presence:h_sales",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_sales"
+    },
+    {
+     "id": "presence:img_21",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_21"
+    },
+    {
+     "id": "presence:card_22",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "presence:txt_recent_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_recent_orders"
+    },
+    {
+     "id": "presence:txt_order_1042",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_order_1042"
+    },
+    {
+     "id": "presence:list_recent_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_recent_orders"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "order:box_8",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "order:card_users",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "sketch_order:card_users",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "order:card_revenue",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "sketch_order:card_revenue",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "order:card_orders",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "sketch_order:card_orders",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "order:box_18",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_18"
+    },
+    {
+     "id": "order:card_sales_chart",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "sketch_order:card_sales_chart",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "order:card_22",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "sketch_order:card_22",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.53 over 16 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_home",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "clickable:navi_reports",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "clickable:navi_settings",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:page_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_reports"
+    },
+    {
+     "id": "presence:h_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_reports"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:navi_reports:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_reports",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.5276,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 2,
+    "interactions_passed": 2,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 97.5,
+      "y": 32,
+      "w": 1085,
+      "h": 767.796875
+     }
+    },
+    {
+     "id": "nav_1",
+     "type": "navbar",
+     "rect": {
+      "x": 97.5,
+      "y": 32,
+      "w": 1085,
+      "h": 108
+     }
+    },
+    {
+     "id": "h_acme",
+     "type": "heading",
+     "rect": {
+      "x": 124.484375,
+      "y": 54.296875,
+      "w": 107.203125,
+      "h": 38.390625
+     }
+    },
+    {
+     "id": "navi_home",
+     "type": "nav_item",
+     "rect": {
+      "x": 713.609375,
+      "y": 53,
+      "w": 72.546875,
+      "h": 41
+     }
+    },
+    {
+     "id": "navi_reports",
+     "type": "nav_item",
+     "rect": {
+      "x": 824.046875,
+      "y": 49.5,
+      "w": 102.875,
+      "h": 48
+     }
+    },
+    {
+     "id": "navi_settings",
+     "type": "nav_item",
+     "rect": {
+      "x": 964.8125,
+      "y": 48,
+      "w": 108.296875,
+      "h": 51
+     }
+    },
+    {
+     "id": "ico_6",
+     "type": "icon",
+     "rect": {
+      "x": 1101.265625,
+      "y": 54.5,
+      "w": 38,
+      "h": 38
+     }
+    },
+    {
+     "id": "h_dashboard",
+     "type": "heading",
+     "rect": {
+      "x": 105.09375,
+      "y": 168,
+      "w": 256.046875,
+      "h": 46.796875
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 97.5,
+      "y": 238.796875,
+      "w": 1085,
+      "h": 189
+     }
+    },
+    {
+     "id": "card_users",
+     "type": "card",
+     "rect": {
+      "x": 97.5,
+      "y": 238.796875,
+      "w": 342.859375,
+      "h": 179
+     }
+    },
+    {
+     "id": "h_1_240",
+     "type": "heading",
+     "rect": {
+      "x": 128.484375,
+      "y": 282.796875,
+      "w": 111.453125,
+      "h": 34.796875
+     }
+    },
+    {
+     "id": "txt_users",
+     "type": "text",
+     "rect": {
+      "x": 122.359375,
+      "y": 336.59375,
+      "w": 82.828125,
+      "h": 44
+     }
+    },
+    {
+     "id": "card_revenue",
+     "type": "card",
+     "rect": {
+      "x": 469.640625,
+      "y": 244.796875,
+      "w": 339.59375,
+      "h": 175
+     }
+    },
+    {
+     "id": "h_8_300",
+     "type": "heading",
+     "rect": {
+      "x": 492.234375,
+      "y": 274.796875,
+      "w": 146.171875,
+      "h": 43.1875
+     }
+    },
+    {
+     "id": "txt_revenue",
+     "type": "text",
+     "rect": {
+      "x": 498.3125,
+      "y": 336.984375,
+      "w": 105.328125,
+      "h": 38
+     }
+    },
+    {
+     "id": "card_orders",
+     "type": "card",
+     "rect": {
+      "x": 840.6875,
+      "y": 240.796875,
+      "w": 342.859375,
+      "h": 187
+     }
+    },
+    {
+     "id": "txt_372",
+     "type": "text",
+     "rect": {
+      "x": 871.671875,
+      "y": 283.796875,
+      "w": 75.65625,
+      "h": 41
+     }
+    },
+    {
+     "id": "txt_orders",
+     "type": "text",
+     "rect": {
+      "x": 867.921875,
+      "y": 353.796875,
+      "w": 92.359375,
+      "h": 38
+     }
+    },
+    {
+     "id": "box_18",
+     "type": "container",
+     "rect": {
+      "x": 97.5,
+      "y": 447.796875,
+      "w": 1085,
+      "h": 352
+     }
+    },
+    {
+     "id": "card_sales_chart",
+     "type": "card",
+     "rect": {
+      "x": 97.5,
+      "y": 449.796875,
+      "w": 698.734375,
+      "h": 349
+     }
+    },
+    {
+     "id": "h_sales",
+     "type": "heading",
+     "rect": {
+      "x": 126.359375,
+      "y": 476.796875,
+      "w": 86.390625,
+      "h": 33.59375
+     }
+    },
+    {
+     "id": "img_21",
+     "type": "image",
+     "rect": {
+      "x": 128.453125,
+      "y": 523.390625,
+      "w": 641.6875,
+      "h": 239
+     }
+    },
+    {
+     "id": "card_22",
+     "type": "card",
+     "rect": {
+      "x": 829.859375,
+      "y": 447.796875,
+      "w": 351.53125,
+      "h": 279
+     }
+    },
+    {
+     "id": "txt_recent_orders",
+     "type": "text",
+     "rect": {
+      "x": 859.515625,
+      "y": 480.796875,
+      "w": 211.8125,
+      "h": 41
+     }
+    },
+    {
+     "id": "txt_order_1042",
+     "type": "text",
+     "rect": {
+      "x": 854.625,
+      "y": 546.796875,
+      "w": 185.59375,
+      "h": 37
+     }
+    },
+    {
+     "id": "list_recent_orders",
+     "type": "list",
+     "rect": {
+      "x": 859.515625,
+      "y": 591.796875,
+      "w": 178.25,
+      "h": 110
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 843
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Acme dashboard",
+    "category": "dashboard",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 774,
+     "content": {
+      "x": 0.048,
+      "y": 0.0646,
+      "w": 0.904,
+      "h": 0.8411
+     },
+     "page_width": 1085,
+     "scale": 1.2002
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_1",
+        "type": "navbar",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.048,
+         "y": 0.0646,
+         "w": 0.902,
+         "h": 0.1163
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "h_acme",
+          "type": "heading",
+          "label": "Acme",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.07,
+           "y": 0.0943,
+           "w": 0.089,
+           "h": 0.0556
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_home",
+          "type": "nav_item",
+          "label": "Home",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.56,
+           "y": 0.0915,
+           "w": 0.0605,
+           "h": 0.044
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "h_acme"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_reports",
+          "type": "nav_item",
+          "label": "Reports",
+          "props": {
+           "href_page": "page_reports"
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.652,
+           "y": 0.0925,
+           "w": 0.0855,
+           "h": 0.0514
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_home"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "navigate",
+              "page": "page_reports"
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_settings",
+          "type": "nav_item",
+          "label": "Settings",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.769,
+           "y": 0.0891,
+           "w": 0.0905,
+           "h": 0.055
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_reports"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "ico_6",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.883,
+           "y": 0.0734,
+           "w": 0.0485,
+           "h": 0.0807
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_settings"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_dashboard",
+        "type": "heading",
+        "label": "Dashboard",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.054,
+         "y": 0.2106,
+         "w": 0.213,
+         "h": 0.0672
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.052,
+         "y": 0.3036,
+         "w": 0.9,
+         "h": 0.2016
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_dashboard"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_users",
+          "type": "card",
+          "label": "Users",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.052,
+           "y": 0.3036,
+           "w": 0.284,
+           "h": 0.1925
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_1_240",
+            "type": "heading",
+            "label": "1,240",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.077,
+             "y": 0.3501,
+             "w": 0.093,
+             "h": 0.0504
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_users",
+            "type": "text",
+            "label": "Users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.072,
+             "y": 0.4212,
+             "w": 0.069,
+             "h": 0.0478
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_1_240"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_revenue",
+          "type": "card",
+          "label": "Revenue",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.36,
+           "y": 0.3101,
+           "w": 0.282,
+           "h": 0.1886
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_users"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_8_300",
+            "type": "heading",
+            "label": "$8,300",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.378,
+             "y": 0.3411,
+             "w": 0.122,
+             "h": 0.0633
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_revenue",
+            "type": "text",
+            "label": "Revenue",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.383,
+             "y": 0.4251,
+             "w": 0.088,
+             "h": 0.0413
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_8_300"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_orders",
+          "type": "card",
+          "label": "Orders",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.668,
+           "y": 0.3062,
+           "w": 0.284,
+           "h": 0.199
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_revenue"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_372",
+            "type": "text",
+            "label": "372",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.693,
+             "y": 0.3514,
+             "w": 0.063,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_orders",
+            "type": "text",
+            "label": "Orders",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.69,
+             "y": 0.4264,
+             "w": 0.077,
+             "h": 0.0413
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_372"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "box_18",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.051,
+         "y": 0.5271,
+         "w": 0.9,
+         "h": 0.3786
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_sales_chart",
+          "type": "card",
+          "label": "Sales chart",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.051,
+           "y": 0.5297,
+           "w": 0.58,
+           "h": 0.376
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_sales",
+            "type": "heading",
+            "label": "Sales",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.5581,
+             "w": 0.072,
+             "h": 0.0491
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "img_21",
+            "type": "image",
+            "label": "",
+            "props": {
+             "alt": "Acme logo",
+             "photo": "building"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.076,
+             "y": 0.6214,
+             "w": 0.534,
+             "h": 0.2571
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_sales"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_22",
+          "type": "card",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.659,
+           "y": 0.5271,
+           "w": 0.292,
+           "h": 0.2997
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_sales_chart"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_recent_orders",
+            "type": "text",
+            "label": "Recent orders",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.683,
+             "y": 0.562,
+             "w": 0.177,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_order_1042",
+            "type": "text",
+            "label": "Order 1042",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.679,
+             "y": 0.6331,
+             "w": 0.155,
+             "h": 0.0401
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_recent_orders"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "list_recent_orders",
+            "type": "list",
+            "label": "Recent orders",
+            "props": {
+             "items": [
+              "Order 1041",
+              "Order 1040",
+              "Order1039"
+             ]
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.683,
+             "y": 0.6822,
+             "w": 0.149,
+             "h": 0.1189
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_order_1042"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "column",
+             "gap": 12,
+             "align": "stretch",
+             "justify": "start"
+            },
+            "children": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_reports",
+     "name": "Reports",
+     "route": "/reports",
+     "root": {
+      "id": "page_reports",
+      "type": "page",
+      "label": "Reports",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_reports",
+        "type": "heading",
+        "label": "Reports",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Reports page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 31
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"acme-dashboard\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Acme dashboard</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Acme dashboard\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport ReportsPage from \"./pages/ReportsPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_reports: ReportsPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  height: 1px;\n  border: 0;\n  padding: 0;\n  box-sizing: content-box;\n  background: var(--ng-border);\n  background-clip: content-box;\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/List.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport List from \"../components/List.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst NAVI_REPORTS_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_reports\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleNaviReportsClick = () => runActions(\"navi_reports\", NAVI_REPORTS_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1085 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 25, width: \"100%\", marginTop: 0, minHeight: 108 }}\n      >\n        <Heading\n          id=\"h_acme\"\n          label=\"Acme\"\n          level={2}\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.4%\", fontSize: 32 }}\n        />\n        <NavItem\n          id=\"navi_home\"\n          label=\"Home\"\n          style={{ minWidth: \"6.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"44.5%\", minHeight: 41 }}\n        />\n        <NavItem\n          id=\"navi_reports\"\n          label=\"Reports\"\n          targetPage=\"page_reports\"\n          style={{ minWidth: \"9.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 48 }}\n          onClick={handleNaviReportsClick}\n        />\n        <Message owner=\"navi_reports\" />\n        <NavItem\n          id=\"navi_settings\"\n          label=\"Settings\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 51 }}\n        />\n        <Icon id=\"ico_6\" style={{ flex: \"0 0 auto\", marginLeft: \"2.6%\", width: 38, height: 38 }} />\n      </Navbar>\n      <Heading\n        id=\"h_dashboard\"\n        label=\"Dashboard\"\n        level={1}\n        style={{ minWidth: \"23.6%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 39 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 24, minHeight: 187 }}\n      >\n        <Card\n          id=\"card_users\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"31.6%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 179 }}\n        >\n          <Heading\n            id=\"h_1_240\"\n            label=\"1,240\"\n            level={2}\n            style={{ minWidth: \"32.7%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 43, alignSelf: \"flex-start\", fontSize: 29 }}\n          />\n          <Text\n            id=\"txt_users\"\n            label=\"Users\"\n            style={{ minWidth: \"24.3%\", maxWidth: \"100%\", marginLeft: \"7%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n        </Card>\n        <Card\n          id=\"card_revenue\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 30, width: \"31.3%\", flex: \"0 0 auto\", marginLeft: \"2.7%\", marginTop: 6, minHeight: 175 }}\n        >\n          <Heading\n            id=\"h_8_300\"\n            label=\"$8,300\"\n            level={2}\n            style={{ minWidth: \"43.3%\", maxWidth: \"100%\", marginLeft: \"6.4%\", marginTop: 29, alignSelf: \"flex-start\", fontSize: 36 }}\n          />\n          <Text\n            id=\"txt_revenue\"\n            label=\"Revenue\"\n            style={{ minWidth: \"31.2%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n        <Card\n          id=\"card_orders\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"31.6%\", flex: \"0 0 auto\", marginLeft: \"2.9%\", marginTop: 2, minHeight: 185 }}\n        >\n          <Text\n            id=\"txt_372\"\n            label=\"372\"\n            style={{ minWidth: \"22.2%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 42, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_orders\"\n            label=\"Orders\"\n            style={{ minWidth: \"27.1%\", maxWidth: \"100%\", marginLeft: \"7.7%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n      </Container>\n      <Container\n        id=\"box_18\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 20, minHeight: 352 }}\n      >\n        <Card\n          id=\"card_sales_chart\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"64.4%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 349 }}\n        >\n          <Heading\n            id=\"h_sales\"\n            label=\"Sales\"\n            level={2}\n            style={{ minWidth: \"12.4%\", maxWidth: \"100%\", marginLeft: \"4%\", marginTop: 26, alignSelf: \"flex-start\", fontSize: 28 }}\n          />\n          <Image\n            id=\"img_21\"\n            photo=\"building\"\n            alt=\"Acme logo\"\n            style={{ width: \"92.1%\", marginLeft: \"4.3%\", marginTop: 13, alignSelf: \"flex-start\", height: 239 }}\n          />\n        </Card>\n        <Card\n          id=\"card_22\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 24, width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", marginTop: 0, minHeight: 278 }}\n        >\n          <Text\n            id=\"txt_recent_orders\"\n            label=\"Recent orders\"\n            style={{ minWidth: \"60.6%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 32, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_order_1042\"\n            label=\"Order 1042\"\n            style={{ minWidth: \"53.1%\", maxWidth: \"100%\", marginLeft: \"6.8%\", marginTop: 25, alignSelf: \"flex-start\", minHeight: 37 }}\n          />\n          <List\n            id=\"list_recent_orders\"\n            items={[\"Order 1041\", \"Order 1040\", \"Order1039\"]}\n            style={{ width: \"51%\", marginLeft: \"8.2%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 110 }}\n          >\n          </List>\n        </Card>\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/ReportsPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function ReportsPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_reports\" layout={{ gap: 16 }} style={{ maxWidth: 1085 }}>\n      <Heading id=\"h_reports\" label=\"Reports\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Reports page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Acme dashboard\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  height: 1px;\\n  border: 0;\\n  padding: 0;\\n  box-sizing: content-box;\\n  background: var(--ng-border);\\n  background-clip: content-box;\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst NAVI_REPORTS_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_reports\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleNaviReportsClick = () => runActions(\"navi_reports\", NAVI_REPORTS_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1085 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 25, width: \"100%\", marginTop: 0, minHeight: 108 }}\n      >\n        <Heading\n          id=\"h_acme\"\n          label=\"Acme\"\n          level={2}\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.4%\", fontSize: 32 }}\n        />\n        <NavItem\n          id=\"navi_home\"\n          label=\"Home\"\n          style={{ minWidth: \"6.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"44.5%\", minHeight: 41 }}\n        />\n        <NavItem\n          id=\"navi_reports\"\n          label=\"Reports\"\n          targetPage=\"page_reports\"\n          style={{ minWidth: \"9.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 48 }}\n          onClick={handleNaviReportsClick}\n        />\n        <Message owner=\"navi_reports\" />\n        <NavItem\n          id=\"navi_settings\"\n          label=\"Settings\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 51 }}\n        />\n        <Icon id=\"ico_6\" style={{ flex: \"0 0 auto\", marginLeft: \"2.6%\", width: 38, height: 38 }} />\n      </Navbar>\n      <Heading\n        id=\"h_dashboard\"\n        label=\"Dashboard\"\n        level={1}\n        style={{ minWidth: \"23.6%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 39 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 24, minHeight: 187 }}\n      >\n        <Card\n          id=\"card_users\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"31.6%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 179 }}\n        >\n          <Heading\n            id=\"h_1_240\"\n            label=\"1,240\"\n            level={2}\n            style={{ minWidth: \"32.7%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 43, alignSelf: \"flex-start\", fontSize: 29 }}\n          />\n          <Text\n            id=\"txt_users\"\n            label=\"Users\"\n            style={{ minWidth: \"24.3%\", maxWidth: \"100%\", marginLeft: \"7%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n        </Card>\n        <Card\n          id=\"card_revenue\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 30, width: \"31.3%\", flex: \"0 0 auto\", marginLeft: \"2.7%\", marginTop: 6, minHeight: 175 }}\n        >\n          <Heading\n            id=\"h_8_300\"\n            label=\"$8,300\"\n            level={2}\n            style={{ minWidth: \"43.3%\", maxWidth: \"100%\", marginLeft: \"6.4%\", marginTop: 29, alignSelf: \"flex-start\", fontSize: 36 }}\n          />\n          <Text\n            id=\"txt_revenue\"\n            label=\"Revenue\"\n            style={{ minWidth: \"31.2%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 19, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n        <Card\n          id=\"card_orders\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"31.6%\", flex: \"0 0 auto\", marginLeft: \"2.9%\", marginTop: 2, minHeight: 185 }}\n        >\n          <Text\n            id=\"txt_372\"\n            label=\"372\"\n            style={{ minWidth: \"22.2%\", maxWidth: \"100%\", marginLeft: \"8.8%\", marginTop: 42, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_orders\"\n            label=\"Orders\"\n            style={{ minWidth: \"27.1%\", maxWidth: \"100%\", marginLeft: \"7.7%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 38 }}\n          />\n        </Card>\n      </Container>\n      <Container\n        id=\"box_18\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 20, minHeight: 352 }}\n      >\n        <Card\n          id=\"card_sales_chart\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 25, width: \"64.4%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 349 }}\n        >\n          <Heading\n            id=\"h_sales\"\n            label=\"Sales\"\n            level={2}\n            style={{ minWidth: \"12.4%\", maxWidth: \"100%\", marginLeft: \"4%\", marginTop: 26, alignSelf: \"flex-start\", fontSize: 28 }}\n          />\n          <Image\n            id=\"img_21\"\n            photo=\"building\"\n            alt=\"Acme logo\"\n            style={{ width: \"92.1%\", marginLeft: \"4.3%\", marginTop: 13, alignSelf: \"flex-start\", height: 239 }}\n          />\n        </Card>\n        <Card\n          id=\"card_22\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 24, width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", marginTop: 0, minHeight: 278 }}\n        >\n          <Text\n            id=\"txt_recent_orders\"\n            label=\"Recent orders\"\n            style={{ minWidth: \"60.6%\", maxWidth: \"100%\", marginLeft: \"8.2%\", marginTop: 32, alignSelf: \"flex-start\", minHeight: 41 }}\n          />\n          <Text\n            id=\"txt_order_1042\"\n            label=\"Order 1042\"\n            style={{ minWidth: \"53.1%\", maxWidth: \"100%\", marginLeft: \"6.8%\", marginTop: 25, alignSelf: \"flex-start\", minHeight: 37 }}\n          />\n          <List\n            id=\"list_recent_orders\"\n            items={[\"Order 1041\", \"Order 1040\", \"Order1039\"]}\n            style={{ width: \"51%\", marginLeft: \"8.2%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 110 }}\n          >\n          </List>\n        </Card>\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction ReportsPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_reports\" layout={{ gap: 16 }} style={{ maxWidth: 1085 }}>\n      <Heading id=\"h_reports\" label=\"Reports\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Reports page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_reports: ReportsPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 13,
+    "pages": 2,
+    "loc": 837,
+    "preview_bytes": 21207
+   }
+  },
+  "report": {
+   "passed": true,
+   "score": 0.9528,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "26 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "presence:h_acme",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_acme"
+    },
+    {
+     "id": "presence:navi_home",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "presence:navi_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "presence:navi_settings",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:ico_6",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_6"
+    },
+    {
+     "id": "presence:h_dashboard",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_dashboard"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:card_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "presence:h_1_240",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_1_240"
+    },
+    {
+     "id": "presence:txt_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_users"
+    },
+    {
+     "id": "presence:card_revenue",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "presence:h_8_300",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_8_300"
+    },
+    {
+     "id": "presence:txt_revenue",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_revenue"
+    },
+    {
+     "id": "presence:card_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "presence:txt_372",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_372"
+    },
+    {
+     "id": "presence:txt_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_orders"
+    },
+    {
+     "id": "presence:box_18",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_18"
+    },
+    {
+     "id": "presence:card_sales_chart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "presence:h_sales",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_sales"
+    },
+    {
+     "id": "presence:img_21",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_21"
+    },
+    {
+     "id": "presence:card_22",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "presence:txt_recent_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_recent_orders"
+    },
+    {
+     "id": "presence:txt_order_1042",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_order_1042"
+    },
+    {
+     "id": "presence:list_recent_orders",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_recent_orders"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "order:box_8",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "order:card_users",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "sketch_order:card_users",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_users"
+    },
+    {
+     "id": "order:card_revenue",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "sketch_order:card_revenue",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_revenue"
+    },
+    {
+     "id": "order:card_orders",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "sketch_order:card_orders",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_orders"
+    },
+    {
+     "id": "order:box_18",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_18"
+    },
+    {
+     "id": "order:card_sales_chart",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "sketch_order:card_sales_chart",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_sales_chart"
+    },
+    {
+     "id": "order:card_22",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "sketch_order:card_22",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_22"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.53 over 16 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_home",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "clickable:navi_reports",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "clickable:navi_settings",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:page_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_reports"
+    },
+    {
+     "id": "presence:h_reports",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_reports"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:navi_reports:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_reports",
+     "hard": true,
+     "target": "navi_reports"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.5276,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 2,
+    "interactions_passed": 2,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 97.5,
+      "y": 32,
+      "w": 1085,
+      "h": 767.796875
+     }
+    },
+    {
+     "id": "nav_1",
+     "type": "navbar",
+     "rect": {
+      "x": 97.5,
+      "y": 32,
+      "w": 1085,
+      "h": 108
+     }
+    },
+    {
+     "id": "h_acme",
+     "type": "heading",
+     "rect": {
+      "x": 124.484375,
+      "y": 54.296875,
+      "w": 107.203125,
+      "h": 38.390625
+     }
+    },
+    {
+     "id": "navi_home",
+     "type": "nav_item",
+     "rect": {
+      "x": 713.609375,
+      "y": 53,
+      "w": 72.546875,
+      "h": 41
+     }
+    },
+    {
+     "id": "navi_reports",
+     "type": "nav_item",
+     "rect": {
+      "x": 824.046875,
+      "y": 49.5,
+      "w": 102.875,
+      "h": 48
+     }
+    },
+    {
+     "id": "navi_settings",
+     "type": "nav_item",
+     "rect": {
+      "x": 964.8125,
+      "y": 48,
+      "w": 108.296875,
+      "h": 51
+     }
+    },
+    {
+     "id": "ico_6",
+     "type": "icon",
+     "rect": {
+      "x": 1101.265625,
+      "y": 54.5,
+      "w": 38,
+      "h": 38
+     }
+    },
+    {
+     "id": "h_dashboard",
+     "type": "heading",
+     "rect": {
+      "x": 105.09375,
+      "y": 168,
+      "w": 256.046875,
+      "h": 46.796875
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 97.5,
+      "y": 238.796875,
+      "w": 1085,
+      "h": 189
+     }
+    },
+    {
+     "id": "card_users",
+     "type": "card",
+     "rect": {
+      "x": 97.5,
+      "y": 238.796875,
+      "w": 342.859375,
+      "h": 179
+     }
+    },
+    {
+     "id": "h_1_240",
+     "type": "heading",
+     "rect": {
+      "x": 128.484375,
+      "y": 282.796875,
+      "w": 111.453125,
+      "h": 34.796875
+     }
+    },
+    {
+     "id": "txt_users",
+     "type": "text",
+     "rect": {
+      "x": 122.359375,
+      "y": 336.59375,
+      "w": 82.828125,
+      "h": 44
+     }
+    },
+    {
+     "id": "card_revenue",
+     "type": "card",
+     "rect": {
+      "x": 469.640625,
+      "y": 244.796875,
+      "w": 339.59375,
+      "h": 175
+     }
+    },
+    {
+     "id": "h_8_300",
+     "type": "heading",
+     "rect": {
+      "x": 492.234375,
+      "y": 274.796875,
+      "w": 146.171875,
+      "h": 43.1875
+     }
+    },
+    {
+     "id": "txt_revenue",
+     "type": "text",
+     "rect": {
+      "x": 498.3125,
+      "y": 336.984375,
+      "w": 105.328125,
+      "h": 38
+     }
+    },
+    {
+     "id": "card_orders",
+     "type": "card",
+     "rect": {
+      "x": 840.6875,
+      "y": 240.796875,
+      "w": 342.859375,
+      "h": 187
+     }
+    },
+    {
+     "id": "txt_372",
+     "type": "text",
+     "rect": {
+      "x": 871.671875,
+      "y": 283.796875,
+      "w": 75.65625,
+      "h": 41
+     }
+    },
+    {
+     "id": "txt_orders",
+     "type": "text",
+     "rect": {
+      "x": 867.921875,
+      "y": 353.796875,
+      "w": 92.359375,
+      "h": 38
+     }
+    },
+    {
+     "id": "box_18",
+     "type": "container",
+     "rect": {
+      "x": 97.5,
+      "y": 447.796875,
+      "w": 1085,
+      "h": 352
+     }
+    },
+    {
+     "id": "card_sales_chart",
+     "type": "card",
+     "rect": {
+      "x": 97.5,
+      "y": 449.796875,
+      "w": 698.734375,
+      "h": 349
+     }
+    },
+    {
+     "id": "h_sales",
+     "type": "heading",
+     "rect": {
+      "x": 126.359375,
+      "y": 476.796875,
+      "w": 86.390625,
+      "h": 33.59375
+     }
+    },
+    {
+     "id": "img_21",
+     "type": "image",
+     "rect": {
+      "x": 128.453125,
+      "y": 523.390625,
+      "w": 641.6875,
+      "h": 239
+     }
+    },
+    {
+     "id": "card_22",
+     "type": "card",
+     "rect": {
+      "x": 829.859375,
+      "y": 447.796875,
+      "w": 351.53125,
+      "h": 279
+     }
+    },
+    {
+     "id": "txt_recent_orders",
+     "type": "text",
+     "rect": {
+      "x": 859.515625,
+      "y": 480.796875,
+      "w": 211.8125,
+      "h": 41
+     }
+    },
+    {
+     "id": "txt_order_1042",
+     "type": "text",
+     "rect": {
+      "x": 854.625,
+      "y": 546.796875,
+      "w": 185.59375,
+      "h": 37
+     }
+    },
+    {
+     "id": "list_recent_orders",
+     "type": "list",
+     "rect": {
+      "x": 859.515625,
+      "y": 591.796875,
+      "w": 178.25,
+      "h": 110
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 945
+  },
+  "repairs": [],
+  "timings": {
+   "fuse": 22.6,
+   "codegen": 13.4,
+   "validate": 845.8,
+   "repair": 960.9
+  }
+ }
+}

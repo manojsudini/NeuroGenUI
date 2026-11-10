@@ -1,0 +1,317 @@
+{
+  "id": "bank_02",
+  "category": "banking",
+  "title": "Transfer money",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('bank_02')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 691,
+  "instruction": "A money transfer page with a navbar (NorthBank logo, Accounts, Transfers, Cards, Logout), the heading Transfer money and a card with a From account dropdown (Savings, Current), recipient account number, amount and reference fields, a Save recipient checkbox and Send and Cancel buttons. Send must show an error if the required fields are empty.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0671,
+        "y": 0.0765,
+        "w": 0.8866,
+        "h": 0.1008
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "NorthBank",
+      "bbox": {
+        "x": 0.0871,
+        "y": 0.0968,
+        "w": 0.1582,
+        "h": 0.0603
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Accounts",
+      "bbox": {
+        "x": 0.4913,
+        "y": 0.1027,
+        "w": 0.1004,
+        "h": 0.0484
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Transfers",
+      "bbox": {
+        "x": 0.6217,
+        "y": 0.1027,
+        "w": 0.1113,
+        "h": 0.0484
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Cards",
+      "bbox": {
+        "x": 0.763,
+        "y": 0.1027,
+        "w": 0.0652,
+        "h": 0.0484
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Logout",
+      "bbox": {
+        "x": 0.8582,
+        "y": 0.1027,
+        "w": 0.0754,
+        "h": 0.0484
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Transfer money",
+      "bbox": {
+        "x": 0.0671,
+        "y": 0.2092,
+        "w": 0.3044,
+        "h": 0.0734
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0671,
+        "y": 0.3144,
+        "w": 0.8866,
+        "h": 0.6165
+      },
+      "parent": null
+    },
+    {
+      "type": "select",
+      "label": "From account",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.3462,
+        "w": 0.8426,
+        "h": 0.0781
+      },
+      "parent": 7,
+      "props": {
+        "options": [
+          "Savings",
+          "Current"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Recipient account number",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.4475,
+        "w": 0.8426,
+        "h": 0.0781
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Amount",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.5488,
+        "w": 0.8426,
+        "h": 0.0781
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Reference",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.6501,
+        "w": 0.8426,
+        "h": 0.0781
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Save recipient",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.7514,
+        "w": 0.1881,
+        "h": 0.0463
+      },
+      "parent": 7
+    },
+    {
+      "type": "button",
+      "label": "Send",
+      "bbox": {
+        "x": 0.0891,
+        "y": 0.8209,
+        "w": 0.15,
+        "h": 0.0781
+      },
+      "parent": 7
+    },
+    {
+      "type": "button",
+      "label": "Cancel",
+      "bbox": {
+        "x": 0.2768,
+        "y": 0.8209,
+        "w": 0.15,
+        "h": 0.0781
+      },
+      "parent": 7,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Send",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "NorthBank",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Accounts",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Transfers",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Cards",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Logout",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Transfer money",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "From account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Recipient account number",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Recipient account number",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Amount",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Amount",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Reference",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Save recipient",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Send",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Cancel",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Send",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

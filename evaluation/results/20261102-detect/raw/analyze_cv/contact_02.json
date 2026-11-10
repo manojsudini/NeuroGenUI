@@ -1,0 +1,272 @@
+{
+ "_ok": true,
+ "_wall_ms": 4008.6,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.0864,
+     "w": 0.871,
+     "h": 0.1232
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Acme",
+    "bbox": {
+     "x": 0.106,
+     "y": 0.1218,
+     "w": 0.092,
+     "h": 0.0708
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Services",
+    "bbox": {
+     "x": 0.727,
+     "y": 0.1232,
+     "w": 0.099,
+     "h": 0.0524
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.639,
+     "y": 0.1261,
+     "w": 0.065,
+     "h": 0.0453
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Contact",
+    "bbox": {
+     "x": 0.845,
+     "y": 0.1303,
+     "w": 0.093,
+     "h": 0.0425
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Get in touch",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.2535,
+     "w": 0.229,
+     "h": 0.0694
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.2635,
+     "w": 0.231,
+     "h": 0.0708
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.3569,
+     "w": 0.464,
+     "h": 0.0737
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.6,
+     "y": 0.3626,
+     "w": 0.356,
+     "h": 0.2918
+    },
+    "confidence": 0.906,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.4618,
+     "w": 0.461,
+     "h": 0.0722
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Subject",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.5524,
+     "w": 0.46,
+     "h": 0.0737
+    },
+    "confidence": 0.821,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Message",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.6501,
+     "w": 0.46,
+     "h": 0.0737
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "123Main St,Springfield",
+    "bbox": {
+     "x": 0.598,
+     "y": 0.6756,
+     "w": 0.271,
+     "h": 0.0524
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "+15550100",
+    "bbox": {
+     "x": 0.597,
+     "y": 0.7436,
+     "w": 0.15,
+     "h": 0.0439
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "hello@acme.com",
+    "bbox": {
+     "x": 0.596,
+     "y": 0.8045,
+     "w": 0.173,
+     "h": 0.0496
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.529,
+     "y": 0.8076,
+     "w": 0.0195,
+     "h": 0.0322
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Submit",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.8569,
+     "w": 0.173,
+     "h": 0.0892
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 706,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 3877,
+   "vision_ms": 0,
+   "total_ms": 4008
+  },
+  "n_cv_candidates": 22
+ }
+}

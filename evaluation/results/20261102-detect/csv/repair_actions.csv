@@ -1,0 +1,3 @@
+sketch,iteration,check,target,action,result
+shop_01,1,event:lnk_cart:click,lnk_cart,rebuild_handler,still failing
+book_01,1,typing:chk_check_out,chk_check_out,recompile_safe,still failing

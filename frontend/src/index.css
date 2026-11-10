@@ -1,0 +1,285 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/onest';
+@import '@fontsource-variable/fira-code';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* ---------- Design tokens: "precise, creative, studio-calm" ---------- */
+:root {
+  --bg: #f7f6f3;
+  --bg-subtle: #f0efeb;
+  --surface: #ffffff;
+  --surface-2: #f8f7f4;
+  --surface-hover: #f1f0ec;
+  --border: #e5e3dd;
+  --border-strong: #d3d0c8;
+  --fg: #1b1a18;
+  --fg-muted: #63605a;
+  --fg-subtle: #9a968e;
+  --accent: #0e7c8f;
+  --accent-hover: #0b6677;
+  --accent-fg: #ffffff;
+  --accent-soft: #e3f4f6;
+  --accent-soft-fg: #0a5f6e;
+  --success: #128a4a;
+  --success-soft: #e7f6ed;
+  --warning: #b97400;
+  --warning-soft: #fcf3e0;
+  --danger: #d9302c;
+  --danger-soft: #fdecea;
+  --info: #2f66b3;
+  --info-soft: #e7eefa;
+  --paper: #fffefb;
+  --ink: #1f1d1a;
+  --ring: color-mix(in oklab, var(--accent) 45%, transparent);
+  --shadow-sm: 0 1px 2px rgb(27 26 24 / 0.05);
+  --shadow-md: 0 1px 2px rgb(27 26 24 / 0.04), 0 6px 20px -6px rgb(27 26 24 / 0.1);
+  --shadow-lg: 0 2px 6px rgb(27 26 24 / 0.04), 0 24px 60px -16px rgb(27 26 24 / 0.22);
+  --grid: rgb(27 26 24 / 0.05);
+  --paper-grid: rgb(27 26 24 / 0.07);
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg: #0c0b0b;
+  --bg-subtle: #111010;
+  --surface: #161514;
+  --surface-2: #1b1a19;
+  --surface-hover: #22201f;
+  --border: #2a2826;
+  --border-strong: #3b3835;
+  --fg: #eeece8;
+  --fg-muted: #a7a39c;
+  --fg-subtle: #6f6b65;
+  --accent: #2dc4d8;
+  --accent-hover: #55d3e3;
+  --accent-fg: #04181c;
+  --accent-soft: #0b2a30;
+  --accent-soft-fg: #6fdbea;
+  --success: #3ccf7f;
+  --success-soft: #0f2a1b;
+  --warning: #f2b23e;
+  --warning-soft: #2b2110;
+  --danger: #ff6461;
+  --danger-soft: #2f1413;
+  --info: #7fb0f2;
+  --info-soft: #122036;
+  --paper: #1a1918;
+  --ink: #ece9e3;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px -8px rgb(0 0 0 / 0.6);
+  --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.4), 0 30px 70px -20px rgb(0 0 0 / 0.8);
+  --grid: rgb(255 255 255 / 0.035);
+  --paper-grid: rgb(255 255 255 / 0.06);
+  color-scheme: dark;
+}
+
+@theme {
+  /* exactly two weights across the app: regular + one emphasis weight */
+  --font-weight-medium: 560;
+  --font-weight-semibold: 560;
+  --font-weight-bold: 560;
+}
+
+@theme inline {
+  --font-sans: 'Onest Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Fira Code Variable', ui-monospace, monospace;
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-hover: var(--surface-hover);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-soft-fg: var(--accent-soft-fg);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --shadow-xs: var(--shadow-sm);
+  --shadow-card: var(--shadow-md);
+  --shadow-pop: var(--shadow-lg);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ---------- Base ---------- */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+}
+::selection {
+  background: color-mix(in oklab, var(--accent) 25%, transparent);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  button,
+  [role='button'],
+  summary,
+  label[for],
+  select {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) {
+  z-index: 2;
+}
+
+/* ---------- Utilities ---------- */
+.bg-grid {
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.paper-grid {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--paper-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--paper-grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.paper-plain {
+  background-color: var(--paper);
+}
+.checker {
+  background-color: var(--surface-2);
+  background-image:
+    linear-gradient(45deg, var(--surface-hover) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--surface-hover) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--surface-hover) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--surface-hover) 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
+.mask-fade-b {
+  mask-image: linear-gradient(to bottom, #000 40%, transparent);
+}
+.shimmer {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-hover) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* pulsing dot for live stages */
+@keyframes ping-soft {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent) 45%, transparent); }
+  80%, 100% { box-shadow: 0 0 0 7px transparent; }
+}
+.ping-soft {
+  animation: ping-soft 1.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* ---------- CodeMirror, themed through tokens ---------- */
+.cm-theme .cm-editor {
+  height: 100%;
+  background: var(--surface);
+  color: var(--fg);
+  font-size: 12.5px;
+}
+.cm-theme .cm-editor.cm-focused {
+  outline: none;
+}
+.cm-theme .cm-scroller {
+  font-family: var(--font-mono);
+  line-height: 1.6;
+}
+.cm-theme .cm-gutters {
+  background: var(--surface-2);
+  color: var(--fg-subtle);
+  border-right: 1px solid var(--border);
+}
+.cm-theme .cm-activeLine {
+  background: color-mix(in oklab, var(--surface-hover) 70%, transparent);
+}
+.cm-theme .cm-activeLineGutter {
+  background: var(--surface-hover);
+  color: var(--fg);
+}
+.cm-theme .cm-cursor {
+  border-left-color: var(--accent);
+}
+.cm-theme .cm-selectionBackground,
+.cm-theme .cm-editor.cm-focused .cm-selectionBackground,
+.cm-theme .cm-content ::selection {
+  background: color-mix(in oklab, var(--accent) 22%, transparent) !important;
+}
+.cm-theme .cm-matchingBracket {
+  background: color-mix(in oklab, var(--accent) 18%, transparent);
+  outline: none;
+}
+.cm-theme .cm-foldPlaceholder {
+  background: var(--surface-2);
+  border-color: var(--border);
+  color: var(--fg-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- Studio surfaces ---------- */
+.dot-grid {
+  background-image: radial-gradient(var(--border-strong) 1px, transparent 1px);
+  background-size: 18px 18px;
+  background-position: 9px 9px;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "neurogenui-evaluation-tools",
+  "private": true,
+  "type": "module",
+  "description": "Static code-quality metrics for generated React code (babel parser + eslint react plugin)",
+  "dependencies": {
+    "@babel/parser": "^7.29.12",
+    "@babel/traverse": "^7.29.12",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^15.15.0"
+  }
+}

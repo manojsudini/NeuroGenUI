@@ -1,0 +1,19 @@
+{
+ "_ok": true,
+ "_wall_ms": 1862.6,
+ "value": {
+  "ops": [
+   {
+    "op": "remove",
+    "target": {
+     "ref": "email me a copy checkbox",
+     "id": "chk_email_me_a"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1861,
+  "raw": "{\"ops\":[{\"op\":\"remove\",\"target\":{\"ref\":\"email me a copy checkbox\",\"id\":\"chk_email_me_a\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

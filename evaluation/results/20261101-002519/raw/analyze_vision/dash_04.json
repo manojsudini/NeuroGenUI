@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 7442.3,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.96,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Insight",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.03,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "New project",
+    "bbox": {
+     "x": 0.82,
+     "y": 0.03,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Dashboard",
+    "bbox": {
+     "x": 0.2,
+     "y": 0.035,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Projects",
+    "bbox": {
+     "x": 0.33,
+     "y": 0.035,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Team",
+    "bbox": {
+     "x": 0.44,
+     "y": 0.035,
+     "w": 0.08,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "select",
+    "label": "Last 30 days",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.14,
+     "w": 0.2,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Export",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.14,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.22,
+     "w": 0.96,
+     "h": 0.3
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "line chart",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.25,
+     "w": 0.9,
+     "h": 0.22
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.55,
+     "w": 0.46,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.55,
+     "w": 0.46,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Tasks done",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.56,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 10
+   },
+   {
+    "type": "heading",
+    "label": "Open issues",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.56,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "summary text",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.63,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": 10
+   },
+   {
+    "type": "text",
+    "label": "summary text",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.63,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": 11
+   }
+  ],
+  "width": 1000,
+  "height": 688,
+  "mode": "vision",
+  "title": "Insight Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7434,
+   "total_ms": 7441
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

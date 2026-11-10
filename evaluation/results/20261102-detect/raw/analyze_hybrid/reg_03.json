@@ -1,0 +1,155 @@
+{
+ "_ok": true,
+ "_wall_ms": 18776.5,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Join the club",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.1036,
+     "w": 0.227,
+     "h": 0.0661
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.1036,
+     "w": 0.39,
+     "h": 0.7
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.2132,
+     "w": 0.3745,
+     "h": 0.0747
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.3357,
+     "w": 0.427,
+     "h": 0.0857
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.853,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.4554,
+     "w": 0.43,
+     "h": 0.0982
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.874,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.5679,
+     "w": 0.432,
+     "h": 0.0946
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Subscribe to newsletter",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.7,
+     "w": 0.285,
+     "h": 0.0447
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.912,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.7839,
+     "w": 0.162,
+     "h": 0.0946
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.284,
+     "y": 0.7821,
+     "w": 0.168,
+     "h": 0.0946
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Join the club signup form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 13096,
+   "vision_ms": 5457,
+   "total_ms": 18776
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

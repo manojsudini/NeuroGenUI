@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1998.5,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "Privacy policy",
+     "id": "lnk_privacy_policy"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Log out",
+      "id": "btn_log_out"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1997,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"Privacy policy\",\"id\":\"lnk_privacy_policy\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Log out\",\"id\":\"btn_log_out\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

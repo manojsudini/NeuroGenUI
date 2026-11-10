@@ -1,0 +1,200 @@
+{
+ "_ok": true,
+ "_wall_ms": 13152.1,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.0573,
+     "w": 0.892,
+     "h": 0.2398
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.877,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.3318,
+     "w": 0.111,
+     "h": 0.1538
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Alex Kim",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.3575,
+     "w": 0.12,
+     "h": 0.0513
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Edit profile",
+    "bbox": {
+     "x": 0.761,
+     "y": 0.3635,
+     "w": 0.194,
+     "h": 0.098
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "@ealexk",
+    "bbox": {
+     "x": 0.221,
+     "y": 0.4284,
+     "w": 0.072,
+     "h": 0.0468
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "120 posts",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.5234,
+     "w": 0.097,
+     "h": 0.0558
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "4.5k followers",
+    "bbox": {
+     "x": 0.361,
+     "y": 0.5204,
+     "w": 0.135,
+     "h": 0.0513
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "300 following",
+    "bbox": {
+     "x": 0.667,
+     "y": 0.5219,
+     "w": 0.127,
+     "h": 0.0528
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Posts",
+    "bbox": {
+     "x": 0.055,
+     "y": 0.6078,
+     "w": 0.068,
+     "h": 0.0483
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.364,
+     "y": 0.6833,
+     "w": 0.288,
+     "h": 0.2398
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.6908,
+     "w": 0.283,
+     "h": 0.2187
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.67,
+     "y": 0.6938,
+     "w": 0.28,
+     "h": 0.2262
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 663,
+  "mode": "hybrid",
+  "title": "User Profile Page",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 7427,
+   "vision_ms": 5620,
+   "total_ms": 13152
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 14
+ }
+}

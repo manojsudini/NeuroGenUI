@@ -1,0 +1,227 @@
+{
+  "id": "hold_book_01",
+  "category": "booking",
+  "title": "Reserve a table",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_book_01')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": 2.63,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 740,
+  "instruction": "A restaurant reservation page with the heading Reserve a table, a Party size dropdown (1, 2, 4, 6), a Date field, 7:00 pm and 8:30 pm radio buttons, Your name and Phone fields, a Special requests text area and a full width Reserve button. Reserve shows an error if the date or name is empty, otherwise the message Table reserved.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Reserve a table",
+      "bbox": {
+        "x": 0.3056,
+        "y": 0.0924,
+        "w": 0.2656,
+        "h": 0.0937
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "select",
+      "label": "Party size",
+      "bbox": {
+        "x": 0.3029,
+        "y": 0.1877,
+        "w": 0.4352,
+        "h": 0.0957
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "1",
+          "2",
+          "4",
+          "6"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date",
+      "bbox": {
+        "x": 0.3002,
+        "y": 0.2741,
+        "w": 0.4358,
+        "h": 0.0966
+      },
+      "parent": null,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "7:00 pm",
+      "bbox": {
+        "x": 0.2983,
+        "y": 0.3606,
+        "w": 0.1192,
+        "h": 0.0485
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "8:30 pm",
+      "bbox": {
+        "x": 0.2965,
+        "y": 0.4193,
+        "w": 0.1242,
+        "h": 0.049
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Your name",
+      "bbox": {
+        "x": 0.2937,
+        "y": 0.4781,
+        "w": 0.4372,
+        "h": 0.0987
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Phone",
+      "bbox": {
+        "x": 0.291,
+        "y": 0.5653,
+        "w": 0.4378,
+        "h": 0.0996
+      },
+      "parent": null,
+      "props": {
+        "inputType": "tel"
+      }
+    },
+    {
+      "type": "textarea",
+      "label": "Special requests",
+      "bbox": {
+        "x": 0.2869,
+        "y": 0.6527,
+        "w": 0.4397,
+        "h": 0.1422
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Reserve",
+      "bbox": {
+        "x": 0.2841,
+        "y": 0.7816,
+        "w": 0.4393,
+        "h": 0.1019
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Reserve",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Reserve a table",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Party size",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Date",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Date",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "7:00 pm",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "8:30 pm",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Your name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Phone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Phone",
+      "input_type": "tel",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "textarea",
+      "label_contains": "Special requests",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Reserve",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Reserve",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

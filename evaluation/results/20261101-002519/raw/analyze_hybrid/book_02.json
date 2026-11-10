@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 7626.2,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Book appointment",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.05,
+     "w": 0.7,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Select doctor",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.12,
+     "w": 0.7,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.249,
+     "y": 0.1277,
+     "w": 0.541,
+     "h": 0.3191
+    },
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Date",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.21,
+     "w": 0.7,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.742,
+     "y": 0.3584,
+     "w": 0.033,
+     "h": 0.0556
+    },
+    "confidence": 0.847,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Time slot",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.4763,
+     "w": 0.087,
+     "h": 0.0311
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.5466,
+     "w": 0.029,
+     "h": 0.0491
+    },
+    "confidence": 0.931,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.5483,
+     "w": 0.028,
+     "h": 0.0458
+    },
+    "confidence": 0.941,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.625,
+     "y": 0.5516,
+     "w": 0.025,
+     "h": 0.0376
+    },
+    "confidence": 0.941,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "9:00",
+    "bbox": {
+     "x": 0.291,
+     "y": 0.5581,
+     "w": 0.036,
+     "h": 0.0295
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "11:00",
+    "bbox": {
+     "x": 0.476,
+     "y": 0.5581,
+     "w": 0.046,
+     "h": 0.0295
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "15:00",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.5565,
+     "w": 0.046,
+     "h": 0.0344
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.253,
+     "y": 0.6154,
+     "w": 0.536,
+     "h": 0.2013
+    },
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Reason for visit",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.6514,
+     "w": 0.137,
+     "h": 0.0327
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.765,
+     "y": 0.7741,
+     "w": 0.016,
+     "h": 0.0262
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "button",
+    "label": "Confirm booking",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.8282,
+     "w": 0.534,
+     "h": 0.108
+    },
+    "confidence": 0.869,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 611,
+  "mode": "hybrid",
+  "title": "Book appointment form",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 31,
+   "vision_ms": 7584,
+   "total_ms": 7626
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 14
+ }
+}

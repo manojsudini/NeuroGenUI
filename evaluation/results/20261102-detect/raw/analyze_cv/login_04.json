@@ -1,0 +1,139 @@
+{
+ "_ok": true,
+ "_wall_ms": 3726.0,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.042,
+     "y": 0.1,
+     "w": 0.413,
+     "h": 0.7643
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "AdminPortal",
+    "bbox": {
+     "x": 0.513,
+     "y": 0.1036,
+     "w": 0.232,
+     "h": 0.0679
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Please signn tocontinue",
+    "bbox": {
+     "x": 0.511,
+     "y": 0.2161,
+     "w": 0.262,
+     "h": 0.05
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.514,
+     "y": 0.2893,
+     "w": 0.414,
+     "h": 0.1036
+    },
+    "confidence": 0.862,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.512,
+     "y": 0.4161,
+     "w": 0.416,
+     "h": 0.0893
+    },
+    "confidence": 0.779,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Rde",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.5393,
+     "w": 0.413,
+     "h": 0.1071
+    },
+    "confidence": 0.835,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Login",
+    "bbox": {
+     "x": 0.579,
+     "y": 0.6875,
+     "w": 0.063,
+     "h": 0.0554
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Needhelp?",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.7911,
+     "w": 0.116,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 3648,
+   "vision_ms": 0,
+   "total_ms": 3725
+  },
+  "n_cv_candidates": 13
+ }
+}

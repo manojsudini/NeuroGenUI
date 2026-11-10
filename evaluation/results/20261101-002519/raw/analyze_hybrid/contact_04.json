@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 6883.7,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.0929,
+     "w": 0.891,
+     "h": 0.1589
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Acme Studio",
+    "bbox": {
+     "x": 0.072,
+     "y": 0.1464,
+     "w": 0.158,
+     "h": 0.0518
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.2643,
+     "w": 0.297,
+     "h": 0.3643
+    },
+    "confidence": 0.921,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.2661,
+     "w": 0.296,
+     "h": 0.3625
+    },
+    "confidence": 0.899,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.3232,
+     "w": 0.043,
+     "h": 0.0768
+    },
+    "confidence": 0.89,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.685,
+     "y": 0.3232,
+     "w": 0.043,
+     "h": 0.075
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.073,
+     "y": 0.325,
+     "w": 0.044,
+     "h": 0.0714
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.389,
+     "y": 0.3411,
+     "w": 0.022,
+     "h": 0.0375
+    },
+    "confidence": 0.882,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Call",
+    "bbox": {
+     "x": 0.077,
+     "y": 0.4446,
+     "w": 0.042,
+     "h": 0.0375
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.381,
+     "y": 0.4446,
+     "w": 0.059,
+     "h": 0.0375
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Visit",
+    "bbox": {
+     "x": 0.688,
+     "y": 0.4429,
+     "w": 0.05,
+     "h": 0.0375
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "+1 555 0199",
+    "bbox": {
+     "x": 0.077,
+     "y": 0.5339,
+     "w": 0.101,
+     "h": 0.0339
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "hi@acme.studio",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.5321,
+     "w": 0.136,
+     "h": 0.0375
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "12 Park Lane",
+    "bbox": {
+     "x": 0.688,
+     "y": 0.5304,
+     "w": 0.115,
+     "h": 0.0339
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Newsletter",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.675,
+     "w": 0.113,
+     "h": 0.0393
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Your email",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.7554,
+     "w": 0.66,
+     "h": 0.1089
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Subscribe",
+    "bbox": {
+     "x": 0.728,
+     "y": 0.7589,
+     "w": 0.218,
+     "h": 0.1071
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Contact Information and Newsletter Signup",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 31,
+   "vision_ms": 6843,
+   "total_ms": 6883
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

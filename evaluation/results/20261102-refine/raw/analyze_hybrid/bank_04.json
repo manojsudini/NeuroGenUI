@@ -1,0 +1,160 @@
+{
+ "_ok": true,
+ "_wall_ms": 5930.4,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Loan calculator",
+    "bbox": {
+     "x": 0.235,
+     "y": 0.0963,
+     "w": 0.284,
+     "h": 0.049
+    },
+    "shape": "text",
+    "confidence": 0.795,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Loan amount",
+    "bbox": {
+     "x": 0.229,
+     "y": 0.1804,
+     "w": 0.493,
+     "h": 0.1173
+    },
+    "shape": "rect",
+    "confidence": 0.765,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Interest rate",
+    "bbox": {
+     "x": 0.224,
+     "y": 0.3187,
+     "w": 0.499,
+     "h": 0.1226
+    },
+    "shape": "rect",
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Term",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.4816,
+     "w": 0.053,
+     "h": 0.021
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.4834,
+     "w": 0.02,
+     "h": 0.0228
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Calculate",
+    "bbox": {
+     "x": 0.237,
+     "y": 0.5692,
+     "w": 0.487,
+     "h": 0.1086
+    },
+    "shape": "rect",
+    "confidence": 0.885,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.6865,
+     "w": 0.501,
+     "h": 0.2662
+    },
+    "shape": "rect",
+    "confidence": 0.938,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Monthly",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.7496,
+     "w": 0.076,
+     "h": 0.0403
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "payment",
+    "bbox": {
+     "x": 0.341,
+     "y": 0.7478,
+     "w": 0.079,
+     "h": 0.042
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "icon",
+    "label": "$0",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.8249,
+     "w": 0.029,
+     "h": 0.0543
+    },
+    "shape": "circle",
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": 6
+   }
+  ],
+  "width": 1000,
+  "height": 571,
+  "mode": "hybrid",
+  "title": "Loan calculator",
+  "category": "other",
+  "timings": {
+   "cv_ms": 33,
+   "vision_ms": 5889,
+   "total_ms": 5930
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 13
+ }
+}

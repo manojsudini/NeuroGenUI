@@ -1,0 +1,132 @@
+{
+ "_ok": true,
+ "_wall_ms": 5426.7,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.09,
+     "w": 0.525,
+     "h": 0.3343
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "FitTrack",
+    "bbox": {
+     "x": 0.441,
+     "y": 0.4586,
+     "w": 0.135,
+     "h": 0.05
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.55,
+     "w": 0.482,
+     "h": 0.0514
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Download app",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.6286,
+     "w": 0.522,
+     "h": 0.1086
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Watch demo",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.74,
+     "w": 0.517,
+     "h": 0.0943
+    },
+    "shape": "rect",
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.304,
+     "y": 0.85,
+     "w": 0.048,
+     "h": 0.0629
+    },
+    "shape": "text",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.485,
+     "y": 0.8514,
+     "w": 0.045,
+     "h": 0.06
+    },
+    "shape": "text",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.665,
+     "y": 0.8486,
+     "w": 0.044,
+     "h": 0.0643
+    },
+    "shape": "circle",
+    "confidence": 0.871,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 700,
+  "mode": "hybrid",
+  "title": "FitTrack Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 36,
+   "vision_ms": 5382,
+   "total_ms": 5426
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 15
+ }
+}

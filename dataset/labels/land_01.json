@@ -1,0 +1,426 @@
+{
+  "id": "land_01",
+  "category": "landing",
+  "title": "Nimbus",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('land_01')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 744,
+  "instruction": "A landing page for Nimbus: a navbar with Features, Pricing, About and a Get started button, a hero with the headline Cloud storage made simple, a paragraph, Try free and Learn more buttons and a hero image, and three feature cards: Fast, Secure and Synced. Try free opens a Sign up page and Pricing opens a Pricing page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0619,
+        "y": 0.0691,
+        "w": 0.8679,
+        "h": 0.1102
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Nimbus",
+      "bbox": {
+        "x": 0.0819,
+        "y": 0.0929,
+        "w": 0.0988,
+        "h": 0.0626
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Features",
+      "bbox": {
+        "x": 0.4524,
+        "y": 0.0998,
+        "w": 0.0809,
+        "h": 0.0488
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Pricing",
+      "bbox": {
+        "x": 0.5634,
+        "y": 0.0998,
+        "w": 0.069,
+        "h": 0.0488
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "About",
+      "bbox": {
+        "x": 0.6623,
+        "y": 0.0998,
+        "w": 0.0552,
+        "h": 0.0488
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "Get started",
+      "bbox": {
+        "x": 0.7475,
+        "y": 0.0879,
+        "w": 0.1623,
+        "h": 0.0726
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Cloud storage made simple",
+      "bbox": {
+        "x": 0.0619,
+        "y": 0.2169,
+        "w": 0.412,
+        "h": 0.0742
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0619,
+        "y": 0.3153,
+        "w": 0.412,
+        "h": 0.0968
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    },
+    {
+      "type": "button",
+      "label": "Try free",
+      "bbox": {
+        "x": 0.0619,
+        "y": 0.4363,
+        "w": 0.197,
+        "h": 0.0726
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Learn more",
+      "bbox": {
+        "x": 0.2769,
+        "y": 0.4363,
+        "w": 0.197,
+        "h": 0.0726
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.5179,
+        "y": 0.2169,
+        "w": 0.412,
+        "h": 0.4032
+      },
+      "parent": null,
+      "props": {
+        "alt": "hero",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0619,
+        "y": 0.6578,
+        "w": 0.2733,
+        "h": 0.2699
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.0839,
+        "y": 0.6874,
+        "w": 0.044,
+        "h": 0.0591
+      },
+      "parent": 11,
+      "props": {
+        "glyph": "bolt"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Fast",
+      "bbox": {
+        "x": 0.0839,
+        "y": 0.7653,
+        "w": 0.0474,
+        "h": 0.0522
+      },
+      "parent": 11,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0839,
+        "y": 0.8363,
+        "w": 0.2293,
+        "h": 0.0618
+      },
+      "parent": 11,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3592,
+        "y": 0.6578,
+        "w": 0.2733,
+        "h": 0.2699
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.3812,
+        "y": 0.6874,
+        "w": 0.044,
+        "h": 0.0591
+      },
+      "parent": 15,
+      "props": {
+        "glyph": "lock"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Secure",
+      "bbox": {
+        "x": 0.3812,
+        "y": 0.7653,
+        "w": 0.0744,
+        "h": 0.0522
+      },
+      "parent": 15,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.3812,
+        "y": 0.8363,
+        "w": 0.2293,
+        "h": 0.0618
+      },
+      "parent": 15,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6565,
+        "y": 0.6578,
+        "w": 0.2733,
+        "h": 0.2699
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.6785,
+        "y": 0.6874,
+        "w": 0.044,
+        "h": 0.0591
+      },
+      "parent": 19,
+      "props": {
+        "glyph": "cloud"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Synced",
+      "bbox": {
+        "x": 0.6785,
+        "y": 0.7653,
+        "w": 0.0768,
+        "h": 0.0522
+      },
+      "parent": 19,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.6785,
+        "y": 0.8363,
+        "w": 0.2293,
+        "h": 0.0618
+      },
+      "parent": 19,
+      "props": {
+        "scribble_lines": 2
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Try free",
+      "expect": {
+        "type": "navigate",
+        "page": "Sign up"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Pricing",
+      "expect": {
+        "type": "navigate",
+        "page": "Pricing"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Nimbus",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Features",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Pricing",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "About",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Get started",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Cloud storage made simple",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Try free",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Learn more",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Fast",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Secure",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Synced",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Try free",
+      "expect": {
+        "type": "navigate",
+        "page": "Sign up"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Pricing",
+      "expect": {
+        "type": "navigate",
+        "page": "Pricing"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

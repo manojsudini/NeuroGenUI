@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 717.0,
+ "value": {
+  "text": "Clicking Cancel should show the message Transfer Cancelled.",
+  "model": "whisper-1",
+  "duration_ms": 716
+ }
+}

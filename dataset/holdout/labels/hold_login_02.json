@@ -1,0 +1,261 @@
+{
+  "id": "hold_login_02",
+  "category": "login",
+  "title": "Workspace sign in",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_login_02')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 1.5,
+    "scratch_outs": 2
+  },
+  "width": 1000,
+  "height": 602,
+  "instruction": "A split screen: on the left a team photo, the heading Work together and a short paragraph; on the right a card with the heading Sign in to your workspace, a Work email field, a full width Continue button, a divider, Continue with GitHub and Continue with Microsoft buttons and a Create a workspace link. Continue checks that the email is valid and Create a workspace opens a Workspace setup page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0724,
+        "y": 0.1258,
+        "w": 0.4067,
+        "h": 0.4904
+      },
+      "parent": null,
+      "props": {
+        "alt": "team photo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Work together",
+      "bbox": {
+        "x": 0.0723,
+        "y": 0.6245,
+        "w": 0.1956,
+        "h": 0.0878
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0722,
+        "y": 0.7289,
+        "w": 0.4005,
+        "h": 0.1287
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.5095,
+        "y": 0.1425,
+        "w": 0.4177,
+        "h": 0.7434
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Sign in to your workspace",
+      "bbox": {
+        "x": 0.538,
+        "y": 0.1786,
+        "w": 0.3666,
+        "h": 0.0957
+      },
+      "parent": 3,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Work email",
+      "bbox": {
+        "x": 0.5366,
+        "y": 0.2857,
+        "w": 0.3661,
+        "h": 0.1001
+      },
+      "parent": 3,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Continue",
+      "bbox": {
+        "x": 0.5353,
+        "y": 0.3968,
+        "w": 0.3651,
+        "h": 0.1
+      },
+      "parent": 3
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.5347,
+        "y": 0.5073,
+        "w": 0.3633,
+        "h": 0.0368
+      },
+      "parent": 3
+    },
+    {
+      "type": "button",
+      "label": "Continue with GitHub",
+      "bbox": {
+        "x": 0.5334,
+        "y": 0.5545,
+        "w": 0.3637,
+        "h": 0.0997
+      },
+      "parent": 3,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Continue with Microsoft",
+      "bbox": {
+        "x": 0.532,
+        "y": 0.6642,
+        "w": 0.3627,
+        "h": 0.0995
+      },
+      "parent": 3,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "link",
+      "label": "Create a workspace",
+      "bbox": {
+        "x": 0.6152,
+        "y": 0.7769,
+        "w": 0.1925,
+        "h": 0.0703
+      },
+      "parent": 3
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Continue",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Work email",
+        "format": "email"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Create a workspace",
+      "expect": {
+        "type": "navigate",
+        "page": "Workspace setup"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Work together",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Sign in to your workspace",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Work email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Work email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Continue",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Continue with GitHub",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Continue with Microsoft",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Create a workspace",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Continue",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Work email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Create a workspace",
+      "expect": {
+        "type": "navigate",
+        "page": "Workspace setup"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 811.9,
+ "value": {
+  "text": "The send button should be red.",
+  "model": "whisper-1",
+  "duration_ms": 811
+ }
+}

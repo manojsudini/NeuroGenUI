@@ -1,0 +1,30 @@
+{
+ "_ok": true,
+ "_wall_ms": 2451.5,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "submit button",
+     "id": "btn_submit"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_format",
+       "target": "email field",
+       "format": "email",
+       "message": "Enter a valid email address."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2450,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"submit button\",\"id\":\"btn_submit\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_format\",\"targets\":null,\"target\":\"email field\",\"format\":\"email\",\"message\":\"Enter a valid email address.\" \t,\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

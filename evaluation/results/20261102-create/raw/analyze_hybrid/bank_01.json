@@ -1,0 +1,188 @@
+{
+ "_ok": true,
+ "_wall_ms": 4913.3,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.0525,
+     "w": 0.538,
+     "h": 0.1794
+    },
+    "shape": "rect",
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.714,
+     "y": 0.1049,
+     "w": 0.042,
+     "h": 0.0778
+    },
+    "shape": "circle",
+    "confidence": 0.91,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "MyBank",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.1252,
+     "w": 0.101,
+     "h": 0.0609
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Savings account",
+    "bbox": {
+     "x": 0.271,
+     "y": 0.2978,
+     "w": 0.144,
+     "h": 0.044
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "$12,480.50",
+    "bbox": {
+     "x": 0.272,
+     "y": 0.3875,
+     "w": 0.166,
+     "h": 0.0626
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Transfer",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.5212,
+     "w": 0.17,
+     "h": 0.1015
+    },
+    "shape": "rect",
+    "confidence": 0.876,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Deposit",
+    "bbox": {
+     "x": 0.604,
+     "y": 0.5245,
+     "w": 0.168,
+     "h": 0.0998
+    },
+    "shape": "rect",
+    "confidence": 0.891,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Pay bills",
+    "bbox": {
+     "x": 0.423,
+     "y": 0.5262,
+     "w": 0.172,
+     "h": 0.0931
+    },
+    "shape": "rect",
+    "confidence": 0.857,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Transactions",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.6701,
+     "w": 0.135,
+     "h": 0.0372
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Rent -$900",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.7665,
+     "w": 0.128,
+     "h": 0.0338
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Salary +$3,100",
+    "bbox": {
+     "x": 0.249,
+     "y": 0.8206,
+     "w": 0.162,
+     "h": 0.044
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Netflix -$12",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.8799,
+     "w": 0.14,
+     "h": 0.0372
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 591,
+  "mode": "hybrid",
+  "title": "Bank Account Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 40,
+   "vision_ms": 4865,
+   "total_ms": 4913
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 15
+ }
+}

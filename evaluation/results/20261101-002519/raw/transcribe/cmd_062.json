@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 2056.9,
+ "value": {
+  "text": "When Next is clicked, check that all the fields are filled in.",
+  "model": "whisper-1",
+  "duration_ms": 2056
+ }
+}

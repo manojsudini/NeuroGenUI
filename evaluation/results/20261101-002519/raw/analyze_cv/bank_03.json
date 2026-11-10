@@ -1,0 +1,253 @@
+{
+ "_ok": true,
+ "_wall_ms": 78.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.0576,
+     "w": 0.907,
+     "h": 0.1096
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.0941,
+     "w": 0.154,
+     "h": 0.0323
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.783,
+     "y": 0.0941,
+     "w": 0.071,
+     "h": 0.0407
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.0955,
+     "w": 0.096,
+     "h": 0.0239
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.886,
+     "y": 0.0955,
+     "w": 0.04,
+     "h": 0.0351
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.122,
+     "y": 0.2008,
+     "w": 0.104,
+     "h": 0.0449
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.2065,
+     "w": 0.055,
+     "h": 0.0562
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.042,
+     "y": 0.2809,
+     "w": 0.449,
+     "h": 0.2865
+    },
+    "confidence": 0.932,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.2781,
+     "w": 0.45,
+     "h": 0.2837
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.072,
+     "y": 0.3315,
+     "w": 0.11,
+     "h": 0.0253
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.3301,
+     "w": 0.206,
+     "h": 0.0281
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.3904,
+     "w": 0.155,
+     "h": 0.0295
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.3933,
+     "w": 0.14,
+     "h": 0.0281
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.4438,
+     "w": 0.197,
+     "h": 0.0843
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.4452,
+     "w": 0.198,
+     "h": 0.0815
+    },
+    "confidence": 0.852,
+    "source": "cv",
+    "parent": 7
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.5955,
+     "w": 0.102,
+     "h": 0.0421
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.6475,
+     "w": 0.884,
+     "h": 0.2809
+    },
+    "confidence": 0.902,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.082,
+     "y": 0.743,
+     "w": 0.845,
+     "h": 0.0744
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 16
+   }
+  ],
+  "width": 1000,
+  "height": 712,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 66,
+   "vision_ms": 0,
+   "total_ms": 78
+  },
+  "n_cv_candidates": 22
+ }
+}

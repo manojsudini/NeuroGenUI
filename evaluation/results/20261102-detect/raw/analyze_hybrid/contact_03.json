@@ -1,0 +1,198 @@
+{
+ "_ok": true,
+ "_wall_ms": 10331.7,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.204,
+     "y": 0.0821,
+     "w": 0.625,
+     "h": 0.8143
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.95,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Support request",
+    "bbox": {
+     "x": 0.223,
+     "y": 0.1252,
+     "w": 0.263,
+     "h": 0.0579
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.526,
+     "y": 0.1992,
+     "w": 0.282,
+     "h": 0.0781
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Firstname",
+    "bbox": {
+     "x": 0.228,
+     "y": 0.2073,
+     "w": 0.278,
+     "h": 0.0727
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.894,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "select",
+    "label": "Topic",
+    "bbox": {
+     "x": 0.221,
+     "y": 0.2981,
+     "w": 0.5885,
+     "h": 0.0781
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Priority",
+    "bbox": {
+     "x": 0.217,
+     "y": 0.3903,
+     "w": 0.084,
+     "h": 0.0552
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "Low",
+    "bbox": {
+     "x": 0.218,
+     "y": 0.4536,
+     "w": 0.077,
+     "h": 0.0511
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "High",
+    "bbox": {
+     "x": 0.624,
+     "y": 0.4536,
+     "w": 0.086,
+     "h": 0.0592
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Medium",
+    "bbox": {
+     "x": 0.424,
+     "y": 0.459,
+     "w": 0.107,
+     "h": 0.0431
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "textarea",
+    "label": "Describe the issue",
+    "bbox": {
+     "x": 0.224,
+     "y": 0.5384,
+     "w": 0.585,
+     "h": 0.1696
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "checkbox",
+    "label": "Email me a copy",
+    "bbox": {
+     "x": 0.223,
+     "y": 0.7308,
+     "w": 0.181,
+     "h": 0.0498
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Submit ticket",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.8075,
+     "w": 0.135,
+     "h": 0.0471
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   }
+  ],
+  "width": 1000,
+  "height": 743,
+  "mode": "hybrid",
+  "title": "Support request form",
+  "category": "other",
+  "timings": {
+   "cv_ms": 3684,
+   "vision_ms": 6602,
+   "total_ms": 10331
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 20
+ }
+}

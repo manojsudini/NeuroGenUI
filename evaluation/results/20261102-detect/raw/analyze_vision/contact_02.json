@@ -1,0 +1,254 @@
+{
+ "_ok": true,
+ "_wall_ms": 8496.3,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.1,
+     "w": 0.9,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.1048,
+     "w": 0.364,
+     "h": 0.1104
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Acme",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.13,
+     "w": 0.084,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.5646,
+     "y": 0.13,
+     "w": 0.0954,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "nav_item",
+    "label": "Services",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.13,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "nav_item",
+    "label": "Contact",
+    "bbox": {
+     "x": 0.8,
+     "y": 0.13,
+     "w": 0.0994,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "heading",
+    "label": "Get in touch",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.28,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "form",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.38,
+     "w": 0.45,
+     "h": 0.55
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.38,
+     "w": 0.4,
+     "h": 0.55
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.41,
+     "w": 0.412,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.41,
+     "w": 0.364,
+     "h": 0.3
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.49,
+     "w": 0.412,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "input",
+    "label": "Subject",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.57,
+     "w": 0.412,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "textarea",
+    "label": "Message",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.65,
+     "w": 0.412,
+     "h": 0.15
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "123 Main St, Springfield",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.73,
+     "w": 0.364,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "+1 555 0100",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.79,
+     "w": 0.364,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Submit",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.83,
+     "w": 0.142,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "hello@acme.com",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.85,
+     "w": 0.364,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 8
+   }
+  ],
+  "width": 1000,
+  "height": 706,
+  "mode": "vision",
+  "title": "Contact Us Form",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 8456,
+   "total_ms": 8496
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "_ok": true,
+ "_wall_ms": 1604.7,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Choose Basic",
+     "id": "btn_choose_basic"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Basic plan selected.",
+       "tone": "info"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1603,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"Choose Basic\",\"id\":\"btn_choose_basic\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Basic plan selected.\",\"tone\":\"info\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,62 @@
+\section{Results}
+All results come from one full run over the \CountSketches{} sketches and \CountCommands{} commands (\ApiCalls{} cached model calls). Both systems use the same model, test cases and measurement code. Table~\ref{tab:headline} summarises every metric; the subsections discuss them. Differences on this test set are single-run, and several are small enough (a few commands out of 80) that we describe them as parity rather than wins.
+
+\input{generated/headline.tex}
+
+\subsection{Component Detection}
+Table~\ref{tab:detection} separates the sketch-analysis stage from what is actually rendered. At the analysis stage, the hybrid detector reaches F1 \ComponentDetectionFOPipeline{}\% against \textbf{42.9\%} for OpenCV alone and \textbf{33.5\%} for the vision model alone, so neither component is sufficient. OpenCV localises well (mean IoU of matched boxes 0.72) but cannot read text or reliably tell types apart (type accuracy 52.9\%); the vision model labels well (87.7\% label accuracy) but localises loosely (mean IoU 0.52). Hybrid keeps OpenCV's boxes and the vision model's labels (95.3\% label accuracy).
+
+The like-for-like comparison with the baseline is on the rendered DOM, because that is the only place the baseline's components exist. There the proposed pipeline scores F1 \ComponentDetectionFODomPipeline{}\% against \ComponentDetectionFODomBaseline{}\% for the baseline. A ground-truth oracle IR compiled by the same compiler scores 77.5\%, which bounds what the compiler achieves with perfect input and suggests that most of the remaining gap comes from upstream detection errors rather than code generation.
+
+\input{generated/detection.tex}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/eval/detection_f1_by_category.pdf}
+\caption{Detection F1 per screen category for each analysis mode and for the rendered DOM of both systems.}
+\label{fig:detcat}
+\end{figure}
+
+\subsection{Voice Command Accuracy}
+Whisper transcribes the synthesised commands with a corpus word error rate of \WhisperWerPipeline{}\%. From the Whisper transcript, \VoiceCommandAccuracyPipeline{}\% of commands are interpreted fully correctly (operation, target and parameters); from the reference text the figure is 93.8\% (Table~\ref{tab:voice}). Per category, add, remove, style, interaction and navigation are interpreted almost perfectly; resize is the weakest (60\% from the transcript) because quantities such as ``a bit bigger'' are ambiguous. Speech recognition errors cost about 2.6 percentage points relative to clean text (91.2\% vs.\ 93.8\%); we did not analyse which tokens were misrecognised.
+
+\input{generated/voice.tex}
+
+\subsection{Generated UI Quality}
+Table~\ref{tab:quality} reports visual and functional quality. The generated UI renders in 100\% of cases for both systems. Layout IoU against the sketch is 0.399 for the proposed pipeline and 0.283 for the baseline; the compiler's oracle ceiling is 0.593. Edge SSIM is nearly identical (0.52 vs.\ 0.51), so the two systems look equally similar to the sketch at the pixel-structure level; the gain is in component placement. Functional correctness is \FunctionalCorrectnessPipeline{}\% vs.\ \FunctionalCorrectnessBaseline{}\%, and the difference is almost entirely in navigation (92\% vs.\ 72\% of 25 specified interactions). Validation and message behaviours are equal. Requirement satisfaction is at parity (\RequirementSatisfactionPipeline{}\% vs.\ \RequirementSatisfactionBaseline{}\%); the baseline is better at honouring specific input types (97.1\% vs.\ 91.2\%).
+
+\input{generated/quality.tex}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/eval/generation_quality.pdf}
+\caption{Generated UI quality: pipeline, baseline and the ground-truth oracle.}
+\label{fig:quality}
+\end{figure}
+
+\subsection{Voice-Guided Refinement}
+Table~\ref{tab:refine} shows refinement success and preservation per command category. The proposed pipeline applies \RefinementSuccessRatePipeline{}\% of commands successfully against \RefinementSuccessRateBaseline{}\% for the baseline (93.8\% when the command goes through Whisper), a difference of four commands out of 80 that we do not claim as significant. The categories differ: the pipeline is better on add, style, navigation and resize; the baseline is better on modify and move (100\% on both). The clearer difference is preservation. Because refinements are operations on the existing IR, \PreservationRatePipeline{}\% of unaffected components are unchanged in type, text, colour, size and font, against \PreservationRateBaseline{}\% when the baseline regenerates the program. Latency differs by an order of magnitude: \ModificationTimeMsPipeline{}\,s on average for the pipeline (one short interpretation call plus deterministic edit and compile) against \ModificationTimeMsBaseline{}\,s for a full regeneration.
+
+\input{generated/refine.tex}
+
+\subsection{Validation and Repair}
+After the development fixes described in Section~\ref{sec:dev}, \ValidationPassRateBeforeRepairPipeline{}\% of generated UIs pass validation before repair, so on this test set the repair loop is not triggered during normal generation and we cannot measure a pass-rate improvement. We therefore evaluate validation and repair directly by \emph{fault injection} (Table~\ref{tab:faults}): across 438 injected faults on pipeline and oracle UIs, the validator detects \FaultDetectionRatePipeline{}\% and the repair loop restores \FaultRepairRatePipeline{}\%. Detection is strong for hidden, zero-size, reordered and broken-event faults. Repair is reliable for broken event handlers (100\%) and reordering (97.5\%) but weak for hidden nodes (42.5\% on pipeline UIs) and deleted nodes (55\%), so the loop is not a general recovery mechanism. Deleting a node is also the fault the validator detects least often on pipeline UIs (75\%); we did not investigate why.
+
+\input{generated/faults.tex}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/eval/fault_injection.pdf}
+\caption{Fault injection: share of injected faults detected, localised and repaired, by fault type.}
+\label{fig:faults}
+\end{figure}
+
+\subsection{Generation Time}
+The proposed pipeline produces a usable UI in \GenerationTimeMsPipeline{}\,s on average (median 10.7\,s) against \GenerationTimeMsBaseline{}\,s for the baseline, including validation and repair (16.4\,s). Table~\ref{tab:latency} breaks this down: sketch analysis (10.4\,s mean, dominated by the vision call) and interpretation (5.1\,s) account for almost all of it, while fusion, code generation and validation together take about 0.5\,s. Latencies include network time to the model API and vary with load.
+
+\input{generated/latency.tex}
+
+\subsection{Code Quality}
+Both systems produce code that parses in all cases (Table~\ref{tab:code}). Generated code from the proposed compiler is organised in reusable components: each definition is used 1.85 times on average against 1.01 for the baseline, which inlines most elements. The baseline's longest function averages 206 lines against 106 for the proposed code, and the exported project is split into multiple files. ESLint reports almost no messages for either system (0.05 vs.\ 0.03 per UI). The compiler's longest function grew from 57 to 106 lines between the development run and the final run, after geometry-aware layout was added.
+
+\input{generated/code.tex}

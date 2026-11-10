@@ -1,0 +1,3840 @@
+{
+ "_ok": true,
+ "_wall_ms": 1946.2,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "ShopEasy",
+    "category": "ecommerce",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 8,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "box_1",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.01,
+         "y": 0.01,
+         "w": 0.98,
+         "h": 0.2191
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "box_product_cards_container",
+          "type": "container",
+          "label": "Product cards container",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.01,
+           "y": 0.01,
+           "w": 0.98,
+           "h": 0.12
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "card_desk_lamp_card",
+            "type": "card",
+            "label": "Desk lamp $45",
+            "props": {},
+            "style": {},
+            "bbox": null,
+            "relations": [],
+            "events": [],
+            "origin": "voice",
+            "layout": {
+             "direction": "column",
+             "gap": 12,
+             "align": "stretch",
+             "justify": "start"
+            },
+            "children": []
+           }
+          ]
+         },
+         {
+          "id": "inp_search_box",
+          "type": "input",
+          "label": "Search box",
+          "props": {
+           "inputType": "search",
+           "placeholder": "Search products...",
+           "required": false
+          },
+          "style": {
+           "width": 593
+          },
+          "bbox": {
+           "x": 0.041,
+           "y": 0.0645,
+           "w": 0.539,
+           "h": 0.1484
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "box_product_cards_container"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_search_products",
+          "type": "input",
+          "label": "Search products",
+          "props": {
+           "inputType": "search"
+          },
+          "style": {
+           "width": 421
+          },
+          "bbox": {
+           "x": 0.554,
+           "y": 0.0952,
+           "w": 0.383,
+           "h": 0.1339
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_search_box"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "ico_5",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.802,
+           "y": 0.1226,
+           "w": 0.025,
+           "h": 0.0419
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_search_products"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "lnk_cart",
+          "type": "link",
+          "label": "Cart",
+          "props": {
+           "href_page": "page_cart"
+          },
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.864,
+           "y": 0.1258,
+           "w": 0.05,
+           "h": 0.0468
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "ico_5"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "navigate",
+              "page": "page_cart"
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_7",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.01,
+         "y": 0.15,
+         "w": 0.98,
+         "h": 0.7984
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_canvas_bag_card",
+          "type": "card",
+          "label": "Canvas bag $29",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.01,
+           "y": 0.15,
+           "w": 0.98,
+           "h": 0.7
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 25,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_new_arrivals",
+            "type": "heading",
+            "label": "New arrivals",
+            "props": {
+             "level": 1
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.045,
+             "y": 0.2597,
+             "w": 0.196,
+             "h": 0.0548
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_10",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.364,
+             "y": 0.3887,
+             "w": 0.553,
+             "h": 0.2661
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_new_arrivals"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "img_11",
+              "type": "image",
+              "label": "",
+              "props": {},
+              "style": {
+               "align": "center",
+               "height": 180
+              },
+              "bbox": {
+               "x": 0.364,
+               "y": 0.3903,
+               "w": 0.248,
+               "h": 0.2645
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "img_12",
+              "type": "image",
+              "label": "",
+              "props": {},
+              "style": {
+               "align": "right",
+               "height": 178
+              },
+              "bbox": {
+               "x": 0.666,
+               "y": 0.3887,
+               "w": 0.251,
+               "h": 0.2613
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "img_11"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "box_13",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.372,
+             "y": 0.6758,
+             "w": 0.387,
+             "h": 0.0387
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_10"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "txt_desk_lamp",
+              "type": "text",
+              "label": "Desk lamp",
+              "props": {},
+              "style": {
+               "align": "center"
+              },
+              "bbox": {
+               "x": 0.372,
+               "y": 0.6758,
+               "w": 0.092,
+               "h": 0.0387
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_sneakers",
+              "type": "text",
+              "label": "Sneakers",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.678,
+               "y": 0.6758,
+               "w": 0.081,
+               "h": 0.0323
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_desk_lamp"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "box_16",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.373,
+             "y": 0.7516,
+             "w": 0.337,
+             "h": 0.0322
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_13"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "center"
+            },
+            "children": [
+             {
+              "id": "txt_45",
+              "type": "text",
+              "label": "$45",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.373,
+               "y": 0.7532,
+               "w": 0.031,
+               "h": 0.0306
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_80",
+              "type": "text",
+              "label": "$80",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.679,
+               "y": 0.7516,
+               "w": 0.031,
+               "h": 0.0306
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_45"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "card_sneakers_card",
+          "type": "card",
+          "label": "Sneakers $80",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.035,
+           "y": 0.3419,
+           "w": 0.298,
+           "h": 0.6065
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_canvas_bag_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 22,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "img_20",
+            "type": "image",
+            "label": "",
+            "props": {},
+            "style": {
+             "width": "full",
+             "height": 169
+            },
+            "bbox": {
+             "x": 0.062,
+             "y": 0.3935,
+             "w": 0.244,
+             "h": 0.2484
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "nav_main_navbar",
+            "type": "navbar",
+            "label": "Main navbar",
+            "props": {},
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "below",
+              "target": "img_20"
+             }
+            ],
+            "events": [],
+            "origin": "voice",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "between"
+            },
+            "children": []
+           },
+           {
+            "id": "txt_shopeasy_logo",
+            "type": "text",
+            "label": "ShopEasy logo",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.067,
+             "y": 0.679,
+             "w": 0.1,
+             "h": 0.0403
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "nav_main_navbar"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_29",
+            "type": "text",
+            "label": "$29",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.068,
+             "y": 0.7516,
+             "w": 0.032,
+             "h": 0.0306
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_shopeasy_logo"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_23",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.064,
+             "y": 0.8113,
+             "w": 0.236,
+             "h": 0.0968
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_29"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "btn_24",
+              "type": "button",
+              "label": "",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.064,
+               "y": 0.8113,
+               "w": 0.236,
+               "h": 0.0968
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "btn_add_to_cart",
+              "type": "button",
+              "label": "Add to cart",
+              "props": {},
+              "style": {
+               "align": "center"
+              },
+              "bbox": {
+               "x": 0.132,
+               "y": 0.8403,
+               "w": 0.104,
+               "h": 0.0323
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "btn_24"
+               }
+              ],
+              "events": [
+               {
+                "on": "click",
+                "actions": [
+                 {
+                  "type": "show_message",
+                  "text": "Added to cart",
+                  "tone": "success"
+                 }
+                ]
+               }
+              ],
+              "origin": "sketch"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "btn_26",
+          "type": "button",
+          "label": "",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.365,
+           "y": 0.8032,
+           "w": 0.244,
+           "h": 0.1
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_sneakers_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_buy_lamp",
+          "type": "button",
+          "label": "Buy lamp",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.445,
+           "y": 0.8387,
+           "w": 0.087,
+           "h": 0.0452
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_26"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_28",
+          "type": "text",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.666,
+           "y": 0.8032,
+           "w": 0.245,
+           "h": 0.1081
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_buy_lamp"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_buy_sneakers",
+          "type": "button",
+          "label": "Buy sneakers",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.732,
+           "y": 0.8403,
+           "w": 0.124,
+           "h": 0.0419
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_28"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_cart",
+     "name": "Cart",
+     "route": "/cart",
+     "root": {
+      "id": "page_cart",
+      "type": "page",
+      "label": "Cart",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_cart",
+        "type": "heading",
+        "label": "Cart",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Cart page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 36
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"shopeasy\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>ShopEasy</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# ShopEasy\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport CartPage from \"./pages/CartPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_cart: CartPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_CART_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_cart\"\n  }\n];\n\nconst BTN_ADD_TO_CART_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Added to cart\",\n    \"tone\": \"success\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleLnkCartClick = () => runActions(\"lnk_cart\", LNK_CART_CLICK, ui);\n  const handleBtnAddToCartClick = () => runActions(\"btn_add_to_cart\", BTN_ADD_TO_CART_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_product_cards_container\">\n          <Card id=\"card_desk_lamp_card\">\n          </Card>\n        </Container>\n        <Field\n          id=\"inp_search_box\"\n          label=\"Search box\"\n          inputType=\"search\"\n          placeholder=\"Search products...\"\n          style={{ width: 593, maxWidth: \"100%\" }}\n        />\n        <Field\n          id=\"inp_search_products\"\n          label=\"Search products\"\n          inputType=\"search\"\n          style={{ width: 421, maxWidth: \"100%\" }}\n        />\n        <Icon id=\"ico_5\" />\n        <Link\n          id=\"lnk_cart\"\n          label=\"Cart\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n          onClick={handleLnkCartClick}\n        />\n        <Message owner=\"lnk_cart\" />\n      </Container>\n      <Container id=\"box_7\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Card id=\"card_canvas_bag_card\" layout={{ gap: 25 }}>\n          <Heading id=\"h_new_arrivals\" label=\"New arrivals\" level={1} />\n          <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Image id=\"img_11\" style={{ height: 180, alignSelf: \"center\" }} />\n            <Image id=\"img_12\" style={{ height: 178, alignSelf: \"flex-end\" }} />\n          </Container>\n          <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Text\n              id=\"txt_desk_lamp\"\n              label=\"Desk lamp\"\n              style={{ textAlign: \"center\", alignSelf: \"center\" }}\n            />\n            <Text id=\"txt_sneakers\" label=\"Sneakers\" />\n          </Container>\n          <Container id=\"box_16\" layout={{ direction: \"row\", align: \"center\", justify: \"center\" }}>\n            <Text id=\"txt_45\" label=\"$45\" />\n            <Text id=\"txt_80\" label=\"$80\" />\n          </Container>\n        </Card>\n        <Card id=\"card_sneakers_card\" layout={{ gap: 22 }}>\n          <Image id=\"img_20\" style={{ width: \"100%\", alignSelf: \"stretch\", height: 169 }} />\n          <Navbar\n            id=\"nav_main_navbar\"\n            layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n          >\n          </Navbar>\n          <Text id=\"txt_shopeasy_logo\" label=\"ShopEasy logo\" />\n          <Text id=\"txt_29\" label=\"$29\" />\n          <Container id=\"box_23\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Button id=\"btn_24\" />\n            <Button\n              id=\"btn_add_to_cart\"\n              label=\"Add to cart\"\n              style={{ alignSelf: \"center\" }}\n              onClick={handleBtnAddToCartClick}\n            />\n            <Message owner=\"btn_add_to_cart\" />\n          </Container>\n        </Card>\n        <Button id=\"btn_26\" style={{ alignSelf: \"center\" }} />\n        <Button id=\"btn_buy_lamp\" label=\"Buy lamp\" style={{ alignSelf: \"center\" }} />\n        <Text id=\"txt_28\" />\n        <Button id=\"btn_buy_sneakers\" label=\"Buy sneakers\" />\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/CartPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function CartPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_cart\" layout={{ gap: 16 }}>\n      <Heading id=\"h_cart\" label=\"Cart\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Cart page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: ShopEasy\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst LNK_CART_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_cart\"\n  }\n];\n\nconst BTN_ADD_TO_CART_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Added to cart\",\n    \"tone\": \"success\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleLnkCartClick = () => runActions(\"lnk_cart\", LNK_CART_CLICK, ui);\n  const handleBtnAddToCartClick = () => runActions(\"btn_add_to_cart\", BTN_ADD_TO_CART_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_product_cards_container\">\n          <Card id=\"card_desk_lamp_card\">\n          </Card>\n        </Container>\n        <Field\n          id=\"inp_search_box\"\n          label=\"Search box\"\n          inputType=\"search\"\n          placeholder=\"Search products...\"\n          style={{ width: 593, maxWidth: \"100%\" }}\n        />\n        <Field\n          id=\"inp_search_products\"\n          label=\"Search products\"\n          inputType=\"search\"\n          style={{ width: 421, maxWidth: \"100%\" }}\n        />\n        <Icon id=\"ico_5\" />\n        <Link\n          id=\"lnk_cart\"\n          label=\"Cart\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n          onClick={handleLnkCartClick}\n        />\n        <Message owner=\"lnk_cart\" />\n      </Container>\n      <Container id=\"box_7\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Card id=\"card_canvas_bag_card\" layout={{ gap: 25 }}>\n          <Heading id=\"h_new_arrivals\" label=\"New arrivals\" level={1} />\n          <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Image id=\"img_11\" style={{ height: 180, alignSelf: \"center\" }} />\n            <Image id=\"img_12\" style={{ height: 178, alignSelf: \"flex-end\" }} />\n          </Container>\n          <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Text\n              id=\"txt_desk_lamp\"\n              label=\"Desk lamp\"\n              style={{ textAlign: \"center\", alignSelf: \"center\" }}\n            />\n            <Text id=\"txt_sneakers\" label=\"Sneakers\" />\n          </Container>\n          <Container id=\"box_16\" layout={{ direction: \"row\", align: \"center\", justify: \"center\" }}>\n            <Text id=\"txt_45\" label=\"$45\" />\n            <Text id=\"txt_80\" label=\"$80\" />\n          </Container>\n        </Card>\n        <Card id=\"card_sneakers_card\" layout={{ gap: 22 }}>\n          <Image id=\"img_20\" style={{ width: \"100%\", alignSelf: \"stretch\", height: 169 }} />\n          <Navbar\n            id=\"nav_main_navbar\"\n            layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n          >\n          </Navbar>\n          <Text id=\"txt_shopeasy_logo\" label=\"ShopEasy logo\" />\n          <Text id=\"txt_29\" label=\"$29\" />\n          <Container id=\"box_23\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Button id=\"btn_24\" />\n            <Button\n              id=\"btn_add_to_cart\"\n              label=\"Add to cart\"\n              style={{ alignSelf: \"center\" }}\n              onClick={handleBtnAddToCartClick}\n            />\n            <Message owner=\"btn_add_to_cart\" />\n          </Container>\n        </Card>\n        <Button id=\"btn_26\" style={{ alignSelf: \"center\" }} />\n        <Button id=\"btn_buy_lamp\" label=\"Buy lamp\" style={{ alignSelf: \"center\" }} />\n        <Text id=\"txt_28\" />\n        <Button id=\"btn_buy_sneakers\" label=\"Buy sneakers\" />\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction CartPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_cart\" layout={{ gap: 16 }}>\n      <Heading id=\"h_cart\" label=\"Cart\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Cart page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_cart: CartPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 13,
+    "pages": 2,
+    "loc": 753,
+    "preview_bytes": 18427
+   }
+  },
+  "report0": {
+   "passed": false,
+   "score": 0.8849,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "32 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:box_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "presence:box_product_cards_container",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_product_cards_container"
+    },
+    {
+     "id": "presence:card_desk_lamp_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_desk_lamp_card"
+    },
+    {
+     "id": "presence:inp_search_box",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_search_box"
+    },
+    {
+     "id": "presence:inp_search_products",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_search_products"
+    },
+    {
+     "id": "presence:ico_5",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_5"
+    },
+    {
+     "id": "presence:lnk_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "presence:box_7",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "presence:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "presence:h_new_arrivals",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_new_arrivals"
+    },
+    {
+     "id": "presence:box_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "presence:img_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_11"
+    },
+    {
+     "id": "presence:img_12",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_12"
+    },
+    {
+     "id": "presence:box_13",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "presence:txt_desk_lamp",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_desk_lamp"
+    },
+    {
+     "id": "presence:txt_sneakers",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_sneakers"
+    },
+    {
+     "id": "presence:box_16",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_16"
+    },
+    {
+     "id": "presence:txt_45",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_45"
+    },
+    {
+     "id": "presence:txt_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_80"
+    },
+    {
+     "id": "presence:card_sneakers_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "presence:img_20",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_20"
+    },
+    {
+     "id": "presence:nav_main_navbar",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "presence:txt_shopeasy_logo",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_shopeasy_logo"
+    },
+    {
+     "id": "presence:txt_29",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_29"
+    },
+    {
+     "id": "presence:box_23",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_23"
+    },
+    {
+     "id": "presence:btn_24",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_24"
+    },
+    {
+     "id": "presence:btn_add_to_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "presence:btn_26",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_26"
+    },
+    {
+     "id": "presence:btn_buy_lamp",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "presence:txt_28",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "txt_28"
+    },
+    {
+     "id": "presence:btn_buy_sneakers",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:box_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "order:box_7",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "order:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "sketch_order:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "order:box_10",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "order:box_13",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "order:box_16",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_16"
+    },
+    {
+     "id": "order:card_sneakers_card",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "sketch_order:card_sneakers_card",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "order:box_23",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_23"
+    },
+    {
+     "id": "layout:ico_5",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "ico_5"
+    },
+    {
+     "id": "layout:lnk_cart",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.02 vs sketch",
+     "hard": false,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "layout:img_11",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "img_11"
+    },
+    {
+     "id": "layout:img_12",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "img_12"
+    },
+    {
+     "id": "layout:txt_desk_lamp",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_desk_lamp"
+    },
+    {
+     "id": "layout:txt_sneakers",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_sneakers"
+    },
+    {
+     "id": "layout:txt_45",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_45"
+    },
+    {
+     "id": "layout:txt_80",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_80"
+    },
+    {
+     "id": "layout:img_20",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.04 vs sketch",
+     "hard": false,
+     "target": "img_20"
+    },
+    {
+     "id": "layout:txt_shopeasy_logo",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_shopeasy_logo"
+    },
+    {
+     "id": "layout:txt_29",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_29"
+    },
+    {
+     "id": "layout:btn_24",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.04 vs sketch",
+     "hard": false,
+     "target": "btn_24"
+    },
+    {
+     "id": "layout:btn_add_to_cart",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "layout:btn_26",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_26"
+    },
+    {
+     "id": "layout:btn_buy_lamp",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "layout:btn_buy_sneakers",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.07 over 19 sketched components; pairwise order 0.86",
+     "hard": false
+    },
+    {
+     "id": "typing:inp_search_box",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'query', read 'query'",
+     "hard": true,
+     "target": "inp_search_box"
+    },
+    {
+     "id": "typing:inp_search_products",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'query', read 'query'",
+     "hard": true,
+     "target": "inp_search_products"
+    },
+    {
+     "id": "clickable:lnk_cart",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "clickable:btn_24",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_24"
+    },
+    {
+     "id": "clickable:btn_add_to_cart",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "clickable:btn_26",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_26"
+    },
+    {
+     "id": "clickable:btn_buy_lamp",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "clickable:btn_buy_sneakers",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "presence:page_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_cart"
+    },
+    {
+     "id": "presence:h_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_cart"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:lnk_cart:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_cart",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "event:btn_add_to_cart:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 0.9688,
+    "layout_iou": 0.0709,
+    "order_consistency": 0.8562
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 500.5
+     }
+    },
+    {
+     "id": "box_1",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 70
+     }
+    },
+    {
+     "id": "box_product_cards_container",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 42,
+      "w": 323.09375,
+      "h": 50
+     }
+    },
+    {
+     "id": "card_desk_lamp_card",
+     "type": "card",
+     "rect": {
+      "x": 100,
+      "y": 42,
+      "w": 323.09375,
+      "h": 50
+     }
+    },
+    {
+     "id": "inp_search_box",
+     "type": "input",
+     "rect": {
+      "x": 435.09375,
+      "y": 32,
+      "w": 323.109375,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_search_products",
+     "type": "input",
+     "rect": {
+      "x": 770.203125,
+      "y": 32,
+      "w": 323.109375,
+      "h": 70
+     }
+    },
+    {
+     "id": "ico_5",
+     "type": "icon",
+     "rect": {
+      "x": 1105.3125,
+      "y": 51,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "id": "lnk_cart",
+     "type": "link",
+     "rect": {
+      "x": 1149.3125,
+      "y": 79.5,
+      "w": 30.6875,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_7",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 110,
+      "w": 1080,
+      "h": 422.5
+     }
+    },
+    {
+     "id": "card_canvas_bag_card",
+     "type": "card",
+     "rect": {
+      "x": 100,
+      "y": 128.25,
+      "w": 263.625,
+      "h": 386
+     }
+    },
+    {
+     "id": "h_new_arrivals",
+     "type": "heading",
+     "rect": {
+      "x": 125,
+      "y": 153.25,
+      "w": 213.625,
+      "h": 36
+     }
+    },
+    {
+     "id": "box_10",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 214.25,
+      "w": 213.625,
+      "h": 180
+     }
+    },
+    {
+     "id": "img_11",
+     "type": "image",
+     "rect": {
+      "x": 125,
+      "y": 214.25,
+      "w": 100.8125,
+      "h": 180
+     }
+    },
+    {
+     "id": "img_12",
+     "type": "image",
+     "rect": {
+      "x": 237.8125,
+      "y": 216.25,
+      "w": 100.8125,
+      "h": 178
+     }
+    },
+    {
+     "id": "box_13",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 419.25,
+      "w": 213.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_desk_lamp",
+     "type": "text",
+     "rect": {
+      "x": 125,
+      "y": 419.25,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_sneakers",
+     "type": "text",
+     "rect": {
+      "x": 237.8125,
+      "y": 419.25,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_16",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 466.75,
+      "w": 213.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_45",
+     "type": "text",
+     "rect": {
+      "x": 125,
+      "y": 466.75,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_80",
+     "type": "text",
+     "rect": {
+      "x": 237.8125,
+      "y": 466.75,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "card_sneakers_card",
+     "type": "card",
+     "rect": {
+      "x": 375.625,
+      "y": 110,
+      "w": 263.640625,
+      "h": 422.5
+     }
+    },
+    {
+     "id": "img_20",
+     "type": "image",
+     "rect": {
+      "x": 400.625,
+      "y": 135,
+      "w": 213.640625,
+      "h": 169
+     }
+    },
+    {
+     "id": "nav_main_navbar",
+     "type": "navbar",
+     "rect": {
+      "x": 400.625,
+      "y": 326,
+      "w": 213.640625,
+      "h": 26
+     }
+    },
+    {
+     "id": "txt_shopeasy_logo",
+     "type": "text",
+     "rect": {
+      "x": 400.625,
+      "y": 374,
+      "w": 213.640625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_29",
+     "type": "text",
+     "rect": {
+      "x": 400.625,
+      "y": 418.5,
+      "w": 213.640625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_23",
+     "type": "container",
+     "rect": {
+      "x": 400.625,
+      "y": 463,
+      "w": 213.640625,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_24",
+     "type": "button",
+     "rect": {
+      "x": 400.625,
+      "y": 474.25,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_add_to_cart",
+     "type": "button",
+     "rect": {
+      "x": 450.625,
+      "y": 463,
+      "w": 118.28125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_26",
+     "type": "button",
+     "rect": {
+      "x": 651.265625,
+      "y": 310.25,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_buy_lamp",
+     "type": "button",
+     "rect": {
+      "x": 701.265625,
+      "y": 299,
+      "w": 105.09375,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "txt_28",
+     "type": "text",
+     "rect": {
+      "x": 818.359375,
+      "y": 321.25,
+      "w": 213.640625,
+      "h": 0
+     }
+    },
+    {
+     "id": "btn_buy_sneakers",
+     "type": "button",
+     "rect": {
+      "x": 1044,
+      "y": 299,
+      "w": 136,
+      "h": 44.5
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 652
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "ShopEasy",
+    "category": "ecommerce",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 8,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "box_1",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.01,
+         "y": 0.01,
+         "w": 0.98,
+         "h": 0.2191
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "box_product_cards_container",
+          "type": "container",
+          "label": "Product cards container",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.01,
+           "y": 0.01,
+           "w": 0.98,
+           "h": 0.12
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "card_desk_lamp_card",
+            "type": "card",
+            "label": "Desk lamp $45",
+            "props": {},
+            "style": {},
+            "bbox": null,
+            "relations": [],
+            "events": [],
+            "origin": "voice",
+            "layout": {
+             "direction": "column",
+             "gap": 12,
+             "align": "stretch",
+             "justify": "start"
+            },
+            "children": []
+           }
+          ]
+         },
+         {
+          "id": "inp_search_box",
+          "type": "input",
+          "label": "Search box",
+          "props": {
+           "inputType": "search",
+           "placeholder": "Search products...",
+           "required": false
+          },
+          "style": {
+           "width": 593
+          },
+          "bbox": {
+           "x": 0.041,
+           "y": 0.0645,
+           "w": 0.539,
+           "h": 0.1484
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "box_product_cards_container"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_search_products",
+          "type": "input",
+          "label": "Search products",
+          "props": {
+           "inputType": "search"
+          },
+          "style": {
+           "width": 421
+          },
+          "bbox": {
+           "x": 0.554,
+           "y": 0.0952,
+           "w": 0.383,
+           "h": 0.1339
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_search_box"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "ico_5",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.802,
+           "y": 0.1226,
+           "w": 0.025,
+           "h": 0.0419
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_search_products"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "lnk_cart",
+          "type": "link",
+          "label": "Cart",
+          "props": {
+           "href_page": "page_cart"
+          },
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.864,
+           "y": 0.1258,
+           "w": 0.05,
+           "h": 0.0468
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "ico_5"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "navigate",
+              "page": "page_cart"
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_7",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.01,
+         "y": 0.15,
+         "w": 0.98,
+         "h": 0.7984
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_canvas_bag_card",
+          "type": "card",
+          "label": "Canvas bag $29",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.01,
+           "y": 0.15,
+           "w": 0.98,
+           "h": 0.7
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 25,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "h_new_arrivals",
+            "type": "heading",
+            "label": "New arrivals",
+            "props": {
+             "level": 1
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.045,
+             "y": 0.2597,
+             "w": 0.196,
+             "h": 0.0548
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_10",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.364,
+             "y": 0.3887,
+             "w": 0.553,
+             "h": 0.2661
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "h_new_arrivals"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "img_11",
+              "type": "image",
+              "label": "",
+              "props": {},
+              "style": {
+               "align": "center",
+               "height": 180
+              },
+              "bbox": {
+               "x": 0.364,
+               "y": 0.3903,
+               "w": 0.248,
+               "h": 0.2645
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "img_12",
+              "type": "image",
+              "label": "",
+              "props": {},
+              "style": {
+               "align": "right",
+               "height": 178
+              },
+              "bbox": {
+               "x": 0.666,
+               "y": 0.3887,
+               "w": 0.251,
+               "h": 0.2613
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "img_11"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "box_13",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.372,
+             "y": 0.6758,
+             "w": 0.387,
+             "h": 0.0387
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_10"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "txt_desk_lamp",
+              "type": "text",
+              "label": "Desk lamp",
+              "props": {},
+              "style": {
+               "align": "center"
+              },
+              "bbox": {
+               "x": 0.372,
+               "y": 0.6758,
+               "w": 0.092,
+               "h": 0.0387
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_sneakers",
+              "type": "text",
+              "label": "Sneakers",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.678,
+               "y": 0.6758,
+               "w": 0.081,
+               "h": 0.0323
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_desk_lamp"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "box_16",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.373,
+             "y": 0.7516,
+             "w": 0.337,
+             "h": 0.0322
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_13"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "center"
+            },
+            "children": [
+             {
+              "id": "txt_45",
+              "type": "text",
+              "label": "$45",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.373,
+               "y": 0.7532,
+               "w": 0.031,
+               "h": 0.0306
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_80",
+              "type": "text",
+              "label": "$80",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.679,
+               "y": 0.7516,
+               "w": 0.031,
+               "h": 0.0306
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_45"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "card_sneakers_card",
+          "type": "card",
+          "label": "Sneakers $80",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.035,
+           "y": 0.3419,
+           "w": 0.298,
+           "h": 0.6065
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_canvas_bag_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 22,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "img_20",
+            "type": "image",
+            "label": "",
+            "props": {},
+            "style": {
+             "width": "full",
+             "height": 169
+            },
+            "bbox": {
+             "x": 0.062,
+             "y": 0.3935,
+             "w": 0.244,
+             "h": 0.2484
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "nav_main_navbar",
+            "type": "navbar",
+            "label": "Main navbar",
+            "props": {},
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "below",
+              "target": "img_20"
+             }
+            ],
+            "events": [],
+            "origin": "voice",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "between"
+            },
+            "children": []
+           },
+           {
+            "id": "txt_shopeasy_logo",
+            "type": "text",
+            "label": "ShopEasy logo",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.067,
+             "y": 0.679,
+             "w": 0.1,
+             "h": 0.0403
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "nav_main_navbar"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_29",
+            "type": "text",
+            "label": "$29",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.068,
+             "y": 0.7516,
+             "w": 0.032,
+             "h": 0.0306
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_shopeasy_logo"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_23",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.064,
+             "y": 0.8113,
+             "w": 0.236,
+             "h": 0.0968
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_29"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "btn_24",
+              "type": "button",
+              "label": "",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.064,
+               "y": 0.8113,
+               "w": 0.236,
+               "h": 0.0968
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "btn_add_to_cart",
+              "type": "button",
+              "label": "Add to cart",
+              "props": {},
+              "style": {
+               "align": "center"
+              },
+              "bbox": {
+               "x": 0.132,
+               "y": 0.8403,
+               "w": 0.104,
+               "h": 0.0323
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "btn_24"
+               }
+              ],
+              "events": [
+               {
+                "on": "click",
+                "actions": [
+                 {
+                  "type": "show_message",
+                  "text": "Added to cart",
+                  "tone": "success"
+                 }
+                ]
+               }
+              ],
+              "origin": "sketch"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "btn_26",
+          "type": "button",
+          "label": "",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.365,
+           "y": 0.8032,
+           "w": 0.244,
+           "h": 0.1
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_sneakers_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_buy_lamp",
+          "type": "button",
+          "label": "Buy lamp",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.445,
+           "y": 0.8387,
+           "w": 0.087,
+           "h": 0.0452
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_26"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_28",
+          "type": "text",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.666,
+           "y": 0.8032,
+           "w": 0.245,
+           "h": 0.1081
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_buy_lamp"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_buy_sneakers",
+          "type": "button",
+          "label": "Buy sneakers",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.732,
+           "y": 0.8403,
+           "w": 0.124,
+           "h": 0.0419
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_28"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_cart",
+     "name": "Cart",
+     "route": "/cart",
+     "root": {
+      "id": "page_cart",
+      "type": "page",
+      "label": "Cart",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_cart",
+        "type": "heading",
+        "label": "Cart",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Cart page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 36
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"shopeasy\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>ShopEasy</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# ShopEasy\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport CartPage from \"./pages/CartPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_cart: CartPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_CART_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_cart\"\n  }\n];\n\nconst BTN_ADD_TO_CART_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Added to cart\",\n    \"tone\": \"success\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleLnkCartClick = () => runActions(\"lnk_cart\", LNK_CART_CLICK, ui);\n  const handleBtnAddToCartClick = () => runActions(\"btn_add_to_cart\", BTN_ADD_TO_CART_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_product_cards_container\">\n          <Card id=\"card_desk_lamp_card\">\n          </Card>\n        </Container>\n        <Field\n          id=\"inp_search_box\"\n          label=\"Search box\"\n          inputType=\"search\"\n          placeholder=\"Search products...\"\n          style={{ width: 593, maxWidth: \"100%\" }}\n        />\n        <Field\n          id=\"inp_search_products\"\n          label=\"Search products\"\n          inputType=\"search\"\n          style={{ width: 421, maxWidth: \"100%\" }}\n        />\n        <Icon id=\"ico_5\" />\n        <Link\n          id=\"lnk_cart\"\n          label=\"Cart\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n          onClick={handleLnkCartClick}\n        />\n        <Message owner=\"lnk_cart\" />\n      </Container>\n      <Container id=\"box_7\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Card id=\"card_canvas_bag_card\" layout={{ gap: 25 }}>\n          <Heading id=\"h_new_arrivals\" label=\"New arrivals\" level={1} />\n          <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Image id=\"img_11\" style={{ height: 180, alignSelf: \"center\" }} />\n            <Image id=\"img_12\" style={{ height: 178, alignSelf: \"flex-end\" }} />\n          </Container>\n          <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Text\n              id=\"txt_desk_lamp\"\n              label=\"Desk lamp\"\n              style={{ textAlign: \"center\", alignSelf: \"center\" }}\n            />\n            <Text id=\"txt_sneakers\" label=\"Sneakers\" />\n          </Container>\n          <Container id=\"box_16\" layout={{ direction: \"row\", align: \"center\", justify: \"center\" }}>\n            <Text id=\"txt_45\" label=\"$45\" />\n            <Text id=\"txt_80\" label=\"$80\" />\n          </Container>\n        </Card>\n        <Card id=\"card_sneakers_card\" layout={{ gap: 22 }}>\n          <Image id=\"img_20\" style={{ width: \"100%\", alignSelf: \"stretch\", height: 169 }} />\n          <Navbar\n            id=\"nav_main_navbar\"\n            layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n          >\n          </Navbar>\n          <Text id=\"txt_shopeasy_logo\" label=\"ShopEasy logo\" />\n          <Text id=\"txt_29\" label=\"$29\" />\n          <Container id=\"box_23\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Button id=\"btn_24\" />\n            <Button\n              id=\"btn_add_to_cart\"\n              label=\"Add to cart\"\n              style={{ alignSelf: \"center\" }}\n              onClick={handleBtnAddToCartClick}\n            />\n            <Message owner=\"btn_add_to_cart\" />\n          </Container>\n        </Card>\n        <Button id=\"btn_26\" style={{ alignSelf: \"center\" }} />\n        <Button id=\"btn_buy_lamp\" label=\"Buy lamp\" style={{ alignSelf: \"center\" }} />\n        <Text id=\"txt_28\" />\n        <Button id=\"btn_buy_sneakers\" label=\"Buy sneakers\" />\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/CartPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function CartPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_cart\" layout={{ gap: 16 }}>\n      <Heading id=\"h_cart\" label=\"Cart\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Cart page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: ShopEasy\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst LNK_CART_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_cart\"\n  }\n];\n\nconst BTN_ADD_TO_CART_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Added to cart\",\n    \"tone\": \"success\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleLnkCartClick = () => runActions(\"lnk_cart\", LNK_CART_CLICK, ui);\n  const handleBtnAddToCartClick = () => runActions(\"btn_add_to_cart\", BTN_ADD_TO_CART_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_product_cards_container\">\n          <Card id=\"card_desk_lamp_card\">\n          </Card>\n        </Container>\n        <Field\n          id=\"inp_search_box\"\n          label=\"Search box\"\n          inputType=\"search\"\n          placeholder=\"Search products...\"\n          style={{ width: 593, maxWidth: \"100%\" }}\n        />\n        <Field\n          id=\"inp_search_products\"\n          label=\"Search products\"\n          inputType=\"search\"\n          style={{ width: 421, maxWidth: \"100%\" }}\n        />\n        <Icon id=\"ico_5\" />\n        <Link\n          id=\"lnk_cart\"\n          label=\"Cart\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n          onClick={handleLnkCartClick}\n        />\n        <Message owner=\"lnk_cart\" />\n      </Container>\n      <Container id=\"box_7\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Card id=\"card_canvas_bag_card\" layout={{ gap: 25 }}>\n          <Heading id=\"h_new_arrivals\" label=\"New arrivals\" level={1} />\n          <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Image id=\"img_11\" style={{ height: 180, alignSelf: \"center\" }} />\n            <Image id=\"img_12\" style={{ height: 178, alignSelf: \"flex-end\" }} />\n          </Container>\n          <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Text\n              id=\"txt_desk_lamp\"\n              label=\"Desk lamp\"\n              style={{ textAlign: \"center\", alignSelf: \"center\" }}\n            />\n            <Text id=\"txt_sneakers\" label=\"Sneakers\" />\n          </Container>\n          <Container id=\"box_16\" layout={{ direction: \"row\", align: \"center\", justify: \"center\" }}>\n            <Text id=\"txt_45\" label=\"$45\" />\n            <Text id=\"txt_80\" label=\"$80\" />\n          </Container>\n        </Card>\n        <Card id=\"card_sneakers_card\" layout={{ gap: 22 }}>\n          <Image id=\"img_20\" style={{ width: \"100%\", alignSelf: \"stretch\", height: 169 }} />\n          <Navbar\n            id=\"nav_main_navbar\"\n            layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n          >\n          </Navbar>\n          <Text id=\"txt_shopeasy_logo\" label=\"ShopEasy logo\" />\n          <Text id=\"txt_29\" label=\"$29\" />\n          <Container id=\"box_23\" layout={{ direction: \"row\", align: \"center\" }}>\n            <Button id=\"btn_24\" />\n            <Button\n              id=\"btn_add_to_cart\"\n              label=\"Add to cart\"\n              style={{ alignSelf: \"center\" }}\n              onClick={handleBtnAddToCartClick}\n            />\n            <Message owner=\"btn_add_to_cart\" />\n          </Container>\n        </Card>\n        <Button id=\"btn_26\" style={{ alignSelf: \"center\" }} />\n        <Button id=\"btn_buy_lamp\" label=\"Buy lamp\" style={{ alignSelf: \"center\" }} />\n        <Text id=\"txt_28\" />\n        <Button id=\"btn_buy_sneakers\" label=\"Buy sneakers\" />\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction CartPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_cart\" layout={{ gap: 16 }}>\n      <Heading id=\"h_cart\" label=\"Cart\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Cart page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_cart: CartPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 13,
+    "pages": 2,
+    "loc": 753,
+    "preview_bytes": 18427
+   }
+  },
+  "report": {
+   "passed": false,
+   "score": 0.8849,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "32 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:box_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "presence:box_product_cards_container",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_product_cards_container"
+    },
+    {
+     "id": "presence:card_desk_lamp_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_desk_lamp_card"
+    },
+    {
+     "id": "presence:inp_search_box",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_search_box"
+    },
+    {
+     "id": "presence:inp_search_products",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_search_products"
+    },
+    {
+     "id": "presence:ico_5",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_5"
+    },
+    {
+     "id": "presence:lnk_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "presence:box_7",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "presence:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "presence:h_new_arrivals",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_new_arrivals"
+    },
+    {
+     "id": "presence:box_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "presence:img_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_11"
+    },
+    {
+     "id": "presence:img_12",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_12"
+    },
+    {
+     "id": "presence:box_13",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "presence:txt_desk_lamp",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_desk_lamp"
+    },
+    {
+     "id": "presence:txt_sneakers",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_sneakers"
+    },
+    {
+     "id": "presence:box_16",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_16"
+    },
+    {
+     "id": "presence:txt_45",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_45"
+    },
+    {
+     "id": "presence:txt_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_80"
+    },
+    {
+     "id": "presence:card_sneakers_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "presence:img_20",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_20"
+    },
+    {
+     "id": "presence:nav_main_navbar",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "presence:txt_shopeasy_logo",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_shopeasy_logo"
+    },
+    {
+     "id": "presence:txt_29",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_29"
+    },
+    {
+     "id": "presence:box_23",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_23"
+    },
+    {
+     "id": "presence:btn_24",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_24"
+    },
+    {
+     "id": "presence:btn_add_to_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "presence:btn_26",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_26"
+    },
+    {
+     "id": "presence:btn_buy_lamp",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "presence:txt_28",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "txt_28"
+    },
+    {
+     "id": "presence:btn_buy_sneakers",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:box_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "order:box_7",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "order:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "sketch_order:card_canvas_bag_card",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_canvas_bag_card"
+    },
+    {
+     "id": "order:box_10",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "order:box_13",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "order:box_16",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_16"
+    },
+    {
+     "id": "order:card_sneakers_card",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "sketch_order:card_sneakers_card",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_sneakers_card"
+    },
+    {
+     "id": "order:box_23",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_23"
+    },
+    {
+     "id": "layout:ico_5",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "ico_5"
+    },
+    {
+     "id": "layout:lnk_cart",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.02 vs sketch",
+     "hard": false,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "layout:img_11",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "img_11"
+    },
+    {
+     "id": "layout:img_12",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "img_12"
+    },
+    {
+     "id": "layout:txt_desk_lamp",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_desk_lamp"
+    },
+    {
+     "id": "layout:txt_sneakers",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_sneakers"
+    },
+    {
+     "id": "layout:txt_45",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_45"
+    },
+    {
+     "id": "layout:txt_80",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_80"
+    },
+    {
+     "id": "layout:img_20",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.04 vs sketch",
+     "hard": false,
+     "target": "img_20"
+    },
+    {
+     "id": "layout:txt_shopeasy_logo",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_shopeasy_logo"
+    },
+    {
+     "id": "layout:txt_29",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_29"
+    },
+    {
+     "id": "layout:btn_24",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.04 vs sketch",
+     "hard": false,
+     "target": "btn_24"
+    },
+    {
+     "id": "layout:btn_add_to_cart",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "layout:btn_26",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_26"
+    },
+    {
+     "id": "layout:btn_buy_lamp",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "layout:btn_buy_sneakers",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.07 over 19 sketched components; pairwise order 0.86",
+     "hard": false
+    },
+    {
+     "id": "typing:inp_search_box",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'query', read 'query'",
+     "hard": true,
+     "target": "inp_search_box"
+    },
+    {
+     "id": "typing:inp_search_products",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'query', read 'query'",
+     "hard": true,
+     "target": "inp_search_products"
+    },
+    {
+     "id": "clickable:lnk_cart",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "clickable:btn_24",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_24"
+    },
+    {
+     "id": "clickable:btn_add_to_cart",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "clickable:btn_26",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_26"
+    },
+    {
+     "id": "clickable:btn_buy_lamp",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_buy_lamp"
+    },
+    {
+     "id": "clickable:btn_buy_sneakers",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_buy_sneakers"
+    },
+    {
+     "id": "presence:page_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_cart"
+    },
+    {
+     "id": "presence:h_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_cart"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:lnk_cart:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_cart",
+     "hard": true,
+     "target": "lnk_cart"
+    },
+    {
+     "id": "event:btn_add_to_cart:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_add_to_cart"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 0.9688,
+    "layout_iou": 0.0709,
+    "order_consistency": 0.8562
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 500.5
+     }
+    },
+    {
+     "id": "box_1",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 70
+     }
+    },
+    {
+     "id": "box_product_cards_container",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 42,
+      "w": 323.09375,
+      "h": 50
+     }
+    },
+    {
+     "id": "card_desk_lamp_card",
+     "type": "card",
+     "rect": {
+      "x": 100,
+      "y": 42,
+      "w": 323.09375,
+      "h": 50
+     }
+    },
+    {
+     "id": "inp_search_box",
+     "type": "input",
+     "rect": {
+      "x": 435.09375,
+      "y": 32,
+      "w": 323.109375,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_search_products",
+     "type": "input",
+     "rect": {
+      "x": 770.203125,
+      "y": 32,
+      "w": 323.109375,
+      "h": 70
+     }
+    },
+    {
+     "id": "ico_5",
+     "type": "icon",
+     "rect": {
+      "x": 1105.3125,
+      "y": 51,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "id": "lnk_cart",
+     "type": "link",
+     "rect": {
+      "x": 1149.3125,
+      "y": 79.5,
+      "w": 30.6875,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_7",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 110,
+      "w": 1080,
+      "h": 422.5
+     }
+    },
+    {
+     "id": "card_canvas_bag_card",
+     "type": "card",
+     "rect": {
+      "x": 100,
+      "y": 128.25,
+      "w": 263.625,
+      "h": 386
+     }
+    },
+    {
+     "id": "h_new_arrivals",
+     "type": "heading",
+     "rect": {
+      "x": 125,
+      "y": 153.25,
+      "w": 213.625,
+      "h": 36
+     }
+    },
+    {
+     "id": "box_10",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 214.25,
+      "w": 213.625,
+      "h": 180
+     }
+    },
+    {
+     "id": "img_11",
+     "type": "image",
+     "rect": {
+      "x": 125,
+      "y": 214.25,
+      "w": 100.8125,
+      "h": 180
+     }
+    },
+    {
+     "id": "img_12",
+     "type": "image",
+     "rect": {
+      "x": 237.8125,
+      "y": 216.25,
+      "w": 100.8125,
+      "h": 178
+     }
+    },
+    {
+     "id": "box_13",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 419.25,
+      "w": 213.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_desk_lamp",
+     "type": "text",
+     "rect": {
+      "x": 125,
+      "y": 419.25,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_sneakers",
+     "type": "text",
+     "rect": {
+      "x": 237.8125,
+      "y": 419.25,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_16",
+     "type": "container",
+     "rect": {
+      "x": 125,
+      "y": 466.75,
+      "w": 213.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_45",
+     "type": "text",
+     "rect": {
+      "x": 125,
+      "y": 466.75,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_80",
+     "type": "text",
+     "rect": {
+      "x": 237.8125,
+      "y": 466.75,
+      "w": 100.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "card_sneakers_card",
+     "type": "card",
+     "rect": {
+      "x": 375.625,
+      "y": 110,
+      "w": 263.640625,
+      "h": 422.5
+     }
+    },
+    {
+     "id": "img_20",
+     "type": "image",
+     "rect": {
+      "x": 400.625,
+      "y": 135,
+      "w": 213.640625,
+      "h": 169
+     }
+    },
+    {
+     "id": "nav_main_navbar",
+     "type": "navbar",
+     "rect": {
+      "x": 400.625,
+      "y": 326,
+      "w": 213.640625,
+      "h": 26
+     }
+    },
+    {
+     "id": "txt_shopeasy_logo",
+     "type": "text",
+     "rect": {
+      "x": 400.625,
+      "y": 374,
+      "w": 213.640625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_29",
+     "type": "text",
+     "rect": {
+      "x": 400.625,
+      "y": 418.5,
+      "w": 213.640625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "box_23",
+     "type": "container",
+     "rect": {
+      "x": 400.625,
+      "y": 463,
+      "w": 213.640625,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_24",
+     "type": "button",
+     "rect": {
+      "x": 400.625,
+      "y": 474.25,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_add_to_cart",
+     "type": "button",
+     "rect": {
+      "x": 450.625,
+      "y": 463,
+      "w": 118.28125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_26",
+     "type": "button",
+     "rect": {
+      "x": 651.265625,
+      "y": 310.25,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_buy_lamp",
+     "type": "button",
+     "rect": {
+      "x": 701.265625,
+      "y": 299,
+      "w": 105.09375,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "txt_28",
+     "type": "text",
+     "rect": {
+      "x": 818.359375,
+      "y": 321.25,
+      "w": 213.640625,
+      "h": 0
+     }
+    },
+    {
+     "id": "btn_buy_sneakers",
+     "type": "button",
+     "rect": {
+      "x": 1044,
+      "y": 299,
+      "w": 136,
+      "h": 44.5
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 649
+  },
+  "repairs": [
+   {
+    "iteration": 1,
+    "check": "presence:txt_28",
+    "target": "txt_28",
+    "action": "reset_style",
+    "detail": "reset style of txt_28",
+    "result": "still failing"
+   }
+  ],
+  "timings": {
+   "fuse": 8.3,
+   "codegen": 1.9,
+   "validate": 652.9,
+   "repair": 1283.1
+  }
+ }
+}

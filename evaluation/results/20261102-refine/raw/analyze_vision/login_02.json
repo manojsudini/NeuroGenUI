@@ -1,0 +1,124 @@
+{
+ "_ok": true,
+ "_wall_ms": 6994.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.1,
+     "w": 0.9,
+     "h": 0.12
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Friendly",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.13,
+     "w": 0.094,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.19,
+     "y": 0.13,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.39,
+     "y": 0.13,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Log In",
+    "bbox": {
+     "x": 0.6,
+     "y": 0.13,
+     "w": 0.12,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Connect with friends",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.27,
+     "w": 0.4,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.34,
+     "w": 0.6,
+     "h": 0.06
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.58,
+     "w": 0.88,
+     "h": 0.3
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 652,
+  "mode": "vision",
+  "title": "Login page with header and image",
+  "category": "login",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6985,
+   "total_ms": 6994
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "_ok": true,
+ "_wall_ms": 7264.1,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.15,
+     "w": 0.2,
+     "h": 0.55
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.15,
+     "w": 0.6,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Menu",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.172,
+     "w": 0.12,
+     "h": 0.048
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.17,
+     "w": 0.136,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "Search",
+    "bbox": {
+     "x": 0.46,
+     "y": 0.18,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.72,
+     "y": 0.18,
+     "w": 0.03,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "link",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.24,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.27,
+     "w": 0.27,
+     "h": 0.25
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.59,
+     "y": 0.27,
+     "w": 0.31,
+     "h": 0.25
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.29,
+     "w": 0.23,
+     "h": 0.21
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.61,
+     "y": 0.29,
+     "w": 0.27,
+     "h": 0.21
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 8
+   },
+   {
+    "type": "link",
+    "label": "Analytics",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.31,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Customers",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.38,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.45,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.56,
+     "w": 0.6,
+     "h": 0.3
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Tasks",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.58,
+     "w": 0.146,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.65,
+     "w": 0.036,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "Review reports",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.65,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.72,
+     "w": 0.036,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "Call supplier",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.72,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.79,
+     "w": 0.036,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "Update pricing",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.79,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 14
+   }
+  ],
+  "width": 1000,
+  "height": 635,
+  "mode": "vision",
+  "title": "Dashboard Overview",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7253,
+   "total_ms": 7263
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

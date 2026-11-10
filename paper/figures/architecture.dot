@@ -1,0 +1,27 @@
+digraph G {
+  rankdir=LR; nodesep=0.35; ranksep=0.5; compound=true;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, color="#3a3a3a", fillcolor="#f5f3f1", penwidth=1];
+  edge [color="#555555", arrowsize=0.6, fontname="Helvetica", fontsize=8];
+  subgraph cluster_in { label="Input"; fontname="Helvetica-Bold"; fontsize=10; color="#bbbbbb"; style=rounded;
+    sk [label="Hand-drawn sketch\n(canvas / upload)"]; vo [label="Voice instruction\n(microphone)"]; }
+  subgraph cluster_perc { label="Perception"; fontname="Helvetica-Bold"; fontsize=10; color="#bbbbbb"; style=rounded;
+    cv [label="OpenCV proposals\n(threshold, contours,\ngeometry classes)"];
+    vlm [label="Vision model\n(labels numbered boxes,\nreads handwriting)"];
+    mg [label="IoU merge +\ncontainment tree"];
+    stt [label="Whisper\nspeech-to-text"];
+    nlu [label="LLM intent parser\n-> typed Ops (JSON)"]; }
+  subgraph cluster_core { label="Representation"; fontname="Helvetica-Bold"; fontsize=10; color="#bbbbbb"; style=rounded;
+    fu [label="Multimodal fusion\n(geometry + semantics)"];
+    ir [label="UI Intent\nRepresentation (JSON IR)", fillcolor="#fbe3ec", color="#c2185b"];
+    ref [label="Refinement engine\n(target resolution +\nop application)"]; }
+  subgraph cluster_out { label="Generation and Validation"; fontname="Helvetica-Bold"; fontsize=10; color="#bbbbbb"; style=rounded;
+    cg [label="Deterministic\nIR -> React compiler"];
+    pv [label="Live preview\n(in-browser runtime)"];
+    va [label="Validator: visual +\nfunctional (headless)"];
+    rp [label="Targeted repair loop"];
+    vs [label="Version store\n(SQLite)"]; }
+  sk -> cv -> vlm -> mg -> fu; sk -> vlm [style=dashed];
+  vo -> stt -> nlu -> fu; nlu -> ref [xlabel="refinement"];
+  fu -> ir; ref -> ir [dir=both];
+  ir -> cg -> pv; cg -> va; va -> rp [xlabel="fail"]; rp -> ir; va -> vs [xlabel="pass"];
+}

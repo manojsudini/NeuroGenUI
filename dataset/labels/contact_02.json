@@ -1,0 +1,294 @@
+{
+  "id": "contact_02",
+  "category": "contact",
+  "title": "Get in touch",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('contact_02')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 706,
+  "instruction": "A contact page with a navbar (Acme, Home, Services, Contact), the heading Get in touch, a form with name, email, subject and message and a Submit button, and on the right a map image with the address, phone number and email. Submit shows an error if fields are empty.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.0955,
+        "w": 0.8647,
+        "h": 0.1132
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Acme",
+      "bbox": {
+        "x": 0.1079,
+        "y": 0.1153,
+        "w": 0.0829,
+        "h": 0.0735
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Home",
+      "bbox": {
+        "x": 0.6368,
+        "y": 0.1235,
+        "w": 0.0598,
+        "h": 0.0572
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Services",
+      "bbox": {
+        "x": 0.7266,
+        "y": 0.1235,
+        "w": 0.0879,
+        "h": 0.0572
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Contact",
+      "bbox": {
+        "x": 0.8446,
+        "y": 0.1235,
+        "w": 0.088,
+        "h": 0.0572
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Get in touch",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.2399,
+        "w": 0.2269,
+        "h": 0.0881
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.3591,
+        "w": 0.4639,
+        "h": 0.0765
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.4554,
+        "w": 0.4639,
+        "h": 0.0765
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Subject",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.5517,
+        "w": 0.4639,
+        "h": 0.0765
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "textarea",
+      "label": "Message",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.648,
+        "w": 0.4639,
+        "h": 0.1955
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Submit",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.8633,
+        "w": 0.17,
+        "h": 0.0765
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.5958,
+        "y": 0.3591,
+        "w": 0.3568,
+        "h": 0.2975
+      },
+      "parent": null,
+      "props": {
+        "alt": "map",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "123 Main St, Springfield",
+      "bbox": {
+        "x": 0.5958,
+        "y": 0.6707,
+        "w": 0.2659,
+        "h": 0.0515
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "+1 555 0100",
+      "bbox": {
+        "x": 0.5958,
+        "y": 0.7364,
+        "w": 0.1445,
+        "h": 0.0515
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "hello@acme.com",
+      "bbox": {
+        "x": 0.5958,
+        "y": 0.8021,
+        "w": 0.1705,
+        "h": 0.0515
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Submit",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Acme",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Home",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Services",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Contact",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Get in touch",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Subject",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "textarea",
+      "label_contains": "Message",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Submit",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Submit",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

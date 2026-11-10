@@ -1,0 +1,106 @@
+{
+ "_ok": true,
+ "_wall_ms": 5734.6,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "Social Network Home Page",
+     "children": [
+      {
+       "type": "header",
+       "label": "Top Bar"
+      },
+      {
+       "type": "text",
+       "label": "Friendly",
+       "style": {
+        "variant": "primary",
+        "color": "black",
+        "textColor": "black",
+        "bg": "transparent",
+        "size": "md",
+        "align": "left",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "hidden": false
+       }
+      },
+      {
+       "type": "input",
+       "label": "Email",
+       "props": {
+        "inputType": "email",
+        "required": false
+       }
+      },
+      {
+       "type": "input",
+       "label": "Password",
+       "props": {
+        "inputType": "password",
+        "required": false
+       }
+      },
+      {
+       "type": "button",
+       "label": "Log In"
+      },
+      {
+       "type": "heading",
+       "label": "Connect with friends",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "text",
+       "label": "Welcome to Friendly, your social network to connect with friends and share moments."
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "Wide banner image",
+        "photo": "banner"
+       }
+      }
+     ]
+    },
+    "page": {
+     "name": "Social Network Home Page"
+    },
+    "meta": {
+     "title": "Social Network Home Page",
+     "category": "landing"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Log In button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "targets": [
+        "Email",
+        "Password"
+       ],
+       "message": "Please fill in all fields before logging in."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 5734,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"Social Network Home Page\",\"props\":{ \"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":[{\"type\":\"header\",\"label\":\"Top Bar\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Friendly\",\"props\":null,\"style\":{\"variant\":\"primary\",\"color\":\"black\",\"textColor\":\"black\",\"bg\":\"transparent\",\"size\":\"md\",\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":24,\"fontWeight\":700,\"radius\":null,\"hidden\":false}},{\"type\":\"input\",\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":\"email\",\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"input\",\"label\":\"Password\",\"props\":{\"level\":null,\"inputType\":\"password\",\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"button\",\"label\":\"Log In\",\"props\":null,\"style\":null},{\"type\":\"heading\",\"label\":\"Connect with friends\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Welcome to Friendly, your social network to connect with friends and share moments.\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Wide banner image\",\"photo\":\"banner\",\"items\":null},\"style\":null}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Social Network Home Page\"},\"meta\":{\"title\":\"Social Network Home Page\",\"category\":\"landing\"},\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Log In button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Email\",\"Password\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all fields before logging in.\",\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

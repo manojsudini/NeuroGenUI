@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2003.5,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Services",
+     "id": "navi_services"
+    },
+    "page": {
+     "name": "Services"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2002,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"Services\",\"id\":\"navi_services\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Services\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

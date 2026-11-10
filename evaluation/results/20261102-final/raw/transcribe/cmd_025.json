@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 841.9,
+ "value": {
+  "text": "Rename the new arrivals heading to Best Sellers.",
+  "model": "whisper-1",
+  "duration_ms": 841
+ }
+}

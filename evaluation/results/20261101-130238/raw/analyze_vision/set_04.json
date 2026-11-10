@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 5720.6,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.12,
+     "w": 0.65,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.176,
+     "y": 0.15,
+     "w": 0.034,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Privacy",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.15,
+     "w": 0.45,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Profile visibility",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.28,
+     "w": 0.35,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Public",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.34,
+     "w": 0.05,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Public",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.34,
+     "w": 0.3,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Friends only",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.39,
+     "w": 0.05,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Friends only",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.39,
+     "w": 0.35,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Private",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.44,
+     "w": 0.05,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Private",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.44,
+     "w": 0.3,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.52,
+     "w": 0.5,
+     "h": 0.01
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Show online status",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.62,
+     "w": 0.05,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Show online status",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.62,
+     "w": 0.45,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Allow tagging",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.72,
+     "w": 0.05,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Allow tagging",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.72,
+     "w": 0.35,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Reset",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.85,
+     "w": 0.22,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.85,
+     "w": 0.22,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 581,
+  "mode": "vision",
+  "title": "Privacy Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5712,
+   "total_ms": 5720
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

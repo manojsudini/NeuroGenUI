@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1530.4,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "Forgot password link",
+     "id": "lnk_forgot_password"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Sign in button",
+      "id": "btn_sign_in"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1529,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"Forgot password link\",\"id\":\"lnk_forgot_password\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Sign in button\",\"id\":\"btn_sign_in\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "_ok": true,
+ "_wall_ms": 5640.9,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Loan calculator",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.15,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Loan amount",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.28,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Interest rate",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.38,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Term",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.48,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Calculate",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.58,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.68,
+     "w": 0.64,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Monthly payment",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.69,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": 5
+   },
+   {
+    "type": "select",
+    "label": "$0",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.76,
+     "w": 0.64,
+     "h": 0.07
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": 5
+   }
+  ],
+  "width": 1000,
+  "height": 571,
+  "mode": "vision",
+  "title": "Loan calculator",
+  "category": "other",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5527,
+   "total_ms": 5640
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

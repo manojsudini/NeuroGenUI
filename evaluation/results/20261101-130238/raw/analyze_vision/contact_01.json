@@ -1,0 +1,98 @@
+{
+ "_ok": true,
+ "_wall_ms": 4825.0,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Contact us",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.17,
+     "w": 0.38,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.23,
+     "w": 0.56,
+     "h": 0.08
+    },
+    "confidence": 0.6,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.37,
+     "w": 0.58,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.47,
+     "w": 0.58,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "textarea",
+    "label": "Message",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.57,
+     "w": 0.58,
+     "h": 0.18
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.87,
+     "w": 0.58,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 587,
+  "mode": "vision",
+  "title": "Contact us form",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 4818,
+   "total_ms": 4824
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

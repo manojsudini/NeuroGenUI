@@ -1,0 +1,145 @@
+{
+ "_ok": true,
+ "_wall_ms": 36.8,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.281,
+     "y": 0.1017,
+     "w": 0.098,
+     "h": 0.0448
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.283,
+     "y": 0.1983,
+     "w": 0.185,
+     "h": 0.0586
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.275,
+     "y": 0.2914,
+     "w": 0.467,
+     "h": 0.1121
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.279,
+     "y": 0.419,
+     "w": 0.466,
+     "h": 0.1207
+    },
+    "confidence": 0.786,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.276,
+     "y": 0.5414,
+     "w": 0.47,
+     "h": 0.1121
+    },
+    "confidence": 0.823,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.698,
+     "y": 0.5638,
+     "w": 0.035,
+     "h": 0.0603
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.275,
+     "y": 0.6552,
+     "w": 0.47,
+     "h": 0.1207
+    },
+    "confidence": 0.844,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.273,
+     "y": 0.7897,
+     "w": 0.23,
+     "h": 0.1086
+    },
+    "confidence": 0.883,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.7983,
+     "w": 0.223,
+     "h": 0.0966
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 580,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 26,
+   "vision_ms": 0,
+   "total_ms": 36
+  },
+  "n_cv_candidates": 16
+ }
+}

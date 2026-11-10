@@ -1,0 +1,244 @@
+{
+ "_ok": true,
+ "_wall_ms": 9695.5,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "My Account",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.1031,
+     "w": 0.232,
+     "h": 0.0682
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.2133,
+     "w": 0.489,
+     "h": 0.1906
+    },
+    "confidence": 0.927,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.298,
+     "y": 0.2517,
+     "w": 0.041,
+     "h": 0.0577
+    },
+    "confidence": 0.799,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.288,
+     "y": 0.2587,
+     "w": 0.057,
+     "h": 0.1154
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Priya Shah",
+    "bbox": {
+     "x": 0.406,
+     "y": 0.264,
+     "w": 0.117,
+     "h": 0.0507
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 1
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.284,
+     "y": 0.2815,
+     "w": 0.032,
+     "h": 0.0664
+    },
+    "confidence": 0.814,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.297,
+     "y": 0.3199,
+     "w": 0.043,
+     "h": 0.0629
+    },
+    "confidence": 0.827,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "priya@mailcom",
+    "bbox": {
+     "x": 0.406,
+     "y": 0.3164,
+     "w": 0.164,
+     "h": 0.0559
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Myorders",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.4476,
+     "w": 0.118,
+     "h": 0.0524
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Saved addresses",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.5402,
+     "w": 0.18,
+     "h": 0.049
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.5365,
+     "w": 0.1765,
+     "h": 0.067
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Payment methods",
+    "bbox": {
+     "x": 0.257,
+     "y": 0.6329,
+     "w": 0.191,
+     "h": 0.0542
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.632,
+     "w": 0.1825,
+     "h": 0.0621
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.253,
+     "y": 0.7257,
+     "w": 0.5045,
+     "h": 0.0323
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Log out",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.7902,
+     "w": 0.492,
+     "h": 0.0944
+    },
+    "confidence": 0.796,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 572,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 9481,
+   "vision_ms": 0,
+   "total_ms": 9695
+  },
+  "n_cv_candidates": 18
+ }
+}

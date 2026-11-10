@@ -1,0 +1,94 @@
+{
+ "_ok": true,
+ "_wall_ms": 6287.1,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Login",
+    "bbox": {
+     "x": 0.434,
+     "y": 0.0946,
+     "w": 0.111,
+     "h": 0.1018
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.372,
+     "y": 0.2179,
+     "w": 0.246,
+     "h": 0.2679
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.525,
+     "w": 0.485,
+     "h": 0.0964
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.6607,
+     "w": 0.479,
+     "h": 0.1036
+    },
+    "confidence": 0.819,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Login",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.7911,
+     "w": 0.478,
+     "h": 0.1018
+    },
+    "confidence": 0.815,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 6239,
+   "vision_ms": 0,
+   "total_ms": 6286
+  },
+  "n_cv_candidates": 8
+ }
+}

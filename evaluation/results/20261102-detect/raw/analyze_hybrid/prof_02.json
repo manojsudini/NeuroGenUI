@@ -1,0 +1,230 @@
+{
+ "_ok": true,
+ "_wall_ms": 12270.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.044,
+     "y": 0.0738,
+     "w": 0.905,
+     "h": 0.128
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.923,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Pulse",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.1145,
+     "w": 0.079,
+     "h": 0.0587
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.778,
+     "y": 0.116,
+     "w": 0.059,
+     "h": 0.0437
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Profile",
+    "bbox": {
+     "x": 0.861,
+     "y": 0.1175,
+     "w": 0.071,
+     "h": 0.0422
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Edit profile",
+    "bbox": {
+     "x": 0.041,
+     "y": 0.238,
+     "w": 0.188,
+     "h": 0.0738
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.3539,
+     "w": 0.096,
+     "h": 0.0497
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.3554,
+     "w": 0.101,
+     "h": 0.1657
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.257,
+     "y": 0.4277,
+     "w": 0.689,
+     "h": 0.0934
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.861,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.5497,
+     "w": 0.691,
+     "h": 0.0828
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.859,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.6039,
+     "w": 0.6275,
+     "h": 0.0428
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.044,
+     "y": 0.6536,
+     "w": 0.902,
+     "h": 0.1792
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.931,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Bio",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.6747,
+     "w": 0.034,
+     "h": 0.0407
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": 10
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.192,
+     "y": 0.8524,
+     "w": 0.148,
+     "h": 0.0843
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.929,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.8614,
+     "w": 0.118,
+     "h": 0.0798
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 664,
+  "mode": "hybrid",
+  "title": "Edit Profile Page",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 6440,
+   "vision_ms": 5642,
+   "total_ms": 12270
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 18
+ }
+}

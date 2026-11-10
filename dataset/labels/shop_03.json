@@ -1,0 +1,232 @@
+{
+  "id": "shop_03",
+  "category": "ecommerce",
+  "title": "Your cart",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('shop_03')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 672,
+  "instruction": "A shopping cart screen titled Your cart with two item cards (Linen shirt $40 and Straw hat $80, each with a thumbnail), the total $120, a coupon code field and a Checkout button that opens a Checkout page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Your cart",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.0739,
+        "w": 0.1522,
+        "h": 0.0821
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.1828,
+        "w": 0.469,
+        "h": 0.1845
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2731,
+        "y": 0.2155,
+        "w": 0.08,
+        "h": 0.119
+      },
+      "parent": 1,
+      "props": {
+        "alt": "item",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Linen shirt",
+      "bbox": {
+        "x": 0.3913,
+        "y": 0.2155,
+        "w": 0.1011,
+        "h": 0.0481
+      },
+      "parent": 1
+    },
+    {
+      "type": "text",
+      "label": "$40",
+      "bbox": {
+        "x": 0.3913,
+        "y": 0.2725,
+        "w": 0.0372,
+        "h": 0.0481
+      },
+      "parent": 1
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.3941,
+        "w": 0.469,
+        "h": 0.1845
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2731,
+        "y": 0.4268,
+        "w": 0.08,
+        "h": 0.119
+      },
+      "parent": 5,
+      "props": {
+        "alt": "item",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Straw hat",
+      "bbox": {
+        "x": 0.3913,
+        "y": 0.4268,
+        "w": 0.0897,
+        "h": 0.0481
+      },
+      "parent": 5
+    },
+    {
+      "type": "text",
+      "label": "$80",
+      "bbox": {
+        "x": 0.3913,
+        "y": 0.4838,
+        "w": 0.0387,
+        "h": 0.0481
+      },
+      "parent": 5
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.6054,
+        "w": 0.469,
+        "h": 0.0208
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Total",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.653,
+        "w": 0.0508,
+        "h": 0.0481
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "$120",
+      "bbox": {
+        "x": 0.6714,
+        "y": 0.653,
+        "w": 0.0487,
+        "h": 0.0481
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Coupon code",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.7279,
+        "w": 0.469,
+        "h": 0.0804
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Checkout",
+      "bbox": {
+        "x": 0.2511,
+        "y": 0.835,
+        "w": 0.469,
+        "h": 0.0804
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Checkout",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Your cart",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Coupon code",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Checkout",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Checkout",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

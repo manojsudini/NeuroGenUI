@@ -1,0 +1,319 @@
+{
+ "_ok": true,
+ "_wall_ms": 10979.6,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.96,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Nimbus",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.42,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "About",
+    "bbox": {
+     "x": 0.54,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Get started",
+    "bbox": {
+     "x": 0.75,
+     "y": 0.025,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.13,
+     "w": 0.4,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.13,
+     "w": 0.45,
+     "h": 0.25
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~\n~~~~~~~~~~~",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.2,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.32,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.2,
+     "y": 0.32,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.45,
+     "w": 0.28,
+     "h": 0.25
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.45,
+     "w": 0.28,
+     "h": 0.25
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.67,
+     "y": 0.45,
+     "w": 0.28,
+     "h": 0.25
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.47,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 11
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.47,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 12
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.47,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.53,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.53,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.53,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "~~~~~~~~~~~\n~~~~~~~~",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.58,
+     "w": 0.2,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "~~~~~~~~~~~\n~~~~~~~",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.58,
+     "w": 0.2,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "~~~~~~~~~~~\n~~~~~~~~",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.58,
+     "w": 0.2,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 13
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "vision",
+  "title": "Nimbus Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 10971,
+   "total_ms": 10979
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

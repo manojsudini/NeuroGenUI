@@ -1,0 +1,160 @@
+{
+ "_ok": true,
+ "_wall_ms": 5041.6,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.0754,
+     "w": 0.156,
+     "h": 0.2276
+    },
+    "shape": "circle",
+    "confidence": 0.918,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jane Doe",
+    "bbox": {
+     "x": 0.401,
+     "y": 0.3469,
+     "w": 0.173,
+     "h": 0.0722
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Product designer",
+    "bbox": {
+     "x": 0.404,
+     "y": 0.4647,
+     "w": 0.173,
+     "h": 0.0455
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Message",
+    "bbox": {
+     "x": 0.495,
+     "y": 0.529,
+     "w": 0.241,
+     "h": 0.102
+    },
+    "shape": "rect",
+    "confidence": 0.845,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Follow",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.5369,
+     "w": 0.233,
+     "h": 0.0942
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.271,
+     "y": 0.6531,
+     "w": 0.46,
+     "h": 0.0141
+    },
+    "shape": "squiggle",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "About",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.719,
+     "w": 0.073,
+     "h": 0.0408
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.285,
+     "y": 0.8085,
+     "w": 0.185,
+     "h": 0.0126
+    },
+    "shape": "squiggle",
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.8477,
+     "w": 0.421,
+     "h": 0.0126
+    },
+    "shape": "text",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.385,
+     "y": 0.8901,
+     "w": 0.111,
+     "h": 0.0126
+    },
+    "shape": "squiggle",
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 637,
+  "mode": "hybrid",
+  "title": "User Profile Card",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 42,
+   "vision_ms": 4990,
+   "total_ms": 5041
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 12
+ }
+}

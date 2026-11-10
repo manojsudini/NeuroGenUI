@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 1731.4,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "sign in button",
+     "id": "btn_sign_in"
+    },
+    "page": {
+     "name": "Login"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1730,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"sign in button\",\"id\":\"btn_sign_in\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Login\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

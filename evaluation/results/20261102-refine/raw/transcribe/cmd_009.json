@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 697.2,
+ "value": {
+  "text": "Add a Pay Bills button next to the Request button.",
+  "model": "whisper-1",
+  "duration_ms": 697
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "_ok": true,
+ "_wall_ms": 1893.5,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "login button",
+     "id": "btn_login"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "message": "Please fill in all fields"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1892,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"login button\",\"id\":\"btn_login\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":null,\"target\":null,\"format\":null,\"message\":\"Please fill in all fields\",\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

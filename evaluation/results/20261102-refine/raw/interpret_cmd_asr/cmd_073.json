@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 1531.0,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Settings",
+     "id": "navi_settings"
+    },
+    "page": {
+     "name": "Settings"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1529,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"Settings\",\"id\":\"navi_settings\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Settings\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

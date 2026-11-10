@@ -1,0 +1,189 @@
+{
+ "_ok": true,
+ "_wall_ms": 7634.3,
+ "value": {
+  "components": [
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.1,
+     "w": 0.8,
+     "h": 0.12
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "MyBank",
+    "bbox": {
+     "x": 0.132,
+     "y": 0.12,
+     "w": 0.288,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "icon",
+    "label": "bell icon",
+    "bbox": {
+     "x": 0.82,
+     "y": 0.12,
+     "w": 0.048,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.28,
+     "w": 0.8,
+     "h": 0.18
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Savings account",
+    "bbox": {
+     "x": 0.132,
+     "y": 0.3,
+     "w": 0.288,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "heading",
+    "label": "$12,480.50",
+    "bbox": {
+     "x": 0.132,
+     "y": 0.37,
+     "w": 0.388,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.48,
+     "w": 0.8,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Transfer",
+    "bbox": {
+     "x": 0.132,
+     "y": 0.5,
+     "w": 0.208,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.34,
+     "y": 0.5,
+     "w": 0.01,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "button",
+    "label": "Pay bills",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.5,
+     "w": 0.25,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "button",
+    "label": "Deposit",
+    "bbox": {
+     "x": 0.61,
+     "y": 0.5,
+     "w": 0.258,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "Transactions",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.62,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.68,
+     "w": 0.5,
+     "h": 0.25
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 591,
+  "mode": "vision",
+  "title": "Bank Account Dashboard",
+  "category": "banking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7545,
+   "total_ms": 7634
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

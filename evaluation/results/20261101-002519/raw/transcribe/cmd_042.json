@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 762.0,
+ "value": {
+  "text": "the sign-in buttons should be a bit bigger.",
+  "model": "whisper-1",
+  "duration_ms": 761
+ }
+}

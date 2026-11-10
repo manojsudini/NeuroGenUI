@@ -1,0 +1,137 @@
+{
+ "_ok": true,
+ "_wall_ms": 5719.0,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Join the club",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.15,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.2,
+     "w": 0.35,
+     "h": 0.5
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.22,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.38,
+     "w": 0.35,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.48,
+     "w": 0.35,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.58,
+     "w": 0.35,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Subscribe to newsletter",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.75,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.88,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.88,
+     "w": 0.15,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Join the club registration",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5711,
+   "total_ms": 5718
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "_ok": true,
+ "_wall_ms": 9726.0,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.044,
+     "y": 0.0738,
+     "w": 0.905,
+     "h": 0.128
+    },
+    "confidence": 0.856,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Pul se",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.1145,
+     "w": 0.079,
+     "h": 0.0587
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.778,
+     "y": 0.116,
+     "w": 0.059,
+     "h": 0.0437
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Profile",
+    "bbox": {
+     "x": 0.861,
+     "y": 0.1175,
+     "w": 0.071,
+     "h": 0.0422
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Edit profile",
+    "bbox": {
+     "x": 0.041,
+     "y": 0.238,
+     "w": 0.188,
+     "h": 0.0738
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.3539,
+     "w": 0.096,
+     "h": 0.0497
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.3554,
+     "w": 0.101,
+     "h": 0.1657
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.257,
+     "y": 0.4277,
+     "w": 0.689,
+     "h": 0.0934
+    },
+    "confidence": 0.752,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.5497,
+     "w": 0.691,
+     "h": 0.0828
+    },
+    "confidence": 0.747,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.6039,
+     "w": 0.6275,
+     "h": 0.0428
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.044,
+     "y": 0.6536,
+     "w": 0.902,
+     "h": 0.1792
+    },
+    "confidence": 0.913,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Bio",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.6747,
+     "w": 0.034,
+     "h": 0.0407
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 10
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.192,
+     "y": 0.8524,
+     "w": 0.148,
+     "h": 0.0843
+    },
+    "confidence": 0.909,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.8614,
+     "w": 0.118,
+     "h": 0.0798
+    },
+    "confidence": 0.854,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 664,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 9300,
+   "vision_ms": 0,
+   "total_ms": 9725
+  },
+  "n_cv_candidates": 18
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "_ok": true,
+ "_wall_ms": 8103.3,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "First name",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.15,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.15,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.2,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.2,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.32,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.37,
+     "w": 0.85,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.5,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Country",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.5,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.55,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.55,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Password",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.67,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.72,
+     "w": 0.85,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Gender",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Male",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.9,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Female",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.9,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Other",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.9,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Create account",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.97,
+     "w": 0.3,
+     "h": 0.03
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 673,
+  "mode": "vision",
+  "title": "Sign up form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 8095,
+   "total_ms": 8103
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

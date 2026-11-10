@@ -1,0 +1,43 @@
+digraph G {
+  graph [rankdir=TB, fontname="Inter", fontsize=12, nodesep=0.25, ranksep=0.5, pad=0.2, compound=true, newrank=true];
+  node  [shape=box, style="rounded,filled", fillcolor="#f4f7f8", color="#3b4a50", fontname="Inter", fontsize=11, margin="0.14,0.08"];
+  edge  [color="#55656b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  subgraph cluster_fe { label="Frontend: React 19 + Vite (built to frontend/dist, served by FastAPI)"; style="rounded"; color="#0e7c8f"; fontcolor="#0a5f6e";
+    ui  [label="Pages: Projects, Studio,\nDataset, Evaluation"];
+    ed  [label="DrawCanvas, VoicePanel\n(MediaRecorder)"];
+    ac  [label="lib/api.js\nfetch + SSE reader"];
+    ifr [label="Preview iframe\n/runtime/preview.html", fillcolor="#e3f4f6", color="#0e7c8f"];
+  }
+  subgraph cluster_api { label="API layer: FastAPI on port 8200"; style="rounded"; color="#0e7c8f"; fontcolor="#0a5f6e";
+    main [label="app/main.py\nREST, SSE, static files"];
+    orch [label="pipeline/orchestrator.py\nstage timing, versions", fillcolor="#e3f4f6", color="#0e7c8f"];
+  }
+  subgraph cluster_pipe { label="Pipeline modules (backend/app/pipeline)"; style="rounded"; color="#0e7c8f"; fontcolor="#0a5f6e";
+    sk [label="sketch.py\nsketch_refine.py, ocr.py"];
+    sp [label="speech.py"];
+    it [label="intent.py"];
+    fu [label="fusion.py"];
+    rf [label="refine.py"];
+    cg [label="codegen.py"];
+    va [label="validate.py"];
+    rp [label="repair.py"];
+  }
+  subgraph cluster_ext { label="Engines"; style="rounded"; color="#8a969b"; fontcolor="#55656b";
+    oa  [label="OpenAI API\nvision, text, Whisper", fillcolor="#fdf3e0", color="#b97400"];
+    ocv [label="OpenCV + RapidOCR\n(local CPU)"];
+    pw  [label="Headless Edge / Chromium\n(Playwright)"];
+  }
+  subgraph cluster_st { label="Storage"; style="rounded"; color="#8a969b"; fontcolor="#55656b";
+    db [label="SQLite\nbackend/data/neurogenui.db", shape=cylinder, fillcolor="#eef3f4"];
+    fs [label="backend/data/\nsketches, overlays, shots", shape=folder, fillcolor="#eef3f4"];
+    ds [label="dataset/ and\nevaluation/results/latest", shape=folder, fillcolor="#eef3f4"];
+  }
+  ed -> ui [dir=none]; ui -> ac; ac -> main [label="/api/* (JSON, multipart, SSE)"];
+  ifr -> main [label="GET version.preview", style=dashed, constraint=false];
+  ui -> ifr [label="postMessage", style=dashed];
+  main -> orch; main -> sp [label="/voice-to-text"];
+  orch -> sk; orch -> it; orch -> fu; orch -> rf; orch -> cg; orch -> va; orch -> rp;
+  sk -> ocv; sk -> oa; sp -> oa; it -> oa; va -> pw;
+  orch -> db; main -> fs; main -> ds;
+}

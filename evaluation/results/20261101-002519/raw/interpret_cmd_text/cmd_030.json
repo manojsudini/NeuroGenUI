@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 1547.2,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Subscribe button",
+     "id": "btn_subscribe"
+    },
+    "changes": {
+     "label": "Join"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1546,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"Subscribe button\",\"id\":\"btn_subscribe\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Join\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

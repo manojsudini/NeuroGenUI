@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 3318.2,
+ "value": {
+  "text": "add a continue shopping link below the checkout button.",
+  "model": "whisper-1",
+  "duration_ms": 3318
+ }
+}

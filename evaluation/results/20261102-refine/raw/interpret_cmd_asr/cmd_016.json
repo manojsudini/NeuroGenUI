@@ -1,0 +1,19 @@
+{
+ "_ok": true,
+ "_wall_ms": 1867.3,
+ "value": {
+  "ops": [
+   {
+    "op": "remove",
+    "target": {
+     "ref": "Buy now button",
+     "id": "btn_buy_now"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1866,
+  "raw": "{\"ops\":[{\"op\":\"remove\",\"target\":{\"ref\":\"Buy now button\",\"id\":\"btn_buy_now\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

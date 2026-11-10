@@ -1,0 +1,265 @@
+{
+  "id": "book_04",
+  "category": "booking",
+  "title": "Jazz Night",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('book_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "An event page with a navbar (Eventix, Events, Venues, My tickets), a poster image, the title Jazz Night, the date Sat 12 Dec 8 PM, a short description, a Tickets dropdown, a Book now button and a View venue map link. Book now goes to a Checkout page and View venue map opens a Venue page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0455,
+        "y": 0.077,
+        "w": 0.8816,
+        "h": 0.1244
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Eventix",
+      "bbox": {
+        "x": 0.0655,
+        "y": 0.102,
+        "w": 0.1025,
+        "h": 0.0744
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Events",
+      "bbox": {
+        "x": 0.5864,
+        "y": 0.1093,
+        "w": 0.0713,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Venues",
+      "bbox": {
+        "x": 0.6876,
+        "y": 0.1093,
+        "w": 0.0748,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "My tickets",
+      "bbox": {
+        "x": 0.7925,
+        "y": 0.1093,
+        "w": 0.1146,
+        "h": 0.0597
+      },
+      "parent": 0
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0455,
+        "y": 0.2442,
+        "w": 0.349,
+        "h": 0.5714
+      },
+      "parent": null,
+      "props": {
+        "alt": "poster",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Jazz Night",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.2442,
+        "w": 0.1843,
+        "h": 0.0905
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Sat 12 Dec, 8 PM",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.3633,
+        "w": 0.1794,
+        "h": 0.0525
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.4444,
+        "w": 0.4886,
+        "h": 0.0821
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "select",
+      "label": "Tickets",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.5551,
+        "w": 0.22,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Book now",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.6801,
+        "w": 0.2,
+        "h": 0.0964
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "View venue map",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.8051,
+        "w": 0.1664,
+        "h": 0.0597
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Book now",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "View venue map",
+      "expect": {
+        "type": "navigate",
+        "page": "Venue"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Eventix",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Events",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Venues",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "My tickets",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Jazz Night",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Tickets",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Book now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "View venue map",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Book now",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "View venue map",
+      "expect": {
+        "type": "navigate",
+        "page": "Venue"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "_ok": true,
+ "_wall_ms": 2165.2,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Create account",
+     "id": "btn_create_account"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_format",
+       "target": "email field",
+       "format": "email",
+       "message": "Enter a valid email address."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2164,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"Create account\",\"id\":\"btn_create_account\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_format\",\"targets\":null,\"target\":\"email field\",\"format\":\"email\",\"message\":\"Enter a valid email address.\" ,\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "_ok": true,
+ "_wall_ms": 11361.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.075,
+     "w": 0.886,
+     "h": 0.1321
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.894,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Eventix",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.1143,
+     "w": 0.104,
+     "h": 0.0518
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Events",
+    "bbox": {
+     "x": 0.583,
+     "y": 0.1054,
+     "w": 0.076,
+     "h": 0.0518
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Venues",
+    "bbox": {
+     "x": 0.686,
+     "y": 0.1107,
+     "w": 0.076,
+     "h": 0.0482
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "My tickets",
+    "bbox": {
+     "x": 0.791,
+     "y": 0.1107,
+     "w": 0.118,
+     "h": 0.0518
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.048,
+     "y": 0.25,
+     "w": 0.345,
+     "h": 0.5679
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jazz Night",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.25,
+     "w": 0.188,
+     "h": 0.0786
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sat 12 Dec, 8 PM",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.3643,
+     "w": 0.183,
+     "h": 0.0518
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.436,
+     "y": 0.4454,
+     "w": 0.4815,
+     "h": 0.0762
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.55,
+     "w": 0.222,
+     "h": 0.0929
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Tickets",
+    "bbox": {
+     "x": 0.449,
+     "y": 0.5714,
+     "w": 0.082,
+     "h": 0.0536
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.624,
+     "y": 0.5859,
+     "w": 0.0245,
+     "h": 0.033
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Book now",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.675,
+     "w": 0.204,
+     "h": 0.1071
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.932,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "View venue map",
+    "bbox": {
+     "x": 0.437,
+     "y": 0.8089,
+     "w": 0.171,
+     "h": 0.0482
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Event Ticket Booking",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 5129,
+   "vision_ms": 5899,
+   "total_ms": 11361
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 20
+ }
+}

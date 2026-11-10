@@ -1,0 +1,173 @@
+{
+ "_ok": true,
+ "_wall_ms": 6146.0,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.1054,
+     "w": 0.43,
+     "h": 0.7143
+    },
+    "shape": "cross_box",
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Running Shoes",
+    "bbox": {
+     "x": 0.522,
+     "y": 0.1339,
+     "w": 0.226,
+     "h": 0.0821
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$89",
+    "bbox": {
+     "x": 0.524,
+     "y": 0.2554,
+     "w": 0.046,
+     "h": 0.05
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.3571,
+     "w": 0.351,
+     "h": 0.0179
+    },
+    "shape": "squiggle",
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.519,
+     "y": 0.4018,
+     "w": 0.367,
+     "h": 0.0179
+    },
+    "shape": "squiggle",
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.523,
+     "y": 0.45,
+     "w": 0.268,
+     "h": 0.0179
+    },
+    "shape": "squiggle",
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Size",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.5036,
+     "w": 0.423,
+     "h": 0.1125
+    },
+    "confidence": 0.506,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.907,
+     "y": 0.5411,
+     "w": 0.019,
+     "h": 0.0232
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Quantity",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.6196,
+     "w": 0.167,
+     "h": 0.1089
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Add to cart",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.7429,
+     "w": 0.206,
+     "h": 0.1161
+    },
+    "shape": "rect",
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Buy now",
+    "bbox": {
+     "x": 0.741,
+     "y": 0.75,
+     "w": 0.196,
+     "h": 0.1054
+    },
+    "shape": "rect",
+    "confidence": 0.914,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Product Detail",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 35,
+   "vision_ms": 6103,
+   "total_ms": 6145
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

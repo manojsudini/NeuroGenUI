@@ -1,0 +1,179 @@
+{
+  "id": "set_01",
+  "category": "settings",
+  "title": "Settings",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('set_01')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A mobile settings screen with the heading Settings, a Notifications section with toggles for push notifications, email updates and dark mode, a divider, a Privacy policy link and a Log out button that returns to the Login page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Settings",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.1054,
+        "w": 0.1382,
+        "h": 0.0986
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Notifications",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.2396,
+        "w": 0.1163,
+        "h": 0.0577
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Push notifications",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.333,
+        "w": 0.2202,
+        "h": 0.0571
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Email updates",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.4259,
+        "w": 0.1863,
+        "h": 0.0571
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Dark mode",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.5187,
+        "w": 0.1562,
+        "h": 0.0571
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.6116,
+        "w": 0.5085,
+        "h": 0.025
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Privacy policy",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.6723,
+        "w": 0.1304,
+        "h": 0.0648
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Log out",
+      "bbox": {
+        "x": 0.255,
+        "y": 0.7728,
+        "w": 0.5085,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Log out",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Settings",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Push notifications",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Email updates",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Dark mode",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Privacy policy",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Log out",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Log out",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": "shop_04",
+  "category": "ecommerce",
+  "title": "Checkout",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('shop_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 642,
+  "instruction": "A checkout page: a Shipping section with full name, address, city and zip code fields, a Payment section with Card, PayPal and Cash on delivery options, and an Order summary card with the items, the total and a Place order button. Place order shows an error when the shipping fields are empty.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Checkout",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.1037,
+        "w": 0.1782,
+        "h": 0.079
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Shipping",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.2138,
+        "w": 0.0968,
+        "h": 0.056
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "input",
+      "label": "Full name",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.2916,
+        "w": 0.5027,
+        "h": 0.0841
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Address",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.3975,
+        "w": 0.5027,
+        "h": 0.0841
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.5034,
+        "w": 0.2394,
+        "h": 0.0841
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip code",
+      "bbox": {
+        "x": 0.331,
+        "y": 0.5034,
+        "w": 0.2394,
+        "h": 0.0841
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Payment",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.6094,
+        "w": 0.1059,
+        "h": 0.056
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Card",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.6871,
+        "w": 0.0922,
+        "h": 0.0498
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "PayPal",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.7588,
+        "w": 0.108,
+        "h": 0.0498
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "Cash on delivery",
+      "bbox": {
+        "x": 0.0677,
+        "y": 0.8304,
+        "w": 0.2092,
+        "h": 0.0498
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6104,
+        "y": 0.2138,
+        "w": 0.3352,
+        "h": 0.4632
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Order summary",
+      "bbox": {
+        "x": 0.6324,
+        "y": 0.2481,
+        "w": 0.1965,
+        "h": 0.056
+      },
+      "parent": 10,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.6324,
+        "y": 0.3259,
+        "w": 0.2003,
+        "h": 0.0997
+      },
+      "parent": 10,
+      "props": {
+        "items": [
+          "Linen shirt  $40",
+          "Straw hat  $14"
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.6324,
+        "y": 0.4474,
+        "w": 0.2912,
+        "h": 0.0218
+      },
+      "parent": 10
+    },
+    {
+      "type": "text",
+      "label": "Total $54",
+      "bbox": {
+        "x": 0.6324,
+        "y": 0.491,
+        "w": 0.1053,
+        "h": 0.0458
+      },
+      "parent": 10
+    },
+    {
+      "type": "button",
+      "label": "Place order",
+      "bbox": {
+        "x": 0.6324,
+        "y": 0.5586,
+        "w": 0.2912,
+        "h": 0.0841
+      },
+      "parent": 10
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Place order",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Checkout",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Shipping",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Full name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Address",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "City",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Zip code",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Payment",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Card",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "PayPal",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Cash on delivery",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Order summary",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Place order",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Place order",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

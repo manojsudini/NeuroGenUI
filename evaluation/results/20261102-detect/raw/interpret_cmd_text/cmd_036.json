@@ -1,0 +1,25 @@
+{
+ "_ok": true,
+ "_wall_ms": 1717.4,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "amount field"
+    },
+    "position": {
+     "relation": "above",
+     "anchor": {
+      "ref": "From account",
+      "id": "sel_from_account"
+     }
+    },
+    "confidence": 0.9
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1716,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"amount field\",\"id\":null},\"component\":null,\"components\":null,\"position\":{\"relation\":\"above\",\"anchor\":{\"ref\":\"From account\",\"id\":\"sel_from_account\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9}]}"
+ }
+}

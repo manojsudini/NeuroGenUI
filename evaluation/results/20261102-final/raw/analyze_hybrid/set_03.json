@@ -1,0 +1,174 @@
+{
+ "_ok": true,
+ "_wall_ms": 6751.1,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Security",
+    "bbox": {
+     "x": 0.176,
+     "y": 0.1076,
+     "w": 0.13,
+     "h": 0.0586
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.17,
+     "y": 0.1812,
+     "w": 0.667,
+     "h": 0.7493
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Change password",
+    "bbox": {
+     "x": 0.198,
+     "y": 0.2357,
+     "w": 0.179,
+     "h": 0.0395
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "Current password",
+    "bbox": {
+     "x": 0.195,
+     "y": 0.2807,
+     "w": 0.62,
+     "h": 0.0954
+    },
+    "shape": "rect",
+    "confidence": 0.901,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "New password",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.4087,
+     "w": 0.116,
+     "h": 0.0341
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "Confirm new password",
+    "bbox": {
+     "x": 0.194,
+     "y": 0.4632,
+     "w": 0.624,
+     "h": 0.0899
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "Update password",
+    "bbox": {
+     "x": 0.192,
+     "y": 0.5586,
+     "w": 0.23,
+     "h": 0.094
+    },
+    "shape": "rect",
+    "confidence": 0.904,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "heading",
+    "label": "Two-factor authentication",
+    "bbox": {
+     "x": 0.196,
+     "y": 0.7452,
+     "w": 0.276,
+     "h": 0.0341
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.196,
+     "y": 0.8106,
+     "w": 0.521,
+     "h": 0.015
+    },
+    "shape": "squiggle",
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.187,
+     "y": 0.8474,
+     "w": 0.036,
+     "h": 0.049
+    },
+    "shape": "circle",
+    "confidence": 0.889,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Enable 2FA",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.8597,
+     "w": 0.086,
+     "h": 0.0272
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   }
+  ],
+  "width": 1000,
+  "height": 734,
+  "mode": "hybrid",
+  "title": "Security Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 72,
+   "vision_ms": 6667,
+   "total_ms": 6751
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 15
+ }
+}

@@ -1,0 +1,418 @@
+{
+  "id": "land_04",
+  "category": "landing",
+  "title": "Pricing",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('land_04')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 615,
+  "instruction": "A pricing page for Flowly with a navbar (Features, Pricing, Login), the heading Simple pricing and three plan cards: Basic $9, Pro $29 and Team $99, each with a feature list and a button (Choose Basic, Choose Pro, Contact sales). Choose Pro shows the message Pro plan selected and Contact sales opens a Contact page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0478,
+        "y": 0.0878,
+        "w": 0.9042,
+        "h": 0.13
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Flowly",
+      "bbox": {
+        "x": 0.0678,
+        "y": 0.1106,
+        "w": 0.093,
+        "h": 0.0844
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Features",
+      "bbox": {
+        "x": 0.6423,
+        "y": 0.12,
+        "w": 0.0936,
+        "h": 0.0657
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Pricing",
+      "bbox": {
+        "x": 0.766,
+        "y": 0.12,
+        "w": 0.0771,
+        "h": 0.0657
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Login",
+      "bbox": {
+        "x": 0.8731,
+        "y": 0.12,
+        "w": 0.0589,
+        "h": 0.0657
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Simple pricing",
+      "bbox": {
+        "x": 0.3722,
+        "y": 0.2568,
+        "w": 0.2555,
+        "h": 0.1011
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0478,
+        "y": 0.3969,
+        "w": 0.2841,
+        "h": 0.4872
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Basic",
+      "bbox": {
+        "x": 0.0698,
+        "y": 0.4327,
+        "w": 0.0701,
+        "h": 0.0711
+      },
+      "parent": 6,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "heading",
+      "label": "$9",
+      "bbox": {
+        "x": 0.0698,
+        "y": 0.5265,
+        "w": 0.0436,
+        "h": 0.0844
+      },
+      "parent": 6,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.0698,
+        "y": 0.6337,
+        "w": 0.1375,
+        "h": 0.1041
+      },
+      "parent": 6,
+      "props": {
+        "items": [
+          "1 user",
+          "5 projects"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Choose Basic",
+      "bbox": {
+        "x": 0.0698,
+        "y": 0.7605,
+        "w": 0.2401,
+        "h": 0.0878
+      },
+      "parent": 6
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3579,
+        "y": 0.3969,
+        "w": 0.2841,
+        "h": 0.4872
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Pro",
+      "bbox": {
+        "x": 0.3799,
+        "y": 0.4327,
+        "w": 0.0464,
+        "h": 0.0711
+      },
+      "parent": 11,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "heading",
+      "label": "$29",
+      "bbox": {
+        "x": 0.3799,
+        "y": 0.5265,
+        "w": 0.0634,
+        "h": 0.0844
+      },
+      "parent": 11,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.3799,
+        "y": 0.6337,
+        "w": 0.2197,
+        "h": 0.1041
+      },
+      "parent": 11,
+      "props": {
+        "items": [
+          "5 users",
+          "Unlimited projects"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Choose Pro",
+      "bbox": {
+        "x": 0.3799,
+        "y": 0.7605,
+        "w": 0.2401,
+        "h": 0.0878
+      },
+      "parent": 11
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6679,
+        "y": 0.3969,
+        "w": 0.2841,
+        "h": 0.4872
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Team",
+      "bbox": {
+        "x": 0.6899,
+        "y": 0.4327,
+        "w": 0.0635,
+        "h": 0.0711
+      },
+      "parent": 16,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "heading",
+      "label": "$99",
+      "bbox": {
+        "x": 0.6899,
+        "y": 0.5265,
+        "w": 0.0634,
+        "h": 0.0844
+      },
+      "parent": 16,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.6899,
+        "y": 0.6337,
+        "w": 0.1996,
+        "h": 0.1041
+      },
+      "parent": 16,
+      "props": {
+        "items": [
+          "50 users",
+          "Priority support"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Contact sales",
+      "bbox": {
+        "x": 0.6899,
+        "y": 0.7605,
+        "w": 0.2401,
+        "h": 0.0878
+      },
+      "parent": 16,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Choose Pro",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "pro"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Contact sales",
+      "expect": {
+        "type": "navigate",
+        "page": "Contact"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Flowly",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Features",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Pricing",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Login",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Simple pricing",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Basic",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "$9",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Choose Basic",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Pro",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "$29",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Choose Pro",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Team",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "$99",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Contact sales",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Choose Pro",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "pro"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Contact sales",
+      "expect": {
+        "type": "navigate",
+        "page": "Contact"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

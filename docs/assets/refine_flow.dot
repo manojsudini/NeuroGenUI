@@ -1,0 +1,16 @@
+digraph G {
+  graph [rankdir=LR, fontname="Inter", nodesep=0.3, ranksep=0.4, pad=0.2];
+  node  [shape=box, style="rounded,filled", fillcolor="#f4f7f8", color="#3b4a50", fontname="Inter", fontsize=11, margin="0.14,0.08"];
+  edge  [color="#55656b", fontname="Inter", fontsize=9, arrowsize=0.7];
+  v  [label="Voice / typed\ncommand"];
+  w  [label="Whisper\n(speech.py)"];
+  i  [label="intent.parse_commands\ncommand + IR outline\n-> Ops (JSON schema)", fillcolor="#e3f4f6", color="#0e7c8f"];
+  n  [label="_clean_op +\n_normalise_resize"];
+  a  [label="refine.apply_ops\nresolve_target\n(deterministic)", fillcolor="#e3f4f6", color="#0e7c8f"];
+  c  [label="codegen\n(whole project\nrecompiled)"];
+  val[label="validate\n(reference = previous IR)"];
+  r  [label="repair_loop\n(max 3 passes)"];
+  s  [label="save Version\nkind = modify"];
+  v -> w [label="audio"]; v -> i [label="text", style=dashed]; w -> i [label="transcript"];
+  i -> n -> a -> c -> val; val -> s [label="pass"]; val -> r [label="fail"]; r -> val [label="revalidate"]; r -> s [label="best result"];
+}

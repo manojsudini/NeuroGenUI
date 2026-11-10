@@ -1,0 +1,245 @@
+{
+ "_ok": true,
+ "_wall_ms": 19973.0,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.0541,
+     "w": 0.885,
+     "h": 0.0971
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.891,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Buildr",
+    "bbox": {
+     "x": 0.081,
+     "y": 0.0774,
+     "w": 0.095,
+     "h": 0.0553
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Product",
+    "bbox": {
+     "x": 0.67,
+     "y": 0.0799,
+     "w": 0.091,
+     "h": 0.0393
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Docs",
+    "bbox": {
+     "x": 0.785,
+     "y": 0.0786,
+     "w": 0.076,
+     "h": 0.0442
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Blog",
+    "bbox": {
+     "x": 0.863,
+     "y": 0.0774,
+     "w": 0.06,
+     "h": 0.0479
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Build apps faster",
+    "bbox": {
+     "x": 0.347,
+     "y": 0.1892,
+     "w": 0.313,
+     "h": 0.0688
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.232,
+     "y": 0.2846,
+     "w": 0.4615,
+     "h": 0.0512
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Join waitlist",
+    "bbox": {
+     "x": 0.614,
+     "y": 0.371,
+     "w": 0.198,
+     "h": 0.0627
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Work email",
+    "bbox": {
+     "x": 0.199,
+     "y": 0.3796,
+     "w": 0.116,
+     "h": 0.0393
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.4521,
+     "w": 0.88,
+     "h": 0.2838
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.904,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Loved by teams",
+    "bbox": {
+     "x": 0.405,
+     "y": 0.7617,
+     "w": 0.194,
+     "h": 0.0528
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.8378,
+     "w": 0.203,
+     "h": 0.0799
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.286,
+     "y": 0.8354,
+     "w": 0.202,
+     "h": 0.086
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.508,
+     "y": 0.8354,
+     "w": 0.204,
+     "h": 0.0811
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.736,
+     "y": 0.8378,
+     "w": 0.202,
+     "h": 0.0786
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 814,
+  "mode": "hybrid",
+  "title": "Buildr Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 12996,
+   "vision_ms": 6648,
+   "total_ms": 19972
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

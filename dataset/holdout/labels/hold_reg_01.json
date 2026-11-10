@@ -1,0 +1,248 @@
+{
+  "id": "hold_reg_01",
+  "category": "registration",
+  "title": "Invite your team",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_reg_01')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pen",
+    "layout": "narrow",
+    "style": "harsh",
+    "page_rotation_deg": -1.22,
+    "scratch_outs": 2
+  },
+  "width": 1000,
+  "height": 624,
+  "instruction": "A team invitation step with the heading Invite your team, the text Add the people you work with, three rows each with a teammate email field and a Role dropdown (Admin, Member), an Add another link, and Send invites and Skip for now buttons. Send invites checks that the emails are valid and Skip for now opens a Dashboard page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Invite your team",
+      "bbox": {
+        "x": 0.1941,
+        "y": 0.1291,
+        "w": 0.2738,
+        "h": 0.0929
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Add the people you work with",
+      "bbox": {
+        "x": 0.1945,
+        "y": 0.2426,
+        "w": 0.2846,
+        "h": 0.0575
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Teammate email 1",
+      "bbox": {
+        "x": 0.1948,
+        "y": 0.318,
+        "w": 0.4058,
+        "h": 0.0922
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Role",
+      "bbox": {
+        "x": 0.6233,
+        "y": 0.3126,
+        "w": 0.2044,
+        "h": 0.0877
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Admin",
+          "Member"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Teammate email 2",
+      "bbox": {
+        "x": 0.1952,
+        "y": 0.4285,
+        "w": 0.4061,
+        "h": 0.0919
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Role",
+      "bbox": {
+        "x": 0.6241,
+        "y": 0.4233,
+        "w": 0.2046,
+        "h": 0.0876
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Admin",
+          "Member"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Teammate email 3",
+      "bbox": {
+        "x": 0.1956,
+        "y": 0.5391,
+        "w": 0.4065,
+        "h": 0.0917
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Role",
+      "bbox": {
+        "x": 0.6248,
+        "y": 0.5341,
+        "w": 0.2047,
+        "h": 0.0876
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Admin",
+          "Member"
+        ]
+      }
+    },
+    {
+      "type": "link",
+      "label": "Add another",
+      "bbox": {
+        "x": 0.196,
+        "y": 0.6559,
+        "w": 0.1225,
+        "h": 0.0596
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Send invites",
+      "bbox": {
+        "x": 0.1964,
+        "y": 0.7766,
+        "w": 0.1736,
+        "h": 0.0866
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Skip for now",
+      "bbox": {
+        "x": 0.5225,
+        "y": 0.7699,
+        "w": 0.1816,
+        "h": 0.0869
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Send invites",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Teammate email 1",
+        "format": "email"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Skip for now",
+      "expect": {
+        "type": "navigate",
+        "page": "Dashboard"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Invite your team",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Role",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Add another",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Send invites",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Skip for now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Send invites",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Teammate email 1",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Skip for now",
+      "expect": {
+        "type": "navigate",
+        "page": "Dashboard"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

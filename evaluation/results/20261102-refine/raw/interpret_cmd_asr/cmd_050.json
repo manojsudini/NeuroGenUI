@@ -1,0 +1,21 @@
+{
+ "_ok": true,
+ "_wall_ms": 1683.9,
+ "value": {
+  "ops": [
+   {
+    "op": "resize",
+    "target": {
+     "ref": "Update password button",
+     "id": "btn_update_password"
+    },
+    "scale": 0.75,
+    "axis": "both",
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1683,
+  "raw": "{\"ops\":[{\"op\":\"resize\",\"target\":{\"ref\":\"Update password button\",\"id\":\"btn_update_password\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":0.75,\"axis\":\"both\",\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 572.5,
+ "value": {
+  "text": "Make the message box taller.",
+  "model": "whisper-1",
+  "duration_ms": 572
+ }
+}

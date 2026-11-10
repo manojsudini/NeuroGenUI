@@ -1,0 +1,187 @@
+{
+ "_ok": true,
+ "_wall_ms": 51.7,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.0648,
+     "w": 0.913,
+     "h": 0.1461
+    },
+    "confidence": 0.856,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.125,
+     "w": 0.066,
+     "h": 0.0407
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.781,
+     "y": 0.125,
+     "w": 0.147,
+     "h": 0.0422
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.247,
+     "w": 0.18,
+     "h": 0.0693
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.3193,
+     "w": 0.099,
+     "h": 0.0873
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.3479,
+     "w": 0.115,
+     "h": 0.1837
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.4217,
+     "w": 0.694,
+     "h": 0.1175
+    },
+    "confidence": 0.752,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.5331,
+     "w": 0.696,
+     "h": 0.1084
+    },
+    "confidence": 0.747,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.042,
+     "y": 0.6461,
+     "w": 0.907,
+     "h": 0.1943
+    },
+    "confidence": 0.913,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.6822,
+     "w": 0.026,
+     "h": 0.0271
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.19,
+     "y": 0.8509,
+     "w": 0.152,
+     "h": 0.0904
+    },
+    "confidence": 0.909,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.043,
+     "y": 0.8554,
+     "w": 0.126,
+     "h": 0.0904
+    },
+    "confidence": 0.854,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 664,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 40,
+   "vision_ms": 0,
+   "total_ms": 51
+  },
+  "n_cv_candidates": 18
+ }
+}

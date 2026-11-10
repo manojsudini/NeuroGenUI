@@ -1,0 +1,174 @@
+{
+ "_ok": true,
+ "_wall_ms": 8099.7,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.0609,
+     "w": 0.529,
+     "h": 0.1523
+    },
+    "confidence": 0.863,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.714,
+     "y": 0.1049,
+     "w": 0.042,
+     "h": 0.0778
+    },
+    "confidence": 0.87,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "MyBank",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.1151,
+     "w": 0.111,
+     "h": 0.0728
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Savings account",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.2893,
+     "w": 0.149,
+     "h": 0.0508
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "$12,480.50",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.3773,
+     "w": 0.173,
+     "h": 0.0745
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Transfer",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.5279,
+     "w": 0.165,
+     "h": 0.0863
+    },
+    "confidence": 0.852,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Paybills",
+    "bbox": {
+     "x": 0.426,
+     "y": 0.533,
+     "w": 0.167,
+     "h": 0.0795
+    },
+    "confidence": 0.813,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Deposit",
+    "bbox": {
+     "x": 0.606,
+     "y": 0.533,
+     "w": 0.164,
+     "h": 0.088
+    },
+    "confidence": 0.881,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Transactions",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.6599,
+     "w": 0.142,
+     "h": 0.0541
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.7665,
+     "w": 0.163,
+     "h": 0.1472
+    },
+    "confidence": 0.7,
+    "source": "cv",
+    "shape": "list",
+    "ocr": false,
+    "items": [
+     "Rent-$900",
+     "Salary +$3,100",
+     "Netflix-$12"
+    ],
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 591,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 8020,
+   "vision_ms": 0,
+   "total_ms": 8099
+  },
+  "n_cv_candidates": 16
+ }
+}

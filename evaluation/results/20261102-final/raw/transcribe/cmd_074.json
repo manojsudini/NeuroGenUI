@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1418.0,
+ "value": {
+  "text": "Clicking Analytics should open the Analytics page.",
+  "model": "whisper-1",
+  "duration_ms": 1417
+ }
+}

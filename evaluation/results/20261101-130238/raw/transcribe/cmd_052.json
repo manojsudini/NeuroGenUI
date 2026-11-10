@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1400.8,
+ "value": {
+  "text": "Make the Register button green.",
+  "model": "whisper-1",
+  "duration_ms": 1400
+ }
+}

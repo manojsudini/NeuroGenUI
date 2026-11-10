@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 605.3,
+ "value": {
+  "text": "Take out the email me a copy checkbox.",
+  "model": "whisper-1",
+  "duration_ms": 605
+ }
+}

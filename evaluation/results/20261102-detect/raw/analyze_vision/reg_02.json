@@ -1,0 +1,176 @@
+{
+ "_ok": true,
+ "_wall_ms": 6392.7,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.18,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "First name",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.28,
+     "w": 0.35,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.28,
+     "w": 0.38,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.38,
+     "w": 0.76,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.48,
+     "w": 0.35,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Country",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.48,
+     "w": 0.38,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.58,
+     "w": 0.76,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Gender",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.68,
+     "w": 0.15,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Male",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.74,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Female",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.74,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Other",
+    "bbox": {
+     "x": 0.65,
+     "y": 0.74,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Create account",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.83,
+     "w": 0.3,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 673,
+  "mode": "vision",
+  "title": "Sign up form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6299,
+   "total_ms": 6392
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1411.1,
+ "value": {
+  "text": "Move the About heading above the Follow button.",
+  "model": "whisper-1",
+  "duration_ms": 1411
+ }
+}

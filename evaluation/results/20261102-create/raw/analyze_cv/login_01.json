@@ -1,0 +1,103 @@
+{
+ "_ok": true,
+ "_wall_ms": 63.5,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.444,
+     "y": 0.1125,
+     "w": 0.095,
+     "h": 0.075
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.367,
+     "y": 0.2125,
+     "w": 0.254,
+     "h": 0.2929
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.5179,
+     "w": 0.49,
+     "h": 0.1125
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.6518,
+     "w": 0.484,
+     "h": 0.1232
+    },
+    "confidence": 0.819,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.7839,
+     "w": 0.486,
+     "h": 0.1232
+    },
+    "confidence": 0.815,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.463,
+     "y": 0.8321,
+     "w": 0.054,
+     "h": 0.0411
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": 4
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 54,
+   "vision_ms": 0,
+   "total_ms": 63
+  },
+  "n_cv_candidates": 8
+ }
+}

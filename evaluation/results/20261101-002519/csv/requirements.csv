@@ -1,0 +1,1638 @@
+sketch,category,system,kind,what,passed,detail
+login_01,login,oracle,node_exists,Login,True,found
+login_01,login,oracle,node_exists,Email,True,found
+login_01,login,oracle,input_type,Email,True,type=email
+login_01,login,oracle,node_exists,Password,True,found
+login_01,login,oracle,input_type,Password,True,type=password
+login_01,login,oracle,node_exists,Login,True,found
+login_01,login,pipeline,node_exists,Login,True,found
+login_01,login,pipeline,node_exists,Email,True,found
+login_01,login,pipeline,input_type,Email,True,type=email
+login_01,login,pipeline,node_exists,Password,True,found
+login_01,login,pipeline,input_type,Password,True,type=password
+login_01,login,pipeline,node_exists,Login,True,found
+login_01,login,pipeline_norepair,node_exists,Login,True,found
+login_01,login,pipeline_norepair,node_exists,Email,True,found
+login_01,login,pipeline_norepair,input_type,Email,True,type=email
+login_01,login,pipeline_norepair,node_exists,Password,True,found
+login_01,login,pipeline_norepair,input_type,Password,True,type=password
+login_01,login,pipeline_norepair,node_exists,Login,True,found
+login_01,login,baseline,node_exists,Login,True,found
+login_01,login,baseline,node_exists,Email,True,found
+login_01,login,baseline,input_type,Email,True,type=email
+login_01,login,baseline,node_exists,Password,True,found
+login_01,login,baseline,input_type,Password,True,type=password
+login_01,login,baseline,node_exists,Login,True,found
+login_02,login,oracle,node_exists,Friendly,True,found
+login_02,login,oracle,node_exists,Email,True,found
+login_02,login,oracle,input_type,Email,True,type=email
+login_02,login,oracle,node_exists,Password,True,found
+login_02,login,oracle,input_type,Password,True,type=password
+login_02,login,oracle,node_exists,Log In,True,found
+login_02,login,oracle,node_exists,Connect with friends,True,found
+login_02,login,oracle,count_at_least,image,True,1 found
+login_02,login,oracle,interaction,Log In,False,no error
+login_02,login,pipeline,node_exists,Friendly,False,missing
+login_02,login,pipeline,node_exists,Email,True,found
+login_02,login,pipeline,input_type,Email,True,type=email
+login_02,login,pipeline,node_exists,Password,True,found
+login_02,login,pipeline,input_type,Password,True,type=password
+login_02,login,pipeline,node_exists,Log In,True,found
+login_02,login,pipeline,node_exists,Connect with friends,True,found
+login_02,login,pipeline,count_at_least,image,True,1 found
+login_02,login,pipeline,interaction,Log In,True,error shown
+login_02,login,pipeline_norepair,node_exists,Friendly,False,missing
+login_02,login,pipeline_norepair,node_exists,Email,True,found
+login_02,login,pipeline_norepair,input_type,Email,True,type=email
+login_02,login,pipeline_norepair,node_exists,Password,True,found
+login_02,login,pipeline_norepair,input_type,Password,True,type=password
+login_02,login,pipeline_norepair,node_exists,Log In,True,found
+login_02,login,pipeline_norepair,node_exists,Connect with friends,True,found
+login_02,login,pipeline_norepair,count_at_least,image,True,1 found
+login_02,login,pipeline_norepair,interaction,Log In,True,error shown
+login_02,login,baseline,node_exists,Friendly,False,missing
+login_02,login,baseline,node_exists,Email,True,found
+login_02,login,baseline,input_type,Email,True,type=email
+login_02,login,baseline,node_exists,Password,True,found
+login_02,login,baseline,input_type,Password,True,type=password
+login_02,login,baseline,node_exists,Log In,True,found
+login_02,login,baseline,node_exists,Connect with friends,True,found
+login_02,login,baseline,count_at_least,image,True,1 found
+login_02,login,baseline,interaction,Log In,True,error shown
+login_03,login,oracle,node_exists,Welcome back,True,found
+login_03,login,oracle,node_exists,Username,True,found
+login_03,login,oracle,node_exists,Password,True,found
+login_03,login,oracle,input_type,Password,True,type=password
+login_03,login,oracle,node_exists,Remember me,True,found
+login_03,login,oracle,node_exists,Forgot password?,True,found
+login_03,login,oracle,node_exists,Sign in,True,found
+login_03,login,oracle,node_exists,Continue with Google,True,found
+login_03,login,oracle,node_exists,Create an account,True,found
+login_03,login,oracle,interaction,Sign in,False,no error
+login_03,login,oracle,interaction,Create an account,False,new page elements=0 jaccard=1.00
+login_03,login,pipeline,node_exists,Welcome back,True,found
+login_03,login,pipeline,node_exists,Username,True,found
+login_03,login,pipeline,node_exists,Password,True,found
+login_03,login,pipeline,input_type,Password,True,type=password
+login_03,login,pipeline,node_exists,Remember me,True,found
+login_03,login,pipeline,node_exists,Forgot password?,True,found
+login_03,login,pipeline,node_exists,Sign in,True,found
+login_03,login,pipeline,node_exists,Continue with Google,True,found
+login_03,login,pipeline,node_exists,Create an account,True,found
+login_03,login,pipeline,interaction,Sign in,True,error shown
+login_03,login,pipeline,interaction,Create an account,True,new page elements=2 jaccard=0.00
+login_03,login,pipeline_norepair,node_exists,Welcome back,True,found
+login_03,login,pipeline_norepair,node_exists,Username,True,found
+login_03,login,pipeline_norepair,node_exists,Password,True,found
+login_03,login,pipeline_norepair,input_type,Password,True,type=password
+login_03,login,pipeline_norepair,node_exists,Remember me,True,found
+login_03,login,pipeline_norepair,node_exists,Forgot password?,True,found
+login_03,login,pipeline_norepair,node_exists,Sign in,True,found
+login_03,login,pipeline_norepair,node_exists,Continue with Google,True,found
+login_03,login,pipeline_norepair,node_exists,Create an account,True,found
+login_03,login,pipeline_norepair,interaction,Sign in,True,error shown
+login_03,login,pipeline_norepair,interaction,Create an account,True,new page elements=2 jaccard=0.00
+login_03,login,baseline,node_exists,Welcome back,True,found
+login_03,login,baseline,node_exists,Username,True,found
+login_03,login,baseline,node_exists,Password,True,found
+login_03,login,baseline,input_type,Password,True,type=password
+login_03,login,baseline,node_exists,Remember me,True,found
+login_03,login,baseline,node_exists,Forgot password?,True,found
+login_03,login,baseline,node_exists,Sign in,True,found
+login_03,login,baseline,node_exists,Continue with Google,True,found
+login_03,login,baseline,node_exists,Create an account,False,missing
+login_03,login,baseline,interaction,Sign in,True,error shown
+login_03,login,baseline,interaction,Create an account,True,new page elements=1 jaccard=0.00
+login_04,login,oracle,node_exists,Admin Portal,True,found
+login_04,login,oracle,node_exists,Email,True,found
+login_04,login,oracle,input_type,Email,True,type=email
+login_04,login,oracle,node_exists,Password,True,found
+login_04,login,oracle,input_type,Password,True,type=password
+login_04,login,oracle,node_exists,Role,True,found
+login_04,login,oracle,node_exists,Login,True,found
+login_04,login,oracle,node_exists,Need help?,True,found
+login_04,login,oracle,count_at_least,image,True,1 found
+login_04,login,oracle,interaction,Login,False,no error
+login_04,login,oracle,interaction,Login,True,format error shown
+login_04,login,pipeline,node_exists,Admin Portal,True,found
+login_04,login,pipeline,node_exists,Email,True,found
+login_04,login,pipeline,input_type,Email,True,type=email
+login_04,login,pipeline,node_exists,Password,True,found
+login_04,login,pipeline,input_type,Password,True,type=password
+login_04,login,pipeline,node_exists,Role,True,found
+login_04,login,pipeline,node_exists,Login,True,found
+login_04,login,pipeline,node_exists,Need help?,True,found
+login_04,login,pipeline,count_at_least,image,True,1 found
+login_04,login,pipeline,interaction,Login,False,no error
+login_04,login,pipeline,interaction,Login,True,format error shown
+login_04,login,pipeline_norepair,node_exists,Admin Portal,True,found
+login_04,login,pipeline_norepair,node_exists,Email,True,found
+login_04,login,pipeline_norepair,input_type,Email,True,type=email
+login_04,login,pipeline_norepair,node_exists,Password,True,found
+login_04,login,pipeline_norepair,input_type,Password,True,type=password
+login_04,login,pipeline_norepair,node_exists,Role,True,found
+login_04,login,pipeline_norepair,node_exists,Login,True,found
+login_04,login,pipeline_norepair,node_exists,Need help?,True,found
+login_04,login,pipeline_norepair,count_at_least,image,True,1 found
+login_04,login,pipeline_norepair,interaction,Login,False,no error
+login_04,login,pipeline_norepair,interaction,Login,True,format error shown
+login_04,login,baseline,node_exists,Admin Portal,True,found
+login_04,login,baseline,node_exists,Email,True,found
+login_04,login,baseline,input_type,Email,True,type=email
+login_04,login,baseline,node_exists,Password,True,found
+login_04,login,baseline,input_type,Password,True,type=password
+login_04,login,baseline,node_exists,Role,True,found
+login_04,login,baseline,node_exists,Login,True,found
+login_04,login,baseline,node_exists,Need help?,True,found
+login_04,login,baseline,count_at_least,image,True,1 found
+login_04,login,baseline,interaction,Login,True,error shown
+login_04,login,baseline,interaction,Login,True,format error shown
+reg_01,registration,oracle,node_exists,Create Account,True,found
+reg_01,registration,oracle,node_exists,Full name,True,found
+reg_01,registration,oracle,node_exists,Email,True,found
+reg_01,registration,oracle,input_type,Email,True,type=email
+reg_01,registration,oracle,node_exists,Password,True,found
+reg_01,registration,oracle,input_type,Password,True,type=password
+reg_01,registration,oracle,node_exists,Confirm password,True,found
+reg_01,registration,oracle,input_type,Confirm password,True,type=password
+reg_01,registration,oracle,node_exists,I agree to the terms,True,found
+reg_01,registration,oracle,node_exists,Register,True,found
+reg_01,registration,oracle,node_exists,Already have an account? Login,True,found
+reg_01,registration,oracle,interaction,Register,False,no error
+reg_01,registration,oracle,interaction,Already have an account? Login,False,new page elements=0 jaccard=1.00
+reg_01,registration,pipeline,node_exists,Create Account,True,found
+reg_01,registration,pipeline,node_exists,Full name,True,found
+reg_01,registration,pipeline,node_exists,Email,True,found
+reg_01,registration,pipeline,input_type,Email,True,type=email
+reg_01,registration,pipeline,node_exists,Password,True,found
+reg_01,registration,pipeline,input_type,Password,True,type=password
+reg_01,registration,pipeline,node_exists,Confirm password,True,found
+reg_01,registration,pipeline,input_type,Confirm password,True,type=password
+reg_01,registration,pipeline,node_exists,I agree to the terms,True,found
+reg_01,registration,pipeline,node_exists,Register,True,found
+reg_01,registration,pipeline,node_exists,Already have an account? Login,True,found
+reg_01,registration,pipeline,interaction,Register,True,error shown
+reg_01,registration,pipeline,interaction,Already have an account? Login,True,new page elements=2 jaccard=0.00
+reg_01,registration,pipeline_norepair,node_exists,Create Account,True,found
+reg_01,registration,pipeline_norepair,node_exists,Full name,True,found
+reg_01,registration,pipeline_norepair,node_exists,Email,True,found
+reg_01,registration,pipeline_norepair,input_type,Email,True,type=email
+reg_01,registration,pipeline_norepair,node_exists,Password,True,found
+reg_01,registration,pipeline_norepair,input_type,Password,True,type=password
+reg_01,registration,pipeline_norepair,node_exists,Confirm password,True,found
+reg_01,registration,pipeline_norepair,input_type,Confirm password,True,type=password
+reg_01,registration,pipeline_norepair,node_exists,I agree to the terms,True,found
+reg_01,registration,pipeline_norepair,node_exists,Register,True,found
+reg_01,registration,pipeline_norepair,node_exists,Already have an account? Login,True,found
+reg_01,registration,pipeline_norepair,interaction,Register,True,error shown
+reg_01,registration,pipeline_norepair,interaction,Already have an account? Login,True,new page elements=2 jaccard=0.00
+reg_01,registration,baseline,node_exists,Create Account,True,found
+reg_01,registration,baseline,node_exists,Full name,True,found
+reg_01,registration,baseline,node_exists,Email,True,found
+reg_01,registration,baseline,input_type,Email,True,type=email
+reg_01,registration,baseline,node_exists,Password,True,found
+reg_01,registration,baseline,input_type,Password,True,type=password
+reg_01,registration,baseline,node_exists,Confirm password,True,found
+reg_01,registration,baseline,input_type,Confirm password,True,type=password
+reg_01,registration,baseline,node_exists,I agree to the terms,True,found
+reg_01,registration,baseline,node_exists,Register,True,found
+reg_01,registration,baseline,node_exists,Already have an account? Login,False,missing
+reg_01,registration,baseline,interaction,Register,True,error shown
+reg_01,registration,baseline,interaction,Already have an account? Login,False,new page elements=0 jaccard=1.00
+reg_02,registration,oracle,node_exists,Sign up,True,found
+reg_02,registration,oracle,node_exists,First name,True,found
+reg_02,registration,oracle,node_exists,Last name,True,found
+reg_02,registration,oracle,node_exists,Email,True,found
+reg_02,registration,oracle,input_type,Email,True,type=email
+reg_02,registration,oracle,node_exists,Phone,True,found
+reg_02,registration,oracle,input_type,Phone,True,type=tel
+reg_02,registration,oracle,node_exists,Country,True,found
+reg_02,registration,oracle,node_exists,Password,True,found
+reg_02,registration,oracle,input_type,Password,True,type=password
+reg_02,registration,oracle,node_exists,Male,True,found
+reg_02,registration,oracle,node_exists,Female,True,found
+reg_02,registration,oracle,node_exists,Other,True,found
+reg_02,registration,oracle,node_exists,Create account,True,found
+reg_02,registration,oracle,interaction,Create account,False,no error
+reg_02,registration,pipeline,node_exists,Sign up,True,found
+reg_02,registration,pipeline,node_exists,First name,True,found
+reg_02,registration,pipeline,node_exists,Last name,True,found
+reg_02,registration,pipeline,node_exists,Email,True,found
+reg_02,registration,pipeline,input_type,Email,True,type=email
+reg_02,registration,pipeline,node_exists,Phone,True,found
+reg_02,registration,pipeline,input_type,Phone,True,type=tel
+reg_02,registration,pipeline,node_exists,Country,True,found
+reg_02,registration,pipeline,node_exists,Password,True,found
+reg_02,registration,pipeline,input_type,Password,True,type=password
+reg_02,registration,pipeline,node_exists,Male,True,found
+reg_02,registration,pipeline,node_exists,Female,True,found
+reg_02,registration,pipeline,node_exists,Other,True,found
+reg_02,registration,pipeline,node_exists,Create account,True,found
+reg_02,registration,pipeline,interaction,Create account,True,error shown
+reg_02,registration,pipeline_norepair,node_exists,Sign up,True,found
+reg_02,registration,pipeline_norepair,node_exists,First name,True,found
+reg_02,registration,pipeline_norepair,node_exists,Last name,True,found
+reg_02,registration,pipeline_norepair,node_exists,Email,True,found
+reg_02,registration,pipeline_norepair,input_type,Email,True,type=email
+reg_02,registration,pipeline_norepair,node_exists,Phone,True,found
+reg_02,registration,pipeline_norepair,input_type,Phone,True,type=tel
+reg_02,registration,pipeline_norepair,node_exists,Country,True,found
+reg_02,registration,pipeline_norepair,node_exists,Password,True,found
+reg_02,registration,pipeline_norepair,input_type,Password,True,type=password
+reg_02,registration,pipeline_norepair,node_exists,Male,True,found
+reg_02,registration,pipeline_norepair,node_exists,Female,True,found
+reg_02,registration,pipeline_norepair,node_exists,Other,True,found
+reg_02,registration,pipeline_norepair,node_exists,Create account,True,found
+reg_02,registration,pipeline_norepair,interaction,Create account,True,error shown
+reg_02,registration,baseline,node_exists,Sign up,True,found
+reg_02,registration,baseline,node_exists,First name,True,found
+reg_02,registration,baseline,node_exists,Last name,True,found
+reg_02,registration,baseline,node_exists,Email,True,found
+reg_02,registration,baseline,input_type,Email,True,type=email
+reg_02,registration,baseline,node_exists,Phone,True,found
+reg_02,registration,baseline,input_type,Phone,True,type=tel
+reg_02,registration,baseline,node_exists,Country,True,found
+reg_02,registration,baseline,node_exists,Password,True,found
+reg_02,registration,baseline,input_type,Password,True,type=password
+reg_02,registration,baseline,node_exists,Male,True,found
+reg_02,registration,baseline,node_exists,Female,True,found
+reg_02,registration,baseline,node_exists,Other,True,found
+reg_02,registration,baseline,node_exists,Create account,True,found
+reg_02,registration,baseline,interaction,Create account,True,error shown
+reg_03,registration,oracle,node_exists,Join the club,True,found
+reg_03,registration,oracle,node_exists,Name,True,found
+reg_03,registration,oracle,node_exists,Email,True,found
+reg_03,registration,oracle,input_type,Email,True,type=email
+reg_03,registration,oracle,node_exists,Password,True,found
+reg_03,registration,oracle,input_type,Password,True,type=password
+reg_03,registration,oracle,node_exists,Subscribe to newsletter,True,found
+reg_03,registration,oracle,node_exists,Sign up,True,found
+reg_03,registration,oracle,node_exists,Cancel,True,found
+reg_03,registration,oracle,count_at_least,image,True,1 found
+reg_03,registration,oracle,interaction,Sign up,False,no error
+reg_03,registration,oracle,interaction,Sign up,False,message not found
+reg_03,registration,pipeline,node_exists,Join the club,True,found
+reg_03,registration,pipeline,node_exists,Name,True,found
+reg_03,registration,pipeline,node_exists,Email,True,found
+reg_03,registration,pipeline,input_type,Email,True,type=email
+reg_03,registration,pipeline,node_exists,Password,True,found
+reg_03,registration,pipeline,input_type,Password,True,type=password
+reg_03,registration,pipeline,node_exists,Subscribe to newsletter,True,found
+reg_03,registration,pipeline,node_exists,Sign up,True,found
+reg_03,registration,pipeline,node_exists,Cancel,True,found
+reg_03,registration,pipeline,count_at_least,image,True,1 found
+reg_03,registration,pipeline,interaction,Sign up,True,error shown
+reg_03,registration,pipeline,interaction,Sign up,True,message shown
+reg_03,registration,pipeline_norepair,node_exists,Join the club,True,found
+reg_03,registration,pipeline_norepair,node_exists,Name,True,found
+reg_03,registration,pipeline_norepair,node_exists,Email,True,found
+reg_03,registration,pipeline_norepair,input_type,Email,True,type=email
+reg_03,registration,pipeline_norepair,node_exists,Password,True,found
+reg_03,registration,pipeline_norepair,input_type,Password,True,type=password
+reg_03,registration,pipeline_norepair,node_exists,Subscribe to newsletter,True,found
+reg_03,registration,pipeline_norepair,node_exists,Sign up,True,found
+reg_03,registration,pipeline_norepair,node_exists,Cancel,True,found
+reg_03,registration,pipeline_norepair,count_at_least,image,True,1 found
+reg_03,registration,pipeline_norepair,interaction,Sign up,True,error shown
+reg_03,registration,pipeline_norepair,interaction,Sign up,True,message shown
+reg_03,registration,baseline,node_exists,Join the club,True,found
+reg_03,registration,baseline,node_exists,Name,True,found
+reg_03,registration,baseline,node_exists,Email,True,found
+reg_03,registration,baseline,input_type,Email,True,type=email
+reg_03,registration,baseline,node_exists,Password,True,found
+reg_03,registration,baseline,input_type,Password,True,type=password
+reg_03,registration,baseline,node_exists,Subscribe to newsletter,True,found
+reg_03,registration,baseline,node_exists,Sign up,True,found
+reg_03,registration,baseline,node_exists,Cancel,True,found
+reg_03,registration,baseline,count_at_least,image,True,1 found
+reg_03,registration,baseline,interaction,Sign up,True,error shown
+reg_03,registration,baseline,interaction,Sign up,True,message shown
+reg_04,registration,oracle,node_exists,Your details,True,found
+reg_04,registration,oracle,node_exists,Username,True,found
+reg_04,registration,oracle,node_exists,Email,True,found
+reg_04,registration,oracle,input_type,Email,True,type=email
+reg_04,registration,oracle,node_exists,Date of birth,True,found
+reg_04,registration,oracle,input_type,Date of birth,True,type=date
+reg_04,registration,oracle,node_exists,City,True,found
+reg_04,registration,oracle,node_exists,Back,True,found
+reg_04,registration,oracle,node_exists,Next,True,found
+reg_04,registration,oracle,interaction,Next,False,new page elements=0 jaccard=1.00
+reg_04,registration,pipeline,node_exists,Your details,True,found
+reg_04,registration,pipeline,node_exists,Username,True,found
+reg_04,registration,pipeline,node_exists,Email,True,found
+reg_04,registration,pipeline,input_type,Email,True,type=email
+reg_04,registration,pipeline,node_exists,Date of birth,True,found
+reg_04,registration,pipeline,input_type,Date of birth,True,type=date
+reg_04,registration,pipeline,node_exists,City,True,found
+reg_04,registration,pipeline,node_exists,Back,True,found
+reg_04,registration,pipeline,node_exists,Next,True,found
+reg_04,registration,pipeline,interaction,Next,True,new page elements=2 jaccard=0.00
+reg_04,registration,pipeline_norepair,node_exists,Your details,True,found
+reg_04,registration,pipeline_norepair,node_exists,Username,True,found
+reg_04,registration,pipeline_norepair,node_exists,Email,True,found
+reg_04,registration,pipeline_norepair,input_type,Email,True,type=email
+reg_04,registration,pipeline_norepair,node_exists,Date of birth,True,found
+reg_04,registration,pipeline_norepair,input_type,Date of birth,True,type=date
+reg_04,registration,pipeline_norepair,node_exists,City,True,found
+reg_04,registration,pipeline_norepair,node_exists,Back,True,found
+reg_04,registration,pipeline_norepair,node_exists,Next,True,found
+reg_04,registration,pipeline_norepair,interaction,Next,True,new page elements=2 jaccard=0.00
+reg_04,registration,baseline,node_exists,Your details,True,found
+reg_04,registration,baseline,node_exists,Username,True,found
+reg_04,registration,baseline,node_exists,Email,True,found
+reg_04,registration,baseline,input_type,Email,True,type=email
+reg_04,registration,baseline,node_exists,Date of birth,True,found
+reg_04,registration,baseline,input_type,Date of birth,True,type=date
+reg_04,registration,baseline,node_exists,City,True,found
+reg_04,registration,baseline,node_exists,Back,True,found
+reg_04,registration,baseline,node_exists,Next,True,found
+reg_04,registration,baseline,interaction,Next,True,new page elements=1 jaccard=0.00
+dash_01,dashboard,oracle,node_exists,Acme,True,found
+dash_01,dashboard,oracle,node_exists,Home,True,found
+dash_01,dashboard,oracle,node_exists,Reports,True,found
+dash_01,dashboard,oracle,node_exists,Settings,True,found
+dash_01,dashboard,oracle,node_exists,Dashboard,True,found
+dash_01,dashboard,oracle,node_exists,Sales,True,found
+dash_01,dashboard,oracle,node_exists,Recent orders,True,found
+dash_01,dashboard,oracle,count_at_least,image,True,1 found
+dash_01,dashboard,oracle,interaction,Reports,False,new page elements=0 jaccard=0.00
+dash_01,dashboard,pipeline,node_exists,Acme,False,missing
+dash_01,dashboard,pipeline,node_exists,Home,True,found
+dash_01,dashboard,pipeline,node_exists,Reports,True,found
+dash_01,dashboard,pipeline,node_exists,Settings,True,found
+dash_01,dashboard,pipeline,node_exists,Dashboard,True,found
+dash_01,dashboard,pipeline,node_exists,Sales,False,missing
+dash_01,dashboard,pipeline,node_exists,Recent orders,True,found
+dash_01,dashboard,pipeline,count_at_least,image,True,1 found
+dash_01,dashboard,pipeline,interaction,Reports,True,new page elements=2 jaccard=0.00
+dash_01,dashboard,pipeline_norepair,node_exists,Acme,False,missing
+dash_01,dashboard,pipeline_norepair,node_exists,Home,True,found
+dash_01,dashboard,pipeline_norepair,node_exists,Reports,True,found
+dash_01,dashboard,pipeline_norepair,node_exists,Settings,True,found
+dash_01,dashboard,pipeline_norepair,node_exists,Dashboard,True,found
+dash_01,dashboard,pipeline_norepair,node_exists,Sales,False,missing
+dash_01,dashboard,pipeline_norepair,node_exists,Recent orders,True,found
+dash_01,dashboard,pipeline_norepair,count_at_least,image,True,1 found
+dash_01,dashboard,pipeline_norepair,interaction,Reports,True,new page elements=2 jaccard=0.00
+dash_01,dashboard,baseline,node_exists,Acme,False,missing
+dash_01,dashboard,baseline,node_exists,Home,True,found
+dash_01,dashboard,baseline,node_exists,Reports,True,found
+dash_01,dashboard,baseline,node_exists,Settings,True,found
+dash_01,dashboard,baseline,node_exists,Dashboard,True,found
+dash_01,dashboard,baseline,node_exists,Sales,True,found
+dash_01,dashboard,baseline,node_exists,Recent orders,True,found
+dash_01,dashboard,baseline,count_at_least,image,True,1 found
+dash_01,dashboard,baseline,interaction,Reports,True,new page elements=2 jaccard=0.00
+dash_02,dashboard,oracle,node_exists,Menu,True,found
+dash_02,dashboard,oracle,node_exists,Overview,True,found
+dash_02,dashboard,oracle,node_exists,Analytics,True,found
+dash_02,dashboard,oracle,node_exists,Customers,True,found
+dash_02,dashboard,oracle,node_exists,Logout,True,found
+dash_02,dashboard,oracle,node_exists,Overview,True,found
+dash_02,dashboard,oracle,node_exists,Search,True,found
+dash_02,dashboard,oracle,node_exists,Tasks,True,found
+dash_02,dashboard,oracle,node_exists,Review reports,True,found
+dash_02,dashboard,oracle,node_exists,Call supplier,True,found
+dash_02,dashboard,oracle,node_exists,Update pricing,True,found
+dash_02,dashboard,oracle,count_at_least,image,True,2 found
+dash_02,dashboard,oracle,interaction,Logout,False,new page elements=0 jaccard=1.00
+dash_02,dashboard,pipeline,node_exists,Menu,False,missing
+dash_02,dashboard,pipeline,node_exists,Overview,True,found
+dash_02,dashboard,pipeline,node_exists,Analytics,True,found
+dash_02,dashboard,pipeline,node_exists,Customers,True,found
+dash_02,dashboard,pipeline,node_exists,Logout,True,found
+dash_02,dashboard,pipeline,node_exists,Overview,True,found
+dash_02,dashboard,pipeline,node_exists,Search,True,found
+dash_02,dashboard,pipeline,node_exists,Tasks,False,missing
+dash_02,dashboard,pipeline,node_exists,Review reports,True,found
+dash_02,dashboard,pipeline,node_exists,Call supplier,True,found
+dash_02,dashboard,pipeline,node_exists,Update pricing,True,found
+dash_02,dashboard,pipeline,count_at_least,image,True,2 found
+dash_02,dashboard,pipeline,interaction,Logout,True,new page elements=2 jaccard=0.00
+dash_02,dashboard,pipeline_norepair,node_exists,Menu,False,missing
+dash_02,dashboard,pipeline_norepair,node_exists,Overview,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Analytics,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Customers,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Logout,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Overview,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Search,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Tasks,False,missing
+dash_02,dashboard,pipeline_norepair,node_exists,Review reports,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Call supplier,True,found
+dash_02,dashboard,pipeline_norepair,node_exists,Update pricing,True,found
+dash_02,dashboard,pipeline_norepair,count_at_least,image,True,2 found
+dash_02,dashboard,pipeline_norepair,interaction,Logout,True,new page elements=2 jaccard=0.00
+dash_02,dashboard,baseline,node_exists,Menu,False,missing
+dash_02,dashboard,baseline,node_exists,Overview,False,missing
+dash_02,dashboard,baseline,node_exists,Analytics,False,missing
+dash_02,dashboard,baseline,node_exists,Customers,False,missing
+dash_02,dashboard,baseline,node_exists,Logout,False,missing
+dash_02,dashboard,baseline,node_exists,Overview,False,missing
+dash_02,dashboard,baseline,node_exists,Search,False,missing
+dash_02,dashboard,baseline,node_exists,Tasks,False,missing
+dash_02,dashboard,baseline,node_exists,Review reports,False,missing
+dash_02,dashboard,baseline,node_exists,Call supplier,False,missing
+dash_02,dashboard,baseline,node_exists,Update pricing,False,missing
+dash_02,dashboard,baseline,count_at_least,image,False,0 found
+dash_02,dashboard,baseline,interaction,Logout,False,target not found
+dash_03,dashboard,oracle,node_exists,"Hi, Sam",True,found
+dash_03,dashboard,oracle,node_exists,Send,True,found
+dash_03,dashboard,oracle,node_exists,Request,True,found
+dash_03,dashboard,oracle,node_exists,Activity,True,found
+dash_03,dashboard,oracle,interaction,Send,False,new page elements=0 jaccard=0.00
+dash_03,dashboard,pipeline,node_exists,"Hi, Sam",False,missing
+dash_03,dashboard,pipeline,node_exists,Send,True,found
+dash_03,dashboard,pipeline,node_exists,Request,True,found
+dash_03,dashboard,pipeline,node_exists,Activity,True,found
+dash_03,dashboard,pipeline,interaction,Send,True,new page elements=2 jaccard=0.00
+dash_03,dashboard,pipeline_norepair,node_exists,"Hi, Sam",False,missing
+dash_03,dashboard,pipeline_norepair,node_exists,Send,True,found
+dash_03,dashboard,pipeline_norepair,node_exists,Request,True,found
+dash_03,dashboard,pipeline_norepair,node_exists,Activity,True,found
+dash_03,dashboard,pipeline_norepair,interaction,Send,True,new page elements=2 jaccard=0.00
+dash_03,dashboard,baseline,node_exists,"Hi, Sam",True,found
+dash_03,dashboard,baseline,node_exists,Send,True,found
+dash_03,dashboard,baseline,node_exists,Request,True,found
+dash_03,dashboard,baseline,node_exists,Activity,True,found
+dash_03,dashboard,baseline,interaction,Send,False,new page elements=0 jaccard=0.00
+dash_04,dashboard,oracle,node_exists,Insight,True,found
+dash_04,dashboard,oracle,node_exists,Dashboard,True,found
+dash_04,dashboard,oracle,node_exists,Projects,True,found
+dash_04,dashboard,oracle,node_exists,Team,True,found
+dash_04,dashboard,oracle,node_exists,New project,True,found
+dash_04,dashboard,oracle,node_exists,Last 30 days,True,found
+dash_04,dashboard,oracle,node_exists,Export,True,found
+dash_04,dashboard,oracle,node_exists,Tasks done,True,found
+dash_04,dashboard,oracle,node_exists,Open issues,True,found
+dash_04,dashboard,oracle,count_at_least,image,True,1 found
+dash_04,dashboard,oracle,interaction,Export,False,message not found
+dash_04,dashboard,oracle,interaction,New project,False,new page elements=0 jaccard=1.00
+dash_04,dashboard,pipeline,node_exists,Insight,True,found
+dash_04,dashboard,pipeline,node_exists,Dashboard,True,found
+dash_04,dashboard,pipeline,node_exists,Projects,True,found
+dash_04,dashboard,pipeline,node_exists,Team,True,found
+dash_04,dashboard,pipeline,node_exists,New project,True,found
+dash_04,dashboard,pipeline,node_exists,Last 30 days,False,missing
+dash_04,dashboard,pipeline,node_exists,Export,True,found
+dash_04,dashboard,pipeline,node_exists,Tasks done,True,found
+dash_04,dashboard,pipeline,node_exists,Open issues,True,found
+dash_04,dashboard,pipeline,count_at_least,image,False,0 found
+dash_04,dashboard,pipeline,interaction,Export,True,message shown
+dash_04,dashboard,pipeline,interaction,New project,True,new page elements=2 jaccard=0.00
+dash_04,dashboard,pipeline_norepair,node_exists,Insight,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Dashboard,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Projects,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Team,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,New project,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Last 30 days,False,missing
+dash_04,dashboard,pipeline_norepair,node_exists,Export,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Tasks done,True,found
+dash_04,dashboard,pipeline_norepair,node_exists,Open issues,True,found
+dash_04,dashboard,pipeline_norepair,count_at_least,image,False,0 found
+dash_04,dashboard,pipeline_norepair,interaction,Export,True,message shown
+dash_04,dashboard,pipeline_norepair,interaction,New project,True,new page elements=2 jaccard=0.00
+dash_04,dashboard,baseline,node_exists,Insight,False,missing
+dash_04,dashboard,baseline,node_exists,Dashboard,True,found
+dash_04,dashboard,baseline,node_exists,Projects,True,found
+dash_04,dashboard,baseline,node_exists,Team,True,found
+dash_04,dashboard,baseline,node_exists,New project,True,found
+dash_04,dashboard,baseline,node_exists,Last 30 days,True,found
+dash_04,dashboard,baseline,node_exists,Export,True,found
+dash_04,dashboard,baseline,node_exists,Tasks done,True,found
+dash_04,dashboard,baseline,node_exists,Open issues,True,found
+dash_04,dashboard,baseline,count_at_least,image,True,1 found
+dash_04,dashboard,baseline,interaction,Export,True,message shown
+dash_04,dashboard,baseline,interaction,New project,True,new page elements=2 jaccard=0.00
+prof_01,profile,oracle,node_exists,Jane Doe,True,found
+prof_01,profile,oracle,node_exists,Follow,True,found
+prof_01,profile,oracle,node_exists,Message,True,found
+prof_01,profile,oracle,node_exists,About,True,found
+prof_01,profile,oracle,count_at_least,image,True,1 found
+prof_01,profile,oracle,interaction,Follow,False,message not found
+prof_01,profile,oracle,interaction,Message,False,new page elements=0 jaccard=0.00
+prof_01,profile,pipeline,node_exists,Jane Doe,True,found
+prof_01,profile,pipeline,node_exists,Follow,True,found
+prof_01,profile,pipeline,node_exists,Message,True,found
+prof_01,profile,pipeline,node_exists,About,True,found
+prof_01,profile,pipeline,count_at_least,image,True,1 found
+prof_01,profile,pipeline,interaction,Follow,True,message shown
+prof_01,profile,pipeline,interaction,Message,True,new page elements=2 jaccard=0.00
+prof_01,profile,pipeline_norepair,node_exists,Jane Doe,True,found
+prof_01,profile,pipeline_norepair,node_exists,Follow,True,found
+prof_01,profile,pipeline_norepair,node_exists,Message,True,found
+prof_01,profile,pipeline_norepair,node_exists,About,True,found
+prof_01,profile,pipeline_norepair,count_at_least,image,True,1 found
+prof_01,profile,pipeline_norepair,interaction,Follow,True,message shown
+prof_01,profile,pipeline_norepair,interaction,Message,True,new page elements=2 jaccard=0.00
+prof_01,profile,baseline,node_exists,Jane Doe,True,found
+prof_01,profile,baseline,node_exists,Follow,True,found
+prof_01,profile,baseline,node_exists,Message,True,found
+prof_01,profile,baseline,node_exists,About,True,found
+prof_01,profile,baseline,count_at_least,image,True,1 found
+prof_01,profile,baseline,interaction,Follow,True,message shown
+prof_01,profile,baseline,interaction,Message,True,new page elements=2 jaccard=0.00
+prof_02,profile,oracle,node_exists,Pulse,True,found
+prof_02,profile,oracle,node_exists,Home,True,found
+prof_02,profile,oracle,node_exists,Profile,True,found
+prof_02,profile,oracle,node_exists,Edit profile,True,found
+prof_02,profile,oracle,node_exists,Full name,True,found
+prof_02,profile,oracle,node_exists,Email,True,found
+prof_02,profile,oracle,input_type,Email,True,type=email
+prof_02,profile,oracle,node_exists,Phone,True,found
+prof_02,profile,oracle,input_type,Phone,True,type=tel
+prof_02,profile,oracle,node_exists,Bio,True,found
+prof_02,profile,oracle,node_exists,Save,True,found
+prof_02,profile,oracle,node_exists,Cancel,True,found
+prof_02,profile,oracle,count_at_least,image,True,1 found
+prof_02,profile,oracle,interaction,Save,False,no error
+prof_02,profile,oracle,interaction,Save,False,message not found
+prof_02,profile,pipeline,node_exists,Pulse,False,missing
+prof_02,profile,pipeline,node_exists,Home,True,found
+prof_02,profile,pipeline,node_exists,Profile,True,found
+prof_02,profile,pipeline,node_exists,Edit profile,True,found
+prof_02,profile,pipeline,node_exists,Full name,True,found
+prof_02,profile,pipeline,node_exists,Email,True,found
+prof_02,profile,pipeline,input_type,Email,True,type=email
+prof_02,profile,pipeline,node_exists,Phone,True,found
+prof_02,profile,pipeline,input_type,Phone,True,type=tel
+prof_02,profile,pipeline,node_exists,Bio,True,found
+prof_02,profile,pipeline,node_exists,Save,True,found
+prof_02,profile,pipeline,node_exists,Cancel,True,found
+prof_02,profile,pipeline,count_at_least,image,True,2 found
+prof_02,profile,pipeline,interaction,Save,True,error shown
+prof_02,profile,pipeline,interaction,Save,True,message shown
+prof_02,profile,pipeline_norepair,node_exists,Pulse,False,missing
+prof_02,profile,pipeline_norepair,node_exists,Home,True,found
+prof_02,profile,pipeline_norepair,node_exists,Profile,True,found
+prof_02,profile,pipeline_norepair,node_exists,Edit profile,True,found
+prof_02,profile,pipeline_norepair,node_exists,Full name,True,found
+prof_02,profile,pipeline_norepair,node_exists,Email,True,found
+prof_02,profile,pipeline_norepair,input_type,Email,True,type=email
+prof_02,profile,pipeline_norepair,node_exists,Phone,True,found
+prof_02,profile,pipeline_norepair,input_type,Phone,True,type=tel
+prof_02,profile,pipeline_norepair,node_exists,Bio,True,found
+prof_02,profile,pipeline_norepair,node_exists,Save,True,found
+prof_02,profile,pipeline_norepair,node_exists,Cancel,True,found
+prof_02,profile,pipeline_norepair,count_at_least,image,True,2 found
+prof_02,profile,pipeline_norepair,interaction,Save,True,error shown
+prof_02,profile,pipeline_norepair,interaction,Save,True,message shown
+prof_02,profile,baseline,node_exists,Pulse,False,missing
+prof_02,profile,baseline,node_exists,Home,False,missing
+prof_02,profile,baseline,node_exists,Profile,False,missing
+prof_02,profile,baseline,node_exists,Edit profile,True,found
+prof_02,profile,baseline,node_exists,Full name,True,found
+prof_02,profile,baseline,node_exists,Email,True,found
+prof_02,profile,baseline,input_type,Email,True,type=email
+prof_02,profile,baseline,node_exists,Phone,True,found
+prof_02,profile,baseline,input_type,Phone,True,type=tel
+prof_02,profile,baseline,node_exists,Bio,True,found
+prof_02,profile,baseline,node_exists,Save,True,found
+prof_02,profile,baseline,node_exists,Cancel,True,found
+prof_02,profile,baseline,count_at_least,image,False,0 found
+prof_02,profile,baseline,interaction,Save,True,error shown
+prof_02,profile,baseline,interaction,Save,True,message shown
+prof_03,profile,oracle,node_exists,Alex Kim,True,found
+prof_03,profile,oracle,node_exists,Edit profile,True,found
+prof_03,profile,oracle,node_exists,Posts,True,found
+prof_03,profile,oracle,count_at_least,image,True,5 found
+prof_03,profile,oracle,interaction,Edit profile,False,new page elements=0 jaccard=0.00
+prof_03,profile,pipeline,node_exists,Alex Kim,True,found
+prof_03,profile,pipeline,node_exists,Edit profile,True,found
+prof_03,profile,pipeline,node_exists,Posts,True,found
+prof_03,profile,pipeline,count_at_least,image,True,5 found
+prof_03,profile,pipeline,interaction,Edit profile,True,new page elements=2 jaccard=0.00
+prof_03,profile,pipeline_norepair,node_exists,Alex Kim,True,found
+prof_03,profile,pipeline_norepair,node_exists,Edit profile,True,found
+prof_03,profile,pipeline_norepair,node_exists,Posts,True,found
+prof_03,profile,pipeline_norepair,count_at_least,image,True,5 found
+prof_03,profile,pipeline_norepair,interaction,Edit profile,True,new page elements=2 jaccard=0.00
+prof_03,profile,baseline,node_exists,Alex Kim,True,found
+prof_03,profile,baseline,node_exists,Edit profile,True,found
+prof_03,profile,baseline,node_exists,Posts,True,found
+prof_03,profile,baseline,count_at_least,image,True,5 found
+prof_03,profile,baseline,interaction,Edit profile,True,new page elements=1 jaccard=0.00
+prof_04,profile,oracle,node_exists,My Account,True,found
+prof_04,profile,oracle,node_exists,My orders,True,found
+prof_04,profile,oracle,node_exists,Saved addresses,True,found
+prof_04,profile,oracle,node_exists,Payment methods,True,found
+prof_04,profile,oracle,node_exists,Log out,True,found
+prof_04,profile,oracle,count_at_least,image,True,1 found
+prof_04,profile,oracle,interaction,Log out,False,new page elements=0 jaccard=0.00
+prof_04,profile,oracle,interaction,My orders,False,new page elements=0 jaccard=0.00
+prof_04,profile,pipeline,node_exists,My Account,True,found
+prof_04,profile,pipeline,node_exists,My orders,True,found
+prof_04,profile,pipeline,node_exists,Saved addresses,True,found
+prof_04,profile,pipeline,node_exists,Payment methods,True,found
+prof_04,profile,pipeline,node_exists,Log out,True,found
+prof_04,profile,pipeline,count_at_least,image,True,1 found
+prof_04,profile,pipeline,interaction,Log out,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline,interaction,My orders,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline_norepair,node_exists,My Account,True,found
+prof_04,profile,pipeline_norepair,node_exists,My orders,True,found
+prof_04,profile,pipeline_norepair,node_exists,Saved addresses,True,found
+prof_04,profile,pipeline_norepair,node_exists,Payment methods,True,found
+prof_04,profile,pipeline_norepair,node_exists,Log out,True,found
+prof_04,profile,pipeline_norepair,count_at_least,image,True,1 found
+prof_04,profile,pipeline_norepair,interaction,Log out,True,new page elements=2 jaccard=0.00
+prof_04,profile,pipeline_norepair,interaction,My orders,True,new page elements=2 jaccard=0.00
+prof_04,profile,baseline,node_exists,My Account,True,found
+prof_04,profile,baseline,node_exists,My orders,True,found
+prof_04,profile,baseline,node_exists,Saved addresses,True,found
+prof_04,profile,baseline,node_exists,Payment methods,True,found
+prof_04,profile,baseline,node_exists,Log out,True,found
+prof_04,profile,baseline,count_at_least,image,True,1 found
+prof_04,profile,baseline,interaction,Log out,True,new page elements=1 jaccard=0.00
+prof_04,profile,baseline,interaction,My orders,True,new page elements=1 jaccard=0.00
+shop_01,ecommerce,oracle,node_exists,ShopEasy,True,found
+shop_01,ecommerce,oracle,node_exists,Cart,True,found
+shop_01,ecommerce,oracle,node_exists,New arrivals,True,found
+shop_01,ecommerce,oracle,node_exists,Add to cart,True,found
+shop_01,ecommerce,oracle,count_at_least,image,True,3 found
+shop_01,ecommerce,oracle,interaction,Add to cart,False,message not found
+shop_01,ecommerce,oracle,interaction,Cart,False,new page elements=0 jaccard=1.00
+shop_01,ecommerce,pipeline,node_exists,ShopEasy,False,missing
+shop_01,ecommerce,pipeline,node_exists,Cart,True,found
+shop_01,ecommerce,pipeline,node_exists,New arrivals,True,found
+shop_01,ecommerce,pipeline,node_exists,Add to cart,True,found
+shop_01,ecommerce,pipeline,count_at_least,image,True,3 found
+shop_01,ecommerce,pipeline,interaction,Add to cart,True,message shown
+shop_01,ecommerce,pipeline,interaction,Cart,True,new page elements=2 jaccard=0.00
+shop_01,ecommerce,pipeline_norepair,node_exists,ShopEasy,False,missing
+shop_01,ecommerce,pipeline_norepair,node_exists,Cart,True,found
+shop_01,ecommerce,pipeline_norepair,node_exists,New arrivals,True,found
+shop_01,ecommerce,pipeline_norepair,node_exists,Add to cart,True,found
+shop_01,ecommerce,pipeline_norepair,count_at_least,image,True,3 found
+shop_01,ecommerce,pipeline_norepair,interaction,Add to cart,True,message shown
+shop_01,ecommerce,pipeline_norepair,interaction,Cart,True,new page elements=2 jaccard=0.00
+shop_01,ecommerce,baseline,node_exists,ShopEasy,False,missing
+shop_01,ecommerce,baseline,node_exists,Cart,True,found
+shop_01,ecommerce,baseline,node_exists,New arrivals,True,found
+shop_01,ecommerce,baseline,node_exists,Add to cart,True,found
+shop_01,ecommerce,baseline,count_at_least,image,True,3 found
+shop_01,ecommerce,baseline,interaction,Add to cart,False,"click failed: Page.click: Timeout 2500ms exceeded.
+Call log:
+  - waiting for locator(""[data-ev-idx=\""9\""]"")
+"
+shop_01,ecommerce,baseline,interaction,Cart,True,new page elements=2 jaccard=0.25
+shop_02,ecommerce,oracle,node_exists,Running Shoes,True,found
+shop_02,ecommerce,oracle,node_exists,$89,True,found
+shop_02,ecommerce,oracle,node_exists,Size,True,found
+shop_02,ecommerce,oracle,node_exists,Quantity,True,found
+shop_02,ecommerce,oracle,input_type,Quantity,False,type=text
+shop_02,ecommerce,oracle,node_exists,Add to cart,True,found
+shop_02,ecommerce,oracle,node_exists,Buy now,True,found
+shop_02,ecommerce,oracle,count_at_least,image,True,1 found
+shop_02,ecommerce,oracle,interaction,Add to cart,False,message not found
+shop_02,ecommerce,oracle,interaction,Buy now,False,new page elements=0 jaccard=1.00
+shop_02,ecommerce,pipeline,node_exists,Running Shoes,True,found
+shop_02,ecommerce,pipeline,node_exists,$89,False,missing
+shop_02,ecommerce,pipeline,node_exists,Size,True,found
+shop_02,ecommerce,pipeline,node_exists,Quantity,True,found
+shop_02,ecommerce,pipeline,input_type,Quantity,True,type=number
+shop_02,ecommerce,pipeline,node_exists,Add to cart,True,found
+shop_02,ecommerce,pipeline,node_exists,Buy now,True,found
+shop_02,ecommerce,pipeline,count_at_least,image,True,1 found
+shop_02,ecommerce,pipeline,interaction,Add to cart,True,message shown
+shop_02,ecommerce,pipeline,interaction,Buy now,True,new page elements=2 jaccard=0.00
+shop_02,ecommerce,pipeline_norepair,node_exists,Running Shoes,True,found
+shop_02,ecommerce,pipeline_norepair,node_exists,$89,False,missing
+shop_02,ecommerce,pipeline_norepair,node_exists,Size,True,found
+shop_02,ecommerce,pipeline_norepair,node_exists,Quantity,True,found
+shop_02,ecommerce,pipeline_norepair,input_type,Quantity,True,type=number
+shop_02,ecommerce,pipeline_norepair,node_exists,Add to cart,True,found
+shop_02,ecommerce,pipeline_norepair,node_exists,Buy now,True,found
+shop_02,ecommerce,pipeline_norepair,count_at_least,image,True,1 found
+shop_02,ecommerce,pipeline_norepair,interaction,Add to cart,True,message shown
+shop_02,ecommerce,pipeline_norepair,interaction,Buy now,True,new page elements=2 jaccard=0.00
+shop_02,ecommerce,baseline,node_exists,Running Shoes,True,found
+shop_02,ecommerce,baseline,node_exists,$89,False,missing
+shop_02,ecommerce,baseline,node_exists,Size,True,found
+shop_02,ecommerce,baseline,node_exists,Quantity,True,found
+shop_02,ecommerce,baseline,input_type,Quantity,True,type=number
+shop_02,ecommerce,baseline,node_exists,Add to cart,True,found
+shop_02,ecommerce,baseline,node_exists,Buy now,True,found
+shop_02,ecommerce,baseline,count_at_least,image,True,1 found
+shop_02,ecommerce,baseline,interaction,Add to cart,True,message shown
+shop_02,ecommerce,baseline,interaction,Buy now,True,new page elements=1 jaccard=0.00
+shop_03,ecommerce,oracle,node_exists,Your cart,True,found
+shop_03,ecommerce,oracle,node_exists,Coupon code,True,found
+shop_03,ecommerce,oracle,node_exists,Checkout,True,found
+shop_03,ecommerce,oracle,count_at_least,image,True,2 found
+shop_03,ecommerce,oracle,interaction,Checkout,False,new page elements=0 jaccard=1.00
+shop_03,ecommerce,pipeline,node_exists,Your cart,True,found
+shop_03,ecommerce,pipeline,node_exists,Coupon code,True,found
+shop_03,ecommerce,pipeline,node_exists,Checkout,True,found
+shop_03,ecommerce,pipeline,count_at_least,image,True,2 found
+shop_03,ecommerce,pipeline,interaction,Checkout,True,new page elements=2 jaccard=0.00
+shop_03,ecommerce,pipeline_norepair,node_exists,Your cart,True,found
+shop_03,ecommerce,pipeline_norepair,node_exists,Coupon code,True,found
+shop_03,ecommerce,pipeline_norepair,node_exists,Checkout,True,found
+shop_03,ecommerce,pipeline_norepair,count_at_least,image,True,2 found
+shop_03,ecommerce,pipeline_norepair,interaction,Checkout,True,new page elements=2 jaccard=0.00
+shop_03,ecommerce,baseline,node_exists,Your cart,True,found
+shop_03,ecommerce,baseline,node_exists,Coupon code,True,found
+shop_03,ecommerce,baseline,node_exists,Checkout,True,found
+shop_03,ecommerce,baseline,count_at_least,image,True,2 found
+shop_03,ecommerce,baseline,interaction,Checkout,False,new page elements=0 jaccard=0.00
+shop_04,ecommerce,oracle,node_exists,Checkout,True,found
+shop_04,ecommerce,oracle,node_exists,Shipping,True,found
+shop_04,ecommerce,oracle,node_exists,Full name,True,found
+shop_04,ecommerce,oracle,node_exists,Address,True,found
+shop_04,ecommerce,oracle,node_exists,City,True,found
+shop_04,ecommerce,oracle,node_exists,Zip code,True,found
+shop_04,ecommerce,oracle,node_exists,Payment,True,found
+shop_04,ecommerce,oracle,node_exists,Card,True,found
+shop_04,ecommerce,oracle,node_exists,PayPal,True,found
+shop_04,ecommerce,oracle,node_exists,Cash on delivery,True,found
+shop_04,ecommerce,oracle,node_exists,Order summary,True,found
+shop_04,ecommerce,oracle,node_exists,Place order,True,found
+shop_04,ecommerce,oracle,interaction,Place order,False,no error
+shop_04,ecommerce,pipeline,node_exists,Checkout,True,found
+shop_04,ecommerce,pipeline,node_exists,Shipping,False,missing
+shop_04,ecommerce,pipeline,node_exists,Full name,True,found
+shop_04,ecommerce,pipeline,node_exists,Address,True,found
+shop_04,ecommerce,pipeline,node_exists,City,True,found
+shop_04,ecommerce,pipeline,node_exists,Zip code,True,found
+shop_04,ecommerce,pipeline,node_exists,Payment,False,missing
+shop_04,ecommerce,pipeline,node_exists,Card,True,found
+shop_04,ecommerce,pipeline,node_exists,PayPal,True,found
+shop_04,ecommerce,pipeline,node_exists,Cash on delivery,True,found
+shop_04,ecommerce,pipeline,node_exists,Order summary,False,missing
+shop_04,ecommerce,pipeline,node_exists,Place order,True,found
+shop_04,ecommerce,pipeline,interaction,Place order,True,error shown
+shop_04,ecommerce,pipeline_norepair,node_exists,Checkout,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Shipping,False,missing
+shop_04,ecommerce,pipeline_norepair,node_exists,Full name,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Address,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,City,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Zip code,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Payment,False,missing
+shop_04,ecommerce,pipeline_norepair,node_exists,Card,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,PayPal,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Cash on delivery,True,found
+shop_04,ecommerce,pipeline_norepair,node_exists,Order summary,False,missing
+shop_04,ecommerce,pipeline_norepair,node_exists,Place order,True,found
+shop_04,ecommerce,pipeline_norepair,interaction,Place order,True,error shown
+shop_04,ecommerce,baseline,node_exists,Checkout,True,found
+shop_04,ecommerce,baseline,node_exists,Shipping,False,missing
+shop_04,ecommerce,baseline,node_exists,Full name,True,found
+shop_04,ecommerce,baseline,node_exists,Address,True,found
+shop_04,ecommerce,baseline,node_exists,City,True,found
+shop_04,ecommerce,baseline,node_exists,Zip code,True,found
+shop_04,ecommerce,baseline,node_exists,Payment,False,missing
+shop_04,ecommerce,baseline,node_exists,Card,True,found
+shop_04,ecommerce,baseline,node_exists,PayPal,True,found
+shop_04,ecommerce,baseline,node_exists,Cash on delivery,True,found
+shop_04,ecommerce,baseline,node_exists,Order summary,True,found
+shop_04,ecommerce,baseline,node_exists,Place order,True,found
+shop_04,ecommerce,baseline,interaction,Place order,True,error shown
+bank_01,banking,oracle,node_exists,MyBank,True,found
+bank_01,banking,oracle,node_exists,Transfer,True,found
+bank_01,banking,oracle,node_exists,Pay bills,True,found
+bank_01,banking,oracle,node_exists,Deposit,True,found
+bank_01,banking,oracle,node_exists,Transactions,True,found
+bank_01,banking,oracle,interaction,Transfer,False,new page elements=0 jaccard=0.00
+bank_01,banking,pipeline,node_exists,MyBank,True,found
+bank_01,banking,pipeline,node_exists,Transfer,True,found
+bank_01,banking,pipeline,node_exists,Pay bills,True,found
+bank_01,banking,pipeline,node_exists,Deposit,True,found
+bank_01,banking,pipeline,node_exists,Transactions,True,found
+bank_01,banking,pipeline,interaction,Transfer,True,new page elements=2 jaccard=0.00
+bank_01,banking,pipeline_norepair,node_exists,MyBank,True,found
+bank_01,banking,pipeline_norepair,node_exists,Transfer,True,found
+bank_01,banking,pipeline_norepair,node_exists,Pay bills,True,found
+bank_01,banking,pipeline_norepair,node_exists,Deposit,True,found
+bank_01,banking,pipeline_norepair,node_exists,Transactions,True,found
+bank_01,banking,pipeline_norepair,interaction,Transfer,True,new page elements=2 jaccard=0.00
+bank_01,banking,baseline,node_exists,MyBank,True,found
+bank_01,banking,baseline,node_exists,Transfer,True,found
+bank_01,banking,baseline,node_exists,Pay bills,True,found
+bank_01,banking,baseline,node_exists,Deposit,True,found
+bank_01,banking,baseline,node_exists,Transactions,True,found
+bank_01,banking,baseline,interaction,Transfer,True,new page elements=1 jaccard=0.00
+bank_02,banking,oracle,node_exists,NorthBank,True,found
+bank_02,banking,oracle,node_exists,Accounts,True,found
+bank_02,banking,oracle,node_exists,Transfers,True,found
+bank_02,banking,oracle,node_exists,Cards,True,found
+bank_02,banking,oracle,node_exists,Logout,True,found
+bank_02,banking,oracle,node_exists,Transfer money,True,found
+bank_02,banking,oracle,node_exists,From account,True,found
+bank_02,banking,oracle,node_exists,Recipient account number,True,found
+bank_02,banking,oracle,input_type,Recipient account number,True,type=number
+bank_02,banking,oracle,node_exists,Amount,True,found
+bank_02,banking,oracle,input_type,Amount,False,type=text
+bank_02,banking,oracle,node_exists,Reference,True,found
+bank_02,banking,oracle,node_exists,Save recipient,True,found
+bank_02,banking,oracle,node_exists,Send,True,found
+bank_02,banking,oracle,node_exists,Cancel,True,found
+bank_02,banking,oracle,interaction,Send,False,no error
+bank_02,banking,pipeline,node_exists,NorthBank,False,missing
+bank_02,banking,pipeline,node_exists,Accounts,True,found
+bank_02,banking,pipeline,node_exists,Transfers,True,found
+bank_02,banking,pipeline,node_exists,Cards,True,found
+bank_02,banking,pipeline,node_exists,Logout,True,found
+bank_02,banking,pipeline,node_exists,Transfer money,True,found
+bank_02,banking,pipeline,node_exists,From account,True,found
+bank_02,banking,pipeline,node_exists,Recipient account number,True,found
+bank_02,banking,pipeline,input_type,Recipient account number,True,type=number
+bank_02,banking,pipeline,node_exists,Amount,True,found
+bank_02,banking,pipeline,input_type,Amount,True,type=number
+bank_02,banking,pipeline,node_exists,Reference,True,found
+bank_02,banking,pipeline,node_exists,Save recipient,True,found
+bank_02,banking,pipeline,node_exists,Send,True,found
+bank_02,banking,pipeline,node_exists,Cancel,True,found
+bank_02,banking,pipeline,interaction,Send,True,error shown
+bank_02,banking,pipeline_norepair,node_exists,NorthBank,False,missing
+bank_02,banking,pipeline_norepair,node_exists,Accounts,True,found
+bank_02,banking,pipeline_norepair,node_exists,Transfers,True,found
+bank_02,banking,pipeline_norepair,node_exists,Cards,True,found
+bank_02,banking,pipeline_norepair,node_exists,Logout,True,found
+bank_02,banking,pipeline_norepair,node_exists,Transfer money,True,found
+bank_02,banking,pipeline_norepair,node_exists,From account,True,found
+bank_02,banking,pipeline_norepair,node_exists,Recipient account number,True,found
+bank_02,banking,pipeline_norepair,input_type,Recipient account number,True,type=number
+bank_02,banking,pipeline_norepair,node_exists,Amount,True,found
+bank_02,banking,pipeline_norepair,input_type,Amount,True,type=number
+bank_02,banking,pipeline_norepair,node_exists,Reference,True,found
+bank_02,banking,pipeline_norepair,node_exists,Save recipient,True,found
+bank_02,banking,pipeline_norepair,node_exists,Send,True,found
+bank_02,banking,pipeline_norepair,node_exists,Cancel,True,found
+bank_02,banking,pipeline_norepair,interaction,Send,True,error shown
+bank_02,banking,baseline,node_exists,NorthBank,False,missing
+bank_02,banking,baseline,node_exists,Accounts,True,found
+bank_02,banking,baseline,node_exists,Transfers,True,found
+bank_02,banking,baseline,node_exists,Cards,True,found
+bank_02,banking,baseline,node_exists,Logout,True,found
+bank_02,banking,baseline,node_exists,Transfer money,True,found
+bank_02,banking,baseline,node_exists,From account,True,found
+bank_02,banking,baseline,node_exists,Recipient account number,True,found
+bank_02,banking,baseline,input_type,Recipient account number,False,type=text
+bank_02,banking,baseline,node_exists,Amount,True,found
+bank_02,banking,baseline,input_type,Amount,True,type=number
+bank_02,banking,baseline,node_exists,Reference,True,found
+bank_02,banking,baseline,node_exists,Save recipient,True,found
+bank_02,banking,baseline,node_exists,Send,True,found
+bank_02,banking,baseline,node_exists,Cancel,True,found
+bank_02,banking,baseline,interaction,Send,True,error shown
+bank_03,banking,oracle,node_exists,Cards,True,found
+bank_03,banking,oracle,node_exists,My cards,True,found
+bank_03,banking,oracle,node_exists,Visa 4821,True,found
+bank_03,banking,oracle,node_exists,Freeze card,True,found
+bank_03,banking,oracle,node_exists,Mastercard 7710,True,found
+bank_03,banking,oracle,node_exists,View statement,True,found
+bank_03,banking,oracle,node_exists,Spending,True,found
+bank_03,banking,oracle,count_at_least,image,True,1 found
+bank_03,banking,oracle,interaction,Freeze card,False,message not found
+bank_03,banking,oracle,interaction,View statement,False,new page elements=0 jaccard=0.00
+bank_03,banking,pipeline,node_exists,Cards,False,missing
+bank_03,banking,pipeline,node_exists,My cards,True,found
+bank_03,banking,pipeline,node_exists,Visa 4821,False,missing
+bank_03,banking,pipeline,node_exists,Freeze card,True,found
+bank_03,banking,pipeline,node_exists,Mastercard 7710,False,missing
+bank_03,banking,pipeline,node_exists,View statement,True,found
+bank_03,banking,pipeline,node_exists,Spending,False,missing
+bank_03,banking,pipeline,count_at_least,image,False,0 found
+bank_03,banking,pipeline,interaction,Freeze card,True,message shown
+bank_03,banking,pipeline,interaction,View statement,True,new page elements=2 jaccard=0.00
+bank_03,banking,pipeline_norepair,node_exists,Cards,False,missing
+bank_03,banking,pipeline_norepair,node_exists,My cards,True,found
+bank_03,banking,pipeline_norepair,node_exists,Visa 4821,False,missing
+bank_03,banking,pipeline_norepair,node_exists,Freeze card,True,found
+bank_03,banking,pipeline_norepair,node_exists,Mastercard 7710,False,missing
+bank_03,banking,pipeline_norepair,node_exists,View statement,True,found
+bank_03,banking,pipeline_norepair,node_exists,Spending,False,missing
+bank_03,banking,pipeline_norepair,count_at_least,image,False,0 found
+bank_03,banking,pipeline_norepair,interaction,Freeze card,True,message shown
+bank_03,banking,pipeline_norepair,interaction,View statement,True,new page elements=2 jaccard=0.00
+bank_03,banking,baseline,node_exists,Cards,True,found
+bank_03,banking,baseline,node_exists,My cards,True,found
+bank_03,banking,baseline,node_exists,Visa 4821,True,found
+bank_03,banking,baseline,node_exists,Freeze card,True,found
+bank_03,banking,baseline,node_exists,Mastercard 7710,True,found
+bank_03,banking,baseline,node_exists,View statement,True,found
+bank_03,banking,baseline,node_exists,Spending,False,missing
+bank_03,banking,baseline,count_at_least,image,True,1 found
+bank_03,banking,baseline,interaction,Freeze card,True,message shown
+bank_03,banking,baseline,interaction,View statement,True,new page elements=2 jaccard=0.00
+bank_04,banking,oracle,node_exists,Loan calculator,True,found
+bank_04,banking,oracle,node_exists,Loan amount,True,found
+bank_04,banking,oracle,input_type,Loan amount,False,type=text
+bank_04,banking,oracle,node_exists,Interest rate,True,found
+bank_04,banking,oracle,input_type,Interest rate,False,type=text
+bank_04,banking,oracle,node_exists,Term,True,found
+bank_04,banking,oracle,node_exists,Calculate,True,found
+bank_04,banking,oracle,interaction,Calculate,False,no error
+bank_04,banking,pipeline,node_exists,Loan calculator,True,found
+bank_04,banking,pipeline,node_exists,Loan amount,True,found
+bank_04,banking,pipeline,input_type,Loan amount,True,type=number
+bank_04,banking,pipeline,node_exists,Interest rate,True,found
+bank_04,banking,pipeline,input_type,Interest rate,True,type=number
+bank_04,banking,pipeline,node_exists,Term,True,found
+bank_04,banking,pipeline,node_exists,Calculate,True,found
+bank_04,banking,pipeline,interaction,Calculate,True,error shown
+bank_04,banking,pipeline_norepair,node_exists,Loan calculator,True,found
+bank_04,banking,pipeline_norepair,node_exists,Loan amount,True,found
+bank_04,banking,pipeline_norepair,input_type,Loan amount,True,type=number
+bank_04,banking,pipeline_norepair,node_exists,Interest rate,True,found
+bank_04,banking,pipeline_norepair,input_type,Interest rate,True,type=number
+bank_04,banking,pipeline_norepair,node_exists,Term,True,found
+bank_04,banking,pipeline_norepair,node_exists,Calculate,True,found
+bank_04,banking,pipeline_norepair,interaction,Calculate,True,error shown
+bank_04,banking,baseline,node_exists,Loan calculator,True,found
+bank_04,banking,baseline,node_exists,Loan amount,True,found
+bank_04,banking,baseline,input_type,Loan amount,True,type=number
+bank_04,banking,baseline,node_exists,Interest rate,True,found
+bank_04,banking,baseline,input_type,Interest rate,True,type=number
+bank_04,banking,baseline,node_exists,Term,True,found
+bank_04,banking,baseline,node_exists,Calculate,True,found
+bank_04,banking,baseline,interaction,Calculate,True,error shown
+book_01,booking,oracle,node_exists,StayFinder,True,found
+book_01,booking,oracle,node_exists,Hotels,True,found
+book_01,booking,oracle,node_exists,Flights,True,found
+book_01,booking,oracle,node_exists,Deals,True,found
+book_01,booking,oracle,node_exists,Sign in,True,found
+book_01,booking,oracle,node_exists,Destination,True,found
+book_01,booking,oracle,node_exists,Check-in,True,found
+book_01,booking,oracle,input_type,Check-in,False,type=text
+book_01,booking,oracle,node_exists,Check-out,True,found
+book_01,booking,oracle,input_type,Check-out,False,type=text
+book_01,booking,oracle,node_exists,Guests,True,found
+book_01,booking,oracle,node_exists,Search,True,found
+book_01,booking,oracle,count_at_least,image,True,1 found
+book_01,booking,oracle,interaction,Search,False,no error
+book_01,booking,pipeline,node_exists,StayFinder,False,missing
+book_01,booking,pipeline,node_exists,Hotels,True,found
+book_01,booking,pipeline,node_exists,Flights,True,found
+book_01,booking,pipeline,node_exists,Deals,True,found
+book_01,booking,pipeline,node_exists,Sign in,True,found
+book_01,booking,pipeline,node_exists,Destination,True,found
+book_01,booking,pipeline,node_exists,Check-in,True,found
+book_01,booking,pipeline,input_type,Check-in,True,type=date
+book_01,booking,pipeline,node_exists,Check-out,True,found
+book_01,booking,pipeline,input_type,Check-out,True,type=date
+book_01,booking,pipeline,node_exists,Guests,True,found
+book_01,booking,pipeline,node_exists,Search,True,found
+book_01,booking,pipeline,count_at_least,image,True,1 found
+book_01,booking,pipeline,interaction,Search,True,error shown
+book_01,booking,pipeline_norepair,node_exists,StayFinder,False,missing
+book_01,booking,pipeline_norepair,node_exists,Hotels,True,found
+book_01,booking,pipeline_norepair,node_exists,Flights,True,found
+book_01,booking,pipeline_norepair,node_exists,Deals,True,found
+book_01,booking,pipeline_norepair,node_exists,Sign in,True,found
+book_01,booking,pipeline_norepair,node_exists,Destination,True,found
+book_01,booking,pipeline_norepair,node_exists,Check-in,True,found
+book_01,booking,pipeline_norepair,input_type,Check-in,True,type=date
+book_01,booking,pipeline_norepair,node_exists,Check-out,True,found
+book_01,booking,pipeline_norepair,input_type,Check-out,True,type=date
+book_01,booking,pipeline_norepair,node_exists,Guests,True,found
+book_01,booking,pipeline_norepair,node_exists,Search,True,found
+book_01,booking,pipeline_norepair,count_at_least,image,True,1 found
+book_01,booking,pipeline_norepair,interaction,Search,True,error shown
+book_01,booking,baseline,node_exists,StayFinder,False,missing
+book_01,booking,baseline,node_exists,Hotels,True,found
+book_01,booking,baseline,node_exists,Flights,True,found
+book_01,booking,baseline,node_exists,Deals,True,found
+book_01,booking,baseline,node_exists,Sign in,True,found
+book_01,booking,baseline,node_exists,Destination,True,found
+book_01,booking,baseline,node_exists,Check-in,True,found
+book_01,booking,baseline,input_type,Check-in,True,type=date
+book_01,booking,baseline,node_exists,Check-out,True,found
+book_01,booking,baseline,input_type,Check-out,True,type=date
+book_01,booking,baseline,node_exists,Guests,True,found
+book_01,booking,baseline,node_exists,Search,True,found
+book_01,booking,baseline,count_at_least,image,True,1 found
+book_01,booking,baseline,interaction,Search,True,error shown
+book_02,booking,oracle,node_exists,Book appointment,True,found
+book_02,booking,oracle,node_exists,Select doctor,True,found
+book_02,booking,oracle,node_exists,Date,True,found
+book_02,booking,oracle,input_type,Date,True,type=date
+book_02,booking,oracle,node_exists,9:00,True,found
+book_02,booking,oracle,node_exists,11:00,True,found
+book_02,booking,oracle,node_exists,15:00,True,found
+book_02,booking,oracle,node_exists,Reason for visit,True,found
+book_02,booking,oracle,node_exists,Confirm booking,True,found
+book_02,booking,oracle,interaction,Confirm booking,False,no error
+book_02,booking,oracle,interaction,Confirm booking,False,message not found
+book_02,booking,pipeline,node_exists,Book appointment,True,found
+book_02,booking,pipeline,node_exists,Select doctor,True,found
+book_02,booking,pipeline,node_exists,Date,True,found
+book_02,booking,pipeline,input_type,Date,True,type=date
+book_02,booking,pipeline,node_exists,9:00,False,missing
+book_02,booking,pipeline,node_exists,11:00,True,found
+book_02,booking,pipeline,node_exists,15:00,True,found
+book_02,booking,pipeline,node_exists,Reason for visit,True,found
+book_02,booking,pipeline,node_exists,Confirm booking,True,found
+book_02,booking,pipeline,interaction,Confirm booking,True,error shown
+book_02,booking,pipeline,interaction,Confirm booking,True,message shown
+book_02,booking,pipeline_norepair,node_exists,Book appointment,True,found
+book_02,booking,pipeline_norepair,node_exists,Select doctor,True,found
+book_02,booking,pipeline_norepair,node_exists,Date,True,found
+book_02,booking,pipeline_norepair,input_type,Date,True,type=date
+book_02,booking,pipeline_norepair,node_exists,9:00,False,missing
+book_02,booking,pipeline_norepair,node_exists,11:00,True,found
+book_02,booking,pipeline_norepair,node_exists,15:00,True,found
+book_02,booking,pipeline_norepair,node_exists,Reason for visit,True,found
+book_02,booking,pipeline_norepair,node_exists,Confirm booking,True,found
+book_02,booking,pipeline_norepair,interaction,Confirm booking,True,error shown
+book_02,booking,pipeline_norepair,interaction,Confirm booking,True,message shown
+book_02,booking,baseline,node_exists,Book appointment,True,found
+book_02,booking,baseline,node_exists,Select doctor,True,found
+book_02,booking,baseline,node_exists,Date,True,found
+book_02,booking,baseline,input_type,Date,True,type=date
+book_02,booking,baseline,node_exists,9:00,True,found
+book_02,booking,baseline,node_exists,11:00,True,found
+book_02,booking,baseline,node_exists,15:00,True,found
+book_02,booking,baseline,node_exists,Reason for visit,True,found
+book_02,booking,baseline,node_exists,Confirm booking,True,found
+book_02,booking,baseline,interaction,Confirm booking,True,error shown
+book_02,booking,baseline,interaction,Confirm booking,True,message shown
+book_03,booking,oracle,node_exists,Flights to Paris,True,found
+book_03,booking,oracle,node_exists,Sort by,True,found
+book_03,booking,oracle,node_exists,Non-stop only,True,found
+book_03,booking,oracle,node_exists,Select flight,True,found
+book_03,booking,oracle,node_exists,Choose,True,found
+book_03,booking,oracle,node_exists,Load more,True,found
+book_03,booking,oracle,interaction,Select flight,False,new page elements=0 jaccard=1.00
+book_03,booking,pipeline,node_exists,Flights to Paris,True,found
+book_03,booking,pipeline,node_exists,Sort by,True,found
+book_03,booking,pipeline,node_exists,Non-stop only,True,found
+book_03,booking,pipeline,node_exists,Select flight,True,found
+book_03,booking,pipeline,node_exists,Choose,True,found
+book_03,booking,pipeline,node_exists,Load more,True,found
+book_03,booking,pipeline,interaction,Select flight,False,new page elements=0 jaccard=1.00
+book_03,booking,pipeline_norepair,node_exists,Flights to Paris,True,found
+book_03,booking,pipeline_norepair,node_exists,Sort by,True,found
+book_03,booking,pipeline_norepair,node_exists,Non-stop only,True,found
+book_03,booking,pipeline_norepair,node_exists,Select flight,True,found
+book_03,booking,pipeline_norepair,node_exists,Choose,True,found
+book_03,booking,pipeline_norepair,node_exists,Load more,True,found
+book_03,booking,pipeline_norepair,interaction,Select flight,False,new page elements=0 jaccard=1.00
+book_03,booking,baseline,node_exists,Flights to Paris,False,missing
+book_03,booking,baseline,node_exists,Sort by,False,missing
+book_03,booking,baseline,node_exists,Non-stop only,True,found
+book_03,booking,baseline,node_exists,Select flight,True,found
+book_03,booking,baseline,node_exists,Choose,True,found
+book_03,booking,baseline,node_exists,Load more,True,found
+book_03,booking,baseline,interaction,Select flight,True,new page elements=1 jaccard=0.00
+book_04,booking,oracle,node_exists,Eventix,True,found
+book_04,booking,oracle,node_exists,Events,True,found
+book_04,booking,oracle,node_exists,Venues,True,found
+book_04,booking,oracle,node_exists,My tickets,True,found
+book_04,booking,oracle,node_exists,Jazz Night,True,found
+book_04,booking,oracle,node_exists,Tickets,True,found
+book_04,booking,oracle,node_exists,Book now,True,found
+book_04,booking,oracle,node_exists,View venue map,True,found
+book_04,booking,oracle,count_at_least,image,True,1 found
+book_04,booking,oracle,interaction,Book now,False,new page elements=0 jaccard=1.00
+book_04,booking,oracle,interaction,View venue map,False,new page elements=0 jaccard=1.00
+book_04,booking,pipeline,node_exists,Eventix,False,missing
+book_04,booking,pipeline,node_exists,Events,True,found
+book_04,booking,pipeline,node_exists,Venues,True,found
+book_04,booking,pipeline,node_exists,My tickets,True,found
+book_04,booking,pipeline,node_exists,Jazz Night,True,found
+book_04,booking,pipeline,node_exists,Tickets,True,found
+book_04,booking,pipeline,node_exists,Book now,True,found
+book_04,booking,pipeline,node_exists,View venue map,True,found
+book_04,booking,pipeline,count_at_least,image,True,1 found
+book_04,booking,pipeline,interaction,Book now,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline,interaction,View venue map,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline_norepair,node_exists,Eventix,False,missing
+book_04,booking,pipeline_norepair,node_exists,Events,True,found
+book_04,booking,pipeline_norepair,node_exists,Venues,True,found
+book_04,booking,pipeline_norepair,node_exists,My tickets,True,found
+book_04,booking,pipeline_norepair,node_exists,Jazz Night,True,found
+book_04,booking,pipeline_norepair,node_exists,Tickets,True,found
+book_04,booking,pipeline_norepair,node_exists,Book now,True,found
+book_04,booking,pipeline_norepair,node_exists,View venue map,True,found
+book_04,booking,pipeline_norepair,count_at_least,image,True,1 found
+book_04,booking,pipeline_norepair,interaction,Book now,True,new page elements=2 jaccard=0.00
+book_04,booking,pipeline_norepair,interaction,View venue map,True,new page elements=2 jaccard=0.00
+book_04,booking,baseline,node_exists,Eventix,False,missing
+book_04,booking,baseline,node_exists,Events,True,found
+book_04,booking,baseline,node_exists,Venues,True,found
+book_04,booking,baseline,node_exists,My tickets,True,found
+book_04,booking,baseline,node_exists,Jazz Night,True,found
+book_04,booking,baseline,node_exists,Tickets,True,found
+book_04,booking,baseline,node_exists,Book now,True,found
+book_04,booking,baseline,node_exists,View venue map,True,found
+book_04,booking,baseline,count_at_least,image,True,1 found
+book_04,booking,baseline,interaction,Book now,False,"click failed: Page.click: Timeout 2500ms exceeded.
+Call log:
+  - waiting for locator(""[data-ev-idx=\""10\""]"")
+"
+book_04,booking,baseline,interaction,View venue map,False,"click failed: Page.click: Timeout 2500ms exceeded.
+Call log:
+  - waiting for locator(""[data-ev-idx=\""11\""]"")
+"
+contact_01,contact,oracle,node_exists,Contact us,True,found
+contact_01,contact,oracle,node_exists,Name,True,found
+contact_01,contact,oracle,node_exists,Email,True,found
+contact_01,contact,oracle,input_type,Email,True,type=email
+contact_01,contact,oracle,node_exists,Message,True,found
+contact_01,contact,oracle,node_exists,Send,True,found
+contact_01,contact,oracle,interaction,Send,False,no error
+contact_01,contact,oracle,interaction,Send,True,format error shown
+contact_01,contact,pipeline,node_exists,Contact us,True,found
+contact_01,contact,pipeline,node_exists,Name,True,found
+contact_01,contact,pipeline,node_exists,Email,True,found
+contact_01,contact,pipeline,input_type,Email,True,type=email
+contact_01,contact,pipeline,node_exists,Message,True,found
+contact_01,contact,pipeline,node_exists,Send,True,found
+contact_01,contact,pipeline,interaction,Send,True,error shown
+contact_01,contact,pipeline,interaction,Send,True,format error shown
+contact_01,contact,pipeline_norepair,node_exists,Contact us,True,found
+contact_01,contact,pipeline_norepair,node_exists,Name,True,found
+contact_01,contact,pipeline_norepair,node_exists,Email,True,found
+contact_01,contact,pipeline_norepair,input_type,Email,True,type=email
+contact_01,contact,pipeline_norepair,node_exists,Message,True,found
+contact_01,contact,pipeline_norepair,node_exists,Send,True,found
+contact_01,contact,pipeline_norepair,interaction,Send,True,error shown
+contact_01,contact,pipeline_norepair,interaction,Send,True,format error shown
+contact_01,contact,baseline,node_exists,Contact us,True,found
+contact_01,contact,baseline,node_exists,Name,True,found
+contact_01,contact,baseline,node_exists,Email,True,found
+contact_01,contact,baseline,input_type,Email,True,type=email
+contact_01,contact,baseline,node_exists,Message,True,found
+contact_01,contact,baseline,node_exists,Send,True,found
+contact_01,contact,baseline,interaction,Send,True,error shown
+contact_01,contact,baseline,interaction,Send,True,format error shown
+contact_02,contact,oracle,node_exists,Acme,True,found
+contact_02,contact,oracle,node_exists,Home,True,found
+contact_02,contact,oracle,node_exists,Services,True,found
+contact_02,contact,oracle,node_exists,Contact,True,found
+contact_02,contact,oracle,node_exists,Get in touch,True,found
+contact_02,contact,oracle,node_exists,Name,True,found
+contact_02,contact,oracle,node_exists,Email,True,found
+contact_02,contact,oracle,input_type,Email,True,type=email
+contact_02,contact,oracle,node_exists,Subject,True,found
+contact_02,contact,oracle,node_exists,Message,True,found
+contact_02,contact,oracle,node_exists,Submit,True,found
+contact_02,contact,oracle,count_at_least,image,True,1 found
+contact_02,contact,oracle,interaction,Submit,False,no error
+contact_02,contact,pipeline,node_exists,Acme,False,missing
+contact_02,contact,pipeline,node_exists,Home,True,found
+contact_02,contact,pipeline,node_exists,Services,True,found
+contact_02,contact,pipeline,node_exists,Contact,True,found
+contact_02,contact,pipeline,node_exists,Get in touch,True,found
+contact_02,contact,pipeline,node_exists,Name,True,found
+contact_02,contact,pipeline,node_exists,Email,True,found
+contact_02,contact,pipeline,input_type,Email,True,type=email
+contact_02,contact,pipeline,node_exists,Subject,True,found
+contact_02,contact,pipeline,node_exists,Message,True,found
+contact_02,contact,pipeline,node_exists,Submit,True,found
+contact_02,contact,pipeline,count_at_least,image,True,1 found
+contact_02,contact,pipeline,interaction,Submit,True,error shown
+contact_02,contact,pipeline_norepair,node_exists,Acme,False,missing
+contact_02,contact,pipeline_norepair,node_exists,Home,True,found
+contact_02,contact,pipeline_norepair,node_exists,Services,True,found
+contact_02,contact,pipeline_norepair,node_exists,Contact,True,found
+contact_02,contact,pipeline_norepair,node_exists,Get in touch,True,found
+contact_02,contact,pipeline_norepair,node_exists,Name,True,found
+contact_02,contact,pipeline_norepair,node_exists,Email,True,found
+contact_02,contact,pipeline_norepair,input_type,Email,True,type=email
+contact_02,contact,pipeline_norepair,node_exists,Subject,True,found
+contact_02,contact,pipeline_norepair,node_exists,Message,True,found
+contact_02,contact,pipeline_norepair,node_exists,Submit,True,found
+contact_02,contact,pipeline_norepair,count_at_least,image,True,1 found
+contact_02,contact,pipeline_norepair,interaction,Submit,True,error shown
+contact_02,contact,baseline,node_exists,Acme,False,missing
+contact_02,contact,baseline,node_exists,Home,True,found
+contact_02,contact,baseline,node_exists,Services,True,found
+contact_02,contact,baseline,node_exists,Contact,True,found
+contact_02,contact,baseline,node_exists,Get in touch,True,found
+contact_02,contact,baseline,node_exists,Name,True,found
+contact_02,contact,baseline,node_exists,Email,True,found
+contact_02,contact,baseline,input_type,Email,True,type=email
+contact_02,contact,baseline,node_exists,Subject,True,found
+contact_02,contact,baseline,node_exists,Message,True,found
+contact_02,contact,baseline,node_exists,Submit,True,found
+contact_02,contact,baseline,count_at_least,image,True,1 found
+contact_02,contact,baseline,interaction,Submit,True,error shown
+contact_03,contact,oracle,node_exists,Support request,True,found
+contact_03,contact,oracle,node_exists,First name,True,found
+contact_03,contact,oracle,node_exists,Last name,True,found
+contact_03,contact,oracle,node_exists,Topic,True,found
+contact_03,contact,oracle,node_exists,Low,True,found
+contact_03,contact,oracle,node_exists,Medium,True,found
+contact_03,contact,oracle,node_exists,High,True,found
+contact_03,contact,oracle,node_exists,Describe the issue,True,found
+contact_03,contact,oracle,node_exists,Email me a copy,True,found
+contact_03,contact,oracle,node_exists,Submit ticket,True,found
+contact_03,contact,oracle,interaction,Submit ticket,False,no error
+contact_03,contact,pipeline,node_exists,Support request,True,found
+contact_03,contact,pipeline,node_exists,First name,True,found
+contact_03,contact,pipeline,node_exists,Last name,True,found
+contact_03,contact,pipeline,node_exists,Topic,True,found
+contact_03,contact,pipeline,node_exists,Low,False,missing
+contact_03,contact,pipeline,node_exists,Medium,True,found
+contact_03,contact,pipeline,node_exists,High,True,found
+contact_03,contact,pipeline,node_exists,Describe the issue,False,missing
+contact_03,contact,pipeline,node_exists,Email me a copy,True,found
+contact_03,contact,pipeline,node_exists,Submit ticket,True,found
+contact_03,contact,pipeline,interaction,Submit ticket,True,error shown
+contact_03,contact,pipeline_norepair,node_exists,Support request,True,found
+contact_03,contact,pipeline_norepair,node_exists,First name,True,found
+contact_03,contact,pipeline_norepair,node_exists,Last name,True,found
+contact_03,contact,pipeline_norepair,node_exists,Topic,True,found
+contact_03,contact,pipeline_norepair,node_exists,Low,False,missing
+contact_03,contact,pipeline_norepair,node_exists,Medium,True,found
+contact_03,contact,pipeline_norepair,node_exists,High,True,found
+contact_03,contact,pipeline_norepair,node_exists,Describe the issue,False,missing
+contact_03,contact,pipeline_norepair,node_exists,Email me a copy,True,found
+contact_03,contact,pipeline_norepair,node_exists,Submit ticket,True,found
+contact_03,contact,pipeline_norepair,interaction,Submit ticket,True,error shown
+contact_03,contact,baseline,node_exists,Support request,True,found
+contact_03,contact,baseline,node_exists,First name,True,found
+contact_03,contact,baseline,node_exists,Last name,True,found
+contact_03,contact,baseline,node_exists,Topic,True,found
+contact_03,contact,baseline,node_exists,Low,True,found
+contact_03,contact,baseline,node_exists,Medium,True,found
+contact_03,contact,baseline,node_exists,High,True,found
+contact_03,contact,baseline,node_exists,Describe the issue,True,found
+contact_03,contact,baseline,node_exists,Email me a copy,True,found
+contact_03,contact,baseline,node_exists,Submit ticket,True,found
+contact_03,contact,baseline,interaction,Submit ticket,True,error shown
+contact_04,contact,oracle,node_exists,Acme Studio,True,found
+contact_04,contact,oracle,node_exists,Call,True,found
+contact_04,contact,oracle,node_exists,Email,True,found
+contact_04,contact,oracle,node_exists,Visit,True,found
+contact_04,contact,oracle,node_exists,Newsletter,True,found
+contact_04,contact,oracle,node_exists,Subscribe,True,found
+contact_04,contact,oracle,interaction,Subscribe,True,format error shown
+contact_04,contact,pipeline,node_exists,Acme Studio,False,missing
+contact_04,contact,pipeline,node_exists,Call,False,missing
+contact_04,contact,pipeline,node_exists,Email,False,missing
+contact_04,contact,pipeline,node_exists,Visit,False,missing
+contact_04,contact,pipeline,node_exists,Newsletter,False,missing
+contact_04,contact,pipeline,node_exists,Subscribe,True,found
+contact_04,contact,pipeline,interaction,Subscribe,True,format error shown
+contact_04,contact,pipeline_norepair,node_exists,Acme Studio,False,missing
+contact_04,contact,pipeline_norepair,node_exists,Call,False,missing
+contact_04,contact,pipeline_norepair,node_exists,Email,False,missing
+contact_04,contact,pipeline_norepair,node_exists,Visit,False,missing
+contact_04,contact,pipeline_norepair,node_exists,Newsletter,False,missing
+contact_04,contact,pipeline_norepair,node_exists,Subscribe,True,found
+contact_04,contact,pipeline_norepair,interaction,Subscribe,True,format error shown
+contact_04,contact,baseline,node_exists,Acme Studio,False,missing
+contact_04,contact,baseline,node_exists,Call,False,missing
+contact_04,contact,baseline,node_exists,Email,False,missing
+contact_04,contact,baseline,node_exists,Visit,False,missing
+contact_04,contact,baseline,node_exists,Newsletter,False,missing
+contact_04,contact,baseline,node_exists,Subscribe,True,found
+contact_04,contact,baseline,interaction,Subscribe,True,format error shown
+set_01,settings,oracle,node_exists,Settings,True,found
+set_01,settings,oracle,node_exists,Push notifications,True,found
+set_01,settings,oracle,node_exists,Email updates,True,found
+set_01,settings,oracle,node_exists,Dark mode,True,found
+set_01,settings,oracle,node_exists,Privacy policy,True,found
+set_01,settings,oracle,node_exists,Log out,True,found
+set_01,settings,oracle,interaction,Log out,False,new page elements=0 jaccard=1.00
+set_01,settings,pipeline,node_exists,Settings,True,found
+set_01,settings,pipeline,node_exists,Push notifications,True,found
+set_01,settings,pipeline,node_exists,Email updates,True,found
+set_01,settings,pipeline,node_exists,Dark mode,True,found
+set_01,settings,pipeline,node_exists,Privacy policy,True,found
+set_01,settings,pipeline,node_exists,Log out,True,found
+set_01,settings,pipeline,interaction,Log out,True,new page elements=2 jaccard=0.00
+set_01,settings,pipeline_norepair,node_exists,Settings,True,found
+set_01,settings,pipeline_norepair,node_exists,Push notifications,True,found
+set_01,settings,pipeline_norepair,node_exists,Email updates,True,found
+set_01,settings,pipeline_norepair,node_exists,Dark mode,True,found
+set_01,settings,pipeline_norepair,node_exists,Privacy policy,True,found
+set_01,settings,pipeline_norepair,node_exists,Log out,True,found
+set_01,settings,pipeline_norepair,interaction,Log out,True,new page elements=2 jaccard=0.00
+set_01,settings,baseline,node_exists,Settings,True,found
+set_01,settings,baseline,node_exists,Push notifications,False,missing
+set_01,settings,baseline,node_exists,Email updates,False,missing
+set_01,settings,baseline,node_exists,Dark mode,False,missing
+set_01,settings,baseline,node_exists,Privacy policy,True,found
+set_01,settings,baseline,node_exists,Log out,True,found
+set_01,settings,baseline,interaction,Log out,False,new page elements=0 jaccard=0.00
+set_02,settings,oracle,node_exists,General,True,found
+set_02,settings,oracle,node_exists,Security,True,found
+set_02,settings,oracle,node_exists,Billing,True,found
+set_02,settings,oracle,node_exists,Notifications,True,found
+set_02,settings,oracle,node_exists,General,True,found
+set_02,settings,oracle,node_exists,Display name,True,found
+set_02,settings,oracle,node_exists,Email,True,found
+set_02,settings,oracle,input_type,Email,True,type=email
+set_02,settings,oracle,node_exists,Language,True,found
+set_02,settings,oracle,node_exists,Time zone,True,found
+set_02,settings,oracle,node_exists,Save changes,True,found
+set_02,settings,oracle,interaction,Save changes,False,message not found
+set_02,settings,oracle,interaction,Security,False,new page elements=0 jaccard=1.00
+set_02,settings,pipeline,node_exists,General,False,missing
+set_02,settings,pipeline,node_exists,Security,False,missing
+set_02,settings,pipeline,node_exists,Billing,False,missing
+set_02,settings,pipeline,node_exists,Notifications,False,missing
+set_02,settings,pipeline,node_exists,General,False,missing
+set_02,settings,pipeline,node_exists,Display name,True,found
+set_02,settings,pipeline,node_exists,Email,False,missing
+set_02,settings,pipeline,input_type,Email,False,type=None
+set_02,settings,pipeline,node_exists,Language,False,missing
+set_02,settings,pipeline,node_exists,Time zone,False,missing
+set_02,settings,pipeline,node_exists,Save changes,True,found
+set_02,settings,pipeline,interaction,Save changes,False,message not found
+set_02,settings,pipeline,interaction,Security,False,new page elements=0 jaccard=1.00
+set_02,settings,pipeline_norepair,node_exists,General,False,missing
+set_02,settings,pipeline_norepair,node_exists,Security,False,missing
+set_02,settings,pipeline_norepair,node_exists,Billing,False,missing
+set_02,settings,pipeline_norepair,node_exists,Notifications,False,missing
+set_02,settings,pipeline_norepair,node_exists,General,False,missing
+set_02,settings,pipeline_norepair,node_exists,Display name,True,found
+set_02,settings,pipeline_norepair,node_exists,Email,False,missing
+set_02,settings,pipeline_norepair,input_type,Email,False,type=None
+set_02,settings,pipeline_norepair,node_exists,Language,False,missing
+set_02,settings,pipeline_norepair,node_exists,Time zone,False,missing
+set_02,settings,pipeline_norepair,node_exists,Save changes,True,found
+set_02,settings,pipeline_norepair,interaction,Save changes,False,message not found
+set_02,settings,pipeline_norepair,interaction,Security,False,new page elements=0 jaccard=1.00
+set_02,settings,baseline,node_exists,General,True,found
+set_02,settings,baseline,node_exists,Security,True,found
+set_02,settings,baseline,node_exists,Billing,True,found
+set_02,settings,baseline,node_exists,Notifications,True,found
+set_02,settings,baseline,node_exists,General,True,found
+set_02,settings,baseline,node_exists,Display name,True,found
+set_02,settings,baseline,node_exists,Email,True,found
+set_02,settings,baseline,input_type,Email,True,type=email
+set_02,settings,baseline,node_exists,Language,True,found
+set_02,settings,baseline,node_exists,Time zone,True,found
+set_02,settings,baseline,node_exists,Save changes,True,found
+set_02,settings,baseline,interaction,Save changes,True,message shown
+set_02,settings,baseline,interaction,Security,True,new page elements=2 jaccard=0.00
+set_03,settings,oracle,node_exists,Security,True,found
+set_03,settings,oracle,node_exists,Change password,True,found
+set_03,settings,oracle,node_exists,Current password,True,found
+set_03,settings,oracle,input_type,Current password,True,type=password
+set_03,settings,oracle,node_exists,New password,True,found
+set_03,settings,oracle,input_type,New password,True,type=password
+set_03,settings,oracle,node_exists,Confirm new password,True,found
+set_03,settings,oracle,input_type,Confirm new password,True,type=password
+set_03,settings,oracle,node_exists,Update password,True,found
+set_03,settings,oracle,node_exists,Two-factor authentication,True,found
+set_03,settings,oracle,node_exists,Enable 2FA,True,found
+set_03,settings,oracle,interaction,Update password,False,no error
+set_03,settings,pipeline,node_exists,Security,True,found
+set_03,settings,pipeline,node_exists,Change password,False,missing
+set_03,settings,pipeline,node_exists,Current password,True,found
+set_03,settings,pipeline,input_type,Current password,True,type=password
+set_03,settings,pipeline,node_exists,New password,True,found
+set_03,settings,pipeline,input_type,New password,True,type=password
+set_03,settings,pipeline,node_exists,Confirm new password,True,found
+set_03,settings,pipeline,input_type,Confirm new password,True,type=password
+set_03,settings,pipeline,node_exists,Update password,True,found
+set_03,settings,pipeline,node_exists,Two-factor authentication,True,found
+set_03,settings,pipeline,node_exists,Enable 2FA,True,found
+set_03,settings,pipeline,interaction,Update password,True,error shown
+set_03,settings,pipeline_norepair,node_exists,Security,True,found
+set_03,settings,pipeline_norepair,node_exists,Change password,False,missing
+set_03,settings,pipeline_norepair,node_exists,Current password,True,found
+set_03,settings,pipeline_norepair,input_type,Current password,True,type=password
+set_03,settings,pipeline_norepair,node_exists,New password,True,found
+set_03,settings,pipeline_norepair,input_type,New password,True,type=password
+set_03,settings,pipeline_norepair,node_exists,Confirm new password,True,found
+set_03,settings,pipeline_norepair,input_type,Confirm new password,True,type=password
+set_03,settings,pipeline_norepair,node_exists,Update password,True,found
+set_03,settings,pipeline_norepair,node_exists,Two-factor authentication,True,found
+set_03,settings,pipeline_norepair,node_exists,Enable 2FA,True,found
+set_03,settings,pipeline_norepair,interaction,Update password,True,error shown
+set_03,settings,baseline,node_exists,Security,True,found
+set_03,settings,baseline,node_exists,Change password,True,found
+set_03,settings,baseline,node_exists,Current password,True,found
+set_03,settings,baseline,input_type,Current password,True,type=password
+set_03,settings,baseline,node_exists,New password,True,found
+set_03,settings,baseline,input_type,New password,True,type=password
+set_03,settings,baseline,node_exists,Confirm new password,True,found
+set_03,settings,baseline,input_type,Confirm new password,True,type=password
+set_03,settings,baseline,node_exists,Update password,True,found
+set_03,settings,baseline,node_exists,Two-factor authentication,True,found
+set_03,settings,baseline,node_exists,Enable 2FA,True,found
+set_03,settings,baseline,interaction,Update password,True,error shown
+set_04,settings,oracle,node_exists,Privacy,True,found
+set_04,settings,oracle,node_exists,Public,True,found
+set_04,settings,oracle,node_exists,Friends only,True,found
+set_04,settings,oracle,node_exists,Private,True,found
+set_04,settings,oracle,node_exists,Show online status,True,found
+set_04,settings,oracle,node_exists,Allow tagging,True,found
+set_04,settings,oracle,node_exists,Reset,True,found
+set_04,settings,oracle,node_exists,Save,True,found
+set_04,settings,oracle,interaction,Save,False,message not found
+set_04,settings,pipeline,node_exists,Privacy,True,found
+set_04,settings,pipeline,node_exists,Public,True,found
+set_04,settings,pipeline,node_exists,Friends only,False,missing
+set_04,settings,pipeline,node_exists,Private,True,found
+set_04,settings,pipeline,node_exists,Show online status,True,found
+set_04,settings,pipeline,node_exists,Allow tagging,True,found
+set_04,settings,pipeline,node_exists,Reset,True,found
+set_04,settings,pipeline,node_exists,Save,True,found
+set_04,settings,pipeline,interaction,Save,True,message shown
+set_04,settings,pipeline_norepair,node_exists,Privacy,True,found
+set_04,settings,pipeline_norepair,node_exists,Public,True,found
+set_04,settings,pipeline_norepair,node_exists,Friends only,False,missing
+set_04,settings,pipeline_norepair,node_exists,Private,True,found
+set_04,settings,pipeline_norepair,node_exists,Show online status,True,found
+set_04,settings,pipeline_norepair,node_exists,Allow tagging,True,found
+set_04,settings,pipeline_norepair,node_exists,Reset,True,found
+set_04,settings,pipeline_norepair,node_exists,Save,True,found
+set_04,settings,pipeline_norepair,interaction,Save,True,message shown
+set_04,settings,baseline,node_exists,Privacy,False,missing
+set_04,settings,baseline,node_exists,Public,True,found
+set_04,settings,baseline,node_exists,Friends only,True,found
+set_04,settings,baseline,node_exists,Private,True,found
+set_04,settings,baseline,node_exists,Show online status,True,found
+set_04,settings,baseline,node_exists,Allow tagging,True,found
+set_04,settings,baseline,node_exists,Reset,True,found
+set_04,settings,baseline,node_exists,Save,True,found
+set_04,settings,baseline,interaction,Save,True,message shown
+land_01,landing,oracle,node_exists,Nimbus,True,found
+land_01,landing,oracle,node_exists,Features,True,found
+land_01,landing,oracle,node_exists,Pricing,True,found
+land_01,landing,oracle,node_exists,About,True,found
+land_01,landing,oracle,node_exists,Get started,True,found
+land_01,landing,oracle,node_exists,Cloud storage made simple,True,found
+land_01,landing,oracle,node_exists,Try free,True,found
+land_01,landing,oracle,node_exists,Learn more,True,found
+land_01,landing,oracle,node_exists,Fast,True,found
+land_01,landing,oracle,node_exists,Secure,True,found
+land_01,landing,oracle,node_exists,Synced,True,found
+land_01,landing,oracle,count_at_least,image,True,1 found
+land_01,landing,oracle,interaction,Try free,False,new page elements=0 jaccard=0.00
+land_01,landing,oracle,interaction,Pricing,False,new page elements=0 jaccard=0.00
+land_01,landing,pipeline,node_exists,Nimbus,False,missing
+land_01,landing,pipeline,node_exists,Features,True,found
+land_01,landing,pipeline,node_exists,Pricing,True,found
+land_01,landing,pipeline,node_exists,About,True,found
+land_01,landing,pipeline,node_exists,Get started,True,found
+land_01,landing,pipeline,node_exists,Cloud storage made simple,True,found
+land_01,landing,pipeline,node_exists,Try free,True,found
+land_01,landing,pipeline,node_exists,Learn more,True,found
+land_01,landing,pipeline,node_exists,Fast,False,missing
+land_01,landing,pipeline,node_exists,Secure,False,missing
+land_01,landing,pipeline,node_exists,Synced,False,missing
+land_01,landing,pipeline,count_at_least,image,True,1 found
+land_01,landing,pipeline,interaction,Try free,True,new page elements=2 jaccard=0.00
+land_01,landing,pipeline,interaction,Pricing,False,new page elements=0 jaccard=0.00
+land_01,landing,pipeline_norepair,node_exists,Nimbus,False,missing
+land_01,landing,pipeline_norepair,node_exists,Features,True,found
+land_01,landing,pipeline_norepair,node_exists,Pricing,True,found
+land_01,landing,pipeline_norepair,node_exists,About,True,found
+land_01,landing,pipeline_norepair,node_exists,Get started,True,found
+land_01,landing,pipeline_norepair,node_exists,Cloud storage made simple,True,found
+land_01,landing,pipeline_norepair,node_exists,Try free,True,found
+land_01,landing,pipeline_norepair,node_exists,Learn more,True,found
+land_01,landing,pipeline_norepair,node_exists,Fast,False,missing
+land_01,landing,pipeline_norepair,node_exists,Secure,False,missing
+land_01,landing,pipeline_norepair,node_exists,Synced,False,missing
+land_01,landing,pipeline_norepair,count_at_least,image,True,1 found
+land_01,landing,pipeline_norepair,interaction,Try free,True,new page elements=2 jaccard=0.00
+land_01,landing,pipeline_norepair,interaction,Pricing,False,new page elements=0 jaccard=0.00
+land_01,landing,baseline,node_exists,Nimbus,False,missing
+land_01,landing,baseline,node_exists,Features,True,found
+land_01,landing,baseline,node_exists,Pricing,True,found
+land_01,landing,baseline,node_exists,About,True,found
+land_01,landing,baseline,node_exists,Get started,True,found
+land_01,landing,baseline,node_exists,Cloud storage made simple,True,found
+land_01,landing,baseline,node_exists,Try free,True,found
+land_01,landing,baseline,node_exists,Learn more,True,found
+land_01,landing,baseline,node_exists,Fast,True,found
+land_01,landing,baseline,node_exists,Secure,True,found
+land_01,landing,baseline,node_exists,Synced,True,found
+land_01,landing,baseline,count_at_least,image,True,1 found
+land_01,landing,baseline,interaction,Try free,True,new page elements=1 jaccard=0.00
+land_01,landing,baseline,interaction,Pricing,True,new page elements=1 jaccard=0.00
+land_02,landing,oracle,node_exists,Buildr,True,found
+land_02,landing,oracle,node_exists,Product,True,found
+land_02,landing,oracle,node_exists,Docs,True,found
+land_02,landing,oracle,node_exists,Blog,True,found
+land_02,landing,oracle,node_exists,Build apps faster,True,found
+land_02,landing,oracle,node_exists,Work email,True,found
+land_02,landing,oracle,input_type,Work email,True,type=email
+land_02,landing,oracle,node_exists,Join waitlist,True,found
+land_02,landing,oracle,node_exists,Loved by teams,True,found
+land_02,landing,oracle,count_at_least,image,True,5 found
+land_02,landing,oracle,interaction,Join waitlist,True,format error shown
+land_02,landing,oracle,interaction,Join waitlist,False,message not found
+land_02,landing,pipeline,node_exists,Buildr,False,missing
+land_02,landing,pipeline,node_exists,Product,True,found
+land_02,landing,pipeline,node_exists,Docs,True,found
+land_02,landing,pipeline,node_exists,Blog,True,found
+land_02,landing,pipeline,node_exists,Build apps faster,True,found
+land_02,landing,pipeline,node_exists,Work email,True,found
+land_02,landing,pipeline,input_type,Work email,True,type=email
+land_02,landing,pipeline,node_exists,Join waitlist,True,found
+land_02,landing,pipeline,node_exists,Loved by teams,False,missing
+land_02,landing,pipeline,count_at_least,image,True,5 found
+land_02,landing,pipeline,interaction,Join waitlist,True,format error shown
+land_02,landing,pipeline,interaction,Join waitlist,True,message shown
+land_02,landing,pipeline_norepair,node_exists,Buildr,False,missing
+land_02,landing,pipeline_norepair,node_exists,Product,True,found
+land_02,landing,pipeline_norepair,node_exists,Docs,True,found
+land_02,landing,pipeline_norepair,node_exists,Blog,True,found
+land_02,landing,pipeline_norepair,node_exists,Build apps faster,True,found
+land_02,landing,pipeline_norepair,node_exists,Work email,True,found
+land_02,landing,pipeline_norepair,input_type,Work email,True,type=email
+land_02,landing,pipeline_norepair,node_exists,Join waitlist,True,found
+land_02,landing,pipeline_norepair,node_exists,Loved by teams,False,missing
+land_02,landing,pipeline_norepair,count_at_least,image,True,5 found
+land_02,landing,pipeline_norepair,interaction,Join waitlist,True,format error shown
+land_02,landing,pipeline_norepair,interaction,Join waitlist,True,message shown
+land_02,landing,baseline,node_exists,Buildr,False,missing
+land_02,landing,baseline,node_exists,Product,True,found
+land_02,landing,baseline,node_exists,Docs,True,found
+land_02,landing,baseline,node_exists,Blog,True,found
+land_02,landing,baseline,node_exists,Build apps faster,True,found
+land_02,landing,baseline,node_exists,Work email,True,found
+land_02,landing,baseline,input_type,Work email,True,type=email
+land_02,landing,baseline,node_exists,Join waitlist,True,found
+land_02,landing,baseline,node_exists,Loved by teams,False,missing
+land_02,landing,baseline,count_at_least,image,True,5 found
+land_02,landing,baseline,interaction,Join waitlist,True,format error shown
+land_02,landing,baseline,interaction,Join waitlist,True,message shown
+land_03,landing,oracle,node_exists,FitTrack,True,found
+land_03,landing,oracle,node_exists,Download app,True,found
+land_03,landing,oracle,node_exists,Watch demo,True,found
+land_03,landing,oracle,count_at_least,image,True,1 found
+land_03,landing,oracle,interaction,Download app,False,message not found
+land_03,landing,oracle,interaction,Watch demo,False,new page elements=0 jaccard=0.00
+land_03,landing,pipeline,node_exists,FitTrack,True,found
+land_03,landing,pipeline,node_exists,Download app,True,found
+land_03,landing,pipeline,node_exists,Watch demo,True,found
+land_03,landing,pipeline,count_at_least,image,True,1 found
+land_03,landing,pipeline,interaction,Download app,True,message shown
+land_03,landing,pipeline,interaction,Watch demo,True,new page elements=2 jaccard=0.00
+land_03,landing,pipeline_norepair,node_exists,FitTrack,True,found
+land_03,landing,pipeline_norepair,node_exists,Download app,True,found
+land_03,landing,pipeline_norepair,node_exists,Watch demo,True,found
+land_03,landing,pipeline_norepair,count_at_least,image,True,1 found
+land_03,landing,pipeline_norepair,interaction,Download app,True,message shown
+land_03,landing,pipeline_norepair,interaction,Watch demo,True,new page elements=2 jaccard=0.00
+land_03,landing,baseline,node_exists,FitTrack,True,found
+land_03,landing,baseline,node_exists,Download app,True,found
+land_03,landing,baseline,node_exists,Watch demo,True,found
+land_03,landing,baseline,count_at_least,image,True,1 found
+land_03,landing,baseline,interaction,Download app,True,message shown
+land_03,landing,baseline,interaction,Watch demo,True,new page elements=2 jaccard=0.00
+land_04,landing,oracle,node_exists,Flowly,True,found
+land_04,landing,oracle,node_exists,Features,True,found
+land_04,landing,oracle,node_exists,Pricing,True,found
+land_04,landing,oracle,node_exists,Login,True,found
+land_04,landing,oracle,node_exists,Simple pricing,True,found
+land_04,landing,oracle,node_exists,Basic,True,found
+land_04,landing,oracle,node_exists,$9,True,found
+land_04,landing,oracle,node_exists,Choose Basic,True,found
+land_04,landing,oracle,node_exists,Pro,True,found
+land_04,landing,oracle,node_exists,$29,True,found
+land_04,landing,oracle,node_exists,Choose Pro,True,found
+land_04,landing,oracle,node_exists,Team,True,found
+land_04,landing,oracle,node_exists,$99,True,found
+land_04,landing,oracle,node_exists,Contact sales,True,found
+land_04,landing,oracle,interaction,Choose Pro,False,message not found
+land_04,landing,oracle,interaction,Contact sales,False,new page elements=0 jaccard=0.00
+land_04,landing,pipeline,node_exists,Flowly,False,missing
+land_04,landing,pipeline,node_exists,Features,True,found
+land_04,landing,pipeline,node_exists,Pricing,True,found
+land_04,landing,pipeline,node_exists,Login,True,found
+land_04,landing,pipeline,node_exists,Simple pricing,True,found
+land_04,landing,pipeline,node_exists,Basic,True,found
+land_04,landing,pipeline,node_exists,$9,False,missing
+land_04,landing,pipeline,node_exists,Choose Basic,True,found
+land_04,landing,pipeline,node_exists,Pro,True,found
+land_04,landing,pipeline,node_exists,$29,False,missing
+land_04,landing,pipeline,node_exists,Choose Pro,True,found
+land_04,landing,pipeline,node_exists,Team,True,found
+land_04,landing,pipeline,node_exists,$99,False,missing
+land_04,landing,pipeline,node_exists,Contact sales,True,found
+land_04,landing,pipeline,interaction,Choose Pro,True,message shown
+land_04,landing,pipeline,interaction,Contact sales,True,new page elements=2 jaccard=0.00
+land_04,landing,pipeline_norepair,node_exists,Flowly,False,missing
+land_04,landing,pipeline_norepair,node_exists,Features,True,found
+land_04,landing,pipeline_norepair,node_exists,Pricing,True,found
+land_04,landing,pipeline_norepair,node_exists,Login,True,found
+land_04,landing,pipeline_norepair,node_exists,Simple pricing,True,found
+land_04,landing,pipeline_norepair,node_exists,Basic,True,found
+land_04,landing,pipeline_norepair,node_exists,$9,False,missing
+land_04,landing,pipeline_norepair,node_exists,Choose Basic,True,found
+land_04,landing,pipeline_norepair,node_exists,Pro,True,found
+land_04,landing,pipeline_norepair,node_exists,$29,False,missing
+land_04,landing,pipeline_norepair,node_exists,Choose Pro,True,found
+land_04,landing,pipeline_norepair,node_exists,Team,True,found
+land_04,landing,pipeline_norepair,node_exists,$99,False,missing
+land_04,landing,pipeline_norepair,node_exists,Contact sales,True,found
+land_04,landing,pipeline_norepair,interaction,Choose Pro,True,message shown
+land_04,landing,pipeline_norepair,interaction,Contact sales,True,new page elements=2 jaccard=0.00
+land_04,landing,baseline,node_exists,Flowly,False,missing
+land_04,landing,baseline,node_exists,Features,True,found
+land_04,landing,baseline,node_exists,Pricing,True,found
+land_04,landing,baseline,node_exists,Login,True,found
+land_04,landing,baseline,node_exists,Simple pricing,True,found
+land_04,landing,baseline,node_exists,Basic,True,found
+land_04,landing,baseline,node_exists,$9,False,missing
+land_04,landing,baseline,node_exists,Choose Basic,True,found
+land_04,landing,baseline,node_exists,Pro,True,found
+land_04,landing,baseline,node_exists,$29,False,missing
+land_04,landing,baseline,node_exists,Choose Pro,True,found
+land_04,landing,baseline,node_exists,Team,True,found
+land_04,landing,baseline,node_exists,$99,False,missing
+land_04,landing,baseline,node_exists,Contact sales,True,found
+land_04,landing,baseline,interaction,Choose Pro,True,message shown
+land_04,landing,baseline,interaction,Contact sales,True,new page elements=1 jaccard=0.00

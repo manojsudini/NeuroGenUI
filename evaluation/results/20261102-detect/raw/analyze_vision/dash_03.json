@@ -1,0 +1,150 @@
+{
+ "_ok": true,
+ "_wall_ms": 5816.6,
+ "value": {
+  "components": [
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.9,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.07,
+     "w": 0.024,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Hi, Sam",
+    "bbox": {
+     "x": 0.13,
+     "y": 0.07,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.22,
+     "w": 0.9,
+     "h": 0.18
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Balance",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.25,
+     "w": 0.244,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "$2,450",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.33,
+     "w": 0.294,
+     "h": 0.0628
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.55,
+     "w": 0.35,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Request",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.55,
+     "w": 0.35,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Activity",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.68,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.74,
+     "w": 0.6,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "vision",
+  "title": "User Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5746,
+   "total_ms": 5816
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

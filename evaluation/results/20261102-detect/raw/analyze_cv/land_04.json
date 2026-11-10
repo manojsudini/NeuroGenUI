@@ -1,0 +1,379 @@
+{
+ "_ok": true,
+ "_wall_ms": 6849.4,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.0878,
+     "w": 0.9,
+     "h": 0.1398
+    },
+    "confidence": 0.859,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Flowly",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1154,
+     "w": 0.103,
+     "h": 0.0894
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.645,
+     "y": 0.1226,
+     "w": 0.0945,
+     "h": 0.0508
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.77,
+     "y": 0.1185,
+     "w": 0.0745,
+     "h": 0.0623
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Cogin",
+    "bbox": {
+     "x": 0.871,
+     "y": 0.1252,
+     "w": 0.063,
+     "h": 0.0602
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Simple pricing",
+    "bbox": {
+     "x": 0.378,
+     "y": 0.2715,
+     "w": 0.256,
+     "h": 0.1008
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.504,
+     "y": 0.2927,
+     "w": 0.122,
+     "h": 0.0699
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.3902,
+     "w": 0.282,
+     "h": 0.4911
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.357,
+     "y": 0.4016,
+     "w": 0.288,
+     "h": 0.4862
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.668,
+     "y": 0.4033,
+     "w": 0.279,
+     "h": 0.4878
+    },
+    "confidence": 0.726,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Basic",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.4407,
+     "w": 0.076,
+     "h": 0.0634
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "Pro",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.4423,
+     "w": 0.05,
+     "h": 0.0585
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "Team",
+    "bbox": {
+     "x": 0.692,
+     "y": 0.4455,
+     "w": 0.072,
+     "h": 0.0537
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "bbg",
+    "bbox": {
+     "x": 0.689,
+     "y": 0.5333,
+     "w": 0.073,
+     "h": 0.0764
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "$9",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.5366,
+     "w": 0.049,
+     "h": 0.0715
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "$29",
+    "bbox": {
+     "x": 0.381,
+     "y": 0.535,
+     "w": 0.07,
+     "h": 0.0748
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 8
+   },
+   {
+    "type": "nav_item",
+    "label": "1user",
+    "bbox": {
+     "x": 0.075,
+     "y": 0.6423,
+     "w": 0.091,
+     "h": 0.0504
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "5users",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.6407,
+     "w": 0.106,
+     "h": 0.0553
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 8
+   },
+   {
+    "type": "heading",
+    "label": "50users",
+    "bbox": {
+     "x": 0.693,
+     "y": 0.639,
+     "w": 0.117,
+     "h": 0.0553
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "\"5projects",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.6943,
+     "w": 0.139,
+     "h": 0.0618
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "Priority support",
+    "bbox": {
+     "x": 0.71,
+     "y": 0.6943,
+     "w": 0.179,
+     "h": 0.0618
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "Unlimited projects",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.7041,
+     "w": 0.242,
+     "h": 0.1561
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Contact sales",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.7577,
+     "w": 0.243,
+     "h": 0.0846
+    },
+    "confidence": 0.815,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "Choose Basic",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.7756,
+     "w": 0.149,
+     "h": 0.0585
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 7
+   }
+  ],
+  "width": 1000,
+  "height": 615,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 6505,
+   "vision_ms": 0,
+   "total_ms": 6849
+  },
+  "n_cv_candidates": 27
+ }
+}

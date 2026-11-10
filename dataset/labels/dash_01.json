@@ -1,0 +1,366 @@
+{
+  "id": "dash_01",
+  "category": "dashboard",
+  "title": "Acme dashboard",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('dash_01')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 774,
+  "instruction": "An admin dashboard with a top navbar (Acme logo, Home, Reports and Settings links and a user icon), the heading Dashboard, three stat cards for Users, Revenue and Orders, a Sales chart card and a Recent orders list. Clicking Reports opens a Reports page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0505,
+        "y": 0.0667,
+        "w": 0.8986,
+        "h": 0.1033
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Acme",
+      "bbox": {
+        "x": 0.0705,
+        "y": 0.0848,
+        "w": 0.0829,
+        "h": 0.0671
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Home",
+      "bbox": {
+        "x": 0.5598,
+        "y": 0.0923,
+        "w": 0.0598,
+        "h": 0.0522
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Reports",
+      "bbox": {
+        "x": 0.6497,
+        "y": 0.0923,
+        "w": 0.0851,
+        "h": 0.0522
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Settings",
+      "bbox": {
+        "x": 0.7647,
+        "y": 0.0923,
+        "w": 0.0904,
+        "h": 0.0522
+      },
+      "parent": 0
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.8851,
+        "y": 0.0899,
+        "w": 0.044,
+        "h": 0.0568
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "user"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Dashboard",
+      "bbox": {
+        "x": 0.0505,
+        "y": 0.1984,
+        "w": 0.2071,
+        "h": 0.0803
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0505,
+        "y": 0.3072,
+        "w": 0.2835,
+        "h": 0.189
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "1,240",
+      "bbox": {
+        "x": 0.0725,
+        "y": 0.3356,
+        "w": 0.0919,
+        "h": 0.0671
+      },
+      "parent": 7,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Users",
+      "bbox": {
+        "x": 0.0725,
+        "y": 0.4207,
+        "w": 0.0616,
+        "h": 0.047
+      },
+      "parent": 7
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.358,
+        "y": 0.3072,
+        "w": 0.2835,
+        "h": 0.189
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "$8,300",
+      "bbox": {
+        "x": 0.38,
+        "y": 0.3356,
+        "w": 0.1117,
+        "h": 0.0671
+      },
+      "parent": 10,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Revenue",
+      "bbox": {
+        "x": 0.38,
+        "y": 0.4207,
+        "w": 0.0862,
+        "h": 0.047
+      },
+      "parent": 10
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6656,
+        "y": 0.3072,
+        "w": 0.2835,
+        "h": 0.189
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "312",
+      "bbox": {
+        "x": 0.6876,
+        "y": 0.3356,
+        "w": 0.0634,
+        "h": 0.0671
+      },
+      "parent": 13,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Orders",
+      "bbox": {
+        "x": 0.6876,
+        "y": 0.4207,
+        "w": 0.0745,
+        "h": 0.047
+      },
+      "parent": 13
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0505,
+        "y": 0.5246,
+        "w": 0.5831,
+        "h": 0.3898
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Sales",
+      "bbox": {
+        "x": 0.0725,
+        "y": 0.553,
+        "w": 0.0669,
+        "h": 0.0565
+      },
+      "parent": 16,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0725,
+        "y": 0.6276,
+        "w": 0.5391,
+        "h": 0.2584
+      },
+      "parent": 16,
+      "props": {
+        "alt": "sales chart",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6576,
+        "y": 0.5246,
+        "w": 0.2915,
+        "h": 0.302
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Recent orders",
+      "bbox": {
+        "x": 0.6796,
+        "y": 0.553,
+        "w": 0.1727,
+        "h": 0.0565
+      },
+      "parent": 19,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.6796,
+        "y": 0.6276,
+        "w": 0.1573,
+        "h": 0.1705
+      },
+      "parent": 19,
+      "props": {
+        "items": [
+          "Order 1042",
+          "Order 1041",
+          "Order 1040",
+          "Order 1039"
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Reports",
+      "expect": {
+        "type": "navigate",
+        "page": "Reports"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Acme",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Home",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Reports",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Settings",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Dashboard",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Sales",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Recent orders",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Reports",
+      "expect": {
+        "type": "navigate",
+        "page": "Reports"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

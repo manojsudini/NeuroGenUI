@@ -1,0 +1,332 @@
+{
+ "_ok": true,
+ "_wall_ms": 9037.3,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.183,
+     "y": 0.0713,
+     "w": 0.663,
+     "h": 0.8336
+    },
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.215,
+     "y": 0.1322,
+     "w": 0.119,
+     "h": 0.0684
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "First name",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.18,
+     "w": 0.38,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.18,
+     "w": 0.43,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "First name",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.211,
+     "w": 0.297,
+     "h": 0.0981
+    },
+    "confidence": 0.851,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.525,
+     "y": 0.2095,
+     "w": 0.292,
+     "h": 0.0951
+    },
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.54,
+     "y": 0.2452,
+     "w": 0.087,
+     "h": 0.0253
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.28,
+     "w": 0.84,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.3477,
+     "w": 0.049,
+     "h": 0.0267
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.38,
+     "w": 0.38,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Country",
+    "bbox": {
+     "x": 0.48,
+     "y": 0.38,
+     "w": 0.43,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.4131,
+     "w": 0.295,
+     "h": 0.0996
+    },
+    "confidence": 0.849,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.518,
+     "y": 0.4116,
+     "w": 0.279,
+     "h": 0.104
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.783,
+     "y": 0.4562,
+     "w": 0.02,
+     "h": 0.0178
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.48,
+     "w": 0.84,
+     "h": 0.07
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.209,
+     "y": 0.5201,
+     "w": 0.609,
+     "h": 0.1025
+    },
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Gender",
+    "bbox": {
+     "x": 0.215,
+     "y": 0.6449,
+     "w": 0.062,
+     "h": 0.0297
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.211,
+     "y": 0.7073,
+     "w": 0.027,
+     "h": 0.0416
+    },
+    "confidence": 0.931,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.421,
+     "y": 0.7073,
+     "w": 0.026,
+     "h": 0.0416
+    },
+    "confidence": 0.936,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.628,
+     "y": 0.7073,
+     "w": 0.029,
+     "h": 0.0416
+    },
+    "confidence": 0.924,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Male",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.7162,
+     "w": 0.041,
+     "h": 0.0282
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Female",
+    "bbox": {
+     "x": 0.464,
+     "y": 0.7177,
+     "w": 0.054,
+     "h": 0.0282
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Other",
+    "bbox": {
+     "x": 0.665,
+     "y": 0.7162,
+     "w": 0.052,
+     "h": 0.0297
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Create account",
+    "bbox": {
+     "x": 0.206,
+     "y": 0.7667,
+     "w": 0.204,
+     "h": 0.101
+    },
+    "confidence": 0.884,
+    "source": "hybrid",
+    "parent": 0
+   }
+  ],
+  "width": 1000,
+  "height": 673,
+  "mode": "hybrid",
+  "title": "Sign up form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 70,
+   "vision_ms": 8958,
+   "total_ms": 9037
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 22
+ }
+}

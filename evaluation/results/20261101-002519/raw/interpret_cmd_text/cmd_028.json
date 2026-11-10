@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2094.7,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "heading",
+     "id": "h_build_apps_faster"
+    },
+    "changes": {
+     "label": "Ship apps faster instead."
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2093,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"heading\",\"id\":\"h_build_apps_faster\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Ship apps faster instead.\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

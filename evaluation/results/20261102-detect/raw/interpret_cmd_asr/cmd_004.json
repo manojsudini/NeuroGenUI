@@ -1,0 +1,30 @@
+{
+ "_ok": true,
+ "_wall_ms": 2250.8,
+ "value": {
+  "ops": [
+   {
+    "op": "add",
+    "component": {
+     "type": "input",
+     "label": "Company name",
+     "props": {
+      "inputType": "text",
+      "required": false
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "name field",
+      "id": "inp_name"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2250,
+  "raw": "{\"ops\":[{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"input\",\"label\":\"Company name\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"name field\",\"id\":\"inp_name\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "_ok": true,
+ "_wall_ms": 16393.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.1071,
+     "w": 0.204,
+     "h": 0.5717
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.917,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.1087,
+     "w": 0.647,
+     "h": 0.1307
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.877,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.1165,
+     "w": 0.428,
+     "h": 0.1165
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.82,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "nav_item",
+    "label": "Menu",
+    "bbox": {
+     "x": 0.073,
+     "y": 0.1417,
+     "w": 0.074,
+     "h": 0.052
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Search",
+    "bbox": {
+     "x": 0.444,
+     "y": 0.1543,
+     "w": 0.115,
+     "h": 0.0409
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "nav_item",
+    "label": "Q",
+    "bbox": {
+     "x": 0.689,
+     "y": 0.1528,
+     "w": 0.031,
+     "h": 0.0472
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "radio",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.31,
+     "y": 0.1606,
+     "w": 0.143,
+     "h": 0.0409
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.899,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "nav_item",
+    "label": "Overview",
+    "bbox": {
+     "x": 0.076,
+     "y": 0.2299,
+     "w": 0.1,
+     "h": 0.0425
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.293,
+     "y": 0.2803,
+     "w": 0.311,
+     "h": 0.2835
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.626,
+     "y": 0.2866,
+     "w": 0.318,
+     "h": 0.2787
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.916,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Analytics",
+    "bbox": {
+     "x": 0.077,
+     "y": 0.3118,
+     "w": 0.096,
+     "h": 0.0457
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Customers",
+    "bbox": {
+     "x": 0.075,
+     "y": 0.3969,
+     "w": 0.12,
+     "h": 0.0472
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.074,
+     "y": 0.4772,
+     "w": 0.081,
+     "h": 0.0504
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.294,
+     "y": 0.6016,
+     "w": 0.65,
+     "h": 0.3213
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Tasks",
+    "bbox": {
+     "x": 0.312,
+     "y": 0.6362,
+     "w": 0.081,
+     "h": 0.0472
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "radio",
+    "label": "Review reports",
+    "bbox": {
+     "x": 0.31,
+     "y": 0.6992,
+     "w": 0.207,
+     "h": 0.0583
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.864,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "radio",
+    "label": "Cal supplier",
+    "bbox": {
+     "x": 0.309,
+     "y": 0.7638,
+     "w": 0.167,
+     "h": 0.063
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.869,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "heading",
+    "label": "update pricing",
+    "bbox": {
+     "x": 0.315,
+     "y": 0.8331,
+     "w": 0.183,
+     "h": 0.0567
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 13
+   }
+  ],
+  "width": 1000,
+  "height": 635,
+  "mode": "hybrid",
+  "title": "Dashboard with menu, charts, and tasks",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 9652,
+   "vision_ms": 6273,
+   "total_ms": 16393
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 23
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "_ok": true,
+ "_wall_ms": 6944.7,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Flights to Paris",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.18,
+     "w": 0.4,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Sort by",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.3,
+     "w": 0.22,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.31,
+     "w": 0.04,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Non-stop only",
+    "bbox": {
+     "x": 0.43,
+     "y": 0.31,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.4,
+     "w": 0.75,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Select flight",
+    "bbox": {
+     "x": 0.65,
+     "y": 0.44,
+     "w": 0.17,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Air France",
+    "bbox": {
+     "x": 0.13,
+     "y": 0.45,
+     "w": 0.17,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "08:10 - 10:25",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.45,
+     "w": 0.18,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "$210",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.45,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.6,
+     "w": 0.75,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Choose",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.64,
+     "w": 0.14,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "Lufthansa",
+    "bbox": {
+     "x": 0.13,
+     "y": 0.65,
+     "w": 0.17,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "13:40 - 16:05",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.65,
+     "w": 0.18,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "$185",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.65,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "Load more",
+    "bbox": {
+     "x": 0.43,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Flights to Paris",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6938,
+   "total_ms": 6944
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

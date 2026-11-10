@@ -1,0 +1,24 @@
+{
+ "_ok": true,
+ "_wall_ms": 2384.1,
+ "value": {
+  "ops": [
+   {
+    "op": "style",
+    "target": {
+     "ref": "follow button",
+     "id": "btn_follow"
+    },
+    "changes": {
+     "style": {
+      "color": "#ec4899"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2383,
+  "raw": "{\"ops\":[{\"op\":\"style\",\"target\":{\"ref\":\"follow button\",\"id\":\"btn_follow\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":null,\"color\":\"pink\",\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

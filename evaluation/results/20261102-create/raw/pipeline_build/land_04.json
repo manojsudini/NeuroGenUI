@@ -1,0 +1,3093 @@
+{
+ "_ok": true,
+ "_wall_ms": 1063.7,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Pricing",
+    "category": "other",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 615,
+     "content": {
+      "x": 0.043,
+      "y": 0.0748,
+      "w": 0.913,
+      "h": 0.8212
+     },
+     "page_width": 1096,
+     "scale": 1.2004
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_1",
+        "type": "navbar",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.045,
+         "y": 0.0748,
+         "w": 0.911,
+         "h": 0.1659
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_flowly",
+          "type": "text",
+          "label": "Flowly",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.073,
+           "y": 0.1333,
+           "w": 0.09,
+           "h": 0.065
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_features",
+          "type": "nav_item",
+          "label": "Features",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.648,
+           "y": 0.1333,
+           "w": 0.091,
+           "h": 0.0358
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_flowly"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_pricing",
+          "type": "nav_item",
+          "label": "Pricing",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.773,
+           "y": 0.1317,
+           "w": 0.071,
+           "h": 0.0439
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_login",
+          "type": "nav_item",
+          "label": "Login",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.879,
+           "y": 0.1333,
+           "w": 0.051,
+           "h": 0.0439
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_pricing"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_simple_pricing",
+        "type": "heading",
+        "label": "Simple pricing",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.383,
+         "y": 0.278,
+         "w": 0.108,
+         "h": 0.0829
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_7",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.043,
+         "y": 0.3805,
+         "w": 0.91,
+         "h": 0.5155
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_simple_pricing"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "list_basic_features",
+          "type": "list",
+          "label": "Basic features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.043,
+           "y": 0.3805,
+           "w": 0.294,
+           "h": 0.5154
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_basic",
+            "type": "text",
+            "label": "Basic",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.076,
+             "y": 0.452,
+             "w": 0.065,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_9",
+            "type": "text",
+            "label": "$9",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.5447,
+             "w": 0.041,
+             "h": 0.0602
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_basic"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_1_user",
+            "type": "text",
+            "label": "1 user",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.6537,
+             "w": 0.088,
+             "h": 0.0309
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_9"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_choose_basic",
+            "type": "button",
+            "label": "Choose Basic",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.07,
+             "y": 0.7089,
+             "w": 0.243,
+             "h": 0.148
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_1_user"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "list_pro_features",
+          "type": "list",
+          "label": "Pro features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.354,
+           "y": 0.3919,
+           "w": 0.295,
+           "h": 0.5041
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "list_basic_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_pro",
+            "type": "text",
+            "label": "Pro",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.386,
+             "y": 0.452,
+             "w": 0.042,
+             "h": 0.0407
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_29",
+            "type": "text",
+            "label": "$29",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.385,
+             "y": 0.5447,
+             "w": 0.06,
+             "h": 0.0618
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_pro"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_5_users",
+            "type": "text",
+            "label": "5 users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.384,
+             "y": 0.6537,
+             "w": 0.1,
+             "h": 0.0325
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_29"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_choose_pro",
+            "type": "button",
+            "label": "Choose Pro",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.382,
+             "y": 0.7041,
+             "w": 0.242,
+             "h": 0.1561
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_5_users"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "show_message",
+                "text": "Pro plan selected",
+                "tone": "info"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "list_team_features",
+          "type": "list",
+          "label": "Team features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4",
+            "Feature 5"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.664,
+           "y": 0.4016,
+           "w": 0.289,
+           "h": 0.4927
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "list_pro_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_team",
+            "type": "text",
+            "label": "Team",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.699,
+             "y": 0.4537,
+             "w": 0.061,
+             "h": 0.039
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_99",
+            "type": "text",
+            "label": "$99",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.694,
+             "y": 0.5431,
+             "w": 0.06,
+             "h": 0.0618
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_team"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_50_users",
+            "type": "text",
+            "label": "50 users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.695,
+             "y": 0.652,
+             "w": 0.112,
+             "h": 0.0309
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_99"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_22",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.693,
+             "y": 0.7024,
+             "w": 0.191,
+             "h": 0.039
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_50_users"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "txt_priority_support",
+              "type": "text",
+              "label": "Priority support",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.693,
+               "y": 0.7024,
+               "w": 0.124,
+               "h": 0.039
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_priority_suppor",
+              "type": "text",
+              "label": "Priority suppor",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.852,
+               "y": 0.7122,
+               "w": 0.032,
+               "h": 0.0276
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_priority_support"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "btn_contact_sales",
+            "type": "button",
+            "label": "Contact sales",
+            "props": {
+             "href_page": "page_contact"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.689,
+             "y": 0.7545,
+             "w": 0.247,
+             "h": 0.0976
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_22"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "navigate",
+                "page": "page_contact"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_contact",
+     "name": "Contact",
+     "route": "/contact",
+     "root": {
+      "id": "page_contact",
+      "type": "page",
+      "label": "Contact",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_contact",
+        "type": "heading",
+        "label": "Contact",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Contact page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 30
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"pricing\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Pricing</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Pricing\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport ContactPage from \"./pages/ContactPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_contact: ContactPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  height: 1px;\n  border: 0;\n  padding: 0;\n  box-sizing: content-box;\n  background: var(--ng-border);\n  background-clip: content-box;\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/List.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport List from \"../components/List.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_CHOOSE_PRO_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Pro plan selected\",\n    \"tone\": \"info\"\n  }\n];\n\nconst BTN_CONTACT_SALES_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_contact\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnChooseProClick = () => runActions(\"btn_choose_pro\", BTN_CHOOSE_PRO_CLICK, ui);\n  const handleBtnContactSalesClick = () => runActions(\"btn_contact_sales\", BTN_CONTACT_SALES_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1096 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 122 }}\n      >\n        <Text\n          id=\"txt_flowly\"\n          label=\"Flowly\"\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", minHeight: 48 }}\n        />\n        <NavItem\n          id=\"navi_features\"\n          label=\"Features\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"53.2%\", minHeight: 26 }}\n        />\n        <NavItem\n          id=\"navi_pricing\"\n          label=\"Pricing\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.7%\", minHeight: 32 }}\n        />\n        <NavItem\n          id=\"navi_login\"\n          label=\"Login\"\n          style={{ minWidth: \"5.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.8%\", minHeight: 32 }}\n        />\n      </Navbar>\n      <Heading\n        id=\"h_simple_pricing\"\n        label=\"Simple pricing\"\n        level={2}\n        style={{ minWidth: \"11.8%\", maxWidth: \"100%\", marginLeft: \"37.2%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 38 }}\n      />\n      <Container\n        id=\"box_7\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 14, minHeight: 381 }}\n      >\n        <List\n          id=\"list_basic_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.3%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 380 }}\n        >\n          <Text\n            id=\"txt_basic\"\n            label=\"Basic\"\n            style={{ minWidth: \"22.1%\", maxWidth: \"100%\", marginLeft: \"11.2%\", marginTop: 53, alignSelf: \"flex-start\", minHeight: 32 }}\n          />\n          <Text\n            id=\"txt_9\"\n            label=\"$9\"\n            style={{ minWidth: \"13.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n          <Text\n            id=\"txt_1_user\"\n            label=\"1 user\"\n            style={{ minWidth: \"29.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Button\n            id=\"btn_choose_basic\"\n            label=\"Choose Basic\"\n            style={{ width: \"82.7%\", marginLeft: \"9.2%\", marginTop: 18, alignSelf: \"flex-start\", height: 64 }}\n          />\n        </List>\n        <List\n          id=\"list_pro_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"1.9%\", marginTop: 8, minHeight: 372 }}\n        >\n          <Text\n            id=\"txt_pro\"\n            label=\"Pro\"\n            style={{ minWidth: \"14.2%\", maxWidth: \"100%\", marginLeft: \"10.8%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 30 }}\n          />\n          <Text\n            id=\"txt_29\"\n            label=\"$29\"\n            style={{ minWidth: \"20.3%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_5_users\"\n            label=\"5 users\"\n            style={{ minWidth: \"33.9%\", maxWidth: \"100%\", marginLeft: \"10.2%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_choose_pro\"\n            label=\"Choose Pro\"\n            style={{ width: \"82%\", marginLeft: \"9.5%\", marginTop: 13, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnChooseProClick}\n          />\n          <Message owner=\"btn_choose_pro\" />\n        </List>\n        <List\n          id=\"list_team_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\", \"Feature 5\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"31.8%\", flex: \"0 0 auto\", marginLeft: \"1.6%\", marginTop: 16, minHeight: 364 }}\n        >\n          <Text\n            id=\"txt_team\"\n            label=\"Team\"\n            style={{ minWidth: \"21.1%\", maxWidth: \"100%\", marginLeft: \"12.1%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 29 }}\n          />\n          <Text\n            id=\"txt_99\"\n            label=\"$99\"\n            style={{ minWidth: \"20.8%\", maxWidth: \"100%\", marginLeft: \"10.4%\", marginTop: 37, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_50_users\"\n            label=\"50 users\"\n            style={{ minWidth: \"38.8%\", maxWidth: \"100%\", marginLeft: \"10.7%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Container\n            id=\"box_22\"\n            layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n            geometry\n            style={{ paddingBottom: 0, width: \"66.1%\", marginLeft: \"10%\", marginTop: 14, alignSelf: \"flex-start\", minHeight: 29 }}\n          >\n            <Text\n              id=\"txt_priority_support\"\n              label=\"Priority support\"\n              style={{ minWidth: \"64.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 29 }}\n            />\n            <Text\n              id=\"txt_priority_suppor\"\n              label=\"Priority suppor\"\n              style={{ minWidth: \"16.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"18.3%\", minHeight: 20 }}\n            />\n          </Container>\n          <Button\n            id=\"btn_contact_sales\"\n            label=\"Contact sales\"\n            style={{ width: \"85.5%\", marginLeft: \"8.7%\", marginTop: 10, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnContactSalesClick}\n          />\n          <Message owner=\"btn_contact_sales\" />\n        </List>\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/ContactPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function ContactPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_contact\" layout={{ gap: 16 }} style={{ maxWidth: 1096 }}>\n      <Heading id=\"h_contact\" label=\"Contact\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Contact page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Pricing\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  height: 1px;\\n  border: 0;\\n  padding: 0;\\n  box-sizing: content-box;\\n  background: var(--ng-border);\\n  background-clip: content-box;\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_CHOOSE_PRO_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Pro plan selected\",\n    \"tone\": \"info\"\n  }\n];\n\nconst BTN_CONTACT_SALES_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_contact\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnChooseProClick = () => runActions(\"btn_choose_pro\", BTN_CHOOSE_PRO_CLICK, ui);\n  const handleBtnContactSalesClick = () => runActions(\"btn_contact_sales\", BTN_CONTACT_SALES_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1096 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 122 }}\n      >\n        <Text\n          id=\"txt_flowly\"\n          label=\"Flowly\"\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", minHeight: 48 }}\n        />\n        <NavItem\n          id=\"navi_features\"\n          label=\"Features\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"53.2%\", minHeight: 26 }}\n        />\n        <NavItem\n          id=\"navi_pricing\"\n          label=\"Pricing\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.7%\", minHeight: 32 }}\n        />\n        <NavItem\n          id=\"navi_login\"\n          label=\"Login\"\n          style={{ minWidth: \"5.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.8%\", minHeight: 32 }}\n        />\n      </Navbar>\n      <Heading\n        id=\"h_simple_pricing\"\n        label=\"Simple pricing\"\n        level={2}\n        style={{ minWidth: \"11.8%\", maxWidth: \"100%\", marginLeft: \"37.2%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 38 }}\n      />\n      <Container\n        id=\"box_7\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 14, minHeight: 381 }}\n      >\n        <List\n          id=\"list_basic_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.3%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 380 }}\n        >\n          <Text\n            id=\"txt_basic\"\n            label=\"Basic\"\n            style={{ minWidth: \"22.1%\", maxWidth: \"100%\", marginLeft: \"11.2%\", marginTop: 53, alignSelf: \"flex-start\", minHeight: 32 }}\n          />\n          <Text\n            id=\"txt_9\"\n            label=\"$9\"\n            style={{ minWidth: \"13.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n          <Text\n            id=\"txt_1_user\"\n            label=\"1 user\"\n            style={{ minWidth: \"29.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Button\n            id=\"btn_choose_basic\"\n            label=\"Choose Basic\"\n            style={{ width: \"82.7%\", marginLeft: \"9.2%\", marginTop: 18, alignSelf: \"flex-start\", height: 64 }}\n          />\n        </List>\n        <List\n          id=\"list_pro_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"1.9%\", marginTop: 8, minHeight: 372 }}\n        >\n          <Text\n            id=\"txt_pro\"\n            label=\"Pro\"\n            style={{ minWidth: \"14.2%\", maxWidth: \"100%\", marginLeft: \"10.8%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 30 }}\n          />\n          <Text\n            id=\"txt_29\"\n            label=\"$29\"\n            style={{ minWidth: \"20.3%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_5_users\"\n            label=\"5 users\"\n            style={{ minWidth: \"33.9%\", maxWidth: \"100%\", marginLeft: \"10.2%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_choose_pro\"\n            label=\"Choose Pro\"\n            style={{ width: \"82%\", marginLeft: \"9.5%\", marginTop: 13, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnChooseProClick}\n          />\n          <Message owner=\"btn_choose_pro\" />\n        </List>\n        <List\n          id=\"list_team_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\", \"Feature 5\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"31.8%\", flex: \"0 0 auto\", marginLeft: \"1.6%\", marginTop: 16, minHeight: 364 }}\n        >\n          <Text\n            id=\"txt_team\"\n            label=\"Team\"\n            style={{ minWidth: \"21.1%\", maxWidth: \"100%\", marginLeft: \"12.1%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 29 }}\n          />\n          <Text\n            id=\"txt_99\"\n            label=\"$99\"\n            style={{ minWidth: \"20.8%\", maxWidth: \"100%\", marginLeft: \"10.4%\", marginTop: 37, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_50_users\"\n            label=\"50 users\"\n            style={{ minWidth: \"38.8%\", maxWidth: \"100%\", marginLeft: \"10.7%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Container\n            id=\"box_22\"\n            layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n            geometry\n            style={{ paddingBottom: 0, width: \"66.1%\", marginLeft: \"10%\", marginTop: 14, alignSelf: \"flex-start\", minHeight: 29 }}\n          >\n            <Text\n              id=\"txt_priority_support\"\n              label=\"Priority support\"\n              style={{ minWidth: \"64.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 29 }}\n            />\n            <Text\n              id=\"txt_priority_suppor\"\n              label=\"Priority suppor\"\n              style={{ minWidth: \"16.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"18.3%\", minHeight: 20 }}\n            />\n          </Container>\n          <Button\n            id=\"btn_contact_sales\"\n            label=\"Contact sales\"\n            style={{ width: \"85.5%\", marginLeft: \"8.7%\", marginTop: 10, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnContactSalesClick}\n          />\n          <Message owner=\"btn_contact_sales\" />\n        </List>\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction ContactPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_contact\" layout={{ gap: 16 }} style={{ maxWidth: 1096 }}>\n      <Heading id=\"h_contact\" label=\"Contact\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Contact page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_contact: ContactPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 22,
+    "components": 11,
+    "pages": 2,
+    "loc": 820,
+    "preview_bytes": 20941
+   }
+  },
+  "report0": {
+   "passed": true,
+   "score": 0.9336,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "26 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "presence:txt_flowly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_flowly"
+    },
+    {
+     "id": "presence:navi_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_features"
+    },
+    {
+     "id": "presence:navi_pricing",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_pricing"
+    },
+    {
+     "id": "presence:navi_login",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_login"
+    },
+    {
+     "id": "presence:h_simple_pricing",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_simple_pricing"
+    },
+    {
+     "id": "presence:box_7",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "presence:list_basic_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "presence:txt_basic",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_basic"
+    },
+    {
+     "id": "presence:txt_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_9"
+    },
+    {
+     "id": "presence:txt_1_user",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_1_user"
+    },
+    {
+     "id": "presence:btn_choose_basic",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_choose_basic"
+    },
+    {
+     "id": "presence:list_pro_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "presence:txt_pro",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_pro"
+    },
+    {
+     "id": "presence:txt_29",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_29"
+    },
+    {
+     "id": "presence:txt_5_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_5_users"
+    },
+    {
+     "id": "presence:btn_choose_pro",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "presence:list_team_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "presence:txt_team",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_team"
+    },
+    {
+     "id": "presence:txt_99",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_99"
+    },
+    {
+     "id": "presence:txt_50_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_50_users"
+    },
+    {
+     "id": "presence:box_22",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_22"
+    },
+    {
+     "id": "presence:txt_priority_support",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_priority_support"
+    },
+    {
+     "id": "presence:txt_priority_suppor",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_priority_suppor"
+    },
+    {
+     "id": "presence:btn_contact_sales",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "order:box_7",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "order:list_basic_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "sketch_order:list_basic_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "order:list_pro_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "sketch_order:list_pro_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "order:list_team_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "sketch_order:list_team_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "order:box_22",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_22"
+    },
+    {
+     "id": "layout:txt_pro",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_pro"
+    },
+    {
+     "id": "layout:txt_team",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_team"
+    },
+    {
+     "id": "layout:txt_99",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_99"
+    },
+    {
+     "id": "layout:txt_50_users",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_50_users"
+    },
+    {
+     "id": "layout:txt_priority_support",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_priority_support"
+    },
+    {
+     "id": "layout:txt_priority_suppor",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_priority_suppor"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.34 over 19 sketched components; pairwise order 0.99",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_features",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_features"
+    },
+    {
+     "id": "clickable:navi_pricing",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_pricing"
+    },
+    {
+     "id": "clickable:navi_login",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_login"
+    },
+    {
+     "id": "clickable:btn_choose_basic",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_choose_basic"
+    },
+    {
+     "id": "clickable:btn_choose_pro",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "clickable:btn_contact_sales",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "presence:page_contact",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_contact"
+    },
+    {
+     "id": "presence:h_contact",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_contact"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_choose_pro:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "event:btn_contact_sales:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_contact",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.3428,
+    "order_consistency": 0.9932
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 92,
+      "y": 32,
+      "w": 1096,
+      "h": 663.09375
+     }
+    },
+    {
+     "id": "nav_1",
+     "type": "navbar",
+     "rect": {
+      "x": 92,
+      "y": 32,
+      "w": 1096,
+      "h": 122
+     }
+    },
+    {
+     "id": "txt_flowly",
+     "type": "text",
+     "rect": {
+      "x": 126.90625,
+      "y": 53.5,
+      "w": 108.296875,
+      "h": 48
+     }
+    },
+    {
+     "id": "navi_features",
+     "type": "nav_item",
+     "rect": {
+      "x": 817.203125,
+      "y": 60.25,
+      "w": 109.390625,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_pricing",
+     "type": "nav_item",
+     "rect": {
+      "x": 967.0625,
+      "y": 60.25,
+      "w": 85.328125,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_login",
+     "type": "nav_item",
+     "rect": {
+      "x": 1093.953125,
+      "y": 60.25,
+      "w": 61.25,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "h_simple_pricing",
+     "type": "heading",
+     "rect": {
+      "x": 499.703125,
+      "y": 182,
+      "w": 260.65625,
+      "h": 45.59375
+     }
+    },
+    {
+     "id": "box_7",
+     "type": "container",
+     "rect": {
+      "x": 92,
+      "y": 241.59375,
+      "w": 1096,
+      "h": 453.5
+     }
+    },
+    {
+     "id": "list_basic_features",
+     "type": "list",
+     "rect": {
+      "x": 92,
+      "y": 241.59375,
+      "w": 354,
+      "h": 380
+     }
+    },
+    {
+     "id": "txt_basic",
+     "type": "text",
+     "rect": {
+      "x": 131.640625,
+      "y": 362.09375,
+      "w": 78.21875,
+      "h": 32
+     }
+    },
+    {
+     "id": "txt_9",
+     "type": "text",
+     "rect": {
+      "x": 129.15625,
+      "y": 430.09375,
+      "w": 49.203125,
+      "h": 44
+     }
+    },
+    {
+     "id": "txt_1_user",
+     "type": "text",
+     "rect": {
+      "x": 129.15625,
+      "y": 510.09375,
+      "w": 105.84375,
+      "h": 23
+     }
+    },
+    {
+     "id": "btn_choose_basic",
+     "type": "button",
+     "rect": {
+      "x": 124.5625,
+      "y": 551.09375,
+      "w": 292.75,
+      "h": 64
+     }
+    },
+    {
+     "id": "list_pro_features",
+     "type": "list",
+     "rect": {
+      "x": 466.8125,
+      "y": 249.59375,
+      "w": 355.09375,
+      "h": 384
+     }
+    },
+    {
+     "id": "txt_pro",
+     "type": "text",
+     "rect": {
+      "x": 505.15625,
+      "y": 383.59375,
+      "w": 50.421875,
+      "h": 30
+     }
+    },
+    {
+     "id": "txt_29",
+     "type": "text",
+     "rect": {
+      "x": 504.09375,
+      "y": 451.59375,
+      "w": 72.078125,
+      "h": 46
+     }
+    },
+    {
+     "id": "txt_5_users",
+     "type": "text",
+     "rect": {
+      "x": 503.03125,
+      "y": 532.59375,
+      "w": 120.375,
+      "h": 24
+     }
+    },
+    {
+     "id": "btn_choose_pro",
+     "type": "button",
+     "rect": {
+      "x": 500.53125,
+      "y": 569.59375,
+      "w": 291.171875,
+      "h": 64
+     }
+    },
+    {
+     "id": "list_team_features",
+     "type": "list",
+     "rect": {
+      "x": 839.4375,
+      "y": 257.59375,
+      "w": 348.515625,
+      "h": 437.5
+     }
+    },
+    {
+     "id": "txt_team",
+     "type": "text",
+     "rect": {
+      "x": 881.59375,
+      "y": 408.09375,
+      "w": 73.53125,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_99",
+     "type": "text",
+     "rect": {
+      "x": 875.671875,
+      "y": 474.09375,
+      "w": 72.484375,
+      "h": 46
+     }
+    },
+    {
+     "id": "txt_50_users",
+     "type": "text",
+     "rect": {
+      "x": 876.71875,
+      "y": 555.09375,
+      "w": 135.21875,
+      "h": 23
+     }
+    },
+    {
+     "id": "box_22",
+     "type": "container",
+     "rect": {
+      "x": 874.28125,
+      "y": 592.09375,
+      "w": 230.359375,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_priority_support",
+     "type": "text",
+     "rect": {
+      "x": 874.28125,
+      "y": 592.09375,
+      "w": 149.5,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_priority_suppor",
+     "type": "text",
+     "rect": {
+      "x": 1065.921875,
+      "y": 595.34375,
+      "w": 105.078125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "btn_contact_sales",
+     "type": "button",
+     "rect": {
+      "x": 869.75,
+      "y": 631.09375,
+      "w": 297.96875,
+      "h": 64
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 557
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Pricing",
+    "category": "other",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 615,
+     "content": {
+      "x": 0.043,
+      "y": 0.0748,
+      "w": 0.913,
+      "h": 0.8212
+     },
+     "page_width": 1096,
+     "scale": 1.2004
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_1",
+        "type": "navbar",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.045,
+         "y": 0.0748,
+         "w": 0.911,
+         "h": 0.1659
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_flowly",
+          "type": "text",
+          "label": "Flowly",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.073,
+           "y": 0.1333,
+           "w": 0.09,
+           "h": 0.065
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_features",
+          "type": "nav_item",
+          "label": "Features",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.648,
+           "y": 0.1333,
+           "w": 0.091,
+           "h": 0.0358
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_flowly"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_pricing",
+          "type": "nav_item",
+          "label": "Pricing",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.773,
+           "y": 0.1317,
+           "w": 0.071,
+           "h": 0.0439
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_login",
+          "type": "nav_item",
+          "label": "Login",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.879,
+           "y": 0.1333,
+           "w": 0.051,
+           "h": 0.0439
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_pricing"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_simple_pricing",
+        "type": "heading",
+        "label": "Simple pricing",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.383,
+         "y": 0.278,
+         "w": 0.108,
+         "h": 0.0829
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_7",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.043,
+         "y": 0.3805,
+         "w": 0.91,
+         "h": 0.5155
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_simple_pricing"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "list_basic_features",
+          "type": "list",
+          "label": "Basic features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.043,
+           "y": 0.3805,
+           "w": 0.294,
+           "h": 0.5154
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_basic",
+            "type": "text",
+            "label": "Basic",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.076,
+             "y": 0.452,
+             "w": 0.065,
+             "h": 0.0439
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_9",
+            "type": "text",
+            "label": "$9",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.5447,
+             "w": 0.041,
+             "h": 0.0602
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_basic"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_1_user",
+            "type": "text",
+            "label": "1 user",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.074,
+             "y": 0.6537,
+             "w": 0.088,
+             "h": 0.0309
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_9"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_choose_basic",
+            "type": "button",
+            "label": "Choose Basic",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.07,
+             "y": 0.7089,
+             "w": 0.243,
+             "h": 0.148
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_1_user"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "list_pro_features",
+          "type": "list",
+          "label": "Pro features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.354,
+           "y": 0.3919,
+           "w": 0.295,
+           "h": 0.5041
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "list_basic_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_pro",
+            "type": "text",
+            "label": "Pro",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.386,
+             "y": 0.452,
+             "w": 0.042,
+             "h": 0.0407
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_29",
+            "type": "text",
+            "label": "$29",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.385,
+             "y": 0.5447,
+             "w": 0.06,
+             "h": 0.0618
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_pro"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_5_users",
+            "type": "text",
+            "label": "5 users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.384,
+             "y": 0.6537,
+             "w": 0.1,
+             "h": 0.0325
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_29"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_choose_pro",
+            "type": "button",
+            "label": "Choose Pro",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.382,
+             "y": 0.7041,
+             "w": 0.242,
+             "h": 0.1561
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_5_users"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "show_message",
+                "text": "Pro plan selected",
+                "tone": "info"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "list_team_features",
+          "type": "list",
+          "label": "Team features",
+          "props": {
+           "items": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4",
+            "Feature 5"
+           ]
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.664,
+           "y": 0.4016,
+           "w": 0.289,
+           "h": 0.4927
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "list_pro_features"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_team",
+            "type": "text",
+            "label": "Team",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.699,
+             "y": 0.4537,
+             "w": 0.061,
+             "h": 0.039
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_99",
+            "type": "text",
+            "label": "$99",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.694,
+             "y": 0.5431,
+             "w": 0.06,
+             "h": 0.0618
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_team"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_50_users",
+            "type": "text",
+            "label": "50 users",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.695,
+             "y": 0.652,
+             "w": 0.112,
+             "h": 0.0309
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_99"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "box_22",
+            "type": "container",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.693,
+             "y": 0.7024,
+             "w": 0.191,
+             "h": 0.039
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_50_users"
+             }
+            ],
+            "events": [],
+            "origin": "sketch",
+            "layout": {
+             "direction": "row",
+             "gap": 12,
+             "align": "center",
+             "justify": "start"
+            },
+            "children": [
+             {
+              "id": "txt_priority_support",
+              "type": "text",
+              "label": "Priority support",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.693,
+               "y": 0.7024,
+               "w": 0.124,
+               "h": 0.039
+              },
+              "relations": [],
+              "events": [],
+              "origin": "sketch"
+             },
+             {
+              "id": "txt_priority_suppor",
+              "type": "text",
+              "label": "Priority suppor",
+              "props": {},
+              "style": {},
+              "bbox": {
+               "x": 0.852,
+               "y": 0.7122,
+               "w": 0.032,
+               "h": 0.0276
+              },
+              "relations": [
+               {
+                "type": "right_of",
+                "target": "txt_priority_support"
+               }
+              ],
+              "events": [],
+              "origin": "sketch"
+             }
+            ]
+           },
+           {
+            "id": "btn_contact_sales",
+            "type": "button",
+            "label": "Contact sales",
+            "props": {
+             "href_page": "page_contact"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.689,
+             "y": 0.7545,
+             "w": 0.247,
+             "h": 0.0976
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "box_22"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "navigate",
+                "page": "page_contact"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_contact",
+     "name": "Contact",
+     "route": "/contact",
+     "root": {
+      "id": "page_contact",
+      "type": "page",
+      "label": "Contact",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_contact",
+        "type": "heading",
+        "label": "Contact",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Contact page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 30
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"pricing\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Pricing</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Pricing\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport ContactPage from \"./pages/ContactPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_contact: ContactPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  height: 1px;\n  border: 0;\n  padding: 0;\n  box-sizing: content-box;\n  background: var(--ng-border);\n  background-clip: content-box;\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/List.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport List from \"../components/List.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_CHOOSE_PRO_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Pro plan selected\",\n    \"tone\": \"info\"\n  }\n];\n\nconst BTN_CONTACT_SALES_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_contact\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnChooseProClick = () => runActions(\"btn_choose_pro\", BTN_CHOOSE_PRO_CLICK, ui);\n  const handleBtnContactSalesClick = () => runActions(\"btn_contact_sales\", BTN_CONTACT_SALES_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1096 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 122 }}\n      >\n        <Text\n          id=\"txt_flowly\"\n          label=\"Flowly\"\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", minHeight: 48 }}\n        />\n        <NavItem\n          id=\"navi_features\"\n          label=\"Features\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"53.2%\", minHeight: 26 }}\n        />\n        <NavItem\n          id=\"navi_pricing\"\n          label=\"Pricing\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.7%\", minHeight: 32 }}\n        />\n        <NavItem\n          id=\"navi_login\"\n          label=\"Login\"\n          style={{ minWidth: \"5.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.8%\", minHeight: 32 }}\n        />\n      </Navbar>\n      <Heading\n        id=\"h_simple_pricing\"\n        label=\"Simple pricing\"\n        level={2}\n        style={{ minWidth: \"11.8%\", maxWidth: \"100%\", marginLeft: \"37.2%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 38 }}\n      />\n      <Container\n        id=\"box_7\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 14, minHeight: 381 }}\n      >\n        <List\n          id=\"list_basic_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.3%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 380 }}\n        >\n          <Text\n            id=\"txt_basic\"\n            label=\"Basic\"\n            style={{ minWidth: \"22.1%\", maxWidth: \"100%\", marginLeft: \"11.2%\", marginTop: 53, alignSelf: \"flex-start\", minHeight: 32 }}\n          />\n          <Text\n            id=\"txt_9\"\n            label=\"$9\"\n            style={{ minWidth: \"13.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n          <Text\n            id=\"txt_1_user\"\n            label=\"1 user\"\n            style={{ minWidth: \"29.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Button\n            id=\"btn_choose_basic\"\n            label=\"Choose Basic\"\n            style={{ width: \"82.7%\", marginLeft: \"9.2%\", marginTop: 18, alignSelf: \"flex-start\", height: 64 }}\n          />\n        </List>\n        <List\n          id=\"list_pro_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"1.9%\", marginTop: 8, minHeight: 372 }}\n        >\n          <Text\n            id=\"txt_pro\"\n            label=\"Pro\"\n            style={{ minWidth: \"14.2%\", maxWidth: \"100%\", marginLeft: \"10.8%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 30 }}\n          />\n          <Text\n            id=\"txt_29\"\n            label=\"$29\"\n            style={{ minWidth: \"20.3%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_5_users\"\n            label=\"5 users\"\n            style={{ minWidth: \"33.9%\", maxWidth: \"100%\", marginLeft: \"10.2%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_choose_pro\"\n            label=\"Choose Pro\"\n            style={{ width: \"82%\", marginLeft: \"9.5%\", marginTop: 13, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnChooseProClick}\n          />\n          <Message owner=\"btn_choose_pro\" />\n        </List>\n        <List\n          id=\"list_team_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\", \"Feature 5\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"31.8%\", flex: \"0 0 auto\", marginLeft: \"1.6%\", marginTop: 16, minHeight: 364 }}\n        >\n          <Text\n            id=\"txt_team\"\n            label=\"Team\"\n            style={{ minWidth: \"21.1%\", maxWidth: \"100%\", marginLeft: \"12.1%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 29 }}\n          />\n          <Text\n            id=\"txt_99\"\n            label=\"$99\"\n            style={{ minWidth: \"20.8%\", maxWidth: \"100%\", marginLeft: \"10.4%\", marginTop: 37, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_50_users\"\n            label=\"50 users\"\n            style={{ minWidth: \"38.8%\", maxWidth: \"100%\", marginLeft: \"10.7%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Container\n            id=\"box_22\"\n            layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n            geometry\n            style={{ paddingBottom: 0, width: \"66.1%\", marginLeft: \"10%\", marginTop: 14, alignSelf: \"flex-start\", minHeight: 29 }}\n          >\n            <Text\n              id=\"txt_priority_support\"\n              label=\"Priority support\"\n              style={{ minWidth: \"64.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 29 }}\n            />\n            <Text\n              id=\"txt_priority_suppor\"\n              label=\"Priority suppor\"\n              style={{ minWidth: \"16.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"18.3%\", minHeight: 20 }}\n            />\n          </Container>\n          <Button\n            id=\"btn_contact_sales\"\n            label=\"Contact sales\"\n            style={{ width: \"85.5%\", marginLeft: \"8.7%\", marginTop: 10, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnContactSalesClick}\n          />\n          <Message owner=\"btn_contact_sales\" />\n        </List>\n      </Container>\n    </Page>\n  );\n}\n",
+    "src/pages/ContactPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function ContactPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_contact\" layout={{ gap: 16 }} style={{ maxWidth: 1096 }}>\n      <Heading id=\"h_contact\" label=\"Contact\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Contact page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Pricing\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  height: 1px;\\n  border: 0;\\n  padding: 0;\\n  box-sizing: content-box;\\n  background: var(--ng-border);\\n  background-clip: content-box;\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction List({ id, items = [], layout = {}, style, children }) {\n  const { attrs } = useNode(id, \"list\");\n  return (\n    <div {...attrs} className=\"ng-list\" style={{ gap: layout.gap ?? 8, ...style }}>\n      {items.length > 0 && (\n        <ul className=\"ng-list__items\">\n          {items.map((item) => (\n            <li key={item}>{item}</li>\n          ))}\n        </ul>\n      )}\n      {children}\n    </div>\n  );\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_CHOOSE_PRO_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Pro plan selected\",\n    \"tone\": \"info\"\n  }\n];\n\nconst BTN_CONTACT_SALES_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_contact\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnChooseProClick = () => runActions(\"btn_choose_pro\", BTN_CHOOSE_PRO_CLICK, ui);\n  const handleBtnContactSalesClick = () => runActions(\"btn_contact_sales\", BTN_CONTACT_SALES_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1096 }}>\n      <Navbar\n        id=\"nav_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 122 }}\n      >\n        <Text\n          id=\"txt_flowly\"\n          label=\"Flowly\"\n          style={{ minWidth: \"9.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.1%\", minHeight: 48 }}\n        />\n        <NavItem\n          id=\"navi_features\"\n          label=\"Features\"\n          style={{ minWidth: \"10%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"53.2%\", minHeight: 26 }}\n        />\n        <NavItem\n          id=\"navi_pricing\"\n          label=\"Pricing\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.7%\", minHeight: 32 }}\n        />\n        <NavItem\n          id=\"navi_login\"\n          label=\"Login\"\n          style={{ minWidth: \"5.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.8%\", minHeight: 32 }}\n        />\n      </Navbar>\n      <Heading\n        id=\"h_simple_pricing\"\n        label=\"Simple pricing\"\n        level={2}\n        style={{ minWidth: \"11.8%\", maxWidth: \"100%\", marginLeft: \"37.2%\", marginTop: 28, alignSelf: \"flex-start\", fontSize: 38 }}\n      />\n      <Container\n        id=\"box_7\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 14, minHeight: 381 }}\n      >\n        <List\n          id=\"list_basic_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.3%\", flex: \"0 0 auto\", marginTop: 0, minHeight: 380 }}\n        >\n          <Text\n            id=\"txt_basic\"\n            label=\"Basic\"\n            style={{ minWidth: \"22.1%\", maxWidth: \"100%\", marginLeft: \"11.2%\", marginTop: 53, alignSelf: \"flex-start\", minHeight: 32 }}\n          />\n          <Text\n            id=\"txt_9\"\n            label=\"$9\"\n            style={{ minWidth: \"13.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 44 }}\n          />\n          <Text\n            id=\"txt_1_user\"\n            label=\"1 user\"\n            style={{ minWidth: \"29.9%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 36, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Button\n            id=\"btn_choose_basic\"\n            label=\"Choose Basic\"\n            style={{ width: \"82.7%\", marginLeft: \"9.2%\", marginTop: 18, alignSelf: \"flex-start\", height: 64 }}\n          />\n        </List>\n        <List\n          id=\"list_pro_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"32.4%\", flex: \"0 0 auto\", marginLeft: \"1.9%\", marginTop: 8, minHeight: 372 }}\n        >\n          <Text\n            id=\"txt_pro\"\n            label=\"Pro\"\n            style={{ minWidth: \"14.2%\", maxWidth: \"100%\", marginLeft: \"10.8%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 30 }}\n          />\n          <Text\n            id=\"txt_29\"\n            label=\"$29\"\n            style={{ minWidth: \"20.3%\", maxWidth: \"100%\", marginLeft: \"10.5%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_5_users\"\n            label=\"5 users\"\n            style={{ minWidth: \"33.9%\", maxWidth: \"100%\", marginLeft: \"10.2%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_choose_pro\"\n            label=\"Choose Pro\"\n            style={{ width: \"82%\", marginLeft: \"9.5%\", marginTop: 13, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnChooseProClick}\n          />\n          <Message owner=\"btn_choose_pro\" />\n        </List>\n        <List\n          id=\"list_team_features\"\n          items={[\"Feature 1\", \"Feature 2\", \"Feature 3\", \"Feature 4\", \"Feature 5\"]}\n          layout={{ gap: 0 }}\n          geometry\n          style={{ width: \"31.8%\", flex: \"0 0 auto\", marginLeft: \"1.6%\", marginTop: 16, minHeight: 364 }}\n        >\n          <Text\n            id=\"txt_team\"\n            label=\"Team\"\n            style={{ minWidth: \"21.1%\", maxWidth: \"100%\", marginLeft: \"12.1%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 29 }}\n          />\n          <Text\n            id=\"txt_99\"\n            label=\"$99\"\n            style={{ minWidth: \"20.8%\", maxWidth: \"100%\", marginLeft: \"10.4%\", marginTop: 37, alignSelf: \"flex-start\", minHeight: 46 }}\n          />\n          <Text\n            id=\"txt_50_users\"\n            label=\"50 users\"\n            style={{ minWidth: \"38.8%\", maxWidth: \"100%\", marginLeft: \"10.7%\", marginTop: 35, alignSelf: \"flex-start\", minHeight: 23 }}\n          />\n          <Container\n            id=\"box_22\"\n            layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n            geometry\n            style={{ paddingBottom: 0, width: \"66.1%\", marginLeft: \"10%\", marginTop: 14, alignSelf: \"flex-start\", minHeight: 29 }}\n          >\n            <Text\n              id=\"txt_priority_support\"\n              label=\"Priority support\"\n              style={{ minWidth: \"64.9%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 29 }}\n            />\n            <Text\n              id=\"txt_priority_suppor\"\n              label=\"Priority suppor\"\n              style={{ minWidth: \"16.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"18.3%\", minHeight: 20 }}\n            />\n          </Container>\n          <Button\n            id=\"btn_contact_sales\"\n            label=\"Contact sales\"\n            style={{ width: \"85.5%\", marginLeft: \"8.7%\", marginTop: 10, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnContactSalesClick}\n          />\n          <Message owner=\"btn_contact_sales\" />\n        </List>\n      </Container>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction ContactPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_contact\" layout={{ gap: 16 }} style={{ maxWidth: 1096 }}>\n      <Heading id=\"h_contact\" label=\"Contact\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Contact page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_contact: ContactPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 22,
+    "components": 11,
+    "pages": 2,
+    "loc": 820,
+    "preview_bytes": 20941
+   }
+  },
+  "report": {
+   "passed": true,
+   "score": 0.9336,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "26 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "presence:txt_flowly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_flowly"
+    },
+    {
+     "id": "presence:navi_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_features"
+    },
+    {
+     "id": "presence:navi_pricing",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_pricing"
+    },
+    {
+     "id": "presence:navi_login",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_login"
+    },
+    {
+     "id": "presence:h_simple_pricing",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_simple_pricing"
+    },
+    {
+     "id": "presence:box_7",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "presence:list_basic_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "presence:txt_basic",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_basic"
+    },
+    {
+     "id": "presence:txt_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_9"
+    },
+    {
+     "id": "presence:txt_1_user",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_1_user"
+    },
+    {
+     "id": "presence:btn_choose_basic",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_choose_basic"
+    },
+    {
+     "id": "presence:list_pro_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "presence:txt_pro",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_pro"
+    },
+    {
+     "id": "presence:txt_29",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_29"
+    },
+    {
+     "id": "presence:txt_5_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_5_users"
+    },
+    {
+     "id": "presence:btn_choose_pro",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "presence:list_team_features",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "presence:txt_team",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_team"
+    },
+    {
+     "id": "presence:txt_99",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_99"
+    },
+    {
+     "id": "presence:txt_50_users",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_50_users"
+    },
+    {
+     "id": "presence:box_22",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_22"
+    },
+    {
+     "id": "presence:txt_priority_support",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_priority_support"
+    },
+    {
+     "id": "presence:txt_priority_suppor",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_priority_suppor"
+    },
+    {
+     "id": "presence:btn_contact_sales",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "nav_1"
+    },
+    {
+     "id": "order:box_7",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "box_7"
+    },
+    {
+     "id": "order:list_basic_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "sketch_order:list_basic_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_basic_features"
+    },
+    {
+     "id": "order:list_pro_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "sketch_order:list_pro_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_pro_features"
+    },
+    {
+     "id": "order:list_team_features",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "sketch_order:list_team_features",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "list_team_features"
+    },
+    {
+     "id": "order:box_22",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_22"
+    },
+    {
+     "id": "layout:txt_pro",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_pro"
+    },
+    {
+     "id": "layout:txt_team",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_team"
+    },
+    {
+     "id": "layout:txt_99",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_99"
+    },
+    {
+     "id": "layout:txt_50_users",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_50_users"
+    },
+    {
+     "id": "layout:txt_priority_support",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_priority_support"
+    },
+    {
+     "id": "layout:txt_priority_suppor",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_priority_suppor"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.34 over 19 sketched components; pairwise order 0.99",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_features",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_features"
+    },
+    {
+     "id": "clickable:navi_pricing",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_pricing"
+    },
+    {
+     "id": "clickable:navi_login",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_login"
+    },
+    {
+     "id": "clickable:btn_choose_basic",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_choose_basic"
+    },
+    {
+     "id": "clickable:btn_choose_pro",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "clickable:btn_contact_sales",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "presence:page_contact",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_contact"
+    },
+    {
+     "id": "presence:h_contact",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_contact"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_choose_pro:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_choose_pro"
+    },
+    {
+     "id": "event:btn_contact_sales:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_contact",
+     "hard": true,
+     "target": "btn_contact_sales"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.3428,
+    "order_consistency": 0.9932
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 92,
+      "y": 32,
+      "w": 1096,
+      "h": 663.09375
+     }
+    },
+    {
+     "id": "nav_1",
+     "type": "navbar",
+     "rect": {
+      "x": 92,
+      "y": 32,
+      "w": 1096,
+      "h": 122
+     }
+    },
+    {
+     "id": "txt_flowly",
+     "type": "text",
+     "rect": {
+      "x": 126.90625,
+      "y": 53.5,
+      "w": 108.296875,
+      "h": 48
+     }
+    },
+    {
+     "id": "navi_features",
+     "type": "nav_item",
+     "rect": {
+      "x": 817.203125,
+      "y": 60.25,
+      "w": 109.390625,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_pricing",
+     "type": "nav_item",
+     "rect": {
+      "x": 967.0625,
+      "y": 60.25,
+      "w": 85.328125,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_login",
+     "type": "nav_item",
+     "rect": {
+      "x": 1093.953125,
+      "y": 60.25,
+      "w": 61.25,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "h_simple_pricing",
+     "type": "heading",
+     "rect": {
+      "x": 499.703125,
+      "y": 182,
+      "w": 260.65625,
+      "h": 45.59375
+     }
+    },
+    {
+     "id": "box_7",
+     "type": "container",
+     "rect": {
+      "x": 92,
+      "y": 241.59375,
+      "w": 1096,
+      "h": 453.5
+     }
+    },
+    {
+     "id": "list_basic_features",
+     "type": "list",
+     "rect": {
+      "x": 92,
+      "y": 241.59375,
+      "w": 354,
+      "h": 380
+     }
+    },
+    {
+     "id": "txt_basic",
+     "type": "text",
+     "rect": {
+      "x": 131.640625,
+      "y": 362.09375,
+      "w": 78.21875,
+      "h": 32
+     }
+    },
+    {
+     "id": "txt_9",
+     "type": "text",
+     "rect": {
+      "x": 129.15625,
+      "y": 430.09375,
+      "w": 49.203125,
+      "h": 44
+     }
+    },
+    {
+     "id": "txt_1_user",
+     "type": "text",
+     "rect": {
+      "x": 129.15625,
+      "y": 510.09375,
+      "w": 105.84375,
+      "h": 23
+     }
+    },
+    {
+     "id": "btn_choose_basic",
+     "type": "button",
+     "rect": {
+      "x": 124.5625,
+      "y": 551.09375,
+      "w": 292.75,
+      "h": 64
+     }
+    },
+    {
+     "id": "list_pro_features",
+     "type": "list",
+     "rect": {
+      "x": 466.8125,
+      "y": 249.59375,
+      "w": 355.09375,
+      "h": 384
+     }
+    },
+    {
+     "id": "txt_pro",
+     "type": "text",
+     "rect": {
+      "x": 505.15625,
+      "y": 383.59375,
+      "w": 50.421875,
+      "h": 30
+     }
+    },
+    {
+     "id": "txt_29",
+     "type": "text",
+     "rect": {
+      "x": 504.09375,
+      "y": 451.59375,
+      "w": 72.078125,
+      "h": 46
+     }
+    },
+    {
+     "id": "txt_5_users",
+     "type": "text",
+     "rect": {
+      "x": 503.03125,
+      "y": 532.59375,
+      "w": 120.375,
+      "h": 24
+     }
+    },
+    {
+     "id": "btn_choose_pro",
+     "type": "button",
+     "rect": {
+      "x": 500.53125,
+      "y": 569.59375,
+      "w": 291.171875,
+      "h": 64
+     }
+    },
+    {
+     "id": "list_team_features",
+     "type": "list",
+     "rect": {
+      "x": 839.4375,
+      "y": 257.59375,
+      "w": 348.515625,
+      "h": 437.5
+     }
+    },
+    {
+     "id": "txt_team",
+     "type": "text",
+     "rect": {
+      "x": 881.59375,
+      "y": 408.09375,
+      "w": 73.53125,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_99",
+     "type": "text",
+     "rect": {
+      "x": 875.671875,
+      "y": 474.09375,
+      "w": 72.484375,
+      "h": 46
+     }
+    },
+    {
+     "id": "txt_50_users",
+     "type": "text",
+     "rect": {
+      "x": 876.71875,
+      "y": 555.09375,
+      "w": 135.21875,
+      "h": 23
+     }
+    },
+    {
+     "id": "box_22",
+     "type": "container",
+     "rect": {
+      "x": 874.28125,
+      "y": 592.09375,
+      "w": 230.359375,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_priority_support",
+     "type": "text",
+     "rect": {
+      "x": 874.28125,
+      "y": 592.09375,
+      "w": 149.5,
+      "h": 29
+     }
+    },
+    {
+     "id": "txt_priority_suppor",
+     "type": "text",
+     "rect": {
+      "x": 1065.921875,
+      "y": 595.34375,
+      "w": 105.078125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "btn_contact_sales",
+     "type": "button",
+     "rect": {
+      "x": 869.75,
+      "y": 631.09375,
+      "w": 297.96875,
+      "h": 64
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 495
+  },
+  "repairs": [],
+  "timings": {
+   "fuse": 5.8,
+   "codegen": 1.6,
+   "validate": 557.7,
+   "repair": 498.5
+  }
+ }
+}

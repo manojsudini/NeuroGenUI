@@ -1,0 +1,237 @@
+{
+  "id": "reg_03",
+  "category": "registration",
+  "title": "Join the club",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('reg_03')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A membership sign up page with the heading Join the club and a short intro paragraph, name, email and password fields, a Subscribe to newsletter checkbox, and Sign up and Cancel buttons; a large photo sits on the right. Sign up must validate that the fields are filled and then show the message Welcome aboard.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Join the club",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.0907,
+        "w": 0.2319,
+        "h": 0.0905
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.2098,
+        "w": 0.4309,
+        "h": 0.0821
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.3205,
+        "w": 0.4309,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.4455,
+        "w": 0.4309,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.5705,
+        "w": 0.4309,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Subscribe to newsletter",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.6955,
+        "w": 0.2922,
+        "h": 0.0571
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Sign up",
+      "bbox": {
+        "x": 0.0564,
+        "y": 0.7812,
+        "w": 0.17,
+        "h": 0.0964
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Cancel",
+      "bbox": {
+        "x": 0.2839,
+        "y": 0.7812,
+        "w": 0.17,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.5373,
+        "y": 0.0907,
+        "w": 0.3918,
+        "h": 0.7143
+      },
+      "parent": null,
+      "props": {
+        "alt": "people",
+        "shape": "rect"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Sign up",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Sign up",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "welcome"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Join the club",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Subscribe to newsletter",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Sign up",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Cancel",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Sign up",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Sign up",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "welcome"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+ "_ok": true,
+ "_wall_ms": 6974.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.0517,
+     "w": 0.908,
+     "h": 0.1382
+    },
+    "shape": "rect",
+    "confidence": 0.889,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.886,
+     "y": 0.0904,
+     "w": 0.045,
+     "h": 0.0568
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Acme",
+    "bbox": {
+     "x": 0.076,
+     "y": 0.1021,
+     "w": 0.077,
+     "h": 0.0426
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.563,
+     "y": 0.1008,
+     "w": 0.057,
+     "h": 0.031
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Reports",
+    "bbox": {
+     "x": 0.655,
+     "y": 0.1034,
+     "w": 0.082,
+     "h": 0.0362
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Settings",
+    "bbox": {
+     "x": 0.784,
+     "y": 0.115,
+     "w": 0.062,
+     "h": 0.0245
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Dashboard",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.2209,
+     "w": 0.155,
+     "h": 0.0478
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.2946,
+     "w": 0.297,
+     "h": 0.2106
+    },
+    "shape": "rect",
+    "confidence": 0.905,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.358,
+     "y": 0.3062,
+     "w": 0.288,
+     "h": 0.1964
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.668,
+     "y": 0.3062,
+     "w": 0.284,
+     "h": 0.199
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "1,240",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.3592,
+     "w": 0.082,
+     "h": 0.0375
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "$8,300",
+    "bbox": {
+     "x": 0.406,
+     "y": 0.3592,
+     "w": 0.069,
+     "h": 0.0336
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "312",
+    "bbox": {
+     "x": 0.696,
+     "y": 0.3592,
+     "w": 0.055,
+     "h": 0.031
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "Users",
+    "bbox": {
+     "x": 0.079,
+     "y": 0.4315,
+     "w": 0.057,
+     "h": 0.0297
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Revenue",
+    "bbox": {
+     "x": 0.387,
+     "y": 0.4315,
+     "w": 0.08,
+     "h": 0.031
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "Orders",
+    "bbox": {
+     "x": 0.694,
+     "y": 0.4328,
+     "w": 0.069,
+     "h": 0.0297
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.5155,
+     "w": 0.594,
+     "h": 0.4096
+    },
+    "shape": "rect",
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.653,
+     "y": 0.5168,
+     "w": 0.304,
+     "h": 0.3165
+    },
+    "shape": "rect",
+    "confidence": 0.918,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Sales",
+    "bbox": {
+     "x": 0.081,
+     "y": 0.5672,
+     "w": 0.061,
+     "h": 0.0349
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 16
+   },
+   {
+    "type": "heading",
+    "label": "Recent orders",
+    "bbox": {
+     "x": 0.685,
+     "y": 0.5672,
+     "w": 0.171,
+     "h": 0.0349
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.6137,
+     "w": 0.545,
+     "h": 0.2804
+    },
+    "shape": "rect",
+    "confidence": 0.906,
+    "source": "hybrid",
+    "parent": 16
+   },
+   {
+    "type": "text",
+    "label": "Order 1042",
+    "bbox": {
+     "x": 0.683,
+     "y": 0.6395,
+     "w": 0.146,
+     "h": 0.0297
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "text",
+    "label": "Order 1041",
+    "bbox": {
+     "x": 0.685,
+     "y": 0.6822,
+     "w": 0.143,
+     "h": 0.0297
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "text",
+    "label": "Order 1040",
+    "bbox": {
+     "x": 0.105,
+     "y": 0.699,
+     "w": 0.484,
+     "h": 0.1176
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "text",
+    "label": "Order 1039",
+    "bbox": {
+     "x": 0.684,
+     "y": 0.7261,
+     "w": 0.148,
+     "h": 0.0297
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 17
+   }
+  ],
+  "width": 1000,
+  "height": 774,
+  "mode": "hybrid",
+  "title": "Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 86,
+   "vision_ms": 6872,
+   "total_ms": 6974
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 29
+ }
+}

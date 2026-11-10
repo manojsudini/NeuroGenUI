@@ -1,0 +1,246 @@
+{
+  "id": "set_03",
+  "category": "settings",
+  "title": "Security",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('set_03')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "narrow"
+  },
+  "width": 1000,
+  "height": 734,
+  "instruction": "A security settings page with a Change password card (current password, new password and confirm new password fields and an Update password button) and a Two-factor authentication card with an Enable 2FA checkbox. Update password shows an error when fields are empty.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Security",
+      "bbox": {
+        "x": 0.1724,
+        "y": 0.0873,
+        "w": 0.1369,
+        "h": 0.0752
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.1724,
+        "y": 0.1898,
+        "w": 0.6596,
+        "h": 0.4834
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Change password",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.2197,
+        "w": 0.1814,
+        "h": 0.0529
+      },
+      "parent": 1,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "input",
+      "label": "Current password",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.2917,
+        "w": 0.6156,
+        "h": 0.0736
+      },
+      "parent": 1,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "input",
+      "label": "New password",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.3843,
+        "w": 0.6156,
+        "h": 0.0736
+      },
+      "parent": 1,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Confirm new password",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.477,
+        "w": 0.6156,
+        "h": 0.0736
+      },
+      "parent": 1,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Update password",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.5696,
+        "w": 0.22,
+        "h": 0.0736
+      },
+      "parent": 1
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.1724,
+        "y": 0.7004,
+        "w": 0.6596,
+        "h": 0.2218
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Two-factor authentication",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.7304,
+        "w": 0.2771,
+        "h": 0.0529
+      },
+      "parent": 7,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.8023,
+        "w": 0.6156,
+        "h": 0.0272
+      },
+      "parent": 7,
+      "props": {
+        "scribble_lines": 1
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Enable 2FA",
+      "bbox": {
+        "x": 0.1944,
+        "y": 0.8486,
+        "w": 0.1401,
+        "h": 0.0436
+      },
+      "parent": 7
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Update password",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Security",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Change password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Current password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Current password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "New password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "New password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Confirm new password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Confirm new password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Update password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Two-factor authentication",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Enable 2FA",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Update password",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

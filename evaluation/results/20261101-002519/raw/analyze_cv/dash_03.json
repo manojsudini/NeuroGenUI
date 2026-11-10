@@ -1,0 +1,214 @@
+{
+ "_ok": true,
+ "_wall_ms": 51.8,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.0823,
+     "w": 0.518,
+     "h": 0.1598
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.329,
+     "y": 0.1329,
+     "w": 0.039,
+     "h": 0.0554
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.1345,
+     "w": 0.029,
+     "h": 0.0459
+    },
+    "confidence": 0.864,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.424,
+     "y": 0.1566,
+     "w": 0.023,
+     "h": 0.0253
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.234,
+     "y": 0.2437,
+     "w": 0.523,
+     "h": 0.2801
+    },
+    "confidence": 0.931,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.3038,
+     "w": 0.084,
+     "h": 0.038
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 4
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.3892,
+     "w": 0.059,
+     "h": 0.0728
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": 4
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.3892,
+     "w": 0.137,
+     "h": 0.0712
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 4
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.5348,
+     "w": 0.248,
+     "h": 0.0997
+    },
+    "confidence": 0.867,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.508,
+     "y": 0.5269,
+     "w": 0.248,
+     "h": 0.0965
+    },
+    "confidence": 0.848,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.6693,
+     "w": 0.091,
+     "h": 0.0491
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.7611,
+     "w": 0.138,
+     "h": 0.0459
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.818,
+     "w": 0.197,
+     "h": 0.0491
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.8718,
+     "w": 0.049,
+     "h": 0.0411
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.875,
+     "w": 0.096,
+     "h": 0.038
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 41,
+   "vision_ms": 0,
+   "total_ms": 51
+  },
+  "n_cv_candidates": 17
+ }
+}

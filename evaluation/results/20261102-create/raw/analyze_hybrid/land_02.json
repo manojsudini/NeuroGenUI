@@ -1,0 +1,243 @@
+{
+ "_ok": true,
+ "_wall_ms": 5949.0,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.051,
+     "y": 0.043,
+     "w": 0.893,
+     "h": 0.1229
+    },
+    "shape": "rect",
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Buildr",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.086,
+     "w": 0.089,
+     "h": 0.0418
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Product",
+    "bbox": {
+     "x": 0.666,
+     "y": 0.0872,
+     "w": 0.091,
+     "h": 0.0418
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Docs",
+    "bbox": {
+     "x": 0.792,
+     "y": 0.086,
+     "w": 0.049,
+     "h": 0.0319
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Blog",
+    "bbox": {
+     "x": 0.875,
+     "y": 0.086,
+     "w": 0.042,
+     "h": 0.0356
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Build apps faster",
+    "bbox": {
+     "x": 0.349,
+     "y": 0.1966,
+     "w": 0.31,
+     "h": 0.059
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.235,
+     "y": 0.2887,
+     "w": 0.458,
+     "h": 0.0454
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Work email",
+    "bbox": {
+     "x": 0.181,
+     "y": 0.3636,
+     "w": 0.41,
+     "h": 0.0725
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Join waitlist",
+    "bbox": {
+     "x": 0.611,
+     "y": 0.3686,
+     "w": 0.204,
+     "h": 0.07
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.4398,
+     "w": 0.899,
+     "h": 0.3145
+    },
+    "shape": "rect",
+    "confidence": 0.904,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Loved by teams",
+    "bbox": {
+     "x": 0.44,
+     "y": 0.74,
+     "w": 0.12,
+     "h": 0.03
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Loved by tea",
+    "bbox": {
+     "x": 0.409,
+     "y": 0.769,
+     "w": 0.186,
+     "h": 0.0394
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.8268,
+     "w": 0.215,
+     "h": 0.102
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.282,
+     "y": 0.828,
+     "w": 0.212,
+     "h": 0.0995
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.504,
+     "y": 0.8256,
+     "w": 0.218,
+     "h": 0.1057
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.732,
+     "y": 0.8305,
+     "w": 0.213,
+     "h": 0.1007
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 814,
+  "mode": "hybrid",
+  "title": "Landing page for app builder",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 68,
+   "vision_ms": 5865,
+   "total_ms": 5948
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 21
+ }
+}

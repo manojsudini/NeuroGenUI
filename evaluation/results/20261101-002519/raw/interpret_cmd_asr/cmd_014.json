@@ -1,0 +1,19 @@
+{
+ "_ok": true,
+ "_wall_ms": 4280.7,
+ "value": {
+  "ops": [
+   {
+    "op": "remove",
+    "target": {
+     "ref": "settings link",
+     "id": "navi_settings"
+    },
+    "confidence": 0.98
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4279,
+  "raw": "{\"ops\":[{\"op\":\"remove\",\"target\":{\"ref\":\"settings link\",\"id\":\"navi_settings\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.98}]}"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "_ok": true,
+ "_wall_ms": 5638.1,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.526,
+     "y": 0.0732,
+     "w": 0.41,
+     "h": 0.7429
+    },
+    "shape": "cross_box",
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Join the club",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.1125,
+     "w": 0.231,
+     "h": 0.0786
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.1089,
+     "w": 0.227,
+     "h": 0.0536
+    },
+    "shape": "text",
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.2196,
+     "w": 0.371,
+     "h": 0.0214
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.2679,
+     "w": 0.259,
+     "h": 0.0179
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.3179,
+     "w": 0.43,
+     "h": 0.1143
+    },
+    "shape": "rect",
+    "confidence": 0.853,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.4411,
+     "w": 0.435,
+     "h": 0.1232
+    },
+    "shape": "rect",
+    "confidence": 0.874,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.5643,
+     "w": 0.437,
+     "h": 0.1107
+    },
+    "shape": "rect",
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.7,
+     "w": 0.028,
+     "h": 0.0446
+    },
+    "shape": "circle",
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.7,
+     "w": 0.135,
+     "h": 0.0446
+    },
+    "shape": "rect",
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "to newsletter",
+    "bbox": {
+     "x": 0.202,
+     "y": 0.7107,
+     "w": 0.138,
+     "h": 0.0286
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.7732,
+     "w": 0.177,
+     "h": 0.1179
+    },
+    "shape": "rect",
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Sign up",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.7786,
+     "w": 0.169,
+     "h": 0.1036
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Join the club registration form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 35,
+   "vision_ms": 5591,
+   "total_ms": 5638
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 21
+ }
+}

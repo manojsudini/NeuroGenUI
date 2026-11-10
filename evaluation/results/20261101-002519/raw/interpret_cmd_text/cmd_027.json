@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 1841.7,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Jane Doe",
+     "id": "h_jane_doe"
+    },
+    "changes": {
+     "label": "John Smith"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1840,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"Jane Doe\",\"id\":\"h_jane_doe\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"John Smith\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

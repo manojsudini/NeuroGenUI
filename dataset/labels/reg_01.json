@@ -1,0 +1,225 @@
+{
+  "id": "reg_01",
+  "category": "registration",
+  "title": "Create account",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('reg_01')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 608,
+  "instruction": "A registration page titled Create Account with full name, email, password and confirm password fields, an I agree to the terms checkbox, a Register button and a link 'Already have an account? Login'. Register shows an error if any field is empty and the link goes to the Login page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Create Account",
+      "bbox": {
+        "x": 0.342,
+        "y": 0.0795,
+        "w": 0.2979,
+        "h": 0.0834
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Full name",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.1925,
+        "w": 0.4785,
+        "h": 0.0888
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.3109,
+        "w": 0.4785,
+        "h": 0.0888
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.4293,
+        "w": 0.4785,
+        "h": 0.0888
+      },
+      "parent": null,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Confirm password",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.5477,
+        "w": 0.4785,
+        "h": 0.0888
+      },
+      "parent": null,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "I agree to the terms",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.6662,
+        "w": 0.2532,
+        "h": 0.0526
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Register",
+      "bbox": {
+        "x": 0.2517,
+        "y": 0.7484,
+        "w": 0.4785,
+        "h": 0.0888
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Already have an account? Login",
+      "bbox": {
+        "x": 0.326,
+        "y": 0.8668,
+        "w": 0.3299,
+        "h": 0.055
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Register",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Already have an account? Login",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Create Account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Full name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Confirm password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Confirm password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "I agree to the terms",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Register",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Already have an account? Login",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Register",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Already have an account? Login",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

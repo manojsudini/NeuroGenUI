@@ -1,0 +1,325 @@
+{
+  "id": "hold_contact_02",
+  "category": "contact",
+  "title": "Our offices",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_contact_02')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pencil",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 2.26,
+    "scratch_outs": 2
+  },
+  "width": 1000,
+  "height": 753,
+  "instruction": "An offices page with the heading Our offices, three cards for Hyderabad, Berlin and Austin each with an address and a directions link (Get directions, Directions to Berlin, Directions to Austin), a wide world map image and a Your email field with a Request a call button. Request a call checks that the email is valid and Get directions opens a Map page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Our offices",
+      "bbox": {
+        "x": 0.0644,
+        "y": 0.0997,
+        "w": 0.2011,
+        "h": 0.1044
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0538,
+        "y": 0.223,
+        "w": 0.2732,
+        "h": 0.3005
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Hyderabad",
+      "bbox": {
+        "x": 0.0806,
+        "y": 0.2519,
+        "w": 0.1441,
+        "h": 0.0856
+      },
+      "parent": 1,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Road 12, Banjara Hills",
+      "bbox": {
+        "x": 0.0781,
+        "y": 0.3482,
+        "w": 0.2157,
+        "h": 0.0668
+      },
+      "parent": 1
+    },
+    {
+      "type": "link",
+      "label": "Get directions",
+      "bbox": {
+        "x": 0.0755,
+        "y": 0.4215,
+        "w": 0.1476,
+        "h": 0.0686
+      },
+      "parent": 1
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3339,
+        "y": 0.2361,
+        "w": 0.2788,
+        "h": 0.3034
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Berlin",
+      "bbox": {
+        "x": 0.3615,
+        "y": 0.2653,
+        "w": 0.0938,
+        "h": 0.0838
+      },
+      "parent": 5,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Torstrasse 4, Mitte",
+      "bbox": {
+        "x": 0.3589,
+        "y": 0.3624,
+        "w": 0.2143,
+        "h": 0.0672
+      },
+      "parent": 5
+    },
+    {
+      "type": "link",
+      "label": "Directions to Berlin",
+      "bbox": {
+        "x": 0.356,
+        "y": 0.4364,
+        "w": 0.2102,
+        "h": 0.0726
+      },
+      "parent": 5
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6191,
+        "y": 0.2494,
+        "w": 0.2846,
+        "h": 0.3063
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Austin",
+      "bbox": {
+        "x": 0.6477,
+        "y": 0.2789,
+        "w": 0.0907,
+        "h": 0.0843
+      },
+      "parent": 9,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "200 Congress Avenue",
+      "bbox": {
+        "x": 0.6448,
+        "y": 0.377,
+        "w": 0.2319,
+        "h": 0.0686
+      },
+      "parent": 9
+    },
+    {
+      "type": "link",
+      "label": "Directions to Austin",
+      "bbox": {
+        "x": 0.6417,
+        "y": 0.4516,
+        "w": 0.2107,
+        "h": 0.0731
+      },
+      "parent": 9
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0444,
+        "y": 0.5366,
+        "w": 0.8463,
+        "h": 0.3069
+      },
+      "parent": null,
+      "props": {
+        "alt": "world map",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Your email",
+      "bbox": {
+        "x": 0.0411,
+        "y": 0.8168,
+        "w": 0.6115,
+        "h": 0.1095
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Request a call",
+      "bbox": {
+        "x": 0.6675,
+        "y": 0.8582,
+        "w": 0.2114,
+        "h": 0.0836
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Request a call",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Your email",
+        "format": "email"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Get directions",
+      "expect": {
+        "type": "navigate",
+        "page": "Map"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Our offices",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Hyderabad",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Get directions",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Berlin",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Directions to Berlin",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Austin",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Directions to Austin",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Your email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Your email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Request a call",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Request a call",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Your email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Get directions",
+      "expect": {
+        "type": "navigate",
+        "page": "Map"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

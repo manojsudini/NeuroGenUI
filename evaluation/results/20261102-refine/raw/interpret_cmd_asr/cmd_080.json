@@ -1,0 +1,31 @@
+{
+ "_ok": true,
+ "_wall_ms": 1954.9,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Services",
+     "id": "navi_services"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Services"
+      }
+     ]
+    },
+    "page": {
+     "name": "Services"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1953,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"Services\",\"id\":\"navi_services\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Services\"}]},\"page\":{\"name\":\"Services\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

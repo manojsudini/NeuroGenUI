@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1928.1,
+ "value": {
+  "text": "Remove the reset button.",
+  "model": "whisper-1",
+  "duration_ms": 1928
+ }
+}

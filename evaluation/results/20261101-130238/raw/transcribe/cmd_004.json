@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 852.8,
+ "value": {
+  "text": "Put a company name field under the name field.",
+  "model": "whisper-1",
+  "duration_ms": 852
+ }
+}

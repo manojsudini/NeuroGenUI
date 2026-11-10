@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1325.7,
+ "value": {
+  "text": "Rename the Register button to create a count.",
+  "model": "whisper-1",
+  "duration_ms": 1325
+ }
+}

@@ -1,0 +1,254 @@
+{
+ "_ok": true,
+ "_wall_ms": 8199.1,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.9,
+     "h": 0.12
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Buildr",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.07,
+     "w": 0.104,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Product",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.07,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Docs",
+    "bbox": {
+     "x": 0.81,
+     "y": 0.07,
+     "w": 0.06,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Blog",
+    "bbox": {
+     "x": 0.89,
+     "y": 0.07,
+     "w": 0.024,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Build apps faster",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.22,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.32,
+     "w": 0.5,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Work email",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.38,
+     "w": 0.35,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Join waitlist",
+    "bbox": {
+     "x": 0.62,
+     "y": 0.38,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.48,
+     "w": 0.9,
+     "h": 0.25
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.53,
+     "w": 0.75,
+     "h": 0.19
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.55,
+     "w": 0.04,
+     "h": 0.05
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "Loved by teams",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.77,
+     "w": 0.2,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.85,
+     "w": 0.9,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.87,
+     "w": 0.164,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.87,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.49,
+     "y": 0.87,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.87,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 13
+   }
+  ],
+  "width": 1000,
+  "height": 814,
+  "mode": "vision",
+  "title": "Buildr Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 8144,
+   "total_ms": 8199
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,280 @@
+{
+ "_ok": true,
+ "_wall_ms": 10207.8,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.0875,
+     "w": 0.911,
+     "h": 0.1911
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.815,
+     "y": 0.1321,
+     "w": 0.128,
+     "h": 0.1089
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "StayFinder",
+    "bbox": {
+     "x": 0.078,
+     "y": 0.1625,
+     "w": 0.857,
+     "h": 0.1161
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Hotels",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.1607,
+     "w": 0.056,
+     "h": 0.0357
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Flights",
+    "bbox": {
+     "x": 0.64,
+     "y": 0.1625,
+     "w": 0.061,
+     "h": 0.05
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Deals",
+    "bbox": {
+     "x": 0.735,
+     "y": 0.1643,
+     "w": 0.047,
+     "h": 0.0339
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Sign in",
+    "bbox": {
+     "x": 0.844,
+     "y": 0.1679,
+     "w": 0.063,
+     "h": 0.0464
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.2696,
+     "w": 0.917,
+     "h": 0.4107
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.219,
+     "y": 0.3571,
+     "w": 0.033,
+     "h": 0.0554
+    },
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.051,
+     "y": 0.6857,
+     "w": 0.053,
+     "h": 0.175
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.875,
+     "y": 0.6982,
+     "w": 0.088,
+     "h": 0.1839
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Destination",
+    "bbox": {
+     "x": 0.075,
+     "y": 0.7179,
+     "w": 0.251,
+     "h": 0.1161
+    },
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.339,
+     "y": 0.7232,
+     "w": 0.157,
+     "h": 0.1071
+    },
+    "confidence": 0.899,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.502,
+     "y": 0.7232,
+     "w": 0.159,
+     "h": 0.1179
+    },
+    "confidence": 0.917,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Guests",
+    "bbox": {
+     "x": 0.674,
+     "y": 0.7196,
+     "w": 0.125,
+     "h": 0.1125
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Search",
+    "bbox": {
+     "x": 0.81,
+     "y": 0.725,
+     "w": 0.125,
+     "h": 0.1107
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.613,
+     "y": 0.7429,
+     "w": 0.038,
+     "h": 0.0696
+    },
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.447,
+     "y": 0.7536,
+     "w": 0.033,
+     "h": 0.0554
+    },
+    "confidence": 0.815,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "Check-in",
+    "bbox": {
+     "x": 0.352,
+     "y": 0.7643,
+     "w": 0.078,
+     "h": 0.0321
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "Check-out",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.7643,
+     "w": 0.089,
+     "h": 0.0339
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 13
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "StayFinder Travel Search",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 40,
+   "vision_ms": 10157,
+   "total_ms": 10207
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 23
+ }
+}

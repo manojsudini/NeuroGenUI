@@ -1,0 +1,304 @@
+{
+  "id": "bank_03",
+  "category": "banking",
+  "title": "Cards",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('bank_03')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 712,
+  "instruction": "A cards overview with a navbar, the heading My cards, two card panels (Visa 4821 with a Freeze card button and Mastercard 7710 with a View statement button) and a Spending chart. Freeze card shows the message Card frozen and View statement opens a Statement page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0462,
+        "y": 0.0609,
+        "w": 0.9021,
+        "h": 0.0979
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "NorthBank",
+      "bbox": {
+        "x": 0.0662,
+        "y": 0.0805,
+        "w": 0.1582,
+        "h": 0.0585
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Accounts",
+      "bbox": {
+        "x": 0.6577,
+        "y": 0.0863,
+        "w": 0.1004,
+        "h": 0.0469
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Cards",
+      "bbox": {
+        "x": 0.7881,
+        "y": 0.0863,
+        "w": 0.0652,
+        "h": 0.0469
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Help",
+      "bbox": {
+        "x": 0.8834,
+        "y": 0.0863,
+        "w": 0.0449,
+        "h": 0.0469
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "My cards",
+      "bbox": {
+        "x": 0.0462,
+        "y": 0.1868,
+        "w": 0.1789,
+        "h": 0.0712
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0462,
+        "y": 0.2861,
+        "w": 0.4391,
+        "h": 0.2688
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Visa 4821",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.317,
+        "w": 0.1137,
+        "h": 0.0505
+      },
+      "parent": 6,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "Balance $3,200",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.3871,
+        "w": 0.1589,
+        "h": 0.0413
+      },
+      "parent": 6
+    },
+    {
+      "type": "button",
+      "label": "Freeze card",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.4481,
+        "w": 0.2,
+        "h": 0.0758
+      },
+      "parent": 6,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.5092,
+        "y": 0.2861,
+        "w": 0.4391,
+        "h": 0.2688
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Mastercard 7710",
+      "bbox": {
+        "x": 0.5312,
+        "y": 0.317,
+        "w": 0.2102,
+        "h": 0.0505
+      },
+      "parent": 10,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "Balance $940",
+      "bbox": {
+        "x": 0.5312,
+        "y": 0.3871,
+        "w": 0.1448,
+        "h": 0.0413
+      },
+      "parent": 10
+    },
+    {
+      "type": "button",
+      "label": "View statement",
+      "bbox": {
+        "x": 0.5312,
+        "y": 0.4481,
+        "w": 0.2,
+        "h": 0.0758
+      },
+      "parent": 10
+    },
+    {
+      "type": "heading",
+      "label": "Spending",
+      "bbox": {
+        "x": 0.0462,
+        "y": 0.5829,
+        "w": 0.1059,
+        "h": 0.0505
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0462,
+        "y": 0.6615,
+        "w": 0.9021,
+        "h": 0.2809
+      },
+      "parent": null,
+      "props": {
+        "alt": "spending chart",
+        "shape": "rect"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Freeze card",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "frozen"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "View statement",
+      "expect": {
+        "type": "navigate",
+        "page": "Statement"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Cards",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "My cards",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Visa 4821",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Freeze card",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Mastercard 7710",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "View statement",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Spending",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Freeze card",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "frozen"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "View statement",
+      "expect": {
+        "type": "navigate",
+        "page": "Statement"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

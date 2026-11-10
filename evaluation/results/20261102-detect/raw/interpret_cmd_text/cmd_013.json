@@ -1,0 +1,19 @@
+{
+ "_ok": true,
+ "_wall_ms": 1863.5,
+ "value": {
+  "ops": [
+   {
+    "op": "remove",
+    "target": {
+     "ref": "confirm password field",
+     "id": "inp_confirm_password"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1863,
+  "raw": "{\"ops\":[{\"op\":\"remove\",\"target\":{\"ref\":\"confirm password field\",\"id\":\"inp_confirm_password\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

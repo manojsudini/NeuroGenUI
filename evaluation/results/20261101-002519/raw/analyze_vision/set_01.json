@@ -1,0 +1,163 @@
+{
+ "_ok": true,
+ "_wall_ms": 6100.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Settings",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.3,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.15,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Push notifications",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.22,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Push notifications",
+    "bbox": {
+     "x": 0.17,
+     "y": 0.22,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Email updates",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.29,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email updates",
+    "bbox": {
+     "x": 0.17,
+     "y": 0.29,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Dark mode",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.36,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Dark mode",
+    "bbox": {
+     "x": 0.17,
+     "y": 0.36,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.43,
+     "w": 0.9,
+     "h": 0.01
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Privacy policy",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.46,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Log out",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.55,
+     "w": 0.9,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6093,
+   "total_ms": 6100
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

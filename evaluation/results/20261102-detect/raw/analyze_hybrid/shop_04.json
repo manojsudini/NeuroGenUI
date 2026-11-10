@@ -1,0 +1,299 @@
+{
+ "_ok": true,
+ "_wall_ms": 12074.2,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.1121,
+     "w": 0.18,
+     "h": 0.0592
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Shipping",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.2103,
+     "w": 0.109,
+     "h": 0.0732
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.612,
+     "y": 0.2056,
+     "w": 0.338,
+     "h": 0.4766
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "order summary",
+    "bbox": {
+     "x": 0.632,
+     "y": 0.2492,
+     "w": 0.2,
+     "h": 0.0592
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.2873,
+     "w": 0.502,
+     "h": 0.0872
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Linen shir+ $40",
+    "bbox": {
+     "x": 0.631,
+     "y": 0.3224,
+     "w": 0.196,
+     "h": 0.0483
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.636,
+     "y": 0.3396,
+     "w": 0.127,
+     "h": 0.0779
+    },
+    "shape": "list",
+    "ocr": false,
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Strawhat$14",
+    "bbox": {
+     "x": 0.631,
+     "y": 0.3785,
+     "w": 0.179,
+     "h": 0.0467
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "Address",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.3988,
+     "w": 0.502,
+     "h": 0.0872
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.837,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.631,
+     "y": 0.4461,
+     "w": 0.2985,
+     "h": 0.0265
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.324,
+     "y": 0.4751,
+     "w": 0.2495,
+     "h": 0.1327
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "City",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.486,
+     "w": 0.24,
+     "h": 0.1028
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.888,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Total$54",
+    "bbox": {
+     "x": 0.629,
+     "y": 0.486,
+     "w": 0.112,
+     "h": 0.0498
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "heading",
+    "label": "Zip code",
+    "bbox": {
+     "x": 0.341,
+     "y": 0.5156,
+     "w": 0.096,
+     "h": 0.0576
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Place order",
+    "bbox": {
+     "x": 0.631,
+     "y": 0.5592,
+     "w": 0.295,
+     "h": 0.0826
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.899,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "heading",
+    "label": "Payment",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.6153,
+     "w": 0.11,
+     "h": 0.0545
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Card",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.69,
+     "w": 0.088,
+     "h": 0.0436
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.903,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "PayPal",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.7415,
+     "w": 0.502,
+     "h": 0.0872
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Cash on delivery",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.8108,
+     "w": 0.502,
+     "h": 0.0872
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 642,
+  "mode": "hybrid",
+  "title": "Checkout Page",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 4909,
+   "vision_ms": 6831,
+   "total_ms": 12074
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 23
+ }
+}

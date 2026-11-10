@@ -1,0 +1,140 @@
+{
+ "_ok": true,
+ "_wall_ms": 15587.8,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.0754,
+     "w": 0.156,
+     "h": 0.2276
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.918,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jane Doe",
+    "bbox": {
+     "x": 0.398,
+     "y": 0.3375,
+     "w": 0.183,
+     "h": 0.0879
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Product designer",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.4553,
+     "w": 0.18,
+     "h": 0.0581
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Follow",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.5432,
+     "w": 0.224,
+     "h": 0.0816
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.755,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Message",
+    "bbox": {
+     "x": 0.498,
+     "y": 0.5369,
+     "w": 0.234,
+     "h": 0.0848
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.849,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.6488,
+     "w": 0.4635,
+     "h": 0.0201
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "About",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.708,
+     "w": 0.085,
+     "h": 0.0612
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.282,
+     "y": 0.8047,
+     "w": 0.3145,
+     "h": 0.0994
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 637,
+  "mode": "hybrid",
+  "title": "User Profile",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 10492,
+   "vision_ms": 4934,
+   "total_ms": 15587
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 12
+ }
+}

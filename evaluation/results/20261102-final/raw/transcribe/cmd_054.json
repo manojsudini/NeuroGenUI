@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1506.1,
+ "value": {
+  "text": "make the Add to Cart button orange.",
+  "model": "whisper-1",
+  "duration_ms": 1506
+ }
+}

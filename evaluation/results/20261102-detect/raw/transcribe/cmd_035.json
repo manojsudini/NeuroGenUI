@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 994.0,
+ "value": {
+  "text": "Move the size drop down below the quantity field.",
+  "model": "whisper-1",
+  "duration_ms": 993
+ }
+}

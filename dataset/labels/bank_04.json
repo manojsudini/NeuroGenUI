@@ -1,0 +1,187 @@
+{
+  "id": "bank_04",
+  "category": "banking",
+  "title": "Loan calculator",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('bank_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 571,
+  "instruction": "A loan calculator with loan amount and interest rate fields, a Term dropdown (12, 24 or 36 months), a Calculate button and a result card showing the monthly payment. Calculate shows an error if the amount or rate is empty.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Loan calculator",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.0728,
+        "w": 0.2882,
+        "h": 0.0888
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Loan amount",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.1931,
+        "w": 0.4911,
+        "h": 0.0946
+      },
+      "parent": null,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Interest rate",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.3192,
+        "w": 0.4911,
+        "h": 0.0946
+      },
+      "parent": null,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Term",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.4453,
+        "w": 0.4911,
+        "h": 0.0946
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "12 months",
+          "24 months",
+          "36 months"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Calculate",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.5713,
+        "w": 0.4911,
+        "h": 0.0946
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2302,
+        "y": 0.6974,
+        "w": 0.4911,
+        "h": 0.2261
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Monthly payment",
+      "bbox": {
+        "x": 0.2522,
+        "y": 0.736,
+        "w": 0.1742,
+        "h": 0.0515
+      },
+      "parent": 5
+    },
+    {
+      "type": "heading",
+      "label": "$0",
+      "bbox": {
+        "x": 0.2522,
+        "y": 0.812,
+        "w": 0.0408,
+        "h": 0.073
+      },
+      "parent": 5,
+      "props": {
+        "level": 2
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Calculate",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Loan calculator",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Loan amount",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Loan amount",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Interest rate",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Interest rate",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Term",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Calculate",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Calculate",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

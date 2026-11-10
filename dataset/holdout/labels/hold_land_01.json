@@ -1,0 +1,321 @@
+{
+  "id": "hold_land_01",
+  "category": "landing",
+  "title": "Pasta House",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_land_01')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 2.22,
+    "scratch_outs": 3
+  },
+  "width": 1000,
+  "height": 882,
+  "instruction": "A restaurant landing page with a navbar (Pasta House logo, Menu, Reserve and Contact), a wide banner photo, the centered headline Fresh pasta daily, the line Made by hand every morning, an Order online button and three dish cards Carbonara, Pesto and Lasagna with photos. Order online opens an Order page and Reserve opens a Reservation page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0733,
+        "y": 0.0643,
+        "w": 0.8845,
+        "h": 0.111
+      },
+      "parent": null
+    },
+    {
+      "type": "nav_item",
+      "label": "Pasta House",
+      "bbox": {
+        "x": 0.0933,
+        "y": 0.0807,
+        "w": 0.1262,
+        "h": 0.0495
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Menu",
+      "bbox": {
+        "x": 0.2449,
+        "y": 0.0867,
+        "w": 0.0582,
+        "h": 0.0467
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Reserve",
+      "bbox": {
+        "x": 0.3284,
+        "y": 0.0901,
+        "w": 0.0783,
+        "h": 0.0475
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Contact",
+      "bbox": {
+        "x": 0.855,
+        "y": 0.1112,
+        "w": 0.0825,
+        "h": 0.0477
+      },
+      "parent": 0
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0617,
+        "y": 0.1599,
+        "w": 0.891,
+        "h": 0.3224
+      },
+      "parent": null,
+      "props": {
+        "alt": "restaurant banner",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Fresh pasta daily",
+      "bbox": {
+        "x": 0.3476,
+        "y": 0.4785,
+        "w": 0.2992,
+        "h": 0.0792
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Made by hand every morning",
+      "bbox": {
+        "x": 0.3486,
+        "y": 0.5656,
+        "w": 0.2905,
+        "h": 0.051
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Order online",
+      "bbox": {
+        "x": 0.3739,
+        "y": 0.6258,
+        "w": 0.2336,
+        "h": 0.0682
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0442,
+        "y": 0.6914,
+        "w": 0.2874,
+        "h": 0.2326
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.7162,
+        "w": 0.2412,
+        "h": 0.129
+      },
+      "parent": 9,
+      "props": {
+        "alt": "carbonara",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Carbonara",
+      "bbox": {
+        "x": 0.0661,
+        "y": 0.8509,
+        "w": 0.1014,
+        "h": 0.043
+      },
+      "parent": 9
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3394,
+        "y": 0.7034,
+        "w": 0.2886,
+        "h": 0.2326
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3638,
+        "y": 0.7282,
+        "w": 0.2419,
+        "h": 0.129
+      },
+      "parent": 12,
+      "props": {
+        "alt": "pesto",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Pesto",
+      "bbox": {
+        "x": 0.3615,
+        "y": 0.8629,
+        "w": 0.0575,
+        "h": 0.0412
+      },
+      "parent": 12
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6346,
+        "y": 0.7154,
+        "w": 0.2898,
+        "h": 0.2326
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.6595,
+        "y": 0.7402,
+        "w": 0.2426,
+        "h": 0.129
+      },
+      "parent": 15,
+      "props": {
+        "alt": "lasagna",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Lasagna",
+      "bbox": {
+        "x": 0.6569,
+        "y": 0.8748,
+        "w": 0.0837,
+        "h": 0.0423
+      },
+      "parent": 15
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Order online",
+      "expect": {
+        "type": "navigate",
+        "page": "Order"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Reserve",
+      "expect": {
+        "type": "navigate",
+        "page": "Reservation"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Pasta House",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Menu",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Reserve",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Contact",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Fresh pasta daily",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Order online",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Order online",
+      "expect": {
+        "type": "navigate",
+        "page": "Order"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Reserve",
+      "expect": {
+        "type": "navigate",
+        "page": "Reservation"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

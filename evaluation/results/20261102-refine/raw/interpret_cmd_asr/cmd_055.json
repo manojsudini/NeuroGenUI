@@ -1,0 +1,27 @@
+{
+ "_ok": true,
+ "_wall_ms": 1735.4,
+ "value": {
+  "ops": [
+   {
+    "op": "style",
+    "target": {
+     "ref": "send button",
+     "id": "btn_send"
+    },
+    "changes": {
+     "style": {
+      "variant": "danger",
+      "color": "#dc2626",
+      "textColor": "#ffffff",
+      "bg": "#dc2626"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1734,
+  "raw": "{\"ops\":[{\"op\":\"style\",\"target\":{\"ref\":\"send button\",\"id\":\"btn_send\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":\"danger\",\"color\":\"red\",\"textColor\":\"white\",\"bg\":\"red\",\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

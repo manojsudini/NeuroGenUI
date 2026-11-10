@@ -1,0 +1,351 @@
+{
+  "id": "hold_dash_01",
+  "category": "dashboard",
+  "title": "Fleet tracker",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_dash_01')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pen",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 2.03,
+    "scratch_outs": 1
+  },
+  "width": 1000,
+  "height": 745,
+  "instruction": "A fleet tracking dashboard: a header with the title Fleet tracker, a Search vehicles box and an Add vehicle button; four stat cards Active, Idle, In service and Alerts; below, a large live map image and a Vehicles card listing Truck 12, Van 04, Truck 31 and Bike 09. Add vehicle opens an Add vehicle page.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.0707,
+        "y": 0.0891,
+        "w": 0.8351,
+        "h": 0.1725
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Fleet tracker",
+      "bbox": {
+        "x": 0.0886,
+        "y": 0.1136,
+        "w": 0.205,
+        "h": 0.0917
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Search vehicles",
+      "bbox": {
+        "x": 0.315,
+        "y": 0.1312,
+        "w": 0.2506,
+        "h": 0.0838
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "search"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Add vehicle",
+      "bbox": {
+        "x": 0.7195,
+        "y": 0.1536,
+        "w": 0.1685,
+        "h": 0.0788
+      },
+      "parent": 0
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.066,
+        "y": 0.2456,
+        "w": 0.2026,
+        "h": 0.2111
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Active",
+      "bbox": {
+        "x": 0.0894,
+        "y": 0.2755,
+        "w": 0.0729,
+        "h": 0.0724
+      },
+      "parent": 4,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "42",
+      "bbox": {
+        "x": 0.0879,
+        "y": 0.3624,
+        "w": 0.0345,
+        "h": 0.0586
+      },
+      "parent": 4
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2796,
+        "y": 0.257,
+        "w": 0.2015,
+        "h": 0.2102
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Idle",
+      "bbox": {
+        "x": 0.303,
+        "y": 0.2867,
+        "w": 0.0413,
+        "h": 0.0705
+      },
+      "parent": 7,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "7",
+      "bbox": {
+        "x": 0.3013,
+        "y": 0.3733,
+        "w": 0.0183,
+        "h": 0.0576
+      },
+      "parent": 7
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.4915,
+        "y": 0.2683,
+        "w": 0.2005,
+        "h": 0.2094
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "In service",
+      "bbox": {
+        "x": 0.515,
+        "y": 0.2979,
+        "w": 0.1271,
+        "h": 0.0746
+      },
+      "parent": 10,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "3",
+      "bbox": {
+        "x": 0.5131,
+        "y": 0.3842,
+        "w": 0.0184,
+        "h": 0.0574
+      },
+      "parent": 10
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.7019,
+        "y": 0.2795,
+        "w": 0.1995,
+        "h": 0.2086
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Alerts",
+      "bbox": {
+        "x": 0.7254,
+        "y": 0.309,
+        "w": 0.0725,
+        "h": 0.0716
+      },
+      "parent": 13,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "5",
+      "bbox": {
+        "x": 0.7234,
+        "y": 0.3949,
+        "w": 0.0189,
+        "h": 0.0572
+      },
+      "parent": 13
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0577,
+        "y": 0.4755,
+        "w": 0.5482,
+        "h": 0.411
+      },
+      "parent": null,
+      "props": {
+        "alt": "live map",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6206,
+        "y": 0.5032,
+        "w": 0.2743,
+        "h": 0.3227
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Vehicles",
+      "bbox": {
+        "x": 0.647,
+        "y": 0.5324,
+        "w": 0.1029,
+        "h": 0.0725
+      },
+      "parent": 17,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.6421,
+        "y": 0.6181,
+        "w": 0.1292,
+        "h": 0.1745
+      },
+      "parent": 17,
+      "props": {
+        "items": [
+          "Truck 12",
+          "Van 04",
+          "Truck 31",
+          "Bike 09"
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Add vehicle",
+      "expect": {
+        "type": "navigate",
+        "page": "Add vehicle"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Fleet tracker",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Search vehicles",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Add vehicle",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Active",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Idle",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "In service",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Alerts",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Vehicles",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Add vehicle",
+      "expect": {
+        "type": "navigate",
+        "page": "Add vehicle"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

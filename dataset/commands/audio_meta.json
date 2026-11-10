@@ -1,0 +1,642 @@
+{
+ "cmd_001": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Create a login page with email and password fields and a login button.",
+  "bytes": 71040,
+  "latency_ms": 2595
+ },
+ "cmd_002": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Add a forgot password link below the login button.",
+  "bytes": 51072,
+  "latency_ms": 2224
+ },
+ "cmd_003": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Add a phone number field below email.",
+  "bytes": 38016,
+  "latency_ms": 2171
+ },
+ "cmd_004": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Put a company name field under the name field.",
+  "bytes": 44928,
+  "latency_ms": 2708
+ },
+ "cmd_005": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Add a Share profile button under the Message button.",
+  "bytes": 43392,
+  "latency_ms": 3177
+ },
+ "cmd_006": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "add a continue shopping link below the checkout button",
+  "bytes": 54912,
+  "latency_ms": 2042
+ },
+ "cmd_007": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Can you add a checkbox for SMS alerts right after email updates?",
+  "bytes": 65280,
+  "latency_ms": 2614
+ },
+ "cmd_008": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Add a small text saying Free for 30 days under the Download app button.",
+  "bytes": 76032,
+  "latency_ms": 2254
+ },
+ "cmd_009": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "add a Pay bills button next to the Request button",
+  "bytes": 50304,
+  "latency_ms": 1765
+ },
+ "cmd_010": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Add an email field below the date field so we can send a confirmation.",
+  "bytes": 64512,
+  "latency_ms": 2141
+ },
+ "cmd_011": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Remove the image.",
+  "bytes": 17280,
+  "latency_ms": 2670
+ },
+ "cmd_012": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Remove the Continue with Google button.",
+  "bytes": 39168,
+  "latency_ms": 2087
+ },
+ "cmd_013": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "get rid of the confirm password field",
+  "bytes": 37632,
+  "latency_ms": 1587
+ },
+ "cmd_014": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Delete the Settings link from the navbar.",
+  "bytes": 40704,
+  "latency_ms": 2085
+ },
+ "cmd_015": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "remove the phone field",
+  "bytes": 22272,
+  "latency_ms": 2046
+ },
+ "cmd_016": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "We don't need the Buy now button anymore.",
+  "bytes": 33792,
+  "latency_ms": 1383
+ },
+ "cmd_017": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Remove the save recipient checkbox.",
+  "bytes": 35328,
+  "latency_ms": 1839
+ },
+ "cmd_018": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Take out the Email me a copy checkbox.",
+  "bytes": 38016,
+  "latency_ms": 2335
+ },
+ "cmd_019": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Remove the reset button.",
+  "bytes": 21888,
+  "latency_ms": 1326
+ },
+ "cmd_020": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "remove the watch demo button",
+  "bytes": 28416,
+  "latency_ms": 2044
+ },
+ "cmd_021": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Change the login button text to Sign in.",
+  "bytes": 40320,
+  "latency_ms": 1609
+ },
+ "cmd_022": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Rename the Register button to Create account.",
+  "bytes": 45312,
+  "latency_ms": 2284
+ },
+ "cmd_023": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "change the Send button so it says Send message",
+  "bytes": 47616,
+  "latency_ms": 1506
+ },
+ "cmd_024": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Change the Dashboard heading to Overview.",
+  "bytes": 41856,
+  "latency_ms": 1683
+ },
+ "cmd_025": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Rename the New arrivals heading to Best sellers.",
+  "bytes": 48000,
+  "latency_ms": 1972
+ },
+ "cmd_026": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Make the Calculate button say Compute payment.",
+  "bytes": 46080,
+  "latency_ms": 1360
+ },
+ "cmd_027": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Change the name Jane Doe to John Smith.",
+  "bytes": 40320,
+  "latency_ms": 2384
+ },
+ "cmd_028": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "The headline should read Ship apps faster instead.",
+  "bytes": 51456,
+  "latency_ms": 1405
+ },
+ "cmd_029": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Change the placeholder of the email field to you@example.com.",
+  "bytes": 62208,
+  "latency_ms": 3274
+ },
+ "cmd_030": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Change the Subscribe button label to Join.",
+  "bytes": 43392,
+  "latency_ms": 1641
+ },
+ "cmd_031": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Move the button below the password field.",
+  "bytes": 36864,
+  "latency_ms": 1259
+ },
+ "cmd_032": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Move the Forgot password link below the Sign in button.",
+  "bytes": 56064,
+  "latency_ms": 2217
+ },
+ "cmd_033": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Put the subscribe to newsletter checkbox above the email field.",
+  "bytes": 64512,
+  "latency_ms": 1529
+ },
+ "cmd_034": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Move the About heading above the Follow button.",
+  "bytes": 39936,
+  "latency_ms": 1627
+ },
+ "cmd_035": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Move the size dropdown below the quantity field.",
+  "bytes": 43776,
+  "latency_ms": 2585
+ },
+ "cmd_036": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Move the amount field to the top of the form, above From account.",
+  "bytes": 65280,
+  "latency_ms": 1716
+ },
+ "cmd_037": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Move the subject field above the name field.",
+  "bytes": 43392,
+  "latency_ms": 2804
+ },
+ "cmd_038": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "move the privacy policy link under the log out button",
+  "bytes": 54528,
+  "latency_ms": 2713
+ },
+ "cmd_039": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Move the Learn more button to the left of Try free.",
+  "bytes": 52608,
+  "latency_ms": 1356
+ },
+ "cmd_040": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Can the date field go below the time slots?",
+  "bytes": 44160,
+  "latency_ms": 1456
+ },
+ "cmd_041": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Make the login button bigger.",
+  "bytes": 28416,
+  "latency_ms": 1620
+ },
+ "cmd_042": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "the sign in button should be a bit bigger",
+  "bytes": 42240,
+  "latency_ms": 1490
+ },
+ "cmd_043": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Make the Create account button full width.",
+  "bytes": 33792,
+  "latency_ms": 2284
+ },
+ "cmd_044": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Make the search box wider.",
+  "bytes": 26112,
+  "latency_ms": 1997
+ },
+ "cmd_045": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "make the avatar smaller",
+  "bytes": 23808,
+  "latency_ms": 1160
+ },
+ "cmd_046": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Make the product image smaller.",
+  "bytes": 31872,
+  "latency_ms": 2693
+ },
+ "cmd_047": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Make the Join waitlist button larger.",
+  "bytes": 34560,
+  "latency_ms": 2331
+ },
+ "cmd_048": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Make the message box taller.",
+  "bytes": 28416,
+  "latency_ms": 2233
+ },
+ "cmd_049": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Make the MyBank title bigger.",
+  "bytes": 29568,
+  "latency_ms": 1940
+ },
+ "cmd_050": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Make the update password button smaller.",
+  "bytes": 39168,
+  "latency_ms": 2415
+ },
+ "cmd_051": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Make the login button blue.",
+  "bytes": 27648,
+  "latency_ms": 2227
+ },
+ "cmd_052": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Make the Register button green.",
+  "bytes": 27648,
+  "latency_ms": 1843
+ },
+ "cmd_053": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Color the Send button purple.",
+  "bytes": 28416,
+  "latency_ms": 1771
+ },
+ "cmd_054": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "make the add to cart button orange",
+  "bytes": 34944,
+  "latency_ms": 2206
+ },
+ "cmd_055": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "The Send button should be red.",
+  "bytes": 29568,
+  "latency_ms": 1854
+ },
+ "cmd_056": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Make the Contact us heading dark blue.",
+  "bytes": 36864,
+  "latency_ms": 1266
+ },
+ "cmd_057": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Make the Follow button pink.",
+  "bytes": 28800,
+  "latency_ms": 2184
+ },
+ "cmd_058": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Change the Get started button color to black.",
+  "bytes": 45696,
+  "latency_ms": 2076
+ },
+ "cmd_059": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "make the save button teal",
+  "bytes": 23808,
+  "latency_ms": 1459
+ },
+ "cmd_060": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Give the Search button a yellow background.",
+  "bytes": 43008,
+  "latency_ms": 2530
+ },
+ "cmd_061": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "When the login button is clicked, show an error if the fields are empty.",
+  "bytes": 66048,
+  "latency_ms": 1437
+ },
+ "cmd_062": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "When Next is clicked, check that all the fields are filled in.",
+  "bytes": 57984,
+  "latency_ms": 2762
+ },
+ "cmd_063": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Show a message saying Thanks for subscribing when Subscribe is clicked.",
+  "bytes": 71424,
+  "latency_ms": 2186
+ },
+ "cmd_064": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "When Need help? is clicked, show the message Contact your administrator.",
+  "bytes": 67968,
+  "latency_ms": 1670
+ },
+ "cmd_065": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Check that the email is valid when Create account is clicked.",
+  "bytes": 49536,
+  "latency_ms": 1637
+ },
+ "cmd_066": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Clicking Cancel should show the message Transfer cancelled.",
+  "bytes": 59136,
+  "latency_ms": 2391
+ },
+ "cmd_067": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "When Load more is clicked, show the message No more flights.",
+  "bytes": 58368,
+  "latency_ms": 1417
+ },
+ "cmd_068": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "When Choose Basic is clicked, show Basic plan selected.",
+  "bytes": 54912,
+  "latency_ms": 1386
+ },
+ "cmd_069": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Make the Submit button check that the email is valid.",
+  "bytes": 52608,
+  "latency_ms": 1782
+ },
+ "cmd_070": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "When Request is tapped, show Request sent.",
+  "bytes": 41856,
+  "latency_ms": 1522
+ },
+ "cmd_071": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "When Cancel is clicked, go back to the Home page.",
+  "bytes": 46464,
+  "latency_ms": 2814
+ },
+ "cmd_072": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Clicking Forgot password? should take me to a Reset password page.",
+  "bytes": 66432,
+  "latency_ms": 1729
+ },
+ "cmd_073": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Make the Settings link open a Settings page.",
+  "bytes": 44928,
+  "latency_ms": 1319
+ },
+ "cmd_074": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Clicking Analytics should open the Analytics page.",
+  "bytes": 47232,
+  "latency_ms": 2666
+ },
+ "cmd_075": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "When Cancel is clicked, go to a Profile page.",
+  "bytes": 44544,
+  "latency_ms": 2354
+ },
+ "cmd_076": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "After Place order, go to an Order confirmed page.",
+  "bytes": 48384,
+  "latency_ms": 1678
+ },
+ "cmd_077": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Pay bills should open a Bills page.",
+  "bytes": 36480,
+  "latency_ms": 1355
+ },
+ "cmd_078": {
+  "model": "tts-1",
+  "voice": "shimmer",
+  "format": "mp3",
+  "text": "Make the Sign in button go to a Login page.",
+  "bytes": 44544,
+  "latency_ms": 2725
+ },
+ "cmd_079": {
+  "model": "tts-1",
+  "voice": "alloy",
+  "format": "mp3",
+  "text": "Clicking Docs should open the Documentation page.",
+  "bytes": 49920,
+  "latency_ms": 1385
+ },
+ "cmd_080": {
+  "model": "tts-1",
+  "voice": "echo",
+  "format": "mp3",
+  "text": "Clicking Services in the navbar should open a Services page.",
+  "bytes": 57600,
+  "latency_ms": 1660
+ }
+}

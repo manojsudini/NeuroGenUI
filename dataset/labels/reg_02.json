@@ -1,0 +1,290 @@
+{
+  "id": "reg_02",
+  "category": "registration",
+  "title": "Sign up",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('reg_02')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pen",
+    "layout": "narrow"
+  },
+  "width": 1000,
+  "height": 673,
+  "instruction": "A sign up form in a card: heading Sign up, first name and last name side by side, email, phone next to a Country dropdown (India, USA, UK), password, a Gender choice with Male, Female and Other radio buttons, and a Create account button that shows an error when required fields are empty.",
+  "components": [
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.1897,
+        "y": 0.077,
+        "w": 0.647,
+        "h": 0.8105
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Sign up",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.1097,
+        "w": 0.1201,
+        "h": 0.082
+      },
+      "parent": 0,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "First name",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.2155,
+        "w": 0.2895,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last name",
+      "bbox": {
+        "x": 0.5252,
+        "y": 0.2155,
+        "w": 0.2895,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.3195,
+        "w": 0.603,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Phone",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.4236,
+        "w": 0.2895,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "tel"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Country",
+      "bbox": {
+        "x": 0.5252,
+        "y": 0.4236,
+        "w": 0.2895,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "options": [
+          "India",
+          "USA",
+          "UK"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.5276,
+        "w": 0.603,
+        "h": 0.0802
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Gender",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.6316,
+        "w": 0.0666,
+        "h": 0.048
+      },
+      "parent": 0
+    },
+    {
+      "type": "radio",
+      "label": "Male",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.7033,
+        "w": 0.0833,
+        "h": 0.0475
+      },
+      "parent": 0
+    },
+    {
+      "type": "radio",
+      "label": "Female",
+      "bbox": {
+        "x": 0.4207,
+        "y": 0.7033,
+        "w": 0.1047,
+        "h": 0.0475
+      },
+      "parent": 0
+    },
+    {
+      "type": "radio",
+      "label": "Other",
+      "bbox": {
+        "x": 0.6297,
+        "y": 0.7033,
+        "w": 0.0946,
+        "h": 0.0475
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "Create account",
+      "bbox": {
+        "x": 0.2117,
+        "y": 0.7747,
+        "w": 0.198,
+        "h": 0.0802
+      },
+      "parent": 0
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Create account",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Sign up",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "First name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Last name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Phone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Phone",
+      "input_type": "tel",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Country",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Male",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Female",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Other",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Create account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Create account",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

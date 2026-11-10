@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1412.8,
+ "value": {
+  "text": "Make the login button blue.",
+  "model": "whisper-1",
+  "duration_ms": 1412
+ }
+}

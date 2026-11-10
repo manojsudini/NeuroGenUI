@@ -1,0 +1,329 @@
+{
+  "id": "shop_01",
+  "category": "ecommerce",
+  "title": "ShopEasy",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('shop_01')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 620,
+  "instruction": "A shop home page with a navbar (ShopEasy logo, a search box and a Cart link), the heading New arrivals and three product cards (Canvas bag $29, Desk lamp $45, Sneakers $80), each with a photo and a button. Add to cart shows the message Added to cart and Cart opens a Cart page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0415,
+        "y": 0.0815,
+        "w": 0.8912,
+        "h": 0.1203
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "ShopEasy",
+      "bbox": {
+        "x": 0.0615,
+        "y": 0.1041,
+        "w": 0.1247,
+        "h": 0.0751
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Search products",
+      "bbox": {
+        "x": 0.557,
+        "y": 0.1046,
+        "w": 0.28,
+        "h": 0.0742
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "search"
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Cart",
+      "bbox": {
+        "x": 0.867,
+        "y": 0.1124,
+        "w": 0.0457,
+        "h": 0.0585
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "New arrivals",
+      "bbox": {
+        "x": 0.0415,
+        "y": 0.2373,
+        "w": 0.1999,
+        "h": 0.089
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0415,
+        "y": 0.3618,
+        "w": 0.2811,
+        "h": 0.5719
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0635,
+        "y": 0.3973,
+        "w": 0.2371,
+        "h": 0.2419
+      },
+      "parent": 5,
+      "props": {
+        "alt": "product",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Canvas bag",
+      "bbox": {
+        "x": 0.0635,
+        "y": 0.6618,
+        "w": 0.1052,
+        "h": 0.0521
+      },
+      "parent": 5
+    },
+    {
+      "type": "text",
+      "label": "$29",
+      "bbox": {
+        "x": 0.0635,
+        "y": 0.7365,
+        "w": 0.0375,
+        "h": 0.0521
+      },
+      "parent": 5
+    },
+    {
+      "type": "button",
+      "label": "Add to cart",
+      "bbox": {
+        "x": 0.0635,
+        "y": 0.8112,
+        "w": 0.2371,
+        "h": 0.0871
+      },
+      "parent": 5
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3466,
+        "y": 0.3618,
+        "w": 0.2811,
+        "h": 0.5719
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3686,
+        "y": 0.3973,
+        "w": 0.2371,
+        "h": 0.2419
+      },
+      "parent": 10,
+      "props": {
+        "alt": "product",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Desk lamp",
+      "bbox": {
+        "x": 0.3686,
+        "y": 0.6618,
+        "w": 0.0957,
+        "h": 0.0521
+      },
+      "parent": 10
+    },
+    {
+      "type": "text",
+      "label": "$45",
+      "bbox": {
+        "x": 0.3686,
+        "y": 0.7365,
+        "w": 0.0366,
+        "h": 0.0521
+      },
+      "parent": 10
+    },
+    {
+      "type": "button",
+      "label": "Buy lamp",
+      "bbox": {
+        "x": 0.3686,
+        "y": 0.8112,
+        "w": 0.2371,
+        "h": 0.0871
+      },
+      "parent": 10
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6517,
+        "y": 0.3618,
+        "w": 0.2811,
+        "h": 0.5719
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.6737,
+        "y": 0.3973,
+        "w": 0.2371,
+        "h": 0.2419
+      },
+      "parent": 15,
+      "props": {
+        "alt": "product",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Sneakers",
+      "bbox": {
+        "x": 0.6737,
+        "y": 0.6618,
+        "w": 0.0861,
+        "h": 0.0521
+      },
+      "parent": 15
+    },
+    {
+      "type": "text",
+      "label": "$80",
+      "bbox": {
+        "x": 0.6737,
+        "y": 0.7365,
+        "w": 0.0387,
+        "h": 0.0521
+      },
+      "parent": 15
+    },
+    {
+      "type": "button",
+      "label": "Buy sneakers",
+      "bbox": {
+        "x": 0.6737,
+        "y": 0.8112,
+        "w": 0.2371,
+        "h": 0.0871
+      },
+      "parent": 15
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Add to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "added"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Cart",
+      "expect": {
+        "type": "navigate",
+        "page": "Cart"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "ShopEasy",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Cart",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "New arrivals",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Add to cart",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Add to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "added"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Cart",
+      "expect": {
+        "type": "navigate",
+        "page": "Cart"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

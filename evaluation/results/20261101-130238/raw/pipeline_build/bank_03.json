@@ -1,0 +1,2633 @@
+{
+ "_ok": true,
+ "_wall_ms": 1112.9,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Cards",
+    "category": "dashboard",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 712,
+     "content": {
+      "x": 0.042,
+      "y": 0.0576,
+      "w": 0.917,
+      "h": 0.8708
+     },
+     "page_width": 1100,
+     "scale": 1.1996
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_main_navigation",
+        "type": "navbar",
+        "label": "Main navigation",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.045,
+         "y": 0.0576,
+         "w": 0.907,
+         "h": 0.1096
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_northbank",
+          "type": "text",
+          "label": "NorthBank",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.07,
+           "y": 0.0941,
+           "w": 0.154,
+           "h": 0.0323
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_accounts",
+          "type": "text",
+          "label": "Accounts",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.661,
+           "y": 0.0955,
+           "w": 0.096,
+           "h": 0.0239
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_northbank"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_cards",
+          "type": "nav_item",
+          "label": "Cards",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.783,
+           "y": 0.0941,
+           "w": 0.071,
+           "h": 0.0407
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_accounts"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_help",
+          "type": "text",
+          "label": "Help",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.886,
+           "y": 0.0955,
+           "w": 0.04,
+           "h": 0.0351
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_cards"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_home",
+          "type": "nav_item",
+          "label": "Home",
+          "props": {},
+          "style": {},
+          "bbox": null,
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_help"
+           }
+          ],
+          "events": [],
+          "origin": "voice"
+         },
+         {
+          "id": "navi_settings",
+          "type": "nav_item",
+          "label": "Settings",
+          "props": {},
+          "style": {},
+          "bbox": null,
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_home"
+           }
+          ],
+          "events": [],
+          "origin": "voice"
+         }
+        ]
+       },
+       {
+        "id": "box_6",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.2008,
+         "w": 0.177,
+         "h": 0.0619
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_main_navigation"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "txt_my",
+          "type": "text",
+          "label": "My",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.049,
+           "y": 0.2065,
+           "w": 0.055,
+           "h": 0.0562
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "h_cards",
+          "type": "heading",
+          "label": "cards",
+          "props": {
+           "level": 1
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.122,
+           "y": 0.2008,
+           "w": 0.104,
+           "h": 0.0449
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_my"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_9",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.042,
+         "y": 0.2781,
+         "w": 0.917,
+         "h": 0.2893
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_6"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_visa_4821",
+          "type": "card",
+          "label": "Visa 4821",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.042,
+           "y": 0.2809,
+           "w": 0.449,
+           "h": 0.2865
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_visa_4821",
+            "type": "text",
+            "label": "Visa 4821",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.072,
+             "y": 0.3315,
+             "w": 0.11,
+             "h": 0.0253
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_balance_3200",
+            "type": "text",
+            "label": "Balance $3200",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.071,
+             "y": 0.3904,
+             "w": 0.155,
+             "h": 0.0295
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_visa_4821"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_freeze_card",
+            "type": "button",
+            "label": "Freeze card",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.068,
+             "y": 0.4452,
+             "w": 0.198,
+             "h": 0.0815
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_balance_3200"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "show_message",
+                "text": "Card frozen",
+                "tone": "success"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_mastercard_7710",
+          "type": "card",
+          "label": "Mastercard 7710",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.509,
+           "y": 0.2781,
+           "w": 0.45,
+           "h": 0.2837
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_visa_4821"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_mastercard_7710",
+            "type": "text",
+            "label": "Mastercard 7710",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.3301,
+             "w": 0.206,
+             "h": 0.0281
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_balance_940",
+            "type": "text",
+            "label": "Balance $940",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.3933,
+             "w": 0.14,
+             "h": 0.0281
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_mastercard_7710"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_view_statement",
+            "type": "button",
+            "label": "View statement",
+            "props": {
+             "href_page": "page_statement"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.4438,
+             "w": 0.197,
+             "h": 0.0843
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_balance_940"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "navigate",
+                "page": "page_statement"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "txt_spending",
+        "type": "text",
+        "label": "Spending",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.05,
+         "y": 0.5955,
+         "w": 0.102,
+         "h": 0.0421
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_9"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "card_spending_chart",
+        "type": "card",
+        "label": "Spending chart",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.067,
+         "y": 0.6475,
+         "w": 0.884,
+         "h": 0.2809
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_spending"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "column",
+         "gap": 12,
+         "align": "stretch",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "h_20",
+          "type": "heading",
+          "label": "Heading",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.082,
+           "y": 0.743,
+           "w": 0.845,
+           "h": 0.0744
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_statement",
+     "name": "Statement",
+     "route": "/statement",
+     "root": {
+      "id": "page_statement",
+      "type": "page",
+      "label": "Statement",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_statement",
+        "type": "heading",
+        "label": "Statement",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Statement page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 27
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"cards\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Cards</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Cards\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport StatementPage from \"./pages/StatementPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_statement: StatementPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_FREEZE_CARD_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Card frozen\",\n    \"tone\": \"success\"\n  }\n];\n\nconst BTN_VIEW_STATEMENT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_statement\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnFreezeCardClick = () => runActions(\"btn_freeze_card\", BTN_FREEZE_CARD_CLICK, ui);\n  const handleBtnViewStatementClick = () => runActions(\"btn_view_statement\", BTN_VIEW_STATEMENT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1100 }}>\n      <Navbar\n        id=\"nav_main_navigation\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 28, width: \"100%\", marginTop: 0, minHeight: 94 }}\n      >\n        <Text\n          id=\"txt_northbank\"\n          label=\"NorthBank\"\n          style={{ minWidth: \"17%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.8%\", minHeight: 28 }}\n        />\n        <Text\n          id=\"txt_accounts\"\n          label=\"Accounts\"\n          style={{ minWidth: \"10.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"48.2%\", minHeight: 20 }}\n        />\n        <NavItem\n          id=\"navi_cards\"\n          label=\"Cards\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.9%\" }}\n        />\n        <Text\n          id=\"txt_help\"\n          label=\"Help\"\n          style={{ minWidth: \"4.4%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 30 }}\n        />\n        <NavItem id=\"navi_home\" label=\"Home\" style={{ marginLeft: 12 }} />\n        <NavItem id=\"navi_settings\" label=\"Settings\" style={{ marginLeft: 12 }} />\n      </Navbar>\n      <Container\n        id=\"box_6\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"19.3%\", marginLeft: \"0.8%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 53 }}\n      >\n        <Text\n          id=\"txt_my\"\n          label=\"My\"\n          style={{ minWidth: \"31.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 48 }}\n        />\n        <Heading\n          id=\"h_cards\"\n          label=\"cards\"\n          level={1}\n          style={{ minWidth: \"58.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"10.2%\", fontSize: 24 }}\n        />\n      </Container>\n      <Container\n        id=\"box_9\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 13, minHeight: 247 }}\n      >\n        <Card\n          id=\"card_visa_4821\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"49%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 245 }}\n        >\n          <Text\n            id=\"txt_visa_4821\"\n            label=\"Visa 4821\"\n            style={{ minWidth: \"24.5%\", maxWidth: \"100%\", marginLeft: \"6.7%\", marginTop: 43, alignSelf: \"flex-start\", minHeight: 22 }}\n          />\n          <Text\n            id=\"txt_balance_3200\"\n            label=\"Balance $3200\"\n            style={{ minWidth: \"34.5%\", maxWidth: \"100%\", marginLeft: \"6.5%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 25 }}\n          />\n          <Button\n            id=\"btn_freeze_card\"\n            label=\"Freeze card\"\n            style={{ width: \"44.1%\", marginLeft: \"5.8%\", marginTop: 22, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnFreezeCardClick}\n          />\n          <Message owner=\"btn_freeze_card\" />\n        </Card>\n        <Card\n          id=\"card_mastercard_7710\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 29, width: \"49.1%\", flex: \"0 0 auto\", marginLeft: \"2%\", marginTop: 0, minHeight: 242 }}\n        >\n          <Text\n            id=\"txt_mastercard_7710\"\n            label=\"Mastercard 7710\"\n            style={{ minWidth: \"45.8%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Text\n            id=\"txt_balance_940\"\n            label=\"Balance $940\"\n            style={{ minWidth: \"31.1%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 30, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_view_statement\"\n            label=\"View statement\"\n            style={{ width: \"43.8%\", marginLeft: \"5.6%\", marginTop: 19, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnViewStatementClick}\n          />\n          <Message owner=\"btn_view_statement\" />\n        </Card>\n      </Container>\n      <Text\n        id=\"txt_spending\"\n        label=\"Spending\"\n        style={{ minWidth: \"11.1%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 24, alignSelf: \"flex-start\", minHeight: 36 }}\n      />\n      <Card\n        id=\"card_spending_chart\"\n        layout={{ gap: 0 }}\n        geometry\n        style={{ padding: 0, paddingBottom: 80, width: \"96.4%\", marginLeft: \"2.7%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 240 }}\n      >\n        <Heading\n          id=\"h_20\"\n          label=\"Heading\"\n          level={2}\n          style={{ minWidth: \"95.6%\", maxWidth: \"100%\", marginLeft: \"1.7%\", marginTop: 82, alignSelf: \"flex-start\", fontSize: 39 }}\n        />\n      </Card>\n    </Page>\n  );\n}\n",
+    "src/pages/StatementPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function StatementPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_statement\" layout={{ gap: 16 }} style={{ maxWidth: 1100 }}>\n      <Heading id=\"h_statement\" label=\"Statement\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Statement page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Cards\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_FREEZE_CARD_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Card frozen\",\n    \"tone\": \"success\"\n  }\n];\n\nconst BTN_VIEW_STATEMENT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_statement\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnFreezeCardClick = () => runActions(\"btn_freeze_card\", BTN_FREEZE_CARD_CLICK, ui);\n  const handleBtnViewStatementClick = () => runActions(\"btn_view_statement\", BTN_VIEW_STATEMENT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1100 }}>\n      <Navbar\n        id=\"nav_main_navigation\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 28, width: \"100%\", marginTop: 0, minHeight: 94 }}\n      >\n        <Text\n          id=\"txt_northbank\"\n          label=\"NorthBank\"\n          style={{ minWidth: \"17%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.8%\", minHeight: 28 }}\n        />\n        <Text\n          id=\"txt_accounts\"\n          label=\"Accounts\"\n          style={{ minWidth: \"10.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"48.2%\", minHeight: 20 }}\n        />\n        <NavItem\n          id=\"navi_cards\"\n          label=\"Cards\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.9%\" }}\n        />\n        <Text\n          id=\"txt_help\"\n          label=\"Help\"\n          style={{ minWidth: \"4.4%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 30 }}\n        />\n        <NavItem id=\"navi_home\" label=\"Home\" style={{ marginLeft: 12 }} />\n        <NavItem id=\"navi_settings\" label=\"Settings\" style={{ marginLeft: 12 }} />\n      </Navbar>\n      <Container\n        id=\"box_6\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"19.3%\", marginLeft: \"0.8%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 53 }}\n      >\n        <Text\n          id=\"txt_my\"\n          label=\"My\"\n          style={{ minWidth: \"31.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 48 }}\n        />\n        <Heading\n          id=\"h_cards\"\n          label=\"cards\"\n          level={1}\n          style={{ minWidth: \"58.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"10.2%\", fontSize: 24 }}\n        />\n      </Container>\n      <Container\n        id=\"box_9\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 13, minHeight: 247 }}\n      >\n        <Card\n          id=\"card_visa_4821\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"49%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 245 }}\n        >\n          <Text\n            id=\"txt_visa_4821\"\n            label=\"Visa 4821\"\n            style={{ minWidth: \"24.5%\", maxWidth: \"100%\", marginLeft: \"6.7%\", marginTop: 43, alignSelf: \"flex-start\", minHeight: 22 }}\n          />\n          <Text\n            id=\"txt_balance_3200\"\n            label=\"Balance $3200\"\n            style={{ minWidth: \"34.5%\", maxWidth: \"100%\", marginLeft: \"6.5%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 25 }}\n          />\n          <Button\n            id=\"btn_freeze_card\"\n            label=\"Freeze card\"\n            style={{ width: \"44.1%\", marginLeft: \"5.8%\", marginTop: 22, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnFreezeCardClick}\n          />\n          <Message owner=\"btn_freeze_card\" />\n        </Card>\n        <Card\n          id=\"card_mastercard_7710\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 29, width: \"49.1%\", flex: \"0 0 auto\", marginLeft: \"2%\", marginTop: 0, minHeight: 242 }}\n        >\n          <Text\n            id=\"txt_mastercard_7710\"\n            label=\"Mastercard 7710\"\n            style={{ minWidth: \"45.8%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Text\n            id=\"txt_balance_940\"\n            label=\"Balance $940\"\n            style={{ minWidth: \"31.1%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 30, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_view_statement\"\n            label=\"View statement\"\n            style={{ width: \"43.8%\", marginLeft: \"5.6%\", marginTop: 19, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnViewStatementClick}\n          />\n          <Message owner=\"btn_view_statement\" />\n        </Card>\n      </Container>\n      <Text\n        id=\"txt_spending\"\n        label=\"Spending\"\n        style={{ minWidth: \"11.1%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 24, alignSelf: \"flex-start\", minHeight: 36 }}\n      />\n      <Card\n        id=\"card_spending_chart\"\n        layout={{ gap: 0 }}\n        geometry\n        style={{ padding: 0, paddingBottom: 80, width: \"96.4%\", marginLeft: \"2.7%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 240 }}\n      >\n        <Heading\n          id=\"h_20\"\n          label=\"Heading\"\n          level={2}\n          style={{ minWidth: \"95.6%\", maxWidth: \"100%\", marginLeft: \"1.7%\", marginTop: 82, alignSelf: \"flex-start\", fontSize: 39 }}\n        />\n      </Card>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction StatementPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_statement\" layout={{ gap: 16 }} style={{ maxWidth: 1100 }}>\n      <Heading id=\"h_statement\" label=\"Statement\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Statement page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_statement: StatementPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 22,
+    "components": 11,
+    "pages": 2,
+    "loc": 779,
+    "preview_bytes": 19433
+   }
+  },
+  "report0": {
+   "passed": true,
+   "score": 0.9501,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "23 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_main_navigation",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navigation"
+    },
+    {
+     "id": "presence:txt_northbank",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_northbank"
+    },
+    {
+     "id": "presence:txt_accounts",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_accounts"
+    },
+    {
+     "id": "presence:navi_cards",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_cards"
+    },
+    {
+     "id": "presence:txt_help",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_help"
+    },
+    {
+     "id": "presence:navi_home",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "presence:navi_settings",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:box_6",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_6"
+    },
+    {
+     "id": "presence:txt_my",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_my"
+    },
+    {
+     "id": "presence:h_cards",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_cards"
+    },
+    {
+     "id": "presence:box_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_9"
+    },
+    {
+     "id": "presence:card_visa_4821",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "presence:txt_visa_4821",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_visa_4821"
+    },
+    {
+     "id": "presence:txt_balance_3200",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_balance_3200"
+    },
+    {
+     "id": "presence:btn_freeze_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "presence:card_mastercard_7710",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "presence:txt_mastercard_7710",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_mastercard_7710"
+    },
+    {
+     "id": "presence:txt_balance_940",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_balance_940"
+    },
+    {
+     "id": "presence:btn_view_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "presence:txt_spending",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_spending"
+    },
+    {
+     "id": "presence:card_spending_chart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_spending_chart"
+    },
+    {
+     "id": "presence:h_20",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_20"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_main_navigation",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "nav_main_navigation"
+    },
+    {
+     "id": "order:box_6",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_6"
+    },
+    {
+     "id": "order:box_9",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_9"
+    },
+    {
+     "id": "order:card_visa_4821",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "sketch_order:card_visa_4821",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "order:card_mastercard_7710",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "sketch_order:card_mastercard_7710",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.50 over 14 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_cards",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_cards"
+    },
+    {
+     "id": "clickable:navi_home",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "clickable:navi_settings",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "clickable:btn_freeze_card",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "clickable:btn_view_statement",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "presence:page_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_statement"
+    },
+    {
+     "id": "presence:h_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_statement"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_freeze_card:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "event:btn_view_statement:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_statement",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.5006,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 90,
+      "y": 32,
+      "w": 1100,
+      "h": 744
+     }
+    },
+    {
+     "id": "nav_main_navigation",
+     "type": "navbar",
+     "rect": {
+      "x": 90,
+      "y": 32,
+      "w": 1100,
+      "h": 94
+     }
+    },
+    {
+     "id": "txt_northbank",
+     "type": "text",
+     "rect": {
+      "x": 121.734375,
+      "y": 51,
+      "w": 186.65625,
+      "h": 28
+     }
+    },
+    {
+     "id": "txt_accounts",
+     "type": "text",
+     "rect": {
+      "x": 837.625,
+      "y": 53.75,
+      "w": 116.375,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "navi_cards",
+     "type": "nav_item",
+     "rect": {
+      "x": 985.828125,
+      "y": 47.75,
+      "w": 85.640625,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "txt_help",
+     "type": "text",
+     "rect": {
+      "x": 1109.890625,
+      "y": 50,
+      "w": 48.296875,
+      "h": 30
+     }
+    },
+    {
+     "id": "navi_home",
+     "type": "nav_item",
+     "rect": {
+      "x": 1170.1875,
+      "y": 47.75,
+      "w": 62.375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_settings",
+     "type": "nav_item",
+     "rect": {
+      "x": 1244.5625,
+      "y": 47.75,
+      "w": 78.84375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "box_6",
+     "type": "container",
+     "rect": {
+      "x": 98.796875,
+      "y": 155,
+      "w": 212.296875,
+      "h": 53
+     }
+    },
+    {
+     "id": "txt_my",
+     "type": "text",
+     "rect": {
+      "x": 98.796875,
+      "y": 157.5,
+      "w": 66.015625,
+      "h": 48
+     }
+    },
+    {
+     "id": "h_cards",
+     "type": "heading",
+     "rect": {
+      "x": 186.453125,
+      "y": 167.09375,
+      "w": 124.828125,
+      "h": 28.796875
+     }
+    },
+    {
+     "id": "box_9",
+     "type": "container",
+     "rect": {
+      "x": 90,
+      "y": 221,
+      "w": 1100,
+      "h": 247
+     }
+    },
+    {
+     "id": "card_visa_4821",
+     "type": "card",
+     "rect": {
+      "x": 90,
+      "y": 223,
+      "w": 539,
+      "h": 245
+     }
+    },
+    {
+     "id": "txt_visa_4821",
+     "type": "text",
+     "rect": {
+      "x": 126.96875,
+      "y": 267,
+      "w": 131.5625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_balance_3200",
+     "type": "text",
+     "rect": {
+      "x": 125.890625,
+      "y": 318.5,
+      "w": 185.25,
+      "h": 25
+     }
+    },
+    {
+     "id": "btn_freeze_card",
+     "type": "button",
+     "rect": {
+      "x": 122.140625,
+      "y": 365.5,
+      "w": 236.8125,
+      "h": 64
+     }
+    },
+    {
+     "id": "card_mastercard_7710",
+     "type": "card",
+     "rect": {
+      "x": 651,
+      "y": 221,
+      "w": 540.09375,
+      "h": 242
+     }
+    },
+    {
+     "id": "txt_mastercard_7710",
+     "type": "text",
+     "rect": {
+      "x": 682.125,
+      "y": 266,
+      "w": 246.4375,
+      "h": 24
+     }
+    },
+    {
+     "id": "txt_balance_940",
+     "type": "text",
+     "rect": {
+      "x": 682.125,
+      "y": 320,
+      "w": 167.34375,
+      "h": 24
+     }
+    },
+    {
+     "id": "btn_view_statement",
+     "type": "button",
+     "rect": {
+      "x": 682.125,
+      "y": 363,
+      "w": 235.671875,
+      "h": 64
+     }
+    },
+    {
+     "id": "txt_spending",
+     "type": "text",
+     "rect": {
+      "x": 99.890625,
+      "y": 492,
+      "w": 122.09375,
+      "h": 36
+     }
+    },
+    {
+     "id": "card_spending_chart",
+     "type": "card",
+     "rect": {
+      "x": 119.6875,
+      "y": 536,
+      "w": 1060.390625,
+      "h": 240
+     }
+    },
+    {
+     "id": "h_20",
+     "type": "heading",
+     "rect": {
+      "x": 138.671875,
+      "y": 619,
+      "w": 1011.8125,
+      "h": 46.796875
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 538
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Cards",
+    "category": "dashboard",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 712,
+     "content": {
+      "x": 0.042,
+      "y": 0.0576,
+      "w": 0.917,
+      "h": 0.8708
+     },
+     "page_width": 1100,
+     "scale": 1.1996
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_main_navigation",
+        "type": "navbar",
+        "label": "Main navigation",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.045,
+         "y": 0.0576,
+         "w": 0.907,
+         "h": 0.1096
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_northbank",
+          "type": "text",
+          "label": "NorthBank",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.07,
+           "y": 0.0941,
+           "w": 0.154,
+           "h": 0.0323
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_accounts",
+          "type": "text",
+          "label": "Accounts",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.661,
+           "y": 0.0955,
+           "w": 0.096,
+           "h": 0.0239
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_northbank"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_cards",
+          "type": "nav_item",
+          "label": "Cards",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.783,
+           "y": 0.0941,
+           "w": 0.071,
+           "h": 0.0407
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_accounts"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_help",
+          "type": "text",
+          "label": "Help",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.886,
+           "y": 0.0955,
+           "w": 0.04,
+           "h": 0.0351
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_cards"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_home",
+          "type": "nav_item",
+          "label": "Home",
+          "props": {},
+          "style": {},
+          "bbox": null,
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_help"
+           }
+          ],
+          "events": [],
+          "origin": "voice"
+         },
+         {
+          "id": "navi_settings",
+          "type": "nav_item",
+          "label": "Settings",
+          "props": {},
+          "style": {},
+          "bbox": null,
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_home"
+           }
+          ],
+          "events": [],
+          "origin": "voice"
+         }
+        ]
+       },
+       {
+        "id": "box_6",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.2008,
+         "w": 0.177,
+         "h": 0.0619
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_main_navigation"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "txt_my",
+          "type": "text",
+          "label": "My",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.049,
+           "y": 0.2065,
+           "w": 0.055,
+           "h": 0.0562
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "h_cards",
+          "type": "heading",
+          "label": "cards",
+          "props": {
+           "level": 1
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.122,
+           "y": 0.2008,
+           "w": 0.104,
+           "h": 0.0449
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_my"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_9",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.042,
+         "y": 0.2781,
+         "w": 0.917,
+         "h": 0.2893
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_6"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "card_visa_4821",
+          "type": "card",
+          "label": "Visa 4821",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.042,
+           "y": 0.2809,
+           "w": 0.449,
+           "h": 0.2865
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_visa_4821",
+            "type": "text",
+            "label": "Visa 4821",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.072,
+             "y": 0.3315,
+             "w": 0.11,
+             "h": 0.0253
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_balance_3200",
+            "type": "text",
+            "label": "Balance $3200",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.071,
+             "y": 0.3904,
+             "w": 0.155,
+             "h": 0.0295
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_visa_4821"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_freeze_card",
+            "type": "button",
+            "label": "Freeze card",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.068,
+             "y": 0.4452,
+             "w": 0.198,
+             "h": 0.0815
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_balance_3200"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "show_message",
+                "text": "Card frozen",
+                "tone": "success"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "card_mastercard_7710",
+          "type": "card",
+          "label": "Mastercard 7710",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.509,
+           "y": 0.2781,
+           "w": 0.45,
+           "h": 0.2837
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_visa_4821"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_mastercard_7710",
+            "type": "text",
+            "label": "Mastercard 7710",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.3301,
+             "w": 0.206,
+             "h": 0.0281
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "txt_balance_940",
+            "type": "text",
+            "label": "Balance $940",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.3933,
+             "w": 0.14,
+             "h": 0.0281
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_mastercard_7710"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "btn_view_statement",
+            "type": "button",
+            "label": "View statement",
+            "props": {
+             "href_page": "page_statement"
+            },
+            "style": {},
+            "bbox": {
+             "x": 0.534,
+             "y": 0.4438,
+             "w": 0.197,
+             "h": 0.0843
+            },
+            "relations": [
+             {
+              "type": "below",
+              "target": "txt_balance_940"
+             }
+            ],
+            "events": [
+             {
+              "on": "click",
+              "actions": [
+               {
+                "type": "navigate",
+                "page": "page_statement"
+               }
+              ]
+             }
+            ],
+            "origin": "sketch"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "txt_spending",
+        "type": "text",
+        "label": "Spending",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.05,
+         "y": 0.5955,
+         "w": 0.102,
+         "h": 0.0421
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_9"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "card_spending_chart",
+        "type": "card",
+        "label": "Spending chart",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.067,
+         "y": 0.6475,
+         "w": 0.884,
+         "h": 0.2809
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_spending"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "column",
+         "gap": 12,
+         "align": "stretch",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "h_20",
+          "type": "heading",
+          "label": "Heading",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.082,
+           "y": 0.743,
+           "w": 0.845,
+           "h": 0.0744
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_statement",
+     "name": "Statement",
+     "route": "/statement",
+     "root": {
+      "id": "page_statement",
+      "type": "page",
+      "label": "Statement",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_statement",
+        "type": "heading",
+        "label": "Statement",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Statement page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 27
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"cards\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Cards</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Cards\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport StatementPage from \"./pages/StatementPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_statement: StatementPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_FREEZE_CARD_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Card frozen\",\n    \"tone\": \"success\"\n  }\n];\n\nconst BTN_VIEW_STATEMENT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_statement\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnFreezeCardClick = () => runActions(\"btn_freeze_card\", BTN_FREEZE_CARD_CLICK, ui);\n  const handleBtnViewStatementClick = () => runActions(\"btn_view_statement\", BTN_VIEW_STATEMENT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1100 }}>\n      <Navbar\n        id=\"nav_main_navigation\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 28, width: \"100%\", marginTop: 0, minHeight: 94 }}\n      >\n        <Text\n          id=\"txt_northbank\"\n          label=\"NorthBank\"\n          style={{ minWidth: \"17%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.8%\", minHeight: 28 }}\n        />\n        <Text\n          id=\"txt_accounts\"\n          label=\"Accounts\"\n          style={{ minWidth: \"10.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"48.2%\", minHeight: 20 }}\n        />\n        <NavItem\n          id=\"navi_cards\"\n          label=\"Cards\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.9%\" }}\n        />\n        <Text\n          id=\"txt_help\"\n          label=\"Help\"\n          style={{ minWidth: \"4.4%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 30 }}\n        />\n        <NavItem id=\"navi_home\" label=\"Home\" style={{ marginLeft: 12 }} />\n        <NavItem id=\"navi_settings\" label=\"Settings\" style={{ marginLeft: 12 }} />\n      </Navbar>\n      <Container\n        id=\"box_6\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"19.3%\", marginLeft: \"0.8%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 53 }}\n      >\n        <Text\n          id=\"txt_my\"\n          label=\"My\"\n          style={{ minWidth: \"31.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 48 }}\n        />\n        <Heading\n          id=\"h_cards\"\n          label=\"cards\"\n          level={1}\n          style={{ minWidth: \"58.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"10.2%\", fontSize: 24 }}\n        />\n      </Container>\n      <Container\n        id=\"box_9\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 13, minHeight: 247 }}\n      >\n        <Card\n          id=\"card_visa_4821\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"49%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 245 }}\n        >\n          <Text\n            id=\"txt_visa_4821\"\n            label=\"Visa 4821\"\n            style={{ minWidth: \"24.5%\", maxWidth: \"100%\", marginLeft: \"6.7%\", marginTop: 43, alignSelf: \"flex-start\", minHeight: 22 }}\n          />\n          <Text\n            id=\"txt_balance_3200\"\n            label=\"Balance $3200\"\n            style={{ minWidth: \"34.5%\", maxWidth: \"100%\", marginLeft: \"6.5%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 25 }}\n          />\n          <Button\n            id=\"btn_freeze_card\"\n            label=\"Freeze card\"\n            style={{ width: \"44.1%\", marginLeft: \"5.8%\", marginTop: 22, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnFreezeCardClick}\n          />\n          <Message owner=\"btn_freeze_card\" />\n        </Card>\n        <Card\n          id=\"card_mastercard_7710\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 29, width: \"49.1%\", flex: \"0 0 auto\", marginLeft: \"2%\", marginTop: 0, minHeight: 242 }}\n        >\n          <Text\n            id=\"txt_mastercard_7710\"\n            label=\"Mastercard 7710\"\n            style={{ minWidth: \"45.8%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Text\n            id=\"txt_balance_940\"\n            label=\"Balance $940\"\n            style={{ minWidth: \"31.1%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 30, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_view_statement\"\n            label=\"View statement\"\n            style={{ width: \"43.8%\", marginLeft: \"5.6%\", marginTop: 19, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnViewStatementClick}\n          />\n          <Message owner=\"btn_view_statement\" />\n        </Card>\n      </Container>\n      <Text\n        id=\"txt_spending\"\n        label=\"Spending\"\n        style={{ minWidth: \"11.1%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 24, alignSelf: \"flex-start\", minHeight: 36 }}\n      />\n      <Card\n        id=\"card_spending_chart\"\n        layout={{ gap: 0 }}\n        geometry\n        style={{ padding: 0, paddingBottom: 80, width: \"96.4%\", marginLeft: \"2.7%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 240 }}\n      >\n        <Heading\n          id=\"h_20\"\n          label=\"Heading\"\n          level={2}\n          style={{ minWidth: \"95.6%\", maxWidth: \"100%\", marginLeft: \"1.7%\", marginTop: 82, alignSelf: \"flex-start\", fontSize: 39 }}\n        />\n      </Card>\n    </Page>\n  );\n}\n",
+    "src/pages/StatementPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function StatementPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_statement\" layout={{ gap: 16 }} style={{ maxWidth: 1100 }}>\n      <Heading id=\"h_statement\" label=\"Statement\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Statement page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Cards\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_FREEZE_CARD_CLICK = [\n  {\n    \"type\": \"show_message\",\n    \"text\": \"Card frozen\",\n    \"tone\": \"success\"\n  }\n];\n\nconst BTN_VIEW_STATEMENT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_statement\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnFreezeCardClick = () => runActions(\"btn_freeze_card\", BTN_FREEZE_CARD_CLICK, ui);\n  const handleBtnViewStatementClick = () => runActions(\"btn_view_statement\", BTN_VIEW_STATEMENT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1100 }}>\n      <Navbar\n        id=\"nav_main_navigation\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 28, width: \"100%\", marginTop: 0, minHeight: 94 }}\n      >\n        <Text\n          id=\"txt_northbank\"\n          label=\"NorthBank\"\n          style={{ minWidth: \"17%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.8%\", minHeight: 28 }}\n        />\n        <Text\n          id=\"txt_accounts\"\n          label=\"Accounts\"\n          style={{ minWidth: \"10.6%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"48.2%\", minHeight: 20 }}\n        />\n        <NavItem\n          id=\"navi_cards\"\n          label=\"Cards\"\n          style={{ minWidth: \"7.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"2.9%\" }}\n        />\n        <Text\n          id=\"txt_help\"\n          label=\"Help\"\n          style={{ minWidth: \"4.4%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"3.5%\", minHeight: 30 }}\n        />\n        <NavItem id=\"navi_home\" label=\"Home\" style={{ marginLeft: 12 }} />\n        <NavItem id=\"navi_settings\" label=\"Settings\" style={{ marginLeft: 12 }} />\n      </Navbar>\n      <Container\n        id=\"box_6\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"19.3%\", marginLeft: \"0.8%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 53 }}\n      >\n        <Text\n          id=\"txt_my\"\n          label=\"My\"\n          style={{ minWidth: \"31.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 48 }}\n        />\n        <Heading\n          id=\"h_cards\"\n          label=\"cards\"\n          level={1}\n          style={{ minWidth: \"58.8%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"10.2%\", fontSize: 24 }}\n        />\n      </Container>\n      <Container\n        id=\"box_9\"\n        layout={{ direction: \"row\", gap: 0, align: \"start\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"100%\", marginTop: 13, minHeight: 247 }}\n      >\n        <Card\n          id=\"card_visa_4821\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 35, width: \"49%\", flex: \"0 0 auto\", marginTop: 2, minHeight: 245 }}\n        >\n          <Text\n            id=\"txt_visa_4821\"\n            label=\"Visa 4821\"\n            style={{ minWidth: \"24.5%\", maxWidth: \"100%\", marginLeft: \"6.7%\", marginTop: 43, alignSelf: \"flex-start\", minHeight: 22 }}\n          />\n          <Text\n            id=\"txt_balance_3200\"\n            label=\"Balance $3200\"\n            style={{ minWidth: \"34.5%\", maxWidth: \"100%\", marginLeft: \"6.5%\", marginTop: 29, alignSelf: \"flex-start\", minHeight: 25 }}\n          />\n          <Button\n            id=\"btn_freeze_card\"\n            label=\"Freeze card\"\n            style={{ width: \"44.1%\", marginLeft: \"5.8%\", marginTop: 22, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnFreezeCardClick}\n          />\n          <Message owner=\"btn_freeze_card\" />\n        </Card>\n        <Card\n          id=\"card_mastercard_7710\"\n          layout={{ gap: 0 }}\n          geometry\n          style={{ padding: 0, paddingBottom: 29, width: \"49.1%\", flex: \"0 0 auto\", marginLeft: \"2%\", marginTop: 0, minHeight: 242 }}\n        >\n          <Text\n            id=\"txt_mastercard_7710\"\n            label=\"Mastercard 7710\"\n            style={{ minWidth: \"45.8%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 44, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Text\n            id=\"txt_balance_940\"\n            label=\"Balance $940\"\n            style={{ minWidth: \"31.1%\", maxWidth: \"100%\", marginLeft: \"5.6%\", marginTop: 30, alignSelf: \"flex-start\", minHeight: 24 }}\n          />\n          <Button\n            id=\"btn_view_statement\"\n            label=\"View statement\"\n            style={{ width: \"43.8%\", marginLeft: \"5.6%\", marginTop: 19, alignSelf: \"flex-start\", height: 64 }}\n            onClick={handleBtnViewStatementClick}\n          />\n          <Message owner=\"btn_view_statement\" />\n        </Card>\n      </Container>\n      <Text\n        id=\"txt_spending\"\n        label=\"Spending\"\n        style={{ minWidth: \"11.1%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 24, alignSelf: \"flex-start\", minHeight: 36 }}\n      />\n      <Card\n        id=\"card_spending_chart\"\n        layout={{ gap: 0 }}\n        geometry\n        style={{ padding: 0, paddingBottom: 80, width: \"96.4%\", marginLeft: \"2.7%\", marginTop: 8, alignSelf: \"flex-start\", minHeight: 240 }}\n      >\n        <Heading\n          id=\"h_20\"\n          label=\"Heading\"\n          level={2}\n          style={{ minWidth: \"95.6%\", maxWidth: \"100%\", marginLeft: \"1.7%\", marginTop: 82, alignSelf: \"flex-start\", fontSize: 39 }}\n        />\n      </Card>\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction StatementPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_statement\" layout={{ gap: 16 }} style={{ maxWidth: 1100 }}>\n      <Heading id=\"h_statement\" label=\"Statement\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Statement page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_statement: StatementPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 22,
+    "components": 11,
+    "pages": 2,
+    "loc": 779,
+    "preview_bytes": 19433
+   }
+  },
+  "report": {
+   "passed": true,
+   "score": 0.9501,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "23 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_main_navigation",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navigation"
+    },
+    {
+     "id": "presence:txt_northbank",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_northbank"
+    },
+    {
+     "id": "presence:txt_accounts",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_accounts"
+    },
+    {
+     "id": "presence:navi_cards",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_cards"
+    },
+    {
+     "id": "presence:txt_help",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_help"
+    },
+    {
+     "id": "presence:navi_home",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "presence:navi_settings",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "presence:box_6",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_6"
+    },
+    {
+     "id": "presence:txt_my",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_my"
+    },
+    {
+     "id": "presence:h_cards",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_cards"
+    },
+    {
+     "id": "presence:box_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_9"
+    },
+    {
+     "id": "presence:card_visa_4821",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "presence:txt_visa_4821",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_visa_4821"
+    },
+    {
+     "id": "presence:txt_balance_3200",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_balance_3200"
+    },
+    {
+     "id": "presence:btn_freeze_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "presence:card_mastercard_7710",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "presence:txt_mastercard_7710",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_mastercard_7710"
+    },
+    {
+     "id": "presence:txt_balance_940",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_balance_940"
+    },
+    {
+     "id": "presence:btn_view_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "presence:txt_spending",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_spending"
+    },
+    {
+     "id": "presence:card_spending_chart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_spending_chart"
+    },
+    {
+     "id": "presence:h_20",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_20"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_main_navigation",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "nav_main_navigation"
+    },
+    {
+     "id": "order:box_6",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_6"
+    },
+    {
+     "id": "order:box_9",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_9"
+    },
+    {
+     "id": "order:card_visa_4821",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "sketch_order:card_visa_4821",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_visa_4821"
+    },
+    {
+     "id": "order:card_mastercard_7710",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "sketch_order:card_mastercard_7710",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "card_mastercard_7710"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.50 over 14 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_cards",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_cards"
+    },
+    {
+     "id": "clickable:navi_home",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_home"
+    },
+    {
+     "id": "clickable:navi_settings",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_settings"
+    },
+    {
+     "id": "clickable:btn_freeze_card",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "clickable:btn_view_statement",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "presence:page_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_statement"
+    },
+    {
+     "id": "presence:h_statement",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_statement"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_freeze_card:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "message shown",
+     "hard": true,
+     "target": "btn_freeze_card"
+    },
+    {
+     "id": "event:btn_view_statement:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_statement",
+     "hard": true,
+     "target": "btn_view_statement"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.5006,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 3,
+    "interactions_passed": 3,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 90,
+      "y": 32,
+      "w": 1100,
+      "h": 744
+     }
+    },
+    {
+     "id": "nav_main_navigation",
+     "type": "navbar",
+     "rect": {
+      "x": 90,
+      "y": 32,
+      "w": 1100,
+      "h": 94
+     }
+    },
+    {
+     "id": "txt_northbank",
+     "type": "text",
+     "rect": {
+      "x": 121.734375,
+      "y": 51,
+      "w": 186.65625,
+      "h": 28
+     }
+    },
+    {
+     "id": "txt_accounts",
+     "type": "text",
+     "rect": {
+      "x": 837.625,
+      "y": 53.75,
+      "w": 116.375,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "navi_cards",
+     "type": "nav_item",
+     "rect": {
+      "x": 985.828125,
+      "y": 47.75,
+      "w": 85.640625,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "txt_help",
+     "type": "text",
+     "rect": {
+      "x": 1109.890625,
+      "y": 50,
+      "w": 48.296875,
+      "h": 30
+     }
+    },
+    {
+     "id": "navi_home",
+     "type": "nav_item",
+     "rect": {
+      "x": 1170.1875,
+      "y": 47.75,
+      "w": 62.375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_settings",
+     "type": "nav_item",
+     "rect": {
+      "x": 1244.5625,
+      "y": 47.75,
+      "w": 78.84375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "box_6",
+     "type": "container",
+     "rect": {
+      "x": 98.796875,
+      "y": 155,
+      "w": 212.296875,
+      "h": 53
+     }
+    },
+    {
+     "id": "txt_my",
+     "type": "text",
+     "rect": {
+      "x": 98.796875,
+      "y": 157.5,
+      "w": 66.015625,
+      "h": 48
+     }
+    },
+    {
+     "id": "h_cards",
+     "type": "heading",
+     "rect": {
+      "x": 186.453125,
+      "y": 167.09375,
+      "w": 124.828125,
+      "h": 28.796875
+     }
+    },
+    {
+     "id": "box_9",
+     "type": "container",
+     "rect": {
+      "x": 90,
+      "y": 221,
+      "w": 1100,
+      "h": 247
+     }
+    },
+    {
+     "id": "card_visa_4821",
+     "type": "card",
+     "rect": {
+      "x": 90,
+      "y": 223,
+      "w": 539,
+      "h": 245
+     }
+    },
+    {
+     "id": "txt_visa_4821",
+     "type": "text",
+     "rect": {
+      "x": 126.96875,
+      "y": 267,
+      "w": 131.5625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_balance_3200",
+     "type": "text",
+     "rect": {
+      "x": 125.890625,
+      "y": 318.5,
+      "w": 185.25,
+      "h": 25
+     }
+    },
+    {
+     "id": "btn_freeze_card",
+     "type": "button",
+     "rect": {
+      "x": 122.140625,
+      "y": 365.5,
+      "w": 236.8125,
+      "h": 64
+     }
+    },
+    {
+     "id": "card_mastercard_7710",
+     "type": "card",
+     "rect": {
+      "x": 651,
+      "y": 221,
+      "w": 540.09375,
+      "h": 242
+     }
+    },
+    {
+     "id": "txt_mastercard_7710",
+     "type": "text",
+     "rect": {
+      "x": 682.125,
+      "y": 266,
+      "w": 246.4375,
+      "h": 24
+     }
+    },
+    {
+     "id": "txt_balance_940",
+     "type": "text",
+     "rect": {
+      "x": 682.125,
+      "y": 320,
+      "w": 167.34375,
+      "h": 24
+     }
+    },
+    {
+     "id": "btn_view_statement",
+     "type": "button",
+     "rect": {
+      "x": 682.125,
+      "y": 363,
+      "w": 235.671875,
+      "h": 64
+     }
+    },
+    {
+     "id": "txt_spending",
+     "type": "text",
+     "rect": {
+      "x": 99.890625,
+      "y": 492,
+      "w": 122.09375,
+      "h": 36
+     }
+    },
+    {
+     "id": "card_spending_chart",
+     "type": "card",
+     "rect": {
+      "x": 119.6875,
+      "y": 536,
+      "w": 1060.390625,
+      "h": 240
+     }
+    },
+    {
+     "id": "h_20",
+     "type": "heading",
+     "rect": {
+      "x": 138.671875,
+      "y": 619,
+      "w": 1011.8125,
+      "h": 46.796875
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 563
+  },
+  "repairs": [],
+  "timings": {
+   "fuse": 6.1,
+   "codegen": 1.5,
+   "validate": 538.4,
+   "repair": 566.9
+  }
+ }
+}

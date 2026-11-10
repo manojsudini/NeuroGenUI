@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 805.4,
+ "value": {
+  "text": "Make the My Bank title bigger.",
+  "model": "whisper-1",
+  "duration_ms": 805
+ }
+}

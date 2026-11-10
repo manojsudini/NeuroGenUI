@@ -1,0 +1,163 @@
+{
+ "_ok": true,
+ "_wall_ms": 68452.9,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Book appointment",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.15,
+     "w": 0.5,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Select doctor",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.25,
+     "w": 0.7,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Date",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.35,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.4,
+     "w": 0.6,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "calendar icon",
+    "bbox": {
+     "x": 0.77,
+     "y": 0.4,
+     "w": 0.05,
+     "h": 0.07
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Time slot",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.5,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "9:00",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.57,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "11:00",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.57,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "15:00",
+    "bbox": {
+     "x": 0.65,
+     "y": 0.57,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "textarea",
+    "label": "Reason for visit",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.65,
+     "w": 0.7,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Confirm booking",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.85,
+     "w": 0.7,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 611,
+  "mode": "vision",
+  "title": "Book appointment form",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 68399,
+   "total_ms": 68452
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

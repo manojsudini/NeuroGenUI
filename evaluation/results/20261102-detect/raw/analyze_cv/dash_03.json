@@ -1,0 +1,158 @@
+{
+ "_ok": true,
+ "_wall_ms": 12602.2,
+ "value": {
+  "components": [
+   {
+    "type": "radio",
+    "label": "\u4e09Hi Sam",
+    "bbox": {
+     "x": 0.262,
+     "y": 0.1203,
+     "w": 0.19,
+     "h": 0.0759
+    },
+    "confidence": 0.864,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.2516,
+     "w": 0.512,
+     "h": 0.25
+    },
+    "confidence": 0.931,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Boance",
+    "bbox": {
+     "x": 0.262,
+     "y": 0.2911,
+     "w": 0.095,
+     "h": 0.0633
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 1
+   },
+   {
+    "type": "checkbox",
+    "label": "82,450",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.3782,
+     "w": 0.147,
+     "h": 0.0934
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "Request",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.5316,
+     "w": 0.244,
+     "h": 0.0839
+    },
+    "confidence": 0.848,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.5443,
+     "w": 0.239,
+     "h": 0.0823
+    },
+    "confidence": 0.867,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Activity",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.6566,
+     "w": 0.102,
+     "h": 0.0712
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Coffee-$y",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.7532,
+     "w": 0.145,
+     "h": 0.0601
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.7674,
+     "w": 0.197,
+     "h": 0.1456
+    },
+    "confidence": 0.7,
+    "source": "cv",
+    "shape": "list",
+    "ocr": false,
+    "items": [
+     "Salary+$1,200",
+     "Groceries-$36"
+    ],
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 12547,
+   "vision_ms": 0,
+   "total_ms": 12602
+  },
+  "n_cv_candidates": 15
+ }
+}

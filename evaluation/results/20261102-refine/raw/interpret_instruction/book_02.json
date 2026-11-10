@@ -1,0 +1,93 @@
+{
+ "_ok": true,
+ "_wall_ms": 4283.0,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "heading",
+      "label": "Book appointment",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "select",
+      "label": "Select doctor",
+      "props": {
+       "name": "doctor",
+       "options": [
+        "Doctor 1",
+        "Doctor 2",
+        "Doctor 3"
+       ]
+      }
+     },
+     {
+      "type": "input",
+      "label": "Date",
+      "props": {
+       "inputType": "date",
+       "required": true,
+       "name": "date"
+      }
+     },
+     {
+      "type": "radio",
+      "label": "Time slot",
+      "props": {
+       "name": "time_slot",
+       "group": "Time slot",
+       "options": [
+        "9:00",
+        "11:00",
+        "15:00"
+       ]
+      }
+     },
+     {
+      "type": "textarea",
+      "label": "Reason for visit",
+      "props": {
+       "name": "reason",
+       "rows": 4
+      }
+     },
+     {
+      "type": "button",
+      "label": "Confirm booking",
+      "events": [
+       {
+        "on": "click",
+        "actions": [
+         {
+          "type": "validate_required",
+          "targets": [
+           "date"
+          ],
+          "message": "Please select a date for your appointment."
+         },
+         {
+          "type": "show_message",
+          "text": "Appointment booked",
+          "tone": "success"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "meta": {
+     "title": "Book appointment",
+     "category": "booking"
+    },
+    "confidence": 0.98
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4282,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"heading\",\"label\":\"Book appointment\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"select\",\"label\":\"Select doctor\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"doctor\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":[\"Doctor 1\",\"Doctor 2\",\"Doctor 3\"],\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Date\",\"props\":{\"level\":null,\"inputType\":\"date\",\"placeholder\":null,\"required\":true,\"name\":\"date\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"radio\",\"label\":\"Time slot\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"time_slot\",\"rows\":null,\"checked\":null,\"group\":\"Time slot\",\"options\":[\"9:00\",\"11:00\",\"15:00\"],\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"textarea\",\"label\":\"Reason for visit\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"reason\",\"rows\":4,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Confirm booking\",\"props\":null,\"style\":null,\"events\":[{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"date\"],\"target\":null,\"format\":null,\"message\":\"Please select a date for your appointment.\",\"text\":null,\"tone\":null,\"page\":null},{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Appointment booked\",\"tone\":\"success\",\"page\":null}]}],\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Book appointment\",\"category\":\"booking\"},\"confidence\":0.98}]}"
+ }
+}

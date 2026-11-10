@@ -1,0 +1,229 @@
+{
+  "id": "set_04",
+  "category": "settings",
+  "title": "Privacy",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('set_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 581,
+  "instruction": "A privacy settings screen with a back icon and the title Privacy, profile visibility options Public, Friends only and Private, a divider, Show online status and Allow tagging checkboxes, and Reset and Save buttons. Save shows the message Privacy settings saved.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.0695,
+        "w": 0.485,
+        "h": 0.1377
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.2778,
+        "y": 0.1004,
+        "w": 0.044,
+        "h": 0.0757
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "back"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Privacy",
+      "bbox": {
+        "x": 0.3418,
+        "y": 0.1024,
+        "w": 0.114,
+        "h": 0.0717
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "Profile visibility",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.2381,
+        "w": 0.1557,
+        "h": 0.0506
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "Public",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.3198,
+        "w": 0.1003,
+        "h": 0.0551
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "Friends only",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.4058,
+        "w": 0.1657,
+        "h": 0.0551
+      },
+      "parent": null
+    },
+    {
+      "type": "radio",
+      "label": "Private",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.4919,
+        "w": 0.1149,
+        "h": 0.0551
+      },
+      "parent": null
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.5779,
+        "w": 0.485,
+        "h": 0.0241
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Show online status",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.633,
+        "w": 0.2301,
+        "h": 0.0551
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Allow tagging",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.7191,
+        "w": 0.1704,
+        "h": 0.0551
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Reset",
+      "bbox": {
+        "x": 0.2598,
+        "y": 0.8051,
+        "w": 0.2305,
+        "h": 0.0929
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "bbox": {
+        "x": 0.5143,
+        "y": 0.8051,
+        "w": 0.2305,
+        "h": 0.0929
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Privacy",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Public",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Friends only",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "radio",
+      "label_contains": "Private",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Show online status",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Allow tagging",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Reset",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Save",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

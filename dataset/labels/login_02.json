@@ -1,0 +1,193 @@
+{
+  "id": "login_02",
+  "category": "login",
+  "title": "Friendly login",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('login_02')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 652,
+  "instruction": "A social network home page. The top bar has the Friendly logo text, an email field, a password field and a Log In button. Below it a big heading 'Connect with friends', a short paragraph and a wide banner image. Clicking Log In with empty fields shows an error.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.0518,
+        "y": 0.075,
+        "w": 0.8895,
+        "h": 0.138
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Friendly",
+      "bbox": {
+        "x": 0.0698,
+        "y": 0.1121,
+        "w": 0.1173,
+        "h": 0.0639
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2091,
+        "y": 0.1026,
+        "w": 0.23,
+        "h": 0.0828
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.4611,
+        "y": 0.1026,
+        "w": 0.23,
+        "h": 0.0828
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Log In",
+      "bbox": {
+        "x": 0.7131,
+        "y": 0.1026,
+        "w": 0.1209,
+        "h": 0.0828
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Connect with friends",
+      "bbox": {
+        "x": 0.0518,
+        "y": 0.2989,
+        "w": 0.3097,
+        "h": 0.0639
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0518,
+        "y": 0.3904,
+        "w": 0.6227,
+        "h": 0.1104
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0518,
+        "y": 0.5285,
+        "w": 0.8895,
+        "h": 0.3528
+      },
+      "parent": null,
+      "props": {
+        "alt": "banner",
+        "shape": "rect"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Log In",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Friendly",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Log In",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Connect with friends",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Log In",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

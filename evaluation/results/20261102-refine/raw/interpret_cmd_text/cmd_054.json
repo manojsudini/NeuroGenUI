@@ -1,0 +1,25 @@
+{
+ "_ok": true,
+ "_wall_ms": 2016.9,
+ "value": {
+  "ops": [
+   {
+    "op": "style",
+    "target": {
+     "ref": "add to cart button",
+     "id": "btn_add_to_cart"
+    },
+    "changes": {
+     "style": {
+      "variant": "primary",
+      "color": "#ea580c"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2015,
+  "raw": "{\"ops\":[{\"op\":\"style\",\"target\":{\"ref\":\"add to cart button\",\"id\":\"btn_add_to_cart\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":\"primary\",\"color\":\"orange\",\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

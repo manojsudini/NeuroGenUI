@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 2387.8,
+ "value": {
+  "text": "When Cancel is clicked, go back to the home page.",
+  "model": "whisper-1",
+  "duration_ms": 2387
+ }
+}

@@ -1,0 +1,308 @@
+{
+  "id": "dash_02",
+  "category": "dashboard",
+  "title": "Overview",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('dash_02')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 635,
+  "instruction": "A dashboard with a left sidebar menu (Overview, Analytics, Customers, Logout), a header with the title Overview and a search box, two charts side by side and a Tasks card with three checkboxes: Review reports, Call supplier and Update pricing. Logout returns to a Login page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0595,
+        "y": 0.1078,
+        "w": 0.2032,
+        "h": 0.5669
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Menu",
+      "bbox": {
+        "x": 0.0775,
+        "y": 0.1393,
+        "w": 0.0658,
+        "h": 0.0566
+      },
+      "parent": 0,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Overview",
+      "bbox": {
+        "x": 0.0775,
+        "y": 0.2274,
+        "w": 0.0986,
+        "h": 0.0526
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Analytics",
+      "bbox": {
+        "x": 0.0775,
+        "y": 0.3115,
+        "w": 0.093,
+        "h": 0.0526
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Customers",
+      "bbox": {
+        "x": 0.0775,
+        "y": 0.3957,
+        "w": 0.1153,
+        "h": 0.0526
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Logout",
+      "bbox": {
+        "x": 0.0775,
+        "y": 0.4798,
+        "w": 0.0754,
+        "h": 0.0526
+      },
+      "parent": 0
+    },
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.2927,
+        "y": 0.1078,
+        "w": 0.6503,
+        "h": 0.1417
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Overview",
+      "bbox": {
+        "x": 0.3107,
+        "y": 0.1459,
+        "w": 0.1373,
+        "h": 0.0656
+      },
+      "parent": 6,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Search",
+      "bbox": {
+        "x": 0.468,
+        "y": 0.1362,
+        "w": 0.26,
+        "h": 0.085
+      },
+      "parent": 6,
+      "props": {
+        "inputType": "search"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2927,
+        "y": 0.2811,
+        "w": 0.3131,
+        "h": 0.2835
+      },
+      "parent": null,
+      "props": {
+        "alt": "visits chart",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.6298,
+        "y": 0.2811,
+        "w": 0.3131,
+        "h": 0.2835
+      },
+      "parent": null,
+      "props": {
+        "alt": "sales chart",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2927,
+        "y": 0.596,
+        "w": 0.6503,
+        "h": 0.3243
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Tasks",
+      "bbox": {
+        "x": 0.3147,
+        "y": 0.6307,
+        "w": 0.0755,
+        "h": 0.0566
+      },
+      "parent": 11,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Review reports",
+      "bbox": {
+        "x": 0.3147,
+        "y": 0.703,
+        "w": 0.2036,
+        "h": 0.0504
+      },
+      "parent": 11
+    },
+    {
+      "type": "checkbox",
+      "label": "Call supplier",
+      "bbox": {
+        "x": 0.3147,
+        "y": 0.7691,
+        "w": 0.1621,
+        "h": 0.0504
+      },
+      "parent": 11
+    },
+    {
+      "type": "checkbox",
+      "label": "Update pricing",
+      "bbox": {
+        "x": 0.3147,
+        "y": 0.8353,
+        "w": 0.186,
+        "h": 0.0504
+      },
+      "parent": 11
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Logout",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Menu",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Overview",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Analytics",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Customers",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Logout",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Overview",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Search",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Tasks",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Review reports",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Call supplier",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Update pricing",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Logout",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

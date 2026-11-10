@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 703.6,
+ "value": {
+  "text": "Remove the Watch Demo button.",
+  "model": "whisper-1",
+  "duration_ms": 703
+ }
+}

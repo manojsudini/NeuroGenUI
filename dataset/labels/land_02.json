@@ -1,0 +1,320 @@
+{
+  "id": "land_02",
+  "category": "landing",
+  "title": "Buildr",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('land_02')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 814,
+  "instruction": "A product landing page for Buildr with a navbar (Product, Docs, Blog), a centered headline Build apps faster with a subtitle, a work email field with a Join waitlist button, a product screenshot and a Loved by teams row of four customer logos. Join waitlist checks that the email is valid and then shows You are on the list.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0581,
+        "y": 0.0531,
+        "w": 0.8791,
+        "h": 0.0982
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Buildr",
+      "bbox": {
+        "x": 0.0781,
+        "y": 0.0703,
+        "w": 0.092,
+        "h": 0.0638
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Product",
+      "bbox": {
+        "x": 0.6689,
+        "y": 0.0774,
+        "w": 0.086,
+        "h": 0.0496
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Docs",
+      "bbox": {
+        "x": 0.7849,
+        "y": 0.0774,
+        "w": 0.0548,
+        "h": 0.0496
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Blog",
+      "bbox": {
+        "x": 0.8696,
+        "y": 0.0774,
+        "w": 0.0476,
+        "h": 0.0496
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Build apps faster",
+      "bbox": {
+        "x": 0.3414,
+        "y": 0.1783,
+        "w": 0.3126,
+        "h": 0.0764
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.2339,
+        "y": 0.2817,
+        "w": 0.5275,
+        "h": 0.0565
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Work email",
+      "bbox": {
+        "x": 0.183,
+        "y": 0.3653,
+        "w": 0.4036,
+        "h": 0.0663
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Join waitlist",
+      "bbox": {
+        "x": 0.6106,
+        "y": 0.3653,
+        "w": 0.2018,
+        "h": 0.0663
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0581,
+        "y": 0.4587,
+        "w": 0.8791,
+        "h": 0.2703
+      },
+      "parent": null,
+      "props": {
+        "alt": "product screenshot",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Loved by teams",
+      "bbox": {
+        "x": 0.4048,
+        "y": 0.7559,
+        "w": 0.1858,
+        "h": 0.0537
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0581,
+        "y": 0.8367,
+        "w": 0.2018,
+        "h": 0.086
+      },
+      "parent": null,
+      "props": {
+        "alt": "logo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2839,
+        "y": 0.8367,
+        "w": 0.2018,
+        "h": 0.086
+      },
+      "parent": null,
+      "props": {
+        "alt": "logo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.5097,
+        "y": 0.8367,
+        "w": 0.2018,
+        "h": 0.086
+      },
+      "parent": null,
+      "props": {
+        "alt": "logo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.7355,
+        "y": 0.8367,
+        "w": 0.2018,
+        "h": 0.086
+      },
+      "parent": null,
+      "props": {
+        "alt": "logo",
+        "shape": "rect"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Join waitlist",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Work email",
+        "format": "email"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Join waitlist",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "list"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Buildr",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Product",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Docs",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Blog",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Build apps faster",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Work email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Work email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Join waitlist",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Loved by teams",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Join waitlist",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Work email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Join waitlist",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "list"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

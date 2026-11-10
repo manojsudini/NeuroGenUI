@@ -1,0 +1,29 @@
+{
+ "_ok": true,
+ "_wall_ms": 2347.2,
+ "value": {
+  "ops": [
+   {
+    "op": "add",
+    "component": {
+     "type": "text",
+     "label": "Free for 30 days",
+     "style": {
+      "size": "sm"
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "download app button",
+      "id": "btn_download_app"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2346,
+  "raw": "{\"ops\":[{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"text\",\"label\":\"Free for 30 days\",\"props\":{ \"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"sm\",\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"download app button\",\"id\":\"btn_download_app\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

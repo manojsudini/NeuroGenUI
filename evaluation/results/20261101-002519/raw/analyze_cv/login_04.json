@@ -1,0 +1,136 @@
+{
+ "_ok": true,
+ "_wall_ms": 122.4,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.039,
+     "y": 0.0929,
+     "w": 0.428,
+     "h": 0.7821
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.1089,
+     "w": 0.228,
+     "h": 0.0554
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.094,
+     "y": 0.225,
+     "w": 0.071,
+     "h": 0.1214
+    },
+    "confidence": 0.89,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.514,
+     "y": 0.2268,
+     "w": 0.257,
+     "h": 0.0375
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.511,
+     "y": 0.2821,
+     "w": 0.42,
+     "h": 0.1196
+    },
+    "confidence": 0.862,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.4071,
+     "w": 0.422,
+     "h": 0.1161
+    },
+    "confidence": 0.779,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.512,
+     "y": 0.5286,
+     "w": 0.419,
+     "h": 0.125
+    },
+    "confidence": 0.835,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.586,
+     "y": 0.7036,
+     "w": 0.054,
+     "h": 0.0393
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.514,
+     "y": 0.8018,
+     "w": 0.118,
+     "h": 0.05
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 113,
+   "vision_ms": 0,
+   "total_ms": 122
+  },
+  "n_cv_candidates": 13
+ }
+}

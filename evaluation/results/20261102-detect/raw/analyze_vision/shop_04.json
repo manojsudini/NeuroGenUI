@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 7167.3,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.2,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Shipping",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.28,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.55,
+     "y": 0.28,
+     "w": 0.35,
+     "h": 0.5
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "order summary",
+    "bbox": {
+     "x": 0.57,
+     "y": 0.3,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.33,
+     "w": 0.4,
+     "h": 0.02
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.35,
+     "w": 0.4,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.57,
+     "y": 0.36,
+     "w": 0.3,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "Address",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.44,
+     "w": 0.4,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.57,
+     "y": 0.48,
+     "w": 0.3,
+     "h": 0.02
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Total $54",
+    "bbox": {
+     "x": 0.57,
+     "y": 0.52,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "City",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.54,
+     "w": 0.18,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Zip code",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.54,
+     "w": 0.2,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Place order",
+    "bbox": {
+     "x": 0.57,
+     "y": 0.58,
+     "w": 0.3,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Payment",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.66,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Card",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.71,
+     "w": 0.14,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "PayPal",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.76,
+     "w": 0.19,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Cash on delivery",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.81,
+     "w": 0.34,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 642,
+  "mode": "vision",
+  "title": "Checkout",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7143,
+   "total_ms": 7167
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

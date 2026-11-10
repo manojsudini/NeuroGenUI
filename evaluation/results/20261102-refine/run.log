@@ -1,0 +1,142 @@
+12:18:40 INFO eval: dataset=dev (/home/dheerax/Projects/Freelance/2026-10-28_neurogenui/project/dataset)
+12:18:40 INFO eval: run dir /home/dheerax/Projects/Freelance/2026-10-28_neurogenui/project/evaluation/results/20261102-refine | 40 sketches, 80 commands | baseline=True pipeline=True modes=['cv', 'vision', 'hybrid']
+12:18:41 INFO eval.gen: generation API stages 1/40 done (login_03)
+12:18:41 INFO eval.gen: generation API stages 2/40 done (login_04)
+12:18:41 INFO eval.gen: generation API stages 3/40 done (login_01)
+12:18:41 INFO eval.gen: generation API stages 4/40 done (login_02)
+12:18:41 INFO eval.gen: generation API stages 5/40 done (reg_01)
+12:18:41 INFO eval.gen: generation API stages 6/40 done (reg_03)
+12:18:41 INFO eval.gen: generation API stages 7/40 done (reg_02)
+12:18:41 INFO eval.gen: generation API stages 8/40 done (reg_04)
+12:18:41 INFO eval.gen: generation API stages 9/40 done (dash_01)
+12:18:41 INFO eval.gen: generation API stages 10/40 done (dash_04)
+12:18:41 INFO eval.gen: generation API stages 11/40 done (dash_02)
+12:18:41 INFO eval.gen: generation API stages 12/40 done (prof_01)
+12:18:41 INFO eval.gen: generation API stages 13/40 done (dash_03)
+12:18:41 INFO eval.gen: generation API stages 14/40 done (prof_02)
+12:18:41 INFO eval.gen: generation API stages 15/40 done (prof_03)
+12:18:41 INFO eval.gen: generation API stages 16/40 done (prof_04)
+12:18:41 INFO eval.gen: generation API stages 17/40 done (shop_02)
+12:18:41 INFO eval.gen: generation API stages 18/40 done (shop_03)
+12:18:41 INFO eval.gen: generation API stages 19/40 done (shop_01)
+12:18:41 INFO eval.gen: generation API stages 20/40 done (bank_01)
+12:18:41 INFO eval.gen: generation API stages 21/40 done (bank_02)
+12:18:41 INFO eval.gen: generation API stages 22/40 done (shop_04)
+12:18:41 INFO eval.gen: generation API stages 23/40 done (bank_03)
+12:18:41 INFO eval.gen: generation API stages 24/40 done (book_02)
+12:18:41 INFO eval.gen: generation API stages 25/40 done (bank_04)
+12:18:41 INFO eval.gen: generation API stages 26/40 done (book_01)
+12:18:41 INFO eval.gen: generation API stages 27/40 done (book_03)
+12:18:41 INFO eval.gen: generation API stages 28/40 done (book_04)
+12:18:41 INFO eval.gen: generation API stages 29/40 done (contact_01)
+12:18:41 INFO eval.gen: generation API stages 30/40 done (contact_03)
+12:18:41 INFO eval.gen: generation API stages 31/40 done (contact_04)
+12:18:41 INFO eval.gen: generation API stages 32/40 done (contact_02)
+12:18:41 INFO eval.gen: generation API stages 33/40 done (set_01)
+12:18:41 INFO eval.gen: generation API stages 34/40 done (set_02)
+12:18:41 INFO eval.gen: generation API stages 35/40 done (set_04)
+12:18:41 INFO eval.gen: generation API stages 36/40 done (set_03)
+12:18:41 INFO eval.gen: generation API stages 37/40 done (land_01)
+12:18:41 INFO eval.gen: generation API stages 38/40 done (land_02)
+12:18:41 INFO eval.gen: generation API stages 39/40 done (land_03)
+12:18:41 INFO eval.gen: generation API stages 40/40 done (land_04)
+12:18:43 INFO eval.gen: pipeline build login_01: ok=True
+12:18:44 INFO eval.gen: pipeline build login_02: ok=True
+12:18:45 INFO eval.gen: pipeline build login_03: ok=True
+12:18:46 INFO eval.gen: pipeline build login_04: ok=True
+12:18:48 INFO eval.gen: pipeline build reg_01: ok=True
+12:18:49 INFO eval.gen: pipeline build reg_02: ok=True
+12:18:50 INFO eval.gen: pipeline build reg_03: ok=True
+12:18:52 INFO eval.gen: pipeline build reg_04: ok=True
+12:18:53 INFO eval.gen: pipeline build dash_01: ok=True
+12:18:54 INFO eval.gen: pipeline build dash_02: ok=True
+12:18:55 INFO eval.gen: pipeline build dash_03: ok=True
+12:18:56 INFO eval.gen: pipeline build dash_04: ok=True
+12:18:57 INFO eval.gen: pipeline build prof_01: ok=True
+12:18:59 INFO eval.gen: pipeline build prof_02: ok=True
+12:19:00 INFO eval.gen: pipeline build prof_03: ok=True
+12:19:01 INFO eval.gen: pipeline build prof_04: ok=True
+12:19:03 INFO eval.gen: pipeline build shop_01: ok=True
+12:19:04 INFO eval.gen: pipeline build shop_02: ok=True
+12:19:05 INFO eval.gen: pipeline build shop_03: ok=True
+12:19:07 INFO eval.gen: pipeline build shop_04: ok=True
+12:19:07 INFO eval.gen: pipeline build bank_01: ok=True
+12:19:09 INFO eval.gen: pipeline build bank_02: ok=True
+12:19:10 INFO eval.gen: pipeline build bank_03: ok=True
+12:19:11 INFO eval.gen: pipeline build bank_04: ok=True
+12:19:12 INFO eval.gen: pipeline build book_01: ok=True
+12:19:14 INFO eval.gen: pipeline build book_02: ok=True
+12:19:15 INFO eval.gen: pipeline build book_03: ok=True
+12:19:16 INFO eval.gen: pipeline build book_04: ok=True
+12:19:17 INFO eval.gen: pipeline build contact_01: ok=True
+12:19:19 INFO eval.gen: pipeline build contact_02: ok=True
+12:19:20 INFO eval.gen: pipeline build contact_03: ok=True
+12:19:21 INFO eval.gen: pipeline build contact_04: ok=True
+12:19:22 INFO eval.gen: pipeline build set_01: ok=True
+12:19:22 INFO eval.gen: pipeline build set_02: ok=True
+12:19:24 INFO eval.gen: pipeline build set_03: ok=True
+12:19:25 INFO eval.gen: pipeline build set_04: ok=True
+12:19:27 INFO eval.gen: pipeline build land_01: ok=True
+12:19:27 INFO eval.gen: pipeline build land_02: ok=True
+12:19:29 INFO eval.gen: pipeline build land_03: ok=True
+12:19:30 INFO eval.gen: pipeline build land_04: ok=True
+12:19:43 INFO eval.gen: command API stages 10/80
+12:19:52 INFO eval.gen: command API stages 20/80
+12:20:03 INFO eval.gen: command API stages 30/80
+12:20:12 INFO eval.gen: command API stages 40/80
+12:20:20 INFO eval.gen: command API stages 50/80
+12:20:31 INFO eval.gen: command API stages 60/80
+12:20:40 INFO eval.gen: command API stages 70/80
+12:20:51 INFO eval.gen: command API stages 80/80
+12:20:52 INFO eval: phase A (systems under test) done in 130.8s; cache hits=360 misses=240
+12:42:50 INFO eval: fault injection: 640 cases
+12:43:11 INFO eval: measured sketch 1/40 login_01: {'oracle': (0.8, 0), 'pipeline': (0.67, 0), 'pipeline_norepair': (0.67, 0), 'baseline': (0.5, 0)}
+12:43:23 INFO eval: measured sketch 2/40 login_02: {'oracle': (0.79, 0), 'pipeline': (0.6, 1), 'pipeline_norepair': (0.6, 1), 'baseline': (0.32, 1)}
+12:43:44 INFO eval: measured sketch 3/40 login_03: {'oracle': (0.5, 0), 'pipeline': (0.38, 2), 'pipeline_norepair': (0.38, 2), 'baseline': (0.36, 2)}
+12:44:04 INFO eval: measured sketch 4/40 login_04: {'oracle': (0.69, 1), 'pipeline': (0.46, 2), 'pipeline_norepair': (0.46, 2), 'baseline': (0.42, 2)}
+12:44:23 INFO eval: measured sketch 5/40 reg_01: {'oracle': (0.51, 0), 'pipeline': (0.37, 1), 'pipeline_norepair': (0.37, 1), 'baseline': (0.44, 1)}
+12:44:35 INFO eval: measured sketch 6/40 reg_02: {'oracle': (0.63, 0), 'pipeline': (0.44, 1), 'pipeline_norepair': (0.44, 1), 'baseline': (0.28, 1)}
+12:45:01 INFO eval: measured sketch 7/40 reg_03: {'oracle': (0.69, 0), 'pipeline': (0.58, 2), 'pipeline_norepair': (0.58, 2), 'baseline': (0.5, 2)}
+12:45:41 INFO eval: measured sketch 8/40 reg_04: {'oracle': (0.8, 0), 'pipeline': (0.71, 1), 'pipeline_norepair': (0.71, 1), 'baseline': (0.46, 1)}
+12:46:00 INFO eval: measured sketch 9/40 dash_01: {'oracle': (0.51, 0), 'pipeline': (0.08, 1), 'pipeline_norepair': (0.08, 1), 'baseline': (0.13, 1)}
+12:46:24 INFO eval: measured sketch 10/40 dash_02: {'oracle': (0.54, 0), 'pipeline': (0.31, 1), 'pipeline_norepair': (0.31, 1), 'baseline': (0.05, 0)}
+12:47:00 INFO eval: measured sketch 11/40 dash_03: {'oracle': (0.46, 0), 'pipeline': (0.12, 1), 'pipeline_norepair': (0.12, 1), 'baseline': (0.38, 0)}
+12:47:58 INFO eval: measured sketch 12/40 dash_04: {'oracle': (0.53, 0), 'pipeline': (0.15, 2), 'pipeline_norepair': (0.15, 2), 'baseline': (0.24, 2)}
+12:48:22 INFO eval: measured sketch 13/40 prof_01: {'oracle': (0.75, 0), 'pipeline': (0.25, 2), 'pipeline_norepair': (0.25, 2), 'baseline': (0.1, 2)}
+12:48:47 INFO eval: measured sketch 14/40 prof_02: {'oracle': (0.78, 0), 'pipeline': (0.58, 2), 'pipeline_norepair': (0.58, 2), 'baseline': (0.19, 2)}
+12:49:00 INFO eval: measured sketch 15/40 prof_03: {'oracle': (0.75, 0), 'pipeline': (0.64, 1), 'pipeline_norepair': (0.64, 1), 'baseline': (0.45, 1)}
+12:49:29 INFO eval: measured sketch 16/40 prof_04: {'oracle': (0.53, 0), 'pipeline': (0.56, 2), 'pipeline_norepair': (0.56, 2), 'baseline': (0.33, 2)}
+12:50:24 INFO eval: measured sketch 17/40 shop_01: {'oracle': (0.5, 0), 'pipeline': (0.25, 2), 'pipeline_norepair': (0.25, 2), 'baseline': (0.19, 1)}
+12:50:44 INFO eval: measured sketch 18/40 shop_02: {'oracle': (0.71, 0), 'pipeline': (0.56, 2), 'pipeline_norepair': (0.56, 2), 'baseline': (0.41, 2)}
+12:50:56 INFO eval: measured sketch 19/40 shop_03: {'oracle': (0.56, 0), 'pipeline': (0.45, 1), 'pipeline_norepair': (0.45, 1), 'baseline': (0.32, 0)}
+12:51:07 INFO eval: measured sketch 20/40 shop_04: {'oracle': (0.37, 0), 'pipeline': (0.5, 1), 'pipeline_norepair': (0.5, 1), 'baseline': (0.14, 1)}
+12:51:19 INFO eval: measured sketch 21/40 bank_01: {'oracle': (0.46, 0), 'pipeline': (0.16, 1), 'pipeline_norepair': (0.16, 1), 'baseline': (0.25, 1)}
+12:51:30 INFO eval: measured sketch 22/40 bank_02: {'oracle': (0.71, 0), 'pipeline': (0.26, 1), 'pipeline_norepair': (0.26, 1), 'baseline': (0.18, 1)}
+12:51:51 INFO eval: measured sketch 23/40 bank_03: {'oracle': (0.58, 0), 'pipeline': (0.29, 2), 'pipeline_norepair': (0.29, 2), 'baseline': (0.1, 2)}
+12:52:02 INFO eval: measured sketch 24/40 bank_04: {'oracle': (0.37, 0), 'pipeline': (0.31, 1), 'pipeline_norepair': (0.31, 1), 'baseline': (0.26, 1)}
+12:52:13 INFO eval: measured sketch 25/40 book_01: {'oracle': (0.71, 0), 'pipeline': (0.28, 1), 'pipeline_norepair': (0.28, 1), 'baseline': (0.31, 1)}
+12:52:34 INFO eval: measured sketch 26/40 book_02: {'oracle': (0.59, 0), 'pipeline': (0.28, 2), 'pipeline_norepair': (0.28, 2), 'baseline': (0.46, 2)}
+12:52:47 INFO eval: measured sketch 27/40 book_03: {'oracle': (0.34, 0), 'pipeline': (0.36, 1), 'pipeline_norepair': (0.36, 1), 'baseline': (0.27, 1)}
+12:53:17 INFO eval: measured sketch 28/40 book_04: {'oracle': (0.73, 0), 'pipeline': (0.57, 2), 'pipeline_norepair': (0.57, 2), 'baseline': (0.32, 0)}
+12:53:41 INFO eval: measured sketch 29/40 contact_01: {'oracle': (0.76, 1), 'pipeline': (0.39, 2), 'pipeline_norepair': (0.39, 2), 'baseline': (0.63, 2)}
+12:53:53 INFO eval: measured sketch 30/40 contact_02: {'oracle': (0.77, 0), 'pipeline': (0.42, 1), 'pipeline_norepair': (0.42, 1), 'baseline': (0.2, 1)}
+12:54:05 INFO eval: measured sketch 31/40 contact_03: {'oracle': (0.62, 0), 'pipeline': (0.48, 1), 'pipeline_norepair': (0.48, 1), 'baseline': (0.33, 1)}
+12:54:17 INFO eval: measured sketch 32/40 contact_04: {'oracle': (0.37, 1), 'pipeline': (0.41, 1), 'pipeline_norepair': (0.41, 1), 'baseline': (0.11, 1)}
+12:54:29 INFO eval: measured sketch 33/40 set_01: {'oracle': (0.53, 0), 'pipeline': (0.25, 1), 'pipeline_norepair': (0.25, 1), 'baseline': (0.32, 0)}
+12:54:51 INFO eval: measured sketch 34/40 set_02: {'oracle': (0.65, 0), 'pipeline': (0.26, 0), 'pipeline_norepair': (0.26, 0), 'baseline': (0.24, 2)}
+12:55:04 INFO eval: measured sketch 35/40 set_03: {'oracle': (0.41, 0), 'pipeline': (0.47, 1), 'pipeline_norepair': (0.47, 1), 'baseline': (0.21, 1)}
+12:55:18 INFO eval: measured sketch 36/40 set_04: {'oracle': (0.43, 0), 'pipeline': (0.43, 1), 'pipeline_norepair': (0.43, 1), 'baseline': (0.13, 1)}
+12:55:40 INFO eval: measured sketch 37/40 land_01: {'oracle': (0.35, 0), 'pipeline': (0.27, 2), 'pipeline_norepair': (0.27, 2), 'baseline': (0.22, 2)}
+12:56:02 INFO eval: measured sketch 38/40 land_02: {'oracle': (0.81, 1), 'pipeline': (0.7, 2), 'pipeline_norepair': (0.7, 2), 'baseline': (0.22, 2)}
+12:56:22 INFO eval: measured sketch 39/40 land_03: {'oracle': (0.61, 0), 'pipeline': (0.34, 2), 'pipeline_norepair': (0.34, 2), 'baseline': (0.25, 2)}
+12:56:43 INFO eval: measured sketch 40/40 land_04: {'oracle': (0.54, 0), 'pipeline': (0.35, 2), 'pipeline_norepair': (0.35, 2), 'baseline': (0.16, 2)}
+12:57:14 INFO eval: measured commands 10/80
+12:57:49 INFO eval: measured commands 20/80
+12:59:36 INFO eval: measured commands 30/80
+13:01:31 INFO eval: measured commands 40/80
+13:02:07 INFO eval: measured commands 50/80
+13:02:50 INFO eval: measured commands 60/80
+13:05:06 INFO eval: measured commands 70/80
+13:06:49 INFO eval: measured commands 80/80
+13:07:08 INFO eval.report: report written: 20 metrics, 17 tables, 10 plots
+13:07:08 INFO eval: done in 48.5 min -> /home/dheerax/Projects/Freelance/2026-10-28_neurogenui/project/evaluation/results/20261102-refine

@@ -1,0 +1,218 @@
+{
+  "id": "hold_set_01",
+  "category": "settings",
+  "title": "Notifications",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_set_01')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pencil",
+    "layout": "narrow",
+    "style": "harsh",
+    "page_rotation_deg": -1.64,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A notification preferences page with the heading Notification preferences, three toggle rows for Comments alerts, Mentions alerts and Digest email, a Frequency dropdown (Instant, Daily, Weekly), and Save preferences and Reset buttons. Save preferences shows the message Preferences saved.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Notification preferences",
+      "bbox": {
+        "x": 0.1828,
+        "y": 0.1123,
+        "w": 0.407,
+        "h": 0.1181
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Comments",
+      "bbox": {
+        "x": 0.1841,
+        "y": 0.2551,
+        "w": 0.1053,
+        "h": 0.0617
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Comments alerts",
+      "bbox": {
+        "x": 0.4033,
+        "y": 0.2371,
+        "w": 0.2227,
+        "h": 0.0664
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "text",
+      "label": "Mentions",
+      "bbox": {
+        "x": 0.185,
+        "y": 0.3429,
+        "w": 0.0866,
+        "h": 0.0607
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Mentions alerts",
+      "bbox": {
+        "x": 0.4047,
+        "y": 0.3256,
+        "w": 0.204,
+        "h": 0.0651
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "text",
+      "label": "Weekly digest",
+      "bbox": {
+        "x": 0.1858,
+        "y": 0.4278,
+        "w": 0.1326,
+        "h": 0.0631
+      },
+      "parent": null
+    },
+    {
+      "type": "checkbox",
+      "label": "Digest email",
+      "bbox": {
+        "x": 0.4061,
+        "y": 0.4148,
+        "w": 0.178,
+        "h": 0.0637
+      },
+      "parent": null,
+      "props": {
+        "toggle": true
+      }
+    },
+    {
+      "type": "select",
+      "label": "Frequency",
+      "bbox": {
+        "x": 0.1867,
+        "y": 0.4925,
+        "w": 0.6249,
+        "h": 0.122
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Instant",
+          "Daily",
+          "Weekly"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Save preferences",
+      "bbox": {
+        "x": 0.188,
+        "y": 0.6355,
+        "w": 0.2284,
+        "h": 0.1033
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Reset",
+      "bbox": {
+        "x": 0.5075,
+        "y": 0.6263,
+        "w": 0.1194,
+        "h": 0.0992
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Save preferences",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "preferences saved"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Notification preferences",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Comments alerts",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Mentions alerts",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Digest email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Frequency",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Save preferences",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Reset",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Save preferences",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "preferences saved"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

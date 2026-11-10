@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2281.1,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "dashboard heading",
+     "id": "h_dashboard"
+    },
+    "changes": {
+     "label": "Overview"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2280,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"dashboard heading\",\"id\":\"h_dashboard\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Overview\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,296 @@
+{
+  "id": "hold_dash_02",
+  "category": "dashboard",
+  "title": "Today",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_dash_02')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": 1.3,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 720,
+  "instruction": "A fitness dashboard on a phone: a header with a menu icon, the title Today and a bell icon, a big round progress ring, three small cards Steps, Calories and Sleep, a full width Start workout button and a View history link. Start workout shows the message Workout started and View history opens a History page.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.2402,
+        "y": 0.0967,
+        "w": 0.4973,
+        "h": 0.1265
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.258,
+        "y": 0.126,
+        "w": 0.0435,
+        "h": 0.0599
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "menu"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Today",
+      "bbox": {
+        "x": 0.3199,
+        "y": 0.1223,
+        "w": 0.085,
+        "h": 0.0703
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.6749,
+        "y": 0.1336,
+        "w": 0.0443,
+        "h": 0.0602
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "bell"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3848,
+        "y": 0.2434,
+        "w": 0.1988,
+        "h": 0.2715
+      },
+      "parent": null,
+      "props": {
+        "alt": "progress ring",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.233,
+        "y": 0.5338,
+        "w": 0.1583,
+        "h": 0.1849
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Steps",
+      "bbox": {
+        "x": 0.2555,
+        "y": 0.5635,
+        "w": 0.0659,
+        "h": 0.0584
+      },
+      "parent": 5,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "8400",
+      "bbox": {
+        "x": 0.2545,
+        "y": 0.6388,
+        "w": 0.0542,
+        "h": 0.0489
+      },
+      "parent": 5
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.3998,
+        "y": 0.5376,
+        "w": 0.1594,
+        "h": 0.1852
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Calories",
+      "bbox": {
+        "x": 0.4227,
+        "y": 0.5673,
+        "w": 0.0918,
+        "h": 0.0591
+      },
+      "parent": 8,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "520",
+      "bbox": {
+        "x": 0.4215,
+        "y": 0.6428,
+        "w": 0.0422,
+        "h": 0.0486
+      },
+      "parent": 8
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.5673,
+        "y": 0.5414,
+        "w": 0.1604,
+        "h": 0.1856
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Sleep",
+      "bbox": {
+        "x": 0.5904,
+        "y": 0.5712,
+        "w": 0.0635,
+        "h": 0.0585
+      },
+      "parent": 11,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "7h",
+      "bbox": {
+        "x": 0.5891,
+        "y": 0.6468,
+        "w": 0.028,
+        "h": 0.0484
+      },
+      "parent": 11
+    },
+    {
+      "type": "button",
+      "label": "Start workout",
+      "bbox": {
+        "x": 0.2316,
+        "y": 0.7413,
+        "w": 0.4914,
+        "h": 0.0837
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "View history",
+      "bbox": {
+        "x": 0.4133,
+        "y": 0.8434,
+        "w": 0.1233,
+        "h": 0.0558
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Start workout",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "workout started"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "View history",
+      "expect": {
+        "type": "navigate",
+        "page": "History"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Today",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Steps",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Calories",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Sleep",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Start workout",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "View history",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Start workout",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "workout started"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "View history",
+      "expect": {
+        "type": "navigate",
+        "page": "History"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

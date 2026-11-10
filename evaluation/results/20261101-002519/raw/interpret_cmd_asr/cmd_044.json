@@ -1,0 +1,24 @@
+{
+ "_ok": true,
+ "_wall_ms": 2612.5,
+ "value": {
+  "ops": [
+   {
+    "op": "style",
+    "target": {
+     "ref": "search box",
+     "id": "inp_search_box"
+    },
+    "changes": {
+     "style": {
+      "width": "full"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2611,
+  "raw": "{\"ops\":[{\"op\":\"style\",\"target\":{\"ref\":\"search box\",\"id\":\"inp_search_box\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

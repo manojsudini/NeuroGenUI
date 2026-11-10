@@ -1,0 +1,21 @@
+{
+ "_ok": true,
+ "_wall_ms": 1612.5,
+ "value": {
+  "ops": [
+   {
+    "op": "resize",
+    "target": {
+     "ref": "MyBank",
+     "id": "txt_mybank"
+    },
+    "scale": 1.3,
+    "axis": "both",
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1611,
+  "raw": "{\"ops\":[{\"op\":\"resize\",\"target\":{\"ref\":\"MyBank\",\"id\":\"txt_mybank\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":1.3,\"axis\":\"both\",\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

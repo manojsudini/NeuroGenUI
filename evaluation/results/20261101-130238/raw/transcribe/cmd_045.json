@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 685.2,
+ "value": {
+  "text": "Make the avatar smaller.",
+  "model": "whisper-1",
+  "duration_ms": 685
+ }
+}

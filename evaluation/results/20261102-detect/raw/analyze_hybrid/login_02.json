@@ -1,0 +1,140 @@
+{
+ "_ok": true,
+ "_wall_ms": 13481.6,
+ "value": {
+  "components": [
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.051,
+     "y": 0.0736,
+     "w": 0.891,
+     "h": 0.1472
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.867,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Password",
+    "bbox": {
+     "x": 0.46,
+     "y": 0.1043,
+     "w": 0.232,
+     "h": 0.0798
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.877,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Friendly",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1104,
+     "w": 0.123,
+     "h": 0.069
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Email",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.1058,
+     "w": 0.228,
+     "h": 0.0752
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.876,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Log In",
+    "bbox": {
+     "x": 0.718,
+     "y": 0.1074,
+     "w": 0.116,
+     "h": 0.0859
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.87,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Connect with friends",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.3021,
+     "w": 0.313,
+     "h": 0.0537
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.3928,
+     "w": 0.6085,
+     "h": 0.1025
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.5245,
+     "w": 0.88,
+     "h": 0.3558
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.922,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 652,
+  "mode": "hybrid",
+  "title": "Friendly Login and Connect Landing",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 7162,
+   "vision_ms": 5905,
+   "total_ms": 13480
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 20
+ }
+}

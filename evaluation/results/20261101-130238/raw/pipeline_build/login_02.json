@@ -1,0 +1,1387 @@
+{
+ "_ok": true,
+ "_wall_ms": 797.2,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Friendly login",
+    "category": "landing",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 652,
+     "content": {
+      "x": 0.047,
+      "y": 0.0567,
+      "w": 0.901,
+      "h": 0.8344
+     },
+     "page_width": 1081,
+     "scale": 1.1998
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "hdr_1",
+        "type": "header",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.047,
+         "y": 0.0567,
+         "w": 0.901,
+         "h": 0.184
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_friendly",
+          "type": "text",
+          "label": "Friendly",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.083,
+           "y": 0.0641,
+           "w": 0.037,
+           "h": 0.0259
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_email",
+          "type": "input",
+          "label": "Email",
+          "props": {
+           "inputType": "email",
+           "required": false
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.208,
+           "y": 0.1012,
+           "w": 0.232,
+           "h": 0.0859
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_friendly"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_password",
+          "type": "input",
+          "label": "Password",
+          "props": {
+           "inputType": "password",
+           "required": false
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.455,
+           "y": 0.0951,
+           "w": 0.243,
+           "h": 0.0997
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_email"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_log_in",
+          "type": "button",
+          "label": "Log In",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.713,
+           "y": 0.0997,
+           "w": 0.129,
+           "h": 0.1012
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_password"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "validate_required",
+              "targets": [
+               "inp_email",
+               "inp_password"
+              ],
+              "message": "Please fill in all fields before logging in."
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_connect_with_friends",
+        "type": "heading",
+        "label": "Connect with friends",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.055,
+         "y": 0.3083,
+         "w": 0.31,
+         "h": 0.0414
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "hdr_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "txt_welcome_to_friendly",
+        "type": "text",
+        "label": "Welcome to Friendly, your social network to connect with friends and share moments.",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.053,
+         "y": 0.3988,
+         "w": 0.604,
+         "h": 0.0567
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_connect_with_friends"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.052,
+         "y": 0.4816,
+         "w": 0.369,
+         "h": 0.0123
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_welcome_to_friendly"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "txt_9",
+          "type": "text",
+          "label": "Text",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.052,
+           "y": 0.4816,
+           "w": 0.154,
+           "h": 0.0123
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_10",
+          "type": "text",
+          "label": "Text",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.279,
+           "y": 0.4816,
+           "w": 0.142,
+           "h": 0.0123
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_9"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "img_11",
+        "type": "image",
+        "label": "",
+        "props": {
+         "alt": "Wide banner image",
+         "photo": "banner"
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.048,
+         "y": 0.5107,
+         "w": 0.899,
+         "h": 0.3804
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 12
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"friendly-login\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Friendly login</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Friendly login\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Header.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Header(props) {\n  return <Stack {...props} type=\"header\" as=\"header\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Header from \"../components/Header.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_LOG_IN_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_email\",\n      \"inp_password\"\n    ],\n    \"message\": \"Please fill in all fields before logging in.\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnLogInClick = () => runActions(\"btn_log_in\", BTN_LOG_IN_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1081 }}>\n      <Header\n        id=\"hdr_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 144 }}\n      >\n        <Text\n          id=\"txt_friendly\"\n          label=\"Friendly\"\n          style={{ minWidth: \"4.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"4%\", minHeight: 20 }}\n        />\n        <Field\n          id=\"inp_email\"\n          label=\"Email\"\n          inputType=\"email\"\n          style={{ width: \"25.7%\", flex: \"0 0 auto\", marginLeft: \"9.8%\" }}\n        />\n        <Field\n          id=\"inp_password\"\n          label=\"Password\"\n          inputType=\"password\"\n          style={{ width: \"27%\", flex: \"0 0 auto\", marginLeft: \"1.7%\" }}\n        />\n        <Button\n          id=\"btn_log_in\"\n          label=\"Log In\"\n          style={{ width: \"14.3%\", flex: \"0 0 auto\", marginLeft: \"1.7%\", height: 64 }}\n          onClick={handleBtnLogInClick}\n        />\n        <Message owner=\"btn_log_in\" />\n      </Header>\n      <Heading\n        id=\"h_connect_with_friends\"\n        label=\"Connect with friends\"\n        level={1}\n        style={{ minWidth: \"34.4%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 53, alignSelf: \"flex-start\", fontSize: 20 }}\n      />\n      <Text\n        id=\"txt_welcome_to_friendly\"\n        label=\"Welcome to Friendly, your social network to connect with friends and share moments.\"\n        style={{ minWidth: \"67%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 44 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"41%\", marginLeft: \"0.6%\", marginTop: 20, alignSelf: \"flex-start\", minHeight: 10 }}\n      >\n        <Text\n          id=\"txt_9\"\n          label=\"Text\"\n          style={{ minWidth: \"41.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 10 }}\n        />\n        <Text\n          id=\"txt_10\"\n          label=\"Text\"\n          style={{ minWidth: \"38.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"19.8%\", minHeight: 10 }}\n        />\n      </Container>\n      <Image\n        id=\"img_11\"\n        photo=\"banner\"\n        alt=\"Wide banner image\"\n        style={{ width: \"100%\", marginTop: 13, height: 298 }}\n      />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Friendly login\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Header(props) {\n  return <Stack {...props} type=\"header\" as=\"header\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_LOG_IN_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_email\",\n      \"inp_password\"\n    ],\n    \"message\": \"Please fill in all fields before logging in.\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnLogInClick = () => runActions(\"btn_log_in\", BTN_LOG_IN_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1081 }}>\n      <Header\n        id=\"hdr_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 144 }}\n      >\n        <Text\n          id=\"txt_friendly\"\n          label=\"Friendly\"\n          style={{ minWidth: \"4.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"4%\", minHeight: 20 }}\n        />\n        <Field\n          id=\"inp_email\"\n          label=\"Email\"\n          inputType=\"email\"\n          style={{ width: \"25.7%\", flex: \"0 0 auto\", marginLeft: \"9.8%\" }}\n        />\n        <Field\n          id=\"inp_password\"\n          label=\"Password\"\n          inputType=\"password\"\n          style={{ width: \"27%\", flex: \"0 0 auto\", marginLeft: \"1.7%\" }}\n        />\n        <Button\n          id=\"btn_log_in\"\n          label=\"Log In\"\n          style={{ width: \"14.3%\", flex: \"0 0 auto\", marginLeft: \"1.7%\", height: 64 }}\n          onClick={handleBtnLogInClick}\n        />\n        <Message owner=\"btn_log_in\" />\n      </Header>\n      <Heading\n        id=\"h_connect_with_friends\"\n        label=\"Connect with friends\"\n        level={1}\n        style={{ minWidth: \"34.4%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 53, alignSelf: \"flex-start\", fontSize: 20 }}\n      />\n      <Text\n        id=\"txt_welcome_to_friendly\"\n        label=\"Welcome to Friendly, your social network to connect with friends and share moments.\"\n        style={{ minWidth: \"67%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 44 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"41%\", marginLeft: \"0.6%\", marginTop: 20, alignSelf: \"flex-start\", minHeight: 10 }}\n      >\n        <Text\n          id=\"txt_9\"\n          label=\"Text\"\n          style={{ minWidth: \"41.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 10 }}\n        />\n        <Text\n          id=\"txt_10\"\n          label=\"Text\"\n          style={{ minWidth: \"38.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"19.8%\", minHeight: 10 }}\n        />\n      </Container>\n      <Image\n        id=\"img_11\"\n        photo=\"banner\"\n        alt=\"Wide banner image\"\n        style={{ width: \"100%\", marginTop: 13, height: 298 }}\n      />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 20,
+    "components": 10,
+    "pages": 1,
+    "loc": 701,
+    "preview_bytes": 16975
+   }
+  },
+  "report0": {
+   "passed": true,
+   "score": 0.9247,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "12 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:hdr_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "hdr_1"
+    },
+    {
+     "id": "presence:txt_friendly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_friendly"
+    },
+    {
+     "id": "presence:inp_email",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_email"
+    },
+    {
+     "id": "presence:inp_password",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_password"
+    },
+    {
+     "id": "presence:btn_log_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_log_in"
+    },
+    {
+     "id": "presence:h_connect_with_friends",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_connect_with_friends"
+    },
+    {
+     "id": "presence:txt_welcome_to_friendly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_friendly"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:txt_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_9"
+    },
+    {
+     "id": "presence:txt_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_10"
+    },
+    {
+     "id": "presence:img_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_11"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:hdr_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "hdr_1"
+    },
+    {
+     "id": "order:box_8",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "layout:txt_friendly",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_friendly"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.34 over 9 sketched components; pairwise order 0.91",
+     "hard": false
+    },
+    {
+     "id": "typing:inp_email",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'test.user@example.com', read 'test.user@example.com'",
+     "hard": true,
+     "target": "inp_email"
+    },
+    {
+     "id": "typing:inp_password",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Secret123!', read 'Secret123!'",
+     "hard": true,
+     "target": "inp_password"
+    },
+    {
+     "id": "clickable:btn_log_in",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_log_in"
+    },
+    {
+     "id": "event:btn_log_in:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "empty fields -> error shown; valid input -> no error",
+     "hard": true,
+     "target": "btn_log_in"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.3411,
+    "order_consistency": 0.9062
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 1,
+    "interactions_passed": 1,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 99.5,
+      "y": 32,
+      "w": 1081,
+      "h": 656.5
+     }
+    },
+    {
+     "id": "hdr_1",
+     "type": "header",
+     "rect": {
+      "x": 99.5,
+      "y": 32,
+      "w": 1081,
+      "h": 144
+     }
+    },
+    {
+     "id": "txt_friendly",
+     "type": "text",
+     "rect": {
+      "x": 143.65625,
+      "y": 77.25,
+      "w": 56.78125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "inp_email",
+     "type": "input",
+     "rect": {
+      "x": 306.171875,
+      "y": 53.5,
+      "w": 277.296875,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_password",
+     "type": "input",
+     "rect": {
+      "x": 601.796875,
+      "y": 53.5,
+      "w": 291.328125,
+      "h": 70
+     }
+    },
+    {
+     "id": "btn_log_in",
+     "type": "button",
+     "rect": {
+      "x": 911.453125,
+      "y": 56.5,
+      "w": 154.296875,
+      "h": 64
+     }
+    },
+    {
+     "id": "h_connect_with_friends",
+     "type": "heading",
+     "rect": {
+      "x": 109.21875,
+      "y": 229,
+      "w": 371.859375,
+      "h": 24
+     }
+    },
+    {
+     "id": "txt_welcome_to_friendly",
+     "type": "text",
+     "rect": {
+      "x": 107.0625,
+      "y": 291,
+      "w": 724.265625,
+      "h": 44
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 105.984375,
+      "y": 355,
+      "w": 443.203125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_9",
+     "type": "text",
+     "rect": {
+      "x": 105.984375,
+      "y": 355,
+      "w": 184.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_10",
+     "type": "text",
+     "rect": {
+      "x": 378.546875,
+      "y": 355,
+      "w": 170.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "img_11",
+     "type": "image",
+     "rect": {
+      "x": 99.5,
+      "y": 390.5,
+      "w": 1081,
+      "h": 298
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 379
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Friendly login",
+    "category": "landing",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    },
+    "frame": {
+     "kind": "desktop",
+     "sketch_width": 1000,
+     "sketch_height": 652,
+     "content": {
+      "x": 0.047,
+      "y": 0.0567,
+      "w": 0.901,
+      "h": 0.8344
+     },
+     "page_width": 1081,
+     "scale": 1.1998
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "hdr_1",
+        "type": "header",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.047,
+         "y": 0.0567,
+         "w": 0.901,
+         "h": 0.184
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_friendly",
+          "type": "text",
+          "label": "Friendly",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.083,
+           "y": 0.0641,
+           "w": 0.037,
+           "h": 0.0259
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_email",
+          "type": "input",
+          "label": "Email",
+          "props": {
+           "inputType": "email",
+           "required": false
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.208,
+           "y": 0.1012,
+           "w": 0.232,
+           "h": 0.0859
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_friendly"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "inp_password",
+          "type": "input",
+          "label": "Password",
+          "props": {
+           "inputType": "password",
+           "required": false
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.455,
+           "y": 0.0951,
+           "w": 0.243,
+           "h": 0.0997
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_email"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_log_in",
+          "type": "button",
+          "label": "Log In",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.713,
+           "y": 0.0997,
+           "w": 0.129,
+           "h": 0.1012
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_password"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "validate_required",
+              "targets": [
+               "inp_email",
+               "inp_password"
+              ],
+              "message": "Please fill in all fields before logging in."
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "h_connect_with_friends",
+        "type": "heading",
+        "label": "Connect with friends",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.055,
+         "y": 0.3083,
+         "w": 0.31,
+         "h": 0.0414
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "hdr_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "txt_welcome_to_friendly",
+        "type": "text",
+        "label": "Welcome to Friendly, your social network to connect with friends and share moments.",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.053,
+         "y": 0.3988,
+         "w": 0.604,
+         "h": 0.0567
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_connect_with_friends"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.052,
+         "y": 0.4816,
+         "w": 0.369,
+         "h": 0.0123
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_welcome_to_friendly"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "txt_9",
+          "type": "text",
+          "label": "Text",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.052,
+           "y": 0.4816,
+           "w": 0.154,
+           "h": 0.0123
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_10",
+          "type": "text",
+          "label": "Text",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.279,
+           "y": 0.4816,
+           "w": 0.142,
+           "h": 0.0123
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_9"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "img_11",
+        "type": "image",
+        "label": "",
+        "props": {
+         "alt": "Wide banner image",
+         "photo": "banner"
+        },
+        "style": {},
+        "bbox": {
+         "x": 0.048,
+         "y": 0.5107,
+         "w": 0.899,
+         "h": 0.3804
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 12
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"friendly-login\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Friendly login</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Friendly login\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\n.ng-geo.ng-stack--row {\n  flex-wrap: nowrap;\n}\n\n@media (max-width: 640px) {\n  .ng-geo.ng-stack--row {\n    flex-wrap: wrap;\n  }\n\n  .ng-geo > * {\n    width: 100% !important;\n    margin-left: 0 !important;\n  }\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  flex: 1;\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Header.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Header(props) {\n  return <Stack {...props} type=\"header\" as=\"header\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Header from \"../components/Header.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_LOG_IN_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_email\",\n      \"inp_password\"\n    ],\n    \"message\": \"Please fill in all fields before logging in.\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnLogInClick = () => runActions(\"btn_log_in\", BTN_LOG_IN_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1081 }}>\n      <Header\n        id=\"hdr_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 144 }}\n      >\n        <Text\n          id=\"txt_friendly\"\n          label=\"Friendly\"\n          style={{ minWidth: \"4.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"4%\", minHeight: 20 }}\n        />\n        <Field\n          id=\"inp_email\"\n          label=\"Email\"\n          inputType=\"email\"\n          style={{ width: \"25.7%\", flex: \"0 0 auto\", marginLeft: \"9.8%\" }}\n        />\n        <Field\n          id=\"inp_password\"\n          label=\"Password\"\n          inputType=\"password\"\n          style={{ width: \"27%\", flex: \"0 0 auto\", marginLeft: \"1.7%\" }}\n        />\n        <Button\n          id=\"btn_log_in\"\n          label=\"Log In\"\n          style={{ width: \"14.3%\", flex: \"0 0 auto\", marginLeft: \"1.7%\", height: 64 }}\n          onClick={handleBtnLogInClick}\n        />\n        <Message owner=\"btn_log_in\" />\n      </Header>\n      <Heading\n        id=\"h_connect_with_friends\"\n        label=\"Connect with friends\"\n        level={1}\n        style={{ minWidth: \"34.4%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 53, alignSelf: \"flex-start\", fontSize: 20 }}\n      />\n      <Text\n        id=\"txt_welcome_to_friendly\"\n        label=\"Welcome to Friendly, your social network to connect with friends and share moments.\"\n        style={{ minWidth: \"67%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 44 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"41%\", marginLeft: \"0.6%\", marginTop: 20, alignSelf: \"flex-start\", minHeight: 10 }}\n      >\n        <Text\n          id=\"txt_9\"\n          label=\"Text\"\n          style={{ minWidth: \"41.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 10 }}\n        />\n        <Text\n          id=\"txt_10\"\n          label=\"Text\"\n          style={{ minWidth: \"38.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"19.8%\", minHeight: 10 }}\n        />\n      </Container>\n      <Image\n        id=\"img_11\"\n        photo=\"banner\"\n        alt=\"Wide banner image\"\n        style={{ width: \"100%\", marginTop: 13, height: 298 }}\n      />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Friendly login\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n/* Layout that follows the sketch: rows stay side by side, children keep drawn widths. */\\n.ng-geo.ng-stack--row {\\n  flex-wrap: nowrap;\\n}\\n\\n@media (max-width: 640px) {\\n  .ng-geo.ng-stack--row {\\n    flex-wrap: wrap;\\n  }\\n\\n  .ng-geo > * {\\n    width: 100% !important;\\n    margin-left: 0 !important;\\n  }\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  flex: 1;\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, geometry = false, style, children, onSubmit, onClick }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}${geometry ? \" ng-geo\" : \"\"}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag\n      {...attrs}\n      className={className}\n      style={{ gap, ...style, cursor: onClick ? \"pointer\" : undefined }}\n      onSubmit={Tag === \"form\" ? handleSubmit : undefined}\n      onClick={onClick}\n    >\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Header(props) {\n  return <Stack {...props} type=\"header\" as=\"header\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_LOG_IN_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_email\",\n      \"inp_password\"\n    ],\n    \"message\": \"Please fill in all fields before logging in.\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnLogInClick = () => runActions(\"btn_log_in\", BTN_LOG_IN_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 0 }} geometry style={{ maxWidth: 1081 }}>\n      <Header\n        id=\"hdr_1\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ padding: 0, paddingBottom: 31, width: \"100%\", marginTop: 0, minHeight: 144 }}\n      >\n        <Text\n          id=\"txt_friendly\"\n          label=\"Friendly\"\n          style={{ minWidth: \"4.1%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"4%\", minHeight: 20 }}\n        />\n        <Field\n          id=\"inp_email\"\n          label=\"Email\"\n          inputType=\"email\"\n          style={{ width: \"25.7%\", flex: \"0 0 auto\", marginLeft: \"9.8%\" }}\n        />\n        <Field\n          id=\"inp_password\"\n          label=\"Password\"\n          inputType=\"password\"\n          style={{ width: \"27%\", flex: \"0 0 auto\", marginLeft: \"1.7%\" }}\n        />\n        <Button\n          id=\"btn_log_in\"\n          label=\"Log In\"\n          style={{ width: \"14.3%\", flex: \"0 0 auto\", marginLeft: \"1.7%\", height: 64 }}\n          onClick={handleBtnLogInClick}\n        />\n        <Message owner=\"btn_log_in\" />\n      </Header>\n      <Heading\n        id=\"h_connect_with_friends\"\n        label=\"Connect with friends\"\n        level={1}\n        style={{ minWidth: \"34.4%\", maxWidth: \"100%\", marginLeft: \"0.9%\", marginTop: 53, alignSelf: \"flex-start\", fontSize: 20 }}\n      />\n      <Text\n        id=\"txt_welcome_to_friendly\"\n        label=\"Welcome to Friendly, your social network to connect with friends and share moments.\"\n        style={{ minWidth: \"67%\", maxWidth: \"100%\", marginLeft: \"0.7%\", marginTop: 38, alignSelf: \"flex-start\", minHeight: 44 }}\n      />\n      <Container\n        id=\"box_8\"\n        layout={{ direction: \"row\", gap: 0, align: \"center\" }}\n        geometry\n        style={{ paddingBottom: 0, width: \"41%\", marginLeft: \"0.6%\", marginTop: 20, alignSelf: \"flex-start\", minHeight: 10 }}\n      >\n        <Text\n          id=\"txt_9\"\n          label=\"Text\"\n          style={{ minWidth: \"41.7%\", maxWidth: \"100%\", flex: \"0 0 auto\", minHeight: 10 }}\n        />\n        <Text\n          id=\"txt_10\"\n          label=\"Text\"\n          style={{ minWidth: \"38.5%\", maxWidth: \"100%\", flex: \"0 0 auto\", marginLeft: \"19.8%\", minHeight: 10 }}\n        />\n      </Container>\n      <Image\n        id=\"img_11\"\n        photo=\"banner\"\n        alt=\"Wide banner image\"\n        style={{ width: \"100%\", marginTop: 13, height: 298 }}\n      />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 20,
+    "components": 10,
+    "pages": 1,
+    "loc": 701,
+    "preview_bytes": 16975
+   }
+  },
+  "report": {
+   "passed": true,
+   "score": 0.9247,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "12 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:hdr_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "hdr_1"
+    },
+    {
+     "id": "presence:txt_friendly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_friendly"
+    },
+    {
+     "id": "presence:inp_email",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_email"
+    },
+    {
+     "id": "presence:inp_password",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_password"
+    },
+    {
+     "id": "presence:btn_log_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_log_in"
+    },
+    {
+     "id": "presence:h_connect_with_friends",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_connect_with_friends"
+    },
+    {
+     "id": "presence:txt_welcome_to_friendly",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_friendly"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:txt_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_9"
+    },
+    {
+     "id": "presence:txt_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_10"
+    },
+    {
+     "id": "presence:img_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_11"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:hdr_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "hdr_1"
+    },
+    {
+     "id": "order:box_8",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "layout:txt_friendly",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_friendly"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": true,
+     "detail": "mean IoU 0.34 over 9 sketched components; pairwise order 0.91",
+     "hard": false
+    },
+    {
+     "id": "typing:inp_email",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'test.user@example.com', read 'test.user@example.com'",
+     "hard": true,
+     "target": "inp_email"
+    },
+    {
+     "id": "typing:inp_password",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Secret123!', read 'Secret123!'",
+     "hard": true,
+     "target": "inp_password"
+    },
+    {
+     "id": "clickable:btn_log_in",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_log_in"
+    },
+    {
+     "id": "event:btn_log_in:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "empty fields -> error shown; valid input -> no error",
+     "hard": true,
+     "target": "btn_log_in"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.3411,
+    "order_consistency": 0.9062
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 1,
+    "interactions_passed": 1,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 99.5,
+      "y": 32,
+      "w": 1081,
+      "h": 656.5
+     }
+    },
+    {
+     "id": "hdr_1",
+     "type": "header",
+     "rect": {
+      "x": 99.5,
+      "y": 32,
+      "w": 1081,
+      "h": 144
+     }
+    },
+    {
+     "id": "txt_friendly",
+     "type": "text",
+     "rect": {
+      "x": 143.65625,
+      "y": 77.25,
+      "w": 56.78125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "inp_email",
+     "type": "input",
+     "rect": {
+      "x": 306.171875,
+      "y": 53.5,
+      "w": 277.296875,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_password",
+     "type": "input",
+     "rect": {
+      "x": 601.796875,
+      "y": 53.5,
+      "w": 291.328125,
+      "h": 70
+     }
+    },
+    {
+     "id": "btn_log_in",
+     "type": "button",
+     "rect": {
+      "x": 911.453125,
+      "y": 56.5,
+      "w": 154.296875,
+      "h": 64
+     }
+    },
+    {
+     "id": "h_connect_with_friends",
+     "type": "heading",
+     "rect": {
+      "x": 109.21875,
+      "y": 229,
+      "w": 371.859375,
+      "h": 24
+     }
+    },
+    {
+     "id": "txt_welcome_to_friendly",
+     "type": "text",
+     "rect": {
+      "x": 107.0625,
+      "y": 291,
+      "w": 724.265625,
+      "h": 44
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 105.984375,
+      "y": 355,
+      "w": 443.203125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_9",
+     "type": "text",
+     "rect": {
+      "x": 105.984375,
+      "y": 355,
+      "w": 184.8125,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_10",
+     "type": "text",
+     "rect": {
+      "x": 378.546875,
+      "y": 355,
+      "w": 170.625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "img_11",
+     "type": "image",
+     "rect": {
+      "x": 99.5,
+      "y": 390.5,
+      "w": 1081,
+      "h": 298
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 412
+  },
+  "repairs": [],
+  "timings": {
+   "fuse": 1.3,
+   "codegen": 0.8,
+   "validate": 380.2,
+   "repair": 414.8
+  }
+ }
+}

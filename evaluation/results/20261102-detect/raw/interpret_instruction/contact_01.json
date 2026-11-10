@@ -1,0 +1,93 @@
+{
+ "_ok": true,
+ "_wall_ms": 4127.9,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "heading",
+      "label": "Contact us",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "text",
+      "label": "We would love to hear from you. Please fill out the form below and we will get in touch shortly."
+     },
+     {
+      "type": "input",
+      "label": "Name",
+      "props": {
+       "inputType": "text",
+       "placeholder": "Your name",
+       "required": true,
+       "name": "name"
+      }
+     },
+     {
+      "type": "input",
+      "label": "Email",
+      "props": {
+       "inputType": "email",
+       "placeholder": "you@example.com",
+       "required": true,
+       "name": "email"
+      }
+     },
+     {
+      "type": "textarea",
+      "label": "Message",
+      "props": {
+       "placeholder": "Your message",
+       "required": true,
+       "name": "message",
+       "rows": 4
+      }
+     },
+     {
+      "type": "button",
+      "label": "Send"
+     }
+    ],
+    "meta": {
+     "title": "Contact",
+     "category": "contact"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Send button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "targets": [
+        "Name",
+        "Email",
+        "Message"
+       ],
+       "message": "Please fill in all fields."
+      },
+      {
+       "type": "validate_format",
+       "target": "Email",
+       "format": "email",
+       "message": "Enter a valid email address."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4127,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"heading\",\"label\":\"Contact us\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"text\",\"label\":\"We would love to hear from you. Please fill out the form below and we will get in touch shortly.\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Name\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":\"Your name\",\"required\":true,\"name\":\"name\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":\"email\",\"placeholder\":\"you@example.com\",\"required\":true,\"name\":\"email\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"textarea\",\"label\":\"Message\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":\"Your message\",\"required\":true,\"name\":\"message\",\"rows\":4,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Send\",\"props\":null,\"style\":null,\"events\":null,\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Contact\",\"category\":\"contact\"},\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Send button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Name\",\"Email\",\"Message\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all fields.\",\"text\":null,\"tone\":null,\"page\":null},{\"type\":\"validate_format\",\"targets\":null,\"target\":\"Email\",\"format\":\"email\",\"message\":\"Enter a valid email address.\",\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

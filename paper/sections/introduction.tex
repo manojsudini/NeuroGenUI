@@ -1,0 +1,15 @@
+\section{Introduction}
+Designers usually start a user interface (UI) with a rough sketch on paper or a whiteboard. Turning that sketch into working front-end code is slow and repetitive, and the sketch itself only says \emph{where} things are: it does not say what a field validates, where a button navigates, or which colour a primary action should have. People state that kind of intent naturally in speech (``when the login button is clicked, show an error if the fields are empty''), not in drawings.
+
+Recent vision--language models can turn a screenshot or sketch into code in a single call~\cite{si2024design2code}. That single-call approach has three practical weaknesses for interactive design. First, its intermediate understanding is hidden inside the model, so detection, interpretation and generation cannot be measured or corrected separately. Second, every modification regenerates the whole program, which is slow and can silently change parts the user did not ask to change. Third, nothing checks that the produced UI actually renders, contains what was sketched, or behaves as requested.
+
+This paper presents \textbf{NeuroGenUI}, a multimodal framework that combines a hand-drawn sketch with spoken instructions through an explicit, structured \emph{UI Intent Representation} (IR). Each stage is separate and measurable: OpenCV proposes candidate components and a vision model labels them (hybrid detection); Whisper~\cite{radford2023whisper} transcribes speech; a language model interprets the transcript into typed edit operations without ever writing code; a deterministic fusion step merges sketch geometry with spoken semantics into the IR; a deterministic compiler emits an editable React project; a headless-browser validator checks visual and functional properties; and a targeted repair loop fixes the specific component that failed. Spoken refinements are applied as operations on the existing IR, so unaffected components are preserved by construction.
+
+The contributions of this work are:
+\begin{itemize}
+\item A staged sketch\,+\,voice $\rightarrow$ IR $\rightarrow$ React architecture in which no stage is a single image-to-code call and every stage is timed and evaluated in isolation.
+\item A JSON UI Intent Representation that carries type, content, geometry, style, hierarchy, relations and event/action semantics, together with a typed operation language for voice-guided refinement.
+\item A validation and targeted repair loop that runs the generated code in a real browser and maps failing checks back to IR components.
+\item An open evaluation protocol with \CountSketches{} labelled sketches across \CountCategories{} screen categories and \CountCommands{} spoken commands across eight edit categories, and a like-for-like comparison against a direct sketch$\rightarrow$AI$\rightarrow$UI baseline using the same model, the same test cases and the same measurement code.
+\end{itemize}
+We do not train a new foundation model; the contribution is the system architecture and its measurement. All numbers in this paper are produced by the released evaluation scripts.

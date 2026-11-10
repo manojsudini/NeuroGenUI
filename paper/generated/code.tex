@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Static code quality of the generated React (mean per UI)}
+\label{tab:code}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+\textbf{Code} & \textbf{UIs} & \textbf{Parses \%} & \textbf{LOC} & \textbf{Components} & \textbf{Reuse ratio} & \textbf{Max function lines} & \textbf{ESLint msgs} & \textbf{Files} \\
+\midrule
+Proposed (NeuroGenUI) [project] & 40 & 100.0 & 410.8 & 13.9 & 1.85 & 105.6 & 0.0 & 17.9 \\
+Proposed (NeuroGenUI) [preview] & 40 & 100.0 & 379.0 & 13.9 & 1.85 & 105.6 & 0.1 & 1.0 \\
+Baseline (sketch$\rightarrow$AI$\rightarrow$UI) [preview] & 40 & 100.0 & 246.3 & 1.4 & 1.01 & 206.1 & 0.0 & 1.0 \\
+Oracle (GT IR) [preview] & 40 & 100.0 & 307.6 & 11.6 & 1.60 & 76.1 & 1.0 & 1.0 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

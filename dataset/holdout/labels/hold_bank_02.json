@@ -1,0 +1,433 @@
+{
+  "id": "hold_bank_02",
+  "category": "banking",
+  "title": "Portfolio",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_bank_02')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pencil",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": -1.83,
+    "scratch_outs": 2
+  },
+  "width": 1000,
+  "height": 775,
+  "instruction": "An investment portfolio page with a navbar (Wealthly logo, Portfolio, Markets, Support and a user icon), the heading Your portfolio, a large portfolio chart and three holding cards: Index fund $4,200 with Buy and Sell buttons, Gold ETF $1,150 with Buy more and Sell all buttons and Tech stocks $2,980 with Add funds and Withdraw buttons. Sell all shows the message Order placed and Markets opens a Markets page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0813,
+        "y": 0.0592,
+        "w": 0.8565,
+        "h": 0.1335
+      },
+      "parent": null
+    },
+    {
+      "type": "nav_item",
+      "label": "Wealthly",
+      "bbox": {
+        "x": 0.101,
+        "y": 0.1104,
+        "w": 0.0947,
+        "h": 0.0639
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Portfolio",
+      "bbox": {
+        "x": 0.2217,
+        "y": 0.1056,
+        "w": 0.0804,
+        "h": 0.0633
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Markets",
+      "bbox": {
+        "x": 0.3282,
+        "y": 0.1003,
+        "w": 0.0915,
+        "h": 0.0638
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Support",
+      "bbox": {
+        "x": 0.7584,
+        "y": 0.0809,
+        "w": 0.0874,
+        "h": 0.0638
+      },
+      "parent": 0
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.8744,
+        "y": 0.08,
+        "w": 0.0436,
+        "h": 0.0571
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "user"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Your portfolio",
+      "bbox": {
+        "x": 0.0836,
+        "y": 0.2072,
+        "w": 0.2348,
+        "h": 0.1038
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.086,
+        "y": 0.298,
+        "w": 0.8567,
+        "h": 0.3109
+      },
+      "parent": null,
+      "props": {
+        "alt": "portfolio chart",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0919,
+        "y": 0.6219,
+        "w": 0.2774,
+        "h": 0.2863
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Index fund",
+      "bbox": {
+        "x": 0.1136,
+        "y": 0.6542,
+        "w": 0.1352,
+        "h": 0.0709
+      },
+      "parent": 8,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "$4,200",
+      "bbox": {
+        "x": 0.1153,
+        "y": 0.7396,
+        "w": 0.0683,
+        "h": 0.0569
+      },
+      "parent": 8
+    },
+    {
+      "type": "button",
+      "label": "Buy",
+      "bbox": {
+        "x": 0.1167,
+        "y": 0.8091,
+        "w": 0.1103,
+        "h": 0.0711
+      },
+      "parent": 8
+    },
+    {
+      "type": "button",
+      "label": "Sell",
+      "bbox": {
+        "x": 0.2373,
+        "y": 0.8041,
+        "w": 0.1103,
+        "h": 0.0712
+      },
+      "parent": 8,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.38,
+        "y": 0.6095,
+        "w": 0.2774,
+        "h": 0.2868
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Gold ETF",
+      "bbox": {
+        "x": 0.4017,
+        "y": 0.6427,
+        "w": 0.1154,
+        "h": 0.0702
+      },
+      "parent": 13,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "$1,150",
+      "bbox": {
+        "x": 0.4031,
+        "y": 0.7281,
+        "w": 0.0503,
+        "h": 0.0562
+      },
+      "parent": 13
+    },
+    {
+      "type": "button",
+      "label": "Buy more",
+      "bbox": {
+        "x": 0.4043,
+        "y": 0.797,
+        "w": 0.1104,
+        "h": 0.0713
+      },
+      "parent": 13
+    },
+    {
+      "type": "button",
+      "label": "Sell all",
+      "bbox": {
+        "x": 0.5253,
+        "y": 0.7919,
+        "w": 0.1104,
+        "h": 0.0713
+      },
+      "parent": 13,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6689,
+        "y": 0.5971,
+        "w": 0.2774,
+        "h": 0.2872
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Tech stocks",
+      "bbox": {
+        "x": 0.6906,
+        "y": 0.6286,
+        "w": 0.156,
+        "h": 0.072
+      },
+      "parent": 18,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "$2,980",
+      "bbox": {
+        "x": 0.6918,
+        "y": 0.7151,
+        "w": 0.0682,
+        "h": 0.057
+      },
+      "parent": 18
+    },
+    {
+      "type": "button",
+      "label": "Add funds",
+      "bbox": {
+        "x": 0.6928,
+        "y": 0.7849,
+        "w": 0.1105,
+        "h": 0.0714
+      },
+      "parent": 18
+    },
+    {
+      "type": "button",
+      "label": "Withdraw",
+      "bbox": {
+        "x": 0.8141,
+        "y": 0.7798,
+        "w": 0.1106,
+        "h": 0.0714
+      },
+      "parent": 18,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Sell all",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "order placed"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Markets",
+      "expect": {
+        "type": "navigate",
+        "page": "Markets"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Wealthly",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Portfolio",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Markets",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Support",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Your portfolio",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Index fund",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Buy",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Sell",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Gold ETF",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Buy more",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Sell all",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Tech stocks",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Add funds",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Withdraw",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Sell all",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "order placed"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Markets",
+      "expect": {
+        "type": "navigate",
+        "page": "Markets"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1819.4,
+ "value": {
+  "text": "Paybills should open a bills page.",
+  "model": "whisper-1",
+  "duration_ms": 1819
+ }
+}

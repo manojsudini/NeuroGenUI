@@ -1,0 +1,165 @@
+{
+  "id": "hold_login_01",
+  "category": "login",
+  "title": "Phone login",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_login_01')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": -2.89,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A phone number login screen with a back icon, the heading Enter your phone, the text We will text you a code, a Phone number field, a full width Send code button and a Use email instead link. Send code shows an error when the phone number is empty and Use email instead opens an Email login page.",
+  "components": [
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.2646,
+        "y": 0.1223,
+        "w": 0.0434,
+        "h": 0.0793
+      },
+      "parent": null,
+      "props": {
+        "glyph": "back"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Enter your phone",
+      "bbox": {
+        "x": 0.2661,
+        "y": 0.2071,
+        "w": 0.2947,
+        "h": 0.1255
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "We will text you a code",
+      "bbox": {
+        "x": 0.2678,
+        "y": 0.3455,
+        "w": 0.2232,
+        "h": 0.0787
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Phone number",
+      "bbox": {
+        "x": 0.269,
+        "y": 0.4094,
+        "w": 0.5126,
+        "h": 0.1428
+      },
+      "parent": null,
+      "props": {
+        "inputType": "tel"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Send code",
+      "bbox": {
+        "x": 0.2707,
+        "y": 0.5379,
+        "w": 0.514,
+        "h": 0.1431
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Use email instead",
+      "bbox": {
+        "x": 0.4422,
+        "y": 0.7287,
+        "w": 0.1757,
+        "h": 0.0816
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Send code",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Use email instead",
+      "expect": {
+        "type": "navigate",
+        "page": "Email login"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Enter your phone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Phone number",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Phone number",
+      "input_type": "tel",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Send code",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Use email instead",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Send code",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Use email instead",
+      "expect": {
+        "type": "navigate",
+        "page": "Email login"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

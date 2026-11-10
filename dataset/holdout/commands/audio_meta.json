@@ -1,0 +1,242 @@
+{
+ "cmd_h001": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Add a Resend code link below the Send code button.",
+  "bytes": 45312,
+  "latency_ms": 2446
+ },
+ "cmd_h002": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Put a note field under the amount field.",
+  "bytes": 36864,
+  "latency_ms": 2033
+ },
+ "cmd_h003": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Can you add an email field right under the phone one?",
+  "bytes": 54144,
+  "latency_ms": 1087
+ },
+ "cmd_h004": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "add a cancel order button below the track button",
+  "bytes": 42624,
+  "latency_ms": 3035
+ },
+ "cmd_h005": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Remove the Send me study tips checkbox.",
+  "bytes": 39936,
+  "latency_ms": 2146
+ },
+ "cmd_h006": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Get rid of the Jobs tab.",
+  "bytes": 23424,
+  "latency_ms": 2460
+ },
+ "cmd_h007": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Delete the world map image.",
+  "bytes": 25728,
+  "latency_ms": 1651
+ },
+ "cmd_h008": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "We don't need the Sell all button anymore.",
+  "bytes": 36480,
+  "latency_ms": 3029
+ },
+ "cmd_h009": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Change the headline to Handmade pasta daily.",
+  "bytes": 44544,
+  "latency_ms": 2137
+ },
+ "cmd_h010": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Rename the Rent now button to Book this car.",
+  "bytes": 44928,
+  "latency_ms": 2826
+ },
+ "cmd_h011": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "the Start workout button should say Begin instead",
+  "bytes": 42624,
+  "latency_ms": 2322
+ },
+ "cmd_h012": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Change the placeholder of the Tell us more box to Anything helps.",
+  "bytes": 66816,
+  "latency_ms": 2676
+ },
+ "cmd_h013": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Move the Add another link below the Send invites button.",
+  "bytes": 57216,
+  "latency_ms": 3368
+ },
+ "cmd_h014": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Put the Use email instead link above the Send code button.",
+  "bytes": 58368,
+  "latency_ms": 1663
+ },
+ "cmd_h015": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Can the Repeat monthly checkbox go above the account number field?",
+  "bytes": 67200,
+  "latency_ms": 2714
+ },
+ "cmd_h016": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Place the Post review button above the review box.",
+  "bytes": 49536,
+  "latency_ms": 1934
+ },
+ "cmd_h017": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Make the Continue with GitHub button bigger.",
+  "bytes": 40320,
+  "latency_ms": 1151
+ },
+ "cmd_h018": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "the doctor photo is too big, make it smaller",
+  "bytes": 44544,
+  "latency_ms": 1743
+ },
+ "cmd_h019": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Make the feedback box taller.",
+  "bytes": 29568,
+  "latency_ms": 1370
+ },
+ "cmd_h020": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Increase the font size of the DevSummit heading.",
+  "bytes": 47616,
+  "latency_ms": 1265
+ },
+ "cmd_h021": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Make the Order online button orange.",
+  "bytes": 36096,
+  "latency_ms": 1780
+ },
+ "cmd_h022": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Color the Add vehicle button green.",
+  "bytes": 35328,
+  "latency_ms": 2988
+ },
+ "cmd_h023": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "I want the Delete account button in red.",
+  "bytes": 39168,
+  "latency_ms": 2535
+ },
+ "cmd_h024": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Paint the Reserve button purple.",
+  "bytes": 31872,
+  "latency_ms": 2287
+ },
+ "cmd_h025": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "When Join now is clicked, complain if any field is empty.",
+  "bytes": 55680,
+  "latency_ms": 2490
+ },
+ "cmd_h026": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "Make the Need help link show the message An agent will call you.",
+  "bytes": 64128,
+  "latency_ms": 1599
+ },
+ "cmd_h027": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "Check that the email is valid when Request a call is clicked.",
+  "bytes": 59904,
+  "latency_ms": 2361
+ },
+ "cmd_h028": {
+  "model": "tts-1",
+  "voice": "nova",
+  "format": "mp3",
+  "text": "Clicking Support should open a Help center page.",
+  "bytes": 42624,
+  "latency_ms": 2421
+ },
+ "cmd_h029": {
+  "model": "tts-1",
+  "voice": "onyx",
+  "format": "mp3",
+  "text": "The About tab should take me to an About us page.",
+  "bytes": 48384,
+  "latency_ms": 1379
+ },
+ "cmd_h030": {
+  "model": "tts-1",
+  "voice": "fable",
+  "format": "mp3",
+  "text": "When Apply is clicked, go to a Results page.",
+  "bytes": 43776,
+  "latency_ms": 2118
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "_ok": true,
+ "_wall_ms": 4078.1,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Contact us",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.0869,
+     "w": 0.178,
+     "h": 0.0716
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.238,
+     "y": 0.2015,
+     "w": 0.4595,
+     "h": 0.0678
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.3066,
+     "w": 0.482,
+     "h": 0.0835
+    },
+    "confidence": 0.813,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.4293,
+     "w": 0.486,
+     "h": 0.0886
+    },
+    "confidence": 0.809,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Message",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.5528,
+     "w": 0.486,
+     "h": 0.0886
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.703,
+     "y": 0.7436,
+     "w": 0.0185,
+     "h": 0.0363
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Send",
+    "bbox": {
+     "x": 0.456,
+     "y": 0.833,
+     "w": 0.056,
+     "h": 0.0562
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 587,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 3795,
+   "vision_ms": 0,
+   "total_ms": 4078
+  },
+  "n_cv_candidates": 17
+ }
+}

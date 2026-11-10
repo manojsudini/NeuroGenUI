@@ -1,0 +1,103 @@
+{
+ "_ok": true,
+ "_wall_ms": 4738.0,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "navbar",
+      "label": "Top navbar",
+      "children": [
+       {
+        "type": "image",
+        "label": "Acme logo",
+        "props": {
+         "alt": "Acme logo",
+         "photo": "banner"
+        }
+       },
+       {
+        "type": "nav_item",
+        "label": "Home"
+       },
+       {
+        "type": "nav_item",
+        "label": "Reports"
+       },
+       {
+        "type": "nav_item",
+        "label": "Settings"
+       },
+       {
+        "type": "icon",
+        "label": "User icon"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "label": "Dashboard",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "container",
+      "label": "Stat cards container",
+      "children": [
+       {
+        "type": "card",
+        "label": "Users stat card"
+       },
+       {
+        "type": "card",
+        "label": "Revenue stat card"
+       },
+       {
+        "type": "card",
+        "label": "Orders stat card"
+       }
+      ]
+     },
+     {
+      "type": "card",
+      "label": "Sales chart card"
+     },
+     {
+      "type": "card",
+      "label": "Recent orders list"
+     }
+    ],
+    "page": {
+     "name": "Admin Dashboard"
+    },
+    "meta": {
+     "title": "Admin Dashboard",
+     "category": "dashboard"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Reports"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Reports"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4737,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"navbar\",\"label\":\"Top navbar\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Acme logo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Acme logo\",\"photo\":\"banner\",\"items\":null},\"style\":null},{\"type\":\"nav_item\",\"label\":\"Home\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"Reports\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"Settings\",\"props\":null,\"style\":null},{\"type\":\"icon\",\"label\":\"User icon\",\"props\":null,\"style\":null}]},{\"type\":\"heading\",\"label\":\"Dashboard\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"container\",\"label\":\"Stat cards container\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"card\",\"label\":\"Users stat card\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Revenue stat card\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Orders stat card\",\"props\":null,\"style\":null}]},{\"type\":\"card\",\"label\":\"Sales chart card\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Recent orders list\",\"props\":null,\"style\":null,\"events\":null,\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Admin Dashboard\"},\"meta\":{\"title\":\"Admin Dashboard\",\"category\":\"dashboard\"},\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Reports\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Reports\"}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

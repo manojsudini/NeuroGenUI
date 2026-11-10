@@ -1,0 +1,258 @@
+{
+ "_ok": true,
+ "_wall_ms": 5897.6,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.0568,
+     "w": 0.498,
+     "h": 0.1738
+    },
+    "shape": "rect",
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.292,
+     "y": 0.1153,
+     "w": 0.018,
+     "h": 0.0516
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Privacy",
+    "bbox": {
+     "x": 0.346,
+     "y": 0.1239,
+     "w": 0.108,
+     "h": 0.0551
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Profile visibility",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.2478,
+     "w": 0.152,
+     "h": 0.0448
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.3236,
+     "w": 0.029,
+     "h": 0.0499
+    },
+    "shape": "circle",
+    "confidence": 0.939,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Public",
+    "bbox": {
+     "x": 0.302,
+     "y": 0.3322,
+     "w": 0.05,
+     "h": 0.0275
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.4114,
+     "w": 0.025,
+     "h": 0.0448
+    },
+    "shape": "circle",
+    "confidence": 0.928,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Friends only",
+    "bbox": {
+     "x": 0.296,
+     "y": 0.4165,
+     "w": 0.123,
+     "h": 0.043
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.4974,
+     "w": 0.029,
+     "h": 0.0482
+    },
+    "shape": "circle",
+    "confidence": 0.938,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Private",
+    "bbox": {
+     "x": 0.295,
+     "y": 0.5043,
+     "w": 0.071,
+     "h": 0.0258
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.256,
+     "y": 0.58,
+     "w": 0.496,
+     "h": 0.0224
+    },
+    "shape": "squiggle",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.6351,
+     "w": 0.028,
+     "h": 0.0482
+    },
+    "shape": "circle",
+    "confidence": 0.927,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Show online status",
+    "bbox": {
+     "x": 0.296,
+     "y": 0.6472,
+     "w": 0.187,
+     "h": 0.0275
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.7194,
+     "w": 0.034,
+     "h": 0.0551
+    },
+    "shape": "circle",
+    "confidence": 0.891,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Allow tagging",
+    "bbox": {
+     "x": 0.296,
+     "y": 0.7298,
+     "w": 0.128,
+     "h": 0.043
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.79,
+     "w": 0.242,
+     "h": 0.1274
+    },
+    "shape": "rect",
+    "confidence": 0.889,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Reset",
+    "bbox": {
+     "x": 0.256,
+     "y": 0.7986,
+     "w": 0.24,
+     "h": 0.1136
+    },
+    "shape": "rect",
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 581,
+  "mode": "hybrid",
+  "title": "Privacy Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 40,
+   "vision_ms": 5846,
+   "total_ms": 5897
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 20
+ }
+}

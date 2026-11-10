@@ -1,0 +1,92 @@
+{
+ "_ok": true,
+ "_wall_ms": 4618.7,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "My Account",
+     "children": [
+      {
+       "type": "heading",
+       "label": "My Account",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "card",
+       "label": "User Info Card"
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "User avatar",
+        "photo": "person"
+       }
+      },
+      {
+       "type": "text",
+       "label": "User Name"
+      },
+      {
+       "type": "text",
+       "label": "User Email"
+      },
+      {
+       "type": "link",
+       "label": "My orders"
+      },
+      {
+       "type": "link",
+       "label": "Saved addresses"
+      },
+      {
+       "type": "link",
+       "label": "Payment methods"
+      },
+      {
+       "type": "divider",
+       "label": "Divider"
+      },
+      {
+       "type": "button",
+       "label": "Log out"
+      }
+     ]
+    },
+    "meta": {
+     "title": "My Account",
+     "category": "profile"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Log out button"
+    },
+    "page": {
+     "name": "Login"
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "My orders link"
+    },
+    "page": {
+     "name": "Orders"
+    },
+    "confidence": 0.9
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4618,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"My Account\",\"props\":{ \"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":[{\"type\":\"heading\",\"label\":\"My Account\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"card\",\"label\":\"User Info Card\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"User avatar\",\"photo\":\"person\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"User Name\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"User Email\",\"props\":null,\"style\":null},{\"type\":\"link\",\"label\":\"My orders\",\"props\":null,\"style\":null},{\"type\":\"link\",\"label\":\"Saved addresses\",\"props\":null,\"style\":null},{\"type\":\"link\",\"label\":\"Payment methods\",\"props\":null,\"style\":null},{\"type\":\"divider\",\"label\":\"Divider\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Log out\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"My Account\",\"category\":\"profile\"},\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"Log out button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Login\"},\"meta\":null,\"confidence\":0.9},{\"op\":\"navigation\",\"target\":{\"ref\":\"My orders link\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Orders\"},\"meta\":null,\"confidence\":0.9}]}"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1985.3,
+ "value": {
+  "text": "Show a message saying thanks for subscribing when subscribe is clicked.",
+  "model": "whisper-1",
+  "duration_ms": 1985
+ }
+}

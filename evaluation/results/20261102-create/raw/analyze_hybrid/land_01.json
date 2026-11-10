@@ -1,0 +1,353 @@
+{
+ "_ok": true,
+ "_wall_ms": 7595.4,
+ "value": {
+  "components": [
+   {
+    "type": "nav_item",
+    "label": "Nimbus",
+    "bbox": {
+     "x": 0.093,
+     "y": 0.0579,
+     "w": 0.027,
+     "h": 0.0121
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "nav_item",
+    "label": "About",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.0579,
+     "w": 0.06,
+     "h": 0.0121
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.0524,
+     "w": 0.875,
+     "h": 0.1384
+    },
+    "shape": "rect",
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.567,
+     "y": 0.1116,
+     "w": 0.064,
+     "h": 0.0363
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.451,
+     "y": 0.1223,
+     "w": 0.052,
+     "h": 0.0349
+    },
+    "shape": "rect",
+    "confidence": 0.865,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.2056,
+     "w": 0.431,
+     "h": 0.422
+    },
+    "shape": "cross_box",
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.2366,
+     "w": 0.035,
+     "h": 0.0457
+    },
+    "shape": "circle",
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.103,
+     "y": 0.2352,
+     "w": 0.391,
+     "h": 0.0632
+    },
+    "shape": "text",
+    "confidence": 0.795,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.3226,
+     "w": 0.384,
+     "h": 0.0834
+    },
+    "shape": "squiggle",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.4274,
+     "w": 0.202,
+     "h": 0.0833
+    },
+    "shape": "rect",
+    "confidence": 0.765,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.4261,
+     "w": 0.207,
+     "h": 0.0901
+    },
+    "shape": "rect",
+    "confidence": 0.946,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.6546,
+     "w": 0.281,
+     "h": 0.2823
+    },
+    "shape": "rect",
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.358,
+     "y": 0.6505,
+     "w": 0.279,
+     "h": 0.2836
+    },
+    "shape": "rect",
+    "confidence": 0.755,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.6478,
+     "w": 0.286,
+     "h": 0.2796
+    },
+    "shape": "rect",
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6868,
+     "w": 0.043,
+     "h": 0.0632
+    },
+    "shape": "circle",
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "heading",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.6895,
+     "w": 0.045,
+     "h": 0.0578
+    },
+    "shape": "text",
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.6895,
+     "w": 0.042,
+     "h": 0.0578
+    },
+    "shape": "circle",
+    "confidence": 0.918,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "heading",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.75,
+     "y": 0.7,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "ost",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.7823,
+     "w": 0.043,
+     "h": 0.0269
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.7823,
+     "w": 0.07,
+     "h": 0.0282
+    },
+    "shape": "text",
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "heading",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.682,
+     "y": 0.7809,
+     "w": 0.072,
+     "h": 0.0403
+    },
+    "shape": "text",
+    "confidence": 0.78,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.8427,
+     "w": 0.217,
+     "h": 0.0485
+    },
+    "shape": "squiggle",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.8454,
+     "w": 0.173,
+     "h": 0.0457
+    },
+    "shape": "text",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.687,
+     "y": 0.8454,
+     "w": 0.14,
+     "h": 0.0458
+    },
+    "shape": "squiggle",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 13
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "hybrid",
+  "title": "Nimbus landing page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 84,
+   "vision_ms": 7497,
+   "total_ms": 7595
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 32
+ }
+}

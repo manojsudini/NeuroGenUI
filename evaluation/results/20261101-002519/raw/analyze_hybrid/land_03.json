@@ -1,0 +1,189 @@
+{
+ "_ok": true,
+ "_wall_ms": 34677.6,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.09,
+     "w": 0.525,
+     "h": 0.3343
+    },
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "FitTrack",
+    "bbox": {
+     "x": 0.441,
+     "y": 0.4586,
+     "w": 0.135,
+     "h": 0.05
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.55,
+     "w": 0.11,
+     "h": 0.0157
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.372,
+     "y": 0.5529,
+     "w": 0.134,
+     "h": 0.0129
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.525,
+     "y": 0.5514,
+     "w": 0.176,
+     "h": 0.0157
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.712,
+     "y": 0.5514,
+     "w": 0.02,
+     "h": 0.0143
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.59,
+     "w": 0.178,
+     "h": 0.0114
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.444,
+     "y": 0.59,
+     "w": 0.109,
+     "h": 0.0114
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Download app",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.6286,
+     "w": 0.522,
+     "h": 0.1086
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Watch demo",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.74,
+     "w": 0.517,
+     "h": 0.0943
+    },
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.304,
+     "y": 0.85,
+     "w": 0.048,
+     "h": 0.0629
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.485,
+     "y": 0.8514,
+     "w": 0.045,
+     "h": 0.06
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.665,
+     "y": 0.8486,
+     "w": 0.044,
+     "h": 0.0643
+    },
+    "confidence": 0.897,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 700,
+  "mode": "hybrid",
+  "title": "FitTrack Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 29,
+   "vision_ms": 34640,
+   "total_ms": 34677
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 15
+ }
+}

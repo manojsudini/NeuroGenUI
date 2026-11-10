@@ -1,0 +1,85 @@
+{
+ "_ok": true,
+ "_wall_ms": 3852.9,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "heading",
+      "label": "Settings",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "heading",
+      "label": "Notifications",
+      "props": {
+       "level": 2
+      }
+     },
+     {
+      "type": "checkbox",
+      "label": "Push notifications",
+      "props": {
+       "name": "push_notifications",
+       "checked": false,
+       "group": "Notifications"
+      }
+     },
+     {
+      "type": "checkbox",
+      "label": "Email updates",
+      "props": {
+       "name": "email_updates",
+       "checked": false,
+       "group": "Notifications"
+      }
+     },
+     {
+      "type": "checkbox",
+      "label": "Dark mode",
+      "props": {
+       "name": "dark_mode",
+       "checked": false,
+       "group": "Notifications"
+      }
+     },
+     {
+      "type": "divider",
+      "label": ""
+     },
+     {
+      "type": "link",
+      "label": "Privacy policy"
+     },
+     {
+      "type": "button",
+      "label": "Log out",
+      "events": [
+       {
+        "on": "click",
+        "actions": [
+         {
+          "type": "navigate",
+          "page": "Login"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "meta": {
+     "title": "Settings",
+     "category": "settings"
+    },
+    "confidence": 0.98
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 3852,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"heading\",\"label\":\"Settings\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"heading\",\"label\":\"Notifications\",\"props\":{\"level\":2,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"checkbox\",\"label\":\"Push notifications\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"push_notifications\",\"rows\":null,\"checked\":false,\"group\":\"Notifications\",\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"checkbox\",\"label\":\"Email updates\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"email_updates\",\"rows\":null,\"checked\":false,\"group\":\"Notifications\",\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"checkbox\",\"label\":\"Dark mode\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"dark_mode\",\"rows\":null,\"checked\":false,\"group\":\"Notifications\",\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"divider\",\"label\":\"\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"link\",\"label\":\"Privacy policy\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Log out\",\"props\":null,\"style\":null,\"events\":[{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Login\"}]}],\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Settings\",\"category\":\"settings\"},\"confidence\":0.98}]}"
+ }
+}

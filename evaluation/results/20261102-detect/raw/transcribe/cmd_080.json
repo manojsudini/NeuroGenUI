@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 729.1,
+ "value": {
+  "text": "Clicking services in the nav bar should open a services page.",
+  "model": "whisper-1",
+  "duration_ms": 729
+ }
+}

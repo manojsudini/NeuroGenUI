@@ -1,0 +1,3014 @@
+{
+ "_ok": true,
+ "_wall_ms": 2127.1,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "StayFinder",
+    "category": "booking",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 8,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_main_navbar",
+        "type": "navbar",
+        "label": "Main navbar",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.0875,
+         "w": 0.911,
+         "h": 0.1911
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_stayfinder",
+          "type": "text",
+          "label": "StayFinder",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.078,
+           "y": 0.1625,
+           "w": 0.857,
+           "h": 0.1161
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_hotels",
+          "type": "nav_item",
+          "label": "Hotels",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.55,
+           "y": 0.1607,
+           "w": 0.056,
+           "h": 0.0357
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_stayfinder"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_flights",
+          "type": "nav_item",
+          "label": "Flights",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.64,
+           "y": 0.1625,
+           "w": 0.061,
+           "h": 0.05
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_hotels"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_deals",
+          "type": "nav_item",
+          "label": "Deals",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.735,
+           "y": 0.1643,
+           "w": 0.047,
+           "h": 0.0339
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_flights"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_stayfinder",
+          "type": "nav_item",
+          "label": "StayFinder",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.815,
+           "y": 0.1321,
+           "w": 0.128,
+           "h": 0.1089
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_deals"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_sign_in",
+          "type": "button",
+          "label": "Sign in",
+          "props": {},
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.844,
+           "y": 0.1679,
+           "w": 0.063,
+           "h": 0.0464
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_stayfinder"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "img_banner_photo",
+        "type": "image",
+        "label": "Banner photo",
+        "props": {
+         "alt": "Hotel banner",
+         "photo": "travel"
+        },
+        "style": {
+         "width": "full"
+        },
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_main_navbar"
+         }
+        ],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.2696,
+         "w": 0.917,
+         "h": 0.4107
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "img_banner_photo"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "column",
+         "gap": 12,
+         "align": "stretch",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "ico_9",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.219,
+           "y": 0.3571,
+           "w": 0.033,
+           "h": 0.0554
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_10",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.051,
+         "y": 0.6857,
+         "w": 0.912,
+         "h": 0.1964
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "box_11",
+          "type": "container",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.051,
+           "y": 0.6857,
+           "w": 0.053,
+           "h": 0.175
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": []
+         },
+         {
+          "id": "btn_destination",
+          "type": "button",
+          "label": "Destination",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.075,
+           "y": 0.7179,
+           "w": 0.251,
+           "h": 0.1161
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "box_11"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "card_search_card",
+          "type": "card",
+          "label": "Search card",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.339,
+           "y": 0.7232,
+           "w": 0.157,
+           "h": 0.1071
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_destination"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "row",
+           "gap": 12,
+           "align": "center",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_check_in",
+            "type": "text",
+            "label": "Check-in",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.352,
+             "y": 0.7643,
+             "w": 0.078,
+             "h": 0.0321
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "chk_15",
+            "type": "checkbox",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.447,
+             "y": 0.7536,
+             "w": 0.033,
+             "h": 0.0554
+            },
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "txt_check_in"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "inp_destination",
+            "type": "input",
+            "label": "Destination",
+            "props": {
+             "inputType": "text",
+             "placeholder": "Enter destination",
+             "required": true,
+             "name": "destination"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "chk_15"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "inp_check_in_date",
+            "type": "input",
+            "label": "Check-in date",
+            "props": {
+             "inputType": "date",
+             "required": true,
+             "name": "checkin"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_destination"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "inp_check_out_date",
+            "type": "input",
+            "label": "Check-out date",
+            "props": {
+             "inputType": "date",
+             "required": true,
+             "name": "checkout"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_check_in_date"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "sel_guests",
+            "type": "select",
+            "label": "Guests",
+            "props": {
+             "required": true,
+             "name": "guests",
+             "options": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6+"
+             ]
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_check_out_date"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           }
+          ]
+         },
+         {
+          "id": "card_16",
+          "type": "card",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.502,
+           "y": 0.7232,
+           "w": 0.159,
+           "h": 0.1179
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_search_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "row",
+           "gap": 12,
+           "align": "center",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_check_out",
+            "type": "text",
+            "label": "Check-out",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.52,
+             "y": 0.7643,
+             "w": 0.089,
+             "h": 0.0339
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "chk_18",
+            "type": "checkbox",
+            "label": "",
+            "props": {},
+            "style": {
+             "align": "right"
+            },
+            "bbox": {
+             "x": 0.613,
+             "y": 0.7429,
+             "w": 0.038,
+             "h": 0.0696
+            },
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "txt_check_out"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "btn_guests",
+          "type": "button",
+          "label": "Guests",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.674,
+           "y": 0.7196,
+           "w": 0.125,
+           "h": 0.1125
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_16"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_search",
+          "type": "button",
+          "label": "Search",
+          "props": {},
+          "style": {
+           "variant": "primary",
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.81,
+           "y": 0.725,
+           "w": 0.125,
+           "h": 0.1107
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_guests"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "validate_required",
+              "targets": [
+               "inp_destination",
+               "inp_check_in_date",
+               "inp_check_out_date",
+               "sel_guests"
+              ],
+              "message": "Please fill in all fields before searching."
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         },
+         {
+          "id": "box_21",
+          "type": "container",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.875,
+           "y": 0.6982,
+           "w": 0.088,
+           "h": 0.1839
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_search"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": []
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 27
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"stayfinder\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>StayFinder</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# StayFinder\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Select.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Select({ id, label, options = [], required = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"select\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <select id={controlId} className=\"ng-input ng-select\" value={ui.values[id] ?? \"\"} onChange={handleChange}>\n        <option value=\"\">Select\u2026</option>\n        {options.map((option) => (\n          <option key={option} value={option}>\n            {option}\n          </option>\n        ))}\n      </select>\n    </div>\n  );\n}\n",
+    "src/components/Checkbox.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Checkbox({ id, label, checked = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"checkbox\");\n  const value = ui.values[id] ?? checked;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.checked);\n    onChange?.(event);\n  };\n\n  return (\n    <label {...attrs} className=\"ng-check\" style={style}>\n      <input type=\"checkbox\" checked={value} onChange={handleChange} />\n      <span>{ui.textOf(id, label)}</span>\n    </label>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Checkbox from \"../components/Checkbox.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Select from \"../components/Select.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_SEARCH_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_destination\",\n      \"inp_check_in_date\",\n      \"inp_check_out_date\",\n      \"sel_guests\"\n    ],\n    \"message\": \"Please fill in all fields before searching.\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnSearchClick = () => runActions(\"btn_search\", BTN_SEARCH_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Navbar\n        id=\"nav_main_navbar\"\n        layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n      >\n        <Text id=\"txt_stayfinder\" label=\"StayFinder\" />\n        <NavItem id=\"navi_hotels\" label=\"Hotels\" />\n        <NavItem id=\"navi_flights\" label=\"Flights\" />\n        <NavItem id=\"navi_deals\" label=\"Deals\" />\n        <NavItem id=\"navi_stayfinder\" label=\"StayFinder\" />\n        <Button id=\"btn_sign_in\" label=\"Sign in\" style={{ alignSelf: \"flex-end\" }} />\n      </Navbar>\n      <Image\n        id=\"img_banner_photo\"\n        photo=\"travel\"\n        alt=\"Hotel banner\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n      />\n      <Container id=\"box_8\">\n        <Icon id=\"ico_9\" />\n      </Container>\n      <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_11\">\n        </Container>\n        <Button id=\"btn_destination\" label=\"Destination\" />\n        <Card id=\"card_search_card\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_in\" label=\"Check-in\" />\n          <Checkbox id=\"chk_15\" />\n          <Field id=\"inp_destination\" label=\"Destination\" placeholder=\"Enter destination\" required />\n          <Field id=\"inp_check_in_date\" label=\"Check-in date\" inputType=\"date\" required />\n          <Field id=\"inp_check_out_date\" label=\"Check-out date\" inputType=\"date\" required />\n          <Select id=\"sel_guests\" label=\"Guests\" options={[\"1\", \"2\", \"3\", \"4\", \"5\", \"6+\"]} required />\n        </Card>\n        <Card id=\"card_16\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_out\" label=\"Check-out\" />\n          <Checkbox id=\"chk_18\" style={{ alignSelf: \"flex-end\" }} />\n        </Card>\n        <Button id=\"btn_guests\" label=\"Guests\" />\n        <Button\n          id=\"btn_search\"\n          label=\"Search\"\n          style={{ alignSelf: \"flex-end\" }}\n          onClick={handleBtnSearchClick}\n        />\n        <Message owner=\"btn_search\" />\n        <Container id=\"box_21\">\n        </Container>\n      </Container>\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: StayFinder\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nfunction Select({ id, label, options = [], required = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"select\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <select id={controlId} className=\"ng-input ng-select\" value={ui.values[id] ?? \"\"} onChange={handleChange}>\n        <option value=\"\">Select\u2026</option>\n        {options.map((option) => (\n          <option key={option} value={option}>\n            {option}\n          </option>\n        ))}\n      </select>\n    </div>\n  );\n}\n\nfunction Checkbox({ id, label, checked = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"checkbox\");\n  const value = ui.values[id] ?? checked;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.checked);\n    onChange?.(event);\n  };\n\n  return (\n    <label {...attrs} className=\"ng-check\" style={style}>\n      <input type=\"checkbox\" checked={value} onChange={handleChange} />\n      <span>{ui.textOf(id, label)}</span>\n    </label>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_SEARCH_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_destination\",\n      \"inp_check_in_date\",\n      \"inp_check_out_date\",\n      \"sel_guests\"\n    ],\n    \"message\": \"Please fill in all fields before searching.\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnSearchClick = () => runActions(\"btn_search\", BTN_SEARCH_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Navbar\n        id=\"nav_main_navbar\"\n        layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n      >\n        <Text id=\"txt_stayfinder\" label=\"StayFinder\" />\n        <NavItem id=\"navi_hotels\" label=\"Hotels\" />\n        <NavItem id=\"navi_flights\" label=\"Flights\" />\n        <NavItem id=\"navi_deals\" label=\"Deals\" />\n        <NavItem id=\"navi_stayfinder\" label=\"StayFinder\" />\n        <Button id=\"btn_sign_in\" label=\"Sign in\" style={{ alignSelf: \"flex-end\" }} />\n      </Navbar>\n      <Image\n        id=\"img_banner_photo\"\n        photo=\"travel\"\n        alt=\"Hotel banner\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n      />\n      <Container id=\"box_8\">\n        <Icon id=\"ico_9\" />\n      </Container>\n      <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_11\">\n        </Container>\n        <Button id=\"btn_destination\" label=\"Destination\" />\n        <Card id=\"card_search_card\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_in\" label=\"Check-in\" />\n          <Checkbox id=\"chk_15\" />\n          <Field id=\"inp_destination\" label=\"Destination\" placeholder=\"Enter destination\" required />\n          <Field id=\"inp_check_in_date\" label=\"Check-in date\" inputType=\"date\" required />\n          <Field id=\"inp_check_out_date\" label=\"Check-out date\" inputType=\"date\" required />\n          <Select id=\"sel_guests\" label=\"Guests\" options={[\"1\", \"2\", \"3\", \"4\", \"5\", \"6+\"]} required />\n        </Card>\n        <Card id=\"card_16\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_out\" label=\"Check-out\" />\n          <Checkbox id=\"chk_18\" style={{ alignSelf: \"flex-end\" }} />\n        </Card>\n        <Button id=\"btn_guests\" label=\"Guests\" />\n        <Button\n          id=\"btn_search\"\n          label=\"Search\"\n          style={{ alignSelf: \"flex-end\" }}\n          onClick={handleBtnSearchClick}\n        />\n        <Message owner=\"btn_search\" />\n        <Container id=\"box_21\">\n        </Container>\n      </Container>\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 14,
+    "pages": 1,
+    "loc": 732,
+    "preview_bytes": 18119
+   }
+  },
+  "report0": {
+   "passed": false,
+   "score": 0.891,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "27 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_main_navbar",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "presence:txt_stayfinder",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_stayfinder"
+    },
+    {
+     "id": "presence:navi_hotels",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "presence:navi_flights",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_flights"
+    },
+    {
+     "id": "presence:navi_deals",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_deals"
+    },
+    {
+     "id": "presence:navi_stayfinder",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_stayfinder"
+    },
+    {
+     "id": "presence:btn_sign_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_sign_in"
+    },
+    {
+     "id": "presence:img_banner_photo",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_banner_photo"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:ico_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_9"
+    },
+    {
+     "id": "presence:box_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "presence:box_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "box_11"
+    },
+    {
+     "id": "presence:btn_destination",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_destination"
+    },
+    {
+     "id": "presence:card_search_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_search_card"
+    },
+    {
+     "id": "presence:txt_check_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_check_in"
+    },
+    {
+     "id": "presence:chk_15",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "chk_15"
+    },
+    {
+     "id": "presence:inp_destination",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_destination"
+    },
+    {
+     "id": "presence:inp_check_in_date",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_check_in_date"
+    },
+    {
+     "id": "presence:inp_check_out_date",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_check_out_date"
+    },
+    {
+     "id": "presence:sel_guests",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "sel_guests"
+    },
+    {
+     "id": "presence:card_16",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_16"
+    },
+    {
+     "id": "presence:txt_check_out",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_check_out"
+    },
+    {
+     "id": "presence:chk_18",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "chk_18"
+    },
+    {
+     "id": "presence:btn_guests",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_guests"
+    },
+    {
+     "id": "presence:btn_search",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_search"
+    },
+    {
+     "id": "presence:box_21",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "box_21"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_main_navbar",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "order:box_10",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "order:card_search_card",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "card_search_card"
+    },
+    {
+     "id": "order:card_16",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_16"
+    },
+    {
+     "id": "layout:txt_stayfinder",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.09 vs sketch",
+     "hard": false,
+     "target": "txt_stayfinder"
+    },
+    {
+     "id": "layout:navi_hotels",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.08 vs sketch",
+     "hard": false,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "layout:ico_9",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "ico_9"
+    },
+    {
+     "id": "layout:btn_destination",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.10 vs sketch",
+     "hard": false,
+     "target": "btn_destination"
+    },
+    {
+     "id": "layout:txt_check_in",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_check_in"
+    },
+    {
+     "id": "layout:chk_15",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "chk_15"
+    },
+    {
+     "id": "layout:txt_check_out",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_check_out"
+    },
+    {
+     "id": "layout:chk_18",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "chk_18"
+    },
+    {
+     "id": "layout:btn_search",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.05 vs sketch",
+     "hard": false,
+     "target": "btn_search"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.09 over 14 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_hotels",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "clickable:navi_flights",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_flights"
+    },
+    {
+     "id": "clickable:navi_deals",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_deals"
+    },
+    {
+     "id": "clickable:navi_stayfinder",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_stayfinder"
+    },
+    {
+     "id": "clickable:btn_sign_in",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_sign_in"
+    },
+    {
+     "id": "clickable:btn_destination",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_destination"
+    },
+    {
+     "id": "typing:chk_15",
+     "kind": "functional",
+     "name": "can be checked",
+     "ok": true,
+     "detail": "checked",
+     "hard": true,
+     "target": "chk_15"
+    },
+    {
+     "id": "typing:inp_destination",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Sample text', read 'Sample text'",
+     "hard": true,
+     "target": "inp_destination"
+    },
+    {
+     "id": "typing:inp_check_in_date",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed '2026-01-15', read '2026-01-15'",
+     "hard": true,
+     "target": "inp_check_in_date"
+    },
+    {
+     "id": "typing:inp_check_out_date",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed '2026-01-15', read '2026-01-15'",
+     "hard": true,
+     "target": "inp_check_out_date"
+    },
+    {
+     "id": "typing:sel_guests",
+     "kind": "functional",
+     "name": "option can be selected",
+     "ok": true,
+     "detail": "selected '1'",
+     "hard": true,
+     "target": "sel_guests"
+    },
+    {
+     "id": "typing:chk_18",
+     "kind": "functional",
+     "name": "can be checked",
+     "ok": true,
+     "detail": "checked",
+     "hard": true,
+     "target": "chk_18"
+    },
+    {
+     "id": "clickable:btn_guests",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_guests"
+    },
+    {
+     "id": "clickable:btn_search",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_search"
+    },
+    {
+     "id": "event:btn_search:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "empty fields -> error shown; valid input -> no error",
+     "hard": true,
+     "target": "btn_search"
+    }
+   ],
+   "visual": {
+    "presence": 0.9259,
+    "layout_iou": 0.0948,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 1,
+    "interactions_passed": 1,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 487.5
+     }
+    },
+    {
+     "id": "nav_main_navbar",
+     "type": "navbar",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 70.5
+     }
+    },
+    {
+     "id": "txt_stayfinder",
+     "type": "text",
+     "rect": {
+      "x": 119,
+      "y": 56,
+      "w": 603.6875,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "navi_hotels",
+     "type": "nav_item",
+     "rect": {
+      "x": 734.6875,
+      "y": 50,
+      "w": 65.859375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_flights",
+     "type": "nav_item",
+     "rect": {
+      "x": 812.546875,
+      "y": 50,
+      "w": 67.78125,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_deals",
+     "type": "nav_item",
+     "rect": {
+      "x": 892.328125,
+      "y": 50,
+      "w": 60.171875,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_stayfinder",
+     "type": "nav_item",
+     "rect": {
+      "x": 964.5,
+      "y": 50,
+      "w": 97.375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "btn_sign_in",
+     "type": "button",
+     "rect": {
+      "x": 1073.875,
+      "y": 45,
+      "w": 87.125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "img_banner_photo",
+     "type": "image",
+     "rect": {
+      "x": 100,
+      "y": 110.5,
+      "w": 1080,
+      "h": 200
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 318.5,
+      "w": 1080,
+      "h": 32
+     }
+    },
+    {
+     "id": "ico_9",
+     "type": "icon",
+     "rect": {
+      "x": 100,
+      "y": 318.5,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "id": "box_10",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 358.5,
+      "w": 1080,
+      "h": 161
+     }
+    },
+    {
+     "id": "box_11",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 439,
+      "w": 152.390625,
+      "h": 0
+     }
+    },
+    {
+     "id": "btn_destination",
+     "type": "button",
+     "rect": {
+      "x": 264.390625,
+      "y": 416.75,
+      "w": 120.5,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "card_search_card",
+     "type": "card",
+     "rect": {
+      "x": 396.890625,
+      "y": 358.5,
+      "w": 202.40625,
+      "h": 161
+     }
+    },
+    {
+     "id": "txt_check_in",
+     "type": "text",
+     "rect": {
+      "x": 421.890625,
+      "y": 416.5,
+      "w": 12.28125,
+      "h": 45
+     }
+    },
+    {
+     "id": "chk_15",
+     "type": "checkbox",
+     "rect": {
+      "x": 446.171875,
+      "y": 428,
+      "w": 31,
+      "h": 22
+     }
+    },
+    {
+     "id": "inp_destination",
+     "type": "input",
+     "rect": {
+      "x": 489.171875,
+      "y": 404,
+      "w": 12.28125,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_check_in_date",
+     "type": "input",
+     "rect": {
+      "x": 513.453125,
+      "y": 383.5,
+      "w": 12.28125,
+      "h": 111
+     }
+    },
+    {
+     "id": "inp_check_out_date",
+     "type": "input",
+     "rect": {
+      "x": 537.734375,
+      "y": 383.5,
+      "w": 12.28125,
+      "h": 111
+     }
+    },
+    {
+     "id": "sel_guests",
+     "type": "select",
+     "rect": {
+      "x": 562.015625,
+      "y": 404.75,
+      "w": 12.28125,
+      "h": 68.5
+     }
+    },
+    {
+     "id": "card_16",
+     "type": "card",
+     "rect": {
+      "x": 611.296875,
+      "y": 402.75,
+      "w": 202.40625,
+      "h": 72.5
+     }
+    },
+    {
+     "id": "txt_check_out",
+     "type": "text",
+     "rect": {
+      "x": 636.296875,
+      "y": 427.75,
+      "w": 109.40625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "chk_18",
+     "type": "checkbox",
+     "rect": {
+      "x": 757.703125,
+      "y": 428.25,
+      "w": 31,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_guests",
+     "type": "button",
+     "rect": {
+      "x": 825.703125,
+      "y": 416.75,
+      "w": 88.953125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_search",
+     "type": "button",
+     "rect": {
+      "x": 926.65625,
+      "y": 475,
+      "w": 88.9375,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "box_21",
+     "type": "container",
+     "rect": {
+      "x": 1027.59375,
+      "y": 439,
+      "w": 152.40625,
+      "h": 0
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 719
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "StayFinder",
+    "category": "booking",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 8,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "nav_main_navbar",
+        "type": "navbar",
+        "label": "Main navbar",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.0875,
+         "w": 0.911,
+         "h": 0.1911
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "between"
+        },
+        "children": [
+         {
+          "id": "txt_stayfinder",
+          "type": "text",
+          "label": "StayFinder",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.078,
+           "y": 0.1625,
+           "w": 0.857,
+           "h": 0.1161
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_hotels",
+          "type": "nav_item",
+          "label": "Hotels",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.55,
+           "y": 0.1607,
+           "w": 0.056,
+           "h": 0.0357
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_stayfinder"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_flights",
+          "type": "nav_item",
+          "label": "Flights",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.64,
+           "y": 0.1625,
+           "w": 0.061,
+           "h": 0.05
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_hotels"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_deals",
+          "type": "nav_item",
+          "label": "Deals",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.735,
+           "y": 0.1643,
+           "w": 0.047,
+           "h": 0.0339
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_flights"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "navi_stayfinder",
+          "type": "nav_item",
+          "label": "StayFinder",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.815,
+           "y": 0.1321,
+           "w": 0.128,
+           "h": 0.1089
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_deals"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_sign_in",
+          "type": "button",
+          "label": "Sign in",
+          "props": {},
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.844,
+           "y": 0.1679,
+           "w": 0.063,
+           "h": 0.0464
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "navi_stayfinder"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "img_banner_photo",
+        "type": "image",
+        "label": "Banner photo",
+        "props": {
+         "alt": "Hotel banner",
+         "photo": "travel"
+        },
+        "style": {
+         "width": "full"
+        },
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "nav_main_navbar"
+         }
+        ],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "box_8",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.049,
+         "y": 0.2696,
+         "w": 0.917,
+         "h": 0.4107
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "img_banner_photo"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "column",
+         "gap": 12,
+         "align": "stretch",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "ico_9",
+          "type": "icon",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.219,
+           "y": 0.3571,
+           "w": 0.033,
+           "h": 0.0554
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "box_10",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.051,
+         "y": 0.6857,
+         "w": 0.912,
+         "h": 0.1964
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_8"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "box_11",
+          "type": "container",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.051,
+           "y": 0.6857,
+           "w": 0.053,
+           "h": 0.175
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": []
+         },
+         {
+          "id": "btn_destination",
+          "type": "button",
+          "label": "Destination",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.075,
+           "y": 0.7179,
+           "w": 0.251,
+           "h": 0.1161
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "box_11"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "card_search_card",
+          "type": "card",
+          "label": "Search card",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.339,
+           "y": 0.7232,
+           "w": 0.157,
+           "h": 0.1071
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_destination"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "row",
+           "gap": 12,
+           "align": "center",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_check_in",
+            "type": "text",
+            "label": "Check-in",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.352,
+             "y": 0.7643,
+             "w": 0.078,
+             "h": 0.0321
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "chk_15",
+            "type": "checkbox",
+            "label": "",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.447,
+             "y": 0.7536,
+             "w": 0.033,
+             "h": 0.0554
+            },
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "txt_check_in"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "inp_destination",
+            "type": "input",
+            "label": "Destination",
+            "props": {
+             "inputType": "text",
+             "placeholder": "Enter destination",
+             "required": true,
+             "name": "destination"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "chk_15"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "inp_check_in_date",
+            "type": "input",
+            "label": "Check-in date",
+            "props": {
+             "inputType": "date",
+             "required": true,
+             "name": "checkin"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_destination"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "inp_check_out_date",
+            "type": "input",
+            "label": "Check-out date",
+            "props": {
+             "inputType": "date",
+             "required": true,
+             "name": "checkout"
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_check_in_date"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           },
+           {
+            "id": "sel_guests",
+            "type": "select",
+            "label": "Guests",
+            "props": {
+             "required": true,
+             "name": "guests",
+             "options": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6+"
+             ]
+            },
+            "style": {},
+            "bbox": null,
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "inp_check_out_date"
+             }
+            ],
+            "events": [],
+            "origin": "voice"
+           }
+          ]
+         },
+         {
+          "id": "card_16",
+          "type": "card",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.502,
+           "y": 0.7232,
+           "w": 0.159,
+           "h": 0.1179
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_search_card"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "row",
+           "gap": 12,
+           "align": "center",
+           "justify": "start"
+          },
+          "children": [
+           {
+            "id": "txt_check_out",
+            "type": "text",
+            "label": "Check-out",
+            "props": {},
+            "style": {},
+            "bbox": {
+             "x": 0.52,
+             "y": 0.7643,
+             "w": 0.089,
+             "h": 0.0339
+            },
+            "relations": [],
+            "events": [],
+            "origin": "sketch"
+           },
+           {
+            "id": "chk_18",
+            "type": "checkbox",
+            "label": "",
+            "props": {},
+            "style": {
+             "align": "right"
+            },
+            "bbox": {
+             "x": 0.613,
+             "y": 0.7429,
+             "w": 0.038,
+             "h": 0.0696
+            },
+            "relations": [
+             {
+              "type": "right_of",
+              "target": "txt_check_out"
+             }
+            ],
+            "events": [],
+            "origin": "sketch"
+           }
+          ]
+         },
+         {
+          "id": "btn_guests",
+          "type": "button",
+          "label": "Guests",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.674,
+           "y": 0.7196,
+           "w": 0.125,
+           "h": 0.1125
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "card_16"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "btn_search",
+          "type": "button",
+          "label": "Search",
+          "props": {},
+          "style": {
+           "variant": "primary",
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.81,
+           "y": 0.725,
+           "w": 0.125,
+           "h": 0.1107
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_guests"
+           }
+          ],
+          "events": [
+           {
+            "on": "click",
+            "actions": [
+             {
+              "type": "validate_required",
+              "targets": [
+               "inp_destination",
+               "inp_check_in_date",
+               "inp_check_out_date",
+               "sel_guests"
+              ],
+              "message": "Please fill in all fields before searching."
+             }
+            ]
+           }
+          ],
+          "origin": "sketch"
+         },
+         {
+          "id": "box_21",
+          "type": "container",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.875,
+           "y": 0.6982,
+           "w": 0.088,
+           "h": 0.1839
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_search"
+           }
+          ],
+          "events": [],
+          "origin": "sketch",
+          "layout": {
+           "direction": "column",
+           "gap": 12,
+           "align": "stretch",
+           "justify": "start"
+          },
+          "children": []
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 27
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"stayfinder\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>StayFinder</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# StayFinder\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Navbar.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n",
+    "src/components/NavItem.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Select.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Select({ id, label, options = [], required = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"select\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <select id={controlId} className=\"ng-input ng-select\" value={ui.values[id] ?? \"\"} onChange={handleChange}>\n        <option value=\"\">Select\u2026</option>\n        {options.map((option) => (\n          <option key={option} value={option}>\n            {option}\n          </option>\n        ))}\n      </select>\n    </div>\n  );\n}\n",
+    "src/components/Checkbox.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Checkbox({ id, label, checked = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"checkbox\");\n  const value = ui.values[id] ?? checked;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.checked);\n    onChange?.(event);\n  };\n\n  return (\n    <label {...attrs} className=\"ng-check\" style={style}>\n      <input type=\"checkbox\" checked={value} onChange={handleChange} />\n      <span>{ui.textOf(id, label)}</span>\n    </label>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Icon.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Checkbox from \"../components/Checkbox.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Icon from \"../components/Icon.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport NavItem from \"../components/NavItem.jsx\";\nimport Navbar from \"../components/Navbar.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Select from \"../components/Select.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_SEARCH_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_destination\",\n      \"inp_check_in_date\",\n      \"inp_check_out_date\",\n      \"sel_guests\"\n    ],\n    \"message\": \"Please fill in all fields before searching.\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnSearchClick = () => runActions(\"btn_search\", BTN_SEARCH_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Navbar\n        id=\"nav_main_navbar\"\n        layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n      >\n        <Text id=\"txt_stayfinder\" label=\"StayFinder\" />\n        <NavItem id=\"navi_hotels\" label=\"Hotels\" />\n        <NavItem id=\"navi_flights\" label=\"Flights\" />\n        <NavItem id=\"navi_deals\" label=\"Deals\" />\n        <NavItem id=\"navi_stayfinder\" label=\"StayFinder\" />\n        <Button id=\"btn_sign_in\" label=\"Sign in\" style={{ alignSelf: \"flex-end\" }} />\n      </Navbar>\n      <Image\n        id=\"img_banner_photo\"\n        photo=\"travel\"\n        alt=\"Hotel banner\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n      />\n      <Container id=\"box_8\">\n        <Icon id=\"ico_9\" />\n      </Container>\n      <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_11\">\n        </Container>\n        <Button id=\"btn_destination\" label=\"Destination\" />\n        <Card id=\"card_search_card\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_in\" label=\"Check-in\" />\n          <Checkbox id=\"chk_15\" />\n          <Field id=\"inp_destination\" label=\"Destination\" placeholder=\"Enter destination\" required />\n          <Field id=\"inp_check_in_date\" label=\"Check-in date\" inputType=\"date\" required />\n          <Field id=\"inp_check_out_date\" label=\"Check-out date\" inputType=\"date\" required />\n          <Select id=\"sel_guests\" label=\"Guests\" options={[\"1\", \"2\", \"3\", \"4\", \"5\", \"6+\"]} required />\n        </Card>\n        <Card id=\"card_16\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_out\" label=\"Check-out\" />\n          <Checkbox id=\"chk_18\" style={{ alignSelf: \"flex-end\" }} />\n        </Card>\n        <Button id=\"btn_guests\" label=\"Guests\" />\n        <Button\n          id=\"btn_search\"\n          label=\"Search\"\n          style={{ alignSelf: \"flex-end\" }}\n          onClick={handleBtnSearchClick}\n        />\n        <Message owner=\"btn_search\" />\n        <Container id=\"box_21\">\n        </Container>\n      </Container>\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: StayFinder\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Navbar(props) {\n  return <Stack {...props} type=\"navbar\" as=\"nav\" />;\n}\n\nfunction NavItem({ id, label, targetPage, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"nav_item\");\n  const active = targetPage && ui.page === targetPage;\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className={active ? \"ng-nav-item is-active\" : \"ng-nav-item\"} style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nfunction Select({ id, label, options = [], required = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"select\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <select id={controlId} className=\"ng-input ng-select\" value={ui.values[id] ?? \"\"} onChange={handleChange}>\n        <option value=\"\">Select\u2026</option>\n        {options.map((option) => (\n          <option key={option} value={option}>\n            {option}\n          </option>\n        ))}\n      </select>\n    </div>\n  );\n}\n\nfunction Checkbox({ id, label, checked = false, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"checkbox\");\n  const value = ui.values[id] ?? checked;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.checked);\n    onChange?.(event);\n  };\n\n  return (\n    <label {...attrs} className=\"ng-check\" style={style}>\n      <input type=\"checkbox\" checked={value} onChange={handleChange} />\n      <span>{ui.textOf(id, label)}</span>\n    </label>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Icon({ id, label, style, onClick }) {\n  const { attrs } = useNode(id, \"icon\");\n  return (\n    <span {...attrs} className=\"ng-icon\" role=\"img\" aria-label={label || \"icon\"} style={style} onClick={onClick}>\n      {label ? label.slice(0, 1).toUpperCase() : \"\u25cf\"}\n    </span>\n  );\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_SEARCH_CLICK = [\n  {\n    \"type\": \"validate_required\",\n    \"targets\": [\n      \"inp_destination\",\n      \"inp_check_in_date\",\n      \"inp_check_out_date\",\n      \"sel_guests\"\n    ],\n    \"message\": \"Please fill in all fields before searching.\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnSearchClick = () => runActions(\"btn_search\", BTN_SEARCH_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 8 }}>\n      <Navbar\n        id=\"nav_main_navbar\"\n        layout={{ direction: \"row\", align: \"center\", justify: \"between\" }}\n      >\n        <Text id=\"txt_stayfinder\" label=\"StayFinder\" />\n        <NavItem id=\"navi_hotels\" label=\"Hotels\" />\n        <NavItem id=\"navi_flights\" label=\"Flights\" />\n        <NavItem id=\"navi_deals\" label=\"Deals\" />\n        <NavItem id=\"navi_stayfinder\" label=\"StayFinder\" />\n        <Button id=\"btn_sign_in\" label=\"Sign in\" style={{ alignSelf: \"flex-end\" }} />\n      </Navbar>\n      <Image\n        id=\"img_banner_photo\"\n        photo=\"travel\"\n        alt=\"Hotel banner\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n      />\n      <Container id=\"box_8\">\n        <Icon id=\"ico_9\" />\n      </Container>\n      <Container id=\"box_10\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Container id=\"box_11\">\n        </Container>\n        <Button id=\"btn_destination\" label=\"Destination\" />\n        <Card id=\"card_search_card\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_in\" label=\"Check-in\" />\n          <Checkbox id=\"chk_15\" />\n          <Field id=\"inp_destination\" label=\"Destination\" placeholder=\"Enter destination\" required />\n          <Field id=\"inp_check_in_date\" label=\"Check-in date\" inputType=\"date\" required />\n          <Field id=\"inp_check_out_date\" label=\"Check-out date\" inputType=\"date\" required />\n          <Select id=\"sel_guests\" label=\"Guests\" options={[\"1\", \"2\", \"3\", \"4\", \"5\", \"6+\"]} required />\n        </Card>\n        <Card id=\"card_16\" layout={{ direction: \"row\", align: \"center\" }}>\n          <Text id=\"txt_check_out\" label=\"Check-out\" />\n          <Checkbox id=\"chk_18\" style={{ alignSelf: \"flex-end\" }} />\n        </Card>\n        <Button id=\"btn_guests\" label=\"Guests\" />\n        <Button\n          id=\"btn_search\"\n          label=\"Search\"\n          style={{ alignSelf: \"flex-end\" }}\n          onClick={handleBtnSearchClick}\n        />\n        <Message owner=\"btn_search\" />\n        <Container id=\"box_21\">\n        </Container>\n      </Container>\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 24,
+    "components": 14,
+    "pages": 1,
+    "loc": 732,
+    "preview_bytes": 18119
+   }
+  },
+  "report": {
+   "passed": false,
+   "score": 0.891,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "27 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:nav_main_navbar",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "presence:txt_stayfinder",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_stayfinder"
+    },
+    {
+     "id": "presence:navi_hotels",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "presence:navi_flights",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_flights"
+    },
+    {
+     "id": "presence:navi_deals",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_deals"
+    },
+    {
+     "id": "presence:navi_stayfinder",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "navi_stayfinder"
+    },
+    {
+     "id": "presence:btn_sign_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_sign_in"
+    },
+    {
+     "id": "presence:img_banner_photo",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_banner_photo"
+    },
+    {
+     "id": "presence:box_8",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_8"
+    },
+    {
+     "id": "presence:ico_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "ico_9"
+    },
+    {
+     "id": "presence:box_10",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "presence:box_11",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "box_11"
+    },
+    {
+     "id": "presence:btn_destination",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_destination"
+    },
+    {
+     "id": "presence:card_search_card",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_search_card"
+    },
+    {
+     "id": "presence:txt_check_in",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_check_in"
+    },
+    {
+     "id": "presence:chk_15",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "chk_15"
+    },
+    {
+     "id": "presence:inp_destination",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_destination"
+    },
+    {
+     "id": "presence:inp_check_in_date",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_check_in_date"
+    },
+    {
+     "id": "presence:inp_check_out_date",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_check_out_date"
+    },
+    {
+     "id": "presence:sel_guests",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "sel_guests"
+    },
+    {
+     "id": "presence:card_16",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_16"
+    },
+    {
+     "id": "presence:txt_check_out",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_check_out"
+    },
+    {
+     "id": "presence:chk_18",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "chk_18"
+    },
+    {
+     "id": "presence:btn_guests",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_guests"
+    },
+    {
+     "id": "presence:btn_search",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_search"
+    },
+    {
+     "id": "presence:box_21",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": false,
+     "detail": "not visible",
+     "hard": true,
+     "target": "box_21"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "4 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:nav_main_navbar",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "nav_main_navbar"
+    },
+    {
+     "id": "order:box_10",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "5 children in order",
+     "hard": true,
+     "target": "box_10"
+    },
+    {
+     "id": "order:card_search_card",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "card_search_card"
+    },
+    {
+     "id": "order:card_16",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "card_16"
+    },
+    {
+     "id": "layout:txt_stayfinder",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.09 vs sketch",
+     "hard": false,
+     "target": "txt_stayfinder"
+    },
+    {
+     "id": "layout:navi_hotels",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.08 vs sketch",
+     "hard": false,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "layout:ico_9",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "ico_9"
+    },
+    {
+     "id": "layout:btn_destination",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.10 vs sketch",
+     "hard": false,
+     "target": "btn_destination"
+    },
+    {
+     "id": "layout:txt_check_in",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_check_in"
+    },
+    {
+     "id": "layout:chk_15",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "chk_15"
+    },
+    {
+     "id": "layout:txt_check_out",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_check_out"
+    },
+    {
+     "id": "layout:chk_18",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "chk_18"
+    },
+    {
+     "id": "layout:btn_search",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.05 vs sketch",
+     "hard": false,
+     "target": "btn_search"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.09 over 14 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:navi_hotels",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_hotels"
+    },
+    {
+     "id": "clickable:navi_flights",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_flights"
+    },
+    {
+     "id": "clickable:navi_deals",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_deals"
+    },
+    {
+     "id": "clickable:navi_stayfinder",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "navi_stayfinder"
+    },
+    {
+     "id": "clickable:btn_sign_in",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_sign_in"
+    },
+    {
+     "id": "clickable:btn_destination",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_destination"
+    },
+    {
+     "id": "typing:chk_15",
+     "kind": "functional",
+     "name": "can be checked",
+     "ok": true,
+     "detail": "checked",
+     "hard": true,
+     "target": "chk_15"
+    },
+    {
+     "id": "typing:inp_destination",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Sample text', read 'Sample text'",
+     "hard": true,
+     "target": "inp_destination"
+    },
+    {
+     "id": "typing:inp_check_in_date",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed '2026-01-15', read '2026-01-15'",
+     "hard": true,
+     "target": "inp_check_in_date"
+    },
+    {
+     "id": "typing:inp_check_out_date",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed '2026-01-15', read '2026-01-15'",
+     "hard": true,
+     "target": "inp_check_out_date"
+    },
+    {
+     "id": "typing:sel_guests",
+     "kind": "functional",
+     "name": "option can be selected",
+     "ok": true,
+     "detail": "selected '1'",
+     "hard": true,
+     "target": "sel_guests"
+    },
+    {
+     "id": "typing:chk_18",
+     "kind": "functional",
+     "name": "can be checked",
+     "ok": true,
+     "detail": "checked",
+     "hard": true,
+     "target": "chk_18"
+    },
+    {
+     "id": "clickable:btn_guests",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_guests"
+    },
+    {
+     "id": "clickable:btn_search",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_search"
+    },
+    {
+     "id": "event:btn_search:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "empty fields -> error shown; valid input -> no error",
+     "hard": true,
+     "target": "btn_search"
+    }
+   ],
+   "visual": {
+    "presence": 0.9259,
+    "layout_iou": 0.0948,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 1,
+    "interactions_passed": 1,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 487.5
+     }
+    },
+    {
+     "id": "nav_main_navbar",
+     "type": "navbar",
+     "rect": {
+      "x": 100,
+      "y": 32,
+      "w": 1080,
+      "h": 70.5
+     }
+    },
+    {
+     "id": "txt_stayfinder",
+     "type": "text",
+     "rect": {
+      "x": 119,
+      "y": 56,
+      "w": 603.6875,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "navi_hotels",
+     "type": "nav_item",
+     "rect": {
+      "x": 734.6875,
+      "y": 50,
+      "w": 65.859375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_flights",
+     "type": "nav_item",
+     "rect": {
+      "x": 812.546875,
+      "y": 50,
+      "w": 67.78125,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_deals",
+     "type": "nav_item",
+     "rect": {
+      "x": 892.328125,
+      "y": 50,
+      "w": 60.171875,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "navi_stayfinder",
+     "type": "nav_item",
+     "rect": {
+      "x": 964.5,
+      "y": 50,
+      "w": 97.375,
+      "h": 34.5
+     }
+    },
+    {
+     "id": "btn_sign_in",
+     "type": "button",
+     "rect": {
+      "x": 1073.875,
+      "y": 45,
+      "w": 87.125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "img_banner_photo",
+     "type": "image",
+     "rect": {
+      "x": 100,
+      "y": 110.5,
+      "w": 1080,
+      "h": 200
+     }
+    },
+    {
+     "id": "box_8",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 318.5,
+      "w": 1080,
+      "h": 32
+     }
+    },
+    {
+     "id": "ico_9",
+     "type": "icon",
+     "rect": {
+      "x": 100,
+      "y": 318.5,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "id": "box_10",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 358.5,
+      "w": 1080,
+      "h": 161
+     }
+    },
+    {
+     "id": "box_11",
+     "type": "container",
+     "rect": {
+      "x": 100,
+      "y": 439,
+      "w": 152.390625,
+      "h": 0
+     }
+    },
+    {
+     "id": "btn_destination",
+     "type": "button",
+     "rect": {
+      "x": 264.390625,
+      "y": 416.75,
+      "w": 120.5,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "card_search_card",
+     "type": "card",
+     "rect": {
+      "x": 396.890625,
+      "y": 358.5,
+      "w": 202.40625,
+      "h": 161
+     }
+    },
+    {
+     "id": "txt_check_in",
+     "type": "text",
+     "rect": {
+      "x": 421.890625,
+      "y": 416.5,
+      "w": 12.28125,
+      "h": 45
+     }
+    },
+    {
+     "id": "chk_15",
+     "type": "checkbox",
+     "rect": {
+      "x": 446.171875,
+      "y": 428,
+      "w": 31,
+      "h": 22
+     }
+    },
+    {
+     "id": "inp_destination",
+     "type": "input",
+     "rect": {
+      "x": 489.171875,
+      "y": 404,
+      "w": 12.28125,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_check_in_date",
+     "type": "input",
+     "rect": {
+      "x": 513.453125,
+      "y": 383.5,
+      "w": 12.28125,
+      "h": 111
+     }
+    },
+    {
+     "id": "inp_check_out_date",
+     "type": "input",
+     "rect": {
+      "x": 537.734375,
+      "y": 383.5,
+      "w": 12.28125,
+      "h": 111
+     }
+    },
+    {
+     "id": "sel_guests",
+     "type": "select",
+     "rect": {
+      "x": 562.015625,
+      "y": 404.75,
+      "w": 12.28125,
+      "h": 68.5
+     }
+    },
+    {
+     "id": "card_16",
+     "type": "card",
+     "rect": {
+      "x": 611.296875,
+      "y": 402.75,
+      "w": 202.40625,
+      "h": 72.5
+     }
+    },
+    {
+     "id": "txt_check_out",
+     "type": "text",
+     "rect": {
+      "x": 636.296875,
+      "y": 427.75,
+      "w": 109.40625,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "chk_18",
+     "type": "checkbox",
+     "rect": {
+      "x": 757.703125,
+      "y": 428.25,
+      "w": 31,
+      "h": 22
+     }
+    },
+    {
+     "id": "btn_guests",
+     "type": "button",
+     "rect": {
+      "x": 825.703125,
+      "y": 416.75,
+      "w": 88.953125,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "btn_search",
+     "type": "button",
+     "rect": {
+      "x": 926.65625,
+      "y": 475,
+      "w": 88.9375,
+      "h": 44.5
+     }
+    },
+    {
+     "id": "box_21",
+     "type": "container",
+     "rect": {
+      "x": 1027.59375,
+      "y": 439,
+      "w": 152.40625,
+      "h": 0
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 696
+  },
+  "repairs": [
+   {
+    "iteration": 1,
+    "check": "presence:box_11",
+    "target": "box_11",
+    "action": "reset_style",
+    "detail": "reset style of box_11",
+    "result": "still failing"
+   },
+   {
+    "iteration": 1,
+    "check": "presence:box_21",
+    "target": "box_21",
+    "action": "reset_style",
+    "detail": "reset style of box_21",
+    "result": "still failing"
+   }
+  ],
+  "timings": {
+   "fuse": 6.7,
+   "codegen": 1.7,
+   "validate": 720.3,
+   "repair": 1398.4
+  }
+ }
+}

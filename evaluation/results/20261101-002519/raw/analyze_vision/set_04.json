@@ -1,0 +1,215 @@
+{
+ "_ok": true,
+ "_wall_ms": 9749.0,
+ "value": {
+  "components": [
+   {
+    "type": "header",
+    "label": "< Privacy",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.96,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Profile visibility",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.15,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Public",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.21,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Public",
+    "bbox": {
+     "x": 0.11,
+     "y": 0.21,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Friends only",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.27,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Friends only",
+    "bbox": {
+     "x": 0.11,
+     "y": 0.27,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Private",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.33,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Private",
+    "bbox": {
+     "x": 0.11,
+     "y": 0.33,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.39,
+     "w": 0.96,
+     "h": 0.01
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Show online status",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.43,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Show online status",
+    "bbox": {
+     "x": 0.11,
+     "y": 0.43,
+     "w": 0.5,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Allow tagging",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.49,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Allow tagging",
+    "bbox": {
+     "x": 0.11,
+     "y": 0.49,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Reset",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.58,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.58,
+     "w": 0.4,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 581,
+  "mode": "vision",
+  "title": "Privacy Settings",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 9741,
+   "total_ms": 9749
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

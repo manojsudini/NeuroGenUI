@@ -1,0 +1,176 @@
+{
+ "_ok": true,
+ "_wall_ms": 6748.1,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.1,
+     "w": 0.9,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Eventix",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.12,
+     "w": 0.124,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Events",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.12,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Venues",
+    "bbox": {
+     "x": 0.8,
+     "y": 0.12,
+     "w": 0.1,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "My tickets",
+    "bbox": {
+     "x": 0.9,
+     "y": 0.12,
+     "w": 0.014,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.3,
+     "w": 0.35,
+     "h": 0.5
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jazz Night",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.3,
+     "w": 0.3,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sat 12 Dec, 8 PM",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.38,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.44,
+     "w": 0.4,
+     "h": 0.11
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Tickets",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.56,
+     "w": 0.2,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Book now",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.66,
+     "w": 0.2,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "View venue map",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.78,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Event Booking Detail",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6685,
+   "total_ms": 6748
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

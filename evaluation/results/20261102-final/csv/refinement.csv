@@ -1,0 +1,241 @@
+id,category,sketch,system,available,passed,detail,render_ok,pre_satisfied,preservation,preserved_n,considered_n,changed,latency_ms
+cmd_001,add,login_01,pipeline,False,False,no output,,,,,,,
+cmd_001,add,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_001,add,login_01,baseline,True,True,input 'email' found; input 'password' found; button 'login' found,True,,,,,,31192.4
+cmd_002,add,login_01,pipeline,False,False,no output,,,,,,,
+cmd_002,add,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_002,add,login_01,baseline,True,True,"link 'forgot' found; below: first cy=473 cx=500, then cy=526 cx=500",True,False,1.0,3,3,,13603.5
+cmd_003,add,reg_01,pipeline,False,False,no output,,,,,,,
+cmd_003,add,reg_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_003,add,reg_01,baseline,True,True,"input 'phone' found; below: first cy=250 cx=500, then cy=325 cx=500",True,False,1.0,8,8,,13853.4
+cmd_004,add,contact_01,pipeline,False,False,no output,,,,,,,
+cmd_004,add,contact_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_004,add,contact_01,baseline,True,True,"input 'company' found; below: first cy=184 cx=510, then cy=260 cx=510",True,False,1.0,5,5,,12256.4
+cmd_005,add,prof_01,pipeline,False,False,no output,,,,,,,
+cmd_005,add,prof_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_005,add,prof_01,baseline,True,False,"button 'share' found; below: first cy=251 cx=480, then cy=251 cx=623",True,False,1.0,7,7,,15419.8
+cmd_006,add,shop_03,pipeline,False,False,no output,,,,,,,
+cmd_006,add,shop_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_006,add,shop_03,baseline,True,True,"link 'continue shopping' found; below: first cy=423 cx=500, then cy=467 cx=379",True,False,1.0,10,10,,12172.5
+cmd_007,add,set_01,pipeline,False,False,no output,,,,,,,
+cmd_007,add,set_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_007,add,set_01,baseline,True,False,"checkbox 'sms' missing; element missing (first=False, then=False)",True,False,1.0,5,5,,15327.7
+cmd_008,add,land_03,pipeline,False,False,no output,,,,,,,
+cmd_008,add,land_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_008,add,land_03,baseline,True,True,"text 'free for 30 days' found; below: first cy=348 cx=500, then cy=387 cx=500",True,False,1.0,7,7,,12638.7
+cmd_009,add,dash_03,pipeline,False,False,no output,,,,,,,
+cmd_009,add,dash_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_009,add,dash_03,baseline,True,True,button 'pay bills' found,True,False,0.6667,4,6,button:☰;button:Send,18652.5
+cmd_010,add,book_02,pipeline,False,False,no output,,,,,,,
+cmd_010,add,book_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_010,add,book_02,baseline,True,True,"input 'email' found; below: first cy=248 cx=509, then cy=329 cx=509",True,False,1.0,8,8,,12491.4
+cmd_011,remove,login_01,pipeline,False,False,no output,,,,,,,
+cmd_011,remove,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_011,remove,login_01,baseline,True,True,gone,True,True,1.0,4,4,,7717.3
+cmd_012,remove,login_03,pipeline,False,False,no output,,,,,,,
+cmd_012,remove,login_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_012,remove,login_03,baseline,True,True,gone,True,False,1.0,9,9,,17985.4
+cmd_013,remove,reg_01,pipeline,False,False,no output,,,,,,,
+cmd_013,remove,reg_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_013,remove,reg_01,baseline,True,True,gone,True,False,1.0,8,8,,12665.3
+cmd_014,remove,dash_01,pipeline,False,False,no output,,,,,,,
+cmd_014,remove,dash_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_014,remove,dash_01,baseline,True,True,gone,True,False,1.0,14,14,,17718.5
+cmd_015,remove,prof_02,pipeline,False,False,no output,,,,,,,
+cmd_015,remove,prof_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_015,remove,prof_02,baseline,True,True,gone,True,False,1.0,8,8,,12613.5
+cmd_016,remove,shop_02,pipeline,False,False,no output,,,,,,,
+cmd_016,remove,shop_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_016,remove,shop_02,baseline,True,True,gone,True,False,1.0,7,7,,12533.2
+cmd_017,remove,bank_02,pipeline,False,False,no output,,,,,,,
+cmd_017,remove,bank_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_017,remove,bank_02,baseline,True,True,gone,True,False,1.0,12,12,,14625.8
+cmd_018,remove,contact_03,pipeline,False,False,no output,,,,,,,
+cmd_018,remove,contact_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_018,remove,contact_03,baseline,True,True,gone,True,False,1.0,10,10,,14157.3
+cmd_019,remove,set_04,pipeline,False,False,no output,,,,,,,
+cmd_019,remove,set_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_019,remove,set_04,baseline,True,True,gone,True,False,0.8889,8,9,button:Save,12383.7
+cmd_020,remove,land_03,pipeline,False,False,no output,,,,,,,
+cmd_020,remove,land_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_020,remove,land_03,baseline,True,True,gone,True,False,1.0,7,7,,9370.3
+cmd_021,modify,login_01,pipeline,False,False,no output,,,,,,,
+cmd_021,modify,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_021,modify,login_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,3,3,,9327.6
+cmd_022,modify,reg_01,pipeline,False,False,no output,,,,,,,
+cmd_022,modify,reg_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_022,modify,reg_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,8,8,,11425.5
+cmd_023,modify,contact_01,pipeline,False,False,no output,,,,,,,
+cmd_023,modify,contact_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_023,modify,contact_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,5,5,,9011.7
+cmd_024,modify,dash_01,pipeline,False,False,no output,,,,,,,
+cmd_024,modify,dash_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_024,modify,dash_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,14,14,,15588.4
+cmd_025,modify,shop_01,pipeline,False,False,no output,,,,,,,
+cmd_025,modify,shop_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_025,modify,shop_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,16,16,,14917.5
+cmd_026,modify,bank_04,pipeline,False,False,no output,,,,,,,
+cmd_026,modify,bank_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_026,modify,bank_04,baseline,True,True,new=yes old_remaining=0,True,False,1.0,6,6,,9844.4
+cmd_027,modify,prof_01,pipeline,False,False,no output,,,,,,,
+cmd_027,modify,prof_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_027,modify,prof_01,baseline,True,True,new=yes old_remaining=0,True,False,1.0,7,7,,12065.2
+cmd_028,modify,land_02,pipeline,False,False,no output,,,,,,,
+cmd_028,modify,land_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_028,modify,land_02,baseline,True,True,new=yes old_remaining=0,True,False,1.0,13,13,,12264.6
+cmd_029,modify,set_02,pipeline,False,False,no output,,,,,,,
+cmd_029,modify,set_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_029,modify,set_02,baseline,True,True,1 element(s) with placeholder containing value,True,False,1.0,9,9,,18327.6
+cmd_030,modify,contact_04,pipeline,False,False,no output,,,,,,,
+cmd_030,modify,contact_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_030,modify,contact_04,baseline,True,True,new=yes old_remaining=0,True,False,1.0,10,10,,13995.0
+cmd_031,move,login_02,pipeline,False,False,no output,,,,,,,
+cmd_031,move,login_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_031,move,login_02,baseline,True,True,"below: first cy=74 cx=408, then cy=130 cx=151",True,False,0.6667,4,6,input:Email;input:Password,9529.1
+cmd_032,move,login_03,pipeline,False,False,no output,,,,,,,
+cmd_032,move,login_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_032,move,login_03,baseline,True,True,"below: first cy=416 cx=500, then cy=466 cx=500",True,False,0.8889,8,9,checkbox:Remember me,16429.8
+cmd_033,move,reg_03,pipeline,False,False,no output,,,,,,,
+cmd_033,move,reg_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_033,move,reg_03,baseline,True,True,"above: first cy=348 cx=230, then cy=264 cx=230",True,False,1.0,8,8,,12571.1
+cmd_034,move,prof_01,pipeline,False,False,no output,,,,,,,
+cmd_034,move,prof_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_034,move,prof_01,baseline,True,True,"above: first cy=350 cx=435, then cy=244 cx=500",True,False,0.8571,6,7,text:Jane is a passionate pro,11350.4
+cmd_035,move,shop_02,pipeline,False,False,no output,,,,,,,
+cmd_035,move,shop_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_035,move,shop_02,baseline,True,True,"below: first cy=295 cx=715, then cy=368 cx=715",True,False,1.0,7,7,,13731.8
+cmd_036,move,bank_02,pipeline,False,False,no output,,,,,,,
+cmd_036,move,bank_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_036,move,bank_02,baseline,True,True,"above: first cy=262 cx=500, then cy=183 cx=500",True,False,1.0,12,12,,13643.7
+cmd_037,move,contact_02,pipeline,False,False,no output,,,,,,,
+cmd_037,move,contact_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_037,move,contact_02,baseline,True,True,"above: first cy=250 cx=194, then cy=197 cx=194",True,False,1.0,12,12,,13733.2
+cmd_038,move,set_01,pipeline,False,False,no output,,,,,,,
+cmd_038,move,set_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_038,move,set_01,baseline,True,True,"below: first cy=294 cx=500, then cy=333 cx=369",True,False,1.0,4,4,,11059.6
+cmd_039,move,land_01,pipeline,False,False,no output,,,,,,,
+cmd_039,move,land_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_039,move,land_01,baseline,True,True,"left_of: first cy=258 cx=240, then cy=258 cx=104",True,False,1.0,18,18,,24879.3
+cmd_040,move,book_02,pipeline,False,False,no output,,,,,,,
+cmd_040,move,book_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_040,move,book_02,baseline,True,True,"below: first cy=237 cx=329, then cy=310 cx=509",True,False,1.0,8,8,,9543.4
+cmd_041,resize,login_01,pipeline,False,False,no output,,,,,,,
+cmd_041,resize,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_041,resize,login_01,baseline,True,True,area ratio 1.22,True,,1.0,3,3,,9280.9
+cmd_042,resize,login_03,pipeline,False,False,no output,,,,,,,
+cmd_042,resize,login_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_042,resize,login_03,baseline,True,True,area ratio 1.26,True,,1.0,9,9,,15433.9
+cmd_043,resize,reg_02,pipeline,False,False,no output,,,,,,,
+cmd_043,resize,reg_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_043,resize,reg_02,baseline,True,False,width ratio 1.00,True,,1.0,11,11,,17375.6
+cmd_044,resize,dash_02,pipeline,False,False,no output,,,,,,,
+cmd_044,resize,dash_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_044,resize,dash_02,baseline,True,False,"element missing (before=False, after=False)",True,,1.0,4,4,,19353.1
+cmd_045,resize,prof_01,pipeline,False,False,no output,,,,,,,
+cmd_045,resize,prof_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_045,resize,prof_01,baseline,True,False,"element missing (before=True, after=False)",True,,1.0,7,7,,11892.7
+cmd_046,resize,shop_02,pipeline,False,False,no output,,,,,,,
+cmd_046,resize,shop_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_046,resize,shop_02,baseline,True,True,area ratio 0.49,True,,1.0,7,7,,14286.8
+cmd_047,resize,land_02,pipeline,False,False,no output,,,,,,,
+cmd_047,resize,land_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_047,resize,land_02,baseline,True,True,area ratio 1.76,True,,0.9231,12,13,input:Work email,12803.4
+cmd_048,resize,contact_01,pipeline,False,False,no output,,,,,,,
+cmd_048,resize,contact_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_048,resize,contact_01,baseline,True,True,height ratio 1.56,True,,1.0,5,5,,10218.3
+cmd_049,resize,bank_01,pipeline,False,False,no output,,,,,,,
+cmd_049,resize,bank_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_049,resize,bank_01,baseline,True,True,font ratio 1.33,True,,1.0,10,10,,18367.2
+cmd_050,resize,set_03,pipeline,False,False,no output,,,,,,,
+cmd_050,resize,set_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_050,resize,set_03,baseline,True,True,area ratio 0.55,True,,1.0,7,7,,9304.6
+cmd_051,style,login_01,pipeline,False,False,no output,,,,,,,
+cmd_051,style,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_051,style,login_01,baseline,True,True,bg=blue text=white border=blue,True,False,1.0,3,3,,9429.0
+cmd_052,style,reg_01,pipeline,False,False,no output,,,,,,,
+cmd_052,style,reg_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_052,style,reg_01,baseline,True,True,bg=green text=white border=green,True,False,1.0,8,8,,11668.2
+cmd_053,style,dash_03,pipeline,False,False,no output,,,,,,,
+cmd_053,style,dash_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_053,style,dash_03,baseline,True,False,bg=white text=black border=gray,True,False,0.8333,5,6,button:☰,17316.2
+cmd_054,style,shop_01,pipeline,False,False,no output,,,,,,,
+cmd_054,style,shop_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_054,style,shop_01,baseline,True,True,bg=orange text=white border=white,True,False,0.875,14,16,button:Buy lamp;button:Buy sneakers,15308.0
+cmd_055,style,bank_02,pipeline,False,False,no output,,,,,,,
+cmd_055,style,bank_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_055,style,bank_02,baseline,True,True,bg=red text=white border=white,True,False,1.0,12,12,,13995.7
+cmd_056,style,contact_01,pipeline,False,False,no output,,,,,,,
+cmd_056,style,contact_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_056,style,contact_01,baseline,True,True,bg=None text=blue border=blue,True,False,1.0,5,5,,8565.0
+cmd_057,style,prof_01,pipeline,False,False,no output,,,,,,,
+cmd_057,style,prof_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_057,style,prof_01,baseline,True,True,bg=None text=pink border=pink,True,False,1.0,7,7,,12617.3
+cmd_058,style,land_01,pipeline,False,False,no output,,,,,,,
+cmd_058,style,land_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_058,style,land_01,baseline,True,True,bg=black text=white border=white,True,False,1.0,18,18,,24646.3
+cmd_059,style,set_04,pipeline,False,False,no output,,,,,,,
+cmd_059,style,set_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_059,style,set_04,baseline,True,True,bg=teal text=white border=teal,True,False,1.0,9,9,,11138.2
+cmd_060,style,book_01,pipeline,False,False,no output,,,,,,,
+cmd_060,style,book_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_060,style,book_01,baseline,True,True,bg=yellow text=black border=black,True,False,1.0,10,10,,12515.4
+cmd_061,interaction,login_01,pipeline,False,False,no output,,,,,,,
+cmd_061,interaction,login_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_061,interaction,login_01,baseline,True,True,error shown,True,,1.0,3,3,,8764.8
+cmd_062,interaction,reg_04,pipeline,False,False,no output,,,,,,,
+cmd_062,interaction,reg_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_062,interaction,reg_04,baseline,True,True,error shown,True,,1.0,7,7,,12749.7
+cmd_063,interaction,contact_04,pipeline,False,False,no output,,,,,,,
+cmd_063,interaction,contact_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_063,interaction,contact_04,baseline,True,True,message shown,True,,1.0,10,10,,13913.5
+cmd_064,interaction,login_04,pipeline,False,False,no output,,,,,,,
+cmd_064,interaction,login_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_064,interaction,login_04,baseline,True,True,message shown,True,,1.0,7,7,,11716.2
+cmd_065,interaction,reg_02,pipeline,False,False,no output,,,,,,,
+cmd_065,interaction,reg_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_065,interaction,reg_02,baseline,True,True,format error shown,True,,1.0,11,11,,17748.8
+cmd_066,interaction,bank_02,pipeline,False,False,no output,,,,,,,
+cmd_066,interaction,bank_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_066,interaction,bank_02,baseline,True,True,message shown,True,,1.0,12,12,,16707.8
+cmd_067,interaction,book_03,pipeline,False,False,no output,,,,,,,
+cmd_067,interaction,book_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_067,interaction,book_03,baseline,True,True,message shown,True,,1.0,10,10,,15264.7
+cmd_068,interaction,land_04,pipeline,False,False,no output,,,,,,,
+cmd_068,interaction,land_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_068,interaction,land_04,baseline,True,True,message shown,True,,1.0,13,13,,88598.1
+cmd_069,interaction,contact_02,pipeline,False,False,no output,,,,,,,
+cmd_069,interaction,contact_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_069,interaction,contact_02,baseline,True,True,format error shown,True,,1.0,12,12,,15199.8
+cmd_070,interaction,dash_03,pipeline,False,False,no output,,,,,,,
+cmd_070,interaction,dash_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_070,interaction,dash_03,baseline,True,True,message shown,True,,1.0,6,6,,17113.9
+cmd_071,navigation,reg_03,pipeline,False,False,no output,,,,,,,
+cmd_071,navigation,reg_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_071,navigation,reg_03,baseline,True,False,new page elements=0 jaccard=0.00,True,,1.0,8,8,,14360.2
+cmd_072,navigation,login_03,pipeline,False,False,no output,,,,,,,
+cmd_072,navigation,login_03,pipeline_voice,False,False,no output,,,,,,,
+cmd_072,navigation,login_03,baseline,True,True,new page elements=1 jaccard=0.00,True,,1.0,9,9,,17072.9
+cmd_073,navigation,dash_01,pipeline,False,False,no output,,,,,,,
+cmd_073,navigation,dash_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_073,navigation,dash_01,baseline,True,True,new page elements=2 jaccard=0.00,True,,1.0,14,14,,16800.3
+cmd_074,navigation,dash_02,pipeline,False,False,no output,,,,,,,
+cmd_074,navigation,dash_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_074,navigation,dash_02,baseline,True,False,target not found,True,,1.0,4,4,,21527.6
+cmd_075,navigation,prof_02,pipeline,False,False,no output,,,,,,,
+cmd_075,navigation,prof_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_075,navigation,prof_02,baseline,True,True,new page elements=1 jaccard=0.00,True,,1.0,8,8,,16560.2
+cmd_076,navigation,shop_04,pipeline,False,False,no output,,,,,,,
+cmd_076,navigation,shop_04,pipeline_voice,False,False,no output,,,,,,,
+cmd_076,navigation,shop_04,baseline,True,True,new page elements=1 jaccard=0.00,True,,1.0,12,12,,18901.1
+cmd_077,navigation,bank_01,pipeline,False,False,no output,,,,,,,
+cmd_077,navigation,bank_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_077,navigation,bank_01,baseline,True,True,new page elements=1 jaccard=0.00,True,,1.0,10,10,,22475.7
+cmd_078,navigation,book_01,pipeline,False,False,no output,,,,,,,
+cmd_078,navigation,book_01,pipeline_voice,False,False,no output,,,,,,,
+cmd_078,navigation,book_01,baseline,True,True,new page elements=1 jaccard=0.00,True,,1.0,10,10,,23243.9
+cmd_079,navigation,land_02,pipeline,False,False,no output,,,,,,,
+cmd_079,navigation,land_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_079,navigation,land_02,baseline,True,True,new page elements=2 jaccard=0.00,True,,1.0,13,13,,14735.2
+cmd_080,navigation,contact_02,pipeline,False,False,no output,,,,,,,
+cmd_080,navigation,contact_02,pipeline_voice,False,False,no output,,,,,,,
+cmd_080,navigation,contact_02,baseline,True,True,new page elements=2 jaccard=0.00,True,,1.0,12,12,,17240.6

@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 2014.5,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "button",
+     "id": "btn_log_in"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "password field",
+      "id": "inp_password"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2013,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"button\",\"id\":\"btn_log_in\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"password field\",\"id\":\"inp_password\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

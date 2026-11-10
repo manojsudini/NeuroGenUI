@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1563.2,
+ "value": {
+  "text": "Change the Get Started button color to black.",
+  "model": "whisper-1",
+  "duration_ms": 1563
+ }
+}

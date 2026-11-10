@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1467.1,
+ "value": {
+  "text": "When the login button is clicked, show an error if the fields are empty.",
+  "model": "whisper-1",
+  "duration_ms": 1467
+ }
+}

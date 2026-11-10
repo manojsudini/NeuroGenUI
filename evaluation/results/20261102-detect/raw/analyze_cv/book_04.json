@@ -1,0 +1,199 @@
+{
+ "_ok": true,
+ "_wall_ms": 14690.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.075,
+     "w": 0.886,
+     "h": 0.1321
+    },
+    "confidence": 0.839,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Eventix",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.1143,
+     "w": 0.104,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Events",
+    "bbox": {
+     "x": 0.583,
+     "y": 0.1054,
+     "w": 0.076,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Venues",
+    "bbox": {
+     "x": 0.686,
+     "y": 0.1107,
+     "w": 0.076,
+     "h": 0.0482
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Mytickets",
+    "bbox": {
+     "x": 0.791,
+     "y": 0.1107,
+     "w": 0.118,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.048,
+     "y": 0.25,
+     "w": 0.345,
+     "h": 0.5679
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jazz Nigh+",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.25,
+     "w": 0.188,
+     "h": 0.0786
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sat12Dec,8PM",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.3643,
+     "w": 0.183,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.436,
+     "y": 0.4454,
+     "w": 0.4815,
+     "h": 0.0762
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Tickets",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.55,
+     "w": 0.222,
+     "h": 0.0929
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Booknow",
+    "bbox": {
+     "x": 0.438,
+     "y": 0.675,
+     "w": 0.204,
+     "h": 0.1071
+    },
+    "confidence": 0.915,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Viewvenuemap",
+    "bbox": {
+     "x": 0.437,
+     "y": 0.8089,
+     "w": 0.171,
+     "h": 0.0482
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 14338,
+   "vision_ms": 0,
+   "total_ms": 14690
+  },
+  "n_cv_candidates": 20
+ }
+}

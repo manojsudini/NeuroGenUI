@@ -1,0 +1,2199 @@
+{
+ "_ok": true,
+ "_wall_ms": 879.0,
+ "value": {
+  "ir0": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Your cart",
+    "category": "ecommerce",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {
+       "width": 578
+      },
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 10,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "box_1",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.246,
+         "y": 0.0952,
+         "w": 0.162,
+         "h": 0.0699
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "btn_2",
+          "type": "button",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.246,
+           "y": 0.0952,
+           "w": 0.162,
+           "h": 0.0699
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "h_your_cart",
+          "type": "heading",
+          "label": "Your cart",
+          "props": {
+           "level": 1
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.255,
+           "y": 0.0952,
+           "w": 0.149,
+           "h": 0.0506
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_2"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "card_linen_shirt_40",
+        "type": "card",
+        "label": "Linen shirt $40",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.25,
+         "y": 0.1756,
+         "w": 0.475,
+         "h": 0.2009
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "img_5",
+          "type": "image",
+          "label": "",
+          "props": {},
+          "style": {
+           "height": 99
+          },
+          "bbox": {
+           "x": 0.273,
+           "y": 0.2158,
+           "w": 0.085,
+           "h": 0.1339
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_linen_shirt",
+          "type": "text",
+          "label": "Linen shirt",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.394,
+           "y": 0.2292,
+           "w": 0.097,
+           "h": 0.0283
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "img_5"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_40",
+          "type": "text",
+          "label": "$40",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.395,
+           "y": 0.2872,
+           "w": 0.032,
+           "h": 0.0283
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_linen_shirt"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "card_straw_hat_80",
+        "type": "card",
+        "label": "Straw hat $80",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.244,
+         "y": 0.381,
+         "w": 0.479,
+         "h": 0.2054
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "card_linen_shirt_40"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "img_9",
+          "type": "image",
+          "label": "",
+          "props": {},
+          "style": {
+           "height": 108
+          },
+          "bbox": {
+           "x": 0.267,
+           "y": 0.4137,
+           "w": 0.096,
+           "h": 0.1458
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_straw_hat",
+          "type": "text",
+          "label": "Straw hat",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.395,
+           "y": 0.439,
+           "w": 0.085,
+           "h": 0.0298
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "img_9"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_80",
+          "type": "text",
+          "label": "$80",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.396,
+           "y": 0.4955,
+           "w": 0.033,
+           "h": 0.0312
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_straw_hat"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "div_12",
+        "type": "divider",
+        "label": "",
+        "props": {},
+        "style": {
+         "width": "full"
+        },
+        "bbox": {
+         "x": 0.254,
+         "y": 0.6027,
+         "w": 0.472,
+         "h": 0.0179
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "card_straw_hat_80"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_13",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.245,
+         "y": 0.6652,
+         "w": 0.478,
+         "h": 0.1488
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "div_12"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "inp_coupon_code",
+          "type": "input",
+          "label": "Coupon code",
+          "props": {
+           "inputType": "text",
+           "placeholder": "Enter coupon code",
+           "required": false,
+           "name": "coupon_code"
+          },
+          "style": {
+           "width": "full"
+          },
+          "bbox": {
+           "x": 0.245,
+           "y": 0.6682,
+           "w": 0.478,
+           "h": 0.1458
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_total_120",
+          "type": "text",
+          "label": "Total $120",
+          "props": {},
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.676,
+           "y": 0.6652,
+           "w": 0.044,
+           "h": 0.0298
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_coupon_code"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "btn_checkout",
+        "type": "button",
+        "label": "Checkout",
+        "props": {
+         "href_page": "page_checkout"
+        },
+        "style": {
+         "width": "full"
+        },
+        "bbox": {
+         "x": 0.245,
+         "y": 0.8274,
+         "w": 0.478,
+         "h": 0.1027
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_13"
+         }
+        ],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_checkout"
+           }
+          ]
+         }
+        ],
+        "origin": "sketch"
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_checkout",
+     "name": "Checkout",
+     "route": "/checkout",
+     "root": {
+      "id": "page_checkout",
+      "type": "page",
+      "label": "Checkout",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_checkout",
+        "type": "heading",
+        "label": "Checkout",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Checkout page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_checkout"
+         }
+        ],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_welcome_to_the"
+         }
+        ],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 21
+  },
+  "code0": {
+   "files": {
+    "package.json": "{\n  \"name\": \"your-cart\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Your cart</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Your cart\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport CheckoutPage from \"./pages/CheckoutPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_checkout: CheckoutPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Divider.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Divider({ id, style }) {\n  const { attrs } = useNode(id, \"divider\");\n  return <hr {...attrs} className=\"ng-divider\" style={style} />;\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Divider from \"../components/Divider.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_CHECKOUT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_checkout\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnCheckoutClick = () => runActions(\"btn_checkout\", BTN_CHECKOUT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 10 }} style={{ maxWidth: 578 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Button id=\"btn_2\" />\n        <Heading id=\"h_your_cart\" label=\"Your cart\" level={1} />\n      </Container>\n      <Card id=\"card_linen_shirt_40\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_5\" style={{ height: 99 }} />\n        <Text\n          id=\"txt_linen_shirt\"\n          label=\"Linen shirt\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_40\" label=\"$40\" />\n      </Card>\n      <Card id=\"card_straw_hat_80\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_9\" style={{ height: 108 }} />\n        <Text\n          id=\"txt_straw_hat\"\n          label=\"Straw hat\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_80\" label=\"$80\" />\n      </Card>\n      <Divider id=\"div_12\" style={{ width: \"100%\" }} />\n      <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Field\n          id=\"inp_coupon_code\"\n          label=\"Coupon code\"\n          placeholder=\"Enter coupon code\"\n          style={{ width: \"100%\" }}\n        />\n        <Text\n          id=\"txt_total_120\"\n          label=\"Total $120\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n        />\n      </Container>\n      <Button\n        id=\"btn_checkout\"\n        label=\"Checkout\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n        onClick={handleBtnCheckoutClick}\n      />\n      <Message owner=\"btn_checkout\" />\n    </Page>\n  );\n}\n",
+    "src/pages/CheckoutPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function CheckoutPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_checkout\" layout={{ gap: 16 }}>\n      <Heading id=\"h_checkout\" label=\"Checkout\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Checkout page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Your cart\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Divider({ id, style }) {\n  const { attrs } = useNode(id, \"divider\");\n  return <hr {...attrs} className=\"ng-divider\" style={style} />;\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_CHECKOUT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_checkout\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnCheckoutClick = () => runActions(\"btn_checkout\", BTN_CHECKOUT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 10 }} style={{ maxWidth: 578 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Button id=\"btn_2\" />\n        <Heading id=\"h_your_cart\" label=\"Your cart\" level={1} />\n      </Container>\n      <Card id=\"card_linen_shirt_40\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_5\" style={{ height: 99 }} />\n        <Text\n          id=\"txt_linen_shirt\"\n          label=\"Linen shirt\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_40\" label=\"$40\" />\n      </Card>\n      <Card id=\"card_straw_hat_80\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_9\" style={{ height: 108 }} />\n        <Text\n          id=\"txt_straw_hat\"\n          label=\"Straw hat\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_80\" label=\"$80\" />\n      </Card>\n      <Divider id=\"div_12\" style={{ width: \"100%\" }} />\n      <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Field\n          id=\"inp_coupon_code\"\n          label=\"Coupon code\"\n          placeholder=\"Enter coupon code\"\n          style={{ width: \"100%\" }}\n        />\n        <Text\n          id=\"txt_total_120\"\n          label=\"Total $120\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n        />\n      </Container>\n      <Button\n        id=\"btn_checkout\"\n        label=\"Checkout\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n        onClick={handleBtnCheckoutClick}\n      />\n      <Message owner=\"btn_checkout\" />\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction CheckoutPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_checkout\" layout={{ gap: 16 }}>\n      <Heading id=\"h_checkout\" label=\"Checkout\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Checkout page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_checkout: CheckoutPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 23,
+    "components": 12,
+    "pages": 2,
+    "loc": 704,
+    "preview_bytes": 16635
+   }
+  },
+  "report0": {
+   "passed": true,
+   "score": 0.9211,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "17 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:box_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "presence:btn_2",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_2"
+    },
+    {
+     "id": "presence:h_your_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_your_cart"
+    },
+    {
+     "id": "presence:card_linen_shirt_40",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_linen_shirt_40"
+    },
+    {
+     "id": "presence:img_5",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_5"
+    },
+    {
+     "id": "presence:txt_linen_shirt",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_linen_shirt"
+    },
+    {
+     "id": "presence:txt_40",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_40"
+    },
+    {
+     "id": "presence:card_straw_hat_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_straw_hat_80"
+    },
+    {
+     "id": "presence:img_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_9"
+    },
+    {
+     "id": "presence:txt_straw_hat",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_straw_hat"
+    },
+    {
+     "id": "presence:txt_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_80"
+    },
+    {
+     "id": "presence:div_12",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "div_12"
+    },
+    {
+     "id": "presence:box_13",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "presence:inp_coupon_code",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_coupon_code"
+    },
+    {
+     "id": "presence:txt_total_120",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_total_120"
+    },
+    {
+     "id": "presence:btn_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:box_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "order:card_linen_shirt_40",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_linen_shirt_40"
+    },
+    {
+     "id": "order:card_straw_hat_80",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_straw_hat_80"
+    },
+    {
+     "id": "order:box_13",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "layout:btn_2",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.10 vs sketch",
+     "hard": false,
+     "target": "btn_2"
+    },
+    {
+     "id": "layout:txt_linen_shirt",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_linen_shirt"
+    },
+    {
+     "id": "layout:txt_40",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_40"
+    },
+    {
+     "id": "layout:txt_straw_hat",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_straw_hat"
+    },
+    {
+     "id": "layout:txt_80",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_80"
+    },
+    {
+     "id": "layout:div_12",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "div_12"
+    },
+    {
+     "id": "layout:txt_total_120",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_total_120"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.21 over 12 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:btn_2",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_2"
+    },
+    {
+     "id": "typing:inp_coupon_code",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Sample text', read 'Sample text'",
+     "hard": true,
+     "target": "inp_coupon_code"
+    },
+    {
+     "id": "clickable:btn_checkout",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "presence:page_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_checkout"
+    },
+    {
+     "id": "presence:h_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_checkout"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_checkout:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_checkout",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.2106,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 2,
+    "interactions_passed": 2,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 351,
+      "y": 32,
+      "w": 578,
+      "h": 516.5
+     }
+    },
+    {
+     "id": "box_1",
+     "type": "container",
+     "rect": {
+      "x": 351,
+      "y": 32,
+      "w": 578,
+      "h": 36
+     }
+    },
+    {
+     "id": "btn_2",
+     "type": "button",
+     "rect": {
+      "x": 351,
+      "y": 39,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "h_your_cart",
+     "type": "heading",
+     "rect": {
+      "x": 401,
+      "y": 32,
+      "w": 131.5,
+      "h": 36
+     }
+    },
+    {
+     "id": "card_linen_shirt_40",
+     "type": "card",
+     "rect": {
+      "x": 351,
+      "y": 78,
+      "w": 578,
+      "h": 149
+     }
+    },
+    {
+     "id": "img_5",
+     "type": "image",
+     "rect": {
+      "x": 376,
+      "y": 103,
+      "w": 168,
+      "h": 99
+     }
+    },
+    {
+     "id": "txt_linen_shirt",
+     "type": "text",
+     "rect": {
+      "x": 556,
+      "y": 141.25,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_40",
+     "type": "text",
+     "rect": {
+      "x": 736,
+      "y": 141.25,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "card_straw_hat_80",
+     "type": "card",
+     "rect": {
+      "x": 351,
+      "y": 237,
+      "w": 578,
+      "h": 158
+     }
+    },
+    {
+     "id": "img_9",
+     "type": "image",
+     "rect": {
+      "x": 376,
+      "y": 262,
+      "w": 168,
+      "h": 108
+     }
+    },
+    {
+     "id": "txt_straw_hat",
+     "type": "text",
+     "rect": {
+      "x": 556,
+      "y": 304.75,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_80",
+     "type": "text",
+     "rect": {
+      "x": 736,
+      "y": 304.75,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "div_12",
+     "type": "divider",
+     "rect": {
+      "x": 351,
+      "y": 409,
+      "w": 578,
+      "h": 1
+     }
+    },
+    {
+     "id": "box_13",
+     "type": "container",
+     "rect": {
+      "x": 351,
+      "y": 424,
+      "w": 578,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_coupon_code",
+     "type": "input",
+     "rect": {
+      "x": 351,
+      "y": 424,
+      "w": 283,
+      "h": 70
+     }
+    },
+    {
+     "id": "txt_total_120",
+     "type": "text",
+     "rect": {
+      "x": 646,
+      "y": 471.5,
+      "w": 283,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "btn_checkout",
+     "type": "button",
+     "rect": {
+      "x": 351,
+      "y": 504,
+      "w": 578,
+      "h": 44.5
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 440
+  },
+  "ir": {
+   "schema": "neurogenui.ir/1",
+   "meta": {
+    "title": "Your cart",
+    "category": "ecommerce",
+    "theme": {
+     "primary": "#4f46e5",
+     "radius": 10,
+     "font": "Inter"
+    }
+   },
+   "pages": [
+    {
+     "id": "page_main",
+     "name": "Main",
+     "route": "/",
+     "root": {
+      "id": "page_main",
+      "type": "page",
+      "label": "Main",
+      "props": {},
+      "style": {
+       "width": 578
+      },
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 10,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "box_1",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.246,
+         "y": 0.0952,
+         "w": 0.162,
+         "h": 0.0699
+        },
+        "relations": [],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "btn_2",
+          "type": "button",
+          "label": "",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.246,
+           "y": 0.0952,
+           "w": 0.162,
+           "h": 0.0699
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "h_your_cart",
+          "type": "heading",
+          "label": "Your cart",
+          "props": {
+           "level": 1
+          },
+          "style": {},
+          "bbox": {
+           "x": 0.255,
+           "y": 0.0952,
+           "w": 0.149,
+           "h": 0.0506
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "btn_2"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "card_linen_shirt_40",
+        "type": "card",
+        "label": "Linen shirt $40",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.25,
+         "y": 0.1756,
+         "w": 0.475,
+         "h": 0.2009
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_1"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "img_5",
+          "type": "image",
+          "label": "",
+          "props": {},
+          "style": {
+           "height": 99
+          },
+          "bbox": {
+           "x": 0.273,
+           "y": 0.2158,
+           "w": 0.085,
+           "h": 0.1339
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_linen_shirt",
+          "type": "text",
+          "label": "Linen shirt",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.394,
+           "y": 0.2292,
+           "w": 0.097,
+           "h": 0.0283
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "img_5"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_40",
+          "type": "text",
+          "label": "$40",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.395,
+           "y": 0.2872,
+           "w": 0.032,
+           "h": 0.0283
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_linen_shirt"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "card_straw_hat_80",
+        "type": "card",
+        "label": "Straw hat $80",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.244,
+         "y": 0.381,
+         "w": 0.479,
+         "h": 0.2054
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "card_linen_shirt_40"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "img_9",
+          "type": "image",
+          "label": "",
+          "props": {},
+          "style": {
+           "height": 108
+          },
+          "bbox": {
+           "x": 0.267,
+           "y": 0.4137,
+           "w": 0.096,
+           "h": 0.1458
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_straw_hat",
+          "type": "text",
+          "label": "Straw hat",
+          "props": {},
+          "style": {
+           "align": "center"
+          },
+          "bbox": {
+           "x": 0.395,
+           "y": 0.439,
+           "w": 0.085,
+           "h": 0.0298
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "img_9"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_80",
+          "type": "text",
+          "label": "$80",
+          "props": {},
+          "style": {},
+          "bbox": {
+           "x": 0.396,
+           "y": 0.4955,
+           "w": 0.033,
+           "h": 0.0312
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "txt_straw_hat"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "div_12",
+        "type": "divider",
+        "label": "",
+        "props": {},
+        "style": {
+         "width": "full"
+        },
+        "bbox": {
+         "x": 0.254,
+         "y": 0.6027,
+         "w": 0.472,
+         "h": 0.0179
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "card_straw_hat_80"
+         }
+        ],
+        "events": [],
+        "origin": "sketch"
+       },
+       {
+        "id": "box_13",
+        "type": "container",
+        "label": "",
+        "props": {},
+        "style": {},
+        "bbox": {
+         "x": 0.245,
+         "y": 0.6652,
+         "w": 0.478,
+         "h": 0.1488
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "div_12"
+         }
+        ],
+        "events": [],
+        "origin": "sketch",
+        "layout": {
+         "direction": "row",
+         "gap": 12,
+         "align": "center",
+         "justify": "start"
+        },
+        "children": [
+         {
+          "id": "inp_coupon_code",
+          "type": "input",
+          "label": "Coupon code",
+          "props": {
+           "inputType": "text",
+           "placeholder": "Enter coupon code",
+           "required": false,
+           "name": "coupon_code"
+          },
+          "style": {
+           "width": "full"
+          },
+          "bbox": {
+           "x": 0.245,
+           "y": 0.6682,
+           "w": 0.478,
+           "h": 0.1458
+          },
+          "relations": [],
+          "events": [],
+          "origin": "sketch"
+         },
+         {
+          "id": "txt_total_120",
+          "type": "text",
+          "label": "Total $120",
+          "props": {},
+          "style": {
+           "align": "right"
+          },
+          "bbox": {
+           "x": 0.676,
+           "y": 0.6652,
+           "w": 0.044,
+           "h": 0.0298
+          },
+          "relations": [
+           {
+            "type": "right_of",
+            "target": "inp_coupon_code"
+           }
+          ],
+          "events": [],
+          "origin": "sketch"
+         }
+        ]
+       },
+       {
+        "id": "btn_checkout",
+        "type": "button",
+        "label": "Checkout",
+        "props": {
+         "href_page": "page_checkout"
+        },
+        "style": {
+         "width": "full"
+        },
+        "bbox": {
+         "x": 0.245,
+         "y": 0.8274,
+         "w": 0.478,
+         "h": 0.1027
+        },
+        "relations": [
+         {
+          "type": "below",
+          "target": "box_13"
+         }
+        ],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_checkout"
+           }
+          ]
+         }
+        ],
+        "origin": "sketch"
+       }
+      ]
+     }
+    },
+    {
+     "id": "page_checkout",
+     "name": "Checkout",
+     "route": "/checkout",
+     "root": {
+      "id": "page_checkout",
+      "type": "page",
+      "label": "Checkout",
+      "props": {},
+      "style": {},
+      "bbox": null,
+      "relations": [],
+      "events": [],
+      "origin": "voice",
+      "layout": {
+       "direction": "column",
+       "gap": 16,
+       "align": "stretch",
+       "justify": "start"
+      },
+      "children": [
+       {
+        "id": "h_checkout",
+        "type": "heading",
+        "label": "Checkout",
+        "props": {
+         "level": 1
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "txt_welcome_to_the",
+        "type": "text",
+        "label": "Welcome to the Checkout page.",
+        "props": {},
+        "style": {},
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "h_checkout"
+         }
+        ],
+        "events": [],
+        "origin": "voice"
+       },
+       {
+        "id": "lnk_back",
+        "type": "link",
+        "label": "Back",
+        "props": {
+         "href_page": "page_main"
+        },
+        "style": {},
+        "bbox": null,
+        "relations": [
+         {
+          "type": "below",
+          "target": "txt_welcome_to_the"
+         }
+        ],
+        "events": [
+         {
+          "on": "click",
+          "actions": [
+           {
+            "type": "navigate",
+            "page": "page_main"
+           }
+          ]
+         }
+        ],
+        "origin": "voice"
+       }
+      ]
+     }
+    }
+   ],
+   "next_id": 21
+  },
+  "code": {
+   "files": {
+    "package.json": "{\n  \"name\": \"your-cart\",\n  \"private\": true,\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"18.3.1\",\n    \"react-dom\": \"18.3.1\"\n  },\n  \"devDependencies\": {\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^5.4.11\"\n  }\n}\n",
+    "index.html": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Your cart</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.jsx\"></script>\n  </body>\n</html>\n",
+    "vite.config.js": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\n\nexport default defineConfig({\n  plugins: [react()],\n});\n",
+    "README.md": "# Your cart\n\nGenerated by NeuroGenUI from a sketch and voice instructions (version ).\n\n```bash\nnpm install\nnpm run dev\n```\n\n- `src/pages/` one component per page, `src/components/` reusable UI components,\n- `src/runtime/actions.js` the event actions (validation, messages, navigation),\n- `src/runtime/store.js` the UI state (current page, field values, messages).\n",
+    "src/main.jsx": "import { createRoot } from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./styles.css\";\n\ncreateRoot(document.getElementById(\"root\")).render(<App />);\n",
+    "src/App.jsx": "import { UIContext, useUIStore } from \"./runtime/store.js\";\nimport MainPage from \"./pages/MainPage.jsx\";\nimport CheckoutPage from \"./pages/CheckoutPage.jsx\";\n\nconst PAGES = {\n  page_main: MainPage,\n  page_checkout: CheckoutPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nexport default function App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n",
+    "src/styles.css": ":root {\n  --ng-primary: #4f46e5;\n  --ng-radius: 10px;\n  --ng-font: \"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  --ng-text: #18181b;\n  --ng-muted: #63636e;\n  --ng-border: #e4e4e7;\n  --ng-surface: #ffffff;\n  --ng-canvas: #f6f6f8;\n  --ng-danger: #dc2626;\n  --ng-success: #15803d;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  background: var(--ng-canvas);\n  color: var(--ng-text);\n  font-family: var(--ng-font);\n  font-size: 15px;\n  line-height: 1.5;\n}\n\n[hidden] {\n  display: none !important;\n}\n\n.ng-app {\n  min-height: 100vh;\n  padding: 32px 24px;\n}\n\n.ng-stack {\n  display: flex;\n  min-width: 0;\n}\n\n.ng-stack--column {\n  flex-direction: column;\n}\n\n.ng-stack--row {\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.ng-stack--row > * {\n  flex: 1 1 0;\n  min-width: 0;\n}\n\n.ng-stack--row > .ng-btn,\n.ng-stack--row > .ng-link,\n.ng-stack--row > .ng-nav-item,\n.ng-stack--row > .ng-check,\n.ng-stack--row > .ng-icon,\n.ng-stack--row > .ng-heading,\n.ng-stack--row > .ng-msg {\n  flex: 0 0 auto;\n}\n\n.ng-align-start { align-items: flex-start; }\n.ng-align-center { align-items: center; }\n.ng-align-end { align-items: flex-end; }\n.ng-align-stretch { align-items: stretch; }\n.ng-justify-start { justify-content: flex-start; }\n.ng-justify-center { justify-content: center; }\n.ng-justify-end { justify-content: flex-end; }\n.ng-justify-between { justify-content: space-between; }\n\n.ng-stack--column > .ng-btn,\n.ng-stack--column > .ng-link,\n.ng-stack--column > .ng-check,\n.ng-stack--column > .ng-icon {\n  align-self: flex-start;\n}\n\n.ng-page {\n  width: 100%;\n  max-width: 1080px;\n  margin: 0 auto;\n}\n\n.ng-card {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\n}\n\n.ng-form {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: calc(var(--ng-radius) + 4px);\n  padding: 24px;\n}\n\n.ng-card .ng-form,\n.ng-form .ng-form {\n  border: 0;\n  padding: 0;\n}\n\n.ng-container {\n  min-width: 0;\n}\n\n.ng-header,\n.ng-navbar {\n  background: var(--ng-surface);\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  padding: 12px 18px;\n}\n\n.ng-heading {\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: -0.01em;\n}\n\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\n\n.ng-text {\n  margin: 0;\n  color: var(--ng-muted);\n}\n\n.ng-link,\n.ng-nav-item {\n  color: var(--ng-primary);\n  font-weight: 500;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.ng-link:hover {\n  text-decoration: underline;\n}\n\n.ng-nav-item {\n  color: var(--ng-text);\n  padding: 6px 10px;\n  border-radius: calc(var(--ng-radius) - 2px);\n}\n\n.ng-nav-item:hover,\n.ng-nav-item.is-active {\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n}\n\n.ng-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 1px solid transparent;\n  border-radius: var(--ng-radius);\n  font: inherit;\n  font-weight: 600;\n  cursor: pointer;\n  transition: filter 0.15s ease, background 0.15s ease;\n}\n\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\n\n.ng-btn--primary {\n  background: var(--ng-primary);\n  color: #ffffff;\n}\n\n.ng-btn--secondary {\n  background: var(--ng-canvas);\n  border-color: var(--ng-border);\n  color: var(--ng-text);\n}\n\n.ng-btn--outline {\n  background: transparent;\n  border-color: var(--ng-primary);\n  color: var(--ng-primary);\n}\n\n.ng-btn--ghost {\n  background: transparent;\n  color: var(--ng-primary);\n}\n\n.ng-btn--danger {\n  background: var(--ng-danger);\n  color: #ffffff;\n}\n\n.ng-btn:hover {\n  filter: brightness(0.94);\n}\n\n.ng-btn:focus-visible,\n.ng-input:focus-visible,\n.ng-link:focus-visible {\n  outline: 2px solid var(--ng-primary);\n  outline-offset: 2px;\n}\n\n.ng-field {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  min-width: 0;\n}\n\n.ng-field__label {\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.ng-field__required {\n  color: var(--ng-danger);\n  margin-left: 2px;\n}\n\n.ng-input {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid var(--ng-border);\n  border-radius: var(--ng-radius);\n  background: var(--ng-surface);\n  color: inherit;\n  font: inherit;\n}\n\n.ng-input[aria-invalid=\"true\"] {\n  border-color: var(--ng-danger);\n}\n\n.ng-textarea {\n  resize: vertical;\n}\n\n.ng-check {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  cursor: pointer;\n}\n\n.ng-check input {\n  width: 16px;\n  height: 16px;\n  accent-color: var(--ng-primary);\n}\n\n.ng-image {\n  display: block;\n  width: 100%;\n  height: 200px;\n  object-fit: cover;\n  border-radius: var(--ng-radius);\n}\n\n.ng-image--placeholder {\n  display: grid;\n  place-items: center;\n  background: #ececf0;\n  color: #9a9aa5;\n}\n\n.ng-divider {\n  width: 100%;\n  border: 0;\n  border-top: 1px solid var(--ng-border);\n  margin: 4px 0;\n}\n\n.ng-icon {\n  display: inline-grid;\n  place-items: center;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: var(--ng-canvas);\n  color: var(--ng-primary);\n  font-weight: 700;\n}\n\n.ng-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.ng-list__items {\n  margin: 0;\n  padding-left: 20px;\n}\n\n.ng-msg {\n  padding: 10px 12px;\n  border-radius: var(--ng-radius);\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\n",
+    "src/runtime/store.js": "import { createContext, useContext, useState } from \"react\";\n\nexport const UIContext = createContext(null);\n\nexport function useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nexport function useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nexport function useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n",
+    "src/runtime/actions.js": "const FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nexport function runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n",
+    "src/components/Stack.jsx": "import { useNode } from \"../runtime/store.js\";\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nexport default function Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n",
+    "src/components/Page.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n",
+    "src/components/Container.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n",
+    "src/components/Card.jsx": "import Stack from \"./Stack.jsx\";\n\nexport default function Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n",
+    "src/components/Heading.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n",
+    "src/components/Text.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n",
+    "src/components/Link.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n",
+    "src/components/Button.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n",
+    "src/components/Field.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n",
+    "src/components/Image.jsx": "import { useNode } from \"../runtime/store.js\";\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nexport default function Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n",
+    "src/components/Divider.jsx": "import { useNode } from \"../runtime/store.js\";\n\nexport default function Divider({ id, style }) {\n  const { attrs } = useNode(id, \"divider\");\n  return <hr {...attrs} className=\"ng-divider\" style={style} />;\n}\n",
+    "src/components/Message.jsx": "import { useUI } from \"../runtime/store.js\";\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nexport default function Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n",
+    "src/pages/MainPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Button from \"../components/Button.jsx\";\nimport Card from \"../components/Card.jsx\";\nimport Container from \"../components/Container.jsx\";\nimport Divider from \"../components/Divider.jsx\";\nimport Field from \"../components/Field.jsx\";\nimport Heading from \"../components/Heading.jsx\";\nimport Image from \"../components/Image.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst BTN_CHECKOUT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_checkout\"\n  }\n];\n\nexport default function MainPage() {\n  const ui = useUI();\n  const handleBtnCheckoutClick = () => runActions(\"btn_checkout\", BTN_CHECKOUT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 10 }} style={{ maxWidth: 578 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Button id=\"btn_2\" />\n        <Heading id=\"h_your_cart\" label=\"Your cart\" level={1} />\n      </Container>\n      <Card id=\"card_linen_shirt_40\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_5\" style={{ height: 99 }} />\n        <Text\n          id=\"txt_linen_shirt\"\n          label=\"Linen shirt\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_40\" label=\"$40\" />\n      </Card>\n      <Card id=\"card_straw_hat_80\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_9\" style={{ height: 108 }} />\n        <Text\n          id=\"txt_straw_hat\"\n          label=\"Straw hat\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_80\" label=\"$80\" />\n      </Card>\n      <Divider id=\"div_12\" style={{ width: \"100%\" }} />\n      <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Field\n          id=\"inp_coupon_code\"\n          label=\"Coupon code\"\n          placeholder=\"Enter coupon code\"\n          style={{ width: \"100%\" }}\n        />\n        <Text\n          id=\"txt_total_120\"\n          label=\"Total $120\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n        />\n      </Container>\n      <Button\n        id=\"btn_checkout\"\n        label=\"Checkout\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n        onClick={handleBtnCheckoutClick}\n      />\n      <Message owner=\"btn_checkout\" />\n    </Page>\n  );\n}\n",
+    "src/pages/CheckoutPage.jsx": "import { useUI } from \"../runtime/store.js\";\nimport { runActions } from \"../runtime/actions.js\";\nimport Heading from \"../components/Heading.jsx\";\nimport Link from \"../components/Link.jsx\";\nimport Message from \"../components/Message.jsx\";\nimport Page from \"../components/Page.jsx\";\nimport Text from \"../components/Text.jsx\";\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nexport default function CheckoutPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_checkout\" layout={{ gap: 16 }}>\n      <Heading id=\"h_checkout\" label=\"Checkout\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Checkout page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n"
+   },
+   "preview": "// NeuroGenUI preview: Your cart\nconst { createContext, useContext, useState } = React;\n\n(function injectStyles(css) {\n  const style = document.createElement(\"style\");\n  style.setAttribute(\"data-ngui\", \"app\");\n  style.textContent = css;\n  document.head.appendChild(style);\n})(\":root {\\n  --ng-primary: #4f46e5;\\n  --ng-radius: 10px;\\n  --ng-font: \\\"Inter\\\", system-ui, -apple-system, \\\"Segoe UI\\\", Roboto, Helvetica, Arial, sans-serif;\\n  --ng-text: #18181b;\\n  --ng-muted: #63636e;\\n  --ng-border: #e4e4e7;\\n  --ng-surface: #ffffff;\\n  --ng-canvas: #f6f6f8;\\n  --ng-danger: #dc2626;\\n  --ng-success: #15803d;\\n}\\n\\n* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  margin: 0;\\n  background: var(--ng-canvas);\\n  color: var(--ng-text);\\n  font-family: var(--ng-font);\\n  font-size: 15px;\\n  line-height: 1.5;\\n}\\n\\n[hidden] {\\n  display: none !important;\\n}\\n\\n.ng-app {\\n  min-height: 100vh;\\n  padding: 32px 24px;\\n}\\n\\n.ng-stack {\\n  display: flex;\\n  min-width: 0;\\n}\\n\\n.ng-stack--column {\\n  flex-direction: column;\\n}\\n\\n.ng-stack--row {\\n  flex-direction: row;\\n  flex-wrap: wrap;\\n}\\n\\n.ng-stack--row > * {\\n  flex: 1 1 0;\\n  min-width: 0;\\n}\\n\\n.ng-stack--row > .ng-btn,\\n.ng-stack--row > .ng-link,\\n.ng-stack--row > .ng-nav-item,\\n.ng-stack--row > .ng-check,\\n.ng-stack--row > .ng-icon,\\n.ng-stack--row > .ng-heading,\\n.ng-stack--row > .ng-msg {\\n  flex: 0 0 auto;\\n}\\n\\n.ng-align-start { align-items: flex-start; }\\n.ng-align-center { align-items: center; }\\n.ng-align-end { align-items: flex-end; }\\n.ng-align-stretch { align-items: stretch; }\\n.ng-justify-start { justify-content: flex-start; }\\n.ng-justify-center { justify-content: center; }\\n.ng-justify-end { justify-content: flex-end; }\\n.ng-justify-between { justify-content: space-between; }\\n\\n.ng-stack--column > .ng-btn,\\n.ng-stack--column > .ng-link,\\n.ng-stack--column > .ng-check,\\n.ng-stack--column > .ng-icon {\\n  align-self: flex-start;\\n}\\n\\n.ng-page {\\n  width: 100%;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\n.ng-card {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n  box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px rgba(24, 24, 27, 0.06);\\n}\\n\\n.ng-form {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: calc(var(--ng-radius) + 4px);\\n  padding: 24px;\\n}\\n\\n.ng-card .ng-form,\\n.ng-form .ng-form {\\n  border: 0;\\n  padding: 0;\\n}\\n\\n.ng-container {\\n  min-width: 0;\\n}\\n\\n.ng-header,\\n.ng-navbar {\\n  background: var(--ng-surface);\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  padding: 12px 18px;\\n}\\n\\n.ng-heading {\\n  margin: 0;\\n  line-height: 1.2;\\n  letter-spacing: -0.01em;\\n}\\n\\n.ng-heading--1 { font-size: 30px; font-weight: 700; }\\n.ng-heading--2 { font-size: 24px; font-weight: 700; }\\n.ng-heading--3 { font-size: 19px; font-weight: 600; }\\n.ng-heading--4 { font-size: 16px; font-weight: 600; }\\n\\n.ng-text {\\n  margin: 0;\\n  color: var(--ng-muted);\\n}\\n\\n.ng-link,\\n.ng-nav-item {\\n  color: var(--ng-primary);\\n  font-weight: 500;\\n  text-decoration: none;\\n  cursor: pointer;\\n}\\n\\n.ng-link:hover {\\n  text-decoration: underline;\\n}\\n\\n.ng-nav-item {\\n  color: var(--ng-text);\\n  padding: 6px 10px;\\n  border-radius: calc(var(--ng-radius) - 2px);\\n}\\n\\n.ng-nav-item:hover,\\n.ng-nav-item.is-active {\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn {\\n  display: inline-flex;\\n  align-items: center;\\n  justify-content: center;\\n  gap: 8px;\\n  border: 1px solid transparent;\\n  border-radius: var(--ng-radius);\\n  font: inherit;\\n  font-weight: 600;\\n  cursor: pointer;\\n  transition: filter 0.15s ease, background 0.15s ease;\\n}\\n\\n.ng-btn--sm { padding: 6px 12px; font-size: 13px; }\\n.ng-btn--md { padding: 10px 18px; font-size: 15px; }\\n.ng-btn--lg { padding: 14px 24px; font-size: 17px; }\\n\\n.ng-btn--primary {\\n  background: var(--ng-primary);\\n  color: #ffffff;\\n}\\n\\n.ng-btn--secondary {\\n  background: var(--ng-canvas);\\n  border-color: var(--ng-border);\\n  color: var(--ng-text);\\n}\\n\\n.ng-btn--outline {\\n  background: transparent;\\n  border-color: var(--ng-primary);\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--ghost {\\n  background: transparent;\\n  color: var(--ng-primary);\\n}\\n\\n.ng-btn--danger {\\n  background: var(--ng-danger);\\n  color: #ffffff;\\n}\\n\\n.ng-btn:hover {\\n  filter: brightness(0.94);\\n}\\n\\n.ng-btn:focus-visible,\\n.ng-input:focus-visible,\\n.ng-link:focus-visible {\\n  outline: 2px solid var(--ng-primary);\\n  outline-offset: 2px;\\n}\\n\\n.ng-field {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 6px;\\n  min-width: 0;\\n}\\n\\n.ng-field__label {\\n  font-size: 13px;\\n  font-weight: 600;\\n}\\n\\n.ng-field__required {\\n  color: var(--ng-danger);\\n  margin-left: 2px;\\n}\\n\\n.ng-input {\\n  width: 100%;\\n  padding: 10px 12px;\\n  border: 1px solid var(--ng-border);\\n  border-radius: var(--ng-radius);\\n  background: var(--ng-surface);\\n  color: inherit;\\n  font: inherit;\\n}\\n\\n.ng-input[aria-invalid=\\\"true\\\"] {\\n  border-color: var(--ng-danger);\\n}\\n\\n.ng-textarea {\\n  resize: vertical;\\n}\\n\\n.ng-check {\\n  display: inline-flex;\\n  align-items: center;\\n  gap: 8px;\\n  cursor: pointer;\\n}\\n\\n.ng-check input {\\n  width: 16px;\\n  height: 16px;\\n  accent-color: var(--ng-primary);\\n}\\n\\n.ng-image {\\n  display: block;\\n  width: 100%;\\n  height: 200px;\\n  object-fit: cover;\\n  border-radius: var(--ng-radius);\\n}\\n\\n.ng-image--placeholder {\\n  display: grid;\\n  place-items: center;\\n  background: #ececf0;\\n  color: #9a9aa5;\\n}\\n\\n.ng-divider {\\n  width: 100%;\\n  border: 0;\\n  border-top: 1px solid var(--ng-border);\\n  margin: 4px 0;\\n}\\n\\n.ng-icon {\\n  display: inline-grid;\\n  place-items: center;\\n  width: 32px;\\n  height: 32px;\\n  border-radius: 50%;\\n  background: var(--ng-canvas);\\n  color: var(--ng-primary);\\n  font-weight: 700;\\n}\\n\\n.ng-list {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.ng-list__items {\\n  margin: 0;\\n  padding-left: 20px;\\n}\\n\\n.ng-msg {\\n  padding: 10px 12px;\\n  border-radius: var(--ng-radius);\\n  font-size: 14px;\\n  font-weight: 500;\\n}\\n\\n.ng-msg--error { background: #fef2f2; color: var(--ng-danger); }\\n.ng-msg--success { background: #f0fdf4; color: var(--ng-success); }\\n.ng-msg--info { background: #eff6ff; color: #1d4ed8; }\\n\");\n\nconst UIContext = createContext(null);\n\nfunction useUI() {\n  return useContext(UIContext);\n}\n\n/** All UI state of the generated app: current page, field values, messages and visibility. */\nfunction useUIStore(initialPage, initiallyHidden) {\n  const [page, setPage] = useState(initialPage);\n  const [values, setValues] = useState({});\n  const [messages, setMessages] = useState({});\n  const [hidden, setHidden] = useState(initiallyHidden);\n  const [texts, setTexts] = useState({});\n  const [invalid, setInvalid] = useState({});\n\n  return {\n    page,\n    values,\n    messages,\n    invalid,\n    navigate(pageId) {\n      setPage(pageId);\n      setMessages({});\n      setInvalid({});\n    },\n    setValue(id, value) {\n      setValues((current) => ({ ...current, [id]: value }));\n      setInvalid((current) => ({ ...current, [id]: false }));\n    },\n    showMessage(owner, text, tone) {\n      setMessages((current) => ({ ...current, [owner]: { text, tone } }));\n    },\n    clearMessage(owner) {\n      setMessages((current) => ({ ...current, [owner]: null }));\n    },\n    markInvalid(ids) {\n      setInvalid((current) => ({ ...current, ...Object.fromEntries(ids.map((id) => [id, true])) }));\n    },\n    toggle(id) {\n      setHidden((current) => ({ ...current, [id]: !current[id] }));\n    },\n    setText(id, text) {\n      setTexts((current) => ({ ...current, [id]: text }));\n    },\n    isHidden: (id) => Boolean(hidden[id]),\n    textOf: (id, fallback) => texts[id] ?? fallback,\n  };\n}\n\n/** Attributes every generated element carries, plus the shared UI store. */\nfunction useNode(id, type) {\n  const ui = useUI();\n  const attrs = { \"data-ngid\": id, \"data-ngtype\": type, hidden: ui.isHidden(id) || undefined };\n  return { ui, attrs };\n}\n\nconst FORMATS = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\+?[\\d\\s()-]{7,}$/,\n  number: /^-?\\d+(\\.\\d+)?$/,\n};\n\nfunction isEmpty(value) {\n  return value === undefined || value === null || value === false || String(value).trim() === \"\";\n}\n\n/**\n * Run an event's actions in order. A failing validation shows its message\n * (role=\"alert\", data-ngmsg=owner) and stops the chain.\n */\nfunction runActions(owner, actions, ui) {\n  ui.clearMessage(owner);\n  for (const action of actions) {\n    switch (action.type) {\n      case \"validate_required\": {\n        const missing = action.targets.filter((id) => isEmpty(ui.values[id]));\n        if (missing.length > 0) {\n          ui.markInvalid(missing);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"validate_format\": {\n        const value = String(ui.values[action.target] ?? \"\").trim();\n        if (!FORMATS[action.format].test(value)) {\n          ui.markInvalid([action.target]);\n          ui.showMessage(owner, action.message, \"error\");\n          return false;\n        }\n        break;\n      }\n      case \"show_message\":\n        ui.showMessage(owner, action.text, action.tone || \"info\");\n        break;\n      case \"navigate\":\n        ui.navigate(action.page);\n        break;\n      case \"toggle_visibility\":\n        ui.toggle(action.target);\n        break;\n      case \"set_text\":\n        ui.setText(action.target, action.text);\n        break;\n      default:\n        console.warn(`Unknown action: ${action.type}`);\n    }\n  }\n  return true;\n}\n\n/** Flex container shared by pages, cards, forms, headers, navbars and plain containers. */\nfunction Stack({ id, type, as: Tag = \"div\", layout = {}, style, children, onSubmit }) {\n  const { attrs } = useNode(id, type);\n  const { direction = \"column\", gap = 12, align = \"stretch\", justify = \"start\" } = layout;\n  const className = `ng-${type} ng-stack ng-stack--${direction} ng-align-${align} ng-justify-${justify}`;\n  const handleSubmit = onSubmit\n    ? (event) => {\n        event.preventDefault();\n        onSubmit(event);\n      }\n    : (event) => event.preventDefault();\n\n  return (\n    <Tag {...attrs} className={className} style={{ gap, ...style }} onSubmit={Tag === \"form\" ? handleSubmit : undefined}>\n      {children}\n    </Tag>\n  );\n}\n\nfunction Page(props) {\n  return <Stack {...props} type=\"page\" as=\"main\" />;\n}\n\nfunction Container(props) {\n  return <Stack {...props} type=\"container\" as=\"section\" />;\n}\n\nfunction Card(props) {\n  return <Stack {...props} type=\"card\" as=\"section\" />;\n}\n\nfunction Heading({ id, label, level = 2, style }) {\n  const { ui, attrs } = useNode(id, \"heading\");\n  const Tag = `h${level}`;\n  return (\n    <Tag {...attrs} className={`ng-heading ng-heading--${level}`} style={style}>\n      {ui.textOf(id, label)}\n    </Tag>\n  );\n}\n\nfunction Text({ id, label, style }) {\n  const { ui, attrs } = useNode(id, \"text\");\n  return (\n    <p {...attrs} className=\"ng-text\" style={style}>\n      {ui.textOf(id, label)}\n    </p>\n  );\n}\n\nfunction Link({ id, label, style, onClick }) {\n  const { ui, attrs } = useNode(id, \"link\");\n  const handleClick = (event) => {\n    event.preventDefault();\n    onClick?.(event);\n  };\n\n  return (\n    <a {...attrs} href=\"#\" className=\"ng-link\" style={style} onClick={handleClick}>\n      {ui.textOf(id, label)}\n    </a>\n  );\n}\n\nfunction Button({ id, label, variant = \"primary\", size = \"md\", type = \"button\", style, onClick }) {\n  const { ui, attrs } = useNode(id, \"button\");\n  return (\n    <button {...attrs} type={type} className={`ng-btn ng-btn--${variant} ng-btn--${size}`} style={style} onClick={onClick}>\n      {ui.textOf(id, label)}\n    </button>\n  );\n}\n\nfunction Field({ id, label, inputType = \"text\", placeholder, required = false, name, style, onChange }) {\n  const { ui, attrs } = useNode(id, \"input\");\n  const controlId = `${id}-control`;\n  const handleChange = (event) => {\n    ui.setValue(id, event.target.value);\n    onChange?.(event);\n  };\n\n  return (\n    <div {...attrs} className=\"ng-field\" style={style}>\n      {label && (\n        <label htmlFor={controlId} className=\"ng-field__label\">\n          {ui.textOf(id, label)}\n          {required && <span className=\"ng-field__required\">*</span>}\n        </label>\n      )}\n      <input\n        id={controlId}\n        name={name || id}\n        type={inputType}\n        className=\"ng-input\"\n        placeholder={placeholder}\n        aria-invalid={ui.invalid[id] || undefined}\n        value={ui.values[id] ?? \"\"}\n        onChange={handleChange}\n      />\n    </div>\n  );\n}\n\nconst PHOTO_BASE = window.NGUI_PHOTO_BASE || \"/photos/\";\n\nfunction Image({ id, alt, photo, style }) {\n  const { attrs } = useNode(id, \"image\");\n  if (!photo) {\n    return (\n      <div {...attrs} className=\"ng-image ng-image--placeholder\" role=\"img\" aria-label={alt || \"Image\"} style={style}>\n        <svg viewBox=\"0 0 24 24\" width=\"36\" height=\"36\" aria-hidden=\"true\">\n          <path d=\"M4 5h16v14H4z M4 16l5-5 4 4 3-3 4 4\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.5\" />\n        </svg>\n      </div>\n    );\n  }\n  return <img {...attrs} className=\"ng-image\" src={`${PHOTO_BASE}${photo}.jpg`} alt={alt || photo} style={style} />;\n}\n\nfunction Divider({ id, style }) {\n  const { attrs } = useNode(id, \"divider\");\n  return <hr {...attrs} className=\"ng-divider\" style={style} />;\n}\n\n/** Feedback shown by an element's event handler (validation errors, confirmations). */\nfunction Message({ owner }) {\n  const ui = useUI();\n  const message = ui.messages[owner];\n  if (!message) {\n    return null;\n  }\n  return (\n    <div className={`ng-msg ng-msg--${message.tone}`} role={message.tone === \"error\" ? \"alert\" : \"status\"} data-ngmsg={owner}>\n      {message.text}\n    </div>\n  );\n}\n\nconst BTN_CHECKOUT_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_checkout\"\n  }\n];\n\nfunction MainPage() {\n  const ui = useUI();\n  const handleBtnCheckoutClick = () => runActions(\"btn_checkout\", BTN_CHECKOUT_CLICK, ui);\n\n  return (\n    <Page id=\"page_main\" layout={{ gap: 10 }} style={{ maxWidth: 578 }}>\n      <Container id=\"box_1\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Button id=\"btn_2\" />\n        <Heading id=\"h_your_cart\" label=\"Your cart\" level={1} />\n      </Container>\n      <Card id=\"card_linen_shirt_40\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_5\" style={{ height: 99 }} />\n        <Text\n          id=\"txt_linen_shirt\"\n          label=\"Linen shirt\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_40\" label=\"$40\" />\n      </Card>\n      <Card id=\"card_straw_hat_80\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Image id=\"img_9\" style={{ height: 108 }} />\n        <Text\n          id=\"txt_straw_hat\"\n          label=\"Straw hat\"\n          style={{ textAlign: \"center\", alignSelf: \"center\" }}\n        />\n        <Text id=\"txt_80\" label=\"$80\" />\n      </Card>\n      <Divider id=\"div_12\" style={{ width: \"100%\" }} />\n      <Container id=\"box_13\" layout={{ direction: \"row\", align: \"center\" }}>\n        <Field\n          id=\"inp_coupon_code\"\n          label=\"Coupon code\"\n          placeholder=\"Enter coupon code\"\n          style={{ width: \"100%\" }}\n        />\n        <Text\n          id=\"txt_total_120\"\n          label=\"Total $120\"\n          style={{ textAlign: \"right\", alignSelf: \"flex-end\" }}\n        />\n      </Container>\n      <Button\n        id=\"btn_checkout\"\n        label=\"Checkout\"\n        style={{ width: \"100%\", alignSelf: \"stretch\" }}\n        onClick={handleBtnCheckoutClick}\n      />\n      <Message owner=\"btn_checkout\" />\n    </Page>\n  );\n}\n\nconst LNK_BACK_CLICK = [\n  {\n    \"type\": \"navigate\",\n    \"page\": \"page_main\"\n  }\n];\n\nfunction CheckoutPage() {\n  const ui = useUI();\n  const handleLnkBackClick = () => runActions(\"lnk_back\", LNK_BACK_CLICK, ui);\n\n  return (\n    <Page id=\"page_checkout\" layout={{ gap: 16 }}>\n      <Heading id=\"h_checkout\" label=\"Checkout\" level={1} />\n      <Text id=\"txt_welcome_to_the\" label=\"Welcome to the Checkout page.\" />\n      <Link id=\"lnk_back\" label=\"Back\" onClick={handleLnkBackClick} />\n      <Message owner=\"lnk_back\" />\n    </Page>\n  );\n}\n\nconst PAGES = {\n  page_main: MainPage,\n  page_checkout: CheckoutPage,\n};\n\nconst INITIALLY_HIDDEN = {};\n\nfunction App() {\n  const ui = useUIStore(\"page_main\", INITIALLY_HIDDEN);\n  const CurrentPage = PAGES[ui.page] ?? MainPage;\n\n  return (\n    <UIContext.Provider value={ui}>\n      <div className=\"ng-app\">\n        <CurrentPage />\n      </div>\n    </UIContext.Provider>\n  );\n}\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(<App />);\n",
+   "stats": {
+    "files": 23,
+    "components": 12,
+    "pages": 2,
+    "loc": 704,
+    "preview_bytes": 16635
+   }
+  },
+  "report": {
+   "passed": true,
+   "score": 0.9211,
+   "checks": [
+    {
+     "id": "runtime:render",
+     "kind": "functional",
+     "name": "renders without runtime errors",
+     "ok": true,
+     "detail": "17 components rendered",
+     "hard": true
+    },
+    {
+     "id": "presence:page_main",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "presence:box_1",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "presence:btn_2",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_2"
+    },
+    {
+     "id": "presence:h_your_cart",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_your_cart"
+    },
+    {
+     "id": "presence:card_linen_shirt_40",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_linen_shirt_40"
+    },
+    {
+     "id": "presence:img_5",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_5"
+    },
+    {
+     "id": "presence:txt_linen_shirt",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_linen_shirt"
+    },
+    {
+     "id": "presence:txt_40",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_40"
+    },
+    {
+     "id": "presence:card_straw_hat_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "card_straw_hat_80"
+    },
+    {
+     "id": "presence:img_9",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "img_9"
+    },
+    {
+     "id": "presence:txt_straw_hat",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_straw_hat"
+    },
+    {
+     "id": "presence:txt_80",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_80"
+    },
+    {
+     "id": "presence:div_12",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "div_12"
+    },
+    {
+     "id": "presence:box_13",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "presence:inp_coupon_code",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "inp_coupon_code"
+    },
+    {
+     "id": "presence:txt_total_120",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_total_120"
+    },
+    {
+     "id": "presence:btn_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "order:page_main",
+     "kind": "visual",
+     "name": "column order of children",
+     "ok": true,
+     "detail": "6 children in order",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "sketch_order:page_main",
+     "kind": "visual",
+     "name": "children follow the sketch's vertical order",
+     "ok": true,
+     "detail": "matches sketch",
+     "hard": true,
+     "target": "page_main"
+    },
+    {
+     "id": "order:box_1",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_1"
+    },
+    {
+     "id": "order:card_linen_shirt_40",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_linen_shirt_40"
+    },
+    {
+     "id": "order:card_straw_hat_80",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "3 children in order",
+     "hard": true,
+     "target": "card_straw_hat_80"
+    },
+    {
+     "id": "order:box_13",
+     "kind": "visual",
+     "name": "row order of children",
+     "ok": true,
+     "detail": "2 children in order",
+     "hard": true,
+     "target": "box_13"
+    },
+    {
+     "id": "layout:btn_2",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.10 vs sketch",
+     "hard": false,
+     "target": "btn_2"
+    },
+    {
+     "id": "layout:txt_linen_shirt",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_linen_shirt"
+    },
+    {
+     "id": "layout:txt_40",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_40"
+    },
+    {
+     "id": "layout:txt_straw_hat",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_straw_hat"
+    },
+    {
+     "id": "layout:txt_80",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_80"
+    },
+    {
+     "id": "layout:div_12",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "div_12"
+    },
+    {
+     "id": "layout:txt_total_120",
+     "kind": "visual",
+     "name": "position/size close to the sketch",
+     "ok": false,
+     "detail": "IoU 0.00 vs sketch",
+     "hard": false,
+     "target": "txt_total_120"
+    },
+    {
+     "id": "layout:overall",
+     "kind": "visual",
+     "name": "layout similar to the sketch (mean IoU)",
+     "ok": false,
+     "detail": "mean IoU 0.21 over 12 sketched components; pairwise order 1.00",
+     "hard": false
+    },
+    {
+     "id": "clickable:btn_2",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_2"
+    },
+    {
+     "id": "typing:inp_coupon_code",
+     "kind": "functional",
+     "name": "accepts typing",
+     "ok": true,
+     "detail": "typed 'Sample text', read 'Sample text'",
+     "hard": true,
+     "target": "inp_coupon_code"
+    },
+    {
+     "id": "clickable:btn_checkout",
+     "kind": "functional",
+     "name": "clickable",
+     "ok": true,
+     "detail": "hit-test ok",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "presence:page_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "page_checkout"
+    },
+    {
+     "id": "presence:h_checkout",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "h_checkout"
+    },
+    {
+     "id": "presence:txt_welcome_to_the",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "txt_welcome_to_the"
+    },
+    {
+     "id": "presence:lnk_back",
+     "kind": "visual",
+     "name": "component rendered and visible",
+     "ok": true,
+     "detail": "visible",
+     "hard": true,
+     "target": "lnk_back"
+    },
+    {
+     "id": "event:btn_checkout:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_checkout",
+     "hard": true,
+     "target": "btn_checkout"
+    },
+    {
+     "id": "event:lnk_back:click",
+     "kind": "functional",
+     "name": "click behaviour works",
+     "ok": true,
+     "detail": "navigate -> page_main",
+     "hard": true,
+     "target": "lnk_back"
+    }
+   ],
+   "visual": {
+    "presence": 1.0,
+    "layout_iou": 0.2106,
+    "order_consistency": 1.0
+   },
+   "functional": {
+    "runtime_errors": [],
+    "interactions_total": 2,
+    "interactions_passed": 2,
+    "basic_ratio": 1.0
+   },
+   "dom": [
+    {
+     "id": "page_main",
+     "type": "page",
+     "rect": {
+      "x": 351,
+      "y": 32,
+      "w": 578,
+      "h": 516.5
+     }
+    },
+    {
+     "id": "box_1",
+     "type": "container",
+     "rect": {
+      "x": 351,
+      "y": 32,
+      "w": 578,
+      "h": 36
+     }
+    },
+    {
+     "id": "btn_2",
+     "type": "button",
+     "rect": {
+      "x": 351,
+      "y": 39,
+      "w": 38,
+      "h": 22
+     }
+    },
+    {
+     "id": "h_your_cart",
+     "type": "heading",
+     "rect": {
+      "x": 401,
+      "y": 32,
+      "w": 131.5,
+      "h": 36
+     }
+    },
+    {
+     "id": "card_linen_shirt_40",
+     "type": "card",
+     "rect": {
+      "x": 351,
+      "y": 78,
+      "w": 578,
+      "h": 149
+     }
+    },
+    {
+     "id": "img_5",
+     "type": "image",
+     "rect": {
+      "x": 376,
+      "y": 103,
+      "w": 168,
+      "h": 99
+     }
+    },
+    {
+     "id": "txt_linen_shirt",
+     "type": "text",
+     "rect": {
+      "x": 556,
+      "y": 141.25,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_40",
+     "type": "text",
+     "rect": {
+      "x": 736,
+      "y": 141.25,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "card_straw_hat_80",
+     "type": "card",
+     "rect": {
+      "x": 351,
+      "y": 237,
+      "w": 578,
+      "h": 158
+     }
+    },
+    {
+     "id": "img_9",
+     "type": "image",
+     "rect": {
+      "x": 376,
+      "y": 262,
+      "w": 168,
+      "h": 108
+     }
+    },
+    {
+     "id": "txt_straw_hat",
+     "type": "text",
+     "rect": {
+      "x": 556,
+      "y": 304.75,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "txt_80",
+     "type": "text",
+     "rect": {
+      "x": 736,
+      "y": 304.75,
+      "w": 168,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "div_12",
+     "type": "divider",
+     "rect": {
+      "x": 351,
+      "y": 409,
+      "w": 578,
+      "h": 1
+     }
+    },
+    {
+     "id": "box_13",
+     "type": "container",
+     "rect": {
+      "x": 351,
+      "y": 424,
+      "w": 578,
+      "h": 70
+     }
+    },
+    {
+     "id": "inp_coupon_code",
+     "type": "input",
+     "rect": {
+      "x": 351,
+      "y": 424,
+      "w": 283,
+      "h": 70
+     }
+    },
+    {
+     "id": "txt_total_120",
+     "type": "text",
+     "rect": {
+      "x": 646,
+      "y": 471.5,
+      "w": 283,
+      "h": 22.5
+     }
+    },
+    {
+     "id": "btn_checkout",
+     "type": "button",
+     "rect": {
+      "x": 351,
+      "y": 504,
+      "w": 578,
+      "h": 44.5
+     }
+    }
+   ],
+   "browser": "chromium",
+   "duration_ms": 431
+  },
+  "repairs": [],
+  "timings": {
+   "fuse": 2.7,
+   "codegen": 1.5,
+   "validate": 440.7,
+   "repair": 434.1
+  }
+ }
+}

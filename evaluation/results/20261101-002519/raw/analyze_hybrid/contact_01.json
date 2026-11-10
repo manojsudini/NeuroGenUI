@@ -1,0 +1,215 @@
+{
+ "_ok": true,
+ "_wall_ms": 7699.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Contact us",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.0954,
+     "w": 0.168,
+     "h": 0.0562
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.1635,
+     "w": 0.183,
+     "h": 0.0119
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.2095,
+     "w": 0.087,
+     "h": 0.0119
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.34,
+     "y": 0.2061,
+     "w": 0.074,
+     "h": 0.0153
+    },
+    "confidence": 0.6,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.426,
+     "y": 0.2078,
+     "w": 0.118,
+     "h": 0.0153
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.555,
+     "y": 0.2078,
+     "w": 0.11,
+     "h": 0.0136
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.676,
+     "y": 0.2078,
+     "w": 0.021,
+     "h": 0.0136
+    },
+    "confidence": 0.6,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.2504,
+     "w": 0.058,
+     "h": 0.0153
+    },
+    "confidence": 0.6,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.31,
+     "y": 0.2521,
+     "w": 0.113,
+     "h": 0.0153
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.434,
+     "y": 0.2521,
+     "w": 0.112,
+     "h": 0.0153
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.243,
+     "y": 0.2964,
+     "w": 0.488,
+     "h": 0.109
+    },
+    "confidence": 0.857,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.239,
+     "y": 0.4191,
+     "w": 0.491,
+     "h": 0.1124
+    },
+    "confidence": 0.855,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Message",
+    "bbox": {
+     "x": 0.257,
+     "y": 0.5826,
+     "w": 0.07,
+     "h": 0.0392
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.706,
+     "y": 0.7513,
+     "w": 0.015,
+     "h": 0.0256
+    },
+    "confidence": 0.6,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.8058,
+     "w": 0.493,
+     "h": 0.121
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 587,
+  "mode": "hybrid",
+  "title": "Contact Us Form",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 22,
+   "vision_ms": 7667,
+   "total_ms": 7699
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 17
+ }
+}

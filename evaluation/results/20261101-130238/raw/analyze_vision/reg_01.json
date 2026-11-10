@@ -1,0 +1,176 @@
+{
+ "_ok": true,
+ "_wall_ms": 5937.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Create Account",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.15,
+     "w": 0.4,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.25,
+     "w": 0.5,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.35,
+     "w": 0.15,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.39,
+     "w": 0.5,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Password",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.48,
+     "w": 0.2,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.52,
+     "w": 0.5,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Confirm password",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.61,
+     "w": 0.4,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.65,
+     "w": 0.5,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.74,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "I agree to the terms",
+    "bbox": {
+     "x": 0.31,
+     "y": 0.74,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Register",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.81,
+     "w": 0.5,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Already have an account? Login",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.9,
+     "w": 0.45,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 608,
+  "mode": "vision",
+  "title": "Create Account",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5929,
+   "total_ms": 5937
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

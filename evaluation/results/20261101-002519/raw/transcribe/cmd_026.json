@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1681.5,
+ "value": {
+  "text": "Make the Calculate button say Compute Payment.",
+  "model": "whisper-1",
+  "duration_ms": 1681
+ }
+}

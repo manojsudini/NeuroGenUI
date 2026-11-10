@@ -1,0 +1,220 @@
+{
+  "id": "login_04",
+  "category": "login",
+  "title": "Admin portal",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('login_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "An admin login screen split in two: an illustration on the left; on the right the heading Admin Portal, a line 'Please sign in to continue', email and password fields, a Role dropdown with Admin, Editor and Viewer, a Login button and a Need help? link. Login shows an error if fields are empty and checks that the email is valid.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0455,
+        "y": 0.0924,
+        "w": 0.4161,
+        "h": 0.7679
+      },
+      "parent": null,
+      "props": {
+        "alt": "illustration",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Admin Portal",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.0924,
+        "w": 0.2304,
+        "h": 0.0905
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Please sign in to continue",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.2115,
+        "w": 0.2587,
+        "h": 0.0525
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.2926,
+        "w": 0.4161,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.4176,
+        "w": 0.4161,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Role",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.5426,
+        "w": 0.4161,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Admin",
+          "Editor",
+          "Viewer"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Login",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.6676,
+        "w": 0.2,
+        "h": 0.0964
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Need help?",
+      "bbox": {
+        "x": 0.5116,
+        "y": 0.7926,
+        "w": 0.1113,
+        "h": 0.0597
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Login",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Login",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Email",
+        "format": "email"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Admin Portal",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Role",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Login",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Need help?",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Login",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Login",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

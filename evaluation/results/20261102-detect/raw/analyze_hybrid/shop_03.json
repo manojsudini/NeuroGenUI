@@ -1,0 +1,245 @@
+{
+ "_ok": true,
+ "_wall_ms": 10085.8,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Your cart",
+    "bbox": {
+     "x": 0.249,
+     "y": 0.0878,
+     "w": 0.159,
+     "h": 0.0655
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.1815,
+     "w": 0.467,
+     "h": 0.183
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.286,
+     "y": 0.2202,
+     "w": 0.066,
+     "h": 0.1235
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Linen shirt",
+    "bbox": {
+     "x": 0.385,
+     "y": 0.2173,
+     "w": 0.111,
+     "h": 0.0491
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "$40",
+    "bbox": {
+     "x": 0.39,
+     "y": 0.2768,
+     "w": 0.042,
+     "h": 0.0432
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.3869,
+     "w": 0.475,
+     "h": 0.1875
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.911,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.271,
+     "y": 0.4256,
+     "w": 0.084,
+     "h": 0.122
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Straw hat",
+    "bbox": {
+     "x": 0.389,
+     "y": 0.4286,
+     "w": 0.094,
+     "h": 0.0476
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "$80",
+    "bbox": {
+     "x": 0.39,
+     "y": 0.4881,
+     "w": 0.044,
+     "h": 0.0417
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.5973,
+     "w": 0.4755,
+     "h": 0.0254
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$120",
+    "bbox": {
+     "x": 0.668,
+     "y": 0.6533,
+     "w": 0.057,
+     "h": 0.0491
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Total",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.6577,
+     "w": 0.059,
+     "h": 0.0446
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.7321,
+     "w": 0.47,
+     "h": 0.0655
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.839,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Coupon code",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.7411,
+     "w": 0.119,
+     "h": 0.0551
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.8363,
+     "w": 0.47,
+     "h": 0.0833
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.895,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 672,
+  "mode": "hybrid",
+  "title": "Shopping Cart Checkout",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 4503,
+   "vision_ms": 5038,
+   "total_ms": 10085
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 16
+ }
+}

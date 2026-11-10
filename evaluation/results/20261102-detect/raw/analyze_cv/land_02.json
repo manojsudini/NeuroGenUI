@@ -1,0 +1,244 @@
+{
+ "_ok": true,
+ "_wall_ms": 1573.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.054,
+     "y": 0.0541,
+     "w": 0.885,
+     "h": 0.0971
+    },
+    "confidence": 0.832,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Buildr",
+    "bbox": {
+     "x": 0.081,
+     "y": 0.0774,
+     "w": 0.095,
+     "h": 0.0553
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Product",
+    "bbox": {
+     "x": 0.67,
+     "y": 0.0799,
+     "w": 0.091,
+     "h": 0.0393
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Docs",
+    "bbox": {
+     "x": 0.785,
+     "y": 0.0786,
+     "w": 0.076,
+     "h": 0.0442
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Blog",
+    "bbox": {
+     "x": 0.863,
+     "y": 0.0774,
+     "w": 0.06,
+     "h": 0.0479
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Build apps faster",
+    "bbox": {
+     "x": 0.347,
+     "y": 0.1892,
+     "w": 0.313,
+     "h": 0.0688
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.232,
+     "y": 0.2846,
+     "w": 0.4615,
+     "h": 0.0512
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Join waitlist",
+    "bbox": {
+     "x": 0.614,
+     "y": 0.371,
+     "w": 0.198,
+     "h": 0.0627
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Work email",
+    "bbox": {
+     "x": 0.199,
+     "y": 0.3796,
+     "w": 0.116,
+     "h": 0.0393
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.4521,
+     "w": 0.88,
+     "h": 0.2838
+    },
+    "confidence": 0.859,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Loved by teams",
+    "bbox": {
+     "x": 0.405,
+     "y": 0.7617,
+     "w": 0.194,
+     "h": 0.0528
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.8378,
+     "w": 0.203,
+     "h": 0.0799
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.286,
+     "y": 0.8354,
+     "w": 0.202,
+     "h": 0.086
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.508,
+     "y": 0.8354,
+     "w": 0.204,
+     "h": 0.0811
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.736,
+     "y": 0.8378,
+     "w": 0.202,
+     "h": 0.0786
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 814,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 1502,
+   "vision_ms": 0,
+   "total_ms": 1573
+  },
+  "n_cv_candidates": 19
+ }
+}

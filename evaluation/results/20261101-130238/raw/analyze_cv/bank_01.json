@@ -1,0 +1,159 @@
+{
+ "_ok": true,
+ "_wall_ms": 47.2,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.0525,
+     "w": 0.538,
+     "h": 0.1794
+    },
+    "confidence": 0.863,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.714,
+     "y": 0.1049,
+     "w": 0.042,
+     "h": 0.0778
+    },
+    "confidence": 0.87,
+    "source": "cv",
+    "shape": "circle",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.1252,
+     "w": 0.101,
+     "h": 0.0609
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.271,
+     "y": 0.2978,
+     "w": 0.144,
+     "h": 0.044
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.272,
+     "y": 0.3875,
+     "w": 0.166,
+     "h": 0.0626
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.5212,
+     "w": 0.17,
+     "h": 0.1015
+    },
+    "confidence": 0.852,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.604,
+     "y": 0.5245,
+     "w": 0.168,
+     "h": 0.0998
+    },
+    "confidence": 0.881,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.423,
+     "y": 0.5262,
+     "w": 0.172,
+     "h": 0.0931
+    },
+    "confidence": 0.813,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.6701,
+     "w": 0.135,
+     "h": 0.0372
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.7665,
+     "w": 0.163,
+     "h": 0.1506
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 591,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 38,
+   "vision_ms": 0,
+   "total_ms": 47
+  },
+  "n_cv_candidates": 15
+ }
+}

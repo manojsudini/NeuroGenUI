@@ -1,0 +1,123 @@
+{
+ "_ok": true,
+ "_wall_ms": 6373.8,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "Social Profile",
+     "children": [
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "cover image",
+        "photo": "person"
+       }
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "avatar",
+        "photo": "person"
+       },
+       "style": {
+        "radius": 999
+       }
+      },
+      {
+       "type": "heading",
+       "label": "Alex Kim",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "text",
+       "label": "@alexk"
+      },
+      {
+       "type": "button",
+       "label": "Edit profile"
+      },
+      {
+       "type": "container",
+       "label": "Counts"
+      },
+      {
+       "type": "text",
+       "label": "Posts: 0"
+      },
+      {
+       "type": "text",
+       "label": "Followers: 0"
+      },
+      {
+       "type": "text",
+       "label": "Following: 0"
+      },
+      {
+       "type": "heading",
+       "label": "Posts",
+       "props": {
+        "level": 2
+       }
+      },
+      {
+       "type": "container",
+       "label": "Photo grid"
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "photo 1",
+        "photo": "person"
+       }
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "photo 2",
+        "photo": "person"
+       }
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "photo 3",
+        "photo": "person"
+       }
+      }
+     ]
+    },
+    "page": {
+     "name": "Social Profile"
+    },
+    "meta": {
+     "title": "Social Profile",
+     "category": "profile"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Edit profile button"
+    },
+    "page": {
+     "name": "Edit profile"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 6373,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"Social Profile\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"cover image\",\"photo\":\"person\",\"items\":null},\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"avatar\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":999,\"hidden\":null}},{\"type\":\"heading\",\"label\":\"Alex Kim\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"@alexk\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Edit profile\",\"props\":null,\"style\":null},{\"type\":\"container\",\"label\":\"Counts\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Posts: 0\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Followers: 0\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Following: 0\",\"props\":null,\"style\":null},{\"type\":\"heading\",\"label\":\"Posts\",\"props\":{\"level\":2,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"container\",\"label\":\"Photo grid\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"photo 1\",\"photo\":\"person\",\"items\":null},\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"photo 2\",\"photo\":\"person\",\"items\":null},\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"photo 3\",\"photo\":\"person\",\"items\":null},\"style\":null}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Social Profile\"},\"meta\":{\"title\":\"Social Profile\",\"category\":\"profile\"},\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"Edit profile button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Edit profile\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

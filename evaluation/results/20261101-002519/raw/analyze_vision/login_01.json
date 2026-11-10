@@ -1,0 +1,85 @@
+{
+ "_ok": true,
+ "_wall_ms": 7318.3,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Login",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.05,
+     "w": 0.24,
+     "h": 0.07
+    },
+    "confidence": 0.99,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.13,
+     "w": 0.3,
+     "h": 0.2
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.37,
+     "w": 0.7,
+     "h": 0.1
+    },
+    "confidence": 0.98,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.49,
+     "w": 0.7,
+     "h": 0.1
+    },
+    "confidence": 0.98,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Login",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.62,
+     "w": 0.7,
+     "h": 0.12
+    },
+    "confidence": 0.98,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Login",
+  "category": "login",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7310,
+   "total_ms": 7318
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

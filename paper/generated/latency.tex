@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Latency per stage (ms)}
+\label{tab:latency}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{System} & \textbf{Stage} & \textbf{n} & \textbf{Mean} & \textbf{Median} & \textbf{p95} \\
+\midrule
+pipeline & analyze\_sketch & 40 & 10350 & 5890 & 10705 \\
+pipeline & interpret & 40 & 5114 & 4987 & 7215 \\
+pipeline & fuse & 40 & 3 & 3 & 6 \\
+pipeline & codegen & 40 & 1 & 1 & 2 \\
+pipeline & total\_generate & 40 & 15469 & 10654 & 18343 \\
+pipeline & validate & 40 & 517 & 443 & 703 \\
+pipeline & repair & 40 & 460 & 442 & 667 \\
+pipeline & total\_with\_validation & 40 & 16446 & 11563 & 19432 \\
+baseline & total\_generate & 40 & 23968 & 16976 & 65240 \\
+analyze\_cv & analyze\_cv & 40 & 66 & 55 & 103 \\
+analyze\_vision & analyze\_vision & 40 & 6445 & 6237 & 8711 \\
+analyze\_hybrid & analyze\_hybrid & 40 & 10350 & 5890 & 10705 \\
+pipeline & modify\_total & 80 & 2103 & 2063 & 2708 \\
+pipeline\_voice & modify\_total & 80 & 2104 & 2106 & 2676 \\
+baseline & modify\_total & 80 & 15360 & 13883 & 23314 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

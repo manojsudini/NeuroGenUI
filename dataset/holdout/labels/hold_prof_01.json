@@ -1,0 +1,260 @@
+{
+  "id": "hold_prof_01",
+  "category": "profile",
+  "title": "Company profile",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_prof_01')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 2.02,
+    "scratch_outs": 3
+  },
+  "width": 1000,
+  "height": 811,
+  "instruction": "A company profile page with a wide cover photo, a round company logo, the name Orbit Labs with the line Space software company and a Follow Company button, a tab bar with About, Jobs and People, a short paragraph and an Open roles section listing Backend engineer, Product designer and Data analyst. Follow Company shows the message Following Orbit Labs and Jobs opens a Jobs page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0781,
+        "y": 0.0795,
+        "w": 0.8535,
+        "h": 0.248
+      },
+      "parent": null,
+      "props": {
+        "alt": "cover photo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0739,
+        "y": 0.3114,
+        "w": 0.1098,
+        "h": 0.1382
+      },
+      "parent": null,
+      "props": {
+        "alt": "company logo",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Orbit Labs",
+      "bbox": {
+        "x": 0.2347,
+        "y": 0.3172,
+        "w": 0.1852,
+        "h": 0.0828
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Space software company",
+      "bbox": {
+        "x": 0.2331,
+        "y": 0.4106,
+        "w": 0.2434,
+        "h": 0.0547
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Follow Company",
+      "bbox": {
+        "x": 0.7367,
+        "y": 0.3774,
+        "w": 0.1889,
+        "h": 0.0733
+      },
+      "parent": null
+    },
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0711,
+        "y": 0.471,
+        "w": 0.8517,
+        "h": 0.1198
+      },
+      "parent": null
+    },
+    {
+      "type": "nav_item",
+      "label": "About",
+      "bbox": {
+        "x": 0.0909,
+        "y": 0.4888,
+        "w": 0.0621,
+        "h": 0.0512
+      },
+      "parent": 5
+    },
+    {
+      "type": "nav_item",
+      "label": "Jobs",
+      "bbox": {
+        "x": 0.1788,
+        "y": 0.4928,
+        "w": 0.0484,
+        "h": 0.0505
+      },
+      "parent": 5
+    },
+    {
+      "type": "nav_item",
+      "label": "People",
+      "bbox": {
+        "x": 0.2529,
+        "y": 0.4962,
+        "w": 0.0654,
+        "h": 0.0512
+      },
+      "parent": 5
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.5777,
+        "w": 0.7686,
+        "h": 0.1192
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Open roles",
+      "bbox": {
+        "x": 0.066,
+        "y": 0.6894,
+        "w": 0.1495,
+        "h": 0.0679
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.0622,
+        "y": 0.7758,
+        "w": 0.2067,
+        "h": 0.1266
+      },
+      "parent": null,
+      "props": {
+        "items": [
+          "Backend engineer",
+          "Product designer",
+          "Data analyst"
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Follow Company",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "following"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Jobs",
+      "expect": {
+        "type": "navigate",
+        "page": "Jobs"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Orbit Labs",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Follow Company",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "About",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Jobs",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "People",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Open roles",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Follow Company",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "following"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Jobs",
+      "expect": {
+        "type": "navigate",
+        "page": "Jobs"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

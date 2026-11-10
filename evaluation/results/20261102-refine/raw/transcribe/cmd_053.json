@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1235.8,
+ "value": {
+  "text": "Color the Send button purple.",
+  "model": "whisper-1",
+  "duration_ms": 1235
+ }
+}

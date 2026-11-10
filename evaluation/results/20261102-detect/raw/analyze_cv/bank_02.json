@@ -1,0 +1,229 @@
+{
+ "_ok": true,
+ "_wall_ms": 15767.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.0724,
+     "w": 0.886,
+     "h": 0.1042
+    },
+    "confidence": 0.741,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "NorthBank",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.1013,
+     "w": 0.159,
+     "h": 0.0463
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Accounts",
+    "bbox": {
+     "x": 0.489,
+     "y": 0.1013,
+     "w": 0.108,
+     "h": 0.042
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Transfers",
+    "bbox": {
+     "x": 0.617,
+     "y": 0.0999,
+     "w": 0.119,
+     "h": 0.0434
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Cards",
+    "bbox": {
+     "x": 0.762,
+     "y": 0.1027,
+     "w": 0.068,
+     "h": 0.0391
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Loqout",
+    "bbox": {
+     "x": 0.857,
+     "y": 0.1056,
+     "w": 0.076,
+     "h": 0.0391
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Transfer money",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.2069,
+     "w": 0.306,
+     "h": 0.0767
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Fromaccount",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.3531,
+     "w": 0.842,
+     "h": 0.0753
+    },
+    "confidence": 0.814,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Recipientaccountnumber",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.4414,
+     "w": 0.842,
+     "h": 0.0825
+    },
+    "confidence": 0.833,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Amount",
+    "bbox": {
+     "x": 0.091,
+     "y": 0.5499,
+     "w": 0.841,
+     "h": 0.081
+    },
+    "confidence": 0.793,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Reference",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.6353,
+     "w": 0.844,
+     "h": 0.0941
+    },
+    "confidence": 0.764,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Saverecipient",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.754,
+     "w": 0.186,
+     "h": 0.0463
+    },
+    "confidence": 0.868,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.094,
+     "y": 0.8249,
+     "w": 0.147,
+     "h": 0.0753
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.275,
+     "y": 0.8191,
+     "w": 0.151,
+     "h": 0.0781
+    },
+    "confidence": 0.881,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 691,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 15303,
+   "vision_ms": 0,
+   "total_ms": 15767
+  },
+  "n_cv_candidates": 24
+ }
+}

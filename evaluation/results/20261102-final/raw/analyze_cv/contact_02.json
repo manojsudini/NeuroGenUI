@@ -1,0 +1,229 @@
+{
+ "_ok": true,
+ "_wall_ms": 83.0,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.0864,
+     "w": 0.871,
+     "h": 0.1232
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.112,
+     "y": 0.1346,
+     "w": 0.079,
+     "h": 0.0453
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.643,
+     "y": 0.1317,
+     "w": 0.291,
+     "h": 0.0383
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.2635,
+     "w": 0.231,
+     "h": 0.0708
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.096,
+     "y": 0.2606,
+     "w": 0.221,
+     "h": 0.0552
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.347,
+     "w": 0.468,
+     "h": 0.0921
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.596,
+     "y": 0.3527,
+     "w": 0.364,
+     "h": 0.3088
+    },
+    "confidence": 0.906,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.091,
+     "y": 0.4561,
+     "w": 0.464,
+     "h": 0.0892
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.5467,
+     "w": 0.466,
+     "h": 0.0949
+    },
+    "confidence": 0.821,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.104,
+     "y": 0.6728,
+     "w": 0.083,
+     "h": 0.034
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.604,
+     "y": 0.6841,
+     "w": 0.263,
+     "h": 0.0411
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.604,
+     "y": 0.7535,
+     "w": 0.139,
+     "h": 0.0269
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.532,
+     "y": 0.8144,
+     "w": 0.016,
+     "h": 0.0227
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.601,
+     "y": 0.8159,
+     "w": 0.164,
+     "h": 0.034
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.8569,
+     "w": 0.173,
+     "h": 0.0892
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 706,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 72,
+   "vision_ms": 0,
+   "total_ms": 82
+  },
+  "n_cv_candidates": 22
+ }
+}

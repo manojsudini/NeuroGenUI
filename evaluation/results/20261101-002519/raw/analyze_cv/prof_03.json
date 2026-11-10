@@ -1,0 +1,188 @@
+{
+ "_ok": true,
+ "_wall_ms": 46.3,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.055,
+     "y": 0.0437,
+     "w": 0.9,
+     "h": 0.2715
+    },
+    "confidence": 0.804,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.224,
+     "y": 0.1086,
+     "w": 0.027,
+     "h": 0.0377
+    },
+    "confidence": 0.868,
+    "source": "cv",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.051,
+     "y": 0.3213,
+     "w": 0.126,
+     "h": 0.175
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.229,
+     "y": 0.3635,
+     "w": 0.115,
+     "h": 0.0407
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.761,
+     "y": 0.3635,
+     "w": 0.194,
+     "h": 0.098
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.227,
+     "y": 0.4389,
+     "w": 0.061,
+     "h": 0.0287
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.368,
+     "y": 0.5324,
+     "w": 0.124,
+     "h": 0.0317
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.672,
+     "y": 0.5339,
+     "w": 0.119,
+     "h": 0.0407
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.5354,
+     "w": 0.084,
+     "h": 0.0392
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.6169,
+     "w": 0.057,
+     "h": 0.0332
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.6817,
+     "w": 0.291,
+     "h": 0.2459
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.364,
+     "y": 0.6833,
+     "w": 0.288,
+     "h": 0.2398
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.664,
+     "y": 0.6787,
+     "w": 0.299,
+     "h": 0.2534
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 663,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 35,
+   "vision_ms": 0,
+   "total_ms": 46
+  },
+  "n_cv_candidates": 14
+ }
+}

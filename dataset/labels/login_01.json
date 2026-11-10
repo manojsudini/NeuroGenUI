@@ -1,0 +1,125 @@
+{
+  "id": "login_01",
+  "category": "login",
+  "title": "Login",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('login_01')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "Create a login page with email and password fields and a login button.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Login",
+      "bbox": {
+        "x": 0.4397,
+        "y": 0.0904,
+        "w": 0.0985,
+        "h": 0.0905
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3683,
+        "y": 0.2202,
+        "w": 0.2412,
+        "h": 0.2679
+      },
+      "parent": null,
+      "props": {
+        "alt": "logo",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2477,
+        "y": 0.5273,
+        "w": 0.4824,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.2477,
+        "y": 0.663,
+        "w": 0.4824,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Login",
+      "bbox": {
+        "x": 0.2477,
+        "y": 0.7987,
+        "w": 0.4824,
+        "h": 0.0964
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Login",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Login",
+      "source": "instruction names this component"
+    }
+  ]
+}

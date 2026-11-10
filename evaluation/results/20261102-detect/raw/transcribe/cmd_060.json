@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 982.7,
+ "value": {
+  "text": "give the search button a yellow background.",
+  "model": "whisper-1",
+  "duration_ms": 982
+ }
+}

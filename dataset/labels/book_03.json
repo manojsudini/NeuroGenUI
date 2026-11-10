@@ -1,0 +1,248 @@
+{
+  "id": "book_03",
+  "category": "booking",
+  "title": "Flights to Paris",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('book_03')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A flight results page titled Flights to Paris with a Sort by dropdown, a Non-stop only checkbox, two flight result cards (Air France with a Select flight button and Lufthansa with a Choose button) and a Load more button. Select flight opens a Passenger details page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Flights to Paris",
+      "bbox": {
+        "x": 0.0612,
+        "y": 0.1026,
+        "w": 0.2838,
+        "h": 0.111
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "select",
+      "label": "Sort by",
+      "bbox": {
+        "x": 0.0612,
+        "y": 0.2493,
+        "w": 0.24,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Price",
+          "Duration"
+        ]
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Non-stop only",
+      "bbox": {
+        "x": 0.3762,
+        "y": 0.2493,
+        "w": 0.1873,
+        "h": 0.0571
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0612,
+        "y": 0.3814,
+        "w": 0.8968,
+        "h": 0.175
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Air France",
+      "bbox": {
+        "x": 0.0832,
+        "y": 0.4364,
+        "w": 0.1167,
+        "h": 0.065
+      },
+      "parent": 3
+    },
+    {
+      "type": "text",
+      "label": "08:10 - 10:25",
+      "bbox": {
+        "x": 0.3183,
+        "y": 0.4364,
+        "w": 0.153,
+        "h": 0.065
+      },
+      "parent": 3
+    },
+    {
+      "type": "heading",
+      "label": "$210",
+      "bbox": {
+        "x": 0.5533,
+        "y": 0.4299,
+        "w": 0.0688,
+        "h": 0.0781
+      },
+      "parent": 3,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "button",
+      "label": "Select flight",
+      "bbox": {
+        "x": 0.725,
+        "y": 0.4207,
+        "w": 0.18,
+        "h": 0.0964
+      },
+      "parent": 3
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0612,
+        "y": 0.5922,
+        "w": 0.8968,
+        "h": 0.175
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Lufthansa",
+      "bbox": {
+        "x": 0.0832,
+        "y": 0.6472,
+        "w": 0.1095,
+        "h": 0.065
+      },
+      "parent": 8
+    },
+    {
+      "type": "text",
+      "label": "13:40 - 16:05",
+      "bbox": {
+        "x": 0.3183,
+        "y": 0.6472,
+        "w": 0.153,
+        "h": 0.065
+      },
+      "parent": 8
+    },
+    {
+      "type": "heading",
+      "label": "$185",
+      "bbox": {
+        "x": 0.5533,
+        "y": 0.6406,
+        "w": 0.0688,
+        "h": 0.0781
+      },
+      "parent": 8,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "button",
+      "label": "Choose",
+      "bbox": {
+        "x": 0.725,
+        "y": 0.6314,
+        "w": 0.18,
+        "h": 0.0964
+      },
+      "parent": 8
+    },
+    {
+      "type": "button",
+      "label": "Load more",
+      "bbox": {
+        "x": 0.4096,
+        "y": 0.8029,
+        "w": 0.2,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Select flight",
+      "expect": {
+        "type": "navigate",
+        "page": "Passenger details"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Flights to Paris",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Sort by",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Non-stop only",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Select flight",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Choose",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Load more",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Select flight",
+      "expect": {
+        "type": "navigate",
+        "page": "Passenger details"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

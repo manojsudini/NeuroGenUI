@@ -1,0 +1,75 @@
+{
+ "_ok": true,
+ "_wall_ms": 3485.9,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "header",
+      "label": "Header",
+      "children": [
+       {
+        "type": "icon",
+        "label": "Menu icon"
+       },
+       {
+        "type": "text",
+        "label": "Greeting"
+       }
+      ]
+     },
+     {
+      "type": "card",
+      "label": "Balance card",
+      "children": [
+       {
+        "type": "text",
+        "label": "Balance amount"
+       }
+      ]
+     },
+     {
+      "type": "button",
+      "label": "Send",
+      "events": [
+       {
+        "on": "click",
+        "actions": [
+         {
+          "type": "navigate",
+          "page": "Send money"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "button",
+      "label": "Request"
+     },
+     {
+      "type": "heading",
+      "label": "Activity",
+      "props": {
+       "level": 2
+      }
+     },
+     {
+      "type": "list",
+      "label": "Recent transactions"
+     }
+    ],
+    "meta": {
+     "title": "Mobile Wallet Home",
+     "category": "dashboard"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 3485,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"header\",\"label\":\"Header\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"icon\",\"label\":\"Menu icon\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Greeting\",\"props\":null,\"style\":null}]} ,{\"type\":\"card\",\"label\":\"Balance card\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"text\",\"label\":\"Balance amount\",\"props\":null,\"style\":null}]},{\"type\":\"button\",\"label\":\"Send\",\"props\":null,\"style\":null,\"events\":[{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Send money\"}]}]  , \"children\":null},{\"type\":\"button\",\"label\":\"Request\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"heading\",\"label\":\"Activity\",\"props\":{\"level\":2,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"list\",\"label\":\"Recent transactions\",\"props\":null,\"style\":null,\"events\":null,\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Mobile Wallet Home\",\"category\":\"dashboard\"},\"confidence\":0.95}]}"
+ }
+}

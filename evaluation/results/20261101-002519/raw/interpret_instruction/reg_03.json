@@ -1,0 +1,111 @@
+{
+ "_ok": true,
+ "_wall_ms": 5541.9,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "heading",
+      "label": "Join the club",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "text",
+      "label": "Welcome to our community! Please fill in your details to become a member."
+     },
+     {
+      "type": "input",
+      "label": "Name",
+      "props": {
+       "inputType": "text",
+       "placeholder": "Your full name",
+       "required": true,
+       "name": "name"
+      }
+     },
+     {
+      "type": "input",
+      "label": "Email",
+      "props": {
+       "inputType": "email",
+       "placeholder": "you@example.com",
+       "required": true,
+       "name": "email"
+      }
+     },
+     {
+      "type": "input",
+      "label": "Password",
+      "props": {
+       "inputType": "password",
+       "required": true,
+       "name": "password"
+      }
+     },
+     {
+      "type": "checkbox",
+      "label": "Subscribe to newsletter",
+      "props": {
+       "required": false,
+       "name": "subscribe",
+       "checked": false
+      }
+     },
+     {
+      "type": "button",
+      "label": "Sign up",
+      "events": [
+       {
+        "on": "click",
+        "actions": [
+         {
+          "type": "validate_required",
+          "targets": [
+           "Name",
+           "Email",
+           "Password"
+          ],
+          "message": "Please fill in all fields."
+         },
+         {
+          "type": "show_message",
+          "text": "Welcome aboard",
+          "tone": "success"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "button",
+      "label": "Cancel"
+     },
+     {
+      "type": "image",
+      "label": "Membership photo",
+      "props": {
+       "alt": "Membership photo",
+       "photo": "person"
+      },
+      "style": {
+       "size": "lg",
+       "align": "right"
+      }
+     }
+    ],
+    "meta": {
+     "title": "Membership Sign Up",
+     "category": "registration"
+    },
+    "confidence": 0.98
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 5541,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"heading\",\"label\":\"Join the club\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"text\",\"label\":\"Welcome to our community! Please fill in your details to become a member.\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Name\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":\"Your full name\",\"required\":true,\"name\":\"name\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":\"email\",\"placeholder\":\"you@example.com\",\"required\":true,\"name\":\"email\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Password\",\"props\":{\"level\":null,\"inputType\":\"password\",\"placeholder\":null,\"required\":true,\"name\":\"password\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"checkbox\",\"label\":\"Subscribe to newsletter\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":\"subscribe\",\"rows\":null,\"checked\":false,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Sign up\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":[{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Name\",\"Email\",\"Password\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all fields.\",\"text\":null,\"tone\":null,\"page\":null},{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Welcome aboard\",\"tone\":\"success\",\"page\":null}]}],\"children\":null},{\"type\":\"button\",\"label\":\"Cancel\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"image\",\"label\":\"Membership photo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Membership photo\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"lg\",\"width\":null,\"height\":null,\"align\":\"right\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Membership Sign Up\",\"category\":\"registration\"},\"confidence\":0.98}]}"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1668.0,
+ "value": {
+  "text": "Remove the phone field.",
+  "model": "whisper-1",
+  "duration_ms": 1667
+ }
+}

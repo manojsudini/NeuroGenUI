@@ -1,0 +1,195 @@
+{
+ "_ok": true,
+ "_wall_ms": 9625.2,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "image",
+      "label": "Cover image",
+      "props": {
+       "alt": "Cover image",
+       "photo": "person"
+      },
+      "style": {
+       "width": "full",
+       "height": 200
+      }
+     },
+     {
+      "type": "image",
+      "label": "Avatar",
+      "props": {
+       "alt": "Profile avatar",
+       "photo": "person"
+      },
+      "style": {
+       "size": "md",
+       "height": 100,
+       "align": "center",
+       "radius": 50
+      }
+     },
+     {
+      "type": "heading",
+      "label": "Alex Kim",
+      "props": {
+       "level": 1
+      },
+      "style": {
+       "align": "center",
+       "fontSize": 24,
+       "fontWeight": 700
+      }
+     },
+     {
+      "type": "text",
+      "label": "@alexk",
+      "style": {
+       "color": "#6b7280",
+       "align": "center",
+       "fontSize": 16,
+       "fontWeight": 400
+      }
+     },
+     {
+      "type": "button",
+      "label": "Edit profile",
+      "style": {
+       "variant": "outline",
+       "size": "md",
+       "align": "center",
+       "radius": 8
+      }
+     },
+     {
+      "type": "container",
+      "label": "Counts container",
+      "style": {
+       "width": "full",
+       "align": "center"
+      },
+      "children": [
+       {
+        "type": "text",
+        "label": "Posts count",
+        "style": {
+         "align": "center",
+         "fontSize": 18,
+         "fontWeight": 700
+        }
+       },
+       {
+        "type": "text",
+        "label": "Followers count",
+        "style": {
+         "align": "center",
+         "fontSize": 18,
+         "fontWeight": 700
+        }
+       },
+       {
+        "type": "text",
+        "label": "Following count",
+        "style": {
+         "align": "center",
+         "fontSize": 18,
+         "fontWeight": 700
+        }
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "label": "Posts",
+      "props": {
+       "level": 2
+      },
+      "style": {
+       "align": "left",
+       "fontSize": 20,
+       "fontWeight": 600
+      }
+     },
+     {
+      "type": "container",
+      "label": "Posts grid",
+      "style": {
+       "width": "full"
+      },
+      "children": [
+       {
+        "type": "image",
+        "label": "Post photo 1",
+        "props": {
+         "alt": "Post photo 1",
+         "photo": "person"
+        },
+        "style": {
+         "size": "sm",
+         "height": 100,
+         "radius": 8
+        }
+       },
+       {
+        "type": "image",
+        "label": "Post photo 2",
+        "props": {
+         "alt": "Post photo 2",
+         "photo": "person"
+        },
+        "style": {
+         "size": "sm",
+         "height": 100,
+         "radius": 8
+        }
+       },
+       {
+        "type": "image",
+        "label": "Post photo 3",
+        "props": {
+         "alt": "Post photo 3",
+         "photo": "person"
+        },
+        "style": {
+         "size": "sm",
+         "height": 100,
+         "radius": 8
+        }
+       }
+      ]
+     }
+    ],
+    "page": {
+     "name": "Social profile"
+    },
+    "meta": {
+     "title": "Social profile",
+     "category": "profile"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Edit profile button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Edit profile"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 9624,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"image\",\"label\":\"Cover image\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Cover image\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":200,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"image\",\"label\":\"Avatar\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Profile avatar\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"md\",\"width\":null,\"height\":100,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":50,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"heading\",\"label\":\"Alex Kim\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":24,\"fontWeight\":700,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"text\",\"label\":\"@alexk\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":\"gray\",\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":16,\"fontWeight\":400,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Edit profile\",\"props\":null,\"style\":{\"variant\":\"outline\",\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"md\",\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":8,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"container\",\"label\":\"Counts container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"text\",\"label\":\"Posts count\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":18,\"fontWeight\":700,\"radius\":null,\"hidden\":null}},{\"type\":\"text\",\"label\":\"Followers count\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":18,\"fontWeight\":700,\"radius\":null,\"hidden\":null}},{\"type\":\"text\",\"label\":\"Following count\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":18,\"fontWeight\":700,\"radius\":null,\"hidden\":null}}]},{\"type\":\"heading\",\"label\":\"Posts\",\"props\":{\"level\":2,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":20,\"fontWeight\":600,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"container\",\"label\":\"Posts grid\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Post photo 1\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Post photo 1\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"sm\",\"width\":null,\"height\":100,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":8,\"hidden\":null}},{\"type\":\"image\",\"label\":\"Post photo 2\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Post photo 2\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"sm\",\"width\":null,\"height\":100,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":8,\"hidden\":null}},{\"type\":\"image\",\"label\":\"Post photo 3\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Post photo 3\",\"photo\":\"person\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"sm\",\"width\":null,\"height\":100,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":8,\"hidden\":null}}]}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Social profile\"},\"meta\":{\"title\":\"Social profile\",\"category\":\"profile\"},\"confidence\":0.98},{\"op\":\"interaction\",\"target\":{\"ref\":\"Edit profile button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Edit profile\"}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

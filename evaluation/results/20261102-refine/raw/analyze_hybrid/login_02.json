@@ -1,0 +1,159 @@
+{
+ "_ok": true,
+ "_wall_ms": 6450.7,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "Friendly",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.0641,
+     "w": 0.037,
+     "h": 0.0259
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.047,
+     "y": 0.0567,
+     "w": 0.901,
+     "h": 0.184
+    },
+    "shape": "rect",
+    "confidence": 0.867,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.208,
+     "y": 0.1012,
+     "w": 0.232,
+     "h": 0.0859
+    },
+    "shape": "rect",
+    "confidence": 0.901,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.455,
+     "y": 0.0951,
+     "w": 0.243,
+     "h": 0.0997
+    },
+    "shape": "rect",
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "Log In",
+    "bbox": {
+     "x": 0.713,
+     "y": 0.0997,
+     "w": 0.129,
+     "h": 0.1012
+    },
+    "shape": "rect",
+    "confidence": 0.895,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "heading",
+    "label": "Connect with friends",
+    "bbox": {
+     "x": 0.055,
+     "y": 0.3083,
+     "w": 0.31,
+     "h": 0.0414
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.3988,
+     "w": 0.604,
+     "h": 0.0567
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.052,
+     "y": 0.4816,
+     "w": 0.154,
+     "h": 0.0123
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.279,
+     "y": 0.4816,
+     "w": 0.142,
+     "h": 0.0123
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.048,
+     "y": 0.5107,
+     "w": 0.899,
+     "h": 0.3804
+    },
+    "shape": "rect",
+    "confidence": 0.922,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 652,
+  "mode": "hybrid",
+  "title": "Friendly Login Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 43,
+   "vision_ms": 6399,
+   "total_ms": 6450
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 16
+ }
+}

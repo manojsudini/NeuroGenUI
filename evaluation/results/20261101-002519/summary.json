@@ -1,0 +1,1753 @@
+{
+  "generated_at": "2026-11-01T01:35:57",
+  "config": {
+    "models": {
+      "OPENAI_TEXT_MODEL": "gpt-4.1-mini",
+      "OPENAI_VISION_MODEL": "gpt-4.1-mini",
+      "OPENAI_STT_MODEL": "whisper-1",
+      "OPENAI_TTS_MODEL": "tts-1"
+    },
+    "counts": {
+      "sketches": 40,
+      "commands": 80,
+      "categories": 10,
+      "gt_components": 490
+    },
+    "run": {
+      "started": "2026-11-01T01:15:43",
+      "duration_s": 1211.3,
+      "phase_a_s": 0.7,
+      "api_calls_made_this_invocation": {},
+      "cache_hits": 600,
+      "cache_misses": 0,
+      "args": {
+        "limit": null,
+        "only": null,
+        "only_commands": null,
+        "skip_baseline": false,
+        "skip_pipeline": false,
+        "skip_commands": false,
+        "skip_faults": false,
+        "keyfree": false,
+        "modes": [
+          "cv",
+          "vision",
+          "hybrid"
+        ],
+        "workers": 4,
+        "run_dir": "results/20261101-002519",
+        "retry_errors": false,
+        "no_latest": false
+      },
+      "n_sketches": 40,
+      "n_commands": 80,
+      "api_calls_total_in_raw": {
+        "analyze_vision": 40,
+        "analyze_hybrid": 40,
+        "interpret_instruction": 40,
+        "baseline_generate": 40,
+        "transcribe": 80,
+        "interpret_cmd_text": 80,
+        "interpret_cmd_asr": 80,
+        "baseline_modify": 80
+      }
+    }
+  },
+  "metrics": {
+    "component_detection_f1": {
+      "pipeline": 42.9,
+      "baseline": 25.6,
+      "unit": "%",
+      "description": "Detection F1 (IoU\u22650.3 + type). Proposed = hybrid sketch analysis; baseline = components recovered from its rendered DOM (it has no analysis stage).",
+      "cv": 37.0,
+      "vision": 8.8
+    },
+    "component_detection_f1_dom": {
+      "pipeline": 16.5,
+      "baseline": 25.6,
+      "unit": "%",
+      "description": "Detection F1 measured identically on both systems' rendered DOM (validate.extract_dom)."
+    },
+    "whisper_wer": {
+      "pipeline": 4.0,
+      "baseline": null,
+      "unit": "%",
+      "description": "Corpus word error rate of Whisper on the TTS audio of the 80 commands (lower is better).",
+      "mean_per_command": 4.1,
+      "exact_transcripts": 85.0
+    },
+    "voice_command_accuracy": {
+      "pipeline": 95.0,
+      "baseline": null,
+      "unit": "%",
+      "description": "Commands fully interpreted (op + target + params) from the Whisper transcript of real TTS audio.",
+      "from_text": 96.2
+    },
+    "visual_similarity_layout_iou": {
+      "pipeline": 20.5,
+      "baseline": 28.3,
+      "unit": "IoU\u00d7100",
+      "description": "Mean IoU between GT sketch boxes and Hungarian-assigned rendered elements (content-box normalised)."
+    },
+    "visual_similarity_edge_ssim": {
+      "pipeline": 51.6,
+      "baseline": 50.9,
+      "unit": "SSIM\u00d7100",
+      "description": "SSIM between edge maps of the sketch and of the rendered screenshot."
+    },
+    "functional_correctness": {
+      "pipeline": 91.4,
+      "baseline": 86.2,
+      "unit": "%",
+      "description": "Specified interactions (labels.interactions) that work when simulated in the browser."
+    },
+    "requirement_satisfaction": {
+      "pipeline": 86.0,
+      "baseline": 86.0,
+      "unit": "%",
+      "description": "Instruction-derived requirements (named components, input types, images, behaviours) satisfied."
+    },
+    "refinement_success_rate": {
+      "pipeline": 81.2,
+      "baseline": 90.0,
+      "unit": "%",
+      "description": "Commands whose machine-checkable post-condition holds after applying them to the generated UI.",
+      "pipeline_from_whisper": 83.8
+    },
+    "preservation_rate": {
+      "pipeline": 97.7,
+      "baseline": 98.2,
+      "unit": "%",
+      "description": "Mean share of unaffected components left unchanged by a refinement command."
+    },
+    "validation_pass_rate_before_repair": {
+      "pipeline": 42.5,
+      "baseline": null,
+      "unit": "%",
+      "description": "Generated UIs passing validate() before repair."
+    },
+    "validation_pass_rate_after_repair": {
+      "pipeline": 42.5,
+      "baseline": null,
+      "unit": "%",
+      "description": "Generated UIs passing validate() after repair_loop."
+    },
+    "fault_detection_rate": {
+      "pipeline": 83.6,
+      "baseline": null,
+      "unit": "%",
+      "description": "Injected faults detected by validate() (new failing check)."
+    },
+    "fault_repair_rate": {
+      "pipeline": 60.7,
+      "baseline": null,
+      "unit": "%",
+      "description": "Injected IR faults fully repaired by repair_loop."
+    },
+    "generation_time_ms": {
+      "pipeline": 21877.11,
+      "baseline": 23967.61,
+      "unit": "ms",
+      "description": "Mean end-to-end generation latency (pipeline: analyze + interpret + fuse + codegen).",
+      "pipeline_median": 16036.75,
+      "pipeline_p95": 57482.31499999998,
+      "baseline_median": 16976.2,
+      "baseline_p95": 65239.84999999998,
+      "pipeline_with_validation_mean": 23281.9875
+    },
+    "modification_time_ms": {
+      "pipeline": 2673.5462500000003,
+      "baseline": 15360.353749999998,
+      "unit": "ms",
+      "description": "Mean latency of one voice refinement command.",
+      "pipeline_median": 2096.2,
+      "baseline_median": 13883.45
+    },
+    "code_parse_rate": {
+      "pipeline": 100.0,
+      "baseline": 100.0,
+      "unit": "%",
+      "description": "Generated code that parses."
+    },
+    "code_eslint_messages": {
+      "pipeline": 0.075,
+      "baseline": 0.025,
+      "unit": "count/UI",
+      "description": "Mean ESLint messages per generated UI (lower is better)."
+    },
+    "code_reuse_ratio": {
+      "pipeline": 2.0217,
+      "baseline": 1.014575,
+      "unit": "usages/definition",
+      "description": "Component reuse: JSX usages of defined components per definition (higher = more reuse)."
+    },
+    "code_max_function_lines": {
+      "pipeline": 57.275,
+      "baseline": 206.05,
+      "unit": "lines",
+      "description": "Mean length of the longest function per UI (lower = more modular)."
+    }
+  },
+  "tables": [
+    {
+      "title": "Headline results: proposed pipeline vs baseline",
+      "columns": [
+        "Metric",
+        "Proposed",
+        "Baseline",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "component_detection_f1",
+          "42.9",
+          "25.6",
+          "%"
+        ],
+        [
+          "component_detection_f1_dom",
+          "16.5",
+          "25.6",
+          "%"
+        ],
+        [
+          "whisper_wer",
+          "4.0",
+          "\u2013",
+          "%"
+        ],
+        [
+          "voice_command_accuracy",
+          "95.0",
+          "\u2013",
+          "%"
+        ],
+        [
+          "visual_similarity_layout_iou",
+          "20.5",
+          "28.3",
+          "IoU\u00d7100"
+        ],
+        [
+          "visual_similarity_edge_ssim",
+          "51.6",
+          "50.9",
+          "SSIM\u00d7100"
+        ],
+        [
+          "functional_correctness",
+          "91.4",
+          "86.2",
+          "%"
+        ],
+        [
+          "requirement_satisfaction",
+          "86.0",
+          "86.0",
+          "%"
+        ],
+        [
+          "refinement_success_rate",
+          "81.2",
+          "90.0",
+          "%"
+        ],
+        [
+          "preservation_rate",
+          "97.7",
+          "98.2",
+          "%"
+        ],
+        [
+          "validation_pass_rate_before_repair",
+          "42.5",
+          "\u2013",
+          "%"
+        ],
+        [
+          "validation_pass_rate_after_repair",
+          "42.5",
+          "\u2013",
+          "%"
+        ],
+        [
+          "fault_detection_rate",
+          "83.6",
+          "\u2013",
+          "%"
+        ],
+        [
+          "fault_repair_rate",
+          "60.7",
+          "\u2013",
+          "%"
+        ],
+        [
+          "generation_time_ms",
+          "21877",
+          "23968",
+          "ms"
+        ],
+        [
+          "modification_time_ms",
+          "2674",
+          "15360",
+          "ms"
+        ],
+        [
+          "code_parse_rate",
+          "100.0",
+          "100.0",
+          "%"
+        ],
+        [
+          "code_eslint_messages",
+          "0.1",
+          "0.0",
+          "count/UI"
+        ],
+        [
+          "code_reuse_ratio",
+          "2.02",
+          "1.01",
+          "usages/definition"
+        ],
+        [
+          "code_max_function_lines",
+          "57.3",
+          "206.1",
+          "lines"
+        ]
+      ]
+    },
+    {
+      "title": "Component detection (micro-averaged over sketches; match = Hungarian, IoU \u2265 0.3, correct type)",
+      "columns": [
+        "Detector / output",
+        "Sketches",
+        "Precision %",
+        "Recall %",
+        "F1 %",
+        "F1 lenient %",
+        "Type acc. of matched %",
+        "Mean IoU of matched",
+        "Label acc. %"
+      ],
+      "rows": [
+        [
+          "analysis: OpenCV only",
+          40,
+          33.1,
+          42.0,
+          37.0,
+          38.6,
+          50.1,
+          "0.721",
+          0.0
+        ],
+        [
+          "analysis: Vision LLM only",
+          40,
+          8.6,
+          9.0,
+          8.8,
+          11.8,
+          40.2,
+          "0.434",
+          35.0
+        ],
+        [
+          "analysis: Hybrid (CV + vision)",
+          40,
+          37.0,
+          51.0,
+          42.9,
+          46.2,
+          61.7,
+          "0.720",
+          88.8
+        ],
+        [
+          "rendered DOM: Proposed (NeuroGenUI)",
+          40,
+          14.6,
+          19.0,
+          16.5,
+          null,
+          77.1,
+          "0.507",
+          null
+        ],
+        [
+          "rendered DOM: Baseline (sketch\u2192AI\u2192UI)",
+          40,
+          25.9,
+          25.3,
+          25.6,
+          null,
+          74.1,
+          "0.580",
+          null
+        ],
+        [
+          "rendered DOM: Oracle (GT IR)",
+          40,
+          38.5,
+          33.7,
+          35.9,
+          null,
+          89.5,
+          "0.557",
+          null
+        ]
+      ],
+      "note": "Lenient = nav_item\u2248link, container\u2248card\u2248form, input\u2248textarea. DOM rows use validate.extract_dom on the rendered UI with both sides normalised to their content box."
+    },
+    {
+      "title": "Detection F1 % per category",
+      "columns": [
+        "Category",
+        "CV",
+        "Vision",
+        "Hybrid",
+        "Baseline (DOM)",
+        "Proposed (DOM)"
+      ],
+      "rows": [
+        [
+          "login",
+          41.1,
+          15.6,
+          61.3,
+          43.1,
+          21.1
+        ],
+        [
+          "registration",
+          44.9,
+          23.0,
+          51.5,
+          60.8,
+          20.2
+        ],
+        [
+          "dashboard",
+          17.1,
+          6.6,
+          24.7,
+          10.4,
+          5.6
+        ],
+        [
+          "profile",
+          55.9,
+          7.2,
+          58.0,
+          29.2,
+          16.3
+        ],
+        [
+          "ecommerce",
+          56.5,
+          6.6,
+          59.7,
+          26.5,
+          12.6
+        ],
+        [
+          "banking",
+          44.7,
+          6.2,
+          54.7,
+          8.0,
+          15.4
+        ],
+        [
+          "booking",
+          33.6,
+          2.0,
+          34.4,
+          35.1,
+          26.3
+        ],
+        [
+          "contact",
+          28.8,
+          8.1,
+          39.7,
+          28.0,
+          15.9
+        ],
+        [
+          "settings",
+          25.5,
+          8.7,
+          28.3,
+          16.7,
+          24.4
+        ],
+        [
+          "landing",
+          33.8,
+          8.7,
+          33.3,
+          16.4,
+          15.2
+        ]
+      ]
+    },
+    {
+      "title": "Per-type detection recall % (GT component found with IoU \u2265 0.3 and the right type)",
+      "columns": [
+        "Type",
+        "GT count",
+        "CV",
+        "Vision",
+        "Hybrid"
+      ],
+      "rows": [
+        [
+          "heading",
+          92,
+          21.7,
+          3.3,
+          33.7
+        ],
+        [
+          "text",
+          61,
+          72.1,
+          1.6,
+          75.4
+        ],
+        [
+          "button",
+          61,
+          82.0,
+          3.3,
+          88.5
+        ],
+        [
+          "input",
+          57,
+          57.9,
+          28.1,
+          73.7
+        ],
+        [
+          "nav_item",
+          42,
+          0.0,
+          0.0,
+          2.4
+        ],
+        [
+          "card",
+          37,
+          54.1,
+          21.6,
+          56.8
+        ],
+        [
+          "image",
+          33,
+          63.6,
+          27.3,
+          66.7
+        ],
+        [
+          "radio",
+          15,
+          6.7,
+          0.0,
+          6.7
+        ],
+        [
+          "checkbox",
+          15,
+          0.0,
+          0.0,
+          20.0
+        ],
+        [
+          "select",
+          14,
+          0.0,
+          14.3,
+          28.6
+        ],
+        [
+          "icon",
+          14,
+          0.0,
+          0.0,
+          35.7
+        ],
+        [
+          "navbar",
+          14,
+          71.4,
+          0.0,
+          71.4
+        ],
+        [
+          "link",
+          9,
+          0.0,
+          11.1,
+          22.2
+        ],
+        [
+          "divider",
+          7,
+          100.0,
+          0.0,
+          85.7
+        ],
+        [
+          "list",
+          7,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          "header",
+          6,
+          0.0,
+          16.7,
+          0.0
+        ],
+        [
+          "textarea",
+          5,
+          0.0,
+          20.0,
+          40.0
+        ],
+        [
+          "form",
+          1,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "title": "Voice command interpretation accuracy % (intent.parse_commands on the base IR)",
+      "columns": [
+        "Input",
+        "Commands",
+        "Op type",
+        "Target",
+        "Parameters",
+        "All correct"
+      ],
+      "rows": [
+        [
+          "Ground-truth text",
+          80,
+          98.8,
+          98.7,
+          98.6,
+          96.2
+        ],
+        [
+          "Whisper transcript",
+          80,
+          97.5,
+          98.7,
+          98.6,
+          95.0
+        ]
+      ],
+      "note": "Whisper corpus WER 4.0% ; target n/a for create, params n/a for remove."
+    },
+    {
+      "title": "Voice results per command category",
+      "columns": [
+        "Category",
+        "n",
+        "Mean WER %",
+        "All-correct (text) %",
+        "All-correct (Whisper) %"
+      ],
+      "rows": [
+        [
+          "add",
+          10,
+          0.0,
+          100.0,
+          100.0
+        ],
+        [
+          "remove",
+          10,
+          2.9,
+          100.0,
+          100.0
+        ],
+        [
+          "modify",
+          10,
+          6.2,
+          90.0,
+          90.0
+        ],
+        [
+          "move",
+          10,
+          6.5,
+          100.0,
+          100.0
+        ],
+        [
+          "resize",
+          10,
+          10.2,
+          80.0,
+          80.0
+        ],
+        [
+          "style",
+          10,
+          0.0,
+          100.0,
+          100.0
+        ],
+        [
+          "interaction",
+          10,
+          0.0,
+          100.0,
+          100.0
+        ],
+        [
+          "navigation",
+          10,
+          6.9,
+          100.0,
+          90.0
+        ]
+      ]
+    },
+    {
+      "title": "Whisper WER by TTS voice",
+      "columns": [
+        "TTS voice",
+        "Commands",
+        "Corpus WER %"
+      ],
+      "rows": [
+        [
+          "alloy",
+          14,
+          3.4
+        ],
+        [
+          "echo",
+          14,
+          6.8
+        ],
+        [
+          "fable",
+          13,
+          0.0
+        ],
+        [
+          "nova",
+          13,
+          7.6
+        ],
+        [
+          "onyx",
+          13,
+          1.9
+        ],
+        [
+          "shimmer",
+          13,
+          4.7
+        ]
+      ]
+    },
+    {
+      "title": "Generated UI quality: visual similarity, functional correctness, requirement satisfaction",
+      "columns": [
+        "System",
+        "Sketches",
+        "Renders %",
+        "Layout IoU",
+        "Edge SSIM",
+        "Functional % (n)",
+        "Requirements % (n)"
+      ],
+      "rows": [
+        [
+          "Proposed (NeuroGenUI)",
+          40,
+          100.0,
+          "0.205",
+          "0.516",
+          "91.4 (58)",
+          "86.0 (407)"
+        ],
+        [
+          "Proposed, before repair",
+          40,
+          100.0,
+          "0.205",
+          "0.516",
+          "91.4 (58)",
+          "86.0 (407)"
+        ],
+        [
+          "Baseline (sketch\u2192AI\u2192UI)",
+          40,
+          100.0,
+          "0.283",
+          "0.509",
+          "86.2 (58)",
+          "86.0 (407)"
+        ],
+        [
+          "Oracle (GT IR)",
+          40,
+          100.0,
+          "0.277",
+          "0.558",
+          "6.9 (58)",
+          "85.3 (407)"
+        ]
+      ],
+      "note": "Same generic DOM procedure for every system. Oracle = deterministic compiler on GT layout with no voice semantics (no events), so its functional score is a floor, not a ceiling."
+    },
+    {
+      "title": "Requirement satisfaction % by requirement kind",
+      "columns": [
+        "Kind",
+        "Proposed (NeuroGenUI)",
+        "Baseline (sketch\u2192AI\u2192UI)",
+        "Oracle (GT IR)"
+      ],
+      "rows": [
+        [
+          "node_exists",
+          83.4,
+          84.4,
+          100.0
+        ],
+        [
+          "input_type",
+          97.1,
+          97.1,
+          82.4
+        ],
+        [
+          "count_at_least",
+          90.0,
+          90.0,
+          100.0
+        ],
+        [
+          "interaction",
+          91.4,
+          86.2,
+          6.9
+        ]
+      ]
+    },
+    {
+      "title": "Functional correctness % by interaction type",
+      "columns": [
+        "Interaction",
+        "n",
+        "Proposed (NeuroGenUI)",
+        "Baseline (sketch\u2192AI\u2192UI)",
+        "Oracle (GT IR)"
+      ],
+      "rows": [
+        [
+          "navigate",
+          25,
+          88.0,
+          72.0,
+          0.0
+        ],
+        [
+          "show_message",
+          13,
+          92.3,
+          92.3,
+          0.0
+        ],
+        [
+          "validate_format",
+          4,
+          100.0,
+          100.0,
+          100.0
+        ],
+        [
+          "validate_required",
+          16,
+          93.8,
+          100.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "title": "Refinement success % and preservation % per command category",
+      "columns": [
+        "Category",
+        "Success: Proposed (NeuroGenUI)",
+        "Success: Proposed, Whisper transcript",
+        "Success: Baseline (sketch\u2192AI\u2192UI)",
+        "Preserved: Proposed (NeuroGenUI)",
+        "Preserved: Proposed, Whisper transcript",
+        "Preserved: Baseline (sketch\u2192AI\u2192UI)"
+      ],
+      "rows": [
+        [
+          "add",
+          100.0,
+          100.0,
+          80.0,
+          100.0,
+          100.0,
+          96.3
+        ],
+        [
+          "remove",
+          100.0,
+          100.0,
+          100.0,
+          91.9,
+          91.9,
+          98.9
+        ],
+        [
+          "modify",
+          80.0,
+          80.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        [
+          "move",
+          80.0,
+          80.0,
+          100.0,
+          90.2,
+          90.2,
+          94.1
+        ],
+        [
+          "resize",
+          60.0,
+          60.0,
+          70.0,
+          100.0,
+          99.0,
+          99.2
+        ],
+        [
+          "style",
+          100.0,
+          100.0,
+          90.0,
+          100.0,
+          100.0,
+          97.1
+        ],
+        [
+          "interaction",
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        [
+          "navigation",
+          30.0,
+          50.0,
+          80.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        [
+          "all",
+          81.2,
+          83.8,
+          90.0,
+          97.7,
+          97.6,
+          98.2
+        ]
+      ],
+      "note": "Success = the command's post-condition holds on the rendered UI after the command. Preservation = non-target elements with unchanged type, text, colours, font size and size (\u00b115%)."
+    },
+    {
+      "title": "Commands whose post-condition already held on the base UI (before the command)",
+      "columns": [
+        "System",
+        "Checkable commands",
+        "Already satisfied",
+        "Of which counted as success"
+      ],
+      "rows": [
+        [
+          "Proposed (NeuroGenUI)",
+          49,
+          2,
+          2
+        ],
+        [
+          "Proposed, Whisper transcript",
+          49,
+          2,
+          2
+        ],
+        [
+          "Baseline (sketch\u2192AI\u2192UI)",
+          49,
+          1,
+          1
+        ]
+      ],
+      "note": "Reported for transparency; event/navigation/resize checks are excluded (they need the after-UI). style checks additionally require the colour to have changed."
+    },
+    {
+      "title": "Validation before vs after the repair loop (proposed pipeline)",
+      "columns": [
+        "",
+        "Pass rate %",
+        "Mean score",
+        "Mean failing checks"
+      ],
+      "rows": [
+        [
+          "Before repair",
+          42.5,
+          "0.889",
+          "10.90"
+        ],
+        [
+          "After repair",
+          42.5,
+          "0.889",
+          "10.90"
+        ]
+      ]
+    },
+    {
+      "title": "Repair actions applied during generation (by type)",
+      "columns": [
+        "Action",
+        "Count"
+      ],
+      "rows": [
+        [
+          "reset_style",
+          40
+        ],
+        [
+          "rebuild_handler",
+          3
+        ]
+      ]
+    },
+    {
+      "title": "Fault injection: validator detection and repair-loop recovery",
+      "columns": [
+        "IR source",
+        "Fault",
+        "Cases",
+        "Detected %",
+        "Localised %",
+        "Repaired %"
+      ],
+      "rows": [
+        [
+          "oracle",
+          "delete_node",
+          40,
+          95.0,
+          95.0,
+          82.5
+        ],
+        [
+          "oracle",
+          "hide_node",
+          40,
+          37.5,
+          0.0,
+          0.0
+        ],
+        [
+          "oracle",
+          "zero_size",
+          40,
+          85.0,
+          85.0,
+          72.5
+        ],
+        [
+          "oracle",
+          "swap_order",
+          38,
+          100.0,
+          36.8,
+          92.1
+        ],
+        [
+          "oracle",
+          "code_error",
+          40,
+          100.0,
+          100.0,
+          null
+        ],
+        [
+          "oracle",
+          "all",
+          198,
+          83.3,
+          63.6,
+          61.4
+        ],
+        [
+          "pipeline",
+          "delete_node",
+          40,
+          90.0,
+          65.0,
+          37.5
+        ],
+        [
+          "pipeline",
+          "hide_node",
+          40,
+          35.0,
+          12.5,
+          0.0
+        ],
+        [
+          "pipeline",
+          "zero_size",
+          40,
+          82.5,
+          80.0,
+          77.5
+        ],
+        [
+          "pipeline",
+          "swap_order",
+          38,
+          100.0,
+          21.1,
+          89.5
+        ],
+        [
+          "pipeline",
+          "break_event",
+          38,
+          97.4,
+          97.4,
+          100.0
+        ],
+        [
+          "pipeline",
+          "code_error",
+          40,
+          100.0,
+          100.0,
+          null
+        ],
+        [
+          "pipeline",
+          "all",
+          236,
+          83.9,
+          62.7,
+          60.2
+        ]
+      ],
+      "note": "One fault per case. Detected = a new failing check vs the clean UI; localised = it targets the faulted node; repaired = no new failing check after repair_loop and the fault undone. code_error is detection-only (repair recompiles from the IR)."
+    },
+    {
+      "title": "Latency (ms) per stage and end to end",
+      "columns": [
+        "System",
+        "Stage",
+        "n",
+        "Mean",
+        "Median",
+        "p95"
+      ],
+      "rows": [
+        [
+          "pipeline",
+          "analyze_sketch",
+          40,
+          "14375",
+          "9013",
+          "36104"
+        ],
+        [
+          "pipeline",
+          "interpret",
+          40,
+          "7496",
+          "5651",
+          "10341"
+        ],
+        [
+          "pipeline",
+          "fuse",
+          40,
+          "5",
+          "4",
+          "10"
+        ],
+        [
+          "pipeline",
+          "codegen",
+          40,
+          "1",
+          "1",
+          "2"
+        ],
+        [
+          "pipeline",
+          "total_generate",
+          40,
+          "21877",
+          "16037",
+          "57482"
+        ],
+        [
+          "pipeline",
+          "validate",
+          40,
+          "553",
+          "542",
+          "777"
+        ],
+        [
+          "pipeline",
+          "repair",
+          40,
+          "852",
+          "783",
+          "1418"
+        ],
+        [
+          "pipeline",
+          "total_with_validation",
+          40,
+          "23282",
+          "17407",
+          "58394"
+        ],
+        [
+          "baseline",
+          "total_generate",
+          40,
+          "23968",
+          "16976",
+          "65240"
+        ],
+        [
+          "analyze_cv",
+          "analyze_cv",
+          40,
+          "67",
+          "59",
+          "123"
+        ],
+        [
+          "analyze_vision",
+          "analyze_vision",
+          40,
+          "8884",
+          "7463",
+          "16306"
+        ],
+        [
+          "analyze_hybrid",
+          "analyze_hybrid",
+          40,
+          "14375",
+          "9013",
+          "36104"
+        ],
+        [
+          "pipeline",
+          "modify_total",
+          80,
+          "2674",
+          "2096",
+          "5868"
+        ],
+        [
+          "pipeline_voice",
+          "modify_total",
+          80,
+          "2898",
+          "2381",
+          "6124"
+        ],
+        [
+          "baseline",
+          "modify_total",
+          80,
+          "15360",
+          "13883",
+          "23314"
+        ]
+      ],
+      "note": "Wall-clock times measured around each call in-process; API calls ran with bounded concurrency (same for both systems). modify_total for the pipeline = interpret + apply_ops + codegen."
+    },
+    {
+      "title": "Code quality of generated React (static analysis, mean per UI)",
+      "columns": [
+        "Code",
+        "UIs",
+        "Parses %",
+        "LOC",
+        "Components",
+        "Reuse ratio",
+        "Max function lines",
+        "ESLint msgs",
+        "Files"
+      ],
+      "rows": [
+        [
+          "Proposed (NeuroGenUI) [project]",
+          40,
+          100.0,
+          "360.6",
+          "14.5",
+          "2.02",
+          "57.3",
+          "0.0",
+          "18.5"
+        ],
+        [
+          "Proposed (NeuroGenUI) [preview]",
+          40,
+          100.0,
+          "327.4",
+          "14.5",
+          "2.02",
+          "57.3",
+          "0.1",
+          "1.0"
+        ],
+        [
+          "Baseline (sketch\u2192AI\u2192UI) [preview]",
+          40,
+          100.0,
+          "246.3",
+          "1.4",
+          "1.01",
+          "206.1",
+          "0.0",
+          "1.0"
+        ],
+        [
+          "Oracle (GT IR) [preview]",
+          40,
+          100.0,
+          "254.1",
+          "11.4",
+          "1.56",
+          "41.4",
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "note": "Parsed with @babel/parser (JSX); ESLint 9 recommended + react + react-hooks (prop-types/react-in-jsx-scope off for both). Reuse ratio = JSX usages of user-defined components / their definitions. [preview] = single-script runtime form used by both systems."
+    }
+  ],
+  "charts": [
+    {
+      "title": "Detection F1 by category",
+      "type": "bar",
+      "x": [
+        "login",
+        "registration",
+        "dashboard",
+        "profile",
+        "ecommerce",
+        "banking",
+        "booking",
+        "contact",
+        "settings",
+        "landing"
+      ],
+      "series": [
+        "cv",
+        "vision",
+        "hybrid"
+      ],
+      "data": {
+        "cv": {
+          "login": 41.1,
+          "registration": 44.9,
+          "dashboard": 17.1,
+          "profile": 55.9,
+          "ecommerce": 56.5,
+          "banking": 44.7,
+          "booking": 33.6,
+          "contact": 28.8,
+          "settings": 25.5,
+          "landing": 33.8
+        },
+        "vision": {
+          "login": 15.6,
+          "registration": 23.0,
+          "dashboard": 6.6,
+          "profile": 7.2,
+          "ecommerce": 6.6,
+          "banking": 6.2,
+          "booking": 2.0,
+          "contact": 8.1,
+          "settings": 8.7,
+          "landing": 8.7
+        },
+        "hybrid": {
+          "login": 61.3,
+          "registration": 51.5,
+          "dashboard": 24.7,
+          "profile": 58.0,
+          "ecommerce": 59.7,
+          "banking": 54.7,
+          "booking": 34.4,
+          "contact": 39.7,
+          "settings": 28.3,
+          "landing": 33.3
+        }
+      }
+    },
+    {
+      "title": "Sketch analysis P/R/F1 by mode",
+      "type": "bar",
+      "x": [
+        "Precision",
+        "Recall",
+        "F1"
+      ],
+      "series": [
+        "cv",
+        "vision",
+        "hybrid"
+      ],
+      "data": {
+        "cv": {
+          "Precision": 33.1,
+          "Recall": 42.0,
+          "F1": 37.0
+        },
+        "vision": {
+          "Precision": 8.6,
+          "Recall": 9.0,
+          "F1": 8.8
+        },
+        "hybrid": {
+          "Precision": 37.0,
+          "Recall": 51.0,
+          "F1": 42.9
+        }
+      }
+    },
+    {
+      "title": "Interpretation accuracy",
+      "type": "bar",
+      "x": [
+        "Op",
+        "Target",
+        "Params",
+        "All"
+      ],
+      "series": [
+        "text",
+        "asr"
+      ],
+      "data": {
+        "text": {
+          "Op": 98.8,
+          "Target": 98.7,
+          "Params": 98.6,
+          "All": 96.2
+        },
+        "asr": {
+          "Op": 97.5,
+          "Target": 98.7,
+          "Params": 98.6,
+          "All": 95.0
+        }
+      }
+    },
+    {
+      "title": "Generated UI quality",
+      "type": "bar",
+      "x": [
+        "Layout IoU\u00d7100",
+        "Edge SSIM\u00d7100",
+        "Functional",
+        "Requirements"
+      ],
+      "series": [
+        "pipeline",
+        "baseline",
+        "oracle"
+      ],
+      "data": {
+        "pipeline": {
+          "Renders": 100.0,
+          "Layout IoU\u00d7100": 20.5,
+          "Edge SSIM\u00d7100": 51.6,
+          "Functional": 91.4,
+          "Requirements": 86.0
+        },
+        "pipeline_norepair": {
+          "Renders": 100.0,
+          "Layout IoU\u00d7100": 20.5,
+          "Edge SSIM\u00d7100": 51.6,
+          "Functional": 91.4,
+          "Requirements": 86.0
+        },
+        "baseline": {
+          "Renders": 100.0,
+          "Layout IoU\u00d7100": 28.3,
+          "Edge SSIM\u00d7100": 50.9,
+          "Functional": 86.2,
+          "Requirements": 86.0
+        },
+        "oracle": {
+          "Renders": 100.0,
+          "Layout IoU\u00d7100": 27.7,
+          "Edge SSIM\u00d7100": 55.8,
+          "Functional": 6.9,
+          "Requirements": 85.3
+        }
+      }
+    },
+    {
+      "title": "Refinement success by category",
+      "type": "bar",
+      "x": [
+        "add",
+        "remove",
+        "modify",
+        "move",
+        "resize",
+        "style",
+        "interaction",
+        "navigation"
+      ],
+      "series": [
+        "pipeline",
+        "pipeline_voice",
+        "baseline"
+      ],
+      "data": {
+        "pipeline": {
+          "add": 100.0,
+          "remove": 100.0,
+          "modify": 80.0,
+          "move": 80.0,
+          "resize": 60.0,
+          "style": 100.0,
+          "interaction": 100.0,
+          "navigation": 30.0
+        },
+        "pipeline_voice": {
+          "add": 100.0,
+          "remove": 100.0,
+          "modify": 80.0,
+          "move": 80.0,
+          "resize": 60.0,
+          "style": 100.0,
+          "interaction": 100.0,
+          "navigation": 50.0
+        },
+        "baseline": {
+          "add": 80.0,
+          "remove": 100.0,
+          "modify": 100.0,
+          "move": 100.0,
+          "resize": 70.0,
+          "style": 90.0,
+          "interaction": 100.0,
+          "navigation": 80.0
+        }
+      }
+    },
+    {
+      "title": "Refinement overall",
+      "type": "bar",
+      "x": [
+        "Success",
+        "Preservation"
+      ],
+      "series": [
+        "pipeline",
+        "pipeline_voice",
+        "baseline"
+      ],
+      "data": {
+        "pipeline": {
+          "Success": 81.2,
+          "Preservation": 97.7
+        },
+        "pipeline_voice": {
+          "Success": 83.8,
+          "Preservation": 97.6
+        },
+        "baseline": {
+          "Success": 90.0,
+          "Preservation": 98.2
+        }
+      }
+    },
+    {
+      "title": "Validation pass rate",
+      "type": "bar",
+      "x": [
+        "Before repair",
+        "After repair"
+      ],
+      "series": [
+        "pipeline"
+      ],
+      "data": {
+        "pipeline": {
+          "Before repair": 42.5,
+          "After repair": 42.5
+        }
+      }
+    },
+    {
+      "title": "Fault injection",
+      "type": "bar",
+      "x": [
+        "delete_node",
+        "hide_node",
+        "zero_size",
+        "swap_order",
+        "break_event",
+        "code_error"
+      ],
+      "series": [
+        "detected",
+        "localised",
+        "repaired"
+      ],
+      "data": {
+        "detected": {
+          "delete_node": 92.5,
+          "hide_node": 36.2,
+          "zero_size": 83.8,
+          "swap_order": 100.0,
+          "break_event": 97.4,
+          "code_error": 100.0
+        },
+        "localised": {
+          "delete_node": 80.0,
+          "hide_node": 6.2,
+          "zero_size": 82.5,
+          "swap_order": 28.9,
+          "break_event": 97.4,
+          "code_error": 100.0
+        },
+        "repaired": {
+          "delete_node": 60.0,
+          "hide_node": 0.0,
+          "zero_size": 75.0,
+          "swap_order": 90.8,
+          "break_event": 100.0,
+          "code_error": null
+        }
+      }
+    },
+    {
+      "title": "Generation latency by stage (ms)",
+      "type": "stacked",
+      "x": [
+        "analyze_sketch",
+        "interpret",
+        "fuse",
+        "codegen",
+        "validate",
+        "repair"
+      ],
+      "series": [
+        "pipeline"
+      ],
+      "data": {
+        "pipeline": {
+          "analyze_sketch": 14374.642499999998,
+          "interpret": 7496.4625,
+          "fuse": 4.655,
+          "codegen": 1.35,
+          "validate": 552.775,
+          "repair": 852.1025
+        },
+        "baseline_total": 23967.61
+      }
+    },
+    {
+      "title": "Code quality",
+      "type": "bar",
+      "x": [
+        "ESLint msgs",
+        "Max fn lines",
+        "Reuse ratio"
+      ],
+      "series": [
+        "pipeline",
+        "baseline",
+        "oracle"
+      ],
+      "data": {
+        "pipeline": {
+          "ESLint msgs": 0.075,
+          "Max fn lines": 57.275,
+          "Reuse ratio": 2.0217
+        },
+        "baseline": {
+          "ESLint msgs": 0.025,
+          "Max fn lines": 206.05,
+          "Reuse ratio": 1.014575
+        },
+        "oracle": {
+          "ESLint msgs": 1.0,
+          "Max fn lines": 41.4,
+          "Reuse ratio": 1.55835
+        }
+      }
+    }
+  ],
+  "plots": [
+    "/files/eval/plots/detection_f1_by_category.png",
+    "/files/eval/plots/detection_prf_by_mode.png",
+    "/files/eval/plots/voice_interpretation.png",
+    "/files/eval/plots/generation_quality.png",
+    "/files/eval/plots/refinement_by_category.png",
+    "/files/eval/plots/refinement_overall.png",
+    "/files/eval/plots/validation_before_after.png",
+    "/files/eval/plots/fault_injection.png",
+    "/files/eval/plots/latency_stages.png",
+    "/files/eval/plots/code_quality.png"
+  ]
+}

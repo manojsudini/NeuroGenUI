@@ -1,0 +1,28 @@
+{
+ "_ok": true,
+ "_wall_ms": 2011.4,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Cancel",
+     "id": "btn_cancel"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "home"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2010,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"Cancel\",\"id\":\"btn_cancel\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"home\"}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,29 @@
+\section{Discussion}
+\subsection{Development Iteration}
+\label{sec:dev}
+The first full evaluation (Run~1) was run on the first complete version of the system and exposed real defects, which we then fixed and re-evaluated on the same test set (Table~\ref{tab:dev}). In Run~1 only 42.5\% of generated UIs passed validation; none of the 43 repair actions applied during generation fixed anything; navigation commands succeeded for 3 of 10 cases; the compiler stacked all components in one column, so rendered-DOM detection F1 was \DevComponentDetectionFODomPipeline{}\% and layout IoU \DevVisualSimilarityLayoutIouPipeline{}\%, below the baseline on both. The causes were respectively empty or placeholder-less components that rendered invisibly, a repair step that reset styles instead of fixing the cause, a navigation target the refinement step failed to read from the operation, and a compiler that ignored the sketch geometry already stored in the IR. We fixed these with general changes (placeholder content in fusion, targeted repair actions, geometry-aware layout, global fusion matching) rather than changes specific to individual sketches.
+
+Because the fixes were guided by the same test set, the final numbers are \emph{development-set} results: the improvement from Run~1 to the final run demonstrates that the evaluation exposes real defects, but it overstates what we should expect on unseen sketches. A held-out set drawn by different people would be required for an unbiased estimate.
+
+\input{generated/dev.tex}
+
+\subsection{What the Results Support}
+The measurements support three claims. (i)~Combining OpenCV geometry with a vision model detects more components than either alone, and the structured pipeline recovers more of the sketched components in rendered UIs than a single-call baseline (F1 \ComponentDetectionFODomPipeline{}\% vs.\ \ComponentDetectionFODomBaseline{}\%). (ii)~Representing the UI explicitly makes refinement cheap and local: operations on the IR take about \ModificationTimeMsPipeline{}\,s, preserve \PreservationRatePipeline{}\% of unaffected components and are as successful as full regeneration (\RefinementSuccessRatePipeline{}\% vs.\ \RefinementSuccessRateBaseline{}\%, not separable on 80 commands). (iii)~Validation in a real browser detects most injected faults (\FaultDetectionRatePipeline{}\%) and repair restores about three quarters of them. The measurements do \emph{not} show that the pipeline produces visually closer UIs in an absolute sense (layout IoU 0.40 against a compiler ceiling of 0.59), that it satisfies requirements better (parity), or that the repair loop improves generation pass rates (it was not needed on this set).
+
+\subsection{Limitations}
+\label{sec:limits}
+\begin{itemize}
+\item \textbf{Synthetic data.} Sketches are procedurally rendered in a hand-drawn style and commands are synthesised speech; results on real drawings, varied handwriting and real voices (accents, noise) are expected to be lower.
+\item \textbf{Single run, small test set.} We report one run on \CountSketches{} sketches and \CountCommands{} commands without confidence intervals; model-API variation and heuristic DOM extraction add noise (re-measuring identical cached baseline code moved two baseline numbers by 0.1--0.2 points).
+\item \textbf{Tuned on the test set.} See Section~\ref{sec:dev}.
+\item \textbf{Heuristic measurement.} Components are recovered from the rendered DOM by tags, roles and visual cues. The procedure is identical for both systems, but it can miss or mis-type components for either.
+\item \textbf{One model family.} Perception and interpretation use one hosted model and one speech model; the baseline and the pipeline share it, but conclusions may differ for other models.
+\item \textbf{Deletion and hidden-node faults} are the weakest cases for detection and repair, and sketch detection still misses about 42\% of components (recall 58.2\% at the analysis stage).
+\item \textbf{Scope.} The system targets a controlled vocabulary of common components, single-user use, front-end-only behaviour (no backend generation) and English commands.
+\end{itemize}
+
+\subsection{Future Work}
+Collecting sketches from real users and recorded speech would give an unbiased evaluation. Learned detectors fine-tuned on UI datasets could replace the geometric proposals, and the intent model could be extended with clarification questions for ambiguous commands such as relative resizing. The compiler could target additional frameworks, and the validator could add accessibility and responsiveness checks. A user study of the studio, comparing time to a satisfactory UI against direct prompting, would measure what the latency and preservation advantages mean in practice.
+
+\section{Conclusion}
+We presented NeuroGenUI, a multimodal framework that turns a hand-drawn sketch and spoken instructions into an editable React interface through an explicit UI Intent Representation, refines it by voice with local operations, and validates and repairs it in a real browser. On \CountSketches{} synthetic sketches and \CountCommands{} spoken commands, the staged pipeline detected more of the sketched components in rendered UIs than a direct sketch$\rightarrow$AI$\rightarrow$UI baseline, satisfied more interactions, and applied refinements about seven times faster with higher preservation, while matching the baseline on requirement satisfaction and refinement success. An initial evaluation also exposed defects that were fixed and re-measured, which we report as a development iteration. The main open problems are detection recall on real hand drawings and robust recovery from deleted or hidden components. The code, dataset and evaluation scripts are provided so that every number in this paper can be reproduced.

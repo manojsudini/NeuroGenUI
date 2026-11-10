@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 1750.9,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "forgot password link",
+     "id": "lnk_forgot_password"
+    },
+    "page": {
+     "name": "Reset password"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1750,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"forgot password link\",\"id\":\"lnk_forgot_password\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Reset password\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

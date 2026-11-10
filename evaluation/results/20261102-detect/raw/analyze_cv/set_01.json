@@ -1,0 +1,154 @@
+{
+ "_ok": true,
+ "_wall_ms": 1231.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Settings",
+    "bbox": {
+     "x": 0.253,
+     "y": 0.1143,
+     "w": 0.142,
+     "h": 0.1018
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.2464,
+     "w": 0.122,
+     "h": 0.05
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Push notifications",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.3375,
+     "w": 0.222,
+     "h": 0.0571
+    },
+    "confidence": 0.823,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email updates",
+    "bbox": {
+     "x": 0.31,
+     "y": 0.4286,
+     "w": 0.131,
+     "h": 0.0571
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Darkmode",
+    "bbox": {
+     "x": 0.293,
+     "y": 0.5232,
+     "w": 0.119,
+     "h": 0.05
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.6055,
+     "w": 0.5195,
+     "h": 0.033
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Privacy pouicy.",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.6714,
+     "w": 0.138,
+     "h": 0.0643
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.7821,
+     "w": 0.505,
+     "h": 0.0857
+    },
+    "confidence": 0.896,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.47,
+     "y": 0.7893,
+     "w": 0.08,
+     "h": 0.0696
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 1211,
+   "vision_ms": 0,
+   "total_ms": 1231
+  },
+  "n_cv_candidates": 10
+ }
+}

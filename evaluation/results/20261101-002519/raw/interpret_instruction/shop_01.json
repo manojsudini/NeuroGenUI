@@ -1,0 +1,199 @@
+{
+ "_ok": true,
+ "_wall_ms": 8368.6,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "navbar",
+      "label": "Main navbar",
+      "children": [
+       {
+        "type": "text",
+        "label": "ShopEasy logo"
+       },
+       {
+        "type": "input",
+        "label": "Search box",
+        "props": {
+         "inputType": "search",
+         "placeholder": "Search products...",
+         "required": false
+        }
+       },
+       {
+        "type": "link",
+        "label": "Cart"
+       }
+      ]
+     },
+     {
+      "type": "heading",
+      "label": "New arrivals",
+      "props": {
+       "level": 1,
+       "required": false
+      }
+     },
+     {
+      "type": "container",
+      "label": "Product cards container",
+      "children": [
+       {
+        "type": "card",
+        "label": "Canvas bag card"
+       },
+       {
+        "type": "card",
+        "label": "Desk lamp card"
+       },
+       {
+        "type": "card",
+        "label": "Sneakers card"
+       }
+      ]
+     }
+    ],
+    "page": {
+     "name": "Shop home"
+    },
+    "meta": {
+     "title": "Shop home",
+     "category": "ecommerce"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Canvas bag card"
+    },
+    "component": {
+     "type": "card",
+     "label": "Canvas bag card",
+     "children": [
+      {
+       "type": "image",
+       "label": "Canvas bag photo",
+       "props": {
+        "required": false,
+        "alt": "Canvas bag",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "text",
+       "label": "Canvas bag price"
+      },
+      {
+       "type": "button",
+       "label": "Add to cart"
+      }
+     ]
+    },
+    "changes": {
+     "label": "Canvas bag $29"
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Desk lamp card"
+    },
+    "component": {
+     "type": "card",
+     "label": "Desk lamp card",
+     "children": [
+      {
+       "type": "image",
+       "label": "Desk lamp photo",
+       "props": {
+        "required": false,
+        "alt": "Desk lamp",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "text",
+       "label": "Desk lamp price"
+      },
+      {
+       "type": "button",
+       "label": "Add to cart"
+      }
+     ]
+    },
+    "changes": {
+     "label": "Desk lamp $45"
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Sneakers card"
+    },
+    "component": {
+     "type": "card",
+     "label": "Sneakers card",
+     "children": [
+      {
+       "type": "image",
+       "label": "Sneakers photo",
+       "props": {
+        "required": false,
+        "alt": "Sneakers",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "text",
+       "label": "Sneakers price"
+      },
+      {
+       "type": "button",
+       "label": "Add to cart"
+      }
+     ]
+    },
+    "changes": {
+     "label": "Sneakers $80"
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Add to cart button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Added to cart",
+       "tone": "success"
+      }
+     ]
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Cart link"
+    },
+    "page": {
+     "name": "Cart"
+    },
+    "confidence": 0.9
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 8368,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"navbar\",\"label\":\"Main navbar\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"text\",\"label\":\"ShopEasy logo\",\"props\":null,\"style\":null},{\"type\":\"input\",\"label\":\"Search box\",\"props\":{\"level\":null,\"inputType\":\"search\",\"placeholder\":\"Search products...\",\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"link\",\"label\":\"Cart\",\"props\":null,\"style\":null}]},{\"type\":\"heading\",\"label\":\"New arrivals\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"container\",\"label\":\"Product cards container\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"card\",\"label\":\"Canvas bag card\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Desk lamp card\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Sneakers card\",\"props\":null,\"style\":null}]}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Shop home\"},\"meta\":{\"title\":\"Shop home\",\"category\":\"ecommerce\"},\"confidence\":0.95},{\"op\":\"modify\",\"target\":{\"ref\":\"Canvas bag card\",\"id\":null},\"component\":{\"type\":\"card\",\"label\":\"Canvas bag card\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Canvas bag photo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Canvas bag\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Canvas bag price\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Add to cart\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":null,\"changes\":{\"label\":\"Canvas bag $29\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"modify\",\"target\":{\"ref\":\"Desk lamp card\",\"id\":null},\"component\":{\"type\":\"card\",\"label\":\"Desk lamp card\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Desk lamp photo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Desk lamp\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Desk lamp price\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Add to cart\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":null,\"changes\":{\"label\":\"Desk lamp $45\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"modify\",\"target\":{\"ref\":\"Sneakers card\",\"id\":null},\"component\":{\"type\":\"card\",\"label\":\"Sneakers card\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Sneakers photo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Sneakers\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Sneakers price\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Add to cart\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":null,\"changes\":{\"label\":\"Sneakers $80\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"interaction\",\"target\":{\"ref\":\"Add to cart button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Added to cart\",\"tone\":\"success\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"navigation\",\"target\":{\"ref\":\"Cart link\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Cart\"},\"meta\":null,\"confidence\":0.9}]}"
+ }
+}

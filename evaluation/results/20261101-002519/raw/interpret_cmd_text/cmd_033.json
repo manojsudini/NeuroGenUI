@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1894.0,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "subscribe to newsletter checkbox",
+     "id": "chk_subscribe_to_newsletter"
+    },
+    "position": {
+     "relation": "above",
+     "anchor": {
+      "ref": "email field",
+      "id": "inp_email"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1893,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"subscribe to newsletter checkbox\",\"id\":\"chk_subscribe_to_newsletter\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"above\",\"anchor\":{\"ref\":\"email field\",\"id\":\"inp_email\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

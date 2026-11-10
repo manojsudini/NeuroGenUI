@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1812.6,
+ "value": {
+  "text": "When Choose Basic is clicked, show basic plan selected.",
+  "model": "whisper-1",
+  "duration_ms": 1812
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "_ok": true,
+ "_wall_ms": 7681.0,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.0748,
+     "w": 0.911,
+     "h": 0.1659
+    },
+    "shape": "rect",
+    "confidence": 0.924,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Flowly",
+    "bbox": {
+     "x": 0.073,
+     "y": 0.1333,
+     "w": 0.09,
+     "h": 0.065
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Features",
+    "bbox": {
+     "x": 0.648,
+     "y": 0.1333,
+     "w": 0.091,
+     "h": 0.0358
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.773,
+     "y": 0.1317,
+     "w": 0.071,
+     "h": 0.0439
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Login",
+    "bbox": {
+     "x": 0.879,
+     "y": 0.1333,
+     "w": 0.051,
+     "h": 0.0439
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Simple pricing",
+    "bbox": {
+     "x": 0.383,
+     "y": 0.278,
+     "w": 0.108,
+     "h": 0.0829
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.043,
+     "y": 0.3805,
+     "w": 0.294,
+     "h": 0.5154
+    },
+    "shape": "rect",
+    "confidence": 0.965,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.354,
+     "y": 0.3919,
+     "w": 0.295,
+     "h": 0.5041
+    },
+    "shape": "rect",
+    "confidence": 0.965,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.664,
+     "y": 0.4016,
+     "w": 0.289,
+     "h": 0.4927
+    },
+    "shape": "rect",
+    "confidence": 0.853,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Basic",
+    "bbox": {
+     "x": 0.076,
+     "y": 0.452,
+     "w": 0.065,
+     "h": 0.0439
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "Pro",
+    "bbox": {
+     "x": 0.386,
+     "y": 0.452,
+     "w": 0.042,
+     "h": 0.0407
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Team",
+    "bbox": {
+     "x": 0.699,
+     "y": 0.4537,
+     "w": 0.061,
+     "h": 0.039
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "$9",
+    "bbox": {
+     "x": 0.074,
+     "y": 0.5447,
+     "w": 0.041,
+     "h": 0.0602
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "button",
+    "label": "$29",
+    "bbox": {
+     "x": 0.385,
+     "y": 0.5447,
+     "w": 0.06,
+     "h": 0.0618
+    },
+    "shape": "rect",
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "button",
+    "label": "$99",
+    "bbox": {
+     "x": 0.694,
+     "y": 0.5431,
+     "w": 0.06,
+     "h": 0.0618
+    },
+    "shape": "rect",
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "1 user",
+    "bbox": {
+     "x": 0.074,
+     "y": 0.6537,
+     "w": 0.088,
+     "h": 0.0309
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "5 users",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.6537,
+     "w": 0.1,
+     "h": 0.0325
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "50 users",
+    "bbox": {
+     "x": 0.695,
+     "y": 0.652,
+     "w": 0.112,
+     "h": 0.0309
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Choose Pro",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.7041,
+     "w": 0.242,
+     "h": 0.1561
+    },
+    "shape": "rect",
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Priority support",
+    "bbox": {
+     "x": 0.693,
+     "y": 0.7024,
+     "w": 0.124,
+     "h": 0.039
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "Choose Basic",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.7089,
+     "w": 0.243,
+     "h": 0.148
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "Priority suppor",
+    "bbox": {
+     "x": 0.852,
+     "y": 0.7122,
+     "w": 0.032,
+     "h": 0.0276
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Contact sales",
+    "bbox": {
+     "x": 0.689,
+     "y": 0.7545,
+     "w": 0.247,
+     "h": 0.0976
+    },
+    "shape": "rect",
+    "confidence": 0.892,
+    "source": "hybrid",
+    "parent": 8
+   }
+  ],
+  "width": 1000,
+  "height": 615,
+  "mode": "hybrid",
+  "title": "Pricing page",
+  "category": "pricing",
+  "timings": {
+   "cv_ms": 54,
+   "vision_ms": 7618,
+   "total_ms": 7680
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 29
+ }
+}

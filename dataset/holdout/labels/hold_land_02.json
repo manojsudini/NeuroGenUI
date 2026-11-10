@@ -1,0 +1,399 @@
+{
+  "id": "hold_land_02",
+  "category": "landing",
+  "title": "DevSummit",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_land_02')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pen",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": 1.4,
+    "scratch_outs": 2
+  },
+  "width": 1000,
+  "height": 877,
+  "instruction": "A conference landing page with the centered headline DevSummit 2027, the line 12 to 14 March, Bengaluru, a countdown of three cards Days, Hours and Minutes, a Speakers heading with four round photos named Asha Nair, Liam Chen, Sofia Alvarez and Ken Ito, a Register now button, and a Get updates by email field with a Subscribe button. Register now opens a Tickets page and Subscribe checks the email is valid.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "DevSummit 2027",
+      "bbox": {
+        "x": 0.3478,
+        "y": 0.0853,
+        "w": 0.3127,
+        "h": 0.0927
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "12 to 14 March, Bengaluru",
+      "bbox": {
+        "x": 0.36,
+        "y": 0.1907,
+        "w": 0.2831,
+        "h": 0.0573
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0687,
+        "y": 0.2523,
+        "w": 0.2783,
+        "h": 0.1895
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Days",
+      "bbox": {
+        "x": 0.0934,
+        "y": 0.2774,
+        "w": 0.0535,
+        "h": 0.0501
+      },
+      "parent": 2
+    },
+    {
+      "type": "heading",
+      "label": "12",
+      "bbox": {
+        "x": 0.0908,
+        "y": 0.3414,
+        "w": 0.0315,
+        "h": 0.0694
+      },
+      "parent": 2,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.359,
+        "y": 0.2614,
+        "w": 0.277,
+        "h": 0.1891
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Hours",
+      "bbox": {
+        "x": 0.3835,
+        "y": 0.2864,
+        "w": 0.0588,
+        "h": 0.0502
+      },
+      "parent": 5
+    },
+    {
+      "type": "heading",
+      "label": "04",
+      "bbox": {
+        "x": 0.381,
+        "y": 0.3503,
+        "w": 0.0389,
+        "h": 0.0695
+      },
+      "parent": 5,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.6481,
+        "y": 0.2704,
+        "w": 0.2758,
+        "h": 0.1887
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Minutes",
+      "bbox": {
+        "x": 0.6725,
+        "y": 0.2954,
+        "w": 0.0857,
+        "h": 0.0509
+      },
+      "parent": 8
+    },
+    {
+      "type": "heading",
+      "label": "37",
+      "bbox": {
+        "x": 0.67,
+        "y": 0.3591,
+        "w": 0.0431,
+        "h": 0.0694
+      },
+      "parent": 8,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Speakers",
+      "bbox": {
+        "x": 0.0659,
+        "y": 0.4559,
+        "w": 0.149,
+        "h": 0.0728
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0615,
+        "y": 0.5467,
+        "w": 0.1106,
+        "h": 0.1251
+      },
+      "parent": null,
+      "props": {
+        "alt": "speaker",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Asha Nair",
+      "bbox": {
+        "x": 0.0595,
+        "y": 0.6866,
+        "w": 0.1068,
+        "h": 0.0515
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2795,
+        "y": 0.553,
+        "w": 0.1102,
+        "h": 0.1249
+      },
+      "parent": null,
+      "props": {
+        "alt": "speaker",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Liam Chen",
+      "bbox": {
+        "x": 0.2775,
+        "y": 0.6927,
+        "w": 0.1206,
+        "h": 0.0518
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.4967,
+        "y": 0.5593,
+        "w": 0.1098,
+        "h": 0.1247
+      },
+      "parent": null,
+      "props": {
+        "alt": "speaker",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Sofia Alvarez",
+      "bbox": {
+        "x": 0.4948,
+        "y": 0.6987,
+        "w": 0.1452,
+        "h": 0.0524
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.7133,
+        "y": 0.5656,
+        "w": 0.1094,
+        "h": 0.1245
+      },
+      "parent": null,
+      "props": {
+        "alt": "speaker",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Ken Ito",
+      "bbox": {
+        "x": 0.7113,
+        "y": 0.7048,
+        "w": 0.0806,
+        "h": 0.0506
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Register now",
+      "bbox": {
+        "x": 0.3578,
+        "y": 0.7656,
+        "w": 0.2532,
+        "h": 0.0666
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Get updates by email",
+      "bbox": {
+        "x": 0.0545,
+        "y": 0.8396,
+        "w": 0.6278,
+        "h": 0.0765
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Subscribe",
+      "bbox": {
+        "x": 0.6979,
+        "y": 0.8569,
+        "w": 0.1943,
+        "h": 0.0648
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Register now",
+      "expect": {
+        "type": "navigate",
+        "page": "Tickets"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Subscribe",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Get updates by email",
+        "format": "email"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "DevSummit 2027",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "12",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Speakers",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Register now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Get updates by email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Get updates by email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Subscribe",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Register now",
+      "expect": {
+        "type": "navigate",
+        "page": "Tickets"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Subscribe",
+      "expect": {
+        "type": "validate_format",
+        "field_label": "Get updates by email",
+        "format": "email"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

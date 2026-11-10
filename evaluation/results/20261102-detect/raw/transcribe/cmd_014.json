@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 706.1,
+ "value": {
+  "text": "Delete the settings link from the nav bar.",
+  "model": "whisper-1",
+  "duration_ms": 706
+ }
+}

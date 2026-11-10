@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1989.0,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "About heading",
+     "id": "h_about"
+    },
+    "position": {
+     "relation": "above",
+     "anchor": {
+      "ref": "Follow button",
+      "id": "btn_follow"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1988,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"About heading\",\"id\":\"h_about\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"above\",\"anchor\":{\"ref\":\"Follow button\",\"id\":\"btn_follow\"}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,296 @@
+{
+  "id": "hold_set_02",
+  "category": "settings",
+  "title": "Connected apps",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_set_02')",
+  "render": {
+    "font": "ShadowsIntoLight.ttf",
+    "tool": "pencil",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": -2.45,
+    "scratch_outs": 1
+  },
+  "width": 1000,
+  "height": 820,
+  "instruction": "A connected apps settings page with the heading Connected apps, three cards Drive sync, Mail import and Automation hooks each with an icon and a Disconnect button (Disconnect Drive, Disconnect Mail, Disconnect Hooks), a divider and a Danger zone card with the text This cannot be undone and a Delete account button. Delete account shows the message Please confirm deletion.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Connected apps",
+      "bbox": {
+        "x": 0.06,
+        "y": 0.0891,
+        "w": 0.2945,
+        "h": 0.1044
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0616,
+        "y": 0.1601,
+        "w": 0.8608,
+        "h": 0.1677
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.0833,
+        "y": 0.2414,
+        "w": 0.0434,
+        "h": 0.0537
+      },
+      "parent": 1,
+      "props": {
+        "glyph": "cloud"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Drive sync",
+      "bbox": {
+        "x": 0.2032,
+        "y": 0.2291,
+        "w": 0.1195,
+        "h": 0.0581
+      },
+      "parent": 1
+    },
+    {
+      "type": "button",
+      "label": "Disconnect Drive",
+      "bbox": {
+        "x": 0.611,
+        "y": 0.1915,
+        "w": 0.213,
+        "h": 0.0756
+      },
+      "parent": 1
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0636,
+        "y": 0.2934,
+        "w": 0.8641,
+        "h": 0.1696
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.0854,
+        "y": 0.376,
+        "w": 0.0436,
+        "h": 0.0541
+      },
+      "parent": 5,
+      "props": {
+        "glyph": "mail"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Mail import",
+      "bbox": {
+        "x": 0.2057,
+        "y": 0.3636,
+        "w": 0.1182,
+        "h": 0.0586
+      },
+      "parent": 5
+    },
+    {
+      "type": "button",
+      "label": "Disconnect Mail",
+      "bbox": {
+        "x": 0.615,
+        "y": 0.3251,
+        "w": 0.2138,
+        "h": 0.0763
+      },
+      "parent": 5
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0656,
+        "y": 0.4277,
+        "w": 0.8673,
+        "h": 0.1716
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.0875,
+        "y": 0.5116,
+        "w": 0.0438,
+        "h": 0.0545
+      },
+      "parent": 9,
+      "props": {
+        "glyph": "bolt"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Automation hooks",
+      "bbox": {
+        "x": 0.2082,
+        "y": 0.4955,
+        "w": 0.17,
+        "h": 0.0625
+      },
+      "parent": 9
+    },
+    {
+      "type": "button",
+      "label": "Disconnect Hooks",
+      "bbox": {
+        "x": 0.6191,
+        "y": 0.4598,
+        "w": 0.2147,
+        "h": 0.0771
+      },
+      "parent": 9
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.0676,
+        "y": 0.5631,
+        "w": 0.8667,
+        "h": 0.0741
+      },
+      "parent": null
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0682,
+        "y": 0.6006,
+        "w": 0.8776,
+        "h": 0.3339
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Danger zone",
+      "bbox": {
+        "x": 0.0901,
+        "y": 0.6691,
+        "w": 0.2101,
+        "h": 0.0873
+      },
+      "parent": 14,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "This cannot be undone",
+      "bbox": {
+        "x": 0.0915,
+        "y": 0.7559,
+        "w": 0.2543,
+        "h": 0.0693
+      },
+      "parent": 14
+    },
+    {
+      "type": "button",
+      "label": "Delete account",
+      "bbox": {
+        "x": 0.0925,
+        "y": 0.8272,
+        "w": 0.2175,
+        "h": 0.0794
+      },
+      "parent": 14,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Delete account",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "confirm deletion"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Connected apps",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Disconnect Drive",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Disconnect Mail",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Disconnect Hooks",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Danger zone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Delete account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Delete account",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "confirm deletion"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

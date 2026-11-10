@@ -1,0 +1,27 @@
+{
+ "_ok": true,
+ "_wall_ms": 1579.7,
+ "value": {
+  "ops": [
+   {
+    "op": "style",
+    "target": {
+     "ref": "Register button",
+     "id": "btn_register"
+    },
+    "changes": {
+     "style": {
+      "variant": "primary",
+      "color": "#16a34a",
+      "textColor": "#ffffff",
+      "bg": "#16a34a"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1578,
+  "raw": "{\"ops\":[{\"op\":\"style\",\"target\":{\"ref\":\"Register button\",\"id\":\"btn_register\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":\"primary\",\"color\":\"green\",\"textColor\":\"white\",\"bg\":\"green\",\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

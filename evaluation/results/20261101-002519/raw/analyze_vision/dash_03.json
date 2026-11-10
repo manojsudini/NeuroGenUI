@@ -1,0 +1,98 @@
+{
+ "_ok": true,
+ "_wall_ms": 7359.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "Hi, Sam",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.96,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "Balance $2,450",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.14,
+     "w": 0.96,
+     "h": 0.2
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.36,
+     "w": 0.45,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Request",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.36,
+     "w": 0.45,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Activity",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.48,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "Coffee -$4, Salary +$1,200, Groceries -$36",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.54,
+     "w": 0.96,
+     "h": 0.3
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "vision",
+  "title": "Account Dashboard",
+  "category": "banking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7352,
+   "total_ms": 7359
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,35 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Headline results on the same 40 sketches and 80 commands (proposed vs.\ one-call baseline)}
+\label{tab:headline}
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrl}
+\toprule
+\textbf{Metric} & \textbf{Proposed} & \textbf{Baseline} & \textbf{Unit} \\
+\midrule
+Component detection F1 (analysis vs.\ baseline DOM) & 53.1 & 25.6 & \% \\
+Component detection F1 (both on rendered DOM) & 42.9 & 25.6 & \% \\
+Whisper word error rate & 4.0 & -- & \% \\
+Voice command accuracy (from Whisper) & 91.2 & -- & \% \\
+Visual similarity: layout IoU $\times$100 & 39.9 & 28.3 & IoU$\times$100 \\
+Visual similarity: edge SSIM $\times$100 & 52.2 & 50.9 & SSIM$\times$100 \\
+Functional correctness & 94.8 & 86.2 & \% \\
+Requirement satisfaction & 87.5 & 86.0 & \% \\
+Refinement success rate & 95.0 & 90.0 & \% \\
+Preservation of unaffected components & 99.8 & 98.2 & \% \\
+Validation pass rate before repair & 100.0 & -- & \% \\
+Validation pass rate after repair & 100.0 & -- & \% \\
+Injected faults detected & 96.8 & -- & \% \\
+Injected faults repaired & 73.5 & -- & \% \\
+Generation time, mean (s) & 15.5 & 24.0 & s \\
+Modification time, mean (s) & 2.1 & 15.4 & s \\
+Generated code parses & 100.0 & 100.0 & \% \\
+ESLint messages per UI & 0.05 & 0.03 & count/UI \\
+Component reuse ratio & 1.9 & 1.0 & usages/definition \\
+Longest function (lines) & 105.6 & 206.1 & lines \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

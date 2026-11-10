@@ -1,0 +1,192 @@
+{
+  "id": "prof_01",
+  "category": "profile",
+  "title": "Jane Doe",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('prof_01')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 637,
+  "instruction": "A profile page with a round avatar, the name Jane Doe, the role Product designer, Follow and Message buttons, a divider and an About section with a short bio. Follow shows the message Following and Message opens a Chat page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.4172,
+        "y": 0.0774,
+        "w": 0.14,
+        "h": 0.2198
+      },
+      "parent": null,
+      "props": {
+        "alt": "avatar",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Jane Doe",
+      "bbox": {
+        "x": 0.404,
+        "y": 0.3255,
+        "w": 0.1663,
+        "h": 0.0976
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Product designer",
+      "bbox": {
+        "x": 0.3981,
+        "y": 0.4513,
+        "w": 0.1783,
+        "h": 0.0571
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Follow",
+      "bbox": {
+        "x": 0.2469,
+        "y": 0.5367,
+        "w": 0.2283,
+        "h": 0.0848
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Message",
+      "bbox": {
+        "x": 0.4992,
+        "y": 0.5367,
+        "w": 0.2283,
+        "h": 0.0848
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.2469,
+        "y": 0.6497,
+        "w": 0.4806,
+        "h": 0.022
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "About",
+      "bbox": {
+        "x": 0.2469,
+        "y": 0.7,
+        "w": 0.0757,
+        "h": 0.0686
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.2469,
+        "y": 0.7968,
+        "w": 0.4806,
+        "h": 0.113
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Follow",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "following"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Message",
+      "expect": {
+        "type": "navigate",
+        "page": "Chat"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Jane Doe",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Follow",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Message",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "About",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Follow",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "following"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Message",
+      "expect": {
+        "type": "navigate",
+        "page": "Chat"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

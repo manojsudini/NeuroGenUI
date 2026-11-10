@@ -1,0 +1,188 @@
+{
+ "_ok": true,
+ "_wall_ms": 43.8,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.249,
+     "y": 0.1277,
+     "w": 0.541,
+     "h": 0.3191
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.742,
+     "y": 0.3584,
+     "w": 0.033,
+     "h": 0.0556
+    },
+    "confidence": 0.743,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.4763,
+     "w": 0.087,
+     "h": 0.0311
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.5466,
+     "w": 0.029,
+     "h": 0.0491
+    },
+    "confidence": 0.913,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.5483,
+     "w": 0.028,
+     "h": 0.0458
+    },
+    "confidence": 0.932,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.625,
+     "y": 0.5516,
+     "w": 0.025,
+     "h": 0.0376
+    },
+    "confidence": 0.932,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.291,
+     "y": 0.5581,
+     "w": 0.036,
+     "h": 0.0295
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.476,
+     "y": 0.5581,
+     "w": 0.046,
+     "h": 0.0295
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.5565,
+     "w": 0.046,
+     "h": 0.0344
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.253,
+     "y": 0.6154,
+     "w": 0.536,
+     "h": 0.2013
+    },
+    "confidence": 0.921,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.6514,
+     "w": 0.137,
+     "h": 0.0327
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.765,
+     "y": 0.7741,
+     "w": 0.016,
+     "h": 0.0262
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.8282,
+     "w": 0.534,
+     "h": 0.108
+    },
+    "confidence": 0.839,
+    "source": "cv",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 611,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 33,
+   "vision_ms": 0,
+   "total_ms": 43
+  },
+  "n_cv_candidates": 14
+ }
+}

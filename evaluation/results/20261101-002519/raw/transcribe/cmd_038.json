@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 982.1,
+ "value": {
+  "text": "move the Privacy Policy link under the Logout button.",
+  "model": "whisper-1",
+  "duration_ms": 982
+ }
+}

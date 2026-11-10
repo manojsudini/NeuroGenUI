@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 14202.5,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.1054,
+     "w": 0.43,
+     "h": 0.7143
+    },
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Running Shoes",
+    "bbox": {
+     "x": 0.522,
+     "y": 0.1339,
+     "w": 0.226,
+     "h": 0.0821
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$89",
+    "bbox": {
+     "x": 0.524,
+     "y": 0.2554,
+     "w": 0.046,
+     "h": 0.05
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "wavy lines representing description text",
+    "bbox": {
+     "x": 0.58,
+     "y": 0.28,
+     "w": 0.35,
+     "h": 0.1
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.3571,
+     "w": 0.203,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.735,
+     "y": 0.3571,
+     "w": 0.136,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.519,
+     "y": 0.4036,
+     "w": 0.051,
+     "h": 0.0161
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.581,
+     "y": 0.4036,
+     "w": 0.094,
+     "h": 0.0143
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.686,
+     "y": 0.4018,
+     "w": 0.2,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.523,
+     "y": 0.4518,
+     "w": 0.035,
+     "h": 0.0143
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.559,
+     "y": 0.45,
+     "w": 0.179,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.739,
+     "y": 0.45,
+     "w": 0.052,
+     "h": 0.0161
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Size",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.5036,
+     "w": 0.423,
+     "h": 0.1125
+    },
+    "confidence": 0.872,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.907,
+     "y": 0.5411,
+     "w": 0.019,
+     "h": 0.0232
+    },
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Quantity",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.6196,
+     "w": 0.167,
+     "h": 0.1089
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Add to cart",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.7429,
+     "w": 0.206,
+     "h": 0.1161
+    },
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Buy now",
+    "bbox": {
+     "x": 0.741,
+     "y": 0.75,
+     "w": 0.196,
+     "h": 0.1054
+    },
+    "confidence": 0.914,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Product Detail - Running Shoes",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 26,
+   "vision_ms": 14169,
+   "total_ms": 14202
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

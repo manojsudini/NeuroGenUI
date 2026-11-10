@@ -1,0 +1,214 @@
+{
+ "_ok": true,
+ "_wall_ms": 8601.7,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "Contact Page",
+     "children": [
+      {
+       "type": "navbar",
+       "label": "Main Navbar"
+      },
+      {
+       "type": "heading",
+       "label": "Get in touch",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "container",
+       "label": "Main Content"
+      },
+      {
+       "type": "form",
+       "label": "Contact Form"
+      },
+      {
+       "type": "image",
+       "label": "Map",
+       "props": {
+        "alt": "Map showing location",
+        "photo": "travel"
+       }
+      },
+      {
+       "type": "text",
+       "label": "Address"
+      },
+      {
+       "type": "text",
+       "label": "Phone number"
+      },
+      {
+       "type": "text",
+       "label": "Email"
+      }
+     ]
+    },
+    "components": [
+     {
+      "type": "nav_item",
+      "label": "Acme"
+     },
+     {
+      "type": "nav_item",
+      "label": "Home"
+     },
+     {
+      "type": "nav_item",
+      "label": "Services"
+     },
+     {
+      "type": "nav_item",
+      "label": "Contact"
+     },
+     {
+      "type": "input",
+      "label": "Name",
+      "props": {
+       "inputType": "text",
+       "required": true
+      }
+     },
+     {
+      "type": "input",
+      "label": "Email",
+      "props": {
+       "inputType": "email",
+       "required": true
+      }
+     },
+     {
+      "type": "input",
+      "label": "Subject",
+      "props": {
+       "inputType": "text",
+       "required": true
+      }
+     },
+     {
+      "type": "textarea",
+      "label": "Message",
+      "props": {
+       "required": true,
+       "rows": 4
+      }
+     },
+     {
+      "type": "button",
+      "label": "Submit"
+     }
+    ],
+    "position": {
+     "relation": "inside"
+    },
+    "page": {
+     "name": "Contact"
+    },
+    "meta": {
+     "title": "Contact",
+     "category": "contact"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "target": {
+     "ref": "Acme"
+    },
+    "component": {
+     "type": "nav_item",
+     "label": "Acme"
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Main Navbar"
+     }
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "add",
+    "target": {
+     "ref": "Home"
+    },
+    "component": {
+     "type": "nav_item",
+     "label": "Home"
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Main Navbar"
+     }
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "add",
+    "target": {
+     "ref": "Services"
+    },
+    "component": {
+     "type": "nav_item",
+     "label": "Services"
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Main Navbar"
+     }
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "add",
+    "target": {
+     "ref": "Contact"
+    },
+    "component": {
+     "type": "nav_item",
+     "label": "Contact"
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Main Navbar"
+     }
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Submit button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "targets": [
+        "Name",
+        "Email",
+        "Subject",
+        "Message"
+       ],
+       "message": "Please fill in all fields before submitting."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 8601,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"Contact Page\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"navbar\",\"label\":\"Main Navbar\",\"props\":null,\"style\":null},{\"type\":\"heading\",\"label\":\"Get in touch\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"container\",\"label\":\"Main Content\",\"props\":null,\"style\":null},{\"type\":\"form\",\"label\":\"Contact Form\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"Map\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Map showing location\",\"photo\":\"travel\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Address\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Phone number\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"Email\",\"props\":null,\"style\":null}]},\"components\":[{\"type\":\"nav_item\",\"label\":\"Acme\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"nav_item\",\"label\":\"Home\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"nav_item\",\"label\":\"Services\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"nav_item\",\"label\":\"Contact\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Name\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":null,\"required\":true,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":\"email\",\"placeholder\":null,\"required\":true,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Subject\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":null,\"required\":true,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"textarea\",\"label\":\"Message\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":true,\"name\":null,\"rows\":4,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Submit\",\"props\":null,\"style\":null,\"events\":null,\"children\":null}],\"position\":{\"relation\":\"inside\",\"anchor\":null},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Contact\"},\"meta\":{\"title\":\"Contact\",\"category\":\"contact\"},\"confidence\":0.95},{\"op\":\"add\",\"target\":{\"ref\":\"Acme\",\"id\":null},\"component\":{\"type\":\"nav_item\",\"label\":\"Acme\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Main Navbar\",\"id\":null}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"add\",\"target\":{\"ref\":\"Home\",\"id\":null},\"component\":{\"type\":\"nav_item\",\"label\":\"Home\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Main Navbar\",\"id\":null}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"add\",\"target\":{\"ref\":\"Services\",\"id\":null},\"component\":{\"type\":\"nav_item\",\"label\":\"Services\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Main Navbar\",\"id\":null}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"add\",\"target\":{\"ref\":\"Contact\",\"id\":null},\"component\":{\"type\":\"nav_item\",\"label\":\"Contact\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Main Navbar\",\"id\":null}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"interaction\",\"target\":{\"ref\":\"Submit button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Name\",\"Email\",\"Subject\",\"Message\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all fields before submitting.\",\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

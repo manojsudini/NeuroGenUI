@@ -1,0 +1,245 @@
+{
+ "_ok": true,
+ "_wall_ms": 10639.5,
+ "value": {
+  "components": [
+   {
+    "type": "input",
+    "label": "Search products",
+    "bbox": {
+     "x": 0.042,
+     "y": 0.0742,
+     "w": 0.891,
+     "h": 0.1371
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.814,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "New arrivals",
+    "bbox": {
+     "x": 0.041,
+     "y": 0.2565,
+     "w": 0.201,
+     "h": 0.0597
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.3532,
+     "w": 0.272,
+     "h": 0.579
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.919,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.3935,
+     "w": 0.244,
+     "h": 0.2484
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.369,
+     "y": 0.4032,
+     "w": 0.237,
+     "h": 0.2387
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.674,
+     "y": 0.3952,
+     "w": 0.236,
+     "h": 0.2435
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Canvas bag",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.6629,
+     "w": 0.109,
+     "h": 0.0613
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "heading",
+    "label": "Desk lamp",
+    "bbox": {
+     "x": 0.365,
+     "y": 0.6629,
+     "w": 0.104,
+     "h": 0.0597
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sneakers",
+    "bbox": {
+     "x": 0.672,
+     "y": 0.6661,
+     "w": 0.092,
+     "h": 0.0484
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$29",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.7419,
+     "w": 0.044,
+     "h": 0.0468
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "$45",
+    "bbox": {
+     "x": 0.365,
+     "y": 0.7403,
+     "w": 0.044,
+     "h": 0.0516
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$80",
+    "bbox": {
+     "x": 0.673,
+     "y": 0.7419,
+     "w": 0.042,
+     "h": 0.0468
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Addtocart",
+    "bbox": {
+     "x": 0.064,
+     "y": 0.8113,
+     "w": 0.236,
+     "h": 0.0968
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "button",
+    "label": "Buy lamp",
+    "bbox": {
+     "x": 0.367,
+     "y": 0.8113,
+     "w": 0.239,
+     "h": 0.0839
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Buy sneakers",
+    "bbox": {
+     "x": 0.729,
+     "y": 0.8306,
+     "w": 0.132,
+     "h": 0.05
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 620,
+  "mode": "hybrid",
+  "title": "ShopEasy New Arrivals",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 3811,
+   "vision_ms": 6394,
+   "total_ms": 10639
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 22
+ }
+}

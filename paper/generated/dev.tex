@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Development iteration: the first full evaluation exposed pipeline defects that were fixed (Sec.~\ref{sec:dev}); same test set}
+\label{tab:dev}
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Metric} & \textbf{Run 1} & \textbf{Final} & \textbf{Baseline} \\
+\midrule
+Component detection F1 (analysis vs.\ baseline DOM) & 42.9 & 53.1 & 25.6 \\
+Component detection F1 (both on rendered DOM) & 16.5 & 42.9 & 25.6 \\
+Visual similarity: layout IoU $\times$100 & 20.5 & 39.9 & 28.3 \\
+Functional correctness & 91.4 & 94.8 & 86.2 \\
+Refinement success rate & 81.2 & 95.0 & 90.0 \\
+Validation pass rate before repair & 42.5 & 100.0 & -- \\
+Validation pass rate after repair & 42.5 & 100.0 & -- \\
+Injected faults repaired & 60.7 & 73.5 & -- \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

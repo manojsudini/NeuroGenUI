@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 19837.5,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.192,
+     "y": 0.0832,
+     "w": 0.648,
+     "h": 0.8128
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "dn ubis",
+    "bbox": {
+     "x": 0.209,
+     "y": 0.1218,
+     "w": 0.128,
+     "h": 0.0773
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "First name",
+    "bbox": {
+     "x": 0.213,
+     "y": 0.2199,
+     "w": 0.291,
+     "h": 0.0832
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.527,
+     "y": 0.2199,
+     "w": 0.286,
+     "h": 0.0773
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.213,
+     "y": 0.3157,
+     "w": 0.291,
+     "h": 0.0832
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Phone",
+    "bbox": {
+     "x": 0.212,
+     "y": 0.419,
+     "w": 0.29,
+     "h": 0.0862
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.874,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Country",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.4383,
+     "w": 0.08,
+     "h": 0.052
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.4508,
+     "w": 0.2735,
+     "h": 0.0677
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.211,
+     "y": 0.5245,
+     "w": 0.603,
+     "h": 0.0906
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.886,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Gender",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.633,
+     "w": 0.072,
+     "h": 0.0475
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "Male",
+    "bbox": {
+     "x": 0.207,
+     "y": 0.7013,
+     "w": 0.086,
+     "h": 0.052
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.931,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "C Female",
+    "bbox": {
+     "x": 0.419,
+     "y": 0.7028,
+     "w": 0.102,
+     "h": 0.0505
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.936,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "other",
+    "bbox": {
+     "x": 0.624,
+     "y": 0.6999,
+     "w": 0.097,
+     "h": 0.055
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.924,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Create account",
+    "bbox": {
+     "x": 0.209,
+     "y": 0.7756,
+     "w": 0.198,
+     "h": 0.0847
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.884,
+    "source": "hybrid",
+    "parent": 0
+   }
+  ],
+  "width": 1000,
+  "height": 673,
+  "mode": "hybrid",
+  "title": "Sign up form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 13564,
+   "vision_ms": 5893,
+   "total_ms": 19835
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 23
+ }
+}

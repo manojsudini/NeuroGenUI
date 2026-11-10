@@ -1,0 +1,192 @@
+{
+  "id": "land_03",
+  "category": "landing",
+  "title": "FitTrack",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('land_03')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 700,
+  "instruction": "A mobile landing page for the FitTrack app: a hero image, the app name FitTrack, a short tagline, Download app and Watch demo buttons and a row of three feature icons. Download app shows the message Coming soon and Watch demo opens a Demo page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2487,
+        "y": 0.093,
+        "w": 0.5151,
+        "h": 0.3143
+      },
+      "parent": null,
+      "props": {
+        "alt": "app hero",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "FitTrack",
+      "bbox": {
+        "x": 0.4385,
+        "y": 0.4358,
+        "w": 0.1356,
+        "h": 0.0789
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.2487,
+        "y": 0.5433,
+        "w": 0.5151,
+        "h": 0.0657
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "button",
+      "label": "Download app",
+      "bbox": {
+        "x": 0.2487,
+        "y": 0.6375,
+        "w": 0.5151,
+        "h": 0.0771
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Watch demo",
+      "bbox": {
+        "x": 0.2487,
+        "y": 0.7433,
+        "w": 0.5151,
+        "h": 0.0771
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.3046,
+        "y": 0.849,
+        "w": 0.044,
+        "h": 0.0629
+      },
+      "parent": null,
+      "props": {
+        "glyph": "heart"
+      }
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.4843,
+        "y": 0.849,
+        "w": 0.044,
+        "h": 0.0629
+      },
+      "parent": null,
+      "props": {
+        "glyph": "bolt"
+      }
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.664,
+        "y": 0.849,
+        "w": 0.044,
+        "h": 0.0629
+      },
+      "parent": null,
+      "props": {
+        "glyph": "star"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Download app",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "coming soon"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Watch demo",
+      "expect": {
+        "type": "navigate",
+        "page": "Demo"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "FitTrack",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Download app",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Watch demo",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Download app",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "coming soon"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Watch demo",
+      "expect": {
+        "type": "navigate",
+        "page": "Demo"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

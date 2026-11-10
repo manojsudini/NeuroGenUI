@@ -1,0 +1,199 @@
+{
+ "_ok": true,
+ "_wall_ms": 8694.6,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.0573,
+     "w": 0.892,
+     "h": 0.2398
+    },
+    "confidence": 0.804,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.3318,
+     "w": 0.111,
+     "h": 0.1538
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "AlexKim",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.3575,
+     "w": 0.12,
+     "h": 0.0513
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Editprofile",
+    "bbox": {
+     "x": 0.761,
+     "y": 0.3635,
+     "w": 0.194,
+     "h": 0.098
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "ealexk",
+    "bbox": {
+     "x": 0.221,
+     "y": 0.4284,
+     "w": 0.072,
+     "h": 0.0468
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "120posts",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.5234,
+     "w": 0.097,
+     "h": 0.0558
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "4.5kfollowers",
+    "bbox": {
+     "x": 0.361,
+     "y": 0.5204,
+     "w": 0.135,
+     "h": 0.0513
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "300following",
+    "bbox": {
+     "x": 0.667,
+     "y": 0.5219,
+     "w": 0.127,
+     "h": 0.0528
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Posts",
+    "bbox": {
+     "x": 0.055,
+     "y": 0.6078,
+     "w": 0.068,
+     "h": 0.0483
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.364,
+     "y": 0.6833,
+     "w": 0.288,
+     "h": 0.2398
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.6908,
+     "w": 0.283,
+     "h": 0.2187
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.67,
+     "y": 0.6938,
+     "w": 0.28,
+     "h": 0.2262
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 663,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 8534,
+   "vision_ms": 0,
+   "total_ms": 8694
+  },
+  "n_cv_candidates": 14
+ }
+}

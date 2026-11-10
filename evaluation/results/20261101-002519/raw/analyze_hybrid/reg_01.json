@@ -1,0 +1,137 @@
+{
+ "_ok": true,
+ "_wall_ms": 7810.2,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Create Account",
+    "bbox": {
+     "x": 0.345,
+     "y": 0.097,
+     "w": 0.297,
+     "h": 0.051
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.1809,
+     "w": 0.484,
+     "h": 0.1118
+    },
+    "confidence": 0.859,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.3405,
+     "w": 0.047,
+     "h": 0.0247
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.4145,
+     "w": 0.484,
+     "h": 0.1118
+    },
+    "confidence": 0.871,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Confirm",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.5378,
+     "w": 0.482,
+     "h": 0.1086
+    },
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "I agree to the terms",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.6711,
+     "w": 0.252,
+     "h": 0.0477
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Register",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.7368,
+     "w": 0.484,
+     "h": 0.102
+    },
+    "confidence": 0.889,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Already have an account?",
+    "bbox": {
+     "x": 0.328,
+     "y": 0.875,
+     "w": 0.328,
+     "h": 0.051
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Login",
+    "bbox": {
+     "x": 0.36,
+     "y": 0.875,
+     "w": 0.213,
+     "h": 0.0411
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 608,
+  "mode": "hybrid",
+  "title": "Create Account Form",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 45,
+   "vision_ms": 7756,
+   "total_ms": 7809
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 14
+ }
+}

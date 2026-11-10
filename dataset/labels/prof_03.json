@@ -1,0 +1,222 @@
+{
+  "id": "prof_03",
+  "category": "profile",
+  "title": "Alex Kim",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('prof_03')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 663,
+  "instruction": "A social profile with a cover image, a round avatar, the name Alex Kim with the handle @alexk, an Edit profile button, counts for posts, followers and following, and a Posts section with a grid of three photos. Edit profile opens an Edit profile page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0587,
+        "y": 0.0686,
+        "w": 0.8912,
+        "h": 0.2262
+      },
+      "parent": null,
+      "props": {
+        "alt": "cover",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0587,
+        "y": 0.325,
+        "w": 0.11,
+        "h": 0.1659
+      },
+      "parent": null,
+      "props": {
+        "alt": "avatar",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Alex Kim",
+      "bbox": {
+        "x": 0.2233,
+        "y": 0.3439,
+        "w": 0.1212,
+        "h": 0.0703
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "@alexk",
+      "bbox": {
+        "x": 0.2233,
+        "y": 0.4232,
+        "w": 0.0657,
+        "h": 0.0487
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Edit profile",
+      "bbox": {
+        "x": 0.7599,
+        "y": 0.3672,
+        "w": 0.19,
+        "h": 0.0814
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "120 posts",
+      "bbox": {
+        "x": 0.0587,
+        "y": 0.5211,
+        "w": 0.0904,
+        "h": 0.0487
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "4.5k followers",
+      "bbox": {
+        "x": 0.3638,
+        "y": 0.5211,
+        "w": 0.1261,
+        "h": 0.0487
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "300 following",
+      "bbox": {
+        "x": 0.6689,
+        "y": 0.5211,
+        "w": 0.1229,
+        "h": 0.0487
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Posts",
+      "bbox": {
+        "x": 0.0587,
+        "y": 0.5999,
+        "w": 0.0619,
+        "h": 0.0585
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0587,
+        "y": 0.6886,
+        "w": 0.2811,
+        "h": 0.2262
+      },
+      "parent": null,
+      "props": {
+        "alt": "post",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3638,
+        "y": 0.6886,
+        "w": 0.2811,
+        "h": 0.2262
+      },
+      "parent": null,
+      "props": {
+        "alt": "post",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.6689,
+        "y": 0.6886,
+        "w": 0.2811,
+        "h": 0.2262
+      },
+      "parent": null,
+      "props": {
+        "alt": "post",
+        "shape": "rect"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Edit profile",
+      "expect": {
+        "type": "navigate",
+        "page": "Edit profile"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Alex Kim",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Edit profile",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Posts",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Edit profile",
+      "expect": {
+        "type": "navigate",
+        "page": "Edit profile"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+ "_ok": true,
+ "_wall_ms": 4275.6,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "navbar",
+      "label": "",
+      "children": [
+       {
+        "type": "nav_item",
+        "label": "Insight logo",
+        "props": {
+         "photo": "banner"
+        }
+       },
+       {
+        "type": "nav_item",
+        "label": "Dashboard"
+       },
+       {
+        "type": "nav_item",
+        "label": "Projects"
+       },
+       {
+        "type": "nav_item",
+        "label": "Team"
+       },
+       {
+        "type": "button",
+        "label": "New project"
+       }
+      ]
+     },
+     {
+      "type": "select",
+      "label": "Date range",
+      "props": {
+       "options": [
+        "Last 7 days",
+        "Last 30 days",
+        "This year"
+       ]
+      }
+     },
+     {
+      "type": "button",
+      "label": "Export"
+     },
+     {
+      "type": "card",
+      "label": "Traffic chart",
+      "style": {
+       "variant": "primary",
+       "size": "lg",
+       "width": "full"
+      }
+     },
+     {
+      "type": "card",
+      "label": "Tasks done"
+     },
+     {
+      "type": "card",
+      "label": "Open issues"
+     }
+    ],
+    "page": {
+     "name": "Analytics dashboard"
+    },
+    "meta": {
+     "title": "Analytics dashboard",
+     "category": "dashboard"
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Export button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Export started",
+       "tone": "info"
+      }
+     ]
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "New project button"
+    },
+    "page": {
+     "name": "New project"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4275,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"navbar\",\"label\":\"\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"nav_item\",\"label\":\"Insight logo\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":\"banner\",\"items\":null},\"style\":null},{\"type\":\"nav_item\",\"label\":\"Dashboard\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"Projects\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"Team\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"New project\",\"props\":null,\"style\":null}]} ,{\"type\":\"select\",\"label\":\"Date range\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":[\"Last 7 days\",\"Last 30 days\",\"This year\"],\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Export\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Traffic chart\",\"props\":null,\"style\":{\"variant\":\"primary\",\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"lg\",\"width\":\"full\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Tasks done\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Open issues\",\"props\":null,\"style\":null,\"events\":null,\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Analytics dashboard\"},\"meta\":{\"title\":\"Analytics dashboard\",\"category\":\"dashboard\"},\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Export button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Export started\",\"tone\":\"info\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"New project button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"New project\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

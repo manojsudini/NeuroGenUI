@@ -1,0 +1,123 @@
+{
+ "_ok": true,
+ "_wall_ms": 10714.3,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Contact us",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.0869,
+     "w": 0.178,
+     "h": 0.0716
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.238,
+     "y": 0.2015,
+     "w": 0.4595,
+     "h": 0.0678
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.3066,
+     "w": 0.482,
+     "h": 0.0835
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.4293,
+     "w": 0.486,
+     "h": 0.0886
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.879,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Message",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.5528,
+     "w": 0.486,
+     "h": 0.0886
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.703,
+     "y": 0.7436,
+     "w": 0.0185,
+     "h": 0.0363
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.456,
+     "y": 0.833,
+     "w": 0.056,
+     "h": 0.0562
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 587,
+  "mode": "hybrid",
+  "title": "Contact us form",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 4659,
+   "vision_ms": 5923,
+   "total_ms": 10714
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 17
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "_ok": true,
+ "_wall_ms": 5273.1,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "navbar",
+      "label": "Nimbus navbar",
+      "children": [
+       {
+        "type": "nav_item",
+        "label": "Features"
+       },
+       {
+        "type": "nav_item",
+        "label": "Pricing"
+       },
+       {
+        "type": "nav_item",
+        "label": "About"
+       },
+       {
+        "type": "button",
+        "label": "Get started"
+       }
+      ]
+     },
+     {
+      "type": "container",
+      "label": "Hero section",
+      "children": [
+       {
+        "type": "heading",
+        "label": "Cloud storage made simple",
+        "props": {
+         "level": 1
+        }
+       },
+       {
+        "type": "text",
+        "label": "Nimbus offers easy and reliable cloud storage solutions for everyone."
+       },
+       {
+        "type": "button",
+        "label": "Try free"
+       },
+       {
+        "type": "button",
+        "label": "Learn more"
+       },
+       {
+        "type": "image",
+        "label": "",
+        "props": {
+         "alt": "Hero image showing cloud storage concept",
+         "photo": "banner"
+        }
+       }
+      ]
+     },
+     {
+      "type": "container",
+      "label": "Feature cards",
+      "children": [
+       {
+        "type": "card",
+        "label": "Fast"
+       },
+       {
+        "type": "card",
+        "label": "Secure"
+       },
+       {
+        "type": "card",
+        "label": "Synced"
+       }
+      ]
+     }
+    ],
+    "page": {
+     "name": "Landing"
+    },
+    "meta": {
+     "title": "Nimbus Landing Page",
+     "category": "landing"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Try free button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Sign up"
+      }
+     ]
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Pricing nav_item"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Pricing"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 5272,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"navbar\",\"label\":\"Nimbus navbar\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"nav_item\",\"label\":\"Features\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"Pricing\",\"props\":null,\"style\":null},{\"type\":\"nav_item\",\"label\":\"About\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Get started\",\"props\":null,\"style\":null}]} ,{\"type\":\"container\",\"label\":\"Hero section\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"heading\",\"label\":\"Cloud storage made simple\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Nimbus offers easy and reliable cloud storage solutions for everyone.\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Try free\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Learn more\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Hero image showing cloud storage concept\",\"photo\":\"banner\",\"items\":null},\"style\":null}]} ,{\"type\":\"container\",\"label\":\"Feature cards\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"card\",\"label\":\"Fast\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Secure\",\"props\":null,\"style\":null},{\"type\":\"card\",\"label\":\"Synced\",\"props\":null,\"style\":null}]}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Landing\"},\"meta\":{\"title\":\"Nimbus Landing Page\",\"category\":\"landing\"},\"confidence\":0.98},{\"op\":\"interaction\",\"target\":{\"ref\":\"Try free button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Sign up\"}]},\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Pricing nav_item\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Pricing\"}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

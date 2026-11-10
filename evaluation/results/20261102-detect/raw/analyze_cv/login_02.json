@@ -1,0 +1,139 @@
+{
+ "_ok": true,
+ "_wall_ms": 5101.3,
+ "value": {
+  "components": [
+   {
+    "type": "header",
+    "label": "",
+    "bbox": {
+     "x": 0.051,
+     "y": 0.0736,
+     "w": 0.891,
+     "h": 0.1472
+    },
+    "confidence": 0.835,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Password",
+    "bbox": {
+     "x": 0.46,
+     "y": 0.1043,
+     "w": 0.232,
+     "h": 0.0798
+    },
+    "confidence": 0.854,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Friendly",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1104,
+     "w": 0.123,
+     "h": 0.069
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Email",
+    "bbox": {
+     "x": 0.21,
+     "y": 0.1058,
+     "w": 0.228,
+     "h": 0.0752
+    },
+    "confidence": 0.852,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Log In",
+    "bbox": {
+     "x": 0.718,
+     "y": 0.1074,
+     "w": 0.116,
+     "h": 0.0859
+    },
+    "confidence": 0.84,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Connect with friends",
+    "bbox": {
+     "x": 0.053,
+     "y": 0.3021,
+     "w": 0.313,
+     "h": 0.0537
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.3928,
+     "w": 0.6085,
+     "h": 0.1025
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.5245,
+     "w": 0.88,
+     "h": 0.3558
+    },
+    "confidence": 0.945,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 652,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 5016,
+   "vision_ms": 0,
+   "total_ms": 5101
+  },
+  "n_cv_candidates": 20
+ }
+}

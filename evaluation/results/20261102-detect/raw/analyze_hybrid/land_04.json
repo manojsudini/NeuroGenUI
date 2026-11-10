@@ -1,0 +1,380 @@
+{
+ "_ok": true,
+ "_wall_ms": 11244.7,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.0878,
+     "w": 0.9,
+     "h": 0.1398
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.924,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Flowly",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1154,
+     "w": 0.103,
+     "h": 0.0894
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.645,
+     "y": 0.1226,
+     "w": 0.0945,
+     "h": 0.0508
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.77,
+     "y": 0.1185,
+     "w": 0.0745,
+     "h": 0.0623
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Login",
+    "bbox": {
+     "x": 0.871,
+     "y": 0.1252,
+     "w": 0.063,
+     "h": 0.0602
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Simple pricing",
+    "bbox": {
+     "x": 0.378,
+     "y": 0.2715,
+     "w": 0.256,
+     "h": 0.1008
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.504,
+     "y": 0.2927,
+     "w": 0.122,
+     "h": 0.0699
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.3902,
+     "w": 0.282,
+     "h": 0.4911
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.95,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.357,
+     "y": 0.4016,
+     "w": 0.288,
+     "h": 0.4862
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.95,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.668,
+     "y": 0.4033,
+     "w": 0.279,
+     "h": 0.4878
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.838,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Basic",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.4407,
+     "w": 0.076,
+     "h": 0.0634
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "Pro",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.4423,
+     "w": 0.05,
+     "h": 0.0585
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "Team",
+    "bbox": {
+     "x": 0.692,
+     "y": 0.4455,
+     "w": 0.072,
+     "h": 0.0537
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "$99",
+    "bbox": {
+     "x": 0.689,
+     "y": 0.5333,
+     "w": 0.073,
+     "h": 0.0764
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "$9",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.5366,
+     "w": 0.049,
+     "h": 0.0715
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "$29",
+    "bbox": {
+     "x": 0.381,
+     "y": 0.535,
+     "w": 0.07,
+     "h": 0.0748
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "nav_item",
+    "label": "1 user",
+    "bbox": {
+     "x": 0.075,
+     "y": 0.6423,
+     "w": 0.091,
+     "h": 0.0504
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "5 users",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.6407,
+     "w": 0.106,
+     "h": 0.0553
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "heading",
+    "label": "50 users",
+    "bbox": {
+     "x": 0.693,
+     "y": 0.639,
+     "w": 0.117,
+     "h": 0.0553
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "5 projects",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.6943,
+     "w": 0.139,
+     "h": 0.0618
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "heading",
+    "label": "Priority support",
+    "bbox": {
+     "x": 0.71,
+     "y": 0.6943,
+     "w": 0.179,
+     "h": 0.0618
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "Unlimited projects",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.7041,
+     "w": 0.242,
+     "h": 0.1561
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Contact sales",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.7577,
+     "w": 0.243,
+     "h": 0.0846
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.857,
+    "source": "hybrid",
+    "parent": 9
+   },
+   {
+    "type": "nav_item",
+    "label": "Choose Basic",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.7756,
+     "w": 0.149,
+     "h": 0.0585
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   }
+  ],
+  "width": 1000,
+  "height": 615,
+  "mode": "hybrid",
+  "title": "Simple pricing page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 3837,
+   "vision_ms": 7299,
+   "total_ms": 11244
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 27
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "_ok": true,
+ "_wall_ms": 4732.7,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.43,
+     "y": 0.05,
+     "w": 0.14,
+     "h": 0.14
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jane Doe",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.21,
+     "w": 0.25,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Product designer",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.28,
+     "w": 0.18,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Follow",
+    "bbox": {
+     "x": 0.28,
+     "y": 0.35,
+     "w": 0.22,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Message",
+    "bbox": {
+     "x": 0.53,
+     "y": 0.35,
+     "w": 0.22,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.44,
+     "w": 0.5,
+     "h": 0.01
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "About",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.47,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.53,
+     "w": 0.5,
+     "h": 0.12
+    },
+    "confidence": 0.85,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 637,
+  "mode": "vision",
+  "title": "User Profile",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 4726,
+   "total_ms": 4732
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

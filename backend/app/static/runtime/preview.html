@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroGenUI preview</title>
+  <link rel="stylesheet" href="runtime.css" />
+  <script>window.NGUI_PHOTO_BASE = new URL("photos/", document.baseURI).pathname;</script>
+  <script src="vendor/react.production.min.js"></script>
+  <script src="vendor/react-dom.production.min.js"></script>
+  <script src="vendor/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+  (function () {
+    "use strict";
+    var roots = [];
+    var errors = [];
+    var originalCreateRoot = ReactDOM.createRoot;
+    ReactDOM.createRoot = function (el, options) {
+      var root = originalCreateRoot(el, options);
+      roots.push(root);
+      return root;
+    };
+
+    function post(message) {
+      if (window.parent && window.parent !== window) window.parent.postMessage(message, "*");
+    }
+
+    function recordError(message, stack) {
+      errors.push({ message: String(message), stack: stack ? String(stack) : "" });
+      post({ type: "ngui:error", message: String(message), stack: stack ? String(stack) : "" });
+    }
+
+    function showError(message) {
+      var box = document.getElementById("ngui-error");
+      if (!box) {
+        box = document.createElement("pre");
+        box.id = "ngui-error";
+        document.body.appendChild(box);
+      }
+      box.textContent = message;
+    }
+
+    window.addEventListener("error", function (event) {
+      recordError(event.message || "Script error", event.error && event.error.stack);
+    });
+    window.addEventListener("unhandledrejection", function (event) {
+      recordError((event.reason && event.reason.message) || String(event.reason), event.reason && event.reason.stack);
+    });
+    var originalConsoleError = console.error;
+    console.error = function () {
+      var text = Array.prototype.map.call(arguments, function (a) { return a && a.message ? a.message : String(a); }).join(" ");
+      errors.push({ message: text, stack: "", console: true });
+      originalConsoleError.apply(console, arguments);
+    };
+
+    function collectNodes() {
+      return Array.prototype.map.call(document.querySelectorAll("[data-ngid]"), function (el) {
+        var r = el.getBoundingClientRect();
+        return { id: el.getAttribute("data-ngid"), type: el.getAttribute("data-ngtype"),
+                 rect: { x: r.left + window.scrollX, y: r.top + window.scrollY, w: r.width, h: r.height } };
+      });
+    }
+
+    function reset() {
+      roots.forEach(function (root) { try { root.unmount(); } catch (e) { /* already gone */ } });
+      roots = [];
+      errors = [];
+      document.querySelectorAll("style[data-ngui]").forEach(function (el) { el.remove(); });
+      var old = document.getElementById("ngui-error");
+      if (old) old.remove();
+      var root = document.getElementById("root");
+      var fresh = document.createElement("div");
+      fresh.id = "root";
+      root.replaceWith(fresh);
+    }
+
+    function settle() {
+      return new Promise(function (resolve) {
+        requestAnimationFrame(function () { requestAnimationFrame(function () { setTimeout(resolve, 20); }); });
+      });
+    }
+
+    /** Transpile and run generated single-script JSX. Resolves with {ok, errors, nodes}. */
+    function run(code) {
+      reset();
+      var compiled;
+      try {
+        compiled = Babel.transform(code, { presets: ["react"], sourceType: "script", filename: "App.jsx" }).code;
+      } catch (e) {
+        recordError("Compile error: " + e.message, e.stack);
+        showError("Compile error\n\n" + e.message);
+        return Promise.resolve({ ok: false, errors: errors.slice(), nodes: [] });
+      }
+      try {
+        new Function("React", "ReactDOM", compiled)(React, ReactDOM);
+      } catch (e) {
+        recordError(e.message, e.stack);
+        showError("Runtime error\n\n" + e.message);
+      }
+      return settle().then(function () {
+        var nodes = collectNodes();
+        if (errors.length === 0 || nodes.length > 0) post({ type: "ngui:rendered", nodes: nodes });
+        if (nodes.length === 0 && errors.length) showError("Runtime error\n\n" + errors[0].message);
+        return { ok: errors.filter(function (e) { return !e.console; }).length === 0, errors: errors.slice(), nodes: nodes };
+      });
+    }
+
+    function highlight(id) {
+      document.querySelectorAll(".ngui-highlight").forEach(function (el) { el.classList.remove("ngui-highlight"); });
+      if (!id) return;
+      var el = document.querySelector('[data-ngid="' + String(id).replace(/"/g, "") + '"]');
+      if (el) {
+        el.classList.add("ngui-highlight");
+        el.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    }
+
+    window.__ngui = { run: run, errors: function () { return errors.slice(); }, nodes: collectNodes, highlight: highlight };
+
+    window.addEventListener("message", function (event) {
+      var data = event.data || {};
+      if (data.type === "ngui:code" && typeof data.code === "string") run(data.code);
+      else if (data.type === "ngui:highlight") highlight(data.id);
+    });
+
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("project")) {
+      var project = encodeURIComponent(params.get("project"));
+      var url = params.get("version")
+        ? "/api/projects/" + project + "/versions/" + encodeURIComponent(params.get("version"))
+        : "/api/project/" + project;
+      fetch(url)
+        .then(function (response) { return response.json(); })
+        .then(function (data) { return run((data.latest ? data.latest.preview : data.preview) || ""); })
+        .catch(function (e) { recordError("Could not load version: " + e.message); showError(e.message); });
+    }
+    post({ type: "ngui:ready" });
+  })();
+  </script>
+</body>
+</html>

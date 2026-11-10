@@ -1,0 +1,146 @@
+{
+ "_ok": true,
+ "_wall_ms": 5689.3,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.039,
+     "y": 0.0929,
+     "w": 0.428,
+     "h": 0.7821
+    },
+    "shape": "rect",
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Admin Portal",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.1089,
+     "w": 0.228,
+     "h": 0.0554
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Please sign in to continue",
+    "bbox": {
+     "x": 0.514,
+     "y": 0.2268,
+     "w": 0.257,
+     "h": 0.0375
+    },
+    "shape": "squiggle",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.511,
+     "y": 0.2821,
+     "w": 0.42,
+     "h": 0.1196
+    },
+    "shape": "rect",
+    "confidence": 0.906,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.4071,
+     "w": 0.422,
+     "h": 0.1161
+    },
+    "shape": "rect",
+    "confidence": 0.865,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Role",
+    "bbox": {
+     "x": 0.512,
+     "y": 0.5286,
+     "w": 0.419,
+     "h": 0.125
+    },
+    "shape": "rect",
+    "confidence": 0.892,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.897,
+     "y": 0.5804,
+     "w": 0.019,
+     "h": 0.025
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Login",
+    "bbox": {
+     "x": 0.586,
+     "y": 0.7036,
+     "w": 0.054,
+     "h": 0.0393
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Need help?",
+    "bbox": {
+     "x": 0.514,
+     "y": 0.8018,
+     "w": 0.118,
+     "h": 0.05
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Admin Portal Login",
+  "category": "login",
+  "timings": {
+   "cv_ms": 33,
+   "vision_ms": 5643,
+   "total_ms": 5688
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 13
+ }
+}

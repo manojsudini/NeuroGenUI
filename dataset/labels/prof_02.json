@@ -1,0 +1,288 @@
+{
+  "id": "prof_02",
+  "category": "profile",
+  "title": "Edit profile",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('prof_02')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 664,
+  "instruction": "An edit profile page: a navbar with the Pulse logo, Home and Profile links, the heading Edit profile, an avatar next to full name, email and phone fields, a Bio text area, and Save and Cancel buttons. Save checks the required fields and then shows Profile saved.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0412,
+        "y": 0.0839,
+        "w": 0.9045,
+        "h": 0.1123
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Pulse",
+      "bbox": {
+        "x": 0.0612,
+        "y": 0.105,
+        "w": 0.0735,
+        "h": 0.0702
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Home",
+      "bbox": {
+        "x": 0.7806,
+        "y": 0.1127,
+        "w": 0.0527,
+        "h": 0.0547
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Profile",
+      "bbox": {
+        "x": 0.8634,
+        "y": 0.1127,
+        "w": 0.0623,
+        "h": 0.0547
+      },
+      "parent": 0
+    },
+    {
+      "type": "heading",
+      "label": "Edit profile",
+      "bbox": {
+        "x": 0.0412,
+        "y": 0.2263,
+        "w": 0.176,
+        "h": 0.0831
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0412,
+        "y": 0.3396,
+        "w": 0.13,
+        "h": 0.1958
+      },
+      "parent": null,
+      "props": {
+        "alt": "avatar",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Full name",
+      "bbox": {
+        "x": 0.2541,
+        "y": 0.3396,
+        "w": 0.6916,
+        "h": 0.0813
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2541,
+        "y": 0.442,
+        "w": 0.6916,
+        "h": 0.0813
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Phone",
+      "bbox": {
+        "x": 0.2541,
+        "y": 0.5444,
+        "w": 0.6916,
+        "h": 0.0813
+      },
+      "parent": null,
+      "props": {
+        "inputType": "tel"
+      }
+    },
+    {
+      "type": "textarea",
+      "label": "Bio",
+      "bbox": {
+        "x": 0.0412,
+        "y": 0.6558,
+        "w": 0.9045,
+        "h": 0.1687
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Save",
+      "bbox": {
+        "x": 0.0412,
+        "y": 0.8546,
+        "w": 0.1258,
+        "h": 0.0813
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Cancel",
+      "bbox": {
+        "x": 0.191,
+        "y": 0.8546,
+        "w": 0.15,
+        "h": 0.0813
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Pulse",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Home",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Profile",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Edit profile",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Full name",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Phone",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Phone",
+      "input_type": "tel",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "textarea",
+      "label_contains": "Bio",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Save",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Cancel",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Save",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "saved"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

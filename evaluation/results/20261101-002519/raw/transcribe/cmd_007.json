@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 2426.6,
+ "value": {
+  "text": "Can you add a checkbox for SMS alerts right after email updates?",
+  "model": "whisper-1",
+  "duration_ms": 2426
+ }
+}

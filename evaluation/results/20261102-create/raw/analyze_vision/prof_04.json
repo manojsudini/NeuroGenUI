@@ -1,0 +1,137 @@
+{
+ "_ok": true,
+ "_wall_ms": 5509.9,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "My Account",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.18,
+     "w": 0.5,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.27,
+     "w": 0.7,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.178,
+     "y": 0.3,
+     "w": 0.112,
+     "h": 0.114
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Priya Shah",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.3,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "priya@mail.com",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.36,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "link",
+    "label": "My orders",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.5,
+     "w": 0.3,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Saved addresses",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.58,
+     "w": 0.4,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Payment methods",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.66,
+     "w": 0.45,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Log out",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.83,
+     "w": 0.7,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 572,
+  "mode": "vision",
+  "title": "My Account",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5502,
+   "total_ms": 5509
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

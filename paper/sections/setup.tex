@@ -1,0 +1,23 @@
+\section{Experimental Setup}
+\subsection{Dataset}
+\textbf{Sketches.} We built \CountSketches{} UI sketches, four for each of \CountCategories{} screen categories: login, registration, dashboard, profile, e-commerce, banking, booking, contact, settings and landing page. Each screen is specified as a component tree with varied layouts (navigation bars, multi-column rows, cards, image placeholders, radio and checkbox groups, selects, multiple buttons). It is rendered in a hand-drawn style with jittered, overshooting multi-segment strokes, slightly rotated and non-closed rectangles, varying pen width, three handwriting fonts and paper noise. Ground truth (type, label, normalised box and parent for \CountGtComponents{} components) comes from the specification. Each sketch also has a natural spoken description used in the generation step, plus the interactions and requirements that description implies. The sketches are \emph{synthetic}; Section~\ref{sec:limits} discusses what this implies.
+
+\textbf{Voice commands.} We wrote \CountCommands{} commands, ten for each of add, remove, modify, move, resize, style, interaction and navigation. They include all seven example commands of the project specification (e.g., ``Make the login button blue'', ``Add a forgot password link below the login button''). Each command is tied to a sketch, labelled with its expected operation, target and parameters, and has a machine-checkable post-condition evaluated on the rendered UI. Each command was synthesised to speech with a text-to-speech model, rotating six voices, so that Whisper transcribes real audio.
+
+\subsection{Baseline}
+The baseline is the direct \emph{sketch$\rightarrow$AI$\rightarrow$UI} approach: one call to the same vision model (GPT-4.1-mini) receives the sketch and the spoken instruction and returns a complete React program. Modification sends the previous program and the command, and receives a regenerated program. The baseline prompt is a competent, fair prompt, and its output follows the same runtime contract, so the same renderer measures both systems.
+
+\subsection{Metrics}
+All metrics are computed by the same code for both systems. Measurement never uses the pipeline's internal \texttt{data-ngid} attributes; components are recovered from the rendered DOM by tags, ARIA roles, input types and visual cues.
+\begin{itemize}
+\item \textit{Component detection}: Hungarian matching~\cite{kuhn1955hungarian} of predicted to ground-truth boxes (IoU $\geq 0.3$). A match counts as a true positive when the types agree. Precision, recall and F1 are micro-averaged. It is measured on the analysis output (\texttt{cv}/\texttt{vision}/\texttt{hybrid}) and on the rendered DOM of each system.
+\item \textit{Voice command accuracy}: Whisper word error rate (WER), plus the share of commands whose operation type, target and parameters are all interpreted correctly, from both the reference text and the Whisper transcript.
+\item \textit{Visual similarity}: mean layout IoU between ground-truth components and their assigned rendered elements, and SSIM~\cite{wang2004ssim} between dilated Canny~\cite{canny1986edge} edge maps of the sketch and the screenshot.
+\item \textit{Functional correctness}: the share of specified interactions that work when simulated in the browser. \textit{Requirement satisfaction}: the share of instruction-derived requirements (named components, input types, behaviours) that are met.
+\item \textit{Refinement success}: the share of commands whose post-condition holds on the refined UI. \textit{Preservation}: the share of non-target components unchanged in type, text, colour, size and font.
+\item \textit{Validation pass rate} before and after repair, and a \textit{fault-injection} study: deleted, hidden, zero-size and reordered nodes, broken events and injected runtime errors, scored by whether the validator detects each fault and whether repair removes it.
+\item \textit{Generation time} per stage and end to end, and \textit{code quality}: parse success, lines of code, components, reuse ratio (component usages per definition), longest function and ESLint messages.
+\end{itemize}
+
+\subsection{Implementation}
+The backend is Python (FastAPI, OpenCV, Playwright, SQLite for projects and versions), and the studio front end is React. The models are GPT-4.1-mini for vision and intent and \texttt{whisper-1} for speech, through the OpenAI API. The evaluation reran every stage in-process with cached raw model outputs, so metrics can be recomputed without further API calls. The full run made \ApiCalls{} model calls.

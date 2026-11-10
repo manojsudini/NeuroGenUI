@@ -1,0 +1,364 @@
+{
+ "_ok": true,
+ "_wall_ms": 2030.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.0739,
+     "w": 0.866,
+     "h": 0.1062
+    },
+    "confidence": 0.757,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Nimbus",
+    "bbox": {
+     "x": 0.079,
+     "y": 0.1022,
+     "w": 0.105,
+     "h": 0.0511
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.1008,
+     "w": 0.089,
+     "h": 0.0417
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.56,
+     "y": 0.1008,
+     "w": 0.076,
+     "h": 0.047
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "About",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.1022,
+     "w": 0.06,
+     "h": 0.0403
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Get started",
+    "bbox": {
+     "x": 0.774,
+     "y": 0.1035,
+     "w": 0.112,
+     "h": 0.0403
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.516,
+     "y": 0.2137,
+     "w": 0.416,
+     "h": 0.4059
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.2285,
+     "w": 0.432,
+     "h": 0.0659
+    },
+    "confidence": 0.873,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3181,
+     "w": 0.3875,
+     "h": 0.0891
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.274,
+     "y": 0.4328,
+     "w": 0.198,
+     "h": 0.0739
+    },
+    "confidence": 0.911,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.4368,
+     "w": 0.196,
+     "h": 0.0685
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.6478,
+     "w": 0.286,
+     "h": 0.2796
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.6586,
+     "w": 0.271,
+     "h": 0.2715
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.361,
+     "y": 0.6559,
+     "w": 0.273,
+     "h": 0.2715
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.379,
+     "y": 0.6722,
+     "w": 0.0485,
+     "h": 0.0821
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 13
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6868,
+     "w": 0.043,
+     "h": 0.0632
+    },
+    "confidence": 0.869,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 12
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.6895,
+     "w": 0.042,
+     "h": 0.0578
+    },
+    "confidence": 0.887,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": 11
+   },
+   {
+    "type": "heading",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.08,
+     "y": 0.7728,
+     "w": 0.055,
+     "h": 0.0457
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 12
+   },
+   {
+    "type": "heading",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.377,
+     "y": 0.7728,
+     "w": 0.082,
+     "h": 0.047
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 13
+   },
+   {
+    "type": "heading",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.675,
+     "y": 0.7688,
+     "w": 0.085,
+     "h": 0.0591
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.8379,
+     "w": 0.2205,
+     "h": 0.0546
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.379,
+     "y": 0.8422,
+     "w": 0.1765,
+     "h": 0.0504
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.684,
+     "y": 0.8418,
+     "w": 0.1435,
+     "h": 0.0507
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": 11
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 1941,
+   "vision_ms": 0,
+   "total_ms": 2030
+  },
+  "n_cv_candidates": 36
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "_ok": true,
+ "_wall_ms": 6932.8,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.15,
+     "y": 0.12,
+     "w": 0.7,
+     "h": 0.76
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.46,
+     "y": 0.1504,
+     "w": 0.07,
+     "h": 0.0596
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Welcome back",
+    "bbox": {
+     "x": 0.33,
+     "y": 0.23,
+     "w": 0.34,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Username",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.33,
+     "w": 0.18,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.37,
+     "w": 0.62,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Password",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.46,
+     "w": 0.18,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.51,
+     "w": 0.62,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "checkbox",
+    "label": "Remember me",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.6,
+     "w": 0.28,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Forgot password?",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.6,
+     "w": 0.28,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Sign in",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.66,
+     "w": 0.62,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Continue with Google",
+    "bbox": {
+     "x": 0.18,
+     "y": 0.76,
+     "w": 0.62,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Create an account",
+    "bbox": {
+     "x": 0.33,
+     "y": 0.86,
+     "w": 0.34,
+     "h": 0.005
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   }
+  ],
+  "width": 1000,
+  "height": 698,
+  "mode": "vision",
+  "title": "Login form",
+  "category": "login",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6917,
+   "total_ms": 6932
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

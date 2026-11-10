@@ -1,0 +1,140 @@
+{
+ "_ok": true,
+ "_wall_ms": 17813.8,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "Step 1 of 2",
+    "bbox": {
+     "x": 0.277,
+     "y": 0.0931,
+     "w": 0.107,
+     "h": 0.0569
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Your details",
+    "bbox": {
+     "x": 0.279,
+     "y": 0.1914,
+     "w": 0.191,
+     "h": 0.069
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Username",
+    "bbox": {
+     "x": 0.277,
+     "y": 0.3017,
+     "w": 0.462,
+     "h": 0.0897
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.282,
+     "y": 0.4379,
+     "w": 0.459,
+     "h": 0.0897
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.843,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Date of birth",
+    "bbox": {
+     "x": 0.279,
+     "y": 0.5483,
+     "w": 0.457,
+     "h": 0.0897
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.861,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "City",
+    "bbox": {
+     "x": 0.277,
+     "y": 0.6655,
+     "w": 0.465,
+     "h": 0.1017
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.872,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Back",
+    "bbox": {
+     "x": 0.276,
+     "y": 0.7966,
+     "w": 0.222,
+     "h": 0.0931
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.891,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Next",
+    "bbox": {
+     "x": 0.523,
+     "y": 0.8034,
+     "w": 0.217,
+     "h": 0.0845
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 580,
+  "mode": "hybrid",
+  "title": "User Details Form Step 1",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 12084,
+   "vision_ms": 5347,
+   "total_ms": 17813
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 16
+ }
+}

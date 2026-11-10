@@ -1,0 +1,246 @@
+{
+  "id": "login_03",
+  "category": "login",
+  "title": "Welcome back",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('login_03')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 698,
+  "instruction": "A centered sign in card: a user icon, the heading Welcome back, username and password fields, a Remember me checkbox with a Forgot password? link next to it, a full width Sign in button, a divider, a Continue with Google button and a Create an account link. Sign in must show an error when the fields are empty, and Create an account opens a Register page.",
+  "components": [
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2343,
+        "y": 0.0832,
+        "w": 0.4859,
+        "h": 0.8291
+      },
+      "parent": null
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.4553,
+        "y": 0.1148,
+        "w": 0.044,
+        "h": 0.063
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "user"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Welcome back",
+      "bbox": {
+        "x": 0.3731,
+        "y": 0.2007,
+        "w": 0.2083,
+        "h": 0.0744
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "input",
+      "label": "Username",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.298,
+        "w": 0.4419,
+        "h": 0.0774
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Password",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.3983,
+        "w": 0.4419,
+        "h": 0.0774
+      },
+      "parent": 0,
+      "props": {
+        "inputType": "password"
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Remember me",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.4986,
+        "w": 0.1861,
+        "h": 0.0458
+      },
+      "parent": 0
+    },
+    {
+      "type": "link",
+      "label": "Forgot password?",
+      "bbox": {
+        "x": 0.5115,
+        "y": 0.4986,
+        "w": 0.1867,
+        "h": 0.0579
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "Sign in",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.5794,
+        "w": 0.4419,
+        "h": 0.0774
+      },
+      "parent": 0
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.6797,
+        "w": 0.4419,
+        "h": 0.0201
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "Continue with Google",
+      "bbox": {
+        "x": 0.2563,
+        "y": 0.7227,
+        "w": 0.4419,
+        "h": 0.0774
+      },
+      "parent": 0,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "link",
+      "label": "Create an account",
+      "bbox": {
+        "x": 0.3792,
+        "y": 0.8229,
+        "w": 0.1961,
+        "h": 0.0579
+      },
+      "parent": 0
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Sign in",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Create an account",
+      "expect": {
+        "type": "navigate",
+        "page": "Register"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Welcome back",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Username",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Password",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Password",
+      "input_type": "password",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Remember me",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Forgot password?",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Sign in",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Continue with Google",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Create an account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Sign in",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Create an account",
+      "expect": {
+        "type": "navigate",
+        "page": "Register"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

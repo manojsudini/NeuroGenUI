@@ -1,0 +1,479 @@
+{
+ "source": "real hybrid analysis of dataset/sketches/land_01.png (project p_7bcef944 v1, gpt-4.1-mini), recorded 2026-11-01",
+ "analysis": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "Nimbus Features Pricing About Get started",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.0524,
+     "w": 0.875,
+     "h": 0.1384
+    },
+    "confidence": 0.853,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.567,
+     "y": 0.1116,
+     "w": 0.064,
+     "h": 0.0363
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Features",
+    "bbox": {
+     "x": 0.451,
+     "y": 0.1223,
+     "w": 0.052,
+     "h": 0.0349
+    },
+    "confidence": 0.841,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.2056,
+     "w": 0.431,
+     "h": 0.422
+    },
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Cl",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.2366,
+     "w": 0.035,
+     "h": 0.0457
+    },
+    "confidence": 0.736,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.103,
+     "y": 0.2352,
+     "w": 0.391,
+     "h": 0.0632
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.3226,
+     "w": 0.384,
+     "h": 0.0834
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.38,
+     "w": 0.12,
+     "h": 0.06
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.38,
+     "w": 0.14,
+     "h": 0.06
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.4274,
+     "w": 0.202,
+     "h": 0.0833
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.4261,
+     "w": 0.207,
+     "h": 0.0901
+    },
+    "confidence": 0.905,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.12,
+     "y": 0.62,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.62,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.65,
+     "y": 0.62,
+     "w": 0.12,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.6546,
+     "w": 0.281,
+     "h": 0.2823
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.358,
+     "y": 0.6505,
+     "w": 0.279,
+     "h": 0.2836
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.6478,
+     "w": 0.286,
+     "h": 0.2796
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6868,
+     "w": 0.043,
+     "h": 0.0632
+    },
+    "confidence": 0.835,
+    "source": "hybrid",
+    "parent": 14
+   },
+   {
+    "type": "heading",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.6895,
+     "w": 0.045,
+     "h": 0.0578
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 15
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.6895,
+     "w": 0.042,
+     "h": 0.0578
+    },
+    "confidence": 0.844,
+    "source": "hybrid",
+    "parent": 16
+   },
+   {
+    "type": "text",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.7823,
+     "w": 0.043,
+     "h": 0.0269
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.7823,
+     "w": 0.07,
+     "h": 0.0282
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 15
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.682,
+     "y": 0.7809,
+     "w": 0.072,
+     "h": 0.0403
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 16
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.8427,
+     "w": 0.217,
+     "h": 0.0485
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.8454,
+     "w": 0.173,
+     "h": 0.0457
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 15
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.687,
+     "y": 0.8454,
+     "w": 0.14,
+     "h": 0.0458
+    },
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": 16
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "hybrid",
+  "title": "Nimbus Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 96,
+   "vision_ms": 7893,
+   "total_ms": 8001
+  },
+  "cv_candidates": 32,
+  "model": "gpt-4.1-mini-2025-04-14",
+  "overlay_url": "/files/overlays/s_247dfa64_hybrid.png",
+  "sketch_id": "s_247dfa64"
+ },
+ "ops": [
+  {
+   "op": "create",
+   "components": [
+    {
+     "type": "navbar",
+     "label": "Main navigation",
+     "children": [
+      {
+       "type": "nav_item",
+       "label": "Features"
+      },
+      {
+       "type": "nav_item",
+       "label": "Pricing"
+      },
+      {
+       "type": "nav_item",
+       "label": "About"
+      },
+      {
+       "type": "button",
+       "label": "Get started"
+      }
+     ]
+    },
+    {
+     "type": "container",
+     "label": "Hero section",
+     "children": [
+      {
+       "type": "heading",
+       "label": "Cloud storage made simple",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "text",
+       "label": "Paragraph"
+      },
+      {
+       "type": "button",
+       "label": "Try free"
+      },
+      {
+       "type": "button",
+       "label": "Learn more"
+      },
+      {
+       "type": "image",
+       "label": "Hero image",
+       "props": {
+        "alt": "Hero image",
+        "photo": "banner"
+       }
+      }
+     ]
+    },
+    {
+     "type": "container",
+     "label": "Feature cards",
+     "children": [
+      {
+       "type": "card",
+       "label": "Fast"
+      },
+      {
+       "type": "card",
+       "label": "Secure"
+      },
+      {
+       "type": "card",
+       "label": "Synced"
+      }
+     ]
+    }
+   ],
+   "page": {
+    "name": "Landing"
+   },
+   "meta": {
+    "title": "Nimbus Landing Page",
+    "category": "landing"
+   },
+   "confidence": 0.98
+  },
+  {
+   "op": "interaction",
+   "target": {
+    "ref": "Try free button"
+   },
+   "event": {
+    "on": "click",
+    "actions": [
+     {
+      "type": "navigate",
+      "page": "Sign up"
+     }
+    ]
+   },
+   "confidence": 0.95
+  },
+  {
+   "op": "interaction",
+   "target": {
+    "ref": "Pricing nav_item"
+   },
+   "event": {
+    "on": "click",
+    "actions": [
+     {
+      "type": "navigate",
+      "page": "Pricing"
+     }
+    ]
+   },
+   "confidence": 0.95
+  }
+ ]
+}

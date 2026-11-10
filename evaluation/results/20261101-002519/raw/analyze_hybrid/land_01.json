@@ -1,0 +1,501 @@
+{
+ "_ok": true,
+ "_wall_ms": 15434.0,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "Nimbus",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Features",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "About",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.03,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "navbar",
+    "label": "Nimbus Features Pricing About Get started",
+    "bbox": {
+     "x": 0.058,
+     "y": 0.0524,
+     "w": 0.875,
+     "h": 0.1384
+    },
+    "confidence": 0.853,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.567,
+     "y": 0.1116,
+     "w": 0.064,
+     "h": 0.0363
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.12,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Features",
+    "bbox": {
+     "x": 0.451,
+     "y": 0.1223,
+     "w": 0.052,
+     "h": 0.0349
+    },
+    "confidence": 0.841,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.2056,
+     "w": 0.431,
+     "h": 0.422
+    },
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "C",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.2366,
+     "w": 0.035,
+     "h": 0.0457
+    },
+    "confidence": 0.786,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.103,
+     "y": 0.2352,
+     "w": 0.391,
+     "h": 0.0632
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.3226,
+     "w": 0.184,
+     "h": 0.0148
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.3239,
+     "w": 0.178,
+     "h": 0.0134
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.074,
+     "y": 0.3589,
+     "w": 0.125,
+     "h": 0.0134
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.211,
+     "y": 0.3575,
+     "w": 0.236,
+     "h": 0.0148
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.076,
+     "y": 0.3965,
+     "w": 0.14,
+     "h": 0.0094
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.217,
+     "y": 0.3952,
+     "w": 0.106,
+     "h": 0.0108
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.4274,
+     "w": 0.202,
+     "h": 0.0833
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.4261,
+     "w": 0.207,
+     "h": 0.0901
+    },
+    "confidence": 0.93,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.6546,
+     "w": 0.281,
+     "h": 0.2823
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.65,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 18
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.358,
+     "y": 0.6505,
+     "w": 0.279,
+     "h": 0.2836
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.65,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 20
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.6478,
+     "w": 0.286,
+     "h": 0.2796
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.65,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 22
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6868,
+     "w": 0.043,
+     "h": 0.0632
+    },
+    "confidence": 0.784,
+    "source": "hybrid",
+    "parent": 18
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.6895,
+     "w": 0.045,
+     "h": 0.0578
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.6895,
+     "w": 0.042,
+     "h": 0.0578
+    },
+    "confidence": 0.793,
+    "source": "hybrid",
+    "parent": 22
+   },
+   {
+    "type": "text",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.7823,
+     "w": 0.043,
+     "h": 0.0269
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 18
+   },
+   {
+    "type": "text",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.7823,
+     "w": 0.07,
+     "h": 0.0282
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "text",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.682,
+     "y": 0.7809,
+     "w": 0.072,
+     "h": 0.0403
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 22
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.8427,
+     "w": 0.217,
+     "h": 0.0161
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 18
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.8454,
+     "w": 0.063,
+     "h": 0.0108
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.457,
+     "y": 0.8454,
+     "w": 0.098,
+     "h": 0.0108
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.687,
+     "y": 0.8454,
+     "w": 0.105,
+     "h": 0.0121
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 22
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.8804,
+     "w": 0.128,
+     "h": 0.0108
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 18
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.382,
+     "y": 0.879,
+     "w": 0.133,
+     "h": 0.0121
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 20
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.687,
+     "y": 0.8804,
+     "w": 0.14,
+     "h": 0.0108
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 22
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "hybrid",
+  "title": "Nimbus Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 69,
+   "vision_ms": 15354,
+   "total_ms": 15433
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 32
+ }
+}

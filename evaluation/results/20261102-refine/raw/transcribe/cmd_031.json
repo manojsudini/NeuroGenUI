@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 683.5,
+ "value": {
+  "text": "Move the button below the password field.",
+  "model": "whisper-1",
+  "duration_ms": 683
+ }
+}

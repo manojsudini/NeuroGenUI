@@ -1,0 +1,126 @@
+{
+ "_ok": true,
+ "_wall_ms": 5557.5,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "container",
+      "label": "product detail container",
+      "children": [
+       {
+        "type": "image",
+        "label": "",
+        "props": {
+         "alt": "Product photo of Running Shoes",
+         "photo": "product"
+        },
+        "style": {
+         "width": "50%"
+        }
+       },
+       {
+        "type": "container",
+        "label": "product info container",
+        "style": {
+         "width": "50%"
+        }
+       },
+       {
+        "type": "heading",
+        "label": "Running Shoes",
+        "props": {
+         "level": 1
+        }
+       },
+       {
+        "type": "text",
+        "label": "$89"
+       },
+       {
+        "type": "text",
+        "label": "High-quality running shoes designed for comfort and performance."
+       },
+       {
+        "type": "select",
+        "label": "Size",
+        "props": {
+         "name": "size",
+         "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+         ],
+         "items": [
+          "7",
+          "8",
+          "9",
+          "10"
+         ]
+        }
+       },
+       {
+        "type": "input",
+        "label": "Quantity",
+        "props": {
+         "inputType": "number",
+         "placeholder": "1",
+         "name": "quantity"
+        }
+       },
+       {
+        "type": "button",
+        "label": "Add to cart"
+       },
+       {
+        "type": "button",
+        "label": "Buy now"
+       }
+      ]
+     }
+    ],
+    "page": {
+     "name": "Product Detail"
+    },
+    "meta": {
+     "title": "Product Detail",
+     "category": "ecommerce"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Add to cart button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "Added to cart",
+       "tone": "success"
+      }
+     ]
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Buy now button"
+    },
+    "page": {
+     "name": "Checkout"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 5557,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"container\",\"label\":\"product detail container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Product photo of Running Shoes\",\"photo\":\"product\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"50%\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},{\"type\":\"container\",\"label\":\"product info container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"50%\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null} \t},{\"type\":\"heading\",\"label\":\"Running Shoes\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"$89\",\"props\":null,\"style\":null},{\"type\":\"text\",\"label\":\"High-quality running shoes designed for comfort and performance.\",\"props\":null,\"style\":null},{\"type\":\"select\",\"label\":\"Size\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"size\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":[\"7\",\"8\",\"9\",\"10\"],\"alt\":null,\"photo\":null,\"items\":[\"7\",\"8\",\"9\",\"10\"]},\"style\":null},{\"type\":\"input\",\"label\":\"Quantity\",\"props\":{\"level\":null,\"inputType\":\"number\",\"placeholder\":\"1\",\"required\":null,\"name\":\"quantity\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"button\",\"label\":\"Add to cart\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Buy now\",\"props\":null,\"style\":null}]}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Product Detail\"},\"meta\":{\"title\":\"Product Detail\",\"category\":\"ecommerce\"},\"confidence\":0.98},{\"op\":\"interaction\",\"target\":{\"ref\":\"Add to cart button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"Added to cart\",\"tone\":\"success\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"Buy now button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Checkout\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

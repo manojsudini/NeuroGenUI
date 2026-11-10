@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Generated UI quality: visual similarity, functional correctness, requirement satisfaction}
+\label{tab:quality}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{System} & \textbf{Sketches} & \textbf{Renders \%} & \textbf{Layout IoU} & \textbf{Edge SSIM} & \textbf{Functional \% (n)} & \textbf{Requirements \% (n)} \\
+\midrule
+Proposed (NeuroGenUI) & 40 & 100.0 & 0.399 & 0.522 & 94.8 (58) & 87.5 (407) \\
+Proposed, before repair & 40 & 100.0 & 0.399 & 0.522 & 94.8 (58) & 87.5 (407) \\
+Baseline (sketch$\rightarrow$AI$\rightarrow$UI) & 40 & 100.0 & 0.283 & 0.509 & 86.2 (58) & 86.0 (407) \\
+Oracle (GT IR) & 40 & 100.0 & 0.593 & 0.551 & 6.9 (58) & 85.3 (407) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

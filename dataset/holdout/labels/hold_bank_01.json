@@ -1,0 +1,230 @@
+{
+  "id": "hold_bank_01",
+  "category": "banking",
+  "title": "Pay a bill",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_bank_01')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pen",
+    "layout": "narrow",
+    "style": "harsh",
+    "page_rotation_deg": 1.96,
+    "scratch_outs": 3
+  },
+  "width": 1000,
+  "height": 607,
+  "instruction": "A bill payment form with the heading Pay a bill, a Biller dropdown (Electricity, Water, Internet), Account number, Amount and Pay on date fields, a Repeat monthly checkbox, and Pay now and Cancel buttons. Pay now shows an error if required fields are empty and Cancel opens an Accounts page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "Pay a bill",
+      "bbox": {
+        "x": 0.2017,
+        "y": 0.1198,
+        "w": 0.1588,
+        "h": 0.0995
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "select",
+      "label": "Biller",
+      "bbox": {
+        "x": 0.1987,
+        "y": 0.2359,
+        "w": 0.6122,
+        "h": 0.1202
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Electricity",
+          "Water",
+          "Internet"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Account number",
+      "bbox": {
+        "x": 0.1957,
+        "y": 0.3479,
+        "w": 0.6114,
+        "h": 0.1187
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Amount",
+      "bbox": {
+        "x": 0.1927,
+        "y": 0.4596,
+        "w": 0.6106,
+        "h": 0.1172
+      },
+      "parent": null,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Pay on",
+      "bbox": {
+        "x": 0.1898,
+        "y": 0.5709,
+        "w": 0.6099,
+        "h": 0.1157
+      },
+      "parent": null,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "checkbox",
+      "label": "Repeat monthly",
+      "bbox": {
+        "x": 0.1878,
+        "y": 0.682,
+        "w": 0.1929,
+        "h": 0.0599
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Pay now",
+      "bbox": {
+        "x": 0.1848,
+        "y": 0.758,
+        "w": 0.1429,
+        "h": 0.0918
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Cancel",
+      "bbox": {
+        "x": 0.499,
+        "y": 0.773,
+        "w": 0.1202,
+        "h": 0.0902
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Pay now",
+      "expect": {
+        "type": "validate_required"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Cancel",
+      "expect": {
+        "type": "navigate",
+        "page": "Accounts"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Pay a bill",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Biller",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Account number",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Amount",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Amount",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Pay on",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Pay on",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "checkbox",
+      "label_contains": "Repeat monthly",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Pay now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Cancel",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Pay now",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Cancel",
+      "expect": {
+        "type": "navigate",
+        "page": "Accounts"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

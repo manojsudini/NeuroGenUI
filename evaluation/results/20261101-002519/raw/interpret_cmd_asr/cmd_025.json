@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2045.3,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "new arrivals heading",
+     "id": "h_new_arrivals"
+    },
+    "changes": {
+     "label": "Best Sellers"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2044,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"new arrivals heading\",\"id\":\"h_new_arrivals\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Best Sellers\",\"props\":null,\"style\":null},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

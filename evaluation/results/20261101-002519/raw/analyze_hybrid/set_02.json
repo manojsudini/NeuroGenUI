@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 6776.2,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.0893,
+     "w": 0.219,
+     "h": 0.6696
+    },
+    "confidence": 0.943,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "General",
+    "bbox": {
+     "x": 0.322,
+     "y": 0.1232,
+     "w": 0.134,
+     "h": 0.05
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "General",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.1464,
+     "w": 0.074,
+     "h": 0.0321
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.318,
+     "y": 0.1875,
+     "w": 0.15,
+     "h": 0.0125
+    },
+    "confidence": 0.875,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Display name",
+    "bbox": {
+     "x": 0.313,
+     "y": 0.2143,
+     "w": 0.634,
+     "h": 0.1179
+    },
+    "confidence": 0.927,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Security",
+    "bbox": {
+     "x": 0.093,
+     "y": 0.2446,
+     "w": 0.086,
+     "h": 0.0393
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Display name",
+    "bbox": {
+     "x": 0.333,
+     "y": 0.2518,
+     "w": 0.122,
+     "h": 0.0393
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Billing",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.3393,
+     "w": 0.05,
+     "h": 0.0321
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.333,
+     "y": 0.3768,
+     "w": 0.044,
+     "h": 0.0268
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.093,
+     "y": 0.4286,
+     "w": 0.126,
+     "h": 0.0357
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Language",
+    "bbox": {
+     "x": 0.317,
+     "y": 0.4625,
+     "w": 0.624,
+     "h": 0.1232
+    },
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.906,
+     "y": 0.5089,
+     "w": 0.021,
+     "h": 0.0214
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Time zone",
+    "bbox": {
+     "x": 0.311,
+     "y": 0.5857,
+     "w": 0.634,
+     "h": 0.1286
+    },
+    "confidence": 0.883,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.907,
+     "y": 0.6321,
+     "w": 0.02,
+     "h": 0.0232
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Save changes",
+    "bbox": {
+     "x": 0.315,
+     "y": 0.7107,
+     "w": 0.206,
+     "h": 0.1125
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save changes",
+    "bbox": {
+     "x": 0.347,
+     "y": 0.7536,
+     "w": 0.143,
+     "h": 0.0321
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Settings General",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 35,
+   "vision_ms": 6730,
+   "total_ms": 6776
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 18
+ }
+}

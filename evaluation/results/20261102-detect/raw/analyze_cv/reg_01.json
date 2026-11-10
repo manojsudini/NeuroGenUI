@@ -1,0 +1,152 @@
+{
+ "_ok": true,
+ "_wall_ms": 6551.8,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Create Account",
+    "bbox": {
+     "x": 0.342,
+     "y": 0.0888,
+     "w": 0.301,
+     "h": 0.0641
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Fullname",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.1908,
+     "w": 0.479,
+     "h": 0.0954
+    },
+    "confidence": 0.819,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.3042,
+     "w": 0.479,
+     "h": 0.0954
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Password",
+    "bbox": {
+     "x": 0.254,
+     "y": 0.4211,
+     "w": 0.479,
+     "h": 0.0954
+    },
+    "confidence": 0.842,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Confirm password",
+    "bbox": {
+     "x": 0.253,
+     "y": 0.5461,
+     "w": 0.476,
+     "h": 0.0921
+    },
+    "confidence": 0.847,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.243,
+     "y": 0.6567,
+     "w": 0.2555,
+     "h": 0.0677
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "agree to the terms",
+    "bbox": {
+     "x": 0.289,
+     "y": 0.6661,
+     "w": 0.212,
+     "h": 0.0493
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Reqister",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.7434,
+     "w": 0.478,
+     "h": 0.0855
+    },
+    "confidence": 0.879,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Already have an account? Login",
+    "bbox": {
+     "x": 0.326,
+     "y": 0.8635,
+     "w": 0.331,
+     "h": 0.0559
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 608,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 6388,
+   "vision_ms": 0,
+   "total_ms": 6551
+  },
+  "n_cv_candidates": 15
+ }
+}

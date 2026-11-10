@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 2120.9,
+ "value": {
+  "text": "Make the product image smaller.",
+  "model": "whisper-1",
+  "duration_ms": 2120
+ }
+}

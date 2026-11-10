@@ -1,0 +1,243 @@
+{
+ "_ok": true,
+ "_wall_ms": 5029.2,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.0823,
+     "w": 0.518,
+     "h": 0.1598
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Hi",
+    "bbox": {
+     "x": 0.329,
+     "y": 0.1329,
+     "w": 0.039,
+     "h": 0.0554
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.1345,
+     "w": 0.029,
+     "h": 0.0459
+    },
+    "shape": "circle",
+    "confidence": 0.882,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Sam",
+    "bbox": {
+     "x": 0.424,
+     "y": 0.1566,
+     "w": 0.023,
+     "h": 0.0253
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.234,
+     "y": 0.2437,
+     "w": 0.523,
+     "h": 0.2801
+    },
+    "shape": "rect",
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Balance",
+    "bbox": {
+     "x": 0.268,
+     "y": 0.3038,
+     "w": 0.084,
+     "h": 0.038
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "$2",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.3892,
+     "w": 0.059,
+     "h": 0.0728
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "450",
+    "bbox": {
+     "x": 0.266,
+     "y": 0.3892,
+     "w": 0.137,
+     "h": 0.0712
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.5348,
+     "w": 0.248,
+     "h": 0.0997
+    },
+    "shape": "rect",
+    "confidence": 0.908,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Request",
+    "bbox": {
+     "x": 0.508,
+     "y": 0.5269,
+     "w": 0.248,
+     "h": 0.0965
+    },
+    "shape": "rect",
+    "confidence": 0.899,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Activity",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.58,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Activ",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.6693,
+     "w": 0.091,
+     "h": 0.0491
+    },
+    "shape": "text",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Coffee -$4",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.7611,
+     "w": 0.138,
+     "h": 0.0459
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Salary +$1,200",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.818,
+     "w": 0.197,
+     "h": 0.0491
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$36",
+    "bbox": {
+     "x": 0.384,
+     "y": 0.8718,
+     "w": 0.049,
+     "h": 0.0411
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "groceries",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.875,
+     "w": 0.096,
+     "h": 0.038
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "hybrid",
+  "title": "User Dashboard Overview",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 40,
+   "vision_ms": 4977,
+   "total_ms": 5029
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 17
+ }
+}

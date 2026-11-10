@@ -1,0 +1,244 @@
+{
+ "_ok": true,
+ "_wall_ms": 14216.9,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Flights to Paris",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.1214,
+     "w": 0.286,
+     "h": 0.0875
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.056,
+     "y": 0.1304,
+     "w": 0.297,
+     "h": 0.0911
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "hg 210S",
+    "bbox": {
+     "x": 0.064,
+     "y": 0.2536,
+     "w": 0.238,
+     "h": 0.0929
+    },
+    "confidence": 0.87,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Non-stop only",
+    "bbox": {
+     "x": 0.37,
+     "y": 0.2482,
+     "w": 0.191,
+     "h": 0.0732
+    },
+    "confidence": 0.737,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3911,
+     "w": 0.898,
+     "h": 0.1768
+    },
+    "confidence": 0.893,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Select flight",
+    "bbox": {
+     "x": 0.724,
+     "y": 0.4214,
+     "w": 0.184,
+     "h": 0.1071
+    },
+    "confidence": 0.913,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Air France",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.4393,
+     "w": 0.122,
+     "h": 0.0589
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 4
+   },
+   {
+    "type": "heading",
+    "label": "$210",
+    "bbox": {
+     "x": 0.553,
+     "y": 0.4375,
+     "w": 0.077,
+     "h": 0.0679
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "08:10-10:25",
+    "bbox": {
+     "x": 0.322,
+     "y": 0.4464,
+     "w": 0.153,
+     "h": 0.0482
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 4
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.5839,
+     "w": 0.897,
+     "h": 0.1839
+    },
+    "confidence": 0.897,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Choose",
+    "bbox": {
+     "x": 0.728,
+     "y": 0.6429,
+     "w": 0.17,
+     "h": 0.0857
+    },
+    "confidence": 0.843,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "Lufthansa",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.65,
+     "w": 0.117,
+     "h": 0.0661
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "heading",
+    "label": "$185",
+    "bbox": {
+     "x": 0.552,
+     "y": 0.6482,
+     "w": 0.078,
+     "h": 0.0679
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "13:40-16:05",
+    "bbox": {
+     "x": 0.323,
+     "y": 0.6607,
+     "w": 0.151,
+     "h": 0.0446
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 9
+   },
+   {
+    "type": "button",
+    "label": "Coad more",
+    "bbox": {
+     "x": 0.408,
+     "y": 0.8071,
+     "w": 0.2,
+     "h": 0.0929
+    },
+    "confidence": 0.865,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 14082,
+   "vision_ms": 0,
+   "total_ms": 14216
+  },
+  "n_cv_candidates": 21
+ }
+}

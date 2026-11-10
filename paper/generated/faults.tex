@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Fault injection: validator detection and repair recovery (\%)}
+\label{tab:faults}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{IR source} & \textbf{Fault} & \textbf{Cases} & \textbf{Detected \%} & \textbf{Localised \%} & \textbf{Repaired \%} \\
+\midrule
+oracle & delete\_node & 40 & 95.0 & 95.0 & 77.5 \\
+oracle & hide\_node & 40 & 100.0 & 100.0 & 52.5 \\
+oracle & zero\_size & 40 & 100.0 & 100.0 & 65.0 \\
+oracle & swap\_order & 40 & 100.0 & 62.5 & 97.5 \\
+oracle & code\_error & 40 & 100.0 & 100.0 & None \\
+oracle & all & 200 & 99.0 & 91.5 & 73.1 \\
+pipeline & delete\_node & 40 & 75.0 & 60.0 & 55.0 \\
+pipeline & hide\_node & 40 & 100.0 & 100.0 & 42.5 \\
+pipeline & zero\_size & 40 & 95.0 & 95.0 & 75.0 \\
+pipeline & swap\_order & 40 & 100.0 & 50.0 & 97.5 \\
+pipeline & break\_event & 38 & 100.0 & 100.0 & 100.0 \\
+pipeline & code\_error & 40 & 100.0 & 100.0 & None \\
+pipeline & all & 238 & 95.0 & 84.0 & 73.7 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

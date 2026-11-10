@@ -1,0 +1,272 @@
+{
+ "_ok": true,
+ "_wall_ms": 1850.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.1036,
+     "w": 0.886,
+     "h": 0.1375
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Acme Studio",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.1161,
+     "w": 0.66,
+     "h": 0.1089
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": 0
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.055,
+     "y": 0.2821,
+     "w": 0.28,
+     "h": 0.3268
+    },
+    "confidence": 0.898,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.663,
+     "y": 0.2768,
+     "w": 0.281,
+     "h": 0.3321
+    },
+    "confidence": 0.942,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.3036,
+     "w": 0.0475,
+     "h": 0.1014
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 2
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.682,
+     "y": 0.3007,
+     "w": 0.0465,
+     "h": 0.1065
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": false,
+    "parent": 3
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.3232,
+     "w": 0.043,
+     "h": 0.0768
+    },
+    "confidence": 0.88,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.389,
+     "y": 0.3411,
+     "w": 0.022,
+     "h": 0.0375
+    },
+    "confidence": 0.864,
+    "source": "cv",
+    "shape": "circle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Call",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.4339,
+     "w": 0.052,
+     "h": 0.0571
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.377,
+     "y": 0.4339,
+     "w": 0.067,
+     "h": 0.0554
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Visit",
+    "bbox": {
+     "x": 0.683,
+     "y": 0.4339,
+     "w": 0.059,
+     "h": 0.0554
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "hi@acme.studio",
+    "bbox": {
+     "x": 0.377,
+     "y": 0.5232,
+     "w": 0.143,
+     "h": 0.0536
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "12ParkLane",
+    "bbox": {
+     "x": 0.684,
+     "y": 0.5196,
+     "w": 0.121,
+     "h": 0.0518
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "+15550199",
+    "bbox": {
+     "x": 0.074,
+     "y": 0.5286,
+     "w": 0.107,
+     "h": 0.0429
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Newsletter",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.6643,
+     "w": 0.12,
+     "h": 0.0571
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Youremail",
+    "bbox": {
+     "x": 0.046,
+     "y": 0.7554,
+     "w": 0.66,
+     "h": 0.1089
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Sub scribe",
+    "bbox": {
+     "x": 0.732,
+     "y": 0.7679,
+     "w": 0.211,
+     "h": 0.0893
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 1793,
+   "vision_ms": 0,
+   "total_ms": 1850
+  },
+  "n_cv_candidates": 19
+ }
+}

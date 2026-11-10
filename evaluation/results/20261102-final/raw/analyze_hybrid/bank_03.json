@@ -1,0 +1,272 @@
+{
+ "_ok": true,
+ "_wall_ms": 5445.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.0576,
+     "w": 0.907,
+     "h": 0.1096
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "NorthBank",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.0941,
+     "w": 0.154,
+     "h": 0.0323
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Cards",
+    "bbox": {
+     "x": 0.783,
+     "y": 0.0941,
+     "w": 0.071,
+     "h": 0.0407
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Accounts",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.0955,
+     "w": 0.096,
+     "h": 0.0239
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Help",
+    "bbox": {
+     "x": 0.886,
+     "y": 0.0955,
+     "w": 0.04,
+     "h": 0.0351
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "cards",
+    "bbox": {
+     "x": 0.122,
+     "y": 0.2008,
+     "w": 0.104,
+     "h": 0.0449
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "My",
+    "bbox": {
+     "x": 0.049,
+     "y": 0.2065,
+     "w": 0.055,
+     "h": 0.0562
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.042,
+     "y": 0.2809,
+     "w": 0.449,
+     "h": 0.2865
+    },
+    "shape": "rect",
+    "confidence": 0.916,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.509,
+     "y": 0.2781,
+     "w": 0.45,
+     "h": 0.2837
+    },
+    "shape": "rect",
+    "confidence": 0.925,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Visa 4821",
+    "bbox": {
+     "x": 0.072,
+     "y": 0.3315,
+     "w": 0.11,
+     "h": 0.0253
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Mastercard 7710",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.3301,
+     "w": 0.206,
+     "h": 0.0281
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "text",
+    "label": "Balance $3200",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.3904,
+     "w": 0.155,
+     "h": 0.0295
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Balance $940",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.3933,
+     "w": 0.14,
+     "h": 0.0281
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "View statement",
+    "bbox": {
+     "x": 0.534,
+     "y": 0.4438,
+     "w": 0.197,
+     "h": 0.0843
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 8
+   },
+   {
+    "type": "button",
+    "label": "Freeze card",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.4452,
+     "w": 0.198,
+     "h": 0.0815
+    },
+    "shape": "rect",
+    "confidence": 0.876,
+    "source": "hybrid",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Spending",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.5955,
+     "w": 0.102,
+     "h": 0.0421
+    },
+    "shape": "rect",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.6475,
+     "w": 0.884,
+     "h": 0.2809
+    },
+    "shape": "rect",
+    "confidence": 0.901,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.082,
+     "y": 0.743,
+     "w": 0.845,
+     "h": 0.0744
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 16
+   }
+  ],
+  "width": 1000,
+  "height": 712,
+  "mode": "hybrid",
+  "title": "Bank Cards Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 63,
+   "vision_ms": 5371,
+   "total_ms": 5445
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 22
+ }
+}

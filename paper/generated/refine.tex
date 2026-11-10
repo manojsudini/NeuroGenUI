@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Refinement success and preservation (\%) per command category}
+\label{tab:refine}
+\setlength{\tabcolsep}{3.5pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Category} & \textbf{Success: Proposed (NeuroGenUI)} & \textbf{Success: Proposed, Whisper transcript} & \textbf{Success: Baseline (sketch$\rightarrow$AI$\rightarrow$UI)} & \textbf{Preserved: Proposed (NeuroGenUI)} & \textbf{Preserved: Proposed, Whisper transcript} & \textbf{Preserved: Baseline (sketch$\rightarrow$AI$\rightarrow$UI)} \\
+\midrule
+add & 100.0 & 100.0 & 80.0 & 100.0 & 100.0 & 96.3 \\
+remove & 100.0 & 100.0 & 100.0 & 99.4 & 99.4 & 98.9 \\
+modify & 90.0 & 90.0 & 100.0 & 100.0 & 100.0 & 100.0 \\
+move & 80.0 & 80.0 & 100.0 & 100.0 & 100.0 & 94.1 \\
+resize & 90.0 & 80.0 & 70.0 & 99.1 & 98.2 & 99.2 \\
+style & 100.0 & 100.0 & 90.0 & 100.0 & 100.0 & 97.1 \\
+interaction & 100.0 & 100.0 & 100.0 & 100.0 & 100.0 & 100.0 \\
+navigation & 100.0 & 100.0 & 80.0 & 100.0 & 100.0 & 100.0 \\
+all & 95.0 & 93.8 & 90.0 & 99.8 & 99.7 & 98.2 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

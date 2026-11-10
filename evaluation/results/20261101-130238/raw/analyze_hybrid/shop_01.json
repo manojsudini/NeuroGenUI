@@ -1,0 +1,286 @@
+{
+ "_ok": true,
+ "_wall_ms": 5883.0,
+ "value": {
+  "components": [
+   {
+    "type": "input",
+    "label": "Search products",
+    "bbox": {
+     "x": 0.041,
+     "y": 0.0645,
+     "w": 0.539,
+     "h": 0.1484
+    },
+    "shape": "rect",
+    "confidence": 0.814,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Cart",
+    "bbox": {
+     "x": 0.554,
+     "y": 0.0952,
+     "w": 0.383,
+     "h": 0.1339
+    },
+    "shape": "rect",
+    "confidence": 0.824,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.802,
+     "y": 0.1226,
+     "w": 0.025,
+     "h": 0.0419
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Search products",
+    "bbox": {
+     "x": 0.593,
+     "y": 0.1274,
+     "w": 0.118,
+     "h": 0.0387
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "New arrivals",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.2597,
+     "w": 0.196,
+     "h": 0.0548
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.035,
+     "y": 0.3419,
+     "w": 0.298,
+     "h": 0.6065
+    },
+    "shape": "rect",
+    "confidence": 0.944,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.3935,
+     "w": 0.244,
+     "h": 0.2484
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.364,
+     "y": 0.3903,
+     "w": 0.248,
+     "h": 0.2645
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.666,
+     "y": 0.3887,
+     "w": 0.251,
+     "h": 0.2613
+    },
+    "shape": "cross_box",
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Canvas bag",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.679,
+     "w": 0.1,
+     "h": 0.0403
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Desk lamp",
+    "bbox": {
+     "x": 0.372,
+     "y": 0.6758,
+     "w": 0.092,
+     "h": 0.0387
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sneakers",
+    "bbox": {
+     "x": 0.678,
+     "y": 0.6758,
+     "w": 0.081,
+     "h": 0.0323
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$29",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.7516,
+     "w": 0.032,
+     "h": 0.0306
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "$45",
+    "bbox": {
+     "x": 0.373,
+     "y": 0.7532,
+     "w": 0.031,
+     "h": 0.0306
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$80",
+    "bbox": {
+     "x": 0.679,
+     "y": 0.7516,
+     "w": 0.031,
+     "h": 0.0306
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Buy lamp",
+    "bbox": {
+     "x": 0.365,
+     "y": 0.8032,
+     "w": 0.244,
+     "h": 0.1
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Buy sneakers",
+    "bbox": {
+     "x": 0.666,
+     "y": 0.8032,
+     "w": 0.245,
+     "h": 0.1081
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.064,
+     "y": 0.8113,
+     "w": 0.236,
+     "h": 0.0968
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Add to cart",
+    "bbox": {
+     "x": 0.732,
+     "y": 0.8403,
+     "w": 0.124,
+     "h": 0.0419
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 620,
+  "mode": "hybrid",
+  "title": "ShopEasy New Arrivals",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 47,
+   "vision_ms": 5826,
+   "total_ms": 5882
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 24
+ }
+}

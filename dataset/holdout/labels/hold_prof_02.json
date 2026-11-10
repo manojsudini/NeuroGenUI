@@ -1,0 +1,203 @@
+{
+  "id": "hold_prof_02",
+  "category": "profile",
+  "title": "Dr. Rao",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_prof_02')",
+  "render": {
+    "font": "IndieFlower-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile",
+    "style": "harsh",
+    "page_rotation_deg": 1.26,
+    "scratch_outs": 4
+  },
+  "width": 1000,
+  "height": 768,
+  "instruction": "A doctor profile on a phone: a round photo, the name Dr. Meera Rao, the speciality Cardiologist, Book visit and Call clinic buttons, a Patient reviews heading, a Write a review text area and a full width Post review button. Book visit opens a Booking page and Post review shows an error if the review is empty.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.4106,
+        "y": 0.0784,
+        "w": 0.1587,
+        "h": 0.2044
+      },
+      "parent": null,
+      "props": {
+        "alt": "doctor photo",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Dr. Meera Rao",
+      "bbox": {
+        "x": 0.3674,
+        "y": 0.297,
+        "w": 0.2369,
+        "h": 0.08
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "text",
+      "label": "Cardiologist",
+      "bbox": {
+        "x": 0.426,
+        "y": 0.3923,
+        "w": 0.116,
+        "h": 0.0461
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Book visit",
+      "bbox": {
+        "x": 0.2397,
+        "y": 0.4489,
+        "w": 0.1524,
+        "h": 0.0738
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Call clinic",
+      "bbox": {
+        "x": 0.4889,
+        "y": 0.4589,
+        "w": 0.1423,
+        "h": 0.0733
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Patient reviews",
+      "bbox": {
+        "x": 0.2371,
+        "y": 0.5394,
+        "w": 0.2051,
+        "h": 0.0677
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "textarea",
+      "label": "Write a review",
+      "bbox": {
+        "x": 0.2319,
+        "y": 0.622,
+        "w": 0.4875,
+        "h": 0.1603
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Post review",
+      "bbox": {
+        "x": 0.229,
+        "y": 0.7871,
+        "w": 0.4871,
+        "h": 0.0867
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Book visit",
+      "expect": {
+        "type": "navigate",
+        "page": "Booking"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Post review",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Dr. Meera Rao",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Book visit",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Call clinic",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Patient reviews",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "textarea",
+      "label_contains": "Write a review",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Post review",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Book visit",
+      "expect": {
+        "type": "navigate",
+        "page": "Booking"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Post review",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

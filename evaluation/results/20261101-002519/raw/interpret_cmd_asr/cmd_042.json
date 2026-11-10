@@ -1,0 +1,37 @@
+{
+ "_ok": true,
+ "_wall_ms": 3501.2,
+ "value": {
+  "ops": [
+   {
+    "op": "resize",
+    "target": {
+     "ref": "sign in button",
+     "id": "btn_sign_in"
+    },
+    "changes": {
+     "style": {
+      "size": "lg"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "resize",
+    "target": {
+     "ref": "continue with google button",
+     "id": "btn_continue_with_google"
+    },
+    "changes": {
+     "style": {
+      "size": "lg"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 3500,
+  "raw": "{\"ops\":[{\"op\":\"resize\",\"target\":{\"ref\":\"sign in button\",\"id\":\"btn_sign_in\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"lg\",\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"resize\",\"target\":{\"ref\":\"continue with google button\",\"id\":\"btn_continue_with_google\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"lg\",\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

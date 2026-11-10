@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1524.8,
+ "value": {
+  "text": "Make the settings link open a settings page.",
+  "model": "whisper-1",
+  "duration_ms": 1524
+ }
+}

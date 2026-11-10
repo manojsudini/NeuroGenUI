@@ -1,0 +1,204 @@
+{
+  "id": "reg_04",
+  "category": "registration",
+  "title": "Your details",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('reg_04')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 580,
+  "instruction": "Step one of a two step registration: a small 'Step 1 of 2' text, the heading Your details, username, email and date of birth fields, a City dropdown, and Back and Next buttons. Next goes to an Address page.",
+  "components": [
+    {
+      "type": "text",
+      "label": "Step 1 of 2",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.0863,
+        "w": 0.1018,
+        "h": 0.0557
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Your details",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.1731,
+        "w": 0.1914,
+        "h": 0.0952
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "input",
+      "label": "Username",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.2993,
+        "w": 0.4641,
+        "h": 0.0931
+      },
+      "parent": null,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.4234,
+        "w": 0.4641,
+        "h": 0.0931
+      },
+      "parent": null,
+      "props": {
+        "inputType": "email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date of birth",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.5475,
+        "w": 0.4641,
+        "h": 0.0931
+      },
+      "parent": null,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "select",
+      "label": "City",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.6717,
+        "w": 0.4641,
+        "h": 0.0931
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Hyderabad",
+          "Delhi",
+          "Mumbai"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Back",
+      "bbox": {
+        "x": 0.2781,
+        "y": 0.7958,
+        "w": 0.222,
+        "h": 0.0931
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Next",
+      "bbox": {
+        "x": 0.5202,
+        "y": 0.7958,
+        "w": 0.222,
+        "h": 0.0931
+      },
+      "parent": null
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Next",
+      "expect": {
+        "type": "navigate",
+        "page": "Address"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Your details",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Username",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Email",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Email",
+      "input_type": "email",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Date of birth",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Date of birth",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "City",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Back",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Next",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Next",
+      "expect": {
+        "type": "navigate",
+        "page": "Address"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

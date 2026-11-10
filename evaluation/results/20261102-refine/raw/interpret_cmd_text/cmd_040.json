@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1920.7,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "date field",
+     "id": "inp_date"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "time slots",
+      "id": "rad_time_slot"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1919,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"date field\",\"id\":\"inp_date\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"time slots\",\"id\":\"rad_time_slot\"}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

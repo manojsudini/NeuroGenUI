@@ -1,0 +1,293 @@
+{
+ "_ok": true,
+ "_wall_ms": 12391.2,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "My Account",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.04,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "My",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.1119,
+     "w": 0.232,
+     "h": 0.0769
+    },
+    "confidence": 0.77,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Account",
+    "bbox": {
+     "x": 0.334,
+     "y": 0.1136,
+     "w": 0.138,
+     "h": 0.049
+    },
+    "confidence": 0.795,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.2098,
+     "w": 0.496,
+     "h": 0.2098
+    },
+    "confidence": 0.939,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Priya Shah",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.22,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.282,
+     "y": 0.2483,
+     "w": 0.072,
+     "h": 0.1346
+    },
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.298,
+     "y": 0.2517,
+     "w": 0.041,
+     "h": 0.0577
+    },
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "priya",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.2745,
+     "w": 0.052,
+     "h": 0.0402
+    },
+    "confidence": 0.765,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "shah",
+    "bbox": {
+     "x": 0.473,
+     "y": 0.2745,
+     "w": 0.046,
+     "h": 0.0262
+    },
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.284,
+     "y": 0.2815,
+     "w": 0.032,
+     "h": 0.0664
+    },
+    "confidence": 0.832,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.297,
+     "y": 0.3199,
+     "w": 0.043,
+     "h": 0.0629
+    },
+    "confidence": 0.839,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "priya@mail.com",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.3287,
+     "w": 0.156,
+     "h": 0.0437
+    },
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "My orders",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.38,
+     "w": 0.2,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Saved addresses",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.44,
+     "w": 0.3,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "My orders",
+    "bbox": {
+     "x": 0.264,
+     "y": 0.4563,
+     "w": 0.109,
+     "h": 0.0524
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Payment methods",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.5,
+     "w": 0.3,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "ved addresses",
+    "bbox": {
+     "x": 0.264,
+     "y": 0.5507,
+     "w": 0.173,
+     "h": 0.0472
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.5944,
+     "w": 0.159,
+     "h": 0.0105
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Payment methods",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.6451,
+     "w": 0.191,
+     "h": 0.0507
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.256,
+     "y": 0.7325,
+     "w": 0.501,
+     "h": 0.0227
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Log out",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.7815,
+     "w": 0.499,
+     "h": 0.1154
+    },
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 572,
+  "mode": "hybrid",
+  "title": "My Account Page",
+  "category": "profile",
+  "timings": {
+   "cv_ms": 35,
+   "vision_ms": 12348,
+   "total_ms": 12391
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 19
+ }
+}

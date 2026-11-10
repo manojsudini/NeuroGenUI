@@ -1,0 +1,25 @@
+{
+ "_ok": true,
+ "_wall_ms": 1774.7,
+ "value": {
+  "ops": [
+   {
+    "op": "resize",
+    "target": {
+     "ref": "sign in button",
+     "id": "btn_sign_in"
+    },
+    "changes": {
+     "style": {
+      "size": "md"
+     }
+    },
+    "scale": 1.2,
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1774,
+  "raw": "{\"ops\":[{\"op\":\"resize\",\"target\":{\"ref\":\"sign in button\",\"id\":\"btn_sign_in\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":null,\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":\"md\",\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},\"scale\":1.2,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

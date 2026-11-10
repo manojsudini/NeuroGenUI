@@ -1,0 +1,22 @@
+{
+ "_ok": true,
+ "_wall_ms": 2040.5,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "Register button",
+     "id": "btn_register"
+    },
+    "changes": {
+     "label": "Create account"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2039,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"Register button\",\"id\":\"btn_register\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Create account\",\"props\":null,\"style\":null},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "_ok": true,
+ "_wall_ms": 2123.3,
+ "value": {
+  "ops": [
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Load more button",
+     "id": "btn_load_more"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "show_message",
+       "text": "No more flights.",
+       "tone": "info"
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2122,
+  "raw": "{\"ops\":[{\"op\":\"interaction\",\"target\":{\"ref\":\"Load more button\",\"id\":\"btn_load_more\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"show_message\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":\"No more flights.\",\"tone\":\"info\",\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

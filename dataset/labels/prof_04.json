@@ -1,0 +1,214 @@
+{
+  "id": "prof_04",
+  "category": "profile",
+  "title": "My account",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('prof_04')",
+  "render": {
+    "font": "ArchitectsDaughter-Regular.ttf",
+    "tool": "pencil",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 572,
+  "instruction": "An account screen titled My Account with a card showing the user's avatar, name and email, links to My orders, Saved addresses and Payment methods, a divider and a Log out button. Log out returns to the Login page and My orders opens an Orders page.",
+  "components": [
+    {
+      "type": "heading",
+      "label": "My Account",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.0906,
+        "w": 0.2246,
+        "h": 0.0886
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.2142,
+        "w": 0.4908,
+        "h": 0.1993
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.2827,
+        "y": 0.2526,
+        "w": 0.07,
+        "h": 0.1224
+      },
+      "parent": 1,
+      "props": {
+        "alt": "avatar",
+        "shape": "circle"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Priya Shah",
+      "bbox": {
+        "x": 0.4064,
+        "y": 0.2589,
+        "w": 0.1127,
+        "h": 0.0514
+      },
+      "parent": 1
+    },
+    {
+      "type": "text",
+      "label": "priya@mail.com",
+      "bbox": {
+        "x": 0.4064,
+        "y": 0.3173,
+        "w": 0.1596,
+        "h": 0.0514
+      },
+      "parent": 1
+    },
+    {
+      "type": "link",
+      "label": "My orders",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.4484,
+        "w": 0.114,
+        "h": 0.0584
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Saved addresses",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.5418,
+        "w": 0.1756,
+        "h": 0.0584
+      },
+      "parent": null
+    },
+    {
+      "type": "link",
+      "label": "Payment methods",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.6352,
+        "w": 0.1826,
+        "h": 0.0584
+      },
+      "parent": null
+    },
+    {
+      "type": "divider",
+      "label": "",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.7286,
+        "w": 0.4908,
+        "h": 0.0245
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Log out",
+      "bbox": {
+        "x": 0.2607,
+        "y": 0.788,
+        "w": 0.4908,
+        "h": 0.0944
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Log out",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "My orders",
+      "expect": {
+        "type": "navigate",
+        "page": "Orders"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "My Account",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "My orders",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Saved addresses",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "link",
+      "label_contains": "Payment methods",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Log out",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Log out",
+      "expect": {
+        "type": "navigate",
+        "page": "Login"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "My orders",
+      "expect": {
+        "type": "navigate",
+        "page": "Orders"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

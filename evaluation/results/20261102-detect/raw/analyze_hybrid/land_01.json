@@ -1,0 +1,365 @@
+{
+ "_ok": true,
+ "_wall_ms": 19371.1,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.0739,
+     "w": 0.866,
+     "h": 0.1062
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Nimbus",
+    "bbox": {
+     "x": 0.079,
+     "y": 0.1022,
+     "w": 0.105,
+     "h": 0.0511
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Features",
+    "bbox": {
+     "x": 0.45,
+     "y": 0.1008,
+     "w": 0.089,
+     "h": 0.0417
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Pricing",
+    "bbox": {
+     "x": 0.56,
+     "y": 0.1008,
+     "w": 0.076,
+     "h": 0.047
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "About",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.1022,
+     "w": 0.06,
+     "h": 0.0403
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Get started",
+    "bbox": {
+     "x": 0.774,
+     "y": 0.1035,
+     "w": 0.112,
+     "h": 0.0403
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.516,
+     "y": 0.2137,
+     "w": 0.416,
+     "h": 0.4059
+    },
+    "shape": "cross_box",
+    "ocr": false,
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Cloud storage made simple",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.2285,
+     "w": 0.432,
+     "h": 0.0659
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3181,
+     "w": 0.3875,
+     "h": 0.0891
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Learn more",
+    "bbox": {
+     "x": 0.274,
+     "y": 0.4328,
+     "w": 0.198,
+     "h": 0.0739
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.93,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Try free",
+    "bbox": {
+     "x": 0.062,
+     "y": 0.4368,
+     "w": 0.196,
+     "h": 0.0685
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.656,
+     "y": 0.6478,
+     "w": 0.286,
+     "h": 0.2796
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.063,
+     "y": 0.6586,
+     "w": 0.271,
+     "h": 0.2715
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.361,
+     "y": 0.6559,
+     "w": 0.273,
+     "h": 0.2715
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.379,
+     "y": 0.6722,
+     "w": 0.0485,
+     "h": 0.0821
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.6868,
+     "w": 0.043,
+     "h": 0.0632
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.885,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.6895,
+     "w": 0.042,
+     "h": 0.0578
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.893,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "heading",
+    "label": "Fast",
+    "bbox": {
+     "x": 0.08,
+     "y": 0.7728,
+     "w": 0.055,
+     "h": 0.0457
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "heading",
+    "label": "Secure",
+    "bbox": {
+     "x": 0.377,
+     "y": 0.7728,
+     "w": 0.082,
+     "h": 0.047
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "heading",
+    "label": "Synced",
+    "bbox": {
+     "x": 0.675,
+     "y": 0.7688,
+     "w": 0.085,
+     "h": 0.0591
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.8379,
+     "w": 0.2205,
+     "h": 0.0546
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.379,
+     "y": 0.8422,
+     "w": 0.1765,
+     "h": 0.0504
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": 13
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.684,
+     "y": 0.8418,
+     "w": 0.1435,
+     "h": 0.0507
+    },
+    "shape": "squiggle",
+    "ocr": false,
+    "confidence": 0.825,
+    "source": "hybrid",
+    "parent": 11
+   }
+  ],
+  "width": 1000,
+  "height": 744,
+  "mode": "hybrid",
+  "title": "Nimbus Landing Page",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 10553,
+   "vision_ms": 8544,
+   "total_ms": 19370
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 36
+ }
+}

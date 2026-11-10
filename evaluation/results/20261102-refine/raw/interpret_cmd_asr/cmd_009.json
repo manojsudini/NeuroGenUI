@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 2900.3,
+ "value": {
+  "ops": [
+   {
+    "op": "add",
+    "component": {
+     "type": "button",
+     "label": "Pay Bills"
+    },
+    "position": {
+     "relation": "right_of",
+     "anchor": {
+      "ref": "Request button",
+      "id": "btn_request"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2899,
+  "raw": "{\"ops\":[{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"button\",\"label\":\"Pay Bills\",\"props\":{ \"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"right_of\",\"anchor\":{\"ref\":\"Request button\",\"id\":\"btn_request\"}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

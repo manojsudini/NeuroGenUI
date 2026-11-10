@@ -1,0 +1,137 @@
+{
+ "_ok": true,
+ "_wall_ms": 5714.5,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "Step 1 of 2",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.14,
+     "w": 0.22,
+     "h": 0.04
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Your details",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.21,
+     "w": 0.38,
+     "h": 0.07
+    },
+    "confidence": 0.98,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Username",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.33,
+     "w": 0.56,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.42,
+     "w": 0.56,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Date of birth",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.53,
+     "w": 0.48,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.71,
+     "y": 0.54,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "City",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.62,
+     "w": 0.56,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Back",
+    "bbox": {
+     "x": 0.22,
+     "y": 0.79,
+     "w": 0.26,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Next",
+    "bbox": {
+     "x": 0.54,
+     "y": 0.79,
+     "w": 0.24,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 580,
+  "mode": "vision",
+  "title": "User Details Form Step 1",
+  "category": "registration",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5707,
+   "total_ms": 5714
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "_ok": true,
+ "_wall_ms": 3894.4,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "heading",
+      "label": "Your cart",
+      "props": {
+       "level": 1
+      }
+     },
+     {
+      "type": "card",
+      "label": "Linen shirt $40",
+      "props": {
+       "alt": "Linen shirt thumbnail",
+       "photo": "product"
+      }
+     },
+     {
+      "type": "card",
+      "label": "Straw hat $80",
+      "props": {
+       "alt": "Straw hat thumbnail",
+       "photo": "product"
+      }
+     },
+     {
+      "type": "text",
+      "label": "Total $120"
+     },
+     {
+      "type": "input",
+      "label": "Coupon code",
+      "props": {
+       "inputType": "text",
+       "placeholder": "Enter coupon code",
+       "required": false,
+       "name": "coupon_code"
+      }
+     },
+     {
+      "type": "button",
+      "label": "Checkout",
+      "events": [
+       {
+        "on": "click",
+        "actions": [
+         {
+          "type": "navigate",
+          "page": "Checkout"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "meta": {
+     "title": "Your cart",
+     "category": "ecommerce"
+    },
+    "confidence": 0.98
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 3894,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"heading\",\"label\":\"Your cart\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Linen shirt $40\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Linen shirt thumbnail\",\"photo\":\"product\",\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"card\",\"label\":\"Straw hat $80\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Straw hat thumbnail\",\"photo\":\"product\",\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"text\",\"label\":\"Total $120\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},{\"type\":\"input\",\"label\":\"Coupon code\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":\"Enter coupon code\",\"required\":false,\"name\":\"coupon_code\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},{\"type\":\"button\",\"label\":\"Checkout\",\"props\":null,\"style\":null,\"events\":[{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Checkout\"}]}],\"children\":null}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Your cart\",\"category\":\"ecommerce\"},\"confidence\":0.98}]}"
+ }
+}

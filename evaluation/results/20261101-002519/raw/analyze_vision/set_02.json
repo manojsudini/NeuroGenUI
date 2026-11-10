@@ -1,0 +1,163 @@
+{
+ "_ok": true,
+ "_wall_ms": 5810.5,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.15,
+     "w": 0.22,
+     "h": 0.7
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "General",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.15,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "General",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.17,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Display name",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.25,
+     "w": 0.55,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Security",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.26,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.35,
+     "w": 0.55,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Billing",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.36,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "select",
+    "label": "Language",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.45,
+     "w": 0.55,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.46,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "select",
+    "label": "Time zone",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.55,
+     "w": 0.55,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Save changes",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.67,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Settings - General",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 5803,
+   "total_ms": 5810
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

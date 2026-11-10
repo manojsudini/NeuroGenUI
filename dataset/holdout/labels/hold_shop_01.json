@@ -1,0 +1,346 @@
+{
+  "id": "hold_shop_01",
+  "category": "ecommerce",
+  "title": "Wishlist",
+  "synthetic": true,
+  "split": "holdout",
+  "generator": "make_sketches_holdout.py v1 (harsh style)",
+  "seed_source": "sha256('hold_shop_01')",
+  "render": {
+    "font": "Kalam-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop",
+    "style": "harsh",
+    "page_rotation_deg": -2.43,
+    "scratch_outs": 0
+  },
+  "width": 1000,
+  "height": 580,
+  "instruction": "A wishlist page with the title My wishlist and a Sort by dropdown (Newest, Price), then four product cards in a row: Ceramic mug $12, Notebook $8, Backpack $55 and Water bottle $18, each with a photo and a Move to cart button. Move to cart shows the message Moved to cart.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.067,
+        "y": 0.0966,
+        "w": 0.8752,
+        "h": 0.2196
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "My wishlist",
+      "bbox": {
+        "x": 0.0849,
+        "y": 0.1835,
+        "w": 0.1635,
+        "h": 0.0986
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "select",
+      "label": "Sort by",
+      "bbox": {
+        "x": 0.2698,
+        "y": 0.1627,
+        "w": 0.214,
+        "h": 0.1075
+      },
+      "parent": 0,
+      "props": {
+        "options": [
+          "Newest",
+          "Price"
+        ]
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0706,
+        "y": 0.3406,
+        "w": 0.218,
+        "h": 0.5758
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0924,
+        "y": 0.3794,
+        "w": 0.1688,
+        "h": 0.2149
+      },
+      "parent": 3,
+      "props": {
+        "alt": "mug",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Ceramic mug",
+      "bbox": {
+        "x": 0.0967,
+        "y": 0.608,
+        "w": 0.1317,
+        "h": 0.0706
+      },
+      "parent": 3
+    },
+    {
+      "type": "text",
+      "label": "$12",
+      "bbox": {
+        "x": 0.0983,
+        "y": 0.6994,
+        "w": 0.038,
+        "h": 0.0635
+      },
+      "parent": 3
+    },
+    {
+      "type": "button",
+      "label": "Move to cart",
+      "bbox": {
+        "x": 0.0999,
+        "y": 0.7742,
+        "w": 0.1668,
+        "h": 0.1035
+      },
+      "parent": 3
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2913,
+        "y": 0.3236,
+        "w": 0.2189,
+        "h": 0.5764
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.3132,
+        "y": 0.3623,
+        "w": 0.1693,
+        "h": 0.2152
+      },
+      "parent": 8,
+      "props": {
+        "alt": "notebook",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Notebook",
+      "bbox": {
+        "x": 0.3176,
+        "y": 0.5941,
+        "w": 0.0947,
+        "h": 0.0678
+      },
+      "parent": 8
+    },
+    {
+      "type": "text",
+      "label": "$8",
+      "bbox": {
+        "x": 0.3193,
+        "y": 0.6833,
+        "w": 0.0314,
+        "h": 0.063
+      },
+      "parent": 8
+    },
+    {
+      "type": "button",
+      "label": "Move to cart",
+      "bbox": {
+        "x": 0.3209,
+        "y": 0.7576,
+        "w": 0.1673,
+        "h": 0.1036
+      },
+      "parent": 8
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.5126,
+        "y": 0.3065,
+        "w": 0.2197,
+        "h": 0.5771
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.5346,
+        "y": 0.3453,
+        "w": 0.1698,
+        "h": 0.2154
+      },
+      "parent": 13,
+      "props": {
+        "alt": "backpack",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Backpack",
+      "bbox": {
+        "x": 0.5391,
+        "y": 0.5773,
+        "w": 0.0952,
+        "h": 0.0679
+      },
+      "parent": 13
+    },
+    {
+      "type": "text",
+      "label": "$55",
+      "bbox": {
+        "x": 0.5408,
+        "y": 0.6658,
+        "w": 0.0424,
+        "h": 0.064
+      },
+      "parent": 13
+    },
+    {
+      "type": "button",
+      "label": "Move to cart",
+      "bbox": {
+        "x": 0.5425,
+        "y": 0.741,
+        "w": 0.1677,
+        "h": 0.1038
+      },
+      "parent": 13
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.7344,
+        "y": 0.2893,
+        "w": 0.2205,
+        "h": 0.5778
+      },
+      "parent": null
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.7564,
+        "y": 0.3282,
+        "w": 0.1703,
+        "h": 0.2157
+      },
+      "parent": 18,
+      "props": {
+        "alt": "bottle",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "text",
+      "label": "Water bottle",
+      "bbox": {
+        "x": 0.7611,
+        "y": 0.558,
+        "w": 0.1278,
+        "h": 0.0705
+      },
+      "parent": 18
+    },
+    {
+      "type": "text",
+      "label": "$18",
+      "bbox": {
+        "x": 0.7628,
+        "y": 0.6493,
+        "w": 0.0389,
+        "h": 0.0637
+      },
+      "parent": 18
+    },
+    {
+      "type": "button",
+      "label": "Move to cart",
+      "bbox": {
+        "x": 0.7645,
+        "y": 0.7243,
+        "w": 0.1682,
+        "h": 0.1039
+      },
+      "parent": 18
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Move to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "moved to cart"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "My wishlist",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Sort by",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Move to cart",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Move to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "moved to cart"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+ "_ok": true,
+ "_wall_ms": 5483.8,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Your cart",
+    "bbox": {
+     "x": 0.249,
+     "y": 0.0878,
+     "w": 0.159,
+     "h": 0.0655
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.252,
+     "y": 0.1815,
+     "w": 0.467,
+     "h": 0.183
+    },
+    "confidence": 0.919,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.286,
+     "y": 0.2202,
+     "w": 0.066,
+     "h": 0.1235
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Linen shirt",
+    "bbox": {
+     "x": 0.385,
+     "y": 0.2173,
+     "w": 0.111,
+     "h": 0.0491
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "$40",
+    "bbox": {
+     "x": 0.39,
+     "y": 0.2768,
+     "w": 0.042,
+     "h": 0.0432
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 1
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.3869,
+     "w": 0.475,
+     "h": 0.1875
+    },
+    "confidence": 0.922,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.271,
+     "y": 0.4256,
+     "w": 0.084,
+     "h": 0.122
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Straw hat",
+    "bbox": {
+     "x": 0.389,
+     "y": 0.4286,
+     "w": 0.094,
+     "h": 0.0476
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "$80",
+    "bbox": {
+     "x": 0.39,
+     "y": 0.4881,
+     "w": 0.044,
+     "h": 0.0417
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": 5
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.5973,
+     "w": 0.4755,
+     "h": 0.0254
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$120",
+    "bbox": {
+     "x": 0.668,
+     "y": 0.6533,
+     "w": 0.057,
+     "h": 0.0491
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Total",
+    "bbox": {
+     "x": 0.247,
+     "y": 0.6577,
+     "w": 0.059,
+     "h": 0.0446
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.7321,
+     "w": 0.47,
+     "h": 0.0655
+    },
+    "confidence": 0.778,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Coupon code",
+    "bbox": {
+     "x": 0.26,
+     "y": 0.7411,
+     "w": 0.119,
+     "h": 0.0551
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.248,
+     "y": 0.8363,
+     "w": 0.47,
+     "h": 0.0833
+    },
+    "confidence": 0.889,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 672,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 5375,
+   "vision_ms": 0,
+   "total_ms": 5483
+  },
+  "n_cv_candidates": 16
+ }
+}

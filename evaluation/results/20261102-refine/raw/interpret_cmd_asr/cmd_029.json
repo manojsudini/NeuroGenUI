@@ -1,0 +1,25 @@
+{
+ "_ok": true,
+ "_wall_ms": 2213.1,
+ "value": {
+  "ops": [
+   {
+    "op": "modify",
+    "target": {
+     "ref": "email field",
+     "id": "txt_email"
+    },
+    "changes": {
+     "label": "Email",
+     "props": {
+      "placeholder": "you at example.com"
+     }
+    },
+    "confidence": 0.9
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2212,
+  "raw": "{\"ops\":[{\"op\":\"modify\",\"target\":{\"ref\":\"email field\",\"id\":\"txt_email\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":{\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":\"you at example.com\",\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9}]}"
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 6603.2,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.9,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Acme Studio",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.07,
+     "w": 0.284,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.3,
+     "w": 0.25,
+     "h": 0.35
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.33,
+     "y": 0.3,
+     "w": 0.25,
+     "h": 0.35
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.62,
+     "y": 0.3,
+     "w": 0.3,
+     "h": 0.35
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.33,
+     "w": 0.05,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.33,
+     "w": 0.05,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.64,
+     "y": 0.33,
+     "w": 0.05,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Call",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.42,
+     "w": 0.1,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Email",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.42,
+     "w": 0.1,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Visit",
+    "bbox": {
+     "x": 0.64,
+     "y": 0.42,
+     "w": 0.1,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "+1 555 0199",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.5,
+     "w": 0.15,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "hi@acme.studio",
+    "bbox": {
+     "x": 0.35,
+     "y": 0.5,
+     "w": 0.18,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "12 Park Lane",
+    "bbox": {
+     "x": 0.64,
+     "y": 0.5,
+     "w": 0.2,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Newsletter",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.7,
+     "w": 0.15,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Your email",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.77,
+     "w": 0.7,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Subscribe",
+    "bbox": {
+     "x": 0.77,
+     "y": 0.77,
+     "w": 0.18,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "vision",
+  "title": "Acme Studio Contact and Newsletter",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6595,
+   "total_ms": 6603
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "_ok": true,
+ "_wall_ms": 59.3,
+ "value": {
+  "components": [
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.1119,
+     "w": 0.232,
+     "h": 0.0769
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.2098,
+     "w": 0.496,
+     "h": 0.2098
+    },
+    "confidence": 0.927,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.282,
+     "y": 0.2483,
+     "w": 0.072,
+     "h": 0.1346
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.298,
+     "y": 0.2517,
+     "w": 0.041,
+     "h": 0.0577
+    },
+    "confidence": 0.799,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.2745,
+     "w": 0.052,
+     "h": 0.0402
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.473,
+     "y": 0.2745,
+     "w": 0.046,
+     "h": 0.0262
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.284,
+     "y": 0.2815,
+     "w": 0.032,
+     "h": 0.0664
+    },
+    "confidence": 0.814,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.297,
+     "y": 0.3199,
+     "w": 0.043,
+     "h": 0.0629
+    },
+    "confidence": 0.827,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.41,
+     "y": 0.3287,
+     "w": 0.156,
+     "h": 0.0437
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.264,
+     "y": 0.4563,
+     "w": 0.109,
+     "h": 0.0524
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.264,
+     "y": 0.5507,
+     "w": 0.173,
+     "h": 0.0472
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.5944,
+     "w": 0.159,
+     "h": 0.0105
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.261,
+     "y": 0.6451,
+     "w": 0.191,
+     "h": 0.0507
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.256,
+     "y": 0.7325,
+     "w": 0.501,
+     "h": 0.0227
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.255,
+     "y": 0.7815,
+     "w": 0.499,
+     "h": 0.1154
+    },
+    "confidence": 0.796,
+    "source": "cv",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 572,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 51,
+   "vision_ms": 0,
+   "total_ms": 59
+  },
+  "n_cv_candidates": 19
+ }
+}

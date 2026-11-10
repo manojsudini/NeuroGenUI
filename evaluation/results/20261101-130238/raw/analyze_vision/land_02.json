@@ -1,0 +1,241 @@
+{
+ "_ok": true,
+ "_wall_ms": 6551.0,
+ "value": {
+  "components": [
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.9,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Buildr",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.07,
+     "w": 0.084,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Product",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.07,
+     "w": 0.08,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Docs",
+    "bbox": {
+     "x": 0.8,
+     "y": 0.07,
+     "w": 0.05,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Blog",
+    "bbox": {
+     "x": 0.87,
+     "y": 0.07,
+     "w": 0.044,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Build apps faster",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.22,
+     "w": 0.4,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.3,
+     "w": 0.5,
+     "h": 0.03
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Work email",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.38,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Join waitlist",
+    "bbox": {
+     "x": 0.6,
+     "y": 0.38,
+     "w": 0.15,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.48,
+     "w": 0.9,
+     "h": 0.25
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.53,
+     "w": 0.04,
+     "h": 0.05
+    },
+    "confidence": 0.8,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.58,
+     "w": 0.8,
+     "h": 0.14
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 9
+   },
+   {
+    "type": "text",
+    "label": "Loved by teams",
+    "bbox": {
+     "x": 0.4,
+     "y": 0.78,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.3,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.85,
+     "w": 0.15,
+     "h": 0.1
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 814,
+  "mode": "vision",
+  "title": "Landing page for Buildr",
+  "category": "landing",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 6539,
+   "total_ms": 6550
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

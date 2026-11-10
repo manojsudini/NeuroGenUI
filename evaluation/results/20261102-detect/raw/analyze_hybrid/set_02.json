@@ -1,0 +1,183 @@
+{
+ "_ok": true,
+ "_wall_ms": 6648.4,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.076,
+     "y": 0.0964,
+     "w": 0.203,
+     "h": 0.65
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.918,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "General",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.1179,
+     "w": 0.139,
+     "h": 0.0607
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "General",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.1357,
+     "w": 0.083,
+     "h": 0.05
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Display name",
+    "bbox": {
+     "x": 0.314,
+     "y": 0.2179,
+     "w": 0.631,
+     "h": 0.1071
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.927,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Security",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.2304,
+     "w": 0.096,
+     "h": 0.0536
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Billing",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.3214,
+     "w": 0.064,
+     "h": 0.0625
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.314,
+     "y": 0.3348,
+     "w": 0.631,
+     "h": 0.1071
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Notifications",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.4179,
+     "w": 0.135,
+     "h": 0.0571
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.32,
+     "y": 0.4679,
+     "w": 0.618,
+     "h": 0.1
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.898,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Language",
+    "bbox": {
+     "x": 0.317,
+     "y": 0.6,
+     "w": 0.622,
+     "h": 0.1
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.883,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "select",
+    "label": "Save changes",
+    "bbox": {
+     "x": 0.342,
+     "y": 0.7411,
+     "w": 0.151,
+     "h": 0.05
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Settings - General",
+  "category": "settings",
+  "timings": {
+   "cv_ms": 1513,
+   "vision_ms": 5104,
+   "total_ms": 6648
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 17
+ }
+}

@@ -1,0 +1,283 @@
+{
+  "id": "book_01",
+  "category": "booking",
+  "title": "StayFinder",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('book_01')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pen",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A hotel booking home page: a navbar with StayFinder, Hotels, Flights, Deals and a Sign in button, a wide banner photo and a search card with destination, check-in and check-out date fields, a Guests dropdown and a Search button. Search shows an error when the fields are empty.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0542,
+        "y": 0.1084,
+        "w": 0.9006,
+        "h": 0.1464
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "StayFinder",
+      "bbox": {
+        "x": 0.0742,
+        "y": 0.14,
+        "w": 0.1423,
+        "h": 0.0832
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Hotels",
+      "bbox": {
+        "x": 0.5461,
+        "y": 0.1492,
+        "w": 0.0606,
+        "h": 0.0648
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Flights",
+      "bbox": {
+        "x": 0.6368,
+        "y": 0.1492,
+        "w": 0.0655,
+        "h": 0.0648
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Deals",
+      "bbox": {
+        "x": 0.7322,
+        "y": 0.1492,
+        "w": 0.0519,
+        "h": 0.0648
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "Sign in",
+      "bbox": {
+        "x": 0.8141,
+        "y": 0.1334,
+        "w": 0.1206,
+        "h": 0.0964
+      },
+      "parent": 0
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0542,
+        "y": 0.2941,
+        "w": 0.9006,
+        "h": 0.3571
+      },
+      "parent": null,
+      "props": {
+        "alt": "beach banner",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0542,
+        "y": 0.6905,
+        "w": 0.9006,
+        "h": 0.175
+      },
+      "parent": null
+    },
+    {
+      "type": "input",
+      "label": "Destination",
+      "bbox": {
+        "x": 0.0762,
+        "y": 0.7298,
+        "w": 0.2463,
+        "h": 0.0964
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "text"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Check-in",
+      "bbox": {
+        "x": 0.3365,
+        "y": 0.7298,
+        "w": 0.154,
+        "h": 0.0964
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Check-out",
+      "bbox": {
+        "x": 0.5045,
+        "y": 0.7298,
+        "w": 0.154,
+        "h": 0.0964
+      },
+      "parent": 7,
+      "props": {
+        "inputType": "date"
+      }
+    },
+    {
+      "type": "select",
+      "label": "Guests",
+      "bbox": {
+        "x": 0.6724,
+        "y": 0.7298,
+        "w": 0.1232,
+        "h": 0.0964
+      },
+      "parent": 7,
+      "props": {
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Search",
+      "bbox": {
+        "x": 0.8096,
+        "y": 0.7298,
+        "w": 0.1232,
+        "h": 0.0964
+      },
+      "parent": 7
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Search",
+      "expect": {
+        "type": "validate_required"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "StayFinder",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Hotels",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Flights",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Deals",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Sign in",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Destination",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Check-in",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Check-in",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Check-out",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Check-out",
+      "input_type": "date",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Guests",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Search",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Search",
+      "expect": {
+        "type": "validate_required"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

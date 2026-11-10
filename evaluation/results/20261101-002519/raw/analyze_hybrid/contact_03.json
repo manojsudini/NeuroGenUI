@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 7132.6,
+ "value": {
+  "components": [
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.193,
+     "y": 0.07,
+     "w": 0.643,
+     "h": 0.8385
+    },
+    "confidence": 0.95,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Support request",
+    "bbox": {
+     "x": 0.225,
+     "y": 0.1292,
+     "w": 0.259,
+     "h": 0.0619
+    },
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "Last name",
+    "bbox": {
+     "x": 0.523,
+     "y": 0.1938,
+     "w": 0.289,
+     "h": 0.0929
+    },
+    "confidence": 0.877,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "input",
+    "label": "First name",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.1965,
+     "w": 0.283,
+     "h": 0.0888
+    },
+    "confidence": 0.869,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Topic",
+    "bbox": {
+     "x": 0.214,
+     "y": 0.284,
+     "w": 0.6,
+     "h": 0.1131
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Priority",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.4051,
+     "w": 0.07,
+     "h": 0.0336
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.223,
+     "y": 0.463,
+     "w": 0.025,
+     "h": 0.035
+    },
+    "confidence": 0.907,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.426,
+     "y": 0.4616,
+     "w": 0.025,
+     "h": 0.0363
+    },
+    "confidence": 0.902,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "radio",
+    "label": "",
+    "bbox": {
+     "x": 0.629,
+     "y": 0.463,
+     "w": 0.025,
+     "h": 0.0336
+    },
+    "confidence": 0.913,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Low",
+    "bbox": {
+     "x": 0.258,
+     "y": 0.4697,
+     "w": 0.03,
+     "h": 0.0242
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Medium",
+    "bbox": {
+     "x": 0.461,
+     "y": 0.4697,
+     "w": 0.066,
+     "h": 0.0242
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "High",
+    "bbox": {
+     "x": 0.665,
+     "y": 0.4697,
+     "w": 0.04,
+     "h": 0.0377
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "textarea",
+    "label": "Describe the issue",
+    "bbox": {
+     "x": 0.221,
+     "y": 0.5195,
+     "w": 0.591,
+     "h": 0.1952
+    },
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "checkbox",
+    "label": "",
+    "bbox": {
+     "x": 0.223,
+     "y": 0.7335,
+     "w": 0.024,
+     "h": 0.0323
+    },
+    "confidence": 0.9,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "text",
+    "label": "Email me a copy",
+    "bbox": {
+     "x": 0.259,
+     "y": 0.7429,
+     "w": 0.143,
+     "h": 0.0336
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "button",
+    "label": "Submit ticket",
+    "bbox": {
+     "x": 0.226,
+     "y": 0.7954,
+     "w": 0.212,
+     "h": 0.0848
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   }
+  ],
+  "width": 1000,
+  "height": 743,
+  "mode": "hybrid",
+  "title": "Support request form",
+  "category": "other",
+  "timings": {
+   "cv_ms": 53,
+   "vision_ms": 7067,
+   "total_ms": 7132
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 20
+ }
+}

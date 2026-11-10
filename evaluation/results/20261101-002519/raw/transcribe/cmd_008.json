@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 3744.1,
+ "value": {
+  "text": "Add a small text saying free for 30 days under the download app button.",
+  "model": "whisper-1",
+  "duration_ms": 3744
+ }
+}

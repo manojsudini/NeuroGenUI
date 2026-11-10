@@ -1,0 +1,81 @@
+{
+ "_ok": true,
+ "_wall_ms": 4539.9,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "container",
+     "label": "Your cart screen",
+     "children": [
+      {
+       "type": "heading",
+       "label": "Your cart",
+       "props": {
+        "level": 1
+       }
+      },
+      {
+       "type": "card",
+       "label": "Linen shirt $40"
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "Thumbnail of Linen shirt",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "card",
+       "label": "Straw hat $80"
+      },
+      {
+       "type": "image",
+       "label": "",
+       "props": {
+        "alt": "Thumbnail of Straw hat",
+        "photo": "product"
+       }
+      },
+      {
+       "type": "text",
+       "label": "Total $120"
+      },
+      {
+       "type": "input",
+       "label": "Coupon code",
+       "props": {
+        "inputType": "text"
+       }
+      },
+      {
+       "type": "button",
+       "label": "Checkout"
+      }
+     ]
+    },
+    "meta": {
+     "title": "Your cart",
+     "category": "ecommerce"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Checkout button"
+    },
+    "page": {
+     "name": "Checkout"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 4539,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"container\",\"label\":\"Your cart screen\",\"props\":null,\"style\":null,\"events\":null,\"children\":[{\"type\":\"heading\",\"label\":\"Your cart\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"card\",\"label\":\"Linen shirt $40\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Thumbnail of Linen shirt\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"card\",\"label\":\"Straw hat $80\",\"props\":null,\"style\":null},{\"type\":\"image\",\"label\":\"\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Thumbnail of Straw hat\",\"photo\":\"product\",\"items\":null},\"style\":null},{\"type\":\"text\",\"label\":\"Total $120\",\"props\":null,\"style\":null},{\"type\":\"input\",\"label\":\"Coupon code\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"button\",\"label\":\"Checkout\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Your cart\",\"category\":\"ecommerce\"},\"confidence\":0.98},{\"op\":\"navigation\",\"target\":{\"ref\":\"Checkout button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Checkout\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

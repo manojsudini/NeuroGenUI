@@ -1,0 +1,159 @@
+{
+ "_ok": true,
+ "_wall_ms": 38.3,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.1054,
+     "w": 0.43,
+     "h": 0.7143
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.522,
+     "y": 0.1339,
+     "w": 0.226,
+     "h": 0.0821
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.524,
+     "y": 0.2554,
+     "w": 0.046,
+     "h": 0.05
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.3571,
+     "w": 0.351,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.519,
+     "y": 0.4018,
+     "w": 0.367,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.523,
+     "y": 0.45,
+     "w": 0.268,
+     "h": 0.0179
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.515,
+     "y": 0.5036,
+     "w": 0.423,
+     "h": 0.1125
+    },
+    "confidence": 0.844,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.6196,
+     "w": 0.167,
+     "h": 0.1089
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.517,
+     "y": 0.7429,
+     "w": 0.206,
+     "h": 0.1161
+    },
+    "confidence": 0.88,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.741,
+     "y": 0.75,
+     "w": 0.196,
+     "h": 0.1054
+    },
+    "confidence": 0.878,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 32,
+   "vision_ms": 0,
+   "total_ms": 38
+  },
+  "n_cv_candidates": 19
+ }
+}

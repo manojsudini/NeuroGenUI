@@ -1,0 +1,267 @@
+{
+ "_ok": true,
+ "_wall_ms": 12335.4,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.05,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Shipping",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.13,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "order summary",
+    "bbox": {
+     "x": 0.68,
+     "y": 0.13,
+     "w": 0.28,
+     "h": 0.45
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "order summary",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.14,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "Full name",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.18,
+     "w": 0.6,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "Linen shirt $40, Straw hat $14",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.2,
+     "w": 0.25,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "Address",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.27,
+     "w": 0.6,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.34,
+     "w": 0.25,
+     "h": 0.01
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Total $54",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.36,
+     "w": 0.25,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "input",
+    "label": "City",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.37,
+     "w": 0.28,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Zip code",
+    "bbox": {
+     "x": 0.34,
+     "y": 0.37,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Place order",
+    "bbox": {
+     "x": 0.69,
+     "y": 0.43,
+     "w": 0.25,
+     "h": 0.07
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Payment",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.47,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Card",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.53,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Card",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.53,
+     "w": 0.1,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "PayPal",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.59,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "PayPal",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.59,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "radio",
+    "label": "Cash on delivery",
+    "bbox": {
+     "x": 0.04,
+     "y": 0.65,
+     "w": 0.05,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Cash on delivery",
+    "bbox": {
+     "x": 0.1,
+     "y": 0.65,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 642,
+  "mode": "vision",
+  "title": "Checkout",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 12327,
+   "total_ms": 12335
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

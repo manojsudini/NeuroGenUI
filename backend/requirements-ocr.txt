@@ -1,0 +1,3 @@
+# Optional local OCR (CPU, ~15 MB models bundled in the wheel, onnxruntime). Without it the sketch pipeline
+# falls back to the OpenCV + vision-model behaviour. Disable explicitly with NGUI_OCR=0.
+rapidocr-onnxruntime>=1.3,<2

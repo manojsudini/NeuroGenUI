@@ -1,0 +1,174 @@
+{
+ "_ok": true,
+ "_wall_ms": 9545.2,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "component": {
+     "type": "card",
+     "label": "Sign in card",
+     "style": {
+      "align": "center"
+     },
+     "children": [
+      {
+       "type": "icon",
+       "label": "user icon",
+       "props": {
+        "alt": "user icon",
+        "photo": "person"
+       }
+      },
+      {
+       "type": "heading",
+       "label": "Welcome back",
+       "props": {
+        "level": 1
+       },
+       "style": {
+        "align": "center"
+       }
+      },
+      {
+       "type": "input",
+       "label": "Username",
+       "props": {
+        "inputType": "text",
+        "required": true,
+        "name": "username"
+       }
+      },
+      {
+       "type": "input",
+       "label": "Password",
+       "props": {
+        "inputType": "password",
+        "required": true,
+        "name": "password"
+       }
+      },
+      {
+       "type": "container",
+       "label": "Remember me container",
+       "style": {
+        "align": "left"
+       }
+      },
+      {
+       "type": "checkbox",
+       "label": "Remember me",
+       "props": {
+        "name": "remember_me",
+        "checked": false
+       }
+      },
+      {
+       "type": "link",
+       "label": "Forgot password?"
+      },
+      {
+       "type": "button",
+       "label": "Sign in",
+       "style": {
+        "variant": "primary",
+        "width": "full"
+       }
+      },
+      {
+       "type": "divider",
+       "label": "divider"
+      },
+      {
+       "type": "button",
+       "label": "Continue with Google",
+       "style": {
+        "variant": "outline"
+       }
+      },
+      {
+       "type": "link",
+       "label": "Create an account",
+       "style": {
+        "variant": "ghost",
+        "align": "center"
+       }
+      }
+     ]
+    },
+    "meta": {
+     "title": "Sign in",
+     "category": "login"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "move",
+    "target": {
+     "ref": "Remember me checkbox"
+    },
+    "component": {
+     "type": "container",
+     "label": "Remember me container",
+     "style": {
+      "align": "left"
+     },
+     "children": [
+      {
+       "type": "checkbox",
+       "label": "Remember me",
+       "props": {
+        "name": "remember_me",
+        "checked": false
+       }
+      },
+      {
+       "type": "link",
+       "label": "Forgot password?"
+      }
+     ]
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Sign in card"
+     }
+    },
+    "confidence": 0.9
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Sign in button"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "targets": [
+        "Username",
+        "Password"
+       ],
+       "message": "Please fill in all fields."
+      }
+     ]
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Create an account link"
+    },
+    "page": {
+     "name": "Register"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 9544,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":{\"type\":\"card\",\"label\":\"Sign in card\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"icon\",\"label\":\"user icon\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"user icon\",\"photo\":\"person\",\"items\":null},\"style\":null},{\"type\":\"heading\",\"label\":\"Welcome back\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},{\"type\":\"input\",\"label\":\"Username\",\"props\":{\"level\":null,\"inputType\":\"text\",\"placeholder\":null,\"required\":true,\"name\":\"username\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"input\",\"label\":\"Password\",\"props\":{\"level\":null,\"inputType\":\"password\",\"placeholder\":null,\"required\":true,\"name\":\"password\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"container\",\"label\":\"Remember me container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null} \t},{\"type\":\"checkbox\",\"label\":\"Remember me\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"remember_me\",\"rows\":null,\"checked\":false,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"link\",\"label\":\"Forgot password?\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Sign in\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":\"primary\",\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},{\"type\":\"divider\",\"label\":\"divider\",\"props\":null,\"style\":null},{\"type\":\"button\",\"label\":\"Continue with Google\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":\"outline\",\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},{\"type\":\"link\",\"label\":\"Create an account\",\"props\":null,\"style\":{\"variant\":\"ghost\",\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"center\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}}]},\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":{\"title\":\"Sign in\",\"category\":\"login\"},\"confidence\":0.98},{\"op\":\"move\",\"target\":{\"ref\":\"Remember me checkbox\",\"id\":null},\"component\":{\"type\":\"container\",\"label\":\"Remember me container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"checkbox\",\"label\":\"Remember me\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":\"remember_me\",\"rows\":null,\"checked\":false,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null},{\"type\":\"link\",\"label\":\"Forgot password?\",\"props\":null,\"style\":null}]},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Sign in card\",\"id\":null}},\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.9},{\"op\":\"interaction\",\"target\":{\"ref\":\"Sign in button\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Username\",\"Password\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all fields.\" ,\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"navigation\",\"target\":{\"ref\":\"Create an account link\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"axis\":null,\"event\":null,\"page\":{\"name\":\"Register\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1326.6,
+ "value": {
+  "text": "Make the login button bigger.",
+  "model": "whisper-1",
+  "duration_ms": 1326
+ }
+}

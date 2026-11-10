@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1003.6,
+ "value": {
+  "text": "After place order, go to an order confirmed page.",
+  "model": "whisper-1",
+  "duration_ms": 1003
+ }
+}

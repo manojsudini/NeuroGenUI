@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1402.7,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "size dropdown",
+     "id": "sel_size"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "quantity field",
+      "id": "inp_quantity"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1401,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"size dropdown\",\"id\":\"sel_size\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"quantity field\",\"id\":\"inp_quantity\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "_ok": true,
+ "_wall_ms": 13386.6,
+ "value": {
+  "components": [
+   {
+    "type": "heading",
+    "label": "Your cart",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.05,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.12,
+     "w": 0.9,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.14,
+     "w": 0.15,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Linen shirt",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.14,
+     "w": 0.4,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "$40",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.2,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 1
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.29,
+     "w": 0.9,
+     "h": 0.15
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.31,
+     "w": 0.15,
+     "h": 0.12
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "Straw hat",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.31,
+     "w": 0.4,
+     "h": 0.06
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 5
+   },
+   {
+    "type": "text",
+    "label": "$80",
+    "bbox": {
+     "x": 0.25,
+     "y": 0.37,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 5
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.46,
+     "w": 0.9,
+     "h": 0.01
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Total",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.48,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "$120",
+    "bbox": {
+     "x": 0.8,
+     "y": 0.48,
+     "w": 0.15,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Coupon code",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.55,
+     "w": 0.9,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Checkout",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.65,
+     "w": 0.9,
+     "h": 0.1
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 672,
+  "mode": "vision",
+  "title": "Shopping Cart",
+  "category": "ecommerce",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 13378,
+   "total_ms": 13386
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "_ok": true,
+ "_wall_ms": 12304.9,
+ "value": {
+  "components": [
+   {
+    "type": "radio",
+    "label": "Hi, Sam",
+    "bbox": {
+     "x": 0.262,
+     "y": 0.1203,
+     "w": 0.19,
+     "h": 0.0759
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.882,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.2516,
+     "w": 0.512,
+     "h": 0.25
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.941,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Balance",
+    "bbox": {
+     "x": 0.262,
+     "y": 0.2911,
+     "w": 0.095,
+     "h": 0.0633
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "checkbox",
+    "label": "$2,450",
+    "bbox": {
+     "x": 0.263,
+     "y": 0.3782,
+     "w": 0.147,
+     "h": 0.0934
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "Request",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.5316,
+     "w": 0.244,
+     "h": 0.0839
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.874,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.5443,
+     "w": 0.239,
+     "h": 0.0823
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.883,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Activity",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.6566,
+     "w": 0.102,
+     "h": 0.0712
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Coffee-$4",
+    "bbox": {
+     "x": 0.244,
+     "y": 0.7532,
+     "w": 0.145,
+     "h": 0.0601
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "list",
+    "label": "",
+    "bbox": {
+     "x": 0.246,
+     "y": 0.7674,
+     "w": 0.197,
+     "h": 0.1456
+    },
+    "shape": "list",
+    "ocr": false,
+    "confidence": 0.8,
+    "source": "hybrid",
+    "items": [
+     "Salary+$1,200",
+     "Groceries-$36"
+    ],
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 632,
+  "mode": "hybrid",
+  "title": "Personal Finance Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 5551,
+   "vision_ms": 6494,
+   "total_ms": 12304
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 15
+ }
+}

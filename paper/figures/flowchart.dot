@@ -1,0 +1,14 @@
+digraph F {
+  rankdir=TB; nodesep=0.3; ranksep=0.28;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, fillcolor="#f5f3f1", color="#3a3a3a"];
+  edge [color="#555555", arrowsize=0.6, fontname="Helvetica", fontsize=8];
+  s [label="Start", shape=oval]; a [label="Draw / upload sketch"]; b [label="Speak initial instruction"];
+  c [label="Detect components (OpenCV + vision)"]; d [label="Transcribe (Whisper), parse to Ops"];
+  e [label="Fuse into JSON IR"]; f [label="Compile IR -> React code"]; g [label="Render live preview"];
+  h [label="Validate (visual + functional)"];
+  i [label="All checks pass?", shape=diamond, fillcolor="#fbe3ec", color="#c2185b"];
+  j [label="Identify failing component,\napply targeted repair"]; k [label="Save version"];
+  l [label="Further voice command?", shape=diamond, fillcolor="#fbe3ec", color="#c2185b"];
+  m [label="Resolve target, apply Ops to IR\n(unaffected nodes preserved)"]; z [label="Final UI + export", shape=oval];
+  s->a; s->b; a->c; b->d; c->e; d->e; e->f->g->h->i; i->j [label="no"]; j->f; i->k [label="yes"]; k->l; l->m [label="yes"]; m->f; l->z [label="no"];
+}

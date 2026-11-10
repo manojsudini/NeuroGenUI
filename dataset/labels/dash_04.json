@@ -1,0 +1,312 @@
+{
+  "id": "dash_04",
+  "category": "dashboard",
+  "title": "Insight analytics",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('dash_04')",
+  "render": {
+    "font": "Caveat.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 688,
+  "instruction": "An analytics dashboard with a navbar (Insight logo, Dashboard, Projects, Team and a New project button), a date range dropdown (Last 7 days, Last 30 days, This year) with an Export button, a large traffic chart and two cards, Tasks done and Open issues. Export shows the message Export started and New project opens a New project page.",
+  "components": [
+    {
+      "type": "navbar",
+      "label": "",
+      "bbox": {
+        "x": 0.0613,
+        "y": 0.0816,
+        "w": 0.8854,
+        "h": 0.1192
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Insight",
+      "bbox": {
+        "x": 0.0813,
+        "y": 0.1035,
+        "w": 0.1148,
+        "h": 0.0755
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "nav_item",
+      "label": "Dashboard",
+      "bbox": {
+        "x": 0.3878,
+        "y": 0.1119,
+        "w": 0.1206,
+        "h": 0.0587
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Projects",
+      "bbox": {
+        "x": 0.5384,
+        "y": 0.1119,
+        "w": 0.0893,
+        "h": 0.0587
+      },
+      "parent": 0
+    },
+    {
+      "type": "nav_item",
+      "label": "Team",
+      "bbox": {
+        "x": 0.6576,
+        "y": 0.1119,
+        "w": 0.0553,
+        "h": 0.0587
+      },
+      "parent": 0
+    },
+    {
+      "type": "button",
+      "label": "New project",
+      "bbox": {
+        "x": 0.7429,
+        "y": 0.102,
+        "w": 0.1839,
+        "h": 0.0785
+      },
+      "parent": 0
+    },
+    {
+      "type": "select",
+      "label": "Last 30 days",
+      "bbox": {
+        "x": 0.0613,
+        "y": 0.2328,
+        "w": 0.24,
+        "h": 0.0785
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "Last 7 days",
+          "Last 30 days",
+          "This year"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "label": "Export",
+      "bbox": {
+        "x": 0.516,
+        "y": 0.2328,
+        "w": 0.15,
+        "h": 0.0785
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    },
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0613,
+        "y": 0.3433,
+        "w": 0.8854,
+        "h": 0.3488
+      },
+      "parent": null,
+      "props": {
+        "alt": "traffic chart",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.0613,
+        "y": 0.7241,
+        "w": 0.4307,
+        "h": 0.2147
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Tasks done",
+      "bbox": {
+        "x": 0.0833,
+        "y": 0.7561,
+        "w": 0.1341,
+        "h": 0.0635
+      },
+      "parent": 9,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.0833,
+        "y": 0.84,
+        "w": 0.3867,
+        "h": 0.0669
+      },
+      "parent": 9,
+      "props": {
+        "scribble_lines": 2
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.516,
+        "y": 0.7241,
+        "w": 0.4307,
+        "h": 0.2147
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Open issues",
+      "bbox": {
+        "x": 0.538,
+        "y": 0.7561,
+        "w": 0.141,
+        "h": 0.0635
+      },
+      "parent": 12,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.538,
+        "y": 0.84,
+        "w": 0.3867,
+        "h": 0.0669
+      },
+      "parent": 12,
+      "props": {
+        "scribble_lines": 2
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Export",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "export"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "New project",
+      "expect": {
+        "type": "navigate",
+        "page": "New project"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Insight",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Dashboard",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Projects",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "nav_item",
+      "label_contains": "Team",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "New project",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Last 30 days",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Export",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Tasks done",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Open issues",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Export",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "export"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "New project",
+      "expect": {
+        "type": "navigate",
+        "page": "New project"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

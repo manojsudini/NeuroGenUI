@@ -1,0 +1,137 @@
+{
+ "_ok": true,
+ "_wall_ms": 6210.8,
+ "value": {
+  "components": [
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.1054,
+     "w": 0.43,
+     "h": 0.7143
+    },
+    "confidence": 0.85,
+    "source": "cv",
+    "shape": "cross_box",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Running Shoes",
+    "bbox": {
+     "x": 0.516,
+     "y": 0.1232,
+     "w": 0.237,
+     "h": 0.0911
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "$89",
+    "bbox": {
+     "x": 0.518,
+     "y": 0.2446,
+     "w": 0.057,
+     "h": 0.0661
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "ocr": true,
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.516,
+     "y": 0.3518,
+     "w": 0.3705,
+     "h": 0.1182
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Size",
+    "bbox": {
+     "x": 0.518,
+     "y": 0.5107,
+     "w": 0.416,
+     "h": 0.0893
+    },
+    "confidence": 0.844,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Quantity",
+    "bbox": {
+     "x": 0.518,
+     "y": 0.6339,
+     "w": 0.416,
+     "h": 0.0893
+    },
+    "confidence": 0.5,
+    "source": "inferred",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Addtocart",
+    "bbox": {
+     "x": 0.518,
+     "y": 0.75,
+     "w": 0.203,
+     "h": 0.1018
+    },
+    "confidence": 0.88,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Buynow",
+    "bbox": {
+     "x": 0.742,
+     "y": 0.7536,
+     "w": 0.193,
+     "h": 0.0929
+    },
+    "confidence": 0.878,
+    "source": "cv",
+    "shape": "rect",
+    "ocr": false,
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 6124,
+   "vision_ms": 0,
+   "total_ms": 6210
+  },
+  "n_cv_candidates": 19
+ }
+}

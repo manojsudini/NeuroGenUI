@@ -1,0 +1,210 @@
+{
+  "id": "bank_01",
+  "category": "banking",
+  "title": "MyBank",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('bank_01')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pen",
+    "layout": "mobile"
+  },
+  "width": 1000,
+  "height": 591,
+  "instruction": "A banking app home: a header with the MyBank title and a bell icon, a savings account balance card, Transfer, Pay bills and Deposit buttons, and a Transactions list. Transfer opens a Transfer page.",
+  "components": [
+    {
+      "type": "header",
+      "label": "",
+      "bbox": {
+        "x": 0.2444,
+        "y": 0.0725,
+        "w": 0.5288,
+        "h": 0.1397
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "MyBank",
+      "bbox": {
+        "x": 0.2624,
+        "y": 0.103,
+        "w": 0.1042,
+        "h": 0.0788
+      },
+      "parent": 0,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "icon",
+      "label": "",
+      "bbox": {
+        "x": 0.7113,
+        "y": 0.1052,
+        "w": 0.044,
+        "h": 0.0745
+      },
+      "parent": 0,
+      "props": {
+        "glyph": "bell"
+      }
+    },
+    {
+      "type": "card",
+      "label": "",
+      "bbox": {
+        "x": 0.2444,
+        "y": 0.2461,
+        "w": 0.5288,
+        "h": 0.2462
+      },
+      "parent": null
+    },
+    {
+      "type": "text",
+      "label": "Savings account",
+      "bbox": {
+        "x": 0.2664,
+        "y": 0.2833,
+        "w": 0.1479,
+        "h": 0.0546
+      },
+      "parent": 3
+    },
+    {
+      "type": "heading",
+      "label": "$12,480.50",
+      "bbox": {
+        "x": 0.2664,
+        "y": 0.3616,
+        "w": 0.1748,
+        "h": 0.0934
+      },
+      "parent": 3,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "button",
+      "label": "Transfer",
+      "bbox": {
+        "x": 0.2444,
+        "y": 0.5261,
+        "w": 0.1669,
+        "h": 0.0914
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Pay bills",
+      "bbox": {
+        "x": 0.4254,
+        "y": 0.5261,
+        "w": 0.1669,
+        "h": 0.0914
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Deposit",
+      "bbox": {
+        "x": 0.6063,
+        "y": 0.5261,
+        "w": 0.1669,
+        "h": 0.0914
+      },
+      "parent": null
+    },
+    {
+      "type": "heading",
+      "label": "Transactions",
+      "bbox": {
+        "x": 0.2444,
+        "y": 0.6513,
+        "w": 0.1394,
+        "h": 0.0657
+      },
+      "parent": null,
+      "props": {
+        "level": 3
+      }
+    },
+    {
+      "type": "list",
+      "label": "",
+      "bbox": {
+        "x": 0.2444,
+        "y": 0.7508,
+        "w": 0.1758,
+        "h": 0.1658
+      },
+      "parent": null,
+      "props": {
+        "items": [
+          "Rent  -$900",
+          "Salary  +$3,100",
+          "Netflix  -$12"
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Transfer",
+      "expect": {
+        "type": "navigate",
+        "page": "Transfer"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "MyBank",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Transfer",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Pay bills",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Deposit",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Transactions",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Transfer",
+      "expect": {
+        "type": "navigate",
+        "page": "Transfer"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

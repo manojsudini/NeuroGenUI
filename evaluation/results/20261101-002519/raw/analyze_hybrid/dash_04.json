@@ -1,0 +1,371 @@
+{
+ "_ok": true,
+ "_wall_ms": 9853.4,
+ "value": {
+  "components": [
+   {
+    "type": "link",
+    "label": "Dashboard",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.07,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Projects",
+    "bbox": {
+     "x": 0.38,
+     "y": 0.07,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "Team",
+    "bbox": {
+     "x": 0.49,
+     "y": 0.07,
+     "w": 0.07,
+     "h": 0.04
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.0814,
+     "w": 0.696,
+     "h": 0.1308
+    },
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.744,
+     "y": 0.0974,
+     "w": 0.185,
+     "h": 0.0887
+    },
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Insight",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.125,
+     "w": 0.115,
+     "h": 0.0538
+    },
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Dashboard",
+    "bbox": {
+     "x": 0.394,
+     "y": 0.1206,
+     "w": 0.118,
+     "h": 0.0378
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "Projects",
+    "bbox": {
+     "x": 0.545,
+     "y": 0.1235,
+     "w": 0.083,
+     "h": 0.0392
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "text",
+    "label": "New",
+    "bbox": {
+     "x": 0.773,
+     "y": 0.1221,
+     "w": 0.048,
+     "h": 0.0349
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "projecc",
+    "bbox": {
+     "x": 0.83,
+     "y": 0.1294,
+     "w": 0.073,
+     "h": 0.0378
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 4
+   },
+   {
+    "type": "text",
+    "label": "Team",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.1395,
+     "w": 0.062,
+     "h": 0.0407
+    },
+    "confidence": 0.835,
+    "source": "hybrid",
+    "parent": 3
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.061,
+     "y": 0.2224,
+     "w": 0.242,
+     "h": 0.0959
+    },
+    "confidence": 0.883,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Export",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.2238,
+     "w": 0.163,
+     "h": 0.0959
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Last 30 days",
+    "bbox": {
+     "x": 0.078,
+     "y": 0.2573,
+     "w": 0.128,
+     "h": 0.0378
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.2645,
+     "w": 0.02,
+     "h": 0.0174
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 11
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3328,
+     "w": 0.895,
+     "h": 0.3765
+    },
+    "confidence": 0.907,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.095,
+     "y": 0.4651,
+     "w": 0.83,
+     "h": 0.1424
+    },
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 15
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.7151,
+     "w": 0.44,
+     "h": 0.2369
+    },
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Tasks done",
+    "bbox": {
+     "x": 0.093,
+     "y": 0.7733,
+     "w": 0.131,
+     "h": 0.0378
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "heading",
+    "label": "Open issues",
+    "bbox": {
+     "x": 0.543,
+     "y": 0.7733,
+     "w": 0.137,
+     "h": 0.0451
+    },
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.085,
+     "y": 0.8503,
+     "w": 0.155,
+     "h": 0.0131
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.251,
+     "y": 0.8474,
+     "w": 0.204,
+     "h": 0.016
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.539,
+     "y": 0.8488,
+     "w": 0.38,
+     "h": 0.0145
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.8895,
+     "w": 0.064,
+     "h": 0.0116
+    },
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.16,
+     "y": 0.8881,
+     "w": 0.108,
+     "h": 0.0145
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": 17
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.539,
+     "y": 0.8866,
+     "w": 0.095,
+     "h": 0.016
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.645,
+     "y": 0.8852,
+     "w": 0.113,
+     "h": 0.016
+    },
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 688,
+  "mode": "hybrid",
+  "title": "Insight Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 55,
+   "vision_ms": 9786,
+   "total_ms": 9853
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 24
+ }
+}

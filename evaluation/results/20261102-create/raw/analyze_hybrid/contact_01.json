@@ -1,0 +1,146 @@
+{
+ "_ok": true,
+ "_wall_ms": 4346.6,
+ "value": {
+  "components": [
+   {
+    "type": "text",
+    "label": "Contact us",
+    "bbox": {
+     "x": 0.245,
+     "y": 0.0954,
+     "w": 0.168,
+     "h": 0.0562
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.1635,
+     "w": 0.183,
+     "h": 0.0119
+    },
+    "shape": "line",
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.242,
+     "y": 0.2061,
+     "w": 0.455,
+     "h": 0.017
+    },
+    "shape": "text",
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.241,
+     "y": 0.2504,
+     "w": 0.305,
+     "h": 0.017
+    },
+    "shape": "text",
+    "confidence": 0.65,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.243,
+     "y": 0.2964,
+     "w": 0.488,
+     "h": 0.109
+    },
+    "shape": "rect",
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.239,
+     "y": 0.4191,
+     "w": 0.491,
+     "h": 0.1124
+    },
+    "shape": "rect",
+    "confidence": 0.879,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Message",
+    "bbox": {
+     "x": 0.257,
+     "y": 0.5826,
+     "w": 0.07,
+     "h": 0.0392
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.706,
+     "y": 0.7513,
+     "w": 0.015,
+     "h": 0.0256
+    },
+    "shape": "text",
+    "confidence": 0.55,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.24,
+     "y": 0.8058,
+     "w": 0.493,
+     "h": 0.121
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 587,
+  "mode": "hybrid",
+  "title": "Contact Us Form",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 29,
+   "vision_ms": 4307,
+   "total_ms": 4346
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 17
+ }
+}

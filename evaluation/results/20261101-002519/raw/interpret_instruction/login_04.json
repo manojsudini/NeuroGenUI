@@ -1,0 +1,204 @@
+{
+ "_ok": true,
+ "_wall_ms": 8919.5,
+ "value": {
+  "ops": [
+   {
+    "op": "create",
+    "components": [
+     {
+      "type": "container",
+      "label": "Admin Login Container",
+      "style": {
+       "width": "full"
+      },
+      "children": [
+       {
+        "type": "image",
+        "label": "Illustration",
+        "props": {
+         "alt": "Admin login illustration",
+         "photo": "banner"
+        },
+        "style": {
+         "width": "50%"
+        }
+       },
+       {
+        "type": "container",
+        "label": "Login Form Container",
+        "style": {
+         "width": "50%"
+        }
+       }
+      ]
+     }
+    ],
+    "page": {
+     "name": "Admin Login"
+    },
+    "meta": {
+     "title": "Admin Login",
+     "category": "login"
+    },
+    "confidence": 0.98
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "heading",
+     "label": "Admin Portal",
+     "props": {
+      "level": 1
+     },
+     "style": {
+      "align": "left"
+     }
+    },
+    "position": {
+     "relation": "inside",
+     "anchor": {
+      "ref": "Login Form Container"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "text",
+     "label": "Please sign in to continue",
+     "style": {
+      "align": "left"
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Admin Portal"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "input",
+     "label": "Email",
+     "props": {
+      "inputType": "email",
+      "placeholder": "you@example.com",
+      "required": true,
+      "name": "email"
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Please sign in to continue"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "input",
+     "label": "Password",
+     "props": {
+      "inputType": "password",
+      "required": true,
+      "name": "password"
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Email"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "select",
+     "label": "Role",
+     "props": {
+      "required": false,
+      "name": "role",
+      "options": [
+       "Admin",
+       "Editor",
+       "Viewer"
+      ]
+     }
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Password"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "button",
+     "label": "Login"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Role"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "add",
+    "component": {
+     "type": "link",
+     "label": "Need help?"
+    },
+    "position": {
+     "relation": "below",
+     "anchor": {
+      "ref": "Login"
+     }
+    },
+    "confidence": 0.95
+   },
+   {
+    "op": "interaction",
+    "target": {
+     "ref": "Login"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "validate_required",
+       "targets": [
+        "Email",
+        "Password"
+       ],
+       "message": "Please fill in all required fields."
+      },
+      {
+       "type": "validate_format",
+       "target": "Email",
+       "format": "email",
+       "message": "Please enter a valid email address."
+      }
+     ]
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 8919,
+  "raw": "{\"ops\":[{\"op\":\"create\",\"target\":null,\"component\":null,\"components\":[{\"type\":\"container\",\"label\":\"Admin Login Container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"full\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":[{\"type\":\"image\",\"label\":\"Illustration\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":\"Admin login illustration\",\"photo\":\"banner\",\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"50%\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null}},{\"type\":\"container\",\"label\":\"Login Form Container\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":\"50%\",\"height\":null,\"align\":null,\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null} \t}]}],\"position\":null,\"changes\":null,\"scale\":null,\"event\":null,\"page\":{\"name\":\"Admin Login\"},\"meta\":{\"title\":\"Admin Login\",\"category\":\"login\"},\"confidence\":0.98},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"heading\",\"label\":\"Admin Portal\",\"props\":{\"level\":1,\"inputType\":null,\"placeholder\":null,\"required\":null,\"name\":null,\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"inside\",\"anchor\":{\"ref\":\"Login Form Container\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"text\",\"label\":\"Please sign in to continue\",\"props\":null,\"style\":{\"variant\":null,\"color\":null,\"textColor\":null,\"bg\":null,\"size\":null,\"width\":null,\"height\":null,\"align\":\"left\",\"fontSize\":null,\"fontWeight\":null,\"radius\":null,\"hidden\":null},\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Admin Portal\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"input\",\"label\":\"Email\",\"props\":{\"level\":null,\"inputType\":\"email\",\"placeholder\":\"you@example.com\",\"required\":true,\"name\":\"email\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Please sign in to continue\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"input\",\"label\":\"Password\",\"props\":{\"level\":null,\"inputType\":\"password\",\"placeholder\":null,\"required\":true,\"name\":\"password\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":null,\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Email\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"select\",\"label\":\"Role\",\"props\":{\"level\":null,\"inputType\":null,\"placeholder\":null,\"required\":false,\"name\":\"role\",\"rows\":null,\"checked\":null,\"group\":null,\"options\":[\"Admin\",\"Editor\",\"Viewer\"],\"alt\":null,\"photo\":null,\"items\":null},\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Password\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"button\",\"label\":\"Login\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Role\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"add\",\"target\":null,\"component\":{\"type\":\"link\",\"label\":\"Need help?\",\"props\":null,\"style\":null,\"events\":null,\"children\":null},\"components\":null,\"position\":{\"relation\":\"below\",\"anchor\":{\"ref\":\"Login\",\"id\":null}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95},{\"op\":\"interaction\",\"target\":{\"ref\":\"Login\",\"id\":null},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"validate_required\",\"targets\":[\"Email\",\"Password\"],\"target\":null,\"format\":null,\"message\":\"Please fill in all required fields.\" \t,\"text\":null,\"tone\":null,\"page\":null},{\"type\":\"validate_format\",\"targets\":null,\"target\":\"Email\",\"format\":\"email\",\"message\":\"Please enter a valid email address.\",\"text\":null,\"tone\":null,\"page\":null}]},\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

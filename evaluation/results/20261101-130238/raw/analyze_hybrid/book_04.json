@@ -1,0 +1,244 @@
+{
+ "_ok": true,
+ "_wall_ms": 5288.8,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.045,
+     "y": 0.0625,
+     "w": 0.891,
+     "h": 0.1643
+    },
+    "shape": "rect",
+    "confidence": 0.914,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Eventix",
+    "bbox": {
+     "x": 0.069,
+     "y": 0.1232,
+     "w": 0.097,
+     "h": 0.0357
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Events",
+    "bbox": {
+     "x": 0.588,
+     "y": 0.1196,
+     "w": 0.067,
+     "h": 0.0286
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Venues",
+    "bbox": {
+     "x": 0.691,
+     "y": 0.1232,
+     "w": 0.068,
+     "h": 0.0268
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "My tickets",
+    "bbox": {
+     "x": 0.795,
+     "y": 0.1196,
+     "w": 0.111,
+     "h": 0.0446
+    },
+    "shape": "text",
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.039,
+     "y": 0.2304,
+     "w": 0.361,
+     "h": 0.6054
+    },
+    "shape": "cross_box",
+    "confidence": 0.92,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Night",
+    "bbox": {
+     "x": 0.437,
+     "y": 0.2625,
+     "w": 0.187,
+     "h": 0.0821
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Jazz Night",
+    "bbox": {
+     "x": 0.442,
+     "y": 0.2625,
+     "w": 0.118,
+     "h": 0.0536
+    },
+    "shape": "text",
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Sat 12 Dec, 8 PM",
+    "bbox": {
+     "x": 0.443,
+     "y": 0.375,
+     "w": 0.175,
+     "h": 0.0321
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.44,
+     "y": 0.4518,
+     "w": 0.477,
+     "h": 0.0232
+    },
+    "shape": "squiggle",
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.5036,
+     "w": 0.31,
+     "h": 0.0161
+    },
+    "shape": "text",
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Tickets",
+    "bbox": {
+     "x": 0.439,
+     "y": 0.55,
+     "w": 0.222,
+     "h": 0.0929
+    },
+    "shape": "rect",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.627,
+     "y": 0.5929,
+     "w": 0.021,
+     "h": 0.0232
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Book now",
+    "bbox": {
+     "x": 0.435,
+     "y": 0.6696,
+     "w": 0.209,
+     "h": 0.1179
+    },
+    "shape": "rect",
+    "confidence": 0.932,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "link",
+    "label": "View venue map",
+    "bbox": {
+     "x": 0.441,
+     "y": 0.8196,
+     "w": 0.164,
+     "h": 0.0375
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "divider",
+    "label": "",
+    "bbox": {
+     "x": 0.449,
+     "y": 0.8518,
+     "w": 0.16,
+     "h": 0.0143
+    },
+    "shape": "line",
+    "confidence": 0.85,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 560,
+  "mode": "hybrid",
+  "title": "Event Booking Page",
+  "category": "booking",
+  "timings": {
+   "cv_ms": 36,
+   "vision_ms": 5242,
+   "total_ms": 5288
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 22
+ }
+}

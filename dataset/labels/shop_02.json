@@ -1,0 +1,221 @@
+{
+  "id": "shop_02",
+  "category": "ecommerce",
+  "title": "Running shoes",
+  "synthetic": true,
+  "generator": "make_sketches.py v1",
+  "seed_source": "sha256('shop_02')",
+  "render": {
+    "font": "PatrickHand-Regular.ttf",
+    "tool": "pencil",
+    "layout": "desktop"
+  },
+  "width": 1000,
+  "height": 560,
+  "instruction": "A product detail page: a big product photo on the left; on the right the title Running Shoes, the price $89, a description, a Size dropdown (7 to 10), a Quantity field and Add to cart and Buy now buttons. Add to cart shows Added to cart and Buy now goes to a Checkout page.",
+  "components": [
+    {
+      "type": "image",
+      "label": "",
+      "bbox": {
+        "x": 0.0492,
+        "y": 0.1071,
+        "w": 0.4196,
+        "h": 0.7143
+      },
+      "parent": null,
+      "props": {
+        "alt": "shoe",
+        "shape": "rect"
+      }
+    },
+    {
+      "type": "heading",
+      "label": "Running Shoes",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.1071,
+        "w": 0.2317,
+        "h": 0.0986
+      },
+      "parent": null,
+      "props": {
+        "level": 1
+      }
+    },
+    {
+      "type": "heading",
+      "label": "$89",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.2343,
+        "w": 0.051,
+        "h": 0.0832
+      },
+      "parent": null,
+      "props": {
+        "level": 2
+      }
+    },
+    {
+      "type": "text",
+      "label": "",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.346,
+        "w": 0.4196,
+        "h": 0.1286
+      },
+      "parent": null,
+      "props": {
+        "scribble_lines": 3
+      }
+    },
+    {
+      "type": "select",
+      "label": "Size",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.5032,
+        "w": 0.4196,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "label": "Quantity",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.6282,
+        "w": 0.16,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "inputType": "number"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Add to cart",
+      "bbox": {
+        "x": 0.5188,
+        "y": 0.7532,
+        "w": 0.2008,
+        "h": 0.0964
+      },
+      "parent": null
+    },
+    {
+      "type": "button",
+      "label": "Buy now",
+      "bbox": {
+        "x": 0.7376,
+        "y": 0.7532,
+        "w": 0.2008,
+        "h": 0.0964
+      },
+      "parent": null,
+      "props": {
+        "variant_hint": "secondary"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "event": "click",
+      "target_label": "Add to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "added"
+      }
+    },
+    {
+      "event": "click",
+      "target_label": "Buy now",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "Running Shoes",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "heading",
+      "label_contains": "$89",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "select",
+      "label_contains": "Size",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "input",
+      "label_contains": "Quantity",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "input_type",
+      "label_contains": "Quantity",
+      "input_type": "number",
+      "source": "instruction implies the input type"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Add to cart",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "node_exists",
+      "type": "button",
+      "label_contains": "Buy now",
+      "source": "instruction names this component"
+    },
+    {
+      "kind": "count_at_least",
+      "type": "image",
+      "n": 1,
+      "source": "instruction mentions an image"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Add to cart",
+      "expect": {
+        "type": "show_message",
+        "text_contains": "added"
+      },
+      "source": "instruction states this behaviour"
+    },
+    {
+      "kind": "interaction",
+      "event": "click",
+      "target_label": "Buy now",
+      "expect": {
+        "type": "navigate",
+        "page": "Checkout"
+      },
+      "source": "instruction states this behaviour"
+    }
+  ]
+}

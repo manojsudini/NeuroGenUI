@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 936.5,
+ "value": {
+  "text": "Can the date field go below the time slots?",
+  "model": "whisper-1",
+  "duration_ms": 936
+ }
+}

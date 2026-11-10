@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 875.0,
+ "value": {
+  "text": "When Need Help? is clicked, show the message Contact Your Administrator.",
+  "model": "whisper-1",
+  "duration_ms": 874
+ }
+}

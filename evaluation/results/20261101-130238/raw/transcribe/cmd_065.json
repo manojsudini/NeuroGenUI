@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 774.4,
+ "value": {
+  "text": "Check that the email is valid when Create Account is clicked.",
+  "model": "whisper-1",
+  "duration_ms": 774
+ }
+}

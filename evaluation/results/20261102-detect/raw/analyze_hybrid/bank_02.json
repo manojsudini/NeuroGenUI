@@ -1,0 +1,269 @@
+{
+ "_ok": true,
+ "_wall_ms": 23801.1,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.0724,
+     "w": 0.886,
+     "h": 0.1042
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.865,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "nav_item",
+    "label": "Logout",
+    "bbox": {
+     "x": 0.857,
+     "y": 0.0766,
+     "w": 0.0616,
+     "h": 0.0344
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "NorthBank",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.1013,
+     "w": 0.159,
+     "h": 0.0463
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Accounts",
+    "bbox": {
+     "x": 0.489,
+     "y": 0.1013,
+     "w": 0.108,
+     "h": 0.042
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Transfers",
+    "bbox": {
+     "x": 0.617,
+     "y": 0.0999,
+     "w": 0.119,
+     "h": 0.0434
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Cards",
+    "bbox": {
+     "x": 0.762,
+     "y": 0.1027,
+     "w": 0.068,
+     "h": 0.0391
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Loqout",
+    "bbox": {
+     "x": 0.857,
+     "y": 0.1056,
+     "w": 0.076,
+     "h": 0.0391
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Transfer money",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.2069,
+     "w": 0.306,
+     "h": 0.0767
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "From account",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.235,
+     "w": 0.848,
+     "h": 0.065
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Recipient account number",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.301,
+     "w": 0.847,
+     "h": 0.067
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Fromaccount",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.3531,
+     "w": 0.842,
+     "h": 0.0753
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.892,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Recipientaccountnumber",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.4414,
+     "w": 0.842,
+     "h": 0.0825
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.901,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Amount",
+    "bbox": {
+     "x": 0.091,
+     "y": 0.5499,
+     "w": 0.841,
+     "h": 0.081
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.881,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Reference",
+    "bbox": {
+     "x": 0.088,
+     "y": 0.6353,
+     "w": 0.844,
+     "h": 0.0941
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.867,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "checkbox",
+    "label": "Saverecipient",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.754,
+     "w": 0.186,
+     "h": 0.0463
+    },
+    "shape": "circle",
+    "ocr": false,
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Send",
+    "bbox": {
+     "x": 0.094,
+     "y": 0.8249,
+     "w": 0.147,
+     "h": 0.0753
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Cancel",
+    "bbox": {
+     "x": 0.275,
+     "y": 0.8191,
+     "w": 0.151,
+     "h": 0.0781
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.915,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 691,
+  "mode": "hybrid",
+  "title": "Bank Transfer Form",
+  "category": "banking",
+  "timings": {
+   "cv_ms": 14549,
+   "vision_ms": 8064,
+   "total_ms": 23800
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 24
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "_ok": true,
+ "_wall_ms": 7198.2,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.02,
+     "w": 0.96,
+     "h": 0.08
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "NorthBank",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.03,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.98,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Accounts",
+    "bbox": {
+     "x": 0.7,
+     "y": 0.04,
+     "w": 0.1,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Cards",
+    "bbox": {
+     "x": 0.81,
+     "y": 0.04,
+     "w": 0.08,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "link",
+    "label": "Help",
+    "bbox": {
+     "x": 0.9,
+     "y": 0.04,
+     "w": 0.06,
+     "h": 0.04
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "My cards",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.12,
+     "w": 0.3,
+     "h": 0.06
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.19,
+     "w": 0.44,
+     "h": 0.22
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.5,
+     "y": 0.19,
+     "w": 0.48,
+     "h": 0.22
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "Visa 4821",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.21,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "Mastercard 7710",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.21,
+     "w": 0.4,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Balance $3200",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.26,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "text",
+    "label": "Balance $940",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.26,
+     "w": 0.3,
+     "h": 0.05
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "button",
+    "label": "Freeze card",
+    "bbox": {
+     "x": 0.05,
+     "y": 0.31,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 6
+   },
+   {
+    "type": "button",
+    "label": "View statement",
+    "bbox": {
+     "x": 0.52,
+     "y": 0.31,
+     "w": 0.3,
+     "h": 0.07
+    },
+    "confidence": 0.95,
+    "source": "vision",
+    "parent": 7
+   },
+   {
+    "type": "text",
+    "label": "Spending",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.43,
+     "w": 0.2,
+     "h": 0.05
+    },
+    "confidence": 0.9,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.03,
+     "y": 0.48,
+     "w": 0.95,
+     "h": 0.3
+    },
+    "confidence": 0.85,
+    "source": "vision",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 712,
+  "mode": "vision",
+  "title": "My cards",
+  "category": "banking",
+  "timings": {
+   "cv_ms": 0,
+   "vision_ms": 7189,
+   "total_ms": 7198
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 0
+ }
+}

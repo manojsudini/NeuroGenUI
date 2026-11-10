@@ -1,0 +1,257 @@
+{
+ "_ok": true,
+ "_wall_ms": 70.8,
+ "value": {
+  "components": [
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.07,
+     "y": 0.1199,
+     "w": 0.173,
+     "h": 0.0483
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.606,
+     "y": 0.1947,
+     "w": 0.351,
+     "h": 0.4984
+    },
+    "confidence": 0.95,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.071,
+     "y": 0.2336,
+     "w": 0.094,
+     "h": 0.0405
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.636,
+     "y": 0.2601,
+     "w": 0.192,
+     "h": 0.1573
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 1
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.065,
+     "y": 0.2866,
+     "w": 0.509,
+     "h": 0.1012
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.083,
+     "y": 0.3224,
+     "w": 0.087,
+     "h": 0.0202
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.066,
+     "y": 0.3863,
+     "w": 0.507,
+     "h": 0.109
+    },
+    "confidence": 0.774,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.634,
+     "y": 0.4517,
+     "w": 0.295,
+     "h": 0.0187
+    },
+    "confidence": 0.8,
+    "source": "cv",
+    "shape": "squiggle",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.4829,
+     "w": 0.243,
+     "h": 0.1153
+    },
+    "confidence": 0.876,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.327,
+     "y": 0.5031,
+     "w": 0.246,
+     "h": 0.0935
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.636,
+     "y": 0.4969,
+     "w": 0.099,
+     "h": 0.0312
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "",
+    "bbox": {
+     "x": 0.628,
+     "y": 0.5545,
+     "w": 0.302,
+     "h": 0.0966
+    },
+    "confidence": 0.898,
+    "source": "cv",
+    "shape": "rect",
+    "parent": 1
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.072,
+     "y": 0.6262,
+     "w": 0.102,
+     "h": 0.0405
+    },
+    "confidence": 0.55,
+    "source": "cv",
+    "shape": "rect",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.067,
+     "y": 0.6931,
+     "w": 0.027,
+     "h": 0.0405
+    },
+    "confidence": 0.905,
+    "source": "cv",
+    "shape": "circle",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.103,
+     "y": 0.6978,
+     "w": 0.048,
+     "h": 0.0265
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.069,
+     "y": 0.7664,
+     "w": 0.097,
+     "h": 0.0405
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.068,
+     "y": 0.8364,
+     "w": 0.201,
+     "h": 0.0405
+    },
+    "confidence": 0.6,
+    "source": "cv",
+    "shape": "text",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 642,
+  "mode": "cv",
+  "title": "",
+  "category": "",
+  "timings": {
+   "cv_ms": 62,
+   "vision_ms": 0,
+   "total_ms": 70
+  },
+  "n_cv_candidates": 24
+ }
+}

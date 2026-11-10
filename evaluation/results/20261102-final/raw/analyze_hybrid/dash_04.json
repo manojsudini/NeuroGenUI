@@ -1,0 +1,285 @@
+{
+ "_ok": true,
+ "_wall_ms": 6999.6,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.02,
+     "y": 0.03,
+     "w": 0.96,
+     "h": 0.08
+    },
+    "confidence": 0.7,
+    "source": "vision",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.059,
+     "y": 0.0814,
+     "w": 0.696,
+     "h": 0.1308
+    },
+    "shape": "rect",
+    "confidence": 0.873,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "card",
+    "label": "",
+    "bbox": {
+     "x": 0.744,
+     "y": 0.0974,
+     "w": 0.185,
+     "h": 0.0887
+    },
+    "shape": "rect",
+    "confidence": 0.887,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Insight",
+    "bbox": {
+     "x": 0.087,
+     "y": 0.125,
+     "w": 0.115,
+     "h": 0.0538
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Dashboard",
+    "bbox": {
+     "x": 0.394,
+     "y": 0.1206,
+     "w": 0.118,
+     "h": 0.0378
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "Projects",
+    "bbox": {
+     "x": 0.545,
+     "y": 0.1235,
+     "w": 0.083,
+     "h": 0.0392
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "text",
+    "label": "New",
+    "bbox": {
+     "x": 0.773,
+     "y": 0.1221,
+     "w": 0.048,
+     "h": 0.0349
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "project",
+    "bbox": {
+     "x": 0.83,
+     "y": 0.1294,
+     "w": 0.073,
+     "h": 0.0378
+    },
+    "shape": "rect",
+    "confidence": 0.725,
+    "source": "hybrid",
+    "parent": 2
+   },
+   {
+    "type": "text",
+    "label": "Team",
+    "bbox": {
+     "x": 0.661,
+     "y": 0.1395,
+     "w": 0.062,
+     "h": 0.0407
+    },
+    "shape": "rect",
+    "confidence": 0.81,
+    "source": "hybrid",
+    "parent": 1
+   },
+   {
+    "type": "button",
+    "label": "Export",
+    "bbox": {
+     "x": 0.061,
+     "y": 0.2224,
+     "w": 0.242,
+     "h": 0.0959
+    },
+    "shape": "rect",
+    "confidence": 0.908,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Export",
+    "bbox": {
+     "x": 0.51,
+     "y": 0.2238,
+     "w": 0.163,
+     "h": 0.0959
+    },
+    "shape": "text",
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "icon",
+    "label": "",
+    "bbox": {
+     "x": 0.27,
+     "y": 0.2645,
+     "w": 0.02,
+     "h": 0.0174
+    },
+    "shape": "text",
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.06,
+     "y": 0.3328,
+     "w": 0.895,
+     "h": 0.3765
+    },
+    "shape": "rect",
+    "confidence": 0.907,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "",
+    "bbox": {
+     "x": 0.095,
+     "y": 0.4651,
+     "w": 0.83,
+     "h": 0.1424
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 12
+   },
+   {
+    "type": "container",
+    "label": "",
+    "bbox": {
+     "x": 0.057,
+     "y": 0.7151,
+     "w": 0.44,
+     "h": 0.2369
+    },
+    "shape": "rect",
+    "confidence": 0.909,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Tasks done",
+    "bbox": {
+     "x": 0.093,
+     "y": 0.7733,
+     "w": 0.131,
+     "h": 0.0378
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": 14
+   },
+   {
+    "type": "heading",
+    "label": "Open issues",
+    "bbox": {
+     "x": 0.543,
+     "y": 0.7733,
+     "w": 0.137,
+     "h": 0.0451
+    },
+    "shape": "text",
+    "confidence": 0.75,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.084,
+     "y": 0.8474,
+     "w": 0.371,
+     "h": 0.0552
+    },
+    "shape": "squiggle",
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": 14
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.539,
+     "y": 0.8488,
+     "w": 0.38,
+     "h": 0.0538
+    },
+    "shape": "text",
+    "confidence": 0.8,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 688,
+  "mode": "hybrid",
+  "title": "Insight Dashboard",
+  "category": "dashboard",
+  "timings": {
+   "cv_ms": 61,
+   "vision_ms": 6925,
+   "total_ms": 6999
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 24
+ }
+}

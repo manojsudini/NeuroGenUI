@@ -1,0 +1,26 @@
+{
+ "_ok": true,
+ "_wall_ms": 1916.7,
+ "value": {
+  "ops": [
+   {
+    "op": "move",
+    "target": {
+     "ref": "subject field",
+     "id": "inp_subject"
+    },
+    "position": {
+     "relation": "above",
+     "anchor": {
+      "ref": "name field",
+      "id": "inp_name"
+     }
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 1915,
+  "raw": "{\"ops\":[{\"op\":\"move\",\"target\":{\"ref\":\"subject field\",\"id\":\"inp_subject\"},\"component\":null,\"components\":null,\"position\":{\"relation\":\"above\",\"anchor\":{\"ref\":\"name field\",\"id\":\"inp_name\"}},\"changes\":null,\"scale\":null,\"event\":null,\"page\":null,\"meta\":null,\"confidence\":0.95}]}"
+ }
+}

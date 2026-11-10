@@ -1,0 +1,9 @@
+{
+ "_ok": true,
+ "_wall_ms": 1538.1,
+ "value": {
+  "text": "Make the sign-in button go to a login page.",
+  "model": "whisper-1",
+  "duration_ms": 1538
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "_ok": true,
+ "_wall_ms": 7985.9,
+ "value": {
+  "components": [
+   {
+    "type": "navbar",
+    "label": "",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.0864,
+     "w": 0.871,
+     "h": 0.1232
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.77,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "Acme",
+    "bbox": {
+     "x": 0.106,
+     "y": 0.1218,
+     "w": 0.092,
+     "h": 0.0708
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Services",
+    "bbox": {
+     "x": 0.727,
+     "y": 0.1232,
+     "w": 0.099,
+     "h": 0.0524
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Home",
+    "bbox": {
+     "x": 0.639,
+     "y": 0.1261,
+     "w": 0.065,
+     "h": 0.0453
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "nav_item",
+    "label": "Contact",
+    "bbox": {
+     "x": 0.845,
+     "y": 0.1303,
+     "w": 0.093,
+     "h": 0.0425
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": 0
+   },
+   {
+    "type": "heading",
+    "label": "Get in touch",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.2535,
+     "w": 0.229,
+     "h": 0.0694
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.79,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "",
+    "bbox": {
+     "x": 0.089,
+     "y": 0.2635,
+     "w": 0.231,
+     "h": 0.0708
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Name",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.3569,
+     "w": 0.464,
+     "h": 0.0737
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "image",
+    "label": "",
+    "bbox": {
+     "x": 0.6,
+     "y": 0.3626,
+     "w": 0.356,
+     "h": 0.2918
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.933,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Email",
+    "bbox": {
+     "x": 0.092,
+     "y": 0.4618,
+     "w": 0.461,
+     "h": 0.0722
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.91,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "input",
+    "label": "Subject",
+    "bbox": {
+     "x": 0.09,
+     "y": 0.5524,
+     "w": 0.46,
+     "h": 0.0737
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.895,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "textarea",
+    "label": "Message",
+    "bbox": {
+     "x": 0.098,
+     "y": 0.6615,
+     "w": 0.093,
+     "h": 0.051
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.785,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "123Main St,Springfield",
+    "bbox": {
+     "x": 0.598,
+     "y": 0.6756,
+     "w": 0.271,
+     "h": 0.0524
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "+15550100",
+    "bbox": {
+     "x": 0.597,
+     "y": 0.7436,
+     "w": 0.15,
+     "h": 0.0439
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "heading",
+    "label": "hello@acme.com",
+    "bbox": {
+     "x": 0.596,
+     "y": 0.8045,
+     "w": 0.173,
+     "h": 0.0496
+    },
+    "shape": "text",
+    "ocr": true,
+    "confidence": 0.775,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "text",
+    "label": "",
+    "bbox": {
+     "x": 0.529,
+     "y": 0.8076,
+     "w": 0.0195,
+     "h": 0.0322
+    },
+    "shape": "text",
+    "ocr": false,
+    "confidence": 0.7,
+    "source": "hybrid",
+    "parent": null
+   },
+   {
+    "type": "button",
+    "label": "Submit",
+    "bbox": {
+     "x": 0.086,
+     "y": 0.8569,
+     "w": 0.173,
+     "h": 0.0892
+    },
+    "shape": "rect",
+    "ocr": false,
+    "confidence": 0.76,
+    "source": "hybrid",
+    "parent": null
+   }
+  ],
+  "width": 1000,
+  "height": 706,
+  "mode": "hybrid",
+  "title": "Contact Us Form with Navbar",
+  "category": "contact",
+  "timings": {
+   "cv_ms": 2141,
+   "vision_ms": 5802,
+   "total_ms": 7985
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "n_cv_candidates": 22
+ }
+}

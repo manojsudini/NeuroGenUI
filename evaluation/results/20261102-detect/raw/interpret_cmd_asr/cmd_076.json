@@ -1,0 +1,31 @@
+{
+ "_ok": true,
+ "_wall_ms": 2177.5,
+ "value": {
+  "ops": [
+   {
+    "op": "navigation",
+    "target": {
+     "ref": "Place order",
+     "id": "btn_place_order"
+    },
+    "event": {
+     "on": "click",
+     "actions": [
+      {
+       "type": "navigate",
+       "page": "Order confirmed"
+      }
+     ]
+    },
+    "page": {
+     "name": "Order confirmed"
+    },
+    "confidence": 0.95
+   }
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "latency_ms": 2176,
+  "raw": "{\"ops\":[{\"op\":\"navigation\",\"target\":{\"ref\":\"Place order\",\"id\":\"btn_place_order\"},\"component\":null,\"components\":null,\"position\":null,\"changes\":null,\"scale\":null,\"event\":{\"on\":\"click\",\"actions\":[{\"type\":\"navigate\",\"targets\":null,\"target\":null,\"format\":null,\"message\":null,\"text\":null,\"tone\":null,\"page\":\"Order confirmed\"}]},\"page\":{\"name\":\"Order confirmed\"},\"meta\":null,\"confidence\":0.95}]}"
+ }
+}
